@@ -1,0 +1,72 @@
+include "../../Bluecurve/gtk-2.0/gtkrc"
+
+style "bluecurve-color-default"
+{
+	bg[NORMAL] = "#d5d5d5"
+	bg[ACTIVE] = "#bbbbbb"
+	bg[PRELIGHT] = "#eeeeee"
+	bg[SELECTED] = "#333333"
+	bg[INSENSITIVE] = "#cccccc"
+
+	base[NORMAL] = "#ffffff"
+	base[ACTIVE] = "#000000"
+	base[PRELIGHT] = "#cccccc"
+	base[SELECTED] = "#333333"
+	base[INSENSITIVE] = "#eeeeee"
+	
+	text[NORMAL] = "#000000"
+	text[ACTIVE] = "#ffffff"
+	text[PRELIGHT] = "#000000"
+	text[SELECTED] = "#ffffff"
+	text[INSENSITIVE] = "#777777"
+ 
+	fg[NORMAL] = "#000000"
+	fg[ACTIVE] = "#000000"
+	fg[PRELIGHT] = "#000000"
+	fg[SELECTED] = "#ffffff"
+	fg[INSENSITIVE] = "#999999"
+}
+
+style "bluecurve-color-menu" = "bluecurve-color-default"
+{
+  fg[PRELIGHT] = "#ffffff"
+  text[PRELIGHT] = "#ffffff"
+}
+
+style "bluecurve-color-frame-title" = "bluecurve-color-default"
+{
+	#fg[NORMAL] = "#404040"
+}
+
+style "metacity-frame"
+{
+  # Normal base color
+  #bg[NORMAL]  = "#bbbbbb"
+
+  # Unfocused title background color
+  #bg[INSENSITIVE]  = { 0.8, 0.8, 0.8 }
+
+  # Unfocused title text color
+  #fg[INSENSITIVE]  = { 1.55, 1.55, 1.55 }
+
+  # Focused icon color
+  #fg[NORMAL]  = { 0.2, 0.2, 0.2 }
+
+  # Focused title background color
+  #bg[SELECTED]  = { 0.5, 0.8, 0.5 }
+
+  # Focused title text color
+  #fg[SELECTED]  = "black"
+}
+
+class "GtkWidget" style "bluecurve-color-default"
+class "GtkButton" style "bluecurve-color-default"
+class "GtkRange" style "bluecurve-color-default"
+class "GtkMenu" style "bluecurve-color-default"
+class "GtkFrame" style "bluecurve-color-default"
+class "GtkStatusbar" style "bluecurve-color-default"
+class "GtkEntry" style "bluecurve-color-default"
+class "GtkMenuItem" style "bluecurve-color-menu"
+widget_class "*.<GtkMenuItem>.*" style "bluecurve-color-menu"
+class "MetaFrames" style "metacity-frame"
+widget_class "BasePWidget.GtkEventBox.GtkTable.GtkFrame" style "bluecurve-default"
