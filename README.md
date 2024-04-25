@@ -1,5 +1,5 @@
 # Bluecurve GTK 3
-Red Hat Bluecurve theme ported over to GTK 3
+Red Hat Bluecurve theme ported over to GTK 3. Designed for the MATE desktop environment.
 
 ![screenshot](screenshot.png)
 ## Includes
