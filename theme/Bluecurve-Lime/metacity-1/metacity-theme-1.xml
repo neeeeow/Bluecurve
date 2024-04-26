@@ -88,21 +88,21 @@
 		</gradient>
 		<!-- L,R,T,B -->
 		<line color="blend/gtk:light[NORMAL]/gtk:light[SELECTED]/0.05" x1="1" y1="3" x2="1" y2="height-4"/>
-		<line color="blend/gtk:bg[NORMAL]/#689063/0.15" x1="width-2" y1="3" x2="width-2" y2="height-4"/>
+		<line color="blend/gtk:bg[NORMAL]/#698f64/0.15" x1="width-2" y1="3" x2="width-2" y2="height-4"/>
 		<line color="blend/gtk:light[NORMAL]/gtk:light[SELECTED]/0.05" x1="2" y1="2" x2="width-3" y2="2"/>
-		<line color="blend/gtk:bg[NORMAL]/#689063/0.15" x1="2" y1="height-3" x2="width-3" y2="height-3"/>
+		<line color="blend/gtk:bg[NORMAL]/#698f64/0.15" x1="2" y1="height-3" x2="width-3" y2="height-3"/>
 
 		<!-- Borders -->
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="0" y1="3" x2="0" y2="height-4"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="width-1" y1="3" x2="width-1" y2="height-4"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="2" y1="1" x2="width-3" y2="1"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="2" y1="height-2" x2="width-3" y2="height-2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="0" y1="3" x2="0" y2="height-4"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="width-1" y1="3" x2="width-1" y2="height-4"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="2" y1="1" x2="width-3" y2="1"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="2" y1="height-2" x2="width-3" y2="height-2"/>
 
 		<!-- Corners -->
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="1" y1="2" x2="1" y2="2"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="1" y1="height-3" x2="1" y2="height-3"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="width-2" y1="height-3" x2="width-2" y2="height-3"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.3" x1="width-2" y1="2" x2="width-2" y2="2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="1" y1="2" x2="1" y2="2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="1" y1="height-3" x2="1" y2="height-3"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="width-2" y1="height-3" x2="width-2" y2="height-3"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.3" x1="width-2" y1="2" x2="width-2" y2="2"/>
 	</draw_ops>
 
 	<draw_ops name="button_generic_bg_before_unfocused">
@@ -261,16 +261,16 @@
 		<tint color="shade/gtk:light[NORMAL]/1.0" alpha="0.5" x="1" y="2" width="width-2" height="height-4"/>
 		
 		<!-- Borders -->
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="0" y1="3" x2="0" y2="height-4"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="width-1" y1="3" x2="width-1" y2="height-4"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="2" y1="1" x2="width-3" y2="1"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="2" y1="height-2" x2="width-3" y2="height-2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="0" y1="3" x2="0" y2="height-4"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="width-1" y1="3" x2="width-1" y2="height-4"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="2" y1="1" x2="width-3" y2="1"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="2" y1="height-2" x2="width-3" y2="height-2"/>
 
 		<!-- Corners -->
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="1" y1="2" x2="1" y2="2"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="1" y1="height-3" x2="1" y2="height-3"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="width-2" y1="height-3" x2="width-2" y2="height-3"/>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.7" x1="width-2" y1="2" x2="width-2" y2="2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="1" y1="2" x2="1" y2="2"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="1" y1="height-3" x2="1" y2="height-3"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="width-2" y1="height-3" x2="width-2" y2="height-3"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.7" x1="width-2" y1="2" x2="width-2" y2="2"/>
 	</draw_ops>
 
 	<draw_ops name="minimize_icon">
@@ -523,13 +523,13 @@
 	</draw_ops>
 	<draw_ops name="outer_bevel_focus">
 		<gradient type="vertical" x="1" y="1" width="width-1" height="top_height-1">
-			<color value="blend/#689063/gtk:bg[NORMAL]/0.75"/>
-			<color value="blend/#689063/gtk:bg[NORMAL]/0.75"/>
-			<color value="blend/#689063/gtk:bg[NORMAL]/0.75"/>
-			<color value="blend/#689063/gtk:bg[NORMAL]/0.75"/>
+			<color value="blend/#698f64/gtk:bg[NORMAL]/0.75"/>
+			<color value="blend/#698f64/gtk:bg[NORMAL]/0.75"/>
+			<color value="blend/#698f64/gtk:bg[NORMAL]/0.75"/>
+			<color value="blend/#698f64/gtk:bg[NORMAL]/0.75"/>
 			<color value="blend/gtk:light[SELECTED]/gtk:light[NORMAL]/0.75"/>
 		</gradient>
-		<line color="blend/gtk:dark[NORMAL]/#689063/0.5" x1="1" y1="top_height-1" x2="width-2" y2="top_height-1"/>
+		<line color="blend/gtk:dark[NORMAL]/#698f64/0.5" x1="1" y1="top_height-1" x2="width-2" y2="top_height-1"/>
 		<rectangle color="#000000" x="0" y="0" width="width-1" height="height-1"/>
 		<!-- black edging -->
 		<!--
@@ -582,8 +582,8 @@
 	<draw_ops name="corners_focused">
 		<!-- corners -->
 		<!--
-		<image filename="bottom_left.png" colorize="shade/#689063/1.0" x="0" y="height-object_height" width="object_width" height="object_height"/> 
-		<image filename="bottom_right.png" colorize="shade/#689063/1.0" x="width-object_width" y="height-object_height" width="object_width" height="object_height"/>
+		<image filename="bottom_left.png" colorize="shade/#698f64/1.0" x="0" y="height-object_height" width="object_width" height="object_height"/> 
+		<image filename="bottom_right.png" colorize="shade/#698f64/1.0" x="width-object_width" y="height-object_height" width="object_width" height="object_height"/>
 		-->
 	</draw_ops>
 
@@ -624,11 +624,11 @@
 	<draw_ops name="title_gradient">
 		<!-- base vertical gradient -->
 		<gradient type="vertical" x="0" y="0" width="width" height="height-1">
-			<color value="blend/gtk:light[NORMAL]/#689063/0.8"/>
-			<color value="blend/gtk:light[NORMAL]/#689063/0.95"/>
-			<color value="blend/gtk:light[NORMAL]/#689063/1.0"/>
-			<color value="blend/gtk:light[NORMAL]/#689063/0.95"/>
-			<color value="blend/gtk:light[NORMAL]/#689063/0.8"/>
+			<color value="blend/gtk:light[NORMAL]/#698f64/0.8"/>
+			<color value="blend/gtk:light[NORMAL]/#698f64/0.95"/>
+			<color value="blend/gtk:light[NORMAL]/#698f64/1.0"/>
+			<color value="blend/gtk:light[NORMAL]/#698f64/0.95"/>
+			<color value="blend/gtk:light[NORMAL]/#698f64/0.8"/>
 		</gradient>
 		<!-- stripes -->
 		<image filename="white_stripes_tile.png" fill_type="tile" 
@@ -637,7 +637,7 @@
 		<!-- Image Blocker -->
 		<image filename="title-blocker-bottom.png"
 			fill_type="tile"
-			colorize="blend/gtk:light[NORMAL]/#689063/0.9"
+			colorize="blend/gtk:light[NORMAL]/#698f64/0.9"
 			alpha="1.0"
 			x="0"
 			y="height - object_height"
@@ -645,7 +645,7 @@
 			height="object_height"/>
 		<image filename="title-blocker-left.png"
 			fill_type="tile"
-			colorize="blend/gtk:light[NORMAL]/#689063/0.9"
+			colorize="blend/gtk:light[NORMAL]/#698f64/0.9"
 			alpha="1.0"
 			x="1"
 			y="0"
@@ -653,7 +653,7 @@
 			height="height"/>
 		<image filename="title-blocker-right.png"
 			fill_type="tile"
-			colorize="blend/gtk:light[NORMAL]/#689063/0.9"
+			colorize="blend/gtk:light[NORMAL]/#698f64/0.9"
 			alpha="1.0"
 			x="width - object_width"
 			y="0"
@@ -661,29 +661,29 @@
 			height="height"/>
 		<!-- top title shine -->
 		<gradient type="vertical" x="0" y="0" width="width" height="1" alpha="0.2">
-			<color value="shade/#689063/2.0"/>
-			<color value="shade/#689063/1.7"/>
+			<color value="shade/#698f64/2.0"/>
+			<color value="shade/#698f64/1.7"/>
 		</gradient>
 		<gradient type="vertical" x="0" y="0" width="width" height="1" alpha="0.4">
-			<color value="shade/#689063/2.0"/>
-			<color value="shade/#689063/1.4"/>
+			<color value="shade/#698f64/2.0"/>
+			<color value="shade/#698f64/1.4"/>
 		</gradient>
 		<!-- Image Shine -->
 		<image filename="title-gradient-bottom.png"
 			fill_type="tile"
-			colorize="shade/#689063/2.0"
+			colorize="shade/#698f64/2.0"
 			alpha="0.2"
 			x="0"
 			y="height - object_height"
 			width="width"
 			height="object_height"/>
 		<!-- bottom seperator line -->
-		<line color="shade/#689063/0.1" x1="0" y1="height-1" x2="width" y2="height-1"/>
+		<line color="shade/#698f64/0.1" x1="0" y1="height-1" x2="width" y2="height-1"/>
 	</draw_ops>
 
 	<draw_ops name="title_text_focused_no_icon">
 		<clip x="0" y="0" width="width-(RightTitleTextPad)" height="height"/>
-		<title color="blend/gtk:fg[NORMAL]/#689063/0.5"
+		<title color="blend/gtk:fg[NORMAL]/#698f64/0.5"
 			x="(((width - title_width) / 2) `max` 0)+1 + LeftTitleTextPad"
 			y="(((height - title_height) / 2) `max` 0)+1"/>
 		<title color="gtk:fg[SELECTED]"
@@ -710,8 +710,8 @@
 	<draw_ops name="title_focused">
 		<include name="title_gradient"/>
 		<include name="title_text_focused_no_icon"/>
-		<line color="blend/#689063/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
-		<line color="blend/#689063/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
+		<line color="blend/#698f64/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
+		<line color="blend/#698f64/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
 	</draw_ops>
 
 	<draw_ops name="title_utility">
@@ -722,8 +722,8 @@
 	<draw_ops name="title_utility_focused">
 		<include name="title_gradient"/>
 		<include name="title_text_focused_no_icon"/>
-		<line color="blend/#689063/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
-		<line color="blend/#689063/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
+		<line color="blend/#698f64/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
+		<line color="blend/#698f64/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
 	</draw_ops>
 
 	<draw_ops name="shaded_outline">

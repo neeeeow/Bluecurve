@@ -493,8 +493,8 @@
 
 	<draw_ops name="corners_focused">
 		<!-- corners -->
-		<image filename="bottom_left.png" colorize="shade/#E07500/1.0" x="0" y="height-object_height" width="object_width" height="object_height"/> 
-		<image filename="bottom_right.png" colorize="shade/#E07500/1.0" x="width-object_width" y="height-object_height" width="object_width" height="object_height"/>
+		<image filename="bottom_left.png" colorize="shade/#df7501/1.0" x="0" y="height-object_height" width="object_width" height="object_height"/> 
+		<image filename="bottom_right.png" colorize="shade/#df7501/1.0" x="width-object_width" y="height-object_height" width="object_width" height="object_height"/>
 	</draw_ops>
 
 
@@ -534,8 +534,8 @@
 	<draw_ops name="title_gradient">
 		<!-- base vertical gradient -->
 		<gradient type="vertical" x="0" y="0" width="width" height="height-1">
-			<color value="shade/#E07500/1.0"/>
-			<color value="shade/#E07500/1.0"/>
+			<color value="shade/#df7501/1.0"/>
+			<color value="shade/#df7501/1.0"/>
 		</gradient>
 		<!-- stripes -->
 		<image filename="white_stripes_tile.png" fill_type="tile" 
@@ -544,7 +544,7 @@
 		<!-- Image Blocker -->
 		<image filename="title-blocker-bottom.png"
 			fill_type="tile"
-			colorize="#E07500"
+			colorize="#df7501"
 			alpha="1.0"
 			x="0"
 			y="height - object_height"
@@ -552,7 +552,7 @@
 			height="object_height"/>
 		<image filename="title-blocker-right.png"
 			fill_type="tile"
-			colorize="#E07500"
+			colorize="#df7501"
 			alpha="1.0"
 			x="width - object_width"
 			y="0"
@@ -560,29 +560,29 @@
 			height="height"/>
 		<!-- top title shine -->
 		<gradient type="diagonal" x="0" y="0" width="width" height="1" alpha="0.2">
-			<color value="shade/#E07500/2.0"/>
-			<color value="shade/#E07500/1.7"/>
+			<color value="shade/#df7501/2.0"/>
+			<color value="shade/#df7501/1.7"/>
 		</gradient>
 		<gradient type="vertical" x="0" y="0" width="width" height="1" alpha="0.4">
-			<color value="shade/#E07500/2.0"/>
-			<color value="shade/#E07500/1.4"/>
+			<color value="shade/#df7501/2.0"/>
+			<color value="shade/#df7501/1.4"/>
 		</gradient>
 		<!-- Image Shine -->
 		<image filename="title-gradient-bottom.png"
 			fill_type="tile"
-			colorize="shade/#E07500/2.0"
+			colorize="shade/#df7501/2.0"
 			alpha="0.8"
 			x="0"
 			y="height - object_height"
 			width="width"
 			height="object_height"/>
 		<!-- bottom seperator line -->
-		<line color="shade/#E07500/0.1" x1="0" y1="height-1" x2="width" y2="height-1"/>
+		<line color="shade/#df7501/0.1" x1="0" y1="height-1" x2="width" y2="height-1"/>
 	</draw_ops>
 
 	<draw_ops name="title_text_focused_no_icon">
 		<clip x="0" y="0" width="width-8" height="height"/>
-		<title color="blend/gtk:fg[NORMAL]/#E07500/0.7"
+		<title color="blend/gtk:fg[NORMAL]/#df7501/0.7"
 			x="LeftTitleTextPad+1"
 			y="(((height - title_height) / 2) `max` 0)+1"/>
 		<title color="gtk:fg[SELECTED]"
@@ -607,8 +607,8 @@
 	<draw_ops name="title_focused">
 		<include name="title_gradient"/>
 		<include name="title_text_focused_no_icon"/>
-		<line color="blend/#E07500/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
-		<line color="blend/#E07500/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
+		<line color="blend/#df7501/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
+		<line color="blend/#df7501/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
 	</draw_ops>
 
 	<draw_ops name="title_utility">
@@ -619,8 +619,8 @@
 	<draw_ops name="title_utility_focused">
 		<include name="title_gradient"/>
 		<include name="title_text_focused_no_icon"/>
-		<line color="blend/#E07500/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
-		<line color="blend/#E07500/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
+		<line color="blend/#df7501/#000000/0.4" x1="0" y1="0" x2="0" y2="height"/>
+		<line color="blend/#df7501/#000000/0.4" x1="width-1" y1="0" x2="width-1" y2="height"/>
 	</draw_ops>
 
 	<draw_ops name="shaded_outline">
