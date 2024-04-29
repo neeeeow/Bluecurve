@@ -870,7 +870,7 @@ calendar:indeterminate {
 /**********************************************/
 
 PanelApplet.wnck-applet .wnck-pager:selected {
-    background-color: @selected_color;
+    background-color: @theme_selected_bg_color;
 }
 
 MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
