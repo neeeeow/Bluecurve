@@ -1,0 +1,460 @@
+/*********************************************************************************
+ * Theme Name: FEDORA-CORE-6-BOOT-SPLASH-PORT                                    *
+ * Version: 2.0                                                                  *
+ * Description: Port of the RHEL 5 boot splash for Plymouth                      *
+ * Author: DUKE93, neeeeow                                                       *
+ * Date: 02.05.2024                                                              *
+ * License: This program is free software: you can redistribute it and/or modify *
+ * it under the terms of the GNU General Public License as published by          *
+ * the Free Software Foundation, either version 3 of the License, or             *
+ * (at your option) any later version.                                           *
+ *                                                                               *
+ * This program is distributed in the hope that it will be useful,               *
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of                *
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the                 *
+ * GNU General Public License for more details.                                  *
+ *                                                                               *
+ * You should have received a copy of the GNU General Public License             *
+ * along with this program.  If not, see <http://www.gnu.org/licenses/>.         *
+ *********************************************************************************/
+
+yOffset = -85; // Use it for offsetting our prograss bar area, etc
+
+############################### BACKGROUND #############################################################################
+screen_width = Window.GetWidth();
+screen_height = Window.GetHeight();
+screen_x = Window.GetX();
+screen_y = Window.GetY();
+background_image = Image("BACKGROUND.PNG");
+ratio = screen_height / screen_width;
+background_ratio = background_image.GetHeight() / background_image.GetWidth();
+factor = 0;
+
+if (ratio > background_ratio) {
+
+	factor = screen_height / background_image.GetHeight();
+
+}
+else {
+	
+	factor = screen_width / background_image.GetWidth();
+	
+}
+scaled = background_image.Scale(background_image.GetWidth() * factor, background_image.GetHeight() * factor);
+background_sprite = Sprite(scaled);
+background_sprite.SetX(screen_x + screen_width / 2 - scaled.GetWidth() / 2);
+background_sprite.SetY(screen_y + screen_height / 2 - scaled.GetHeight() / 2);
+
+   
+########################################################################################################################
+################################## LOGO ################################################################################
+Window.SetBackgroundTopColor(0, 0, 0);
+Window.SetBackgroundBottomColor(0, 0, 0);
+
+logo.image = Image("SYSTEM-LOGO.PNG");
+logo.sprite = Sprite(logo.image);
+logo.sprite.SetX (Window.GetWidth()  / 1 - logo.image.GetWidth()  / 0.884);
+logo.sprite.SetY (Window.GetHeight() / 1 - logo.image.GetHeight() / 0.65);
+logo.opacity_angle = 0;
+########################################################################################################################
+################################## BACKDROP ############################################################################
+backdrop = Image("MAIN-LOGO.PNG");
+boot = Sprite(backdrop);
+boot.SetOpacity(1);
+boot_x = Window.GetWidth() / 2  -  backdrop.GetWidth() / 2; 
+boot_y = Window.GetHeight() / 2  -  backdrop.GetHeight() / 1.325;
+boot.SetPosition(boot_x, boot_y, 1);
+########################################################################################################################
+################################## STRIP ###############################################################################
+strip = Image("STRIP.PNG");
+strip.x = boot_x + 0;
+strip.y = boot_y + 447 + yOffset;
+strip_sprite = Sprite(strip);
+strip_sprite.SetPosition(strip.x, strip.y, 7);
+########################################################################################################################
+################################# PROGRESS BAR #########################################################################
+progress_bar.original_image = Image("PROGRESS_BAR.PNG");
+progress_bar.sprite = Sprite();
+
+progress_bar.x = boot_x - 14;
+progress_bar.y = boot_y + 447 + yOffset;
+progress_bar.sprite.SetPosition(progress_bar.x, progress_bar.y, 6);
+
+fun progress_callback (duration, progress)
+  {
+    if (progress_bar.image.GetWidth () != Math.Int (348 * progress))
+      {
+        progress_bar.image = progress_bar.original_image.Crop(0, 0, 348 * progress, progress_bar.original_image.GetHeight());
+        progress_bar.sprite.SetImage (progress_bar.image);
+      }
+    strip.x = boot_x - 16 + 348 * progress;
+    strip_sprite.SetPosition(strip.x, strip.y, 7);
+  }
+
+progress_box.image = Image("PROGRESS_BOX.PNG");
+progress_box.sprite = Sprite(progress_box.image);
+
+progress_box.x = boot_x - 40;
+progress_box.y = boot_y + 421 + yOffset;
+progress_box.sprite.SetPosition(progress_box.x, progress_box.y, 5);
+
+Plymouth.SetBootProgressFunction(progress_callback);
+########################################################################################################################
+#################################### SPINNER ###########################################################################
+SpriteImage = fun(asset) {
+    local.sprite = Sprite();
+    sprite.image = Image(asset);
+    sprite.width = sprite.image.GetWidth();
+    sprite.height = sprite.image.GetHeight();
+    sprite.SetImage(sprite.image);
+    return sprite | global.SpriteImage;
+} | Sprite;
+
+SpriteImage.SetSpriteImage = fun(image) {
+    this.image = image;
+    this.width = image.GetWidth();
+    this.height = image.GetHeight();
+    this.SetImage(this.image);
+};
+assets.spinner_base  = "";
+Spinner = fun() {
+    // FIXME: try to use this=
+    spinner = global.Spinner | [];
+    spinner.count = 120;
+    spinner.current_idx = 0;
+    spinner.last_time = 0;
+    spinner.steps = 10.0; // We render degrees in increments of 10 to save disk.
+    spinner.duration = 3.0; // Seconds per rotation.
+    for (i = 0; i <= spinner.count; ++i) {
+        if (i % spinner.steps != 0) {
+            continue;
+        }
+        spinner[i] = SpriteImage(assets.spinner_base + "THROBBER-ANIM-" + i + ".PNG");
+        //center_offset = (logo.width / 2) - (spinner[i].width / 2);
+        spinner[i].x = boot_x + 311;
+        //spinner[i].x = backdrop.GetWidth() / 2 - spinner[i].width / 2;
+        spinner[i].y = boot_y + 478 + yOffset;
+        //top_offset = logo.height + spinner[i].height;
+        spinner[i].SetPosition(spinner[i].x, spinner[i].y, 9);
+        spinner[i].SetOpacity(0);
+    }
+    return spinner;
+} | [];
+
+Spinner.Animate = fun(time) {
+    degrees = Math.Int(((2 * Math.Pi / duration) * time) * (180 / Math.Pi));
+    new = degrees % count;
+    old = current_idx;
+    if (Math.Int(new) < Math.Int((old + steps) % count)) {
+        // Every $steps degrees we can render a frame, all others we skip.
+        return;
+    }
+    // We set a second new which is now a correct index bump by coercing it
+    // into a multiple of 10.
+    new = Math.Int(new / steps) * steps;
+    // Debug("going from " + old + " to " + new);
+    // dps = time - last_time;
+    // DebugMedium("dps " + dps*35);
+    // last_time = time;
+    this[old].SetOpacity(0);
+    this[new].SetOpacity(1);
+    current_idx = new;
+    return this;
+};
+
+Spinner.GetY = fun() {
+    return this[0].GetY();
+};
+
+Spinner.GetHeight = fun() {
+    return this[0].height;
+};
+
+global.spin = Spinner();
+
+fun boot_progress_cb(time, progress) 
+{
+    spin.Animate(time);
+    logo.SetOpacity_(time * 2.0);
+    progress_callback (duration, progress);
+}
+Plymouth.SetBootProgressFunction (boot_progress_cb);
+########################################################################################################################
+################################## PROGRESS FADE #######################################################################
+status = "normal";
+screen_width = Window.GetWidth(0);
+screen_height = Window.GetHeight(0);
+
+logotype_image = Image("");
+progress_meter_image = Image("");
+progress_fade_image = Image("PROGRESS_FADE.PNG");
+fsck_progress_meter_image = Image("");
+fsck_progress_fade_image = Image("");
+
+progress_meter_sprite = Sprite(progress_meter_image);
+progress_fade_sprite = Sprite(progress_fade_image);
+
+counter = 0;
+
+fade_dir = 0; // 0 = right, 1 = left
+
+progress_meter.x = boot_x + backdrop.GetWidth()/2 - progress_meter_image.GetWidth()/2;
+progress_meter.y = boot_y + 448 + yOffset;
+progress_meter_sprite.SetPosition(progress_meter.x, progress_meter.y, 6);
+
+fun refreshHandler() {
+
+    //mode = Plymouth.GetMode ();
+
+    if (status == "normal" && Plymouth.GetMode() == "boot")
+      {
+        progress_fade_sprite.SetOpacity (0); 
+        progress_bar.sprite.SetOpacity (1);
+        strip_sprite.SetOpacity (1);
+      }
+
+    else 
+      {
+        progress_fade_sprite.SetOpacity (1);
+        progress_bar.sprite.SetOpacity (0);
+        strip_sprite.SetOpacity (0);
+      }
+
+progress_fade.x = boot_x - 15;
+progress_fade.y = boot_y + 447 + yOffset;
+progress_fade_sprite.SetPosition(counter + progress_fade.x, progress_fade.y, 6);
+	if (fade_dir == 0) {
+		
+		counter++;
+		
+		if (counter >= 294) {
+			
+			fade_dir = 1;
+		
+		}
+		
+	}
+	else {
+		
+		counter--;
+		
+		if (counter <= 0) {
+			
+			fade_dir = 0;
+		
+		}
+    }
+
+	if ((fsck_running == 1) && (fsck_done_fading == 0)) {
+		
+		
+		fsck_progress_meter_sprite.SetOpacity(fsck_fade_in_counter);
+		fsck_progress_fade_sprite.SetOpacity(fsck_fade_in_counter);
+		
+		if (fsck_fade_in_counter < 1) {
+		
+			fsck_fade_in_counter+= 0.025;
+		
+		}
+		else {
+			
+			fsck_done_fading = 1;
+			
+		}
+		
+	}
+
+	update ();
+}
+
+Plymouth.SetRefreshFunction (refreshHandler);
+########################################################################################################################
+############################### DIALOGUE ###############################################################################
+status = "normal";
+
+fun dialog_setup()
+  {
+    local.box;
+    local.lock;
+    local.entry;
+    local.text;
+    
+    box.image = Image("BOX.PNG");
+    lock.image = Image("LOCK.PNG");
+    entry.image = Image("ENTRY.PNG");
+
+    passwordfont = "DejaVu Sans Book 12";
+    password_text = "Password:";
+    
+    box.sprite = Sprite(box.image);
+
+    box.x = 1;
+    box.y = Window.GetHeight() / 1 - box.image.GetHeight() / 1; // 1.032
+    box.z = 100;
+    box.sprite.SetPosition(box.x, box.y, box.z);
+    
+    lock.sprite = Sprite(lock.image);
+    lock.x = box.x + 30;
+    lock.y = box.y + 28;
+    lock.z = box.z + 1;
+    lock.sprite.SetPosition(lock.x, lock.y, lock.z);
+    
+    entry.sprite = Sprite(entry.image);
+    entry.x = box.x + 160;
+    entry.y = box.y + 32;
+    entry.z = box.z + 1;
+    entry.sprite.SetPosition(entry.x, entry.y, entry.z);
+    
+    text_pass.image = Image.Text (password_text,1.0,1.0,1.0,1, passwordfont);
+    text_pass.sprite = Sprite(text_pass.image);
+
+    text_pass.x = box.x + 80;     
+    text_pass.y = box.y + 36;
+    text_pass.z = box.z + 1;
+    text_pass.sprite.SetPosition(text_pass.x, text_pass.y, text_pass.z);
+
+    prompt_sprite = SpriteNew();
+    prompt_sprite.SetPosition(prompt_sprite.x, prompt_sprite.y, prompt_sprite.z);
+    prompt_sprite.SetPosition(box.x + 30, box.y - 21, box.z);
+
+    global.dialog.box = box;
+    global.dialog.lock = lock;
+    global.dialog.entry = entry;
+    global.dialog.text = text_pass;
+    global.dialog.bullet_image = Image("BULLET.PNG");
+    global.dialog.prompt_sprite = prompt_sprite;
+    dialog_opacity (1);
+  }
+    
+fun dialog_opacity(opacity)
+  {
+    dialog.box.sprite.SetOpacity (opacity);
+    dialog.lock.sprite.SetOpacity (opacity);
+    dialog.entry.sprite.SetOpacity (opacity);
+    dialog.text.sprite.SetOpacity (opacity);
+    dialog.prompt_sprite.SetOpacity(opacity);
+    for (index = 0; dialog.bullet[index]; index++)
+      {
+        dialog.bullet[index].sprite.SetOpacity(opacity);
+      }
+  }
+
+fun display_normal_callback ()
+  {
+    global.status = "normal";
+    if (global.dialog)
+      dialog_opacity (0);
+  }
+
+fun display_password_callback (prompt, bullets)
+  {
+    global.status = "password";
+    if (!global.dialog)
+	dialog_setup();
+    else
+	dialog_opacity(1);
+    dialog.prompt_sprite.SetImage(Image.Text(prompt, 0.8,0.8,0.8,1, passwordfont));
+    for (index = 0; dialog.bullet[index] || index < bullets; index++)
+      {
+        if (!dialog.bullet[index])
+          {
+            dialog.bullet[index].sprite = Sprite(dialog.bullet_image);
+            dialog.bullet[index].x = dialog.entry.x + index * dialog.bullet_image.GetWidth() / 0.8 - dialog.entry.image.GetHeight() * -0.2; // отступ точки от точки и от поля (modified)
+            dialog.bullet[index].y = dialog.entry.y + dialog.entry.image.GetHeight() / 2 - dialog.bullet_image.GetHeight() / 2.5;
+            dialog.bullet[index].z = dialog.entry.z + 1;
+            dialog.bullet[index].sprite.SetPosition(dialog.bullet[index].x, dialog.bullet[index].y, dialog.bullet[index].z);
+          }
+        if (index < bullets)
+          dialog.bullet[index].sprite.SetOpacity(1);
+        else
+          dialog.bullet[index].sprite.SetOpacity(0);
+      }
+  }
+
+fun display_message_callback (prompt)
+  {
+  
+prompt = Image.Text(prompt,0.0,0.0,0.0,1);
+sprite_prompt.SetImage(prompt);
+sprite_prompt.SetPosition(Window.GetX() + (Window.GetWidth() - prompt.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.10, 2);
+  }
+
+Plymouth.SetDisplayNormalFunction(display_normal_callback);
+Plymouth.SetDisplayPasswordFunction(display_password_callback);
+Plymouth.SetMessageFunction(display_message_callback);
+
+########################################################################################################################
+##################################### LOG ##############################################################################
+font = "DejaVu Sans Book 8";
+font_mssg = "DejaVu Sans Book 11";
+NUM_SCROLL_LINES=1; 
+LINE_WIDTH=50; // Maximum length of message
+
+message_sprite=SpriteNew();
+
+fun message_callback (prompt) {
+ message = Image.Text(prompt,0.8,0.8,0.8,1,font_mssg);
+ message_sprite.SetImage(message);
+
+ message_sprite.SetPosition(Window.GetX() + (Window.GetWidth() - message.GetWidth()) / 2, Window.GetY() + Window.GetHeight() * 0.95, 9);
+ message_sprite.SetOpacity(1);
+}
+
+Plymouth.SetMessageFunction(message_callback);
+
+// Initialising text images and their positions
+// 20 is the height (including line spacing) of each line
+for (i=0; i < NUM_SCROLL_LINES; i++) {
+  lines[i]= Image.Text("",0.0,0.0,0.0,1,font);
+  message_sprite[i] = SpriteNew();
+
+  message_sprite[i].x = boot_x - 14;
+  message_sprite[i].y = boot_y + 484 + yOffset;
+  message_sprite[i].SetPosition(message_sprite[i].x, message_sprite[i].y, 9);
+}
+
+fun StringLength(string) {
+
+  index = 0;
+  str = String(string);
+  while(str.CharAt(index)) index++;
+  return index;
+}
+
+
+
+fun scroll_message_callback(text) {
+
+//  Truncate the message if too long
+   if (StringLength(text) > LINE_WIDTH) {
+     text = text.SubString(0, LINE_WIDTH - 2);
+     text += "...";
+   }
+
+//  Shift message one up
+   for (i = 0; i < NUM_SCROLL_LINES - 1; i++) {
+     lines[i] = lines[i+1];
+   }
+
+//  Create the image for the latest message
+   //lines[i] = Image.Text(text,0.8,0.8,0.8,1, font);
+    lines[i] = Image.Text(text, 255, 255, 255);
+
+//  Re-positioning the text images
+   for (i = 0; i < NUM_SCROLL_LINES; i++) {
+     message_sprite[i].SetImage(lines[i]);
+   }
+}
+
+Plymouth.SetUpdateStatusFunction(scroll_message_callback);
+########################################################################################################################
+############################### QUIT ###################################################################################
+fun quit_callback ()
+{
+  progress_fade_sprite.SetOpacity (1);
+  progress_bar.sprite.SetOpacity (0);
+}
+
+Plymouth.SetQuitFunction(quit_callback);  
+########################################################################################################################
+########################################################################################################################

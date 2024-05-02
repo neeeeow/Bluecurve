@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=rhgb-rhel4
+Description=Port of the RHEL 4 boot splash for Plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/rhgb-rhel4
+ScriptFile=/usr/share/plymouth/themes/rhgb-rhel4/rhgb-rhel4.script

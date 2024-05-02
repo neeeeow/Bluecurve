@@ -1,0 +1,8 @@
+[Plymouth Theme]
+Name=rhgb-fc1
+Description=Port of the original Fedora Core 1 boot splash for Plymouth
+ModuleName=script
+
+[script]
+ImageDir=/usr/share/plymouth/themes/rhgb-fc1
+ScriptFile=/usr/share/plymouth/themes/rhgb-fc1/rhgb-fc1.script
