@@ -30,9 +30,9 @@ Copy the contents of the `icons` folder to `/usr/share/icons`
 sudo cp -r icons/* /usr/share/icons
 ```
 ### 3. Install theme
-Copy the contents of the `theme` folder to `/usr/share/themes`
+Copy the contents of the `themes` folder to `/usr/share/themes`
 ```bash
-sudo cp -r theme/* /usr/share/themes
+sudo cp -r themes/* /usr/share/themes
 ```
 ### (Optional) 4. Install Luxi fonts
 > [!WARNING]
