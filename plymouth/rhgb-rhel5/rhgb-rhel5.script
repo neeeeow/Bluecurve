@@ -283,7 +283,7 @@ fun dialog_setup()
     lock.image = Image("LOCK.PNG");
     entry.image = Image("ENTRY.PNG");
 
-    passwordfont = "DejaVu Sans Book 12";
+    passwordfont = "Sans 12";
     password_text = "Password:";
     
     box.sprite = Sprite(box.image);
@@ -385,8 +385,8 @@ Plymouth.SetMessageFunction(display_message_callback);
 
 ########################################################################################################################
 ##################################### LOG ##############################################################################
-font = "DejaVu Sans Book 8";
-font_mssg = "DejaVu Sans Book 11";
+font = "Sans 8";
+font_mssg = "Sans 11";
 NUM_SCROLL_LINES=1; 
 LINE_WIDTH=50; // Maximum length of message
 

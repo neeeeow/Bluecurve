@@ -50,8 +50,8 @@ Window.SetBackgroundBottomColor(0, 0, 0);
 
 logo.image = Image("FEDORA-LOGO.PNG");
 logo.sprite = Sprite(logo.image);
-logo.sprite.SetX (Window.GetWidth()  / 1 - logo.image.GetWidth()  / 0.90);
-logo.sprite.SetY (Window.GetHeight() / 1 - logo.image.GetHeight() / 0.75);
+logo.sprite.SetX (Window.GetWidth()  / 1 - logo.image.GetWidth()  / 0.87);
+logo.sprite.SetY (Window.GetHeight() / 1 - logo.image.GetHeight() / 0.73);
 logo.opacity_angle = 0;
 ########################################################################################################################
 ################################## BACKDROP ############################################################################
@@ -280,7 +280,7 @@ fun dialog_setup()
     lock.image = Image("LOCK.PNG");
     entry.image = Image("ENTRY.PNG");
 
-    passwordfont = "DejaVu Sans Book 11";
+    passwordfont = "Luxi Sans 11";
     password_text = "Password:";
     
     box.sprite = Sprite(box.image);
@@ -383,8 +383,8 @@ Plymouth.SetMessageFunction(display_message_callback);
 
 ########################################################################################################################
 ##################################### LOG ##############################################################################
-font = "DejaVu Sans Book 8";
-font_mssg = "DejaVu Sans 11";
+font = "Luxi Sans 8";
+font_mssg = "Luxi Sans 11";
 NUM_SCROLL_LINES=1;
 LINE_WIDTH=50; // Maximum length of message
 

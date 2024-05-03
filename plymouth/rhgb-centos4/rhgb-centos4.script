@@ -1,9 +1,9 @@
 /*********************************************************************************
  * Theme Name: FEDORA-CORE-1-BOOT-SPLASH-PORT                                    *
  * Version: 2.0                                                                  *
- * Description: Port of the RHEL 4 boot splash for Plymouth                      *
+ * Description: Port of the CentOS 4 boot splash for Plymouth                    *
  * Authors: DUKE93, neeeeow                                                      *
- * Date: 02.05.2024                                                              *
+ * Date: 03.05.2024                                                              *
  * License: This program is free software: you can redistribute it and/or modify *
  * it under the terms of the GNU General Public License as published by          *
  * the Free Software Foundation, either version 3 of the License, or             *
@@ -48,7 +48,7 @@ background_sprite.SetY(screen_y + screen_height / 2 - scaled.GetHeight() / 2);
 Window.SetBackgroundTopColor(0, 0, 0);
 Window.SetBackgroundBottomColor(0, 0, 0);
 
-logo.image = Image("RHEL-LOGO.PNG");
+logo.image = Image("CENTOS-LOGO.PNG");
 logo.sprite = Sprite(logo.image);
 logo.sprite.SetX (Window.GetWidth()  / 1 - logo.image.GetWidth()  / 0.90);
 logo.sprite.SetY (Window.GetHeight() / 1 - logo.image.GetHeight() / 0.52);

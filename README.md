@@ -43,12 +43,13 @@ Copy the contents of the `themes` folder to `/usr/share/themes`
 sudo cp -r themes/* /usr/share/themes
 ```
 ### (Optional) 5. Install Plymouth themes
-Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5.
+Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5. Themes `rhgb-fc1`, `rhgb-rhel4` and `rhgb-centos4` require the font "Luxi Sans" to be installed (if not installed see step 6 below).
 
 | Folder name  | Theme |
 | ------------- | ------------- |
 | rhgb-fc1  | Fedora Core 1-3 Plymouth theme |
 | rhgb-rhel4  | RHEL 4 Plymouth theme |
+| rhgb-centos4  | CentOS 4 Plymouth theme |
 | rhgb-rhel5  | RHEL 5 Plymouth theme |
 
 To install the theme first copy the desired theme (or all of them!) to `/usr/share/plymouth/themes`. Using `rhgb-fc1` as an example:
@@ -72,4 +73,9 @@ Next, copy the fonts to the directory.
 sudo cp fonts/*.ttf /usr/local/share/fonts
 ```
 
-
+## Hints
+### Use Red Hat icon in MATE menu bar
+Simply execute the following command:
+```bash
+gsettings set org.mate.panel.menubar icon-name 'redhat-icon-panel-menu'
+```
