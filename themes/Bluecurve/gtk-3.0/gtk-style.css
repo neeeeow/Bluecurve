@@ -26,15 +26,53 @@
 }
 
 /**********************************************/
-/* decoration (for CSDs), tooltip */
+/* decoration (for CSDs) */
 /**********************************************/
 
-decoration, tooltip {
+decoration {
 	border: 1px solid @theme_fg_color;
 }
 
 .csd.popup decoration {
 	border-style: none;
+}
+
+/********************************************/
+/* Tooltips */
+/*******************************************/
+
+tooltip,
+tooltip.background,
+.tooltip,
+.tooltip.background {
+	padding: 4px;
+	border-style: none;
+	background-color: @theme_tooltip_bg_color;
+	color: @theme_tooltip_fg_color;
+	text-shadow: none;
+}
+
+tooltip *,
+.tooltip * {
+	text-shadow: none;
+}
+
+/* needed for override CSD setting */
+tooltip decoration,
+.tooltip decoration,
+tooltip.csd decoration,
+.tooltip.csd decoration,
+tooltip.ssd decoration,
+.tooltip.ssd decoration,
+tooltip.solid-csd decoration,
+.tooltip.solid-csd decoration,
+tooltip.background.csd decoration,
+.tooltip.background.csd decoration,
+tooltip.background.ssd decoration,
+.tooltip.background.ssd decoration,
+tooltip.background.solid-csd decoration,
+.tooltip.background.solid-csd decoration {
+	border-radius: 0px;
 }
 
 /**********************************************/
@@ -82,6 +120,42 @@ decoration, tooltip {
 *:disabled * {
 	color: @insensitive_fg_color;
 	text-shadow: @theme_selected_fg_color 1px 1px;
+}
+
+label:disabled {
+	color: @insensitive_fg_color;
+	text-shadow: @theme_selected_fg_color 1px 1px;
+}
+
+/**********************************************/
+/* Spinner */
+/**********************************************/
+
+@keyframes spin {
+	to { -gtk-icon-transform: rotate(1turn); }
+}
+
+spinner {
+	background: none;
+	background-color: transparent;
+	opacity: 0;
+}
+
+spinner:checked {
+	opacity: 1;
+	animation: spin 1s steps(12, end) infinite;
+}
+
+spinner:active:disabled {
+	opacity: 0.5;
+}
+
+spinner:disabled {
+	opacity: 0.5;
+}
+
+button spinner:checked {
+	color: @theme_fg_color;
 }
 
 /**********************************************/
@@ -140,6 +214,10 @@ button.link label {
 
 button.link:visited label {
 	color: @link_visited_color;
+}
+
+button.flat.link:disabled label {
+	color: @insensitive_fg_color
 }
 
 toolbar .image-button, headerbar .image-button,  .appmenu, .minimize, .maximize, .close {
@@ -613,7 +691,7 @@ row {
 /**********************************************/
 
 separator {
-	margin: 0px;
+	margin: 6px;
 	padding: 0px;
 	border-top: 1px solid @borders;
 	border-left: 1px solid @borders;
@@ -628,6 +706,7 @@ menu separator, popover separator {
 
 paned.vertical separator {
 	border: none;
+	margin: 2px 0px 1px 0px;
 	padding: 0px;
 	background-image: url("../img/separator_horizontal.png");
 	background-position: center center;
@@ -636,6 +715,7 @@ paned.vertical separator {
 
 paned.horizontal separator {
 	border: none;
+	margin: 0px 1px 0px 2px;
 	padding: 0px;
 	background-image: url("../img/separator_vertical.png");
 	background-position: center center;
@@ -865,16 +945,4 @@ calendar:indeterminate {
 	color: @insensitive_fg_color;
 }
 
-/**********************************************/
-/* MATE panel items */
-/**********************************************/
 
-PanelApplet.wnck-applet .wnck-pager:selected {
-    background-color: @theme_selected_bg_color;
-}
-
-MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
-    background-image: url("../img/mate-panel-separator.png");
-    background-repeat: no-repeat;
-    background-position: left;
-}

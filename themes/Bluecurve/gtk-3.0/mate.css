@@ -1,0 +1,159 @@
+/**********************************************/
+/* Stylesheet definition for MATE components */
+/* Created by neeeeow */
+/***********************************************/
+
+/********************************************/
+/*  Set padding in main panels             */
+/******************************************/
+
+/* Set menu bar padding to 0 */
+.mate-panel-menu-bar menubar {
+	padding: 0px;
+	background-image: none;
+	border: none;
+}
+
+PanelToplevel.horizontal.top > grid {
+	border-style: outset;
+	border-width: 0px 0px 1px 0px;
+	border-color: @borders;
+}
+
+PanelToplevel.horizontal.bottom > grid {
+	border-style: outset;
+	border-width: 1px 0px 0px 0px;
+	border-color: @borders;
+}
+
+PanelToplevel.vertical.left > grid {
+	border-style: outset;
+	border-width: 0px 1px 0px 0px;
+	border-color: @borders;
+}
+
+PanelToplevel.vertical.right > grid {
+	border-style: outset;
+	border-width: 0px 0px 0px 1px;
+	border-color: @borders;
+}
+
+/*********************************************/
+/* Panel buttons */
+/*********************************************/
+
+/* Menu bar button - use "button" style from gtk-style.css */
+.mate-panel-menu-bar #PanelApplet button,
+.mate-panel-menu-bar #PanelApplet button.flat,
+.mate-panel-menu-bar #PanelApplet button.toggle,
+.mate-panel-menu-bar #PanelApplet button.flat.toggle {
+	background-color: @theme_bg_color;
+	padding: 0px;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
+}
+
+/* Menu bar button:checked definitions */
+.mate-panel-menu-bar #PanelApplet button:checked,
+.mate-panel-menu-bar #PanelApplet button.flat:checked,
+.mate-panel-menu-bar #PanelApplet button.toggle:checked,
+.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked {
+	background-color: @darker_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+/* Menu bar button:hover:not(:active) definitions */
+.mate-panel-menu-bar #PanelApplet button:hover,
+.mate-panel-menu-bar #PanelApplet button.flat:hover,
+.mate-panel-menu-bar #PanelApplet button.toggle:hover,
+.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover {
+	background-color: @prelight_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+}
+
+/* Inactive menu bar button hover definitions */
+.mate-panel-menu-bar #PanelApplet button:checked:hover,
+.mate-panel-menu-bar #PanelApplet button.flat:checked:hover,
+.mate-panel-menu-bar #PanelApplet button.flat:hover:active,
+.mate-panel-menu-bar #PanelApplet button.toggle:checked:hover,
+.mate-panel-menu-bar #PanelApplet button.toggle:hover:active,
+.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
+.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+/******************************************/
+/* Show desktop button applet             */
+/******************************************/
+
+#PanelApplet > #showdesktop-button image,
+#PanelApplet > #showdesktop-button.toggle image {
+	background-color: @theme_bg_color;
+	padding: 0px 3px 0px 3px;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
+}
+
+#PanelApplet > #showdesktop-button:checked image,
+#PanelApplet > #showdesktop-button.toggle:checked image {
+	background-color: @darker_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+#PanelApplet > #showdesktop-button:hover image,
+#PanelApplet > #showdesktop-button.toggle:hover image {
+	background-color: @prelight_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+}
+
+#PanelApplet > #showdesktop-button:checked:hover image,
+#PanelApplet > #showdesktop-button.toggle:checked:hover image,
+#PanelApplet > #showdesktop-button.toggle:hover:active image {
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+/******************************************/
+/*   Clock applet    */
+/*****************************************/
+
+#PanelApplet > #clock-applet-button.flat.toggle {
+	background-color: transparent;
+	border: 1px solid transparent;
+	box-shadow: none;
+}
+
+#PanelApplet > #clock-applet-button.flat.toggle:hover {
+	background-color: @prelight_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+}
+
+#PanelApplet > #clock-applet-button.flat.toggle:checked {
+	background-color: @darker_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+#PanelApplet > #clock-applet-button.flat.toggle:checked:hover {
+	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+}
+
+
+/* Set workspace switcher accent color */
+PanelApplet.wnck-applet .wnck-pager:selected {
+	background-color: @theme_selected_bg_color;
+}
+
+/* Add image for panel separator */
+MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
+	background-image: url("../img/mate-panel-separator.png");
+	background-repeat: no-repeat;
+	background-position: left;
+	background-size: 12px 25px;
+}
+
+

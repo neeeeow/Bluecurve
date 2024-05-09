@@ -32,6 +32,13 @@
 @define-color menuitem_border_color #763232;
 
 /**********************************************/
+/* Tooltip colors */
+/**********************************************/
+
+@define-color theme_tooltip_bg_color #ffffbf;
+@define-color theme_tooltip_fg_color #000000;
+
+/**********************************************/
 /* color definitions: other colors */
 /**********************************************/
 
@@ -48,5 +55,5 @@
 @define-color link_visited_color #551a8b;
 
 @import url("gtk-style.css");
-
+@import url("mate.css");
 
