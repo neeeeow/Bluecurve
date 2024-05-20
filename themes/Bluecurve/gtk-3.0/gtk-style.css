@@ -46,7 +46,9 @@ tooltip.background,
 .tooltip,
 .tooltip.background {
 	padding: 4px;
-	border-style: none;
+    border-style: solid;
+    border-width: 1px;
+    border-color: @theme_tooltip_border_color;
 	background-color: @theme_tooltip_bg_color;
 	color: @theme_tooltip_fg_color;
 	text-shadow: none;
