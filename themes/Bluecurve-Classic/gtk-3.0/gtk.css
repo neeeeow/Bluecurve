@@ -1,5 +1,5 @@
 /**********************************************/
-/* Bluecurve Grape color scheme */
+/* Default Bluecurve color scheme */
 /***********************************************/
 
 /**********************************************/
@@ -8,14 +8,14 @@
 
 @define-color theme_fg_color #000000;
 @define-color theme_text_color #000000;
-@define-color theme_bg_color #d2d7e5;
+@define-color theme_bg_color #e6e6e6;
 @define-color theme_base_color #ffffff;
-@define-color theme_selected_bg_color #493973;
-@define-color theme_unfocused_selected_bg_color #6b5b95;
+@define-color theme_selected_bg_color #4464ac;
+@define-color theme_unfocused_selected_bg_color #5e7ab7;
 @define-color theme_selected_fg_color #ffffff;
-@define-color insensitive_bg_color #c2c7d5;
+@define-color insensitive_bg_color #eeeeee;
 @define-color insensitive_fg_color #757575;
-@define-color insensitive_base_color #f2f7f5;
+@define-color insensitive_base_color #f0f0f0;
 @define-color borders #a1a1a1;
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
@@ -25,11 +25,11 @@
 /* color definitions: menuitem colors */
 /**********************************************/
 
-@define-color menuitem_top_color #47386b;
-@define-color menuitem_bottom_color #553e8e;
-@define-color menuitem_light_color #714dcb;
-@define-color menuitem_dark_color #4b3979;
-@define-color menuitem_border_color #393050;
+@define-color menuitem_top_color #445E9A;
+@define-color menuitem_bottom_color #5376C4;
+@define-color menuitem_light_color #98b2ed;
+@define-color menuitem_dark_color #4468b8;
+@define-color menuitem_border_color #3b4c71;
 
 /**********************************************/
 /* Tooltip colors */
@@ -44,8 +44,8 @@
 /**********************************************/
 
 @define-color light_border #ffffff;
-@define-color darker_color #b2b7c5;
-@define-color prelight_color #e2e7f5;
+@define-color darker_color #cccccc;
+@define-color prelight_color #f5f5f5;
 @define-color separator_darker_color #CECECE;
 @define-color darker_border_color #5a5a5a;
 @define-color trough_border_color #999999;
@@ -58,5 +58,6 @@
 
 @import url("gtk-style.css");
 @import url("mate.css");
+@import url("classic-tweaks.css");
 
 

@@ -1,0 +1,21 @@
+/*********************************************/
+/* Tweaks for Bluecurve-Classic style        */
+/* These tweaks make Bluecurve appear as it  */
+/* did originally in Red Hat 8/9             */
+/* Created by neeeeow                        */
+/*********************************************/
+
+menu, popover {
+	border: 1px solid @borders;
+	padding: 3px 2px;
+}
+
+menubar > menuitem {
+	padding: 3px 8px;
+}
+
+menuitem {
+	padding: 3px 5px;
+	border: 1px solid transparent;
+}
+

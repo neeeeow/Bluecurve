@@ -7,6 +7,7 @@
 /* mrnhmath: Nov 2017 - Sep 2018 */
 /* Rakksor: Sep 2018 */
 /* neeeeow: Apr 2024 - present */
+/* Licensed under the GNU General Public License (GPL) version 3 */
 /***********************************************/
 
 /**********************************************/
@@ -46,7 +47,9 @@ tooltip.background,
 .tooltip,
 .tooltip.background {
 	padding: 4px;
-	border-style: none;
+	border-style: solid;
+	border-width: 1px;
+	border-color: @theme_tooltip_border_color;
 	background-color: @theme_tooltip_bg_color;
 	color: @theme_tooltip_fg_color;
 	text-shadow: none;
@@ -226,7 +229,7 @@ toolbar .image-button, headerbar .image-button,  .appmenu, .minimize, .maximize,
 }
 
 /**********************************************/
-/* menuabr, menu, popover */
+/* menubar, menu, popover */
 /**********************************************/
 
 menubar {
@@ -307,7 +310,7 @@ scale slider {
 	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
 }
 
-scale slider:active, scale slider:active:focus {
+scale slider:active, scale slider:active:focus, scale slider:hover {
 	background-color: @prelight_color;
 }
 
@@ -333,12 +336,23 @@ scale.vertical slider {
 	margin: 0 -6px;
 }
 
-scale indicator {
-	min-width: 1px;
-	min-height: 5px;
-	background: @theme_fg_color;
+
+scale marks indicator {
+	color: @trough_bg_color
 }
 
+/* this makes marks visible */
+scale.horizontal indicator,
+scale.horizontal.fine-tune indicator {
+	min-height: 7px;
+	min-width: 1px;
+}
+
+scale.vertical indicator,
+scale.vertical.fine-tune indicator {
+	min-height: 1px;
+	min-width: 7px;
+}
 /**********************************************/
 /* progressbar, levelbar */
 /**********************************************/
@@ -372,15 +386,29 @@ levelbar.discrete block {
 
 progressbar.vertical progress, levelbar.vertical block.filled {
 	background-image: linear-gradient(to right, @menuitem_top_color, @menuitem_light_color);
-	border: 1px solid @menuitem_border_color;
 	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
 }
 
 progressbar.horizontal progress, levelbar.horizontal block.filled {
 	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_light_color);
-	border: 1px solid @menuitem_border_color;
 	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
 }
+
+treeview.view.progressbar,
+treeview.view.progressbar:hover {
+	background-color: @theme_selected_bg_color;
+}
+
+treeview.view.trough,
+treeview.view.trough:hover,
+treeview.view.trough:selected {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @borders;
+	color: @theme_fg_color;
+	padding: 0px;
+}
+
 
 /**********************************************/
 /* scrollbar */
@@ -642,8 +670,36 @@ notebook scrolledwindow.frame {
 
 frame {
 	border: 1px solid @trough_bg_color;
-	box-shadow: inset 1px 1px @prelight_color, 1px 1px @prelight_color;
 	margin-top: 0.5em;
+}
+
+/* Override the Firefox 49 frame styling where is absolutely shouldn't be applied */
+/* maybe we should add more here */
+box > frame, /* mate-tweak */
+statusbar > frame, /* caja, etc. */
+statusbar > widget > frame, /* pluma */
+GvcMixerDialog frame { /* Mate Mixer dialog */
+	border-style: none;
+}
+
+frame.border-inset {
+	border: 1px solid @borders;
+	box-shadow: inset -1px -1px 0 0 @light_border;
+}
+
+frame.border-outset {
+	border: 1px solid @borders;
+	box-shadow: inset 1px 1px 0 0 @light_border;
+}
+
+frame.border-groove {
+	border: 1px solid @trough_bg_color;
+	box-shadow: inset 1px 1px @prelight_color, 1px 1px @prelight_color;
+}
+
+frame.border-ridge {
+	border: 1px solid @prelight_color;
+	box-shadow: inset 1px 1px @trough_bg_color, 1px 1px @trough_bg_color;
 }
 
 frame > label {
@@ -706,7 +762,7 @@ menu separator, popover separator {
 
 paned.vertical separator {
 	border: none;
-	margin: 2px 0px 1px 0px;
+	margin: 1px 0px 0px 0px;
 	padding: 0px;
 	background-image: url("../img/separator_horizontal.png");
 	background-position: center center;
@@ -715,11 +771,16 @@ paned.vertical separator {
 
 paned.horizontal separator {
 	border: none;
-	margin: 0px 1px 0px 2px;
+	margin: 0px 0px 0px 1px;
 	padding: 0px;
 	background-image: url("../img/separator_vertical.png");
 	background-position: center center;
 	background-repeat: no-repeat;
+}
+
+paned.vertical separator:hover,
+paned.horizontal separator:hover {
+	background-color: @prelight_color;
 }
 
 list separator.horizontal {
@@ -873,7 +934,9 @@ combobox arrow {
 	background-position: right center;
 	background-image: url("../img/combobox-arrow-down.png");
 	border-left: 1px solid @borders;
+	margin-right: 1px;
 }
+
 
 combobox arrow:disabled {
 	background-image: url("../img/combobox-arrow-down-disabled.png");
@@ -918,6 +981,33 @@ popover modelbutton arrow.left {
 
 popover modelbutton:hover > arrow.left {
 	-gtk-icon-source: url("../img/arrow-left-hover.png");
+}
+
+/********************************************/
+/* expander */
+/*******************************************/
+
+expander {
+	border-style: none;
+	color: @theme_fg_color;
+	/*background-color: shade(@theme_bg_color, 1.02);*/
+}
+
+expander > .frame {
+	border-style: none;
+}
+
+expander title {
+	padding: 1px;
+}
+
+expander title:hover {
+	background-color: @prelight_color;
+}
+
+expander textview {
+	padding: 1px;
+	box-shadow: inset 1px 1px 0 0 @borders, inset -1px -1px 0 0 @borders;
 }
 
 expander arrow {
