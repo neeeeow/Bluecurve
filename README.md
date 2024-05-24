@@ -57,7 +57,7 @@ Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen use
 
 To install the theme first copy the desired theme (or all of them!) to `/usr/share/plymouth/themes`. Using `rhgb-fc1` as an example:
 ```bash
-sudo cp -r /plymouth/rhgb-fc1 /usr/share/plymouth/themes
+sudo cp -r plymouth/rhgb-fc1 /usr/share/plymouth/themes
 ```
 Then simply enable the Plymouth theme
 ```bash
