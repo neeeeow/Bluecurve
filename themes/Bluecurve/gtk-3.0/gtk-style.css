@@ -1,14 +1,28 @@
-/**********************************************/
-/* Bluecurve GTK 3 stylesheet */
-/* Originally called Blueshell */
-/* Based on OneStepBack 0.8 */
-/* jpsb: July 2015 - April 2016 */
-/* KlipKyle: May 2016 - Sep 2018 */
-/* mrnhmath: Nov 2017 - Sep 2018 */
-/* Rakksor: Sep 2018 */
-/* neeeeow: Apr 2024 - present */
-/* Licensed under the GNU General Public License (GPL) version 3 */
-/***********************************************/
+/**
+ * Bluecurve GTK 3 theme
+ * Copyright (C) 2024 - present | neeeow
+ * https://github.com/neeeeow/Bluecurve
+ *
+ * Forked from Blueshell:
+ *  Copyright (C) 2015-2016 | jpsb
+ *  Copyright (C) 2016-2018 | KlipKyle
+ *  Copyright (C) 2017-2018 | mrnhmath
+ *  Copyright (C) 2018 | Rakksor
+ *  https://github.com/Rakksor/Blueshell
+ *
+ *  This program is free software: you can redistribute it and/or modify
+ *  it under the terms of the GNU General Public License as published by
+ *  the Free Software Foundation, either version 3 of the License, or
+ *  (at your option) any later version.
+ *
+ *  This program is distributed in the hope that it will be useful,
+ *  but WITHOUT ANY WARRANTY; without even the implied warranty of
+ *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ *  GNU General Public License for more details.
+ *
+ *  You should have received a copy of the GNU General Public License
+ *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
 
 /**********************************************/
 /* global style */
@@ -27,9 +41,11 @@
 }
 
 /**********************************************/
-/* decoration (for CSDs) */
+/* Client Side Decorations */
+/* Modified from TradionalOK theme */
 /**********************************************/
 
+/*
 decoration {
 	border: 1px solid @theme_fg_color;
 }
@@ -37,6 +53,56 @@ decoration {
 .csd.popup decoration {
 	border-style: none;
 }
+*/
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.background decoration  {
+    box-shadow: none;
+}
+
+.background.csd decoration,
+window.unified {
+    border-width: 0px;
+    border-radius: 7px 7px 0 0;
+    border-style: solid;
+    box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
+    margin: 10px;
+}
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+decoration:backdrop {
+/*    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px*/
+    box-shadow: none;
+}
+
+.tiled decoration {
+    border-radius: 0;
+    background-color: @theme_bg_color;
+}
+
+.ssd decoration {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.23);
+}
+
+.solid-csd decoration {
+    border-radius: 0;
+    margin: 4px;
+    background-color: @theme_bg_color;
+    border: solid 1px @wm_border;
+    box-shadow: none;
+}
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.csd.popup decoration {
+    border-radius: 0;
+    box-shadow: none;
+}
+
+messagedialog.csd decoration {
+    border-radius: 7px;
+    box-shadow: 0 1px 5px @wm_shadow;
+}
+
 
 /********************************************/
 /* Tooltips */
@@ -76,6 +142,7 @@ tooltip.background.ssd decoration,
 tooltip.background.solid-csd decoration,
 .tooltip.background.solid-csd decoration {
 	border-radius: 0px;
+	box-shadow: none;
 }
 
 /**********************************************/
@@ -266,8 +333,9 @@ menuitem:hover > *, menuitem:hover > * > *, menuitem:hover > * > * > *, popover 
 /* headerbar, toolbar */
 /**********************************************/
 
-headerbar, toolbar {
-	padding: 3px;
+headerbar,
+.titlebar,
+toolbar {
 	border-top: 1px solid @prelight_color;
 	border-bottom: 1px solid @trough_bg_color;
 	background-color: @theme_bg_color;
@@ -275,6 +343,48 @@ headerbar, toolbar {
 
 toolbar {
 	padding: 0 1px;
+}
+
+headerbar,
+.titlebar {
+	border-radius: 7px 7px 0 0;
+	padding: 3px 4px;
+}
+
+.horizontal.titlebar headerbar:first-child,
+paned.horizontal.titlebar headerbar:first-child {
+	border-top-right-radius: 0px;
+}
+
+.horizontal.titlebar headerbar:last-child,
+paned.horizontal.titlebar headerbar:last-child {
+	border-top-left-radius: 0px;
+}
+
+paned.horizontal.titlebar separator,
+.horizontal.titlebar separator.vertical.tilix-title-separator {
+	background-color: transparent;
+	background-image: none;
+	color: transparent;
+}
+
+.tiled .titlebar {
+    border-radius: 0;
+}
+
+.maximized .titlebar {
+    border-radius: 0;
+}
+
+headerbar .title,
+.titlebar .title {
+    font-weight: bold;
+}
+
+headerbar button.titlebutton,
+.titlebar button.titlebutton {
+    background: none;
+    border-image: none;
 }
 
 /**********************************************/

@@ -40,6 +40,13 @@
 @define-color theme_tooltip_border_color #000000;
 
 /**********************************************/
+/* Border colors */
+/**********************************************/
+
+@define-color wm_shadow alpha(black, 0.5);
+@define-color wm_border black;
+
+/**********************************************/
 /* color definitions: other colors */
 /**********************************************/
 
