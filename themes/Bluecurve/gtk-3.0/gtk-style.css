@@ -1,6 +1,6 @@
 /**
  * Bluecurve GTK 3 theme
- * Copyright (C) 2024 - present | neeeow
+ * Copyright (C) 2024 | neeeow
  * https://github.com/neeeeow/Bluecurve
  *
  * Forked from Blueshell:
@@ -10,18 +10,25 @@
  *  Copyright (C) 2018 | Rakksor
  *  https://github.com/Rakksor/Blueshell
  *
- *  This program is free software: you can redistribute it and/or modify
- *  it under the terms of the GNU General Public License as published by
- *  the Free Software Foundation, either version 3 of the License, or
- *  (at your option) any later version.
+ * Some components of the following themes were used & modified:
+ *  Human GTK 3/4 theme:
+ *   Copyright (C) 2020-2024 | Fabrice Creuzot (luigifab)
+ *   https://github.com/luigifab/human-theme
+ *  TraditionalOK:
+ *   https://github.com/mate-desktop/mate-themes
  *
- *  This program is distributed in the hope that it will be useful,
- *  but WITHOUT ANY WARRANTY; without even the implied warranty of
- *  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- *  GNU General Public License for more details.
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
  *
- *  You should have received a copy of the GNU General Public License
- *  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
 /**********************************************/
@@ -45,62 +52,52 @@
 /* Modified from TradionalOK theme */
 /**********************************************/
 
-/*
-decoration {
-	border: 1px solid @theme_fg_color;
-}
-
-.csd.popup decoration {
-	border-style: none;
-}
-*/
-
 /* workaround to avoid unwanted black frames if switching compositor on/off */
 .background decoration  {
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .background.csd decoration,
 window.unified {
-    border-width: 0px;
-    border-radius: 7px 7px 0 0;
-    border-style: solid;
-    box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
-    margin: 10px;
+	border-width: 0px;
+	border-radius: 7px 7px 0 0;
+	border-style: solid;
+	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
+	margin: 10px;
 }
 
 /* workaround to avoid unwanted black frames if switching compositor on/off */
 decoration:backdrop {
 /*    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px*/
-    box-shadow: none;
+	box-shadow: none;
 }
 
 .tiled decoration {
-    border-radius: 0;
-    background-color: @theme_bg_color;
+	border-radius: 0;
+	background-color: @theme_bg_color;
 }
 
 .ssd decoration {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.23);
+	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.23);
 }
 
 .solid-csd decoration {
-    border-radius: 0;
-    margin: 4px;
-    background-color: @theme_bg_color;
-    border: solid 1px @wm_border;
-    box-shadow: none;
+	border-radius: 0;
+	margin: 4px;
+	background-color: @theme_bg_color;
+	border: solid 1px @wm_border;
+	box-shadow: none;
 }
 
 /* workaround to avoid unwanted black frames if switching compositor on/off */
 .csd.popup decoration {
-    border-radius: 0;
-    box-shadow: none;
+	border-radius: 0;
+	box-shadow: none;
 }
 
 messagedialog.csd decoration {
-    border-radius: 7px;
-    box-shadow: 0 1px 5px @wm_shadow;
+	border-radius: 7px;
+	box-shadow: 0 1px 5px @wm_shadow;
 }
 
 
@@ -391,6 +388,24 @@ headerbar button.titlebutton,
 /* scale */
 /**********************************************/
 
+scale contents {
+	border: 1px dotted transparent;
+}
+
+scale.vertical contents {
+	padding-top: 1px;
+	padding-bottom: 1px;
+}
+
+scale.horizontal contents {
+	padding-left: 1px;
+	padding-right: 1px;
+}
+
+scale:focus contents {
+	border-color: @darker_border_color;
+}
+
 scale trough {
 	margin: 1px;
 	background-color: @trough_bg_color;
@@ -433,7 +448,7 @@ scale.horizontal slider {
 	min-height: 13px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url("../img/scale_thumb_horizontal.png");
+	background-image: url("img/scale_thumb_horizontal.png");
 	margin: -6px 0;
 }
 
@@ -442,7 +457,7 @@ scale.vertical slider {
 	min-height: 29px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url("../img/scale_thumb.png");
+	background-image: url("img/scale_thumb.png");
 	margin: 0 -6px;
 }
 
@@ -504,22 +519,6 @@ progressbar.horizontal progress, levelbar.horizontal block.filled {
 	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
 }
 
-treeview.view.progressbar,
-treeview.view.progressbar:hover {
-	background-color: @theme_selected_bg_color;
-}
-
-treeview.view.trough,
-treeview.view.trough:hover,
-treeview.view.trough:selected {
-	border-style: solid;
-	border-width: 1px;
-	border-color: @borders;
-	color: @theme_fg_color;
-	padding: 0px;
-}
-
-
 /**********************************************/
 /* scrollbar */
 /**********************************************/
@@ -539,11 +538,11 @@ scrollbar slider {
 	padding: 1px;
 	background-repeat: no-repeat;
 	background-position: center center;
-	background-image: url("../img/scrollbar_thumb.png");
+	background-image: url("img/scrollbar_thumb.png");
 }
 
 scrollbar.horizontal slider {
-	background-image: url("../img/scrollbar_thumb_horizontal.png");
+	background-image: url("img/scrollbar_thumb_horizontal.png");
 	min-width: 27px;
 	min-height: 11px;
 }
@@ -559,35 +558,35 @@ scrollbar button {
 }
 
 scrollbar.vertical button.up {
-	-gtk-icon-source: url("../img/arrow-up.png");
+	-gtk-icon-source: url("img/arrow-up.png");
 }
 
 scrollbar.vertical button.down {
-	-gtk-icon-source: url("../img/arrow-down.png");
+	-gtk-icon-source: url("img/arrow-down.png");
 }
 
 scrollbar.horizontal button.up {
-	-gtk-icon-source: url("../img/arrow-left.png");
+	-gtk-icon-source: url("img/arrow-left.png");
 }
 
 scrollbar.horizontal button.down {
-	-gtk-icon-source: url("../img/arrow-right.png");
+	-gtk-icon-source: url("img/arrow-right.png");
 }
 
 scrollbar.vertical button.up:disabled {
-	-gtk-icon-source: url("../img/arrow-up-disabled.png");
+	-gtk-icon-source: url("img/arrow-up-disabled.png");
 }
 
 scrollbar.vertical button.down:disabled {
-	-gtk-icon-source: url("../img/arrow-down-disabled.png");
+	-gtk-icon-source: url("img/arrow-down-disabled.png");
 }
 
 scrollbar.horizontal button.up:disabled {
-	-gtk-icon-source: url("../img/arrow-left-disabled.png");
+	-gtk-icon-source: url("img/arrow-left-disabled.png");
 }
 
 scrollbar.horizontal button.down:disabled {
-	-gtk-icon-source: url("../img/arrow-right-disabled.png");
+	-gtk-icon-source: url("img/arrow-right-disabled.png");
 }
 
 /**********************************************/
@@ -814,7 +813,7 @@ frame.border-ridge {
 
 frame > label {
 	background-color: @theme_bg_color;
-	margin-top: -1em;
+	margin: -0.82em 5px 0 5px;
 	color: @darker_border_color;
 }
 
@@ -824,14 +823,72 @@ frame > label {
 }
 
 /**********************************************/
-/* statusbar */
+/* Status bar */
+/* Taken from Human GTK 3 theme */
 /**********************************************/
 
-statusbar frame {
-	border: none;
-	box-shadow: none;
-	margin-top: 0px;
+statusbar {
+	margin: 0 -10px;
+	border: 0;
+	border-top: 1px solid @trough_bg_color;
+	background: @theme_bg_color;
+}
+
+box + statusbar {
+	margin: -7px -10px -4px; /* WARNING! -7px -10px -5px for Pango 1.44..1.49 else -7px -10px -4px */
+}
+
+grid statusbar {
+	margin: -1px -10px 2px;
+}
+
+statusbar frame,
+statusbar border,
+statusbar box,
+statusbar label {
+	margin: 0;
 	padding: 0;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+statusbar frame {
+	border-top: 1px solid @prelight_color;
+}
+
+statusbar frame + box {
+	border-top: 1px solid @prelight_color;
+}
+
+statusbar frame > box {
+	margin: -4px -2px;
+}
+
+statusbar progressbar.horizontal {
+	font-size: 85%;
+}
+
+statusbar progressbar.horizontal text {
+	padding-top: 4px;
+}
+
+paned + box > statusbar { /* geany, engrampa */
+	margin: -8px -10px -4px;
+}
+
+window.eom-window statusbar {
+	margin-top: 0;
+}
+
+window.eom-window statusbar frame {
+	padding-bottom: 6px;
+}
+
+
+window.eom-window statusbar > label {
+	margin-bottom: 5px;
+	border-top: 1px solid @prelight_color;
 }
 
 /**********************************************/
@@ -874,7 +931,7 @@ paned.vertical separator {
 	border: none;
 	margin: 1px 0px 0px 0px;
 	padding: 0px;
-	background-image: url("../img/separator_horizontal.png");
+	background-image: url("img/separator_horizontal.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -883,7 +940,7 @@ paned.horizontal separator {
 	border: none;
 	margin: 0px 0px 0px 1px;
 	padding: 0px;
-	background-image: url("../img/separator_vertical.png");
+	background-image: url("img/separator_vertical.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 }
@@ -919,8 +976,18 @@ checkbutton:hover, checkbutton:active:focus, radiobutton:hover, radiobutton:acti
 	background-color: @prelight_color;
 }
 
+checkbutton label, radiobutton label {
+	margin: 0 0 0 -1px;
+	padding: 0 1px 0 1px;
+	border: 1px dotted transparent;
+}
+
 checkbutton:active label, radiobutton:active label {
 	color: @theme_text_color;
+}
+
+checkbutton:focus label, radiobutton:focus label {
+	border-color: @darker_border_color;
 }
 
 check, check:hover, check:selected, check:selected:focus {
@@ -945,11 +1012,11 @@ radio, radio:hover, radio:selected, radio:selected:focus {
 }
 
 check:checked {
-	-gtk-icon-source: url("../img/check.png");
+	-gtk-icon-source: url("img/check.png");
 }
 
 radio:checked {
-	-gtk-icon-source: url("../img/radio.png");
+	-gtk-icon-source: url("img/radio.png");
 }
 
 check:active, check:active:focus, radio:active, radio:active:focus {
@@ -967,31 +1034,31 @@ menuitem check, menuitem radio, menuitem check:hover, menuitem radio:hover {
 }
 
 menuitem check:checked {
-	-gtk-icon-source: url("../img/menuitem-check-checked.png");
+	-gtk-icon-source: url("img/menuitem-check-checked.png");
 	min-width: 8px;
 	min-height: 7px;
 }
 
 menuitem check:hover:checked {
-	-gtk-icon-source: url("../img/menuitem-check-checked-hover.png");
+	-gtk-icon-source: url("img/menuitem-check-checked-hover.png");
 }
 
 menuitem check:disabled:checked {
-	-gtk-icon-source: url("../img/menuitem-check-checked-disabled.png");
+	-gtk-icon-source: url("img/menuitem-check-checked-disabled.png");
 }
 
 menuitem radio:checked {
 	min-width: 5px;
 	min-height: 5px;
-	-gtk-icon-source: url("../img/menuitem-radio-checked.png");
+	-gtk-icon-source: url("img/menuitem-radio-checked.png");
 }
 
 menuitem radio:hover:checked {
-	-gtk-icon-source: url("../img/menuitem-radio-checked-hover.png");
+	-gtk-icon-source: url("img/menuitem-radio-checked-hover.png");
 }
 
 menuitem radio:disabled:checked {
-	-gtk-icon-source: url("../img/menuitem-radio-checked-disabled.png");
+	-gtk-icon-source: url("img/menuitem-radio-checked-disabled.png");
 }
 
 /**********************************************/
@@ -1001,15 +1068,20 @@ menuitem radio:disabled:checked {
 switch {
 	background-color: @darker_color;
 	border: 1px solid @borders;
+	min-width: 76px;
+	min-height: 25px;
 }
 
 switch:checked {
-	background-color: @theme_unfocused_selected_bg_color;
+	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
 	color: @theme_selected_fg_color;
-	border: 1px solid @borders;
+	border: 1px solid @menuitem_border_color;
+	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
 }
 
 switch:disabled {
+	background-image: none;
+	box-shadow: none;
 	background-color: @insensitive_bg_color;
 	color: @insensitive_fg_color;
 	border: 1px solid @borders;
@@ -1042,14 +1114,14 @@ combobox arrow {
 	min-width: 15px;
 	background-repeat: no-repeat;
 	background-position: right center;
-	background-image: url("../img/combobox-arrow-down.png");
+	background-image: url("img/combobox-arrow-down.png");
 	border-left: 1px solid @borders;
 	margin-right: 1px;
 }
 
 
 combobox arrow:disabled {
-	background-image: url("../img/combobox-arrow-down-disabled.png");
+	background-image: url("img/combobox-arrow-down-disabled.png");
 }
 
 combobox entry {
@@ -1072,26 +1144,97 @@ combobox entry + button {
 menuitem arrow, popover modelbutton arrow.right {
 	min-height: 9px;
 	min-width: 9px;
-	-gtk-icon-source: url("../img/arrow-right.png");
+	-gtk-icon-source: url("img/arrow-right.png");
 }
 
 menuitem:hover > arrow, popover modelbutton:hover > arrow.right {
-	-gtk-icon-source: url("../img/arrow-right-hover.png");
+	-gtk-icon-source: url("img/arrow-right-hover.png");
 }
 
 menuitem:disabled > arrow {
-	-gtk-icon-source: url("../img/arrow-right-disabled.png");
+	-gtk-icon-source: url("img/arrow-right-disabled.png");
 }
 
 popover modelbutton arrow.left {
 	min-height: 9px;
 	min-width: 9px;
-	-gtk-icon-source: url("../img/arrow-left.png");
+	-gtk-icon-source: url("img/arrow-left.png");
 }
 
 popover modelbutton:hover > arrow.left {
-	-gtk-icon-source: url("../img/arrow-left-hover.png");
+	-gtk-icon-source: url("img/arrow-left-hover.png");
 }
+
+/********************************************/
+/* treeview */
+/* Modified from Human GTK 3 theme */
+/********************************************/
+
+treeview, list {
+	color: @theme_text_color;
+	background-color: @theme_base_color;
+}
+
+treeview {
+	color: @theme_text_color;
+	background-color: @theme_base_color;
+}
+
+treeview:focus button {
+	margin: 0;
+	padding: 0;
+}
+
+treeview.view {
+	padding: 0 1px;
+}
+
+treeview.view check,
+treeview.view radio {
+	background: transparent;
+}
+
+treeview.view.image:disabled {
+	-gtk-icon-effect: dim;
+}
+
+treeview.view.progressbar,
+treeview.view.progressbar:hover {
+	background-color: @theme_selected_bg_color;
+}
+
+treeview.view.trough,
+treeview.view.trough:hover,
+treeview.view.trough:selected {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @borders;
+	color: @theme_fg_color;
+	padding: 0px;
+}
+
+treeview ~ scrollbar.horizontal {
+	border-top: 1px solid @borders;
+	background: @theme_bg_color;
+	margin: -3px -1px -1px -1px;
+	padding: 3px 0px 3px 0px;
+}
+
+treeview ~ scrollbar.horizontal ~ scrollbar.vertical {
+	margin: -30px -1px -30px -3px;
+	padding: 29px 0 29px 3px;
+	border-left: 1px solid @borders;
+	background: @theme_bg_color;
+}
+
+treeview ~ scrollbar.horizontal ~ scrollbar.vertical:dir(rtl) {
+	margin: -30px -3px -30px -1px;
+	padding: 29px 3px 29px 0;
+	border-left: 0;
+	border-right: 1px solid @borders;
+	background: @theme_bg_color;
+}
+
 
 /********************************************/
 /* expander */

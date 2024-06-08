@@ -150,7 +150,7 @@ PanelApplet.wnck-applet .wnck-pager:selected {
 
 /* Add image for panel separator */
 MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
-	background-image: url("../img/mate-panel-separator.png");
+	background-image: url("img/mate-panel-separator.png");
 	background-repeat: no-repeat;
 	background-position: left;
 	background-size: 12px 25px;
