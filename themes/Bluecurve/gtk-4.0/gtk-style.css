@@ -218,6 +218,7 @@ spinner {
 	background: none;
 	background-color: transparent;
 	opacity: 0;
+	-gtk-icon-source: -gtk-icontheme("process-working-symbolic");
 }
 
 spinner:checked {
@@ -345,10 +346,6 @@ menubar > *:selected:focus{
 	border: 1px solid transparent;
 	box-shadow: inset 1px 1px transparent, inset -1px -1px transparent;
 	color: @theme_selected_fg_color;
-}
-
-menubar > modelbutton:selected label {
-	color: @theme_text_color;
 }
 
 item, popover modelbutton {
@@ -649,14 +646,16 @@ scrollbar.horizontal button.down:disabled {
 /* entry */
 /**********************************************/
 
-entry {
+entry,
+spinbutton text {
 	background-color: @theme_base_color;
 	padding: 3px;
 	border: 1px solid @trough_border_color;
 	box-shadow: inset 1px 1px @entry_shadow_color;
 }
 
-entry:disabled {
+entry:disabled,
+spinbutton text:disabled {
 	background-color: @insensitive_base_color;
 	color: @insensitive_fg_color;
 }
