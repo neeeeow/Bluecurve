@@ -22,14 +22,25 @@
 @define-color success_color #73d216;
 
 /**********************************************/
-/* color definitions: menuitem colors */
+/* Menu item colors */
 /**********************************************/
 
-@define-color menuitem_top_color #445E9A;
-@define-color menuitem_bottom_color #5376C4;
-@define-color menuitem_light_color #98b2ed;
-@define-color menuitem_dark_color #4468b8;
-@define-color menuitem_border_color #3b4c71;
+@define-color menuitem_top_color shade(@theme_selected_bg_color, 0.9);
+@define-color menuitem_bottom_color shade(@theme_selected_bg_color, 1.2);
+
+@define-color menuitem_light_color shade(@theme_selected_bg_color, 1.62);
+@define-color menuitem_dark_color shade(@theme_selected_bg_color, 1.05);
+@define-color menuitem_border_color shade(@theme_selected_bg_color, 0.72);
+
+/**********************************************/
+/* Progress bar colors */
+/**********************************************/
+
+@define-color progressbar_top_color shade(@theme_selected_bg_color, 0.92);
+@define-color progressbar_bottom_color shade(@theme_selected_bg_color, 1.66);
+
+@define-color progressbar_light_color shade(@theme_selected_bg_color, 1.62);
+@define-color progressbar_dark_color shade(@theme_selected_bg_color, 1.05);
 
 /**********************************************/
 /* Tooltip colors */

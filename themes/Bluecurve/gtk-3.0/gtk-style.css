@@ -510,13 +510,13 @@ levelbar.discrete block {
 }
 
 progressbar.vertical progress, levelbar.vertical block.filled {
-	background-image: linear-gradient(to right, @menuitem_top_color, @menuitem_light_color);
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	background-image: linear-gradient(to right, @progressbar_top_color, @progressbar_bottom_color);
+	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 }
 
 progressbar.horizontal progress, levelbar.horizontal block.filled {
-	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_light_color);
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	background-image: linear-gradient(to bottom, @progressbar_top_color, @progressbar_bottom_color);
+	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 }
 
 /**********************************************/
@@ -927,7 +927,7 @@ menu separator, popover separator {
 	border-bottom: 1px solid @theme_selected_fg_color;
 }
 
-paned.vertical separator {
+paned.vertical > separator {
 	border: none;
 	margin: 1px 0px 0px 0px;
 	padding: 0px;
@@ -936,7 +936,7 @@ paned.vertical separator {
 	background-repeat: no-repeat;
 }
 
-paned.horizontal separator {
+paned.horizontal > separator {
 	border: none;
 	margin: 0px 0px 0px 1px;
 	padding: 0px;
@@ -945,8 +945,8 @@ paned.horizontal separator {
 	background-repeat: no-repeat;
 }
 
-paned.vertical separator:hover,
-paned.horizontal separator:hover {
+paned.vertical > separator:hover,
+paned.horizontal > separator:hover {
 	background-color: @prelight_color;
 }
 
@@ -1175,16 +1175,6 @@ treeview, list {
 	background-color: @theme_base_color;
 }
 
-treeview {
-	color: @theme_text_color;
-	background-color: @theme_base_color;
-}
-
-treeview:focus button {
-	margin: 0;
-	padding: 0;
-}
-
 treeview.view {
 	padding: 0 1px;
 }
@@ -1243,7 +1233,6 @@ treeview ~ scrollbar.horizontal ~ scrollbar.vertical:dir(rtl) {
 expander {
 	border-style: none;
 	color: @theme_fg_color;
-	/*background-color: shade(@theme_bg_color, 1.02);*/
 }
 
 expander > .frame {

@@ -338,8 +338,6 @@ popover.menu viewport {
 	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
 }
 
-
-
 /* Override global settings for selected items */
 menubar > *:selected,
 menubar > *:selected:focus{
@@ -447,24 +445,6 @@ headerbar button.titlebutton,
 /* scale */
 /**********************************************/
 
-scale contents {
-	border: 1px dotted transparent;
-}
-
-scale.vertical contents {
-	padding-top: 1px;
-	padding-bottom: 1px;
-}
-
-scale.horizontal contents {
-	padding-left: 1px;
-	padding-right: 1px;
-}
-
-scale:focus contents {
-	border-color: @darker_border_color;
-}
-
 scale trough {
 	margin: 1px;
 	background-color: @trough_bg_color;
@@ -476,15 +456,15 @@ scale trough {
 }
 
 scale.horizontal trough {
-	padding-left: 14px;
-	padding-right: 14px;
-	margin: 7px 0;
+	padding-left: 0px;
+	padding-right: 0px;
+	margin: 7px 10px;
 }
 
 scale.vertical trough {
-	padding-top: 14px;
-	padding-bottom: 14px;
-	margin: 0 7px;
+	padding-top: 0px;
+	padding-bottom: 0px;
+	margin: 10px 7px;
 }
 
 scale slider {
@@ -520,9 +500,8 @@ scale.vertical slider {
 	margin: 0 -6px;
 }
 
-
 scale marks indicator {
-	color: @trough_bg_color
+	background-color: @trough_bg_color
 }
 
 /* this makes marks visible */
@@ -537,6 +516,24 @@ scale.vertical.fine-tune indicator {
 	min-height: 1px;
 	min-width: 7px;
 }
+
+/* Add margin for indicators, needed in GTK 4 */
+scale.vertical.marks-before marks.top indicator {
+	margin: 12px 8px 12px -8px;
+}
+
+scale.vertical.marks-after marks.bottom indicator {
+	margin: 12px -8px 12px 8px;
+}
+
+scale.horizontal.marks-before marks.top indicator {
+	margin: 1px 0 1px 1px;
+}
+
+scale.horizontal.marks-after marks.bottom indicator {
+	margin: 1px 0 1px 1px;
+}
+
 /**********************************************/
 /* progressbar, levelbar */
 /**********************************************/
@@ -569,30 +566,14 @@ levelbar.discrete block {
 }
 
 progressbar.vertical progress, levelbar.vertical block.filled {
-	background-image: linear-gradient(to right, @menuitem_top_color, @menuitem_light_color);
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	background-image: linear-gradient(to right, @progressbar_top_color, @progressbar_bottom_color);
+	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 }
 
 progressbar.horizontal progress, levelbar.horizontal block.filled {
-	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_light_color);
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	background-image: linear-gradient(to bottom, @progressbar_top_color, @progressbar_bottom_color);
+	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 }
-
-treeview.view.progressbar,
-treeview.view.progressbar:hover {
-	background-color: @theme_selected_bg_color;
-}
-
-treeview.view.trough,
-treeview.view.trough:hover,
-treeview.view.trough:selected {
-	border-style: solid;
-	border-width: 1px;
-	border-color: @borders;
-	color: @theme_fg_color;
-	padding: 0px;
-}
-
 
 /**********************************************/
 /* scrollbar */
@@ -897,14 +878,46 @@ frame > label {
 }
 
 /**********************************************/
-/* statusbar */
+/* Status bar */
+/* Taken from Human GTK 4 theme */
 /**********************************************/
 
-statusbar frame {
-	border: none;
-	box-shadow: none;
-	margin-top: 0px;
+statusbar {
+	margin: -1px 0 0;
+	border: 0;
+	border-top: 1px solid @trough_bg_color;
+}
+
+statusbar box,
+statusbar label {
+	margin: 0;
 	padding: 0;
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+}
+
+statusbar > box {
+	margin: 0;
+	padding: 0 2px 2px;
+	border-top: 1px solid @prelight_color;
+}
+
+statusbar > label { /* eom 1.24 */
+	border-top: 1px solid @prelight_color;
+}
+
+statusbar box label {
+	padding-bottom: 1px;
+}
+
+statusbar progressbar.horizontal {
+	margin: 2px -2px -2px;
+	font-size: 85%;
+}
+
+statusbar progressbar.horizontal text {
+	padding-top: 4px;
 }
 
 /**********************************************/
@@ -943,26 +956,28 @@ menu separator, popover separator {
 	border-bottom: 1px solid @theme_selected_fg_color;
 }
 
-paned.vertical separator {
+paned.vertical > separator {
 	border: none;
 	margin: 1px 0px 0px 0px;
 	padding: 0px;
 	background-image: url("img/separator_horizontal.png");
 	background-position: center center;
 	background-repeat: no-repeat;
+	min-height: 5px;
 }
 
-paned.horizontal separator {
+paned.horizontal > separator {
 	border: none;
 	margin: 0px 0px 0px 1px;
 	padding: 0px;
 	background-image: url("img/separator_vertical.png");
 	background-position: center center;
 	background-repeat: no-repeat;
+	min-width: 5px;
 }
 
-paned.vertical separator:hover,
-paned.horizontal separator:hover {
+paned.vertical > separator:hover,
+paned.horizontal > separator:hover {
 	background-color: @prelight_color;
 }
 
@@ -1084,6 +1099,15 @@ item radio:disabled:checked {
 	-gtk-icon-source: url("img/menuitem-radio-checked-disabled.png");
 }
 
+/* set margins of radio & check in popover & menu */
+popover check {
+	margin: 1px 5px 0;
+}
+
+popover radio {
+	margin: 0px 5px 0;
+}
+
 /**********************************************/
 /* switch */
 /**********************************************/
@@ -1188,42 +1212,94 @@ popover modelbutton:hover > arrow.left {
 }
 
 /********************************************/
+/* treeview */
+/* Modified from Human GTK 4 theme */
+/********************************************/
+
+treeview, listview, list {
+	color: @theme_text_color;
+	background-color: @theme_base_color;
+}
+
+treeview.view {
+	padding: 0 1px;
+}
+
+treeview.view check,
+treeview.view radio {
+	background: transparent;
+}
+
+treeview.view.image:disabled {
+	-gtk-icon-effect: dim;
+}
+
+treeview.view.progressbar,
+treeview.view.progressbar:hover {
+	background-color: @theme_selected_bg_color;
+}
+
+treeview.view.trough,
+treeview.view.trough:hover,
+treeview.view.trough:selected {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @borders;
+	color: @theme_fg_color;
+	padding: 0px;
+}
+
+/********************************************/
 /* expander */
 /*******************************************/
 
-expander {
+expander-widget {
 	border-style: none;
 	color: @theme_fg_color;
-	/*background-color: shade(@theme_bg_color, 1.02);*/
 }
 
-expander > .frame {
+expander-widget scrolledwindow {
 	border-style: none;
 }
 
-expander title {
+expander-widget title {
 	padding: 1px;
 }
 
-expander title:hover {
+expander-widget title:hover {
 	background-color: @prelight_color;
 }
 
-expander textview {
+expander-widget textview {
 	padding: 1px;
 	box-shadow: inset 1px 1px 0 0 @borders, inset -1px -1px 0 0 @borders;
 }
 
-expander arrow {
-	min-width: 16px;
-	min-height: 16px;
-	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
-	-gtk-icon-transform: rotate(-90deg);
-	color: @theme_fg_color;
+expander-widget expander {
+	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
+	-gtk-icon-size: 16px;
 }
 
-expander arrow:checked {
-	-gtk-icon-transform: unset;
+expander-widget expander:dir(rtl) {
+	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
+}
+
+expander-widget expander:checked {
+	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+}
+
+dialog scrolledwindow.frame scrollbar.vertical,
+expander-widget scrollbar.vertical {
+	margin: 0px;
+	padding: 0 0 0 3px;
+	background: @theme_bg_color;
+}
+
+dialog scrolledwindow.frame scrollbar.horizontal,
+expander-widget scrollbar.horizontal {
+	margin: 0px;
+	padding: 3px 0 0 0;
+	background: @theme_bg_color;
 }
 
 /**********************************************/

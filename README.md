@@ -1,13 +1,13 @@
-# Bluecurve GTK 3
-Red Hat Bluecurve theme ported over to GTK 3. Designed for the MATE desktop environment.
+# Bluecurve GTK 3/4
+Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE desktop environment.
 
 ### Screenshot (Red Hat 8/9 style)
 ![Red Hat 8/9 style](screenshot1.png)
 ### Screenshot (Fedora Core 1-3 style)
 ![Red Hat 8/9 style](screenshot2.png)
 ## Includes
-- GTK 3 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and modified to make the theme better resemble the original GTK 2 theme and updated to include all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
-- GTK 2 engine and theme, source code is provided by Red Hat / Fedora: [bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm](https://dl.fedoraproject.org/pub/fedora/linux/releases/37/Everything/source/tree/Packages/b/bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm)
+- GTK 3/4 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and modified to make the theme better resemble the original GTK 2 theme and updated to support both GTK 3 and 4, as well as including all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
+- GTK 2 engine and theme, source code is provided by Red Hat / Fedora: [bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Everything/source/tree/Packages/b/bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm)
 - Original Bluecurve Metacity themes updated to resolve issues arising from using old metacity themes on newer versions of MATE.
 - Original Bluecurve XFWM4 theme.
 - Bluecurve icon and cursor set.
