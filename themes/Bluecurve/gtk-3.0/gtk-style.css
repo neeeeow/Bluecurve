@@ -330,21 +330,18 @@ menuitem:hover > *, menuitem:hover > * > *, menuitem:hover > * > * > *, popover 
 /* headerbar, toolbar */
 /**********************************************/
 
-headerbar,
-.titlebar,
 toolbar {
+	padding: 0 1px;
 	border-top: 1px solid @prelight_color;
 	border-bottom: 1px solid @trough_bg_color;
 	background-color: @theme_bg_color;
 }
 
-toolbar {
-	padding: 0 1px;
-}
-
 headerbar,
 .titlebar {
 	border-radius: 7px 7px 0 0;
+	border-bottom: 1px solid @trough_bg_color;
+	background-color: @theme_bg_color;
 	padding: 3px 4px;
 }
 
