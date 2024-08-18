@@ -16,13 +16,14 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE desktop en
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
 
 ## Installation
-### 1. Clone the Git repository
+### 1. Download the theme
+Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
 git clone https://github.com/neeeeow/Bluecurve.git
 cd Bluecurve
 ```
 > [!CAUTION]
-> You must clone the git repository. Simply downloading the .zip file breaks permissions!
+> You must either download the latest release or clone the git repository. Simply downloading the repository as a .zip file breaks permissions!
 ### 2. Install GTK 2 engine (required)
 If on x86_64, copy `engine/x86_64/libbluecurve.so` to `/usr/lib64/gtk-2.0/2.10.0/engines`
 ```bash
@@ -33,7 +34,7 @@ If on i686, copy `engine/i686/libbluecurve.so` to `/usr/lib/gtk-2.0/2.10.0/engin
 sudo cp engine/i686/libbluecurve.so /usr/lib/gtk-2.0/2.10.0/engines
 ```
 > [!TIP]
-> If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -a`. You are most likely using a x86_64 installation.
+> If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -a`. You are most likely using a x86_64 installation. If you are using an architecture other than i686 or x86_64, you will have to compile the GTK 2 engine yourself.
 
 ### 3. Install icon and cursor set
 Copy the contents of the `icons` folder to `/usr/share/icons`
