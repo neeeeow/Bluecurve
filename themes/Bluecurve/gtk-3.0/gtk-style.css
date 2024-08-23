@@ -32,7 +32,7 @@
  */
 
 /**********************************************/
-/* global style */
+/* Global style */
 /**********************************************/
 
 * {
@@ -45,6 +45,59 @@
 	outline-offset: -4px;
 
 	color: @theme_text_color;
+}
+
+/**********************************************/
+/* Items with white background (views) */
+/**********************************************/
+
+.view, iconview, textview, treeview {
+	background-color: @theme_base_color;
+}
+
+.view:disabled, iconview:disabled, textview:disabled, treeview:disabled {
+	background-color: @insensitive_bg_color;
+}
+
+.view rubberband, .view .rubberband {
+	background-color: alpha (@theme_selected_bg_color, 0.75);
+	border: 1px solid @theme_selected_bg_color;
+}
+
+/**********************************************/
+/* Items with grey background */
+/**********************************************/
+
+.background, .dialog-vbox, .app-notification, paned  {
+	background-color: @theme_bg_color;
+}
+
+/**********************************************/
+/* Global selection and disabled colors */
+/**********************************************/
+
+*:selected,
+*:selected:focus,
+selection,
+switch:checked {
+	color: @theme_selected_fg_color;
+	background: @theme_selected_bg_color;
+}
+
+*:disabled {
+	color: @insensitive_fg_color;
+	text-shadow: @theme_selected_fg_color 1px 1px;
+}
+
+/* Set colors for metacity window decorations */
+window:insensitive {
+	color: @insensitive_fg_color;
+	background-color: @insensitive_bg_color;
+}
+
+label:disabled {
+	color: @insensitive_fg_color;
+	text-shadow: @theme_selected_fg_color 1px 1px;
 }
 
 /**********************************************/
@@ -100,7 +153,6 @@ messagedialog.csd decoration {
 	box-shadow: 0 1px 5px @wm_shadow;
 }
 
-
 /********************************************/
 /* Tooltips */
 /*******************************************/
@@ -140,58 +192,6 @@ tooltip.background.solid-csd decoration,
 .tooltip.background.solid-csd decoration {
 	border-radius: 0px;
 	box-shadow: none;
-}
-
-/**********************************************/
-/* items with white background (views) */
-/**********************************************/
-
-.view, iconview, textview, treeview {
-	background-color: @theme_base_color;
-}
-
-.view:disabled, iconview:disabled, textview:disabled, treeview:disabled {
-	background-color: @insensitive_bg_color;
-}
-
-.view rubberband, .view .rubberband {
-	background-color: alpha (@theme_selected_bg_color, 0.75);
-	border: 1px solid @theme_selected_bg_color;
-}
-
-/**********************************************/
-/* items with grey background */
-/**********************************************/
-
-.background, .dialog-vbox, .app-notification, paned  {
-	background-color: @theme_bg_color;
-}
-
-/**********************************************/
-/* global selection and disabled colors */
-/**********************************************/
-
-*:selected, *:active, selection {
-	background-color: @theme_unfocused_selected_bg_color;
-	color: @theme_selected_fg_color;
-}
-
-*:selected:focus, *:active:focus, selection:focus {
-	background-color: @theme_selected_bg_color;
-}
-
-*:selected label, *:active label {
-	color: @theme_selected_fg_color;
-}
-
-*:disabled * {
-	color: @insensitive_fg_color;
-	text-shadow: @theme_selected_fg_color 1px 1px;
-}
-
-label:disabled {
-	color: @insensitive_fg_color;
-	text-shadow: @theme_selected_fg_color 1px 1px;
 }
 
 /**********************************************/
@@ -262,6 +262,10 @@ button:disabled, spinbutton:disabled {
 	color: @insensitive_fg_color;
 	background-color: @insensitive_bg_color;
 	-gtk-icon-effect: dim;
+}
+
+spinbutton:disabled {
+	text-shadow: none;
 }
 
 button.flat:disabled, .titlebutton:disabled {
@@ -600,6 +604,7 @@ entry {
 entry:disabled {
 	background-color: @insensitive_base_color;
 	color: @insensitive_fg_color;
+	text-shadow: none;
 }
 
 toolbar entry {
