@@ -76,12 +76,17 @@
 /* Global selection and disabled colors */
 /**********************************************/
 
-*:selected,
-*:selected:focus,
-selection,
-switch:checked {
+*:selected, *:active, selection {
+	background-color: @theme_unfocused_selected_bg_color;
 	color: @theme_selected_fg_color;
-	background: @theme_selected_bg_color;
+}
+
+*:selected:focus, *:active:focus, selection:focus {
+	background-color: @theme_selected_bg_color;
+}
+
+*:selected label, *:active label {
+	color: @theme_selected_fg_color;
 }
 
 *:disabled {
@@ -89,15 +94,23 @@ switch:checked {
 	text-shadow: @theme_selected_fg_color 1px 1px;
 }
 
-/* Set colors for metacity window decorations */
-window:insensitive {
-	color: @insensitive_fg_color;
-	background-color: @insensitive_bg_color;
-}
-
 label:disabled {
 	color: @insensitive_fg_color;
 	text-shadow: @theme_selected_fg_color 1px 1px;
+}
+
+/**********************************************/
+/* Metacity window decoration colors */
+/**********************************************/
+
+window:selected {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+window:insensitive {
+	color: @insensitive_fg_color;
+	background-color: @insensitive_bg_color;
 }
 
 /**********************************************/

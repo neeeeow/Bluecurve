@@ -6,15 +6,18 @@
 /* color definitions: hardcoded GTK names */
 /**********************************************/
 
-@define-color theme_fg_color #000000;
+@define-color theme_fg_color #000000; /* fg[NORMAL] */
 @define-color theme_text_color #000000;
-@define-color theme_bg_color #d4d9d2;
+@define-color theme_bg_color #d4d9d2; /* bg[NORMAL] */
+@define-color prelight_color #e6e9e5; /* bg[PRELIGHT] */
+@define-color bg_active_color #acb6a9; /* bg[ACTIVE] */
 @define-color theme_base_color #ffffff;
-@define-color theme_selected_bg_color #698f64;
-@define-color theme_selected_fg_color #ffffff;
-@define-color insensitive_bg_color #c6cbc4;
-@define-color insensitive_fg_color #818a7d;
-@define-color insensitive_base_color #f4f9f2;
+@define-color theme_selected_bg_color #698f64; /* bg[SELECTED] */
+@define-color theme_unfocused_selected_bg_color #d4d9d2; /* base[ACTIVE] */
+@define-color theme_selected_fg_color #ffffff; /* fg[SELECTED] */
+@define-color insensitive_bg_color #c6cbc4; /* bg[INSENSITIVE] */
+@define-color insensitive_fg_color #818a7d; /* fg[INSENSITIVE] */
+@define-color insensitive_base_color #f4f9f2; /* base[INSENSITIVE] */
 @define-color borders #a1a1a1;
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
@@ -61,8 +64,7 @@
 /**********************************************/
 
 @define-color light_border #ffffff;
-@define-color darker_color #acb6a9;
-@define-color prelight_color #e6e9e5;
+@define-color darker_color @bg_active_color;
 @define-color separator_darker_color #CECECE;
 @define-color darker_border_color #5a5a5a;
 @define-color trough_border_color #999999;
