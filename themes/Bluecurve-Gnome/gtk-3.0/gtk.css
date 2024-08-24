@@ -1,9 +1,41 @@
-/**********************************************/
-/* Bluecurve Gnome color scheme */
-/***********************************************/
+/**
+ * Bluecurve GTK 3/4 theme
+ * GNOME 2 color scheme
+ *
+ * Copyright (C) 2024 | neeeeow
+ * https://github.com/neeeeow/Bluecurve
+ *
+ * Forked from Blueshell:
+ *  Copyright (C) 2015-2016 | jpsb
+ *  Copyright (C) 2016-2018 | KlipKyle
+ *  Copyright (C) 2017-2018 | mrnhmath
+ *  Copyright (C) 2018 | Rakksor
+ *  https://github.com/Rakksor/Blueshell
+ *
+ * Some components of the following themes were used & modified:
+ *  Human GTK 3/4 theme:
+ *   Copyright (C) 2020-2024 | Fabrice Creuzot (luigifab)
+ *   https://github.com/luigifab/human-theme
+ *  TraditionalOK:
+ *   https://github.com/mate-desktop/mate-themes
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
 
 /**********************************************/
-/* color definitions: hardcoded GTK names */
+/* Color definitions: hardcoded GTK names */
+/* Modify this section to create custom color schemes */
 /**********************************************/
 
 @define-color theme_fg_color #000000; /* fg[NORMAL] */
@@ -18,10 +50,19 @@
 @define-color insensitive_bg_color #dcdad5; /* bg[INSENSITIVE] */
 @define-color insensitive_fg_color #777777; /* fg[INSENSITIVE] */
 @define-color insensitive_base_color #f0f0f0; /* base[INSENSITIVE] */
-@define-color borders #a1a1a1;
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
 @define-color success_color #73d216;
+@define-color link_color #0000ee;
+@define-color link_visited_color #551a8b;
+
+/**********************************************/
+/* Tooltip colors */
+/**********************************************/
+
+@define-color theme_tooltip_bg_color #ffffbf;
+@define-color theme_tooltip_fg_color #000000;
+@define-color theme_tooltip_border_color #000000;
 
 /**********************************************/
 /* Menu item colors */
@@ -42,38 +83,36 @@
 @define-color progressbar_bottom_color shade(@theme_selected_bg_color, 1.66);
 
 @define-color progressbar_light_color shade(@theme_selected_bg_color, 1.62);
-@define-color progressbar_dark_color shade(@theme_selected_bg_color, 1.05);
+@define-color progressbar_dark_color shade(@theme_selected_bg_color, 0.72);
 
 /**********************************************/
-/* Tooltip colors */
-/**********************************************/
-
-@define-color theme_tooltip_bg_color #ffffbf;
-@define-color theme_tooltip_fg_color #000000;
-@define-color theme_tooltip_border_color #000000;
-
-/**********************************************/
-/* Border colors */
+/* Window border colors */
 /**********************************************/
 
 @define-color wm_shadow alpha(black, 0.5);
 @define-color wm_border black;
 
 /**********************************************/
-/* color definitions: other colors */
+/* Other colors & shades used in the theme */
 /**********************************************/
 
-@define-color light_border #ffffff;
+@define-color border_color shade(@theme_bg_color, 0.665);
+@define-color light_border_color shade(@theme_bg_color, 1.065);
+@define-color medium_border_color shade(@theme_bg_color, 0.7);
+@define-color darker_border_color shade(@theme_bg_color, 0.4);
+
 @define-color darker_color @bg_active_color;
-@define-color separator_darker_color #CECECE;
-@define-color darker_border_color #5a5a5a;
-@define-color trough_border_color #999999;
-@define-color trough_bg_color #c4c4c4;
-@define-color entry_shadow_color #dedede;
-@define-color check_button_border #5c5c5c;
-@define-color check_active_border #b4b4b4;
-@define-color link_color #0000ee;
-@define-color link_visited_color #551a8b;
+@define-color separator_darker_color shade(@theme_bg_color, 0.896);
+@define-color trough_bg_color shade(@theme_bg_color, 0.85);
+@define-color entry_shadow_color shade(@theme_bg_color, 0.963);
+
+@define-color frame_light_color #ffffff; /* this is always #ffffff */
+@define-color frame_groove_color shade(@theme_bg_color, 1.065);
+
+@define-color button_box_shadow_color shade(@theme_bg_color, 0.896);
+
+@define-color check_button_border shade(@theme_bg_color, 0.4);
+@define-color check_active_border #b4b4b4; /* no idea where the GTK2 theme gets this color */
 
 @import url("gtk-style.css");
 @import url("mate.css");
