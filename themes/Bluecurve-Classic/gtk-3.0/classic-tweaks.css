@@ -36,15 +36,14 @@
 
 menu, popover {
 	border: 1px solid @border_color;
-	padding: 3px 2px;
+	padding: 2px 2px;
 }
 
 menubar > menuitem {
-	padding: 3px 8px;
+	padding: 3px 6px;
 }
 
 menuitem {
-	padding: 3px 7px;
+	padding: 3px 5px;
 	border: 1px solid transparent;
 }
-

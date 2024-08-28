@@ -1,7 +1,5 @@
 gtk-icon-sizes = "panel-menu=24,24"
 
-include "iconrc"
-
 style "bluecurve-default"
 {
   GtkMenuItem::selected_shadow_type = out
@@ -22,6 +20,9 @@ style "bluecurve-default"
 
   #GtkOptionMenu::indicator_size = { 11, 6 }
   #GtkOptionMenu::indicator_spacing = { 4, 5, 2, 2 }
+
+  GtkTreeView::expander_size = 14
+  GtkExpander::expander_size = 16
 
   xthickness = 1
   ythickness = 1
@@ -65,14 +66,20 @@ style "bluecurve-tasklist" = "bluecurve-default"
 
 style "bluecurve-menu" = "bluecurve-default"
 {
-  xthickness = 4
-  ythickness = 4
+  xthickness = 2
+  ythickness = 1
+}
+
+style "bluecurve-menu-item" = "bluecurve-default"
+{
+  xthickness = 2
+  ythickness = 4 
 
   bg[SELECTED]  = "#4464ac"
   fg[PRELIGHT]  = "#ffffff"
 }
 
-style "bluecurve-menubar" = "bluecurve-default"
+style "bluecurve-menu-itembar" = "bluecurve-default"
 {
   xthickness = 3
   ythickness = 3
@@ -127,16 +134,11 @@ class "GtkWidget" style "bluecurve-default"
 
 class "GtkButton" style "bluecurve-wide"
 class "GtkRange" style "bluecurve-wide"
-class "GtkMenu" style "bluecurve-wide"
 class "GtkFrame" style "bluecurve-wide"
 class "GtkStatusbar" style "bluecurve-wide"
-class "GtkMenuItem" style "bluecurve-menu"
-widget_class "*.GtkMenuItem.*" style "bluecurve-menu"
-widget_class "*.GtkAccelMenuItem.*" style "bluecurve-menu"
-widget_class "*.GtkRadioMenuItem.*" style "bluecurve-menu"
-widget_class "*.GtkCheckMenuItem.*" style "bluecurve-menu"
-widget_class "*.GtkImageMenuItem.*" style "bluecurve-menu"
-widget_class "*.GtkSeparatorMenuItem.*" style "bluecurve-menu"
+class "GtkMenu" style "bluecurve-menu"
+class "GtkMenuItem" style "bluecurve-menu-item"
+widget_class "*.<GtkMenuItem>.*" style "bluecurve-menu-item"
 class "GtkEntry" style "bluecurve-wide"
 widget_class "*.tooltips.*.GtkToggleButton" style "bluecurve-tasklist"
 widget_class "*.GtkTreeView.GtkButton" style "bluecurve-tree"

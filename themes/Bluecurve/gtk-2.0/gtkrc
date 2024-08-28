@@ -73,7 +73,7 @@ style "bluecurve-menu" = "bluecurve-default"
 style "bluecurve-menu-item" = "bluecurve-default"
 {
   xthickness = 3
-  ythickness = 3 
+  ythickness = 4 
 
   bg[SELECTED]  = "#4464ac"
   fg[PRELIGHT]  = "#ffffff"

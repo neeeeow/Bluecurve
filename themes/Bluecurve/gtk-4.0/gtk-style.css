@@ -362,7 +362,7 @@ menubar > *:selected:focus{
 }
 
 item, popover modelbutton {
-	padding: 2px 7px;
+	padding: 3px 7px;
 	border: 1px solid transparent;
 }
 

@@ -36,15 +36,15 @@
 
 
 popover.menu viewport {
-	padding: 2px 1px;
+	padding: 1px 1px;
 	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 menubar > item {
-	padding: 3px 8px;
+	padding: 3px 6px;
 }
 
 item, popover modelbutton {
-	padding: 3px 7px;
+	padding: 3px 5px;
 	border: 1px solid transparent;
 }
