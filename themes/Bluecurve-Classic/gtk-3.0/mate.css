@@ -47,7 +47,7 @@
 PanelToplevel.mate-panel-menu-bar > grid {
 	border-style: solid;
 	border-width: 1px;
-	border-color: @borders;
+	border-color: @border_color;
 	padding: 3px;
 }
 
@@ -63,7 +63,7 @@ PanelToplevel.mate-panel-menu-bar > grid {
 	background-color: @theme_bg_color;
 	padding: 0px;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 /* Menu bar button:checked definitions */
@@ -73,7 +73,7 @@ PanelToplevel.mate-panel-menu-bar > grid {
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 /* Menu bar button:hover:not(:active) definitions */
@@ -83,7 +83,7 @@ PanelToplevel.mate-panel-menu-bar > grid {
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 /* Inactive menu bar button hover definitions */
@@ -94,7 +94,7 @@ PanelToplevel.mate-panel-menu-bar > grid {
 .mate-panel-menu-bar #PanelApplet button.toggle:hover:active,
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 /******************************************/
@@ -106,27 +106,27 @@ PanelToplevel.mate-panel-menu-bar > grid {
 	background-color: @theme_bg_color;
 	padding: 0px 3px 0px 3px;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color;
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 #PanelApplet > #showdesktop-button:checked image,
 #PanelApplet > #showdesktop-button.toggle:checked image {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 #PanelApplet > #showdesktop-button:hover image,
 #PanelApplet > #showdesktop-button.toggle:hover image {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 #PanelApplet > #showdesktop-button:checked:hover image,
 #PanelApplet > #showdesktop-button.toggle:checked:hover image,
 #PanelApplet > #showdesktop-button.toggle:hover:active image {
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 /******************************************/
@@ -142,17 +142,17 @@ PanelToplevel.mate-panel-menu-bar > grid {
 #PanelApplet > #clock-applet-button.flat.toggle:hover {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @darker_color
+	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 #PanelApplet > #clock-applet-button.flat.toggle:checked {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 #PanelApplet > #clock-applet-button.flat.toggle:checked:hover {
-	box-shadow: inset 1px 1px @darker_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
 }
 
 
@@ -168,5 +168,6 @@ MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
 	background-position: left;
 	background-size: 12px 25px;
 }
+
 
 
