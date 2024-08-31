@@ -1,0 +1,40 @@
+/**
+ * Bluecurve GTK 3/4 theme
+ * CSS rules for XFCE UI elements.
+ *
+ * Copyright (C) 2024 | neeeeow
+ * https://github.com/neeeeow/Bluecurve
+ *
+ * Forked from Blueshell:
+ *  Copyright (C) 2015-2016 | jpsb
+ *  Copyright (C) 2016-2018 | KlipKyle
+ *  Copyright (C) 2017-2018 | mrnhmath
+ *  Copyright (C) 2018 | Rakksor
+ *  https://github.com/Rakksor/Blueshell
+ *
+ * Some components of the following themes were used & modified:
+ *  Human GTK 3/4 theme:
+ *   Copyright (C) 2020-2024 | Fabrice Creuzot (luigifab)
+ *   https://github.com/luigifab/human-theme
+ *  TraditionalOK:
+ *   https://github.com/mate-desktop/mate-themes
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/* Set workspace switcher accent color */
+.xfce4-panel widget wnck-pager:selected {
+	background-color: @theme_selected_bg_color;
+}
+
