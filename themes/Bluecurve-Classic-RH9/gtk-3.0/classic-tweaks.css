@@ -1,7 +1,7 @@
 /**
- * Bluecurve GTK 4 theme
- * Tweaks for Bluecurve-Classic style
- * This makes the theme resemble it's look in RH 8/9.
+ * Bluecurve GTK 3 theme
+ * Tweaks for Bluecurve-Classic-RH9 style
+ * This makes the theme resemble it's look in Red Hat 9.
  *
  * Copyright (C) 2024 | neeeeow
  * https://github.com/neeeeow/Bluecurve
@@ -34,17 +34,29 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
-
-popover.menu viewport {
-	padding: 1px 1px;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+/* Add padding to MATE panel */
+PanelToplevel.horizontal.top > grid,
+PanelToplevel.horizontal.bottom > grid,
+PanelToplevel.vertical.left > grid,
+PanelToplevel.vertical.right > grid  {
+	border-style: solid;
+	border-width: 1px;
+	border-color: @border_color;
+	padding: 3px;
 }
 
-menubar > item {
+/* Adjust menu padding */
+menu, popover {
+	border: 1px solid @border_color;
+	padding: 2px 2px;
+}
+
+/* Adjust menu item padding */
+menubar > menuitem {
 	padding: 3px 6px;
 }
 
-item, popover modelbutton {
+menuitem {
 	padding: 3px 5px;
 	border: 1px solid transparent;
 }
