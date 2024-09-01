@@ -362,8 +362,12 @@ menubar > *:selected:focus{
 }
 
 item, popover modelbutton {
-	padding: 3px 7px;
+	padding: 3px 5px 3px 6px;
 	border: 1px solid transparent;
+}
+
+menubar > item {
+	padding: 3px 7px;
 }
 
 item:selected, 
@@ -667,7 +671,7 @@ entry:disabled,
 entry text:disabled,
 spinbutton text:disabled {
 	background-color: @insensitive_base_color;
-	color: @insensitive_fg_color;
+	color: @entry_disabled_text;
 	text-shadow: none;
 }
 

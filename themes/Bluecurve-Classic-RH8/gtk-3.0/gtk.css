@@ -1,6 +1,6 @@
 /**
  * Bluecurve GTK 3/4 theme
- * GNOME 2 color scheme
+ * Default Bluecurve color scheme
  *
  * Copyright (C) 2024 | neeeeow
  * https://github.com/neeeeow/Bluecurve
@@ -40,16 +40,16 @@
 
 @define-color theme_fg_color #000000; /* fg[NORMAL] */
 @define-color theme_text_color #000000;
-@define-color theme_bg_color #dcdad5; /* bg[NORMAL] */
-@define-color prelight_color #eeebe7; /* bg[PRELIGHT] */
-@define-color bg_active_color #bab5ab; /* bg[ACTIVE] */
+@define-color theme_bg_color #e5e5e5; /* bg[NORMAL] */
+@define-color prelight_color #f3f3f3; /* bg[PRELIGHT] */
+@define-color bg_active_color #cccccc; /* bg[ACTIVE] */
 @define-color theme_base_color #ffffff;
-@define-color theme_selected_bg_color #4b6983; /* bg[SELECTED] */
-@define-color theme_unfocused_selected_bg_color #9db8d2; /* base[ACTIVE] */
+@define-color theme_selected_bg_color #4c59a6; /* bg[SELECTED] */
+@define-color theme_unfocused_selected_bg_color #99a6bf; /* base[ACTIVE] */
 @define-color theme_selected_fg_color #ffffff; /* fg[SELECTED] */
-@define-color insensitive_bg_color #dcdad5; /* bg[INSENSITIVE] */
-@define-color insensitive_fg_color #777777; /* fg[INSENSITIVE] */
-@define-color insensitive_base_color #f0f0f0; /* base[INSENSITIVE] */
+@define-color insensitive_bg_color #d9d9d9; /* bg[INSENSITIVE] */
+@define-color insensitive_fg_color #7f7f7f; /* fg[INSENSITIVE] */
+@define-color insensitive_base_color #eeebe7; /* base[INSENSITIVE] */
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
 @define-color success_color #73d216;
@@ -119,4 +119,5 @@
 @import url("gtk-style.css");
 @import url("mate.css");
 @import url("xfce.css");
+@import url("classic-tweaks.css");
 

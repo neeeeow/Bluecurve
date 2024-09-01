@@ -48,15 +48,19 @@ PanelToplevel.vertical.right > grid  {
 /* Adjust menu padding */
 popover.menu viewport {
 	padding: 1px 1px;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
 }
 
 /* Adjust menu item padding */
 menubar > item {
-	padding: 3px 6px;
+	padding: 2px 6px 3px 6px;
+	margin-right: 5px;
 }
 
 item, popover modelbutton {
-	padding: 3px 5px;
-	border: 1px solid transparent;
+	padding: 2px 5px 3px 5px;
+}
+
+/* Adjust menu separator padding */
+menu separator, popover separator {
+	margin: 0px 0px 6px 0px;
 }

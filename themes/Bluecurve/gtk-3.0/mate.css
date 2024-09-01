@@ -44,6 +44,10 @@
 	border: none;
 }
 
+.mate-panel-menu-bar menuitem {
+	padding: 3px 5px 3px 4px;
+} 
+
 PanelToplevel.horizontal.top > grid {
 	border-style: outset;
 	border-width: 0px 0px 1px 0px;

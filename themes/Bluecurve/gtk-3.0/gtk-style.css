@@ -272,12 +272,16 @@ button:checked:hover, button:active:hover {
 }
 
 button:disabled, spinbutton:disabled {
-	color: @insensitive_fg_color;
 	background-color: @insensitive_bg_color;
 	-gtk-icon-effect: dim;
 }
 
+button:disabled {
+	color: @insensitive_fg_color;
+}
+
 spinbutton:disabled {
+	color: @entry_disabled_text;
 	text-shadow: none;
 }
 
@@ -328,8 +332,12 @@ menu {
 }
 
 menuitem, popover modelbutton {
-	padding: 3px 7px;
+	padding: 3px 5px 3px 6px;
 	border: 1px solid transparent;
+}
+
+menubar > menuitem {
+	padding: 3px 7px;
 }
 
 menuitem:hover, popover modelbutton:hover {
@@ -616,7 +624,7 @@ entry {
 
 entry:disabled {
 	background-color: @insensitive_base_color;
-	color: @insensitive_fg_color;
+	color: @entry_disabled_text;
 	text-shadow: none;
 }
 

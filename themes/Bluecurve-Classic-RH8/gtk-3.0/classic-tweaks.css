@@ -42,7 +42,7 @@ PanelToplevel.vertical.right > grid  {
 	border-style: solid;
 	border-width: 1px;
 	border-color: @border_color;
-	padding: 3px;
+	padding: 2px;
 }
 
 /* Adjust menu padding */
@@ -52,7 +52,7 @@ menu, popover {
 
 /* Adjust menu item padding */
 menubar > menuitem {
-	padding: 2px 6px 3px 6px;
+	padding: 1px 4px 2px 4px;
 	margin-right: 5px;
 }
 
@@ -61,10 +61,10 @@ menubar > menuitem {
 }
 
 menuitem {
-	padding: 2px 5px 3px 5px;
+	padding: 1px 3px 2px 3px;
 }
 
 /* Adjust menu separator padding */
 menu separator, popover separator {
-	margin: 0px 0px 6px 0px;
+	margin: 0px 0px 4px 0px;
 }
