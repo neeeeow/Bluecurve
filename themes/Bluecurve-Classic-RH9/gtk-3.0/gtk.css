@@ -84,6 +84,7 @@
 
 @define-color progressbar_light_color shade(@theme_selected_bg_color, 1.62);
 @define-color progressbar_dark_color shade(@theme_selected_bg_color, 0.72);
+@define-color progressbar_border_color shade(@theme_selected_bg_color, 1.05);
 
 /**********************************************/
 /* Window border colors */

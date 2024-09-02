@@ -548,25 +548,46 @@ scale.horizontal.marks-after marks.bottom indicator {
 /* progressbar, levelbar */
 /**********************************************/
 
-progressbar trough, levelbar trough {
+progressbar trough, levelbar.continuous trough {
+	background-color: @trough_bg_color;
+	box-shadow: inset 1px 1px @border_color, inset -1px -1px @border_color;
+}
+
+levelbar.discrete trough {
 	background-color: @trough_bg_color;
 	border: 1px solid @border_color;
 }
 
+progressbar.vertical trough {
+	padding: 0px 1px;
+}
+
+progressbar.horizontal trough {
+	padding: 1px 0px;
+}
+
 progressbar.vertical trough, progressbar.vertical progress {
-	min-width: 20px;
+	min-width: 18px;
 }
 
 progressbar.horizontal trough, progressbar.horizontal progress {
-	min-height: 20px;
+	min-height: 18px;
 }
 
-levelbar.vertical trough {
+levelbar.continuous.vertical trough {
 	min-width: 10px;
 }
 
-levelbar.horizontal trough {
+levelbar.continuous.horizontal trough {
 	min-height: 10px;
+}
+
+levelbar.discrete.vertical trough {
+	min-width: 8px;
+}
+
+levelbar.discrete.horizontal trough {
+	min-height: 8px;
 }
 
 levelbar.discrete block {
@@ -576,13 +597,23 @@ levelbar.discrete block {
 }
 
 progressbar.vertical progress, levelbar.vertical block.filled {
-	background-image: linear-gradient(to right, @progressbar_top_color, @progressbar_bottom_color);
+	border: 1px solid @progressbar_border_color;
 	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
+	background: linear-gradient(
+		to right, 
+		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
+		@progressbar_bottom_color calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+	);
 }
 
 progressbar.horizontal progress, levelbar.horizontal block.filled {
-	background-image: linear-gradient(to bottom, @progressbar_top_color, @progressbar_bottom_color);
+	border: 1px solid @progressbar_border_color;
 	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
+	background: linear-gradient(
+		to bottom, 
+		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
+		@progressbar_bottom_color calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+	);
 }
 
 /**********************************************/
@@ -1128,7 +1159,7 @@ popover radio {
 
 switch {
 	background-color: @darker_color;
-	border: 1px solid @medium_border_color;
+	border: 1px solid @border_color;
 	min-width: 76px;
 	min-height: 25px;
 }
