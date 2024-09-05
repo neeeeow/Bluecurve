@@ -65,59 +65,7 @@
 @define-color theme_tooltip_fg_color #000000;
 @define-color theme_tooltip_border_color #000000;
 
-/**********************************************/
-/* Menu item colors */
-/**********************************************/
-
-@define-color menuitem_top_color shade(@theme_selected_bg_color, 0.9);
-@define-color menuitem_bottom_color shade(@theme_selected_bg_color, 1.2);
-
-@define-color menuitem_light_color shade(@theme_selected_bg_color, 1.62);
-@define-color menuitem_dark_color shade(@theme_selected_bg_color, 1.05);
-@define-color menuitem_border_color shade(@theme_selected_bg_color, 0.72);
-
-/**********************************************/
-/* Progress bar colors */
-/**********************************************/
-
-@define-color progressbar_top_color shade(@theme_selected_bg_color, 0.92);
-@define-color progressbar_bottom_color shade(@theme_selected_bg_color, 1.66);
-
-@define-color progressbar_light_color shade(@theme_selected_bg_color, 1.62);
-@define-color progressbar_dark_color shade(@theme_selected_bg_color, 0.72);
-@define-color progressbar_border_color shade(@theme_selected_bg_color, 1.05);
-
-/**********************************************/
-/* Window border colors */
-/**********************************************/
-
-@define-color wm_shadow alpha(black, 0.5);
-@define-color wm_border black;
-
-/**********************************************/
-/* Other colors & shades used in the theme */
-/**********************************************/
-
-@define-color border_color shade(@theme_bg_color, 0.665);
-@define-color light_border_color shade(@theme_bg_color, 1.065);
-@define-color medium_border_color shade(@theme_bg_color, 0.7);
-@define-color darker_border_color shade(@theme_bg_color, 0.4);
-
-@define-color darker_color @bg_active_color;
-@define-color separator_darker_color shade(@theme_bg_color, 0.896);
-@define-color trough_bg_color shade(@theme_bg_color, 0.85);
-@define-color entry_shadow_color shade(@theme_bg_color, 0.963);
-
-@define-color frame_light_color #ffffff; /* this is always #ffffff */
-@define-color frame_groove_color shade(@theme_bg_color, 1.065);
-
-@define-color button_box_shadow_color shade(@theme_bg_color, 0.896);
-
-@define-color check_button_border shade(@theme_bg_color, 0.4);
-@define-color check_active_border #b4b4b4; /* no idea where the GTK2 theme gets this color */
-
-@define-color entry_disabled_text #757575; /* this is always #757575 */
-
+@import url("shade.css");
 @import url("gtk-style.css");
 @import url("mate.css");
 @import url("xfce.css");

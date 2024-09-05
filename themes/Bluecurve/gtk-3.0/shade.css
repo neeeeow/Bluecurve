@@ -1,0 +1,103 @@
+/**
+ * Bluecurve GTK 3/4 theme
+ * CSS shade definitions
+ *
+ * Copyright (C) 2024 | neeeeow
+ * https://github.com/neeeeow/Bluecurve
+ *
+ * Forked from Blueshell:
+ *  Copyright (C) 2015-2016 | jpsb
+ *  Copyright (C) 2016-2018 | KlipKyle
+ *  Copyright (C) 2017-2018 | mrnhmath
+ *  Copyright (C) 2018 | Rakksor
+ *  https://github.com/Rakksor/Blueshell
+ *
+ * Some components of the following themes were used & modified:
+ *  Human GTK 3/4 theme:
+ *   Copyright (C) 2020-2024 | Fabrice Creuzot (luigifab)
+ *   https://github.com/luigifab/human-theme
+ *  TraditionalOK:
+ *   https://github.com/mate-desktop/mate-themes
+ *
+ * This program is free software: you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation, either version 3 of the License, or
+ * (at your option) any later version.
+ *
+ * This program is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * You should have received a copy of the GNU General Public License
+ * along with this program.  If not, see <https://www.gnu.org/licenses/>.
+ */
+
+/*********************************************/
+/* General shades */
+/*********************************************/
+
+@define-color darker_color @bg_active_color;
+@define-color separator_darker_color shade(@theme_bg_color, 0.896);
+@define-color trough_bg_color shade(@theme_bg_color, 0.85);
+@define-color entry_shadow_color shade(@theme_bg_color, 0.963);
+
+/**********************************************/
+/* Menu item colors */
+/**********************************************/
+
+@define-color menuitem_top_color shade(@theme_selected_bg_color, 0.9);
+@define-color menuitem_bottom_color shade(@theme_selected_bg_color, 1.2);
+
+@define-color menuitem_light_color shade(@theme_selected_bg_color, 1.62);
+@define-color menuitem_dark_color shade(@theme_selected_bg_color, 1.05);
+@define-color menuitem_border_color shade(@theme_selected_bg_color, 0.72);
+
+/**********************************************/
+/* Progress bar colors */
+/**********************************************/
+
+@define-color progressbar_top_color shade(@theme_selected_bg_color, 0.92);
+@define-color progressbar_bottom_color shade(@theme_selected_bg_color, 1.66);
+
+@define-color progressbar_light_color shade(@theme_selected_bg_color, 1.62);
+@define-color progressbar_dark_color shade(@theme_selected_bg_color, 0.72);
+@define-color progressbar_border_color shade(@theme_selected_bg_color, 1.05);
+
+/**********************************************/
+/* Window border colors */
+/**********************************************/
+
+@define-color wm_shadow alpha(black, 0.5);
+@define-color wm_border black;
+
+/**********************************************/
+/* Border colors */
+/**********************************************/
+
+@define-color border_color shade(@theme_bg_color, 0.665);
+@define-color light_border_color shade(@theme_bg_color, 1.065);
+@define-color medium_border_color shade(@theme_bg_color, 0.7);
+@define-color darker_border_color shade(@theme_bg_color, 0.4);
+
+/*********************************************/
+/* Box shadow colors */
+/*********************************************/
+
+@define-color box_shadow_dark_color shade(@theme_bg_color, 0.896);
+@define-color box_shadow_light_color #ffffff;
+
+/********************************************/
+/* Frame colors */
+/********************************************/
+@define-color frame_light_color #ffffff; /* this is always #ffffff */
+@define-color frame_groove_color shade(@theme_bg_color, 1.065);
+
+/*******************************************/
+/* Check/radio button colors */
+/*******************************************/
+@define-color check_button_border shade(@theme_bg_color, 0.4);
+@define-color check_active_border #b4b4b4; /* no idea where the GTK2 theme gets this color */
+
+/* Text color for entry:disabled */
+@define-color entry_disabled_text #757575; /* this is always #757575 */

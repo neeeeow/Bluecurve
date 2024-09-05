@@ -84,7 +84,7 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	padding: 0px;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 /* Menu bar button:checked definitions */
@@ -94,7 +94,7 @@ PanelToplevel.vertical.right > grid {
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 /* Menu bar button:hover:not(:active) definitions */
@@ -104,7 +104,7 @@ PanelToplevel.vertical.right > grid {
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 /* Inactive menu bar button hover definitions */
@@ -115,7 +115,7 @@ PanelToplevel.vertical.right > grid {
 .mate-panel-menu-bar #PanelApplet button.toggle:hover:active,
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
 .mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 /******************************************/
@@ -127,27 +127,27 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	padding: 0px 3px 0px 3px;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 #PanelApplet > #showdesktop-button:checked image,
 #PanelApplet > #showdesktop-button.toggle:checked image {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 #PanelApplet > #showdesktop-button:hover image,
 #PanelApplet > #showdesktop-button.toggle:hover image {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 #PanelApplet > #showdesktop-button:checked:hover image,
 #PanelApplet > #showdesktop-button.toggle:checked:hover image,
 #PanelApplet > #showdesktop-button.toggle:hover:active image {
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 /******************************************/
@@ -163,17 +163,17 @@ PanelToplevel.vertical.right > grid {
 #PanelApplet > #clock-applet-button.flat.toggle:hover {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @theme_base_color, inset -1px -1px @button_box_shadow_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 #PanelApplet > #clock-applet-button.flat.toggle:checked {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 #PanelApplet > #clock-applet-button.flat.toggle:checked:hover {
-	box-shadow: inset 1px 1px @button_box_shadow_color, inset -1px -1px @theme_base_color;
+	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 
