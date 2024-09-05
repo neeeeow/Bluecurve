@@ -1061,7 +1061,7 @@ radio, radio:hover, radio:selected, radio:selected:focus {
 	min-height: 7px;
 	background-color: @theme_selected_fg_color;
 	border: 1px solid @check_button_border;
-	border-radius: 6px;
+	border-radius: 50%;
 	box-shadow: inset 1px 1px @entry_shadow_color;
 }
 

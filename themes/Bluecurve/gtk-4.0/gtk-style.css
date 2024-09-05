@@ -1067,7 +1067,7 @@ checkbutton:focus label {
 }
 
 check {
-	margin: 4px;
+	margin: 3px;
 	padding: 0px;
 	min-width: 9px;
 	min-height: 9px;
@@ -1083,7 +1083,7 @@ check:hover {
 	box-shadow: inset 4px 4px @entry_shadow_color, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @prelight_color, inset -1px -1px @prelight_color;
 }
 
-check:active {
+check:active, check:active:focus {
 	background-color: @darker_color;
 	box-shadow: inset 4px 4px @check_active_border, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @theme_bg_color, inset -1px -1px @theme_bg_color;
 }
@@ -1093,25 +1093,70 @@ check:active:focus {
 }
 
 radio {
-	margin: 4px;
-	padding: 2px;
+	margin: 3px;
 	min-width: 7px;
 	min-height: 7px;
 	background-color: @theme_selected_fg_color;
-	border: 1px solid @check_button_border;
-	border-radius: 6px;
-	box-shadow: inset 1px 1px @entry_shadow_color;
+	border-radius: 50%;
+	box-shadow: /* stupid fix for radio button -> todo: improve this */
+		inset 0px 3px @entry_shadow_color,
+		inset 3px 0px @entry_shadow_color,
+		inset 0px 2px @check_button_border,
+		inset 2px 0px @check_button_border,
+		inset -2px 0px @check_button_border,
+		inset 0px -2px @check_button_border,
+		inset 0px 1px @theme_bg_color,
+		inset 1px 0px @theme_bg_color,
+		inset -1px 0px @theme_bg_color,
+		inset 0px -1px @theme_bg_color;
 }
 
 radio:checked {
 	-gtk-icon-source: url("img/radio.png");
 }
 
-radio:active, radio:active:focus {
-	background-color: @darker_color;
-	box-shadow: inset 1px 1px @check_active_border;
+radio:hover {
+	box-shadow:
+		inset 0px 3px @entry_shadow_color,
+		inset 3px 0px @entry_shadow_color,
+		inset 0px 2px @check_button_border,
+		inset 2px 0px @check_button_border,
+		inset -2px 0px @check_button_border,
+		inset 0px -2px @check_button_border,
+		inset 0px 1px @prelight_color,
+		inset 1px 0px @prelight_color,
+		inset -1px 0px @prelight_color,
+		inset 0px -1px @prelight_color;
 }
 
+radio:active {
+	background-color: @darker_color;
+	box-shadow:
+		inset 0px 3px @check_active_border,
+		inset 3px 0px @check_active_border,
+		inset 0px 2px @check_button_border,
+		inset 2px 0px @check_button_border,
+		inset -2px 0px @check_button_border,
+		inset 0px -2px @check_button_border,
+		inset 0px 1px @theme_bg_color,
+		inset 1px 0px @theme_bg_color,
+		inset -1px 0px @theme_bg_color,
+		inset 0px -1px @theme_bg_color;
+}
+
+radio:active:focus {
+	box-shadow:
+		inset 0px 3px @check_active_border,
+		inset 3px 0px @check_active_border,
+		inset 0px 2px @check_button_border,
+		inset 2px 0px @check_button_border,
+		inset -2px 0px @check_button_border,
+		inset 0px -2px @check_button_border,
+		inset 0px 1px @prelight_color,
+		inset 1px 0px @prelight_color,
+		inset -1px 0px @prelight_color,
+		inset 0px -1px @prelight_color;
+}
 
 /* check and radio in menu */
 item check, item radio, item check:hover, item radio:hover {
