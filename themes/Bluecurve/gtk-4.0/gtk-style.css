@@ -75,11 +75,12 @@
 
 :selected, selection {
 	background-color: @theme_unfocused_selected_bg_color;
-	color: @theme_selected_fg_color;
+	color: @text_active_color;
 }
 
 *:selected:focus, selection:focus {
 	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
 }
 
 *:disabled {

@@ -50,6 +50,7 @@
 @define-color insensitive_bg_color #ccb3b3; /* bg[INSENSITIVE] */
 @define-color insensitive_fg_color #996666; /* fg[INSENSITIVE] */
 @define-color insensitive_base_color #b3b3b3; /* base[INSENSITIVE] */
+@define-color text_active_color #333333; /* text[ACTIVE] */
 @define-color warning_color #f57900;
 @define-color error_color #cc0000;
 @define-color success_color #73d216;
