@@ -70,6 +70,14 @@
 }
 
 /**********************************************/
+/* Items with a transparent background */
+/**********************************************/
+
+dialog box.dialog-vbox {
+	background: transparent;
+}
+
+/**********************************************/
 /* Global selection and disabled colors */
 /**********************************************/
 

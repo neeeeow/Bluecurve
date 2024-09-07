@@ -72,6 +72,11 @@ PanelToplevel.vertical.right > grid {
 	border-color: @medium_border_color;
 }
 
+/* Classic icon style */
+.mate-panel-menu-bar {
+	-PanelMenuBar-icon-visible: true;
+}
+
 /*********************************************/
 /* Panel buttons */
 /*********************************************/
@@ -176,6 +181,58 @@ PanelToplevel.vertical.right > grid {
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
+/******************************************/
+/*   Popup window    */
+/******************************************/
+
+#MatePanelPopupWindow expander {
+	border-style: none;
+}
+
+/* Weird, this sets the border color of the clockmap */
+#MatePanelPopupWindow > frame > box > box > box > widget {
+	color: @border_color;
+}
+
+/******************************************/
+/*   Slider applet    */
+/******************************************/
+
+.mate-panel-applet-slider {
+	background: transparent;
+}
+
+.mate-panel-applet-slider frame {
+	background-color: @theme_bg_color;
+	border-image: none;
+	border: 1px solid @border_color;
+	border-radius:0px;
+	padding: 0px;
+	margin: 0px;
+}
+
+.mate-panel-applet-slider frame frame {
+	background-color:transparent;
+	border-style: none;
+	box-shadow: none;
+}
+
+.mate-panel-applet-slider frame button {
+	color: @theme_fg_color;
+}
+
+/******************************************/
+/*   Lock screen    */
+/******************************************/
+
+.lock-dialog frame {
+	background-color: @theme_bg_color;
+	border-image: none;
+	border: 1px solid @border_color;
+	padding: 0px;
+	margin: 0px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+}
 
 /* Set workspace switcher accent color */
 PanelApplet.wnck-applet .wnck-pager:selected {
