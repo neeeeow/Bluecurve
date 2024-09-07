@@ -65,7 +65,7 @@
 /* Items with grey background */
 /**********************************************/
 
-.background, .dialog-vbox, .app-notification, paned  {
+.background, .app-notification, paned  {
 	background-color: @theme_bg_color;
 }
 
