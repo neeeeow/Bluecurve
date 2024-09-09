@@ -81,45 +81,32 @@ PanelToplevel.vertical.right > grid {
 /* Panel buttons */
 /*********************************************/
 
-/* Menu bar button - use "button" style from gtk-style.css */
-.mate-panel-menu-bar #PanelApplet button,
-.mate-panel-menu-bar #PanelApplet button.flat,
-.mate-panel-menu-bar #PanelApplet button.toggle,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle {
+.mate-panel-menu-bar #tasklist-button,
+#PanelApplet > #showdesktop-button.toggle image {
 	background-color: @theme_bg_color;
 	padding: 0px;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
-/* Menu bar button:checked definitions */
-.mate-panel-menu-bar #PanelApplet button:checked,
-.mate-panel-menu-bar #PanelApplet button.flat:checked,
-.mate-panel-menu-bar #PanelApplet button.toggle:checked,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked {
+.mate-panel-menu-bar #tasklist-button:checked,
+#PanelApplet > #showdesktop-button.toggle:checked image {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
-/* Menu bar button:hover:not(:active) definitions */
-.mate-panel-menu-bar #PanelApplet button:hover,
-.mate-panel-menu-bar #PanelApplet button.flat:hover,
-.mate-panel-menu-bar #PanelApplet button.toggle:hover,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover {
+.mate-panel-menu-bar #tasklist-button:hover,
+#PanelApplet > #showdesktop-button.toggle:hover image {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
-/* Inactive menu bar button hover definitions */
-.mate-panel-menu-bar #PanelApplet button:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.flat:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.flat:hover:active,
-.mate-panel-menu-bar #PanelApplet button.toggle:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.toggle:hover:active,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:checked:hover,
-.mate-panel-menu-bar #PanelApplet button.flat.toggle:hover:active {
+.mate-panel-menu-bar #tasklist-button:checked:hover,
+.mate-panel-menu-bar #tasklist-button.toggle:hover:active,
+#PanelApplet > #showdesktop-button.toggle:checked:hover image,
+#PanelApplet > #showdesktop-button.toggle:hover:active image {
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
@@ -129,56 +116,7 @@ PanelToplevel.vertical.right > grid {
 
 #PanelApplet > #showdesktop-button image,
 #PanelApplet > #showdesktop-button.toggle image {
-	background-color: @theme_bg_color;
 	padding: 0px 3px 0px 3px;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
-}
-
-#PanelApplet > #showdesktop-button:checked image,
-#PanelApplet > #showdesktop-button.toggle:checked image {
-	background-color: @darker_color;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
-}
-
-#PanelApplet > #showdesktop-button:hover image,
-#PanelApplet > #showdesktop-button.toggle:hover image {
-	background-color: @prelight_color;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
-}
-
-#PanelApplet > #showdesktop-button:checked:hover image,
-#PanelApplet > #showdesktop-button.toggle:checked:hover image,
-#PanelApplet > #showdesktop-button.toggle:hover:active image {
-	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
-}
-
-/******************************************/
-/*   Clock applet    */
-/*****************************************/
-
-#PanelApplet > #clock-applet-button.flat.toggle {
-	background-color: transparent;
-	border: 1px solid transparent;
-	box-shadow: none;
-}
-
-#PanelApplet > #clock-applet-button.flat.toggle:hover {
-	background-color: @prelight_color;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
-}
-
-#PanelApplet > #clock-applet-button.flat.toggle:checked {
-	background-color: @darker_color;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
-}
-
-#PanelApplet > #clock-applet-button.flat.toggle:checked:hover {
-	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
 /******************************************/
@@ -219,6 +157,32 @@ PanelToplevel.vertical.right > grid {
 
 .mate-panel-applet-slider frame button {
 	color: @theme_fg_color;
+}
+
+/******************************************/
+/*   Brisk menu     */
+/******************************************/
+
+.brisk-menu > box {
+	border: 1px solid @border_color;
+	padding: 5px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+}
+
+.brisk-menu > box > entry {
+	margin-bottom: 3px;
+}
+
+.brisk-menu > box > .horizontal > .vertical {
+	padding: 5px;
+	border: 1px solid @trough_bg_color;
+	margin-right: 3px;
+	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
+}
+
+.brisk-menu > box > .horizontal > .vertical > scrolledwindow {
+	border: none;
+	box-shadow: none;
 }
 
 /******************************************/
