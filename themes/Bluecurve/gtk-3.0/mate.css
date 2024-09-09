@@ -160,6 +160,29 @@ PanelToplevel.vertical.right > grid {
 }
 
 /******************************************/
+/*   Advanced MATE menu    */
+/******************************************/
+
+#mate-menu {
+	border: 1px solid @border_color;
+}
+
+#mate-menu > widget > .horizontal {
+	padding: 5px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+}
+
+#mate-menu scrolledwindow {
+	padding: 5px;
+	border: 1px solid @trough_bg_color;
+	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
+}
+
+#mate-menu entry {
+	margin: 3px 0px;
+}
+
+/******************************************/
 /*   Brisk menu     */
 /******************************************/
 
