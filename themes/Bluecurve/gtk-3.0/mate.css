@@ -123,6 +123,13 @@ PanelToplevel.vertical.right > grid {
 /*   Popup window    */
 /******************************************/
 
+#MatePanelPopupWindow {
+	background-color: @theme_bg_color;
+	border-image: none;
+	border: 1px solid @border_color;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+}
+
 #MatePanelPopupWindow expander {
 	border-style: none;
 }
