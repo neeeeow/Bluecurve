@@ -144,9 +144,7 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	border-image: none;
 	border: 1px solid @border_color;
-	border-radius:0px;
-	padding: 0px;
-	margin: 0px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
 }
 
 .mate-panel-applet-slider frame frame {
