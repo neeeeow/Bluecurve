@@ -1012,9 +1012,9 @@ separator {
 
 menu separator, popover separator {
 	margin: 4px 6px 6px 6px;
-	padding: 0px;
-	border-top: 1px solid @separator_darker_color;
-	border-bottom: 1px solid @theme_selected_fg_color;
+	padding: 1px 0px 1px 0px;
+	border: none;
+	box-shadow: inset 0px 1px @separator_darker_color, inset 0px -1px @theme_selected_fg_color;
 }
 
 paned.vertical > separator {
