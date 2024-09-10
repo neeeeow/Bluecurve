@@ -749,9 +749,19 @@ notebook > header.top tab:first-child {
 }
 
 notebook > header.top tab:checked {
-	border-bottom: 0px;
 	margin-top: -1px;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px 0 @box_shadow_dark_color;
+	border-image: linear-gradient(
+		to bottom, 
+		@darker_border_color calc(100% - 1px), /* The gradient starts from here to account for the border */
+		transparent calc(100% - 1px) /* The gradient ends 2 pixels from the bottom */
+	) 1;
+}
+
+notebook > header.top tab:first-child:checked {
+	margin-left: 0px;
+	border-left: 0px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px 0 @box_shadow_dark_color, -1px 0px @darker_border_color;
 }
 
 notebook.frame > header.top tab:checked {
@@ -779,6 +789,17 @@ notebook > header.bottom tab:checked {
 	border-top: 0;
 	margin-bottom: -1px;
 	box-shadow: inset 1px 0 @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	border-image: linear-gradient(
+		to top, 
+		@darker_border_color calc(100% - 2px), /* The gradient starts from here to account for the border */
+		transparent calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+	) 1;
+}
+
+notebook > header.bottom tab:first-child:checked {
+	margin-left: 0px;
+	border-left: 0px;
+	box-shadow: inset 1px 0 @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color, -1px 0px @darker_border_color;
 }
 
 notebook.frame > header.bottom tab:checked {
@@ -806,6 +827,17 @@ notebook > header.left tab:checked {
 	border-right: 0;
 	margin-left: -1px;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset 0 -1px @box_shadow_dark_color;
+	border-image: linear-gradient(
+		to right, 
+		@darker_border_color calc(100% - 2px), /* The gradient starts from here to account for the border */
+		transparent calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+	) 1;
+}
+
+notebook > header.left tab:first-child:checked {
+	margin-top: 0px;
+	border-top: 0px;
+	box-shadow: inset 1px 1px @box_shadow_light_color, inset 0 -1px @box_shadow_dark_color, 0px -1px @darker_border_color;
 }
 
 notebook.frame > header.left tab:checked {
@@ -832,6 +864,17 @@ notebook > header.right tab:checked {
 	border-left: 0;
 	margin-right: -1px;
 	box-shadow: inset 0 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	border-image: linear-gradient(
+		to left, 
+		@darker_border_color calc(100% - 3px), /* The gradient starts from here to account for the border */
+		transparent calc(100% - 3px) /* The gradient ends 2 pixels from the bottom */
+	) 1;
+}
+
+notebook > header.right tab:first-child:checked {
+	margin-top: 0px;
+	border-top: 0px;
+	box-shadow: inset 0 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color, 0px -1px @darker_border_color;
 }
 
 notebook.frame > header.right tab:checked {
