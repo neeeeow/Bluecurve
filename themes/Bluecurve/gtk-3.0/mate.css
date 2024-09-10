@@ -110,6 +110,23 @@ PanelToplevel.vertical.right > grid {
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
+/*****************************************/
+/*  Tasklist button padding  */
+/*****************************************/
+
+#tasklist-button box {
+	margin-right: 49px;
+}
+
+#tasklist-button label {
+	margin-right: -49px;
+	margin-left: -3px;
+}
+
+#tasklist-button image {
+	margin-left: -1px;
+}
+
 /******************************************/
 /* Show desktop button applet             */
 /******************************************/
