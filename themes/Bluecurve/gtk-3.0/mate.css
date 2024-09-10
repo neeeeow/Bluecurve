@@ -86,7 +86,7 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	padding: 0px;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 .mate-panel-menu-bar #tasklist-button:checked,
@@ -127,7 +127,7 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	border-image: none;
 	border: 1px solid @border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 #MatePanelPopupWindow expander {
@@ -151,7 +151,7 @@ PanelToplevel.vertical.right > grid {
 	background-color: @theme_bg_color;
 	border-image: none;
 	border: 1px solid @border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 .mate-panel-applet-slider frame frame {
@@ -174,7 +174,7 @@ PanelToplevel.vertical.right > grid {
 
 #mate-menu > widget > .horizontal {
 	padding: 5px;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 #mate-menu scrolledwindow {
@@ -194,7 +194,7 @@ PanelToplevel.vertical.right > grid {
 .brisk-menu > box {
 	border: 1px solid @border_color;
 	padding: 5px;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 .brisk-menu > box > entry {
@@ -223,7 +223,7 @@ PanelToplevel.vertical.right > grid {
 	border: 1px solid @border_color;
 	padding: 0px;
 	margin: 0px;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 /* Set workspace switcher accent color */
