@@ -56,11 +56,6 @@
 	background-color: @insensitive_bg_color;
 }
 
-.view rubberband, .view .rubberband {
-	background-color: alpha (@theme_selected_bg_color, 0.75);
-	border: 1px solid @theme_selected_bg_color;
-}
-
 /**********************************************/
 /* Items with grey background */
 /**********************************************/
@@ -100,6 +95,18 @@ text:disabled,
 label:disabled {
 	color: @insensitive_fg_color;
 	text-shadow: @theme_selected_fg_color 1px 1px;
+}
+
+/**********************************************/
+/* Rubberbands */
+/**********************************************/
+
+.view.rubberband,
+.rubberband,
+view rubberband,
+rubberband {
+	background-color: alpha (@theme_selected_bg_color, 0.25);
+	border: 1px solid @theme_selected_bg_color;
 }
 
 /**********************************************/
