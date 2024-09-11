@@ -573,8 +573,8 @@ progressbar.vertical progress, levelbar.vertical block.filled {
 	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 	background: linear-gradient(
 		to right, 
-		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
-		@progressbar_bottom_color calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
+		@progressbar_bottom_color calc(100% - 0.75px) /* The gradient ends 0.75 pixels from the bottom */
 	);
 }
 
@@ -583,8 +583,8 @@ progressbar.horizontal progress, levelbar.horizontal block.filled {
 	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
 	background: linear-gradient(
 		to bottom, 
-		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
-		@progressbar_bottom_color calc(100% - 2px) /* The gradient ends 2 pixels from the bottom */
+		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
+		@progressbar_bottom_color calc(100% - 0.75px) /* The gradient ends 0.75 pixels from the bottom */
 	);
 }
 
