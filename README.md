@@ -119,4 +119,4 @@ sudo plymouth-set-default-theme -R rhgb-fc1
 > If `plymouth-set-default-theme` does not work, you might need to install the appropriate Plymouth script. On Fedora, install the package `plymouth-plugin-script`.
 
 ## Contributing
-Contributors are more than welcome! If you run in to an issue, please report the issue on GitHub. Additionally, if you are able to resolve the issue yourself, please send a pull request. Any code that you write must follow the contributing guidelines.
+Contributors are more than welcome! If you would like to contribute, first read the [contributing guidelines](https://github.com/neeeeow/Bluecurve/blob/master/CONTRIBUTING.md).
