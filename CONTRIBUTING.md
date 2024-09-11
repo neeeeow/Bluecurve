@@ -19,7 +19,7 @@ If you have found a bug and have been able to fix it yourself or wish to impleme
     - The shade values should come from the Bluecurve [GTK 2 engine source code](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Everything/source/tree/Packages/b/bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm).
 - Ensure that there are no profanities or otherwise inappropriate language in the comments.
 - When submitting your pull request, ensure that you describe the issue that you've resolved or the feature that you've added. Include before/after screenshots if possible.
-### Guidelines for package maintainers.
+### Guidelines for package maintainers
 - When packaging the theme, ensure that it is installed system-wide.
 - The following files should be installed to the corresponding directories (although this may vary depending on your distribution).
   - The GTK 2 engine should be installed to `/usr/lib64/gtk-2.0/2.10.0/engines/` for x86_64 Linux and `/usr/lib/gtk-2.0/2.10.0/engines/` for i686 Linux.
