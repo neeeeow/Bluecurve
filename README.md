@@ -27,6 +27,7 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 
 ## Installation
 ### 1. Download the theme
+
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
 git clone https://github.com/neeeeow/Bluecurve.git
@@ -34,57 +35,62 @@ cd Bluecurve
 ```
 > [!CAUTION]
 > You must either download the latest release or clone the git repository. Simply downloading the repository as a .zip file breaks permissions!
+
 ### 2. Install GTK 2 engine (required)
 If on x86_64, copy `engine/x86_64/libbluecurve.so` to `/usr/lib64/gtk-2.0/2.10.0/engines`
 ```bash
-sudo cp engine/x86_64/libbluecurve.so /usr/lib64/gtk-2.0/2.10.0/engines
+./install.sh
 ```
-If on i686, copy `engine/i686/libbluecurve.so` to `/usr/lib/gtk-2.0/2.10.0/engines`
+### Other distributions (manual installation)
+#### 1. Download the theme
+Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
-sudo cp engine/i686/libbluecurve.so /usr/lib/gtk-2.0/2.10.0/engines
+git clone https://github.com/neeeeow/Bluecurve.git
+cd Bluecurve
+```
+#### 2. Install GTK 2 engine (required)
+If on x86_64, copy `engine/x86_64/libbluecurve.so` to `~/.gtk-2.0/engines`
+```bash
+cp engine/x86_64/libbluecurve.so ~/.gtk-2.0/engines
+```
+If on i686, copy `engine/i686/libbluecurve.so` to `~/.gtk-2.0/engines`
+```bash
+cp engine/i686/libbluecurve.so ~/.gtk-2.0/engines
 ```
 > [!TIP]
-> If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -a`. You are most likely using a x86_64 installation. If you are using an architecture other than i686 or x86_64, you will have to compile the GTK 2 engine yourself.
+> If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -m`. You are most likely using a x86_64 installation. If you are using an architecture other than i686 or x86_64, you will have to compile the GTK 2 engine yourself and copy it to ~/gtk-2.0/engines
 
 ### 3. Install icon and cursor set
 Copy the contents of the `icons` folder to `/usr/share/icons`
 ```bash
-sudo cp -r icons/* /usr/share/icons
+cp -r icons/* ~/.icons
 ```
 ### 4. Install theme
 Copy the contents of the `themes` folder to `/usr/share/themes`
-```bash
-sudo cp -r themes/* /usr/share/themes
-```
-### (Optional) 5. Install Plymouth themes
-Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5. Themes `rhgb-fc1`, `rhgb-rhel4` and `rhgb-centos4` require the font "Luxi Sans" to be installed (if not installed see step 6 below).
 
-| Folder name  | Theme |
-| ------------- | ------------- |
-| rhgb-fc1  | Fedora Core 1-3 Plymouth theme |
-| rhgb-rhel4  | RHEL 4 Plymouth theme |
-| rhgb-centos4  | CentOS 4 Plymouth theme |
-| rhgb-rhel5  | RHEL 5 Plymouth theme |
+```bash
+cp -r themes/* ~/.themes
+```
 
-To install the theme first copy the desired theme (or all of them!) to `/usr/share/plymouth/themes`. Using `rhgb-fc1` as an example:
-```bash
-sudo cp -r plymouth/rhgb-fc1 /usr/share/plymouth/themes
-```
-Then simply enable the Plymouth theme
-```bash
-sudo plymouth-set-default-theme -R rhgb-fc1
-```
-### (Optional) 6. Install Luxi fonts
+### (Optional) 5. Install Luxi fonts
 > [!WARNING]
 > Only do this step if your distribution doesn't include the Luxi font family.
 
-First create the directory `/usr/local/share/fonts` if it doesn't exist.
+First create the directory `~/.local/share/fonts` if it doesn't exist:
 ```bash
-sudo mkdir /usr/local/share/fonts
+mkdir ~/.local/share/fonts
 ```
-Next, copy the fonts to the directory.
+Next, copy the fonts to the directory:
 ```bash
-sudo cp fonts/*.ttf /usr/local/share/fonts
+cp fonts/*.ttf ~/.local/share/fonts
+```
+
+#### (Optional) 5. Install Plymouth themes
+Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5. Themes `rhgb-fc1`, `rhgb-rhel4` and `rhgb-centos4` require the font "Luxi Sans" to be installed (if not installed see step 5 above).
+
+Copy the Plymouth themes to `/usr/share/plymouth/themes`
+```bash
+sudo cp -r plymouth/* /usr/share/plymouth/themes
 ```
 
 ## Hints
@@ -93,3 +99,24 @@ Simply execute the following command:
 ```bash
 gsettings set org.mate.panel.menubar icon-name 'redhat-icon-panel-menu'
 ```
+
+### Enable Plymouth themes
+The following Plymouth themes are included: 
+
+| Folder name  | Theme |
+| ------------- | ------------- |
+| rhgb-fc1  | Fedora Core 1-3 Plymouth theme |
+| rhgb-rhel4  | RHEL 4 Plymouth theme |
+| rhgb-centos4  | CentOS 4 Plymouth theme |
+| rhgb-rhel5  | RHEL 5 Plymouth theme |
+
+If you installed the Plymouth themes, you need to enable the desired theme using the `plymouth-set-default-theme` command. Using `rhgb-fc1` as an example:
+```bash
+sudo plymouth-set-default-theme -R rhgb-fc1
+```
+
+> [!IMPORTANT]
+> If `plymouth-set-default-theme` does not work, you might need to install the appropriate Plymouth script. On Fedora, install the package `plymouth-plugin-script`.
+
+## Contributing
+Contributors are more than welcome! If you run in to an issue, please report the issue on GitHub. Additionally, if you are able to resolve the issue yourself, please send a pull request. Any code that you write must follow the contributing guidelines.
