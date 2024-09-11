@@ -26,7 +26,13 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
 
 ## Installation
-### 1. Download the theme
+
+### OpenSUSE
+There is a package for OpenSUSE Tumbleweed and Leap maintained by [vyvir](https://github.com/vyvir). Follow the "Add repository and install manually" instructions [here.](https://software.opensuse.org//download.html?project=home%3Aasdhio&package=Bluecurve)
+
+### Other distributions
+
+#### 1. Download the theme
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
 git clone https://github.com/neeeeow/Bluecurve.git
@@ -34,7 +40,7 @@ cd Bluecurve
 ```
 > [!CAUTION]
 > You must either download the latest release or clone the git repository. Simply downloading the repository as a .zip file breaks permissions!
-### 2. Install GTK 2 engine (required)
+#### 2. Install GTK 2 engine (required)
 If on x86_64, copy `engine/x86_64/libbluecurve.so` to `/usr/lib64/gtk-2.0/2.10.0/engines`
 ```bash
 sudo cp engine/x86_64/libbluecurve.so /usr/lib64/gtk-2.0/2.10.0/engines
@@ -46,17 +52,17 @@ sudo cp engine/i686/libbluecurve.so /usr/lib/gtk-2.0/2.10.0/engines
 > [!TIP]
 > If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -a`. You are most likely using a x86_64 installation. If you are using an architecture other than i686 or x86_64, you will have to compile the GTK 2 engine yourself.
 
-### 3. Install icon and cursor set
+#### 3. Install icon and cursor set
 Copy the contents of the `icons` folder to `/usr/share/icons`
 ```bash
 sudo cp -r icons/* /usr/share/icons
 ```
-### 4. Install theme
+#### 4. Install theme
 Copy the contents of the `themes` folder to `/usr/share/themes`
 ```bash
 sudo cp -r themes/* /usr/share/themes
 ```
-### (Optional) 5. Install Plymouth themes
+#### (Optional) 5. Install Plymouth themes
 Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5. Themes `rhgb-fc1`, `rhgb-rhel4` and `rhgb-centos4` require the font "Luxi Sans" to be installed (if not installed see step 6 below).
 
 | Folder name  | Theme |
@@ -74,7 +80,7 @@ Then simply enable the Plymouth theme
 ```bash
 sudo plymouth-set-default-theme -R rhgb-fc1
 ```
-### (Optional) 6. Install Luxi fonts
+#### (Optional) 6. Install Luxi fonts
 > [!WARNING]
 > Only do this step if your distribution doesn't include the Luxi font family.
 
