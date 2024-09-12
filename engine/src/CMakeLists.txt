@@ -13,7 +13,7 @@ pkg_check_modules(GTK2 gtk+-2.0)
 
 # Custom error message if GTK 2 is not found
 if (NOT GTK2_FOUND)
-    message(FATAL_ERROR "GTK 2 development libraries were not found. Please install GTK 2 development packages.")
+	message(FATAL_ERROR "GTK 2 development libraries were not found. Please install GTK 2 development packages.")
 endif()
 
 # Include directories for GTK
@@ -24,11 +24,11 @@ add_compile_options(${GTK2_CFLAGS_OTHER})
 
 # Source files for the engine
 set(SOURCE_FILES
-    bits.c
-    bluecurve_rc_style.c
-    bluecurve_style.c
-    bluecurve_theme_main.c
-    extract-alpha.c
+	bits.c
+	bluecurve_rc_style.c
+	bluecurve_style.c
+	bluecurve_theme_main.c
+	extract-alpha.c
 )
 
 # Create the shared library (.so)
