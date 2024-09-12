@@ -129,5 +129,17 @@ sudo plymouth-set-default-theme -R rhgb-fc1
 > [!IMPORTANT]
 > If `plymouth-set-default-theme` does not work, you might need to install the appropriate Plymouth script. On Fedora, install the package `plymouth-plugin-script`.
 
+### Compile & install GTK 2 engine system-wide
+If you wish to compile & install the GTK 2 engine system-wide, simply enable the `INSTALL_SYSTEM_WIDE` flag when compiling the engine.
+
+**Instructions:**
+```bash
+cd engine/src
+mkdir build && cd build
+cmake -DINSTALL_SYSTEM_WIDE=ON ..
+make
+sudo make install
+```
+
 ## Contributing
 Contributors are more than welcome! If you would like to contribute, first read the [contributing guidelines](https://github.com/neeeeow/Bluecurve/blob/master/CONTRIBUTING.md).
