@@ -13,7 +13,7 @@ user_input=${user_input:-N}
 
 if ! [[ "$user_input" =~ ^[Yy]$ ]]; then
 	echo "Exiting."
-    exit 1
+	exit 1
 fi
 
 function compile_engine {
@@ -34,7 +34,7 @@ if [ "$ARCH" = "x86_64" ] || [ "$ARCH" = "i686" ] || [ "$ARCH" = "i386" ]; then
 	user_input=${user_input:-Y}
 
 	if [[ "$user_input" =~ ^[Yy]$ ]]; then
-		echo "Installing GTK 2 engine"
+		echo "Installing GTK 2 engine..."
     	mkdir -p ~/.gtk-2.0/engines
 		
 		if [ "$ARCH" = "x86_64" ]; then
@@ -50,7 +50,7 @@ if [ "$ARCH" = "x86_64" ] || [ "$ARCH" = "i686" ] || [ "$ARCH" = "i386" ]; then
 else
 	# If user is running something other than x86_64 or i686, they have to manually compile the theme
 	echo "Compiling GTK 2 engine..."
-    compile_engine
+	compile_engine
 fi
 
 # Copy icon set
@@ -69,8 +69,8 @@ read -p "Install the Luxi font family? (only do this if your distribution does n
 user_input=${user_input:-N}
 
 if [[ "$user_input" =~ ^[Yy]$ ]]; then
-    echo "Installing the Luxi font family..."
-    mkdir -p ~/.local/share/fonts
+	echo "Installing the Luxi font family..."
+	mkdir -p ~/.local/share/fonts
 	cp fonts/*.ttf ~/.local/share/fonts
 fi
 
@@ -80,8 +80,8 @@ read -p "Install the Red Hat Graphical Boot plymouth port? (root required) (y/N)
 user_input=${user_input:-N}
 
 if [[ "$user_input" =~ ^[Yy]$ ]]; then
-    echo "Installing plymouth themes..."
-    sudo cp -r plymouth/* /usr/share/plymouth/themes
+	echo "Installing plymouth themes..."
+	sudo cp -r plymouth/* /usr/share/plymouth/themes
 	echo "To enable the plymouth themes, use the command plymouth-set-default-theme."
 	echo "For more information, see the README file at https://github.com/neeeeow/Bluecurve"
 fi
