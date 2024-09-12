@@ -68,7 +68,7 @@ cmake ..
 ```
 Finally, compile and install the GTK 2 engine (the engine is installed to `~/.gtk-2.0/engines`) and return to the repository's root directory:
 ```bash
-make && make install && cd ../../
+make && make install && cd ../../../
 ```
 
 ### 3. Install icon and cursor set
