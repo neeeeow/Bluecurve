@@ -1,0 +1,16 @@
+** INSTRUCTIONS FOR COMPILING GTK 2 ENGINE **
+
+REQUIREMENTS: cmake, gcc, GTK 2 development libraries
+
+To compile & install the GTK 2 engine locally (installs to ~/.gtk-2.0/engines), run the following commands:
+
+	mkdir build && cd build
+	cmake ..
+	make && make install
+
+To compile & install the GTK 2 engine system-wide, run the following commands (requires root privileges):
+
+	mkdir build && cd build
+	cmake -DINSTALL_SYSTEM_WIDE=ON ..
+	make
+	sudo make install
