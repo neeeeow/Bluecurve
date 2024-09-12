@@ -1293,18 +1293,64 @@ combobox entry + button {
 	padding: 3px 4px;
 }
 
-menuitem arrow, popover modelbutton arrow.right {
+item arrow, popover modelbutton arrow.right {
 	min-height: 9px;
 	min-width: 9px;
 	-gtk-icon-source: url("img/arrow-right.png");
 }
 
-menuitem:hover > arrow, popover modelbutton:hover > arrow.right {
+item:hover > arrow, popover modelbutton:hover > arrow.right {
 	-gtk-icon-source: url("img/arrow-right-hover.png");
 }
 
-menuitem:disabled > arrow {
+item:disabled > arrow {
 	-gtk-icon-source: url("img/arrow-right-disabled.png");
+}
+
+menu arrow.top,
+.menu arrow.top {
+	border: 1px solid @border_color;
+	padding: 2px 0px 3px 0px;
+
+	-gtk-icon-source: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("img/arrow-up.png");
+}
+
+menu arrow:hover.top,
+.menu arrow:hover.top {
+	background-color: @prelight_color;
+}
+
+menu arrow:disabled.top,
+.menu arrow:disabled.top {
+	background-image: url("img/arrow-up-disabled.png");
+	background-color: @insensitive_bg_color;
+}
+
+menu arrow.bottom,
+.menu arrow.bottom {
+	border: 1px solid @border_color;
+	margin: 8px 0px -8px 0px;
+	padding: 2px 0px 3px 0px;
+
+	-gtk-icon-source: none;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-image: url("img/arrow-down.png");
+	background-color: @theme_bg_color
+}
+
+menu arrow:hover.bottom,
+.menu arrow:hover.bottom {
+	background-color: @prelight_color;
+}
+
+menu arrow:disabled.bottom,
+.menu arrow:disabled.bottom {
+	background-image: url("img/arrow-down-disabled.png");
+	background-color: @insensitive_bg_color;
 }
 
 popover modelbutton arrow.left {
