@@ -17,7 +17,7 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 
 ## Contents
 - GTK 3/4 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and modified to make the theme better resemble the original GTK 2 theme and updated to support both GTK 3 and 4, as well as including all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
-- GTK 2 engine and theme, source code is provided by Red Hat / Fedora: [bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Everything/source/tree/Packages/b/bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm)
+- GTK 2 engine and theme.
 - Original Bluecurve Metacity themes updated to resolve issues arising from using old metacity themes on newer versions of MATE.
 - Original Bluecurve XFWM4 theme.
 - Bluecurve icon and cursor set.
@@ -48,17 +48,27 @@ Either [download the latest release](https://github.com/neeeeow/Bluecurve/releas
 git clone https://github.com/neeeeow/Bluecurve.git
 cd Bluecurve
 ```
-#### 2. Install GTK 2 engine (required)
-If on x86_64, copy `engine/x86_64/libbluecurve.so` to `~/.gtk-2.0/engines`
+#### 2. Compile GTK 2 engine
+First ensure that you have the following installed on your system:
+- Cmake
+- gcc
+- GTK 2 development libraries
+Then navigate to the GTK 2 engine source code directory:
 ```bash
-cp engine/x86_64/libbluecurve.so ~/.gtk-2.0/engines
+cd engine/src
 ```
-If on i686, copy `engine/i686/libbluecurve.so` to `~/.gtk-2.0/engines`
+Then create the `build` folder
 ```bash
-cp engine/i686/libbluecurve.so ~/.gtk-2.0/engines
+mkdir build && cd build
 ```
-> [!TIP]
-> If unsure on whether or not your Linux installation is 32-bit (i686) or 64-bit (x86_64), run the command `uname -m`. You are most likely using a x86_64 installation. If you are using an architecture other than i686 or x86_64, you will have to compile the GTK 2 engine yourself and copy it to ~/gtk-2.0/engines
+Next run `cmake`
+```bash
+cmake ..
+```
+Finally, compile and install the GTK 2 engine (the engine is installed to `~/.gtk-2.0/engines`) and return to the repository's root directory:
+```bash
+make && make install && cd ../../
+```
 
 ### 3. Install icon and cursor set
 Copy the contents of the `icons` folder to `/usr/share/icons`

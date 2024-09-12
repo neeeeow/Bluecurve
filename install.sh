@@ -16,22 +16,41 @@ if ! [[ "$user_input" =~ ^[Yy]$ ]]; then
     exit 1
 fi
 
+function compile_engine {
+	cd engine/src
+	mkdir build && cd build
+	cmake ..
+	make && make install
+	cd "$SCRIPT_DIR"
+}
+
 ARCH=$(uname -m)
 
 # Copy the GTK 2 engine to the appropriate directory
-if [ "$ARCH" = "x86_64" ]; then
-    echo "Installing GTK 2 engine..."
-	mkdir -p ~/.gtk-2.0/engines
-	cp engine/x86_64/libbluecurve.so ~/.gtk-2.0/engines
-elif [ "$ARCH" = "i686" ] || [ "$ARCH" = "i386" ]; then
-    echo "Installing GTK 2 engine..."
-	mkdir -p ~/.gtk-2.0/engines
-	cp engine/i686/libbluecurve.so ~/.gtk-2.0/engines
+if [ "$ARCH" = "x86_64" ] || [ "$ARCH" = "i686" ] || [ "$ARCH" = "i386" ]; then
+	read -p "Install pre-compiled GTK 2 engine? Select no if you wish to manually compile the engine (Y/n): " user_input
+
+	# Default to 'N' if the input is empty
+	user_input=${user_input:-Y}
+
+	if [[ "$user_input" =~ ^[Yy]$ ]]; then
+		echo "Installing GTK 2 engine"
+    	mkdir -p ~/.gtk-2.0/engines
+		
+		if [ "$ARCH" = "x86_64" ]; then
+			cp engine/x86_64/libbluecurve.so ~/.gtk-2.0/engines
+		else
+			cp engine/i686/libbluecurve.so ~/.gtk-2.0/engines
+		fi
+	else
+		echo "Compiling GTK 2 engine..."
+		compile_engine		
+	fi
+
 else
 	# If user is running something other than x86_64 or i686, they have to manually compile the theme
-    echo "Unsupported architecture: $ARCH . You will have to manually compile the GTK 2 engine and copy it to ~/.gtk-2.0/engines"
-	echo "See https://github.com/neeeeow/Bluecurve for more details"
-    exit 1
+	echo "Compiling GTK 2 engine..."
+    compile_engine
 fi
 
 # Copy icon set
