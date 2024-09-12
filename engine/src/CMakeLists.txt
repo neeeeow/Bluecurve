@@ -4,6 +4,11 @@ cmake_minimum_required(VERSION 3.10)
 # Project name and version
 project(Bluecurve-GTK2-engine C)
 
+set(CMAKE_INSTALL_PREFIX "/usr")
+
+# Include the GNUInstallDirs module
+include(GNUInstallDirs)
+
 # Enable the creation of a shared library (the .so file)
 set(BUILD_SHARED_LIBS ON)
 
@@ -37,6 +42,16 @@ add_library(bluecurve SHARED ${SOURCE_FILES})
 # Link the GTK libraries
 target_link_libraries(bluecurve ${GTK2_LIBRARIES})
 
-# Install the library to the specified location
-install(TARGETS bluecurve LIBRARY DESTINATION ~/.gtk-2.0/engines)
+# Define an option to install system-wide or to the user's local directory
+option(INSTALL_SYSTEM_WIDE "Install to system-wide directory" OFF)
+
+# Set installation path based on the option
+if (INSTALL_SYSTEM_WIDE)
+    set(INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/gtk-2.0/2.10.0/engines")
+else()
+    set(INSTALL_DIR "$ENV{HOME}/.gtk-2.0/engines")
+endif()
+
+# Install the library to the chosen location
+install(TARGETS bluecurve LIBRARY DESTINATION "${INSTALL_DIR}")
 
