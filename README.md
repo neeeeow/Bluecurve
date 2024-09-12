@@ -53,6 +53,7 @@ First ensure that you have the following installed on your system:
 - Cmake
 - gcc
 - GTK 2 development libraries
+
 Then navigate to the GTK 2 engine source code directory:
 ```bash
 cd engine/src
