@@ -47,9 +47,9 @@ option(INSTALL_SYSTEM_WIDE "Install to system-wide directory" OFF)
 
 # Set installation path based on the option
 if (INSTALL_SYSTEM_WIDE)
-    set(INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/gtk-2.0/2.10.0/engines")
+	set(INSTALL_DIR "${CMAKE_INSTALL_LIBDIR}/gtk-2.0/2.10.0/engines")
 else()
-    set(INSTALL_DIR "$ENV{HOME}/.gtk-2.0/engines")
+	set(INSTALL_DIR "$ENV{HOME}/.gtk-2.0/engines")
 endif()
 
 # Install the library to the chosen location
