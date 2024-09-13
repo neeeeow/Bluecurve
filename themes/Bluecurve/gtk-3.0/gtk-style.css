@@ -1030,10 +1030,17 @@ row {
 /**********************************************/
 
 separator {
-	margin: 6px;
 	padding: 0px;
-	border-top: 1px solid @medium_border_color;
-	border-left: 1px solid @medium_border_color;
+	border-top: 1px solid @separator_darker_color; /* horizontal separator color */
+	border-left: 1px solid @medium_border_color; /* vertical separator color */
+}
+
+separator.horizontal {
+	margin: 1px 0px 1px 0px;
+}
+
+toolbar separator {
+	margin: 6px;
 }
 
 menu separator, popover separator {
