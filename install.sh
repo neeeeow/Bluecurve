@@ -30,7 +30,7 @@ ARCH=$(uname -m)
 if [ "$ARCH" = "x86_64" ] || [ "$ARCH" = "i686" ] || [ "$ARCH" = "i386" ]; then
 	read -p "Install pre-compiled GTK 2 engine? Selecting no will compile the engine instead (Y/n): " user_input
 
-	# Default to 'N' if the input is empty
+	# Default to 'Y' if the input is empty
 	user_input=${user_input:-Y}
 
 	if [[ "$user_input" =~ ^[Yy]$ ]]; then
@@ -72,18 +72,6 @@ if [[ "$user_input" =~ ^[Yy]$ ]]; then
 	echo "Installing the Luxi font family..."
 	mkdir -p ~/.local/share/fonts
 	cp fonts/*.ttf ~/.local/share/fonts
-fi
-
-read -p "Install the Red Hat Graphical Boot plymouth port? (root required) (y/N): " user_input
-
-# Default to 'N' if the input is empty
-user_input=${user_input:-N}
-
-if [[ "$user_input" =~ ^[Yy]$ ]]; then
-	echo "Installing plymouth themes..."
-	sudo cp -r plymouth/* /usr/share/plymouth/themes
-	echo "To enable the plymouth themes, use the command plymouth-set-default-theme."
-	echo "For more information, see the README file at https://github.com/neeeeow/Bluecurve"
 fi
 
 echo " "
