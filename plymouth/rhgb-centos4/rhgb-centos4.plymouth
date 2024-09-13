@@ -1,8 +1,0 @@
-[Plymouth Theme]
-Name=rhgb-centos4
-Description=Port of the CentOS 4 boot splash for Plymouth
-ModuleName=script
-
-[script]
-ImageDir=/usr/share/plymouth/themes/rhgb-centos4
-ScriptFile=/usr/share/plymouth/themes/rhgb-centos4/rhgb-centos4.script

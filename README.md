@@ -21,7 +21,6 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 - Original Bluecurve Metacity themes updated to resolve issues arising from using old metacity themes on newer versions of MATE.
 - Original Bluecurve XFWM4 theme.
 - Bluecurve icon and cursor set.
-- Port of Red Hat Graphical Boot splash screen to Plymouth (includes splash screen from Fedora Core 1-3, RHEL 4, and RHEL 5). Forked from [here.](https://www.gnome-look.org/p/1656023)
 - Luxi font family (fonts used originally in Red Hat 8-9 and early versions of Fedora and RHEL).
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
 
@@ -96,38 +95,12 @@ Next, copy the fonts to the directory:
 cp fonts/*.ttf ~/.local/share/fonts
 ```
 
-#### (Optional) 5. Install Plymouth themes
-Included in the `plymouth` folder are Plymouth ports of the RHGB boot screen used in Fedora Core 1-3 and RHEL 4/5. Themes `rhgb-fc1`, `rhgb-rhel4` and `rhgb-centos4` require the font "Luxi Sans" to be installed (if not installed see step 5 above).
-
-Copy the Plymouth themes to `/usr/share/plymouth/themes`
-```bash
-sudo cp -r plymouth/* /usr/share/plymouth/themes
-```
-
 ## Hints
 ### Use Red Hat icon in MATE menu bar
 Simply execute the following command:
 ```bash
 gsettings set org.mate.panel.menubar icon-name 'redhat-icon-panel-menu'
 ```
-
-### Enable Plymouth themes
-The following Plymouth themes are included: 
-
-| Folder name  | Theme |
-| ------------- | ------------- |
-| rhgb-fc1  | Fedora Core 1-3 Plymouth theme |
-| rhgb-rhel4  | RHEL 4 Plymouth theme |
-| rhgb-centos4  | CentOS 4 Plymouth theme |
-| rhgb-rhel5  | RHEL 5 Plymouth theme |
-
-If you installed the Plymouth themes, you need to enable the desired theme using the `plymouth-set-default-theme` command. Using `rhgb-fc1` as an example:
-```bash
-sudo plymouth-set-default-theme -R rhgb-fc1
-```
-
-> [!IMPORTANT]
-> If `plymouth-set-default-theme` does not work, you might need to install the appropriate Plymouth script. On Fedora, install the package `plymouth-plugin-script`.
 
 ### Compile & install GTK 2 engine system-wide
 If you wish to compile & install the GTK 2 engine system-wide, simply enable the `INSTALL_SYSTEM_WIDE` flag when compiling the engine.
