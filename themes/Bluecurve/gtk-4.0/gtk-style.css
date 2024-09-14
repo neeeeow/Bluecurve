@@ -157,7 +157,7 @@ window.unified {
 	border-radius: 7px 7px 0 0;
 	border-style: solid;
 	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
-	margin: 10px;
+	padding: 0px;
 }
 
 /* workaround to avoid unwanted black frames if switching compositor on/off */
@@ -177,7 +177,7 @@ backdrop {
 
 .solid-csd {
 	border-radius: 0;
-	margin: 4px;
+	padding: 4px;
 	background-color: @theme_bg_color;
 	border: solid 1px @wm_border;
 	box-shadow: none;
