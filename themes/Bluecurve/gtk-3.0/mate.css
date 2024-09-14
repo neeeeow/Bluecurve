@@ -115,12 +115,12 @@ PanelToplevel.vertical.right > grid {
 /*****************************************/
 
 #tasklist-button box {
-	margin-right: 49px;
+	margin-right: 16px;
 }
 
 #tasklist-button label {
-	margin-right: -49px;
-	margin-left: -3px;
+	margin-right: -16px;
+	margin-left: -4px;
 }
 
 #tasklist-button image {
