@@ -18,6 +18,7 @@ fi
 
 function compile_engine {
 	cd engine/src
+	rm -rf build # Remove build directory if it already exists
 	mkdir build && cd build
 	cmake ..
 	make && make install
