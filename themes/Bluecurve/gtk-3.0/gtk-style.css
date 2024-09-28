@@ -1394,6 +1394,13 @@ treeview ~ scrollbar.horizontal ~ scrollbar.vertical:dir(rtl) {
 	background: @theme_bg_color;
 }
 
+/********************************************/
+/* File selector */
+/********************************************/
+
+placessidebar label {
+	margin-left: 4px;
+}
 
 /********************************************/
 /* expander */
