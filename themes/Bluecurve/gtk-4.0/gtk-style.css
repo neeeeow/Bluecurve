@@ -1068,125 +1068,95 @@ list separator.horizontal {
 /* check, radio */
 /**********************************************/
 
-checkbutton {
+checkbutton, radiobutton {
 	outline-offset: -2px;
 }
 
-checkbutton:hover, checkbutton:active:focus {
+checkbutton:hover, checkbutton:active:focus, radiobutton:hover, radiobutton:active:focus {
 	background-color: @prelight_color;
 }
 
-checkbutton label {
-	margin: 0 0 0 -1px;
-	padding: 0 1px 0 1px;
+checkbutton label, radiobutton label {
+	margin: 0 0 0 1px;
+	padding: 0 2px 0 1px;
 	border: 1px dotted transparent;
 }
 
-checkbutton:active label {
+checkbutton:active label, radiobutton:active label {
 	color: @theme_text_color;
 }
 
-checkbutton:focus label {
+checkbutton:focus label, radiobutton:focus label {
 	border-color: @darker_border_color;
 }
 
+check, radio {
+	min-width: 16px;
+	min-height: 16px;
+	margin: 3px 0px 2px 1px;
+}
+
+check:active, check:active:focus, radio:active, radio:active:focus {
+	background:none;
+}
+
+/* Set checkbox images */
+
 check {
-	margin: 3px;
-	padding: 0px;
-	min-width: 9px;
-	min-height: 9px;
-	background-color: @theme_selected_fg_color;
-	box-shadow: inset 4px 4px @entry_shadow_color, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @theme_bg_color, inset -1px -1px @theme_bg_color;
+	-gtk-icon-source: url("img/checkbox-unchecked.png");
+}
+
+check:active {
+	-gtk-icon-source: url("img/checkbox-unchecked-active.png");
 }
 
 check:checked {
-	-gtk-icon-source: url("img/check.png");
+	-gtk-icon-source: url("img/checkbox-checked.png");
 }
 
-check:hover {
-	box-shadow: inset 4px 4px @entry_shadow_color, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @prelight_color, inset -1px -1px @prelight_color;
+check:checked:active {
+	-gtk-icon-source: url("img/checkbox-checked-active.png");
 }
 
-check:active, check:active:focus {
-	background-color: @darker_color;
-	box-shadow: inset 4px 4px @check_active_border, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @theme_bg_color, inset -1px -1px @theme_bg_color;
+check:indeterminate {
+	-gtk-icon-source: url("img/checkbox-mixed.png");
 }
 
-check:active:focus {
-	box-shadow: inset 4px 4px @check_active_border, inset 3px 3px @check_button_border, inset -2px -2px, @check_button_border, inset 2px 2px @prelight_color, inset -1px -1px @prelight_color;
+check:indeterminate:active {
+	-gtk-icon-source: url("img/checkbox-mixed-active.png");
 }
+
+/* Set radio images */
 
 radio {
-	margin: 3px;
-	min-width: 7px;
-	min-height: 7px;
-	background-color: @theme_selected_fg_color;
-	border-radius: 50%;
-	box-shadow: /* stupid fix for radio button -> todo: improve this */
-		inset 0px 3px @entry_shadow_color,
-		inset 3px 0px @entry_shadow_color,
-		inset 0px 2px @check_button_border,
-		inset 2px 0px @check_button_border,
-		inset -2px 0px @check_button_border,
-		inset 0px -2px @check_button_border,
-		inset 0px 1px @theme_bg_color,
-		inset 1px 0px @theme_bg_color,
-		inset -1px 0px @theme_bg_color,
-		inset 0px -1px @theme_bg_color;
-}
-
-radio:checked {
-	-gtk-icon-source: url("img/radio.png");
-}
-
-radio:hover {
-	box-shadow:
-		inset 0px 3px @entry_shadow_color,
-		inset 3px 0px @entry_shadow_color,
-		inset 0px 2px @check_button_border,
-		inset 2px 0px @check_button_border,
-		inset -2px 0px @check_button_border,
-		inset 0px -2px @check_button_border,
-		inset 0px 1px @prelight_color,
-		inset 1px 0px @prelight_color,
-		inset -1px 0px @prelight_color,
-		inset 0px -1px @prelight_color;
+	-gtk-icon-source: url("img/radio-unchecked.png");
 }
 
 radio:active {
-	background-color: @darker_color;
-	box-shadow:
-		inset 0px 3px @check_active_border,
-		inset 3px 0px @check_active_border,
-		inset 0px 2px @check_button_border,
-		inset 2px 0px @check_button_border,
-		inset -2px 0px @check_button_border,
-		inset 0px -2px @check_button_border,
-		inset 0px 1px @theme_bg_color,
-		inset 1px 0px @theme_bg_color,
-		inset -1px 0px @theme_bg_color,
-		inset 0px -1px @theme_bg_color;
+	-gtk-icon-source: url("img/radio-unchecked-active.png");
 }
 
-radio:active:focus {
-	box-shadow:
-		inset 0px 3px @check_active_border,
-		inset 3px 0px @check_active_border,
-		inset 0px 2px @check_button_border,
-		inset 2px 0px @check_button_border,
-		inset -2px 0px @check_button_border,
-		inset 0px -2px @check_button_border,
-		inset 0px 1px @prelight_color,
-		inset 1px 0px @prelight_color,
-		inset -1px 0px @prelight_color,
-		inset 0px -1px @prelight_color;
+radio:checked {
+	-gtk-icon-source: url("img/radio-checked.png");
+}
+
+radio:checked:active {
+	-gtk-icon-source: url("img/radio-checked-active.png");
+}
+
+radio:indeterminate {
+	-gtk-icon-source: url("img/radio-mixed.png");
+}
+
+radio:indeterminate:active {
+	-gtk-icon-source: url("img/radio-mixed-active.png");
 }
 
 /* check and radio in menu */
-item check, item radio, item check:hover, item radio:hover {
-	background-color: transparent;
-	border-width: 0;
-	box-shadow: none;
+item check, item radio {
+	margin: 1px 2px 0px 0px;
+	background: none;
+	-gtk-icon-source: none;
 }
 
 item check:checked {
@@ -1213,13 +1183,16 @@ item radio:disabled:checked {
 	-gtk-icon-source: url("img/menuitem-radio-checked-disabled.png");
 }
 
-/* set margins of radio & check in popover & menu */
-popover check {
-	margin: 1px 5px 0;
+item check:indeterminate, item radio:indeterminate {
+	-gtk-icon-source: url("img/menuitem-mixed.png");
 }
 
-popover radio {
-	margin: 0px 5px 0;
+item check:hover:indeterminate, item radio:hover:indeterminate {
+	-gtk-icon-source: url("img/menuitem-mixed-hover.png");
+}
+
+item check:disabled:indeterminate, item radio:disabled:indeterminate {
+	-gtk-icon-source: url("img/menuitem-mixed-disabled.png");
 }
 
 /**********************************************/
