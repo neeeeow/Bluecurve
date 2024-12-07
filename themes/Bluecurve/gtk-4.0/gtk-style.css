@@ -1159,6 +1159,24 @@ item check, item radio {
 	-gtk-icon-source: none;
 }
 
+item check:active,
+item radio:active {
+	-gtk-icon-source: none;
+}
+
+item check:hover
+item check:selected:hover,
+item check:checked,
+item check:hover:checked,
+item check:disabled:checked,
+item radio:hover,
+item radio:selected:hover,
+item radio:checked,
+item radio:hover:checked,
+item radio:disabled:checked {
+	background: none;
+}
+
 item check:checked {
 	-gtk-icon-source: url("img/menuitem-check-checked.png");
 }
