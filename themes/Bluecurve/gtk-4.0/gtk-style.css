@@ -368,15 +368,16 @@ popover.menu viewport {
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
-/* Override global settings for selected items */
+/* Override global settings for selected items to ensure that menubar doesn't highlight when cursor is placed over it */
 menubar > *:selected,
-menubar > *:selected:focus{
+menubar > *:selected:focus {
 	background: transparent;
 	border: 1px solid transparent;
 	box-shadow: inset 1px 1px transparent, inset -1px -1px transparent;
 	color: @theme_selected_fg_color;
 }
 
+/* Set menu item padding */
 item, popover modelbutton {
 	padding: 3px 5px 3px 6px;
 	border: 1px solid transparent;
@@ -396,13 +397,30 @@ popover modelbutton:hover {
 	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
 }
 
-item:selected > label, 
-popover modelbutton:selected > label {
+popover modelbutton > box {
+	min-width: 24px; /* Stops the menu items from being bunched up */
+}
+
+/* Set margin of menu item labels */
+popover modelbutton > label {
+	margin: 0px 25px 0 0;
+}
+
+popover modelbutton > label:dir(rtl) {
+	margin: 0px 0 0 25px;
+}
+
+/* Set menu item label colors */
+item:hover > label, 
+popover modelbutton:hover > label {
 	color: @theme_selected_fg_color;
 }
 
-menubar > item:hover > label,
-menubar > popover modelbutton:selected > label {
+menubar > item:selected {
+	color: @theme_selected_fg_color;
+}
+
+menubar > item:focus > label {
 	color: @theme_fg_color;
 }
 
