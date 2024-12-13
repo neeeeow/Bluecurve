@@ -34,6 +34,16 @@
  */
 
 /*********************************************/
+/* Internal GTK shades */
+/*********************************************/
+
+@define-color theme_light_normal_color lighter(@theme_bg_color); /* light[NORMAL] */
+@define-color theme_dark_normal_color darker(@theme_bg_color);  /* dark[NORMAL] */
+
+@define-color theme_light_selected_color lighter(@theme_selected_bg_color); /* light[SELECTED] */
+@define-color theme_dark_selected_color darker(@theme_selected_bg_color);  /* dark[SELECTED] */
+
+/*********************************************/
 /* General shades */
 /*********************************************/
 
@@ -65,13 +75,6 @@
 @define-color progressbar_border_color shade(@theme_selected_bg_color, 1.05);
 
 /**********************************************/
-/* Window border colors */
-/**********************************************/
-
-@define-color wm_shadow alpha(black, 0.5);
-@define-color wm_border black;
-
-/**********************************************/
 /* Border colors */
 /**********************************************/
 
@@ -101,3 +104,61 @@
 
 /* Text color for entry:disabled */
 @define-color entry_disabled_text #757575; /* this is always #757575 */
+
+/**********************************************/
+/* CSDs */
+/**********************************************/
+
+@define-color wm_shadow alpha(black, 0.5);
+@define-color wm_border black;
+
+/* Tint colors */
+@define-color prelight_tint alpha(@theme_light_normal_color, 0.5);
+@define-color darken_tint alpha(mix(@theme_dark_selected_color, @theme_dark_normal_color, 0.75), 0.25);
+
+/* Gradient and border for striped area of headerbar */
+@define-color headerbar_active_1 mix(@theme_light_normal_color, @theme_selected_bg_color, 0.8);
+@define-color headerbar_active_2 mix(@theme_light_normal_color, @theme_selected_bg_color, 0.95); 
+@define-color headerbar_active_3 mix(@theme_light_normal_color, @theme_selected_bg_color, 1); 
+@define-color headerbar_active_top mix(@theme_light_normal_color, @theme_light_selected_color, 0.75);
+@define-color headerbar_active_bottom shade(@theme_selected_bg_color, 0.1);
+
+/* Gradient and border for outer area of headerbar */
+@define-color headerbar_active_outer_1 mix(@theme_selected_bg_color, @theme_bg_color, 0.75);
+@define-color headerbar_active_outer_2 mix(@theme_light_selected_color, @theme_light_normal_color, 0.75);
+@define-color headerbar_active_outer_bottom mix(@theme_dark_normal_color, @theme_selected_bg_color, 0.5);
+@define-color headerbar_active_outer_side mix(@theme_selected_bg_color, #000000, 0.4);
+
+/* Text colors */
+@define-color headerbar_active_text @theme_selected_fg_color;
+@define-color headerbar_active_text_shadow mix(@theme_selected_bg_color, #000000, 0.4);
+
+/* Button colors */
+@define-color headerbar_active_button alpha(@theme_dark_selected_color, 0.75);
+@define-color headerbar_active_button_border mix(@theme_dark_normal_color, @theme_selected_bg_color, 0.3);
+@define-color headerbar_active_button_1 mix(@theme_light_normal_color, @theme_light_selected_color, 0.2);
+@define-color headerbar_active_button_2 mix(@theme_light_normal_color, @theme_light_selected_color, 0.1);
+@define-color headerbar_active_button_shadow_light mix(@theme_light_normal_color, @theme_light_selected_color, 0.05);
+@define-color headerbar_active_button_shadow_dark mix(@theme_bg_color, @theme_selected_bg_color, 0.15);
+
+/* Button hover colors */
+@define-color headerbar_active_button_hover alpha(mix(@theme_light_normal_color, @theme_dark_selected_color, 1.25), 0.75);
+@define-color headerbar_active_button_hover_border mix(@theme_dark_normal_color, @theme_selected_bg_color, 0.7);
+
+/* Button active colors */
+@define-color headerbar_active_button_active alpha(shade(@theme_dark_selected_color, 0.8), 0.75);
+@define-color headerbar_active_button_active_border mix(@theme_dark_selected_color, @theme_dark_normal_color, 0.75);
+
+/* Inactive headerbar gradient and border */
+@define-color headerbar_backdrop_1 mix(@theme_light_normal_color, @theme_bg_color, 0.95);
+@define-color headerbar_backdrop_2 mix(@theme_bg_color, @theme_dark_normal_color, 0.2);
+@define-color headerbar_backdrop_3 mix(@theme_bg_color, @theme_dark_normal_color, 0.3);
+@define-color headerbar_backdrop_top shade(@insensitive_bg_color, 1.2);
+@define-color headerbar_backdrop_bottom mix(@theme_dark_normal_color, @theme_bg_color, 0.5);
+
+/* Inactive headerbar button colors */
+@define-color headerbar_backdrop_button alpha(@insensitive_fg_color, 0.75);
+@define-color headerbar_backdrop_button_border mix(@theme_dark_normal_color, @theme_bg_color, 0.4);
+@define-color headerbar_backdrop_button_1 mix(@theme_light_normal_color, @theme_bg_color, 0.7);
+@define-color headerbar_backdrop_button_2 mix(@theme_light_normal_color, @theme_bg_color, 0.9);
+
