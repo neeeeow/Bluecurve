@@ -141,11 +141,22 @@ window:insensitive {
 
 .background.csd decoration,
 window.unified {
+	background: @theme_bg_color;
 	border-width: 0px;
-	border-radius: 7px 7px 0 0;
-	border-style: solid;
+	border-radius: 7px;
 	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
-	margin: 10px;
+	margin: 5px;
+}
+
+window.background.csd decoration {
+	padding: 0 4px 4px 4px;
+}
+
+.background.csd.popup decoration,
+.background.solid-csd.popup decoration,
+window.background.csd.maximized decoration,
+window.background.solid-csd.maximized decoration {
+	padding: 0px; /* Remove padding for menus & maximised windows */
 }
 
 /* workaround to avoid unwanted black frames if switching compositor on/off */
@@ -153,6 +164,14 @@ decoration:backdrop {
 /*    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px*/
 	box-shadow: none;
 }
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.csd.popup decoration {
+	border-radius: 0;
+	box-shadow: none;
+}
+
+/*
 
 .tiled decoration {
 	border-radius: 0;
@@ -171,15 +190,346 @@ decoration:backdrop {
 	box-shadow: none;
 }
 
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-.csd.popup decoration {
-	border-radius: 0;
-	box-shadow: none;
-}
-
 messagedialog.csd decoration {
 	border-radius: 7px;
 	box-shadow: 0 1px 5px @wm_shadow;
+}*/
+
+.background.csd headerbar,
+.background.solid-csd headerbar {
+	padding: 0;
+	margin: 0px -4px;
+	min-height: 19px;
+
+	color: @theme_selected_fg_color;
+
+	border-top: 1px solid @headerbar_active_top;
+	border-bottom: 1px solid @headerbar_active_bottom;
+
+	background:
+		url("img/csd_stripes.png") repeat,
+		linear-gradient(to bottom,
+		@headerbar_active_1,
+		@headerbar_active_2 25%,
+		@headerbar_active_3 50%,
+		@headerbar_active_2 75%,
+		@headerbar_active_1),
+		@theme_bg_color;
+
+	/* trick to remove the first and last row of the stripes */
+	box-shadow: inset 0px 1px @headerbar_active_1, inset 0px -1px @headerbar_active_1;
+}
+
+.background.csd headerbar {
+	border-radius: 7px 7px 0px 0px;
+}
+
+.background.csd.maximized headerbar,
+.background.solid-csd.maximized headerbar {
+	/* We remove all margins when the window is maximised */
+	margin: 0px;
+	padding-top: 1px;
+	border-radius: 0px;
+	border: 1px solid @wm_border;
+	border-bottom: 1px solid @headerbar_active_bottom;
+
+	box-shadow: inset 0px 2px @headerbar_active_1, inset 0px 1px @headerbar_active_top, inset 0px -1px @headerbar_active_1;
+}
+
+.background.csd headerbar image,
+.background.solid-csd headerbar image {
+	color: @headerbar_active_text;
+	/*-gtk-icon-transform: scale(0.75);*/
+	-gtk-icon-style: symbolic;
+}
+
+.background.csd headerbar separator,
+.background.solid-csd headerbar separator {
+	background: none;
+	padding: 0;
+	margin: 0px;
+	border: none;
+}
+
+.background.csd headerbar > .horizontal.right,
+.background.csd headerbar > .horizontal.left,
+.background.solid-csd headerbar > .horizontal.right,
+.background.solid-csd headerbar > .horizontal.left {
+	margin: -1px 0px -1px 0px;	
+	border-bottom: 1px solid @headerbar_active_outer_bottom;
+
+	background: linear-gradient(to bottom,
+		@headerbar_active_outer_1 80%,
+		@headerbar_active_outer_2);
+}
+
+.background.csd headerbar > .horizontal.right {
+	border-radius: 0px 7px 0px 0px;
+}
+
+.background.csd headerbar > .horizontal.left {
+	border-radius: 7px 0px 0px 0px;
+}
+
+.background.csd.maximized headerbar > .horizontal.left,
+.background.csd.maximized headerbar > .horizontal.right {
+	border-radius: 0px;
+}
+
+.background.csd headerbar > .horizontal.right,
+.background.solid-csd headerbar > .horizontal.right {
+	border-left: 1px solid @headerbar_active_outer_side;
+	padding-right: 6px;
+}
+
+.background.csd headerbar > .horizontal.left,
+.background.solid-csd headerbar > .horizontal.left {
+	border-right: 1px solid @headerbar_active_outer_side;
+	padding-left: 6px;
+}
+
+.background.csd headerbar label,
+.background.solid-csd headerbar label {
+	color: @headerbar_active_text;
+	text-shadow: @headerbar_active_text_shadow 1px 1px;
+}
+
+.background.csd headerbar label.title,
+.background.solid-csd headerbar label.title,
+.background.csd headerbar button:checked,
+.background.solid-csd headerbar button:checked {
+	font-weight: bold;
+}
+
+.background.csd headerbar button,
+.background.solid-csd headerbar button {
+	margin: 0 5px;
+	padding: 0;
+	border: 0;
+	color: @theme_selected_fg_color;
+	background: none;
+	box-shadow: none;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+.background.csd headerbar button:focus,
+.background.csd headerbar button:focus:hover,
+.background.csd headerbar button:active,
+.background.csd headerbar button:active:hover,
+.background.csd headerbar button:active:focus:hover,
+.background.csd headerbar button:hover,
+.background.csd headerbar button:disabled,
+.background.csd headerbar button:checked,
+.background.csd headerbar button:checked:hover,
+.background.csd headerbar button.toggle:checked,
+.background.csd headerbar button.toggle:checked:hover,
+.background.solid-csd headerbar button:focus,
+.background.solid-csd headerbar button:focus:hover,
+.background.solid-csd headerbar button:active,
+.background.solid-csd headerbar button:active:hover,
+.background.solid-csd headerbar button:active:focus:hover,
+.background.solid-csd headerbar button:hover,
+.background.solid-csd headerbar button:disabled,
+.background.solid-csd headerbar button:checked,
+.background.solid-csd headerbar button:checked:hover,
+.background.solid-csd headerbar button.toggle:checked,
+.background.solid-csd headerbar button.toggle:checked:hover {
+	padding: 0;
+	border: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.background.csd headerbar button.minimize,
+.background.csd headerbar button.maximize,
+.background.csd headerbar button.close,
+.background.solid-csd headerbar button.minimize,
+.background.solid-csd headerbar button.maximize,
+.background.solid-csd headerbar button.close {
+	margin: 0px -2px;
+	padding: 0px;
+	border-radius: 3px;
+	border: 1px solid @headerbar_active_button_border;
+	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark, inset 1px 1px @headerbar_active_button_shadow_light;
+	background: linear-gradient(135deg,
+		@headerbar_active_button_1,
+		@headerbar_active_button_2);
+}
+
+.background.csd headerbar button.minimize > image,
+.background.csd headerbar button.maximize > image,
+.background.csd headerbar button.close > image,
+.background.solid-csd headerbar button.minimize > image,
+.background.solid-csd headerbar button.maximize > image,
+.background.solid-csd headerbar button.close > image {
+	color: @headerbar_active_button;
+}
+
+.background.csd headerbar button.minimize:hover,
+.background.csd headerbar button.maximize:hover,
+.background.csd headerbar button.close:hover,
+.background.solid-csd headerbar button.minimize:hover,
+.background.solid-csd headerbar button.maximize:hover,
+.background.solid-csd headerbar button.close:hover {
+	border: 1px solid @headerbar_active_button_hover_border;
+	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark,
+		inset -1px -1px @prelight_tint,
+		inset 1px 1px @headerbar_active_button_shadow_light,
+		inset 1px 1px @prelight_tint;
+	background:
+		linear-gradient(135deg,
+		@prelight_tint,
+		@prelight_tint),
+		linear-gradient(135deg,
+		@headerbar_active_button_1,
+		@headerbar_active_button_2);
+
+}
+
+.background.csd headerbar button.minimize:hover > image,
+.background.csd headerbar button.maximize:hover > image,
+.background.csd headerbar button.close:hover > image,
+.background.solid-csd headerbar button.minimize:hover > image,
+.background.solid-csd headerbar button.maximize:hover > image,
+.background.solid-csd headerbar button.close:hover > image {
+	color: @headerbar_active_button_hover;
+}
+
+.background.csd headerbar button.minimize:active,
+.background.csd headerbar button.maximize:active,
+.background.csd headerbar button.close:active,
+.background.solid-csd headerbar button.minimize:active,
+.background.solid-csd headerbar button.maximize:active,
+.background.solid-csd headerbar button.close:active {
+	border: 1px solid @headerbar_active_button_active_border;
+	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark,
+		inset -1px -1px @darken_tint,
+		inset 1px 1px @headerbar_active_button_shadow_light,
+		inset 1px 1px @darken_tint;
+	background:
+		linear-gradient(135deg,
+		@darken_tint,
+		@darken_tint),
+		linear-gradient(135deg,
+		@headerbar_active_button_1,
+		@headerbar_active_button_2);
+}
+
+.background.csd headerbar button.minimize:active > image,
+.background.csd headerbar button.maximize:active > image,
+.background.csd headerbar button.close:active > image,
+.background.solid-csd headerbar button.minimize:active > image,
+.background.solid-csd headerbar button.maximize:active > image,
+.background.solid-csd headerbar button.close:active > image {
+	color: @headerbar_active_button_active;
+}
+
+.background.csd headerbar:backdrop,
+.background.solid-csd headerbar:backdrop {
+	color: @insensitive_fg_color;
+	border-top: 0;
+	padding-top: 1px;
+	border-bottom: 1px solid @headerbar_backdrop_bottom;
+
+	background:
+		linear-gradient(to bottom,
+		@headerbar_backdrop_1,
+		@headerbar_backdrop_2 15%,
+		@headerbar_backdrop_2 86%,
+		@headerbar_backdrop_3),
+		@theme_bg_color;
+
+	box-shadow: none;
+}
+
+.background.csd.maximized headerbar:backdrop,
+.background.solid-csd.maximized headerbar:backdrop {
+	/* We remove all margins when the window is maximised */
+	margin: 0px;
+	padding-top: 1px;
+	border-radius: 0px;
+	border: 1px solid @wm_border;
+	border-bottom: 1px solid @headerbar_backdrop_bottom;
+	box-shadow: none;
+}
+
+.background.csd headerbar:backdrop image,
+.background.solid-csd headerbar:backdrop image {
+	color: @insensitive_fg_color;
+}
+
+.background.csd headerbar:backdrop > .horizontal.right,
+.background.csd headerbar:backdrop > .horizontal.left,
+.background.solid-csd headerbar:backdrop > .horizontal.right,
+.background.solid-csd headerbar:backdrop > .horizontal.left {
+	margin: -1px 0px -1px 0px;
+	border: 0;
+	background: none;
+}
+
+.background.csd headerbar:backdrop > .horizontal.right,
+.background.solid-csd headerbar:backdrop > .horizontal.right {
+	padding-left: 1px;	
+}
+
+.background.csd headerbar:backdrop > .horizontal.left,
+.background.solid-csd headerbar:backdrop > .horizontal.left {
+	padding-right: 1px;	
+}
+
+.background.csd headerbar:backdrop label,
+.background.solid-csd headerbar:backdrop label {
+	color: @insensitive_fg_color;
+	text-shadow: none;
+}
+
+.background.csd headerbar:backdrop button.minimize,
+.background.csd headerbar:backdrop button.maximize,
+.background.csd headerbar:backdrop button.close,
+.background.solid-csd headerbar:backdrop button.minimize,
+.background.solid-csd headerbar:backdrop button.maximize,
+.background.solid-csd headerbar:backdrop button.close {
+	border: 1px solid @headerbar_backdrop_button_border;
+	box-shadow: none;
+	background: linear-gradient(to bottom,
+		@headerbar_backdrop_button_1,
+		@headerbar_backdrop_button_2);
+}
+
+.background.csd headerbar:backdrop button.minimize > image,
+.background.csd headerbar:backdrop button.maximize > image,
+.background.csd headerbar:backdrop button.close > image,
+.background.solid-csd headerbar:backdrop button.minimize > image,
+.background.solid-csd headerbar:backdrop button.maximize > image,
+.background.solid-csd headerbar:backdrop button.close > image {
+	color: @headerbar_backdrop_button;
+}
+
+.background.csd headerbar:backdrop button.minimize:hover,
+.background.csd headerbar:backdrop button.maximize:hover,
+.background.csd headerbar:backdrop button.close:hover,
+.background.solid-csd headerbar:backdrop button.minimize:hover,
+.background.solid-csd headerbar:backdrop button.maximize:hover,
+.background.solid-csd headerbar:backdrop button.close:hover {
+	border: 1px solid @headerbar_active_button_hover_border;
+	box-shadow: none;
+	background:
+		linear-gradient(to bottom,
+		@prelight_tint,
+		@prelight_tint),
+		linear-gradient(to bottom,
+		@headerbar_backdrop_button_1,
+		@headerbar_backdrop_button_2);
+}
+
+.background.csd headerbar:backdrop button.minimize:hover > image,
+.background.csd headerbar:backdrop button.maximize:hover > image,
+.background.csd headerbar:backdrop button.close:hover > image,
+.background.solid-csd headerbar:backdrop button.minimize:hover > image,
+.background.solid-csd headerbar:backdrop button.maximize:hover > image,
+.background.solid-csd headerbar:backdrop button.close:hover > image {
+	color: @headerbar_active_button_hover;
 }
 
 /********************************************/
@@ -324,7 +674,7 @@ button.flat.link:disabled label {
 	color: @insensitive_fg_color
 }
 
-toolbar .image-button, headerbar .image-button,  .appmenu, .minimize, .maximize, .close {
+toolbar .image-button {
 	min-width: 24px;
 	min-height: 24px;
 }
@@ -368,7 +718,7 @@ menuitem:hover > *, menuitem:hover > * > *, menuitem:hover > * > * > *, popover 
 }
 
 /**********************************************/
-/* headerbar, toolbar */
+/* toolbar */
 /**********************************************/
 
 toolbar {
@@ -376,50 +726,6 @@ toolbar {
 	border-top: 1px solid @light_border_color;
 	border-bottom: 1px solid @trough_bg_color;
 	background-color: @theme_bg_color;
-}
-
-headerbar,
-.titlebar {
-	border-radius: 7px 7px 0 0;
-	border-bottom: 1px solid @trough_bg_color;
-	background-color: @theme_bg_color;
-	padding: 3px 4px;
-}
-
-.horizontal.titlebar headerbar:first-child,
-paned.horizontal.titlebar headerbar:first-child {
-	border-top-right-radius: 0px;
-}
-
-.horizontal.titlebar headerbar:last-child,
-paned.horizontal.titlebar headerbar:last-child {
-	border-top-left-radius: 0px;
-}
-
-paned.horizontal.titlebar separator,
-.horizontal.titlebar separator.vertical.tilix-title-separator {
-	background-color: transparent;
-	background-image: none;
-	color: transparent;
-}
-
-.tiled .titlebar {
-    border-radius: 0;
-}
-
-.maximized .titlebar {
-    border-radius: 0;
-}
-
-headerbar .title,
-.titlebar .title {
-    font-weight: bold;
-}
-
-headerbar button.titlebutton,
-.titlebar button.titlebutton {
-    background: none;
-    border-image: none;
 }
 
 /**********************************************/
