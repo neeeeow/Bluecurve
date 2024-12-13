@@ -130,8 +130,7 @@ window:insensitive {
 }
 
 /**********************************************/
-/* Client Side Decorations */
-/* Modified from TradionalOK theme */
+/* Client side decorations */
 /**********************************************/
 
 /* workaround to avoid unwanted black frames if switching compositor on/off */
@@ -148,7 +147,16 @@ window.unified {
 	margin: 5px;
 }
 
-window.background.csd decoration {
+.solid-csd decoration {
+	border-radius: 0;
+	margin: 0;
+	background-color: @theme_bg_color;
+	border: solid 1px @wm_border;
+	box-shadow: none;
+}
+
+window.background.csd decoration,
+window.background.solid-csd decoration {
 	padding: 0 4px 4px 4px;
 }
 
@@ -171,8 +179,6 @@ decoration:backdrop {
 	box-shadow: none;
 }
 
-/*
-
 .tiled decoration {
 	border-radius: 0;
 	background-color: @theme_bg_color;
@@ -182,18 +188,10 @@ decoration:backdrop {
 	box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.23);
 }
 
-.solid-csd decoration {
-	border-radius: 0;
-	margin: 4px;
-	background-color: @theme_bg_color;
-	border: solid 1px @wm_border;
-	box-shadow: none;
-}
-
 messagedialog.csd decoration {
 	border-radius: 7px;
 	box-shadow: 0 1px 5px @wm_shadow;
-}*/
+}
 
 .background.csd headerbar,
 .background.solid-csd headerbar {

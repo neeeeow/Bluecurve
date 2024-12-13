@@ -329,7 +329,7 @@ button.flat.link:disabled label {
 	color: @insensitive_fg_color
 }
 
-toolbar .image-button, headerbar .image-button,  .appmenu, .minimize, .maximize, .close {
+toolbar .image-button {
 	min-width: 24px;
 	min-height: 24px;
 }
@@ -425,7 +425,7 @@ menubar > item:focus > label {
 }
 
 /**********************************************/
-/* headerbar, toolbar */
+/* toolbar */
 /**********************************************/
 
 box.toolbar image,
@@ -439,50 +439,6 @@ box.primary-toolbar {
 	border-top: 1px solid @light_border_color;
 	border-bottom: 1px solid @trough_bg_color;
 	background-color: @theme_bg_color;
-}
-
-headerbar,
-.titlebar {
-	border-radius: 7px 7px 0 0;
-	border-bottom: 1px solid @trough_bg_color;
-	background-color: @theme_bg_color;
-	padding: 3px 4px;
-}
-
-.horizontal.titlebar headerbar:first-child,
-paned.horizontal.titlebar headerbar:first-child {
-	border-top-right-radius: 0px;
-}
-
-.horizontal.titlebar headerbar:last-child,
-paned.horizontal.titlebar headerbar:last-child {
-	border-top-left-radius: 0px;
-}
-
-paned.horizontal.titlebar separator,
-.horizontal.titlebar separator.vertical.tilix-title-separator {
-	background-color: transparent;
-	background-image: none;
-	color: transparent;
-}
-
-.tiled .titlebar {
-    border-radius: 0;
-}
-
-.maximized .titlebar {
-    border-radius: 0;
-}
-
-headerbar .title,
-.titlebar .title {
-    font-weight: bold;
-}
-
-headerbar button.titlebutton,
-.titlebar button.titlebutton {
-    background: none;
-    border-image: none;
 }
 
 /**********************************************/
