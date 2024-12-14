@@ -261,29 +261,41 @@ messagedialog.csd decoration {
 		@headerbar_active_outer_2);
 }
 
-.background.csd headerbar > .horizontal.right {
+.background.csd headerbar > .horizontal.right,
+.background.csd headerbar > .horizontal.left:dir(rtl) {
 	border-radius: 0px 7px 0px 0px;
 }
 
-.background.csd headerbar > .horizontal.left {
+.background.csd headerbar > .horizontal.left,
+.background.csd headerbar > .horizontal.right:dir(rtl) {
 	border-radius: 7px 0px 0px 0px;
 }
 
 .background.csd.maximized headerbar > .horizontal.left,
-.background.csd.maximized headerbar > .horizontal.right {
+.background.csd.maximized headerbar > .horizontal.left:dir(rtl),
+.background.csd.maximized headerbar > .horizontal.right,
+.background.csd.maximized headerbar > .horizontal.right:dir(rtl) {
 	border-radius: 0px;
 }
 
 .background.csd headerbar > .horizontal.right,
-.background.solid-csd headerbar > .horizontal.right {
+.background.solid-csd headerbar > .horizontal.right,
+.background.csd headerbar > .horizontal.left:dir(rtl),
+.background.solid-csd headerbar > .horizontal.left:dir(rtl) {
 	border-left: 1px solid @headerbar_active_outer_side;
+	border-right: none;
+	padding-left: 0;
 	padding-right: 6px;
 }
 
 .background.csd headerbar > .horizontal.left,
-.background.solid-csd headerbar > .horizontal.left {
+.background.solid-csd headerbar > .horizontal.left,
+.background.csd headerbar > .horizontal.right:dir(rtl),
+.background.solid-csd headerbar > .horizontal.right:dir(rtl) {
+	border-left: none;
 	border-right: 1px solid @headerbar_active_outer_side;
 	padding-left: 6px;
+	padding-right: 0;
 }
 
 .background.csd headerbar label,
