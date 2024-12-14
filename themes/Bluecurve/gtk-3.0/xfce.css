@@ -33,8 +33,58 @@
  * along with this program.  If not, see <https://www.gnu.org/licenses/>.
  */
 
+/* Panel borders */
+#XfcePanelWindow.xfce4-panel {
+	border: 1px solid @border_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+}
+
+#XfcePanelWindowWrapper {
+	box-shadow: inset 0px -1px @box_shadow_dark_color, inset 0px 1px @box_shadow_light_color;
+}
+
+/* Make application menu button resemble GNOME 2 application button */
+.xfce4-panel #applicationmenu-button:checked,
+.xfce4-panel #applicationmenu-button:checked:hover {
+	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
+	color: @theme_selected_fg_color;
+	border: 1px solid @menuitem_border_color;
+	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+}
+
+.xfce4-panel #applicationmenu-button:hover {
+	background: none;
+	border: 1px solid transparent;
+	box-shadow: none;
+}
+
+.xfce4-panel #applicationmenu-button:checked label {
+	color: @theme_selected_fg_color;
+}
+
+.xfce4-panel #applicationmenu-button image {
+	margin: 0px 3px;
+}
+
+.xfce4-panel #applicationmenu-button label {
+	margin: 0px 3px 0px -1px
+}
+
 /* Set workspace switcher accent color */
 .xfce4-panel widget wnck-pager:selected {
 	background-color: @theme_selected_bg_color;
 }
+
+
+/* Fix tasklisk button padding */
+.xfce4-panel .tasklist button label {
+	margin: 0px 2px 0px -5px;
+}
+
+/* Logout dialog */
+.xfsm-logout-dialog {
+	border: 1px solid @border_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+}
+
 
