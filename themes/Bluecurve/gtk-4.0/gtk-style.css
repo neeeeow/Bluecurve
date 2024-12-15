@@ -738,16 +738,16 @@ popover modelbutton > label:dir(rtl) {
 }
 
 /* Set menu item label colors */
-item:hover > label, 
-popover modelbutton:hover > label {
+item:hover > *, 
+popover modelbutton:hover > * {
 	color: @theme_selected_fg_color;
 }
 
-menubar > item:selected {
+menubar > *:selected {
 	color: @theme_selected_fg_color;
 }
 
-menubar > item:focus > label {
+menubar > item:focus > * {
 	color: @theme_fg_color;
 }
 
