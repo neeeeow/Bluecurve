@@ -1765,26 +1765,12 @@ placessidebar label {
 /* expander */
 /*******************************************/
 
-expander {
-	border-style: none;
-	color: @theme_fg_color;
-}
-
-expander > .frame {
-	border-style: none;
-}
-
 expander title {
 	padding: 1px;
 }
 
 expander title:hover {
 	background-color: @prelight_color;
-}
-
-expander textview {
-	padding: 1px;
-	box-shadow: inset 1px 1px 0 0 @border_color, inset -1px -1px 0 0 @border_color;
 }
 
 expander arrow {
