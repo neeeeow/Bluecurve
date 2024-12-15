@@ -1313,6 +1313,27 @@ row {
 	border: none;
 }
 
+row:selected {
+	background-color: @theme_selected_bg_color;
+}
+
+row:selected * {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+/**********************************************/
+/* gridview * /
+/**********************************************/
+
+gridview child:selected label {
+	color: @text_active_color;
+}
+
+gridview child:selected:focus label {
+	color: @theme_selected_fg_color;
+}
+
 /**********************************************/
 /* separator */
 /**********************************************/
