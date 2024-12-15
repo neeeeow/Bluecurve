@@ -1244,6 +1244,10 @@ frame {
 	border: 1px solid @medium_border_color;
 }
 
+frame > border {
+	border: none;
+}
+
 /* Override the Firefox 49 frame styling where is absolutely shouldn't be applied */
 /* maybe we should add more here */
 box > frame, /* mate-tweak */
