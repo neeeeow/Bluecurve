@@ -1004,6 +1004,19 @@ scrollbar.horizontal button.down:disabled {
 }
 
 /**********************************************/
+/* Scrollbar position */
+/**********************************************/
+
+scrolledwindow scrollbar.horizontal {
+	margin: 0px 0px -1px -1px;
+}
+
+scrolledwindow scrollbar.vertical:dir(rtl),
+scrolledwindow scrollbar.vertical {
+	margin: -1px -1px -1px -1px;
+}
+
+/**********************************************/
 /* entry */
 /**********************************************/
 

@@ -975,6 +975,40 @@ scrollbar.horizontal button.down:disabled {
 }
 
 /**********************************************/
+/* Scrollbar position */
+/**********************************************/
+
+scrolledwindow scrollbar.horizontal {
+	margin: 0px -1px -1px -1px;
+}
+
+scrolledwindow scrollbar.vertical {
+	margin: -1px -1px -1px 0px;
+}
+
+scrolledwindow scrollbar.vertical:dir(rtl) {
+	margin: -1px 0px -1px -1px;
+}
+
+treeview ~ scrollbar.horizontal,
+textview ~ scrollbar.horizontal,
+iconview ~ scrollbar.horizontal {
+	margin: -3px -1px -1px -1px;
+}
+
+treeview ~ scrollbar.vertical,
+textview ~ scrollbar.vertical,
+iconview ~ scrollbar.vertical {
+	margin: -1px -1px -1px -3px;
+}
+
+treeview ~ scrollbar.vertical:dir(rtl),
+textview ~ scrollbar.vertical:dir(rtl),
+iconview ~ scrollbar.vertical:dir(rtl) {
+	margin: -1px -3px -1px -1px;
+}
+
+/**********************************************/
 /* entry */
 /**********************************************/
 
@@ -1731,28 +1765,6 @@ treeview.view.trough:selected {
 	border-color: @border_color;
 	color: @theme_fg_color;
 	padding: 0px;
-}
-
-treeview ~ scrollbar.horizontal {
-	border-top: 1px solid @border_color;
-	background: @theme_bg_color;
-	margin: -3px -1px -1px -1px;
-	padding: 3px 0px 3px 0px;
-}
-
-treeview ~ scrollbar.horizontal ~ scrollbar.vertical {
-	margin: -30px -1px -30px -3px;
-	padding: 29px 0 29px 3px;
-	border-left: 1px solid @border_color;
-	background: @theme_bg_color;
-}
-
-treeview ~ scrollbar.horizontal ~ scrollbar.vertical:dir(rtl) {
-	margin: -30px -3px -30px -1px;
-	padding: 29px 3px 29px 0;
-	border-left: 0;
-	border-right: 1px solid @border_color;
-	background: @theme_bg_color;
 }
 
 /********************************************/
