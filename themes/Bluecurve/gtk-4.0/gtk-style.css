@@ -1737,15 +1737,6 @@ placessidebar label {
 /* expander */
 /*******************************************/
 
-expander-widget {
-	border-style: none;
-	color: @theme_fg_color;
-}
-
-expander-widget scrolledwindow {
-	border-style: none;
-}
-
 expander-widget title {
 	padding: 1px;
 }
@@ -1754,36 +1745,16 @@ expander-widget title:hover {
 	background-color: @prelight_color;
 }
 
-expander-widget textview {
-	padding: 1px;
-	box-shadow: inset 1px 1px 0 0 @border_color, inset -1px -1px 0 0 @border_color;
-}
-
-expander-widget expander {
-	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic");
-	-gtk-icon-size: 16px;
-}
-
-expander-widget expander:dir(rtl) {
-	-gtk-icon-source: -gtk-icontheme("pan-end-symbolic-rtl");
-}
-
-expander-widget expander:checked {
+expander-widget arrow {
+	min-width: 16px;
+	min-height: 16px;
 	-gtk-icon-source: -gtk-icontheme("pan-down-symbolic");
+	-gtk-icon-transform: rotate(-90deg);
+	color: @theme_fg_color;
 }
 
-dialog scrolledwindow.frame scrollbar.vertical,
-expander-widget scrollbar.vertical {
-	margin: 0px;
-	padding: 0 0 0 3px;
-	background: @theme_bg_color;
-}
-
-dialog scrolledwindow.frame scrollbar.horizontal,
-expander-widget scrollbar.horizontal {
-	margin: 0px;
-	padding: 3px 0 0 0;
-	background: @theme_bg_color;
+expander-widget arrow:checked {
+	-gtk-icon-transform: unset;
 }
 
 /**********************************************/
