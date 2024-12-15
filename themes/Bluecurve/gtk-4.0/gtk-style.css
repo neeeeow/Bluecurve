@@ -1216,15 +1216,6 @@ frame > border {
 	border: none;
 }
 
-/* Override the Firefox 49 frame styling where is absolutely shouldn't be applied */
-/* maybe we should add more here */
-box > frame, /* mate-tweak */
-statusbar > frame, /* caja, etc. */
-statusbar > widget > frame, /* pluma */
-GvcMixerDialog frame { /* Mate Mixer dialog */
-	border-style: none;
-}
-
 frame.border-inset {
 	border: 1px solid @border_color;
 	box-shadow: inset -1px -1px 0 0 @frame_light_color;
@@ -1249,11 +1240,6 @@ frame > label {
 	background-color: @theme_bg_color;
 	color: @darker_border_color;
 	margin: 0 5px;
-}
-
-/* pathbar background in filechooser */
-#pathbarbox {
-	background-color: @bg_color;
 }
 
 /**********************************************/
