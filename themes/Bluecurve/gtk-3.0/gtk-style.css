@@ -284,7 +284,7 @@ messagedialog.csd decoration {
 .background.solid-csd headerbar > .horizontal.left:dir(rtl) {
 	border-left: 1px solid @headerbar_active_outer_side;
 	border-right: none;
-	padding-left: 0;
+	padding-left: 4px;
 	padding-right: 6px;
 }
 
@@ -295,7 +295,7 @@ messagedialog.csd decoration {
 	border-left: none;
 	border-right: 1px solid @headerbar_active_outer_side;
 	padding-left: 6px;
-	padding-right: 0;
+	padding-right: 4px;
 }
 
 .background.csd headerbar label,
