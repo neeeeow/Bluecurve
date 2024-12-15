@@ -171,7 +171,8 @@ PanelToplevel.vertical.right > grid {
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
-.mate-panel-applet-slider frame frame {
+.mate-panel-applet-slider frame frame,
+.mate-panel-applet-slider frame > border {
 	background-color:transparent;
 	border-style: none;
 	box-shadow: none;
@@ -241,6 +242,10 @@ PanelToplevel.vertical.right > grid {
 	padding: 0px;
 	margin: 0px;
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+}
+
+.lock-dialog frame > border {
+	border: 0;
 }
 
 /* Set workspace switcher accent color */
