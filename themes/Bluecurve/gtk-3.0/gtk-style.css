@@ -1240,56 +1240,38 @@ notebook scrolledwindow.frame {
 /* frame */
 /**********************************************/
 
-frame {
+frame > border {
 	border: 1px solid @medium_border_color;
 }
 
-frame > border {
-	border: none;
-}
-
-/* Override the Firefox 49 frame styling where is absolutely shouldn't be applied */
-/* maybe we should add more here */
-box > frame, /* mate-tweak */
-statusbar > frame, /* caja, etc. */
-statusbar > widget > frame, /* pluma */
-GvcMixerDialog frame { /* Mate Mixer dialog */
-	border-style: none;
-}
-
-frame.border-inset {
-	border: 1px solid @border_color;
-	margin-top: 0.5em;
-	box-shadow: inset -1px -1px 0 0 @frame_light_color;
-}
-
-frame.border-outset {
-	border: 1px solid @border_color;
-	margin-top: 0.5em;
-	box-shadow: inset 1px 1px 0 0 @frame_light_color;
-}
-
-frame.border-groove {
-	border: 1px solid @trough_bg_color;
-	margin-top: 0.5em;
-	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
-}
-
-frame.border-ridge {
-	border: 1px solid @frame_groove_color;
-	margin-top: 0.5em;
-	box-shadow: inset 1px 1px @trough_bg_color, 1px 1px @trough_bg_color;
-}
-
 frame > label {
-	background-color: @theme_bg_color;
-	margin: -0.82em 5px 0 5px;
+	padding: 0 5px;
 	color: @darker_border_color;
 }
 
-/* pathbar background in filechooser */
-#pathbarbox {
-	background-color: @bg_color;
+frame.border-inset > border {
+	border: 1px solid @border_color;
+	box-shadow: inset -1px -1px 0 0 @frame_light_color;
+}
+
+frame.border-outset > border {
+	border: 1px solid @border_color;
+	box-shadow: inset 1px 1px 0 0 @frame_light_color;
+}
+
+frame.border-groove,
+frame.border-ridge {
+	padding: 0 1px 1px 0;
+}
+
+frame.border-groove > border {
+	border: 1px solid @trough_bg_color;
+	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
+}
+
+frame.border-ridge > border {
+	border: 1px solid @frame_groove_color;
+	box-shadow: inset 1px 1px @trough_bg_color, 1px 1px @trough_bg_color;
 }
 
 /**********************************************/
