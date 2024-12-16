@@ -1034,7 +1034,7 @@ toolbar entry {
 /**********************************************/
 
 scrolledwindow {
-	border: 1px solid @medium_border_color;
+	border: 1px solid @border_color;
 }
 
 junction {
@@ -1056,7 +1056,7 @@ overlay > scrolledwindow {
 /**********************************************/
 
 placessidebar {
-	border: 1px solid @medium_border_color;
+	border: 1px solid @border_color;
 }
 
 /**********************************************/
@@ -1761,6 +1761,7 @@ filechooser {
 	padding: 12px 12px 3px;
 }
 
+filechooser actionbar,
 printdialog actionbar {
 	padding-top: 5px;
 }
@@ -1789,11 +1790,6 @@ printdialog .dialog-action-area {
 
 printdialog stack grid.vertical {
 	color: @theme_text_color; /* to fix white color */
-}
-
-filechooser placessidebar,
-filechooser scrolledwindow {
-	border: 1px solid @border_color;
 }
 
 filechooser scrolledwindow viewport,
