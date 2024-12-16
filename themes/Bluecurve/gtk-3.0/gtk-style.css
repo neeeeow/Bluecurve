@@ -1754,11 +1754,82 @@ treeview.view.trough:selected {
 }
 
 /********************************************/
-/* File selector */
+/* File chooser */
 /********************************************/
 
-placessidebar label {
-	margin-left: 4px;
+filechooser {
+	padding: 12px 12px 3px;
+}
+
+printdialog actionbar {
+	padding-top: 5px;
+}
+
+printdialog box.view {
+	padding: 11px 12px;
+}
+
+filechooser box.view,
+printdialog box.view {
+	background: @theme_bg_color;
+}
+
+filechooser ~ .dialog-action-box {
+	margin-top: 4px;
+	padding: 0 6px 5px;
+}
+
+printdialog .dialog-action-box {
+	margin-top: 10px;
+}
+
+printdialog .dialog-action-area {
+	margin: -5px;
+}
+
+printdialog stack grid.vertical {
+	color: @theme_text_color; /* to fix white color */
+}
+
+filechooser placessidebar,
+filechooser scrolledwindow {
+	border: 1px solid @border_color;
+}
+
+filechooser scrolledwindow viewport,
+printdialog scrolledwindow viewport {
+	border: 0; /* avoid dual border */
+}
+
+filechooser placessidebar viewport.frame row {
+	padding: 3px 2px;
+	margin: -11px -7px 9px -7px;
+}
+
+filechooser placessidebar viewport.frame row:selected {
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+filechooser placessidebar viewport.frame row:selected box > label {
+	color: @theme_selected_fg_color;
+}
+
+filechooser placessidebar viewport.frame separator {
+	margin-top: -11px;
+	margin-bottom: 9px;
+}
+
+filechooser placessidebar viewport.frame row box > image {
+	padding: 0 4px 0 2px;
+}
+
+filechooser .path-bar button.toggle image {
+	padding-right: 4px;
+}
+
+filechooser .path-bar button.image-button image {
+	padding-right: 2px;
 }
 
 /********************************************/
