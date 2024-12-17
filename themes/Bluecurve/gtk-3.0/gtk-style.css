@@ -1028,6 +1028,14 @@ toolbar entry {
 	margin: 3px;
 }
 
+entry > image.left {
+	margin-right: 4px;
+}
+
+entry > image.right {
+	margin-left: 4px;
+}
+
 /**********************************************/
 /* scrolledwindow */
 /**********************************************/
@@ -1573,6 +1581,10 @@ switch {
 	border: 1px solid @border_color;
 	min-width: 76px;
 	min-height: 25px;
+}
+
+switch image {
+	color: inherit;
 }
 
 switch:checked {
