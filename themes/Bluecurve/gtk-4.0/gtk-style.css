@@ -700,7 +700,6 @@ menubar > *:selected:focus {
 	background: transparent;
 	border: 1px solid transparent;
 	box-shadow: inset 1px 1px transparent, inset -1px -1px transparent;
-	color: @theme_selected_fg_color;
 }
 
 /* Set menu item padding */
@@ -737,12 +736,10 @@ popover modelbutton > label:dir(rtl) {
 }
 
 /* Set menu item label colors */
-item:hover > *, 
-popover modelbutton:hover > * {
-	color: @theme_selected_fg_color;
-}
-
-menubar > *:selected {
+item:hover > *,
+item:selected:not(prelight) > *,
+popover modelbutton:hover > *,
+popover modelbutton:selected:not(prelight) > * {
 	color: @theme_selected_fg_color;
 }
 
@@ -1637,7 +1634,10 @@ item arrow, popover modelbutton arrow.right {
 	-gtk-icon-source: url("img/arrow-right.png");
 }
 
-item:hover > arrow, popover modelbutton:hover > arrow.right {
+item:hover > arrow,
+item:selected:not(prelight) > arrow,
+popover modelbutton:hover > arrow.right,
+popover modelbutton:selected:not(prelight) > arrow.right {
 	-gtk-icon-source: url("img/arrow-right-hover.png");
 }
 
