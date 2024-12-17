@@ -212,7 +212,7 @@ messagedialog.csd decoration {
 		@headerbar_active_3 50%,
 		@headerbar_active_2 75%,
 		@headerbar_active_1),
-		@theme_bg_color;
+		@theme_selected_bg_color;
 
 	/* trick to remove the first and last row of the stripes */
 	box-shadow: inset 0px 1px @headerbar_active_1, inset 0px -1px @headerbar_active_1;
@@ -447,8 +447,7 @@ messagedialog.csd decoration {
 		@headerbar_backdrop_1,
 		@headerbar_backdrop_2 15%,
 		@headerbar_backdrop_2 86%,
-		@headerbar_backdrop_3),
-		@theme_bg_color;
+		@headerbar_backdrop_3);
 
 	box-shadow: none;
 }
