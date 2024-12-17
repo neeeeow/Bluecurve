@@ -1500,7 +1500,7 @@ item radio:active {
 	-gtk-icon-source: none;
 }
 
-item check:hover
+item check:hover,
 item check:selected:hover,
 item check:checked,
 item check:hover:checked,
