@@ -1039,6 +1039,21 @@ toolbar entry {
 	margin: 3px;
 }
 
+entry image.left {
+	margin: -1px 0 -1px;
+}
+
+entry image.right {
+	margin: -1px 0 -1px;
+}
+
+entry image + text {
+	margin-left: 4px;
+}
+
+entry image ~ text {
+	margin-right: 4px;
+}
 /**********************************************/
 /* scrolledwindow */
 /**********************************************/
