@@ -1134,18 +1134,16 @@ notebook > header.top tab {
 	padding: 3px 3px 3px 2px;
 }
 
-notebook:not(.frame) > header.top tab:checked:not(:nth-child(2)),
-notebook.frame > header.top tab:checked:not(:first-child) {
+notebook > header.top tab ~ tab:checked {
 	margin-left: -2px;
 	padding-left: 3px;
 }
 
-notebook:not(.frame) > header.top tab:nth-child(2),
-notebook.frame > header.top tab:first-child {
+notebook > header.top tab:first-child,
+notebook > header.top arrow + tab {
 	padding: 3px;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px 0 @box_shadow_dark_color;
 }
-
 
 notebook:not(.frame) > header.top tab:checked {
 	border-bottom: 0px;
@@ -1191,14 +1189,13 @@ notebook > header.bottom tab {
 	padding: 3px 3px 3px 2px;
 }
 
-notebook:not(.frame) > header.bottom tab:checked:not(:nth-child(2)),
-notebook.frame > header.bottom tab:checked:not(:first-child) {
+notebook > header.bottom tab ~ tab:checked {
 	margin-left: -2px;
 	padding-left: 3px;
 }
 
-notebook:not(.frame) > header.bottom tab:nth-child(2),
-notebook.frame > header.bottom tab:first-child {
+notebook > header.bottom tab:first-child,
+notebook > header.bottom arrow + tab {
 	padding: 3px;
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 0 @box_shadow_light_color;
 }
@@ -1247,14 +1244,13 @@ notebook > header.left tab {
 	padding: 3px 3px 4px 3px;
 }
 
-notebook:not(.frame) > header.left tab:checked:not(:nth-child(2)),
-notebook.frame > header.left tab:checked:not(:first-child) {
+notebook > header.left tab ~ tab:checked {
 	margin-top: -2px;
 	padding-top: 4px;
 }
 
-notebook:not(.frame) > header.left tab:nth-child(2),
-notebook.frame > header.left tab:first-child {
+notebook > header.left tab:first-child,
+notebook > header.left arrow + tab {
 	padding: 4px 3px;
 	box-shadow: inset 1px 1px @box_shadow_light_color, inset 0 -1px @box_shadow_dark_color;
 }
@@ -1303,14 +1299,13 @@ notebook > header.right tab {
 	padding: 3px 3px 4px 3px;
 }
 
-notebook:not(.frame) > header.right tab:checked:not(:nth-child(2)),
-notebook.frame > header.right tab:checked:not(:first-child) {
+notebook > header.right tab ~ tab:checked {
 	margin-top: -2px;
 	padding-top: 4px;
 }
 
-notebook:not(.frame) > header.right tab:nth-child(2),
-notebook.frame > header.right tab:first-child {
+notebook > header.right tab:first-child,
+notebook > header.right arrow + tab {
 	padding: 4px 3px;
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 0 1px @box_shadow_light_color;
 }
