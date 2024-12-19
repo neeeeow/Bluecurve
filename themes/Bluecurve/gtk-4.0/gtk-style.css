@@ -739,7 +739,9 @@ popover modelbutton > label:dir(rtl) {
 item:hover > *,
 item:selected:not(prelight) > *,
 popover modelbutton:hover > *,
-popover modelbutton:selected:not(prelight) > * {
+popover modelbutton:selected:not(prelight) > *,
+combobox popover modelbutton.flat:hover cellview,
+combobox popover modelbutton.flat:selected:not(prelight) cellview {
 	color: @theme_selected_fg_color;
 }
 
@@ -1353,6 +1355,10 @@ notebook scrolledwindow.frame {
 
 frame {
 	border: 1px solid @medium_border_color;
+}
+
+frame.flat {
+	border: 1px transparent;
 }
 
 frame > border {
