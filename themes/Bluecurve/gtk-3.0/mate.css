@@ -90,7 +90,9 @@ PanelToplevel.vertical.right > grid {
 }
 
 .mate-panel-menu-bar #tasklist-button:checked,
-#PanelApplet > #showdesktop-button.toggle:checked image {
+.mate-panel-menu-bar #tasklist-button:checked:active,
+#PanelApplet > #showdesktop-button.toggle:checked image,
+#PanelApplet > #showdesktop-button.toggle:checked:active image {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
