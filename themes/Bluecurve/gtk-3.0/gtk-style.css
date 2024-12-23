@@ -1534,9 +1534,8 @@ list separator.horizontal {
 /**********************************************/
 
 checkbutton, radiobutton {
-	outline-offset: -2px;
+	outline: 0;
 }
-
 
 checkbutton:hover, checkbutton:active:focus, radiobutton:hover, radiobutton:active:focus {
 	background-color: @prelight_color;
@@ -1553,7 +1552,7 @@ checkbutton:active label, radiobutton:active label {
 }
 
 checkbutton:focus label, radiobutton:focus label {
-	border-color: @darker_border_color;
+	border-color: @outline_color;
 }
 
 check, radio {
