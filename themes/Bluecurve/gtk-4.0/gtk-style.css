@@ -297,6 +297,7 @@ messagedialog.csd {
 	margin: 0 5px;
 	padding: 0;
 	border: 0;
+	outline: 0;
 	color: @theme_selected_fg_color;
 	background: none;
 	box-shadow: none;
@@ -328,6 +329,7 @@ messagedialog.csd {
 .background.solid-csd headerbar button.toggle:checked:hover {
 	padding: 0;
 	border: 0;
+	outline: 0;
 	background: none;
 	box-shadow: none;
 }
@@ -604,6 +606,11 @@ button {
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
+button:focus {
+	outline: 1px dotted @outline_color;
+	outline-offset: -4px;
+}
+
 button.flat, .appmenu, .minimize, .maximize, .close {
 	background-color: transparent;
 	border: 1px solid transparent;
@@ -658,6 +665,11 @@ button.flat.link:disabled label {
 toolbar .image-button {
 	min-width: 24px;
 	min-height: 24px;
+}
+
+box.toolbar button:focus,
+box.primary-toolbar button:focus {
+	outline: 0;
 }
 
 box.toolbar button:not(.toggle):not(:hover),
