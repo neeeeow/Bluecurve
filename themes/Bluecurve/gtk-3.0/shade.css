@@ -84,6 +84,12 @@
 @define-color darker_border_color shade(@theme_bg_color, 0.4);
 
 /*********************************************/
+/* Outline color */
+/*********************************************/
+
+@define-color outline_color shade(@theme_bg_color, 0.2);
+
+/*********************************************/
 /* Box shadow colors */
 /*********************************************/
 
@@ -97,12 +103,8 @@
 @define-color frame_groove_color shade(@theme_bg_color, 1.065);
 
 /*******************************************/
-/* Check/radio button colors */
-/*******************************************/
-@define-color check_button_border shade(@theme_bg_color, 0.4);
-@define-color check_active_border #b4b4b4; /* no idea where the GTK2 theme gets this color */
-
 /* Text color for entry:disabled */
+/*******************************************/
 @define-color entry_disabled_text #757575; /* this is always #757575 */
 
 /**********************************************/

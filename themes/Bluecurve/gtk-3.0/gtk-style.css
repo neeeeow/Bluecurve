@@ -41,7 +41,7 @@
 	-GtkScrollbar-has-forward-stepper: true;
 	-gtk-icon-style: regular;
 
-	outline: dotted 1px;
+	outline: dotted 1px @outline_color;
 	outline-offset: -4px;
 
 	color: @theme_text_color;
@@ -316,6 +316,7 @@ messagedialog.csd decoration {
 	margin: 0 5px;
 	padding: 0;
 	border: 0;
+	outline: 0;
 	color: @theme_selected_fg_color;
 	background: none;
 	box-shadow: none;
@@ -347,6 +348,7 @@ messagedialog.csd decoration {
 .background.solid-csd headerbar button.toggle:checked:hover {
 	padding: 0;
 	border: 0;
+	outline: 0;
 	background: none;
 	box-shadow: none;
 }
@@ -741,6 +743,10 @@ toolbar {
 /* scale */
 /**********************************************/
 
+scale * {
+	outline: 0;
+}
+
 scale contents {
 	border: 1px dotted transparent;
 }
@@ -756,7 +762,7 @@ scale.horizontal contents {
 }
 
 scale:focus contents {
-	border-color: @darker_border_color;
+	border-color: @outline_color;
 }
 
 scale trough {
