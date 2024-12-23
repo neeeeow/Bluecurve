@@ -89,26 +89,28 @@ PanelToplevel.vertical.right > grid {
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
-.mate-panel-menu-bar #tasklist-button:checked,
-.mate-panel-menu-bar #tasklist-button:checked:active,
+.mate-panel-menu-bar #tasklist-button:checked, 
+.mate-panel-menu-bar #tasklist-button:active,
+.mate-panel-menu-bar #tasklist-button:active:focus,
 #PanelApplet > #showdesktop-button.toggle:checked image,
-#PanelApplet > #showdesktop-button.toggle:checked:active image {
+#PanelApplet > #showdesktop-button.toggle:active image,
+#PanelApplet > #showdesktop-button.toggle:active:focus image {
 	background-color: @darker_color;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
-.mate-panel-menu-bar #tasklist-button:hover,
-#PanelApplet > #showdesktop-button.toggle:hover image {
+.mate-panel-menu-bar #tasklist-button:hover:not(:active),
+#PanelApplet > #showdesktop-button.toggle:hover:not(:active) image {
 	background-color: @prelight_color;
 	border: 1px solid @darker_border_color;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset -1px -1px @box_shadow_dark_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 .mate-panel-menu-bar #tasklist-button:checked:hover,
-.mate-panel-menu-bar #tasklist-button.toggle:hover:active,
+.mate-panel-menu-bar #tasklist-button:active:hover,
 #PanelApplet > #showdesktop-button.toggle:checked:hover image,
-#PanelApplet > #showdesktop-button.toggle:hover:active image {
+#PanelApplet > #showdesktop-button.toggle:active:hover image {
 	box-shadow: inset 1px 1px @box_shadow_dark_color, inset -1px -1px @box_shadow_light_color;
 }
 
