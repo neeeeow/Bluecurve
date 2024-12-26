@@ -61,6 +61,6 @@ item, popover modelbutton {
 }
 
 /* Adjust menu separator padding */
-menu separator, popover separator {
+menu separator.horizontal, popover separator.horizontal {
 	margin: 0px 0px 4px 0px;
 }

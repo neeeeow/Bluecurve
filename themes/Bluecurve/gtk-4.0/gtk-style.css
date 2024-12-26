@@ -1504,7 +1504,7 @@ box.primary-toolbar separator {
 	margin: 6px;
 }
 
-menu separator, popover separator {
+menu separator.horizontal, popover separator.horizontal {
 	margin: 4px 6px 6px 6px;
 	padding: 1px 0px 1px 0px;
 	border: none;
