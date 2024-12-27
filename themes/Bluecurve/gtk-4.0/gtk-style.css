@@ -1966,12 +1966,21 @@ filechooser pathbar scrolledwindow {
 	border: 0;
 }
 
-filechooser pathbar button.toggle image {
-	padding-right: 4px;
+filechooser pathbar button {
+	margin-right: 3px;
 }
 
-filechooser pathbar button.image-button image {
+filechooser pathbar button.toggle image {
 	padding-right: 2px;
+}
+
+filechooser pathbar button label {
+	padding: 0px 2px 0px 1px;
+}
+
+filechooser pathbar button:checked label {
+	font-weight: bold;
+	padding: 0px;
 }
 
 /********************************************/
