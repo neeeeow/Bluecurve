@@ -924,6 +924,16 @@ scrollbar trough {
 	border: 1px solid @border_color;
 }
 
+scrollbar.vertical trough {
+	border-top: 0;
+	border-bottom: 0;
+}
+
+scrollbar.horizontal trough {
+	border-left: 0;
+	border-right: 0;
+}
+
 scrollbar slider {
 	background-color: @theme_bg_color;
 	min-width: 11px;
