@@ -981,38 +981,6 @@ scrollbar button {
 	min-height: 9px;
 }
 
-scrollbar.vertical button.up {
-	-gtk-icon-source: url("img/arrow-up.png");
-}
-
-scrollbar.vertical button.down {
-	-gtk-icon-source: url("img/arrow-down.png");
-}
-
-scrollbar.horizontal button.up {
-	-gtk-icon-source: url("img/arrow-left.png");
-}
-
-scrollbar.horizontal button.down {
-	-gtk-icon-source: url("img/arrow-right.png");
-}
-
-scrollbar.vertical button.up:disabled {
-	-gtk-icon-source: url("img/arrow-up-disabled.png");
-}
-
-scrollbar.vertical button.down:disabled {
-	-gtk-icon-source: url("img/arrow-down-disabled.png");
-}
-
-scrollbar.horizontal button.up:disabled {
-	-gtk-icon-source: url("img/arrow-left-disabled.png");
-}
-
-scrollbar.horizontal button.down:disabled {
-	-gtk-icon-source: url("img/arrow-right-disabled.png");
-}
-
 /**********************************************/
 /* Scrollbar position */
 /**********************************************/
