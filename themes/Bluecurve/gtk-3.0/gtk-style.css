@@ -324,6 +324,12 @@ messagedialog.csd decoration {
 	min-height: 0px;
 }
 
+.background.csd headerbar button > image,
+.background.solid-csd headerbar button > image {
+	-gtk-icon-transform: initial;
+	background: initial;
+}
+
 .background.csd headerbar button:focus,
 .background.csd headerbar button:focus:hover,
 .background.csd headerbar button:active,
