@@ -108,6 +108,15 @@
 @define-color entry_disabled_text #757575; /* this is always #757575 */
 
 /**********************************************/
+/* Button icon colors */
+/**********************************************/
+
+@define-color button_icon_color shade(@theme_bg_color, 0.205);
+@define-color button_icon_hover_color #000000;
+@define-color button_icon_disabled_color @insensitive_fg_color;
+@define-color button_icon_shadow_color @box_shadow_light_color;
+
+/**********************************************/
 /* CSDs */
 /**********************************************/
 

@@ -1739,23 +1739,8 @@ switch:hover slider {
 	background-color: @prelight_color;
 }
 /**********************************************/
-/* arrow */
+/* Combobox */
 /**********************************************/
-
-combobox arrow {
-	min-height: 15px;
-	min-width: 15px;
-	background-repeat: no-repeat;
-	background-position: right center;
-	background-image: url("img/combobox-arrow-down.png");
-	border-left: 1px solid @medium_border_color;
-	margin-right: 1px;
-}
-
-
-combobox arrow:disabled {
-	background-image: url("img/combobox-arrow-down-disabled.png");
-}
 
 combobox entry {
 	padding: 4px;
@@ -1763,16 +1748,100 @@ combobox entry {
 
 combobox entry + button arrow {
 	border: none;
-	background-position: center center;
 }
 
 combobox button {
 	padding: 3px;
 }
 
+combobox button:active {
+	outline: 0;
+}
+
+combobox button:checked:hover,
+combobox button:active:hover {
+	background-color: @darker_color;
+}
+
 combobox entry + button {
 	padding: 3px 4px;
 }
+
+combobox arrow {
+	min-width: 16px;
+	min-height: 16px;
+	border-left: 1px solid @medium_border_color;
+	margin-right: 1px;
+	background:
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		@theme_bg_color;
+}
+
+combobox button:hover arrow {
+	background:
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		@prelight_color;
+}
+
+combobox button:checked arrow, 
+combobox button:active arrow, 
+combobox button:active:focus arrow {
+	background:
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		@darker_color;
+}
+
+combobox button:disabled arrow {
+	background:
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 4px) / 1px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 3px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 4.5px) 50% / 3px 1px no-repeat,
+		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 5.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		@insensitive_bg_color;
+}
+
+/**********************************************/
+/* Menu arrow */
+/**********************************************/
 
 item arrow, popover modelbutton arrow.right {
 	min-height: 9px;
