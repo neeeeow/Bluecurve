@@ -116,6 +116,13 @@
 @define-color button_icon_disabled_color @insensitive_fg_color;
 @define-color button_icon_shadow_color @box_shadow_light_color;
 
+/************************************************/
+/* Grab elements (scrollbar, slider, separator) */
+/************************************************/
+
+@define-color grab_dark_color shade(@theme_bg_color, 0.665);
+@define-color grab_light_color #ffffff;
+
 /**********************************************/
 /* CSDs */
 /**********************************************/
