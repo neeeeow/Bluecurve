@@ -124,6 +124,22 @@
 @define-color grab_light_color #ffffff;
 
 /**********************************************/
+/* Check / radio colors */
+/**********************************************/
+
+@define-color check_background_color #ffffff;
+@define-color check_active_background_color @darker_color;
+@define-color check_color @theme_selected_bg_color;
+
+/**********************************************/
+/* Menu check / radio colors */
+/**********************************************/
+
+@define-color menu_check_color #000000;
+@define-color menu_check_hover_color #ffffff;
+@define-color menu_check_disabled_color @insensitive_fg_color;
+
+/**********************************************/
 /* CSDs */
 /**********************************************/
 

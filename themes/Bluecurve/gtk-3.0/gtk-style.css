@@ -1800,7 +1800,7 @@ list separator.horizontal {
 }
 
 /**********************************************/
-/* check, radio */
+/* Check, Radio */
 /**********************************************/
 
 checkbutton, radiobutton {
@@ -1826,118 +1826,914 @@ checkbutton:focus label, radiobutton:focus label {
 }
 
 check, radio {
+	-gtk-icon-source: none;
 	min-width: 16px;
 	min-height: 16px;
 	margin: 2px 0px 0px 1px;
+	background-position: 0 0;
 }
 
 check:active, check:active:focus, radio:active, radio:active:focus {
-	background:none;
+	background-color: transparent;
 }
 
 /* Set checkbox images */
 
 check {
-	-gtk-icon-source: url("img/checkbox-unchecked.png");
+	background:
+		linear-gradient(@check_background_color, @check_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.792), alpha(@check_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 check:active {
-	-gtk-icon-source: url("img/checkbox-unchecked-active.png");
+	background:
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.792), alpha(@check_active_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 check:checked {
-	-gtk-icon-source: url("img/checkbox-checked.png");
+	background:
+		linear-gradient(alpha(@check_color, 0.486), alpha(@check_color, 0.486)) 11px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.173), alpha(@check_color, 0.173)) 11px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 9px 5px / 2px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 8px 6px / 3px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 8px 7px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.412), alpha(@check_color, 0.412)) 7px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 4px 7px / 2px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 7px 8px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 6px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 4px 8px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 4px 9px / 5px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 6px 10px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 5px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 7px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.792), alpha(@check_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 check:checked:active {
-	-gtk-icon-source: url("img/checkbox-checked-active.png");
+	background:
+		linear-gradient(alpha(@check_color, 0.486), alpha(@check_color, 0.486)) 11px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.173), alpha(@check_color, 0.173)) 11px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 9px 5px / 2px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 8px 6px / 3px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 8px 7px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.412), alpha(@check_color, 0.412)) 7px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 4px 7px / 2px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 7px 8px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 6px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 4px 8px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 4px 9px / 5px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 6px 10px / 2px 1px no-repeat,
+		linear-gradient(alpha(@check_color, 0.455), alpha(@check_color, 0.455)) 5px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_color, @check_color) 7px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.792), alpha(@check_active_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 check:indeterminate {
-	-gtk-icon-source: url("img/checkbox-mixed.png");
+	background:
+		linear-gradient(@check_color, @check_color) 3px 6px / 9px 3px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.792), alpha(@check_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 check:indeterminate:active {
-	-gtk-icon-source: url("img/checkbox-mixed-active.png");
+	background:
+		linear-gradient(@check_color, @check_color) 3px 6px / 9px 3px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 3px / 10px 10px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.792), alpha(@check_active_background_color, 0.792)) 2px 2px / 11px 11px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 1px / 13px 13px no-repeat;
 }
 
 /* Set radio images */
 
+
 radio {
-	-gtk-icon-source: url("img/radio-unchecked.png");
+	background:
+		linear-gradient(alpha(@check_background_color, 0.137), alpha(@check_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_background_color, 0.384), alpha(@check_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.573), alpha(@check_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.702), alpha(@check_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.698), alpha(@check_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.584), alpha(@check_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.243), alpha(@check_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.671), alpha(@check_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.788), alpha(@check_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.976), alpha(@check_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.961), alpha(@check_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.992), alpha(@check_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.122), alpha(@check_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.710), alpha(@check_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.847), alpha(@check_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.404), alpha(@check_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.725), alpha(@check_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.949), alpha(@check_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.604), alpha(@check_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.886), alpha(@check_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.729), alpha(@check_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.753), alpha(@check_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.980), alpha(@check_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.608), alpha(@check_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
 radio:active {
-	-gtk-icon-source: url("img/radio-unchecked-active.png");
+	background:
+		linear-gradient(alpha(@check_active_background_color, 0.137), alpha(@check_active_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_active_background_color, 0.384), alpha(@check_active_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.573), alpha(@check_active_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.702), alpha(@check_active_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.698), alpha(@check_active_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.584), alpha(@check_active_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.243), alpha(@check_active_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.671), alpha(@check_active_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.788), alpha(@check_active_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.976), alpha(@check_active_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.961), alpha(@check_active_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.992), alpha(@check_active_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.122), alpha(@check_active_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.710), alpha(@check_active_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.847), alpha(@check_active_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.404), alpha(@check_active_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.725), alpha(@check_active_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.949), alpha(@check_active_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.604), alpha(@check_active_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.886), alpha(@check_active_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.729), alpha(@check_active_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.753), alpha(@check_active_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.980), alpha(@check_active_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.608), alpha(@check_active_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
 radio:checked {
-	-gtk-icon-source: url("img/radio-checked.png");
+	background:
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 5px 4px / 1px 1px no-repeat, /* Radio icon */
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 6px 4px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 8px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 9px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.941), mix(#000, @check_color, 0.941)) 5px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 6px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.302), mix(@check_color, #fff, 0.302)) 7px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 8px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.886), mix(#000, @check_color, 0.886)) 9px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 10px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 5px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.231), mix(@check_color, #fff, 0.231)) 6px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.973), mix(#000, @check_color, 0.973)) 7px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 8px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 9px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 10px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 4px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.302), mix(@check_color, #fff, 0.302)) 5px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.973), mix(#000, @check_color, 0.973)) 6px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.8), mix(#000, @check_color, 0.8)) 8px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.596), mix(#000, @check_color, 0.596)) 9px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 10px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 4px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 5px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 6px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.8), mix(#000, @check_color, 0.8)) 7px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.643), mix(#000, @check_color, 0.643)) 8px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 9px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 10px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 4px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.886), mix(#000, @check_color, 0.886)) 5px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 6px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.596), mix(#000, @check_color, 0.596)) 7px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 8px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.816), mix(#000, @check_color, 0.816)) 9px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 10px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 5px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 8px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 9px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.137), alpha(@check_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_background_color, 0.384), alpha(@check_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.573), alpha(@check_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.702), alpha(@check_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.698), alpha(@check_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.584), alpha(@check_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.243), alpha(@check_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.671), alpha(@check_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.788), alpha(@check_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.976), alpha(@check_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.961), alpha(@check_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.992), alpha(@check_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.122), alpha(@check_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.710), alpha(@check_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.847), alpha(@check_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.404), alpha(@check_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.725), alpha(@check_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.949), alpha(@check_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.604), alpha(@check_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.886), alpha(@check_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.729), alpha(@check_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.753), alpha(@check_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.980), alpha(@check_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.608), alpha(@check_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
 radio:checked:active {
-	-gtk-icon-source: url("img/radio-checked-active.png");
+	background:
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 5px 4px / 1px 1px no-repeat, /* Radio icon */
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 6px 4px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 8px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 9px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.941), mix(#000, @check_color, 0.941)) 5px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 6px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.302), mix(@check_color, #fff, 0.302)) 7px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 8px 5px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.886), mix(#000, @check_color, 0.886)) 9px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 10px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 5px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.231), mix(@check_color, #fff, 0.231)) 6px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.973), mix(#000, @check_color, 0.973)) 7px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 8px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 9px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 10px 6px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 4px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.302), mix(@check_color, #fff, 0.302)) 5px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.973), mix(#000, @check_color, 0.973)) 6px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.8), mix(#000, @check_color, 0.8)) 8px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.596), mix(#000, @check_color, 0.596)) 9px 7px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 10px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 4px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(@check_color, #fff, 0.2), mix(@check_color, #fff, 0.2)) 5px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 6px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.8), mix(#000, @check_color, 0.8)) 7px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.643), mix(#000, @check_color, 0.643)) 8px 8px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 9px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 10px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 4px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.886), mix(#000, @check_color, 0.886)) 5px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 6px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.596), mix(#000, @check_color, 0.596)) 7px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.667), mix(#000, @check_color, 0.667)) 8px 9px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.816), mix(#000, @check_color, 0.816)) 9px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 10px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 5px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(mix(#000, @check_color, 0.863), mix(#000, @check_color, 0.863)) 7px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.831), alpha(mix(#000, @check_color, 0.863), 0.831)) 8px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(mix(#000, @check_color, 0.863), 0.4), alpha(mix(#000, @check_color, 0.863), 0.4)) 9px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.137), alpha(@check_active_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_active_background_color, 0.384), alpha(@check_active_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.573), alpha(@check_active_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.702), alpha(@check_active_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.698), alpha(@check_active_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.584), alpha(@check_active_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.243), alpha(@check_active_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.671), alpha(@check_active_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.788), alpha(@check_active_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.976), alpha(@check_active_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.961), alpha(@check_active_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.992), alpha(@check_active_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.122), alpha(@check_active_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.710), alpha(@check_active_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.847), alpha(@check_active_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.404), alpha(@check_active_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.725), alpha(@check_active_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.949), alpha(@check_active_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.604), alpha(@check_active_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.886), alpha(@check_active_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.729), alpha(@check_active_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.753), alpha(@check_active_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.980), alpha(@check_active_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.608), alpha(@check_active_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
 radio:indeterminate {
-	-gtk-icon-source: url("img/radio-mixed.png");
+	background:
+		linear-gradient(@check_color, @check_color) 4px 6px / 7px 3px no-repeat, /* Indeterminate icon */
+		linear-gradient(alpha(@check_background_color, 0.137), alpha(@check_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_background_color, 0.384), alpha(@check_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.573), alpha(@check_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.702), alpha(@check_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.698), alpha(@check_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.584), alpha(@check_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.243), alpha(@check_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.671), alpha(@check_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.788), alpha(@check_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.976), alpha(@check_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.961), alpha(@check_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.992), alpha(@check_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.122), alpha(@check_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.710), alpha(@check_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.847), alpha(@check_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.404), alpha(@check_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.725), alpha(@check_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.949), alpha(@check_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.604), alpha(@check_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.886), alpha(@check_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.988), alpha(@check_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.729), alpha(@check_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.922), alpha(@check_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.753), alpha(@check_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.980), alpha(@check_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.608), alpha(@check_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.341), alpha(@check_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_background_color, @check_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.898), alpha(@check_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.612), alpha(@check_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_background_color, 0.169), alpha(@check_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
 radio:indeterminate:active {
-	-gtk-icon-source: url("img/radio-mixed-active.png");
+	background:
+		linear-gradient(@check_color, @check_color) 4px 6px / 7px 3px no-repeat, /* Indeterminate icon */
+		linear-gradient(alpha(@check_active_background_color, 0.137), alpha(@check_active_background_color, 0.137)) 4px 2px / 1px 1px no-repeat, /* Background */
+		linear-gradient(alpha(@check_active_background_color, 0.384), alpha(@check_active_background_color, 0.384)) 5px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.573), alpha(@check_active_background_color, 0.573)) 6px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.702), alpha(@check_active_background_color, 0.702)) 7px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.698), alpha(@check_active_background_color, 0.698)) 8px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.584), alpha(@check_active_background_color, 0.584)) 9px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.243), alpha(@check_active_background_color, 0.243)) 3px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.671), alpha(@check_active_background_color, 0.671)) 4px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.788), alpha(@check_active_background_color, 0.788)) 5px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 6px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.976), alpha(@check_active_background_color, 0.976)) 7px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.961), alpha(@check_active_background_color, 0.961)) 8px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.992), alpha(@check_active_background_color, 0.992)) 9px 3px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 10px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.122), alpha(@check_active_background_color, 0.122)) 2px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.710), alpha(@check_active_background_color, 0.710)) 3px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.847), alpha(@check_active_background_color, 0.847)) 4px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 5px 4px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 6px 4px / 6px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.404), alpha(@check_active_background_color, 0.404)) 2px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.725), alpha(@check_active_background_color, 0.725)) 3px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.949), alpha(@check_active_background_color, 0.949)) 4px 5px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 5px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.604), alpha(@check_active_background_color, 0.604)) 2px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.886), alpha(@check_active_background_color, 0.886)) 3px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.988), alpha(@check_active_background_color, 0.988)) 4px 6px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 5px 6px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 6px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.729), alpha(@check_active_background_color, 0.729)) 2px 7px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.922), alpha(@check_active_background_color, 0.922)) 3px 7px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 7px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.753), alpha(@check_active_background_color, 0.753)) 2px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.980), alpha(@check_active_background_color, 0.980)) 3px 8px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 8px / 8px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 12px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.608), alpha(@check_active_background_color, 0.608)) 2px 9px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 9px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 12px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 2px 10px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 3px 10px / 9px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 12px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 3px 11px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 4px 11px / 7px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.341), alpha(@check_active_background_color, 0.341)) 11px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 4px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 5px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 6px 12px / 1px 1px no-repeat,
+		linear-gradient(@check_active_background_color, @check_active_background_color) 7px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.898), alpha(@check_active_background_color, 0.898)) 8px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.612), alpha(@check_active_background_color, 0.612)) 9px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@check_active_background_color, 0.169), alpha(@check_active_background_color, 0.169)) 10px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 1px / 1px 1px no-repeat, /* Border */
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 1px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 1px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 2px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 2px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 2px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 3px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 3px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 3px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 4px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 4px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 4px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 5px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 5px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 5px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 6px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 6px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 1px 7px / 13px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 1px 8px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 8px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 13px 8px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 1px 9px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 9px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 13px 9px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 1px 10px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 2px 10px / 11px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 13px 10px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 2px 11px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 3px 11px / 9px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 12px 11px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 3px 12px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 4px 12px / 7px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.596), alpha(@darker_border_color, 0.596)) 11px 12px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 4px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 5px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 6px 13px / 1px 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) 7px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.914), alpha(@darker_border_color, 0.914)) 8px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.675), alpha(@darker_border_color, 0.675)) 9px 13px / 1px 1px no-repeat,
+		linear-gradient(alpha(@darker_border_color, 0.290), alpha(@darker_border_color, 0.290)) 10px 13px / 1px 1px no-repeat;
 }
 
-/* check and radio in menu */
+/* Check and radio in menu */
+
 menuitem check, menuitem radio {
 	margin: 0px 5px 0px 4px;
 	padding: 0px;
 	background: none;
 	min-width: 8px;
-	min-height: 7px;
+	min-height: 8px;
 	-gtk-icon-source: none;
 }
 
+/* Set menu check image */
+
 menuitem check:checked {
-	-gtk-icon-source: url("img/menuitem-check-checked.png");
-	min-width: 8px;
-	min-height: 7px;
+	background:
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% - 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 1px) calc(50% + 2.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 3px) calc(50% + 1.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% - 3px) calc(50% + 0.5px) / 2px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% + 1px) calc(50% - 0.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% + 2px) calc(50% - 1.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% + 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
 menuitem check:hover:checked {
-	-gtk-icon-source: url("img/menuitem-check-checked-hover.png");
+	background:
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 1.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 1.5px) calc(50% + 1.5px) / 5px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 3px) calc(50% + 0.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) 50% calc(50% + 0.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% + 1px) calc(50% - 0.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% + 2px) calc(50% - 1.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% + 3px) calc(50% - 2.5px) / 2px 1px no-repeat;
 }
 
 menuitem check:disabled:checked {
-	-gtk-icon-source: url("img/menuitem-check-checked-disabled.png");
+	background:
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% - 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 1px) calc(50% + 2.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 3px) calc(50% + 1.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% - 3px) calc(50% + 0.5px) / 2px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% + 1px) calc(50% - 0.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% + 2px) calc(50% - 1.5px) / 2px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% + 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
+/* Set menu radio image */
+
 menuitem radio:checked {
-	min-width: 5px;
-	min-height: 5px;
-	-gtk-icon-source: url("img/menuitem-radio-checked.png");
+	background:
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat;
 }
 
 menuitem radio:hover:checked {
-	-gtk-icon-source: url("img/menuitem-radio-checked-hover.png");
+	background:
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat;
 }
 
 menuitem radio:disabled:checked {
-	-gtk-icon-source: url("img/menuitem-radio-checked-disabled.png");
+	background:
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat;
 }
 
-menuitem check:indeterminate, menuitem radio:indeterminate {
-	margin-top: 1px;
-	min-width: 7px;
-	min-height: 2px;
-	-gtk-icon-source: url("img/menuitem-mixed.png");
+/* Set menu indeterminate image */
+
+menuitem check:indeterminate,
+menuitem radio:indeterminate {
+	background:
+		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
 
-menuitem check:hover:indeterminate, menuitem radio:hover:indeterminate {
-	-gtk-icon-source: url("img/menuitem-mixed-hover.png");
+menuitem check:hover:indeterminate,
+menuitem radio:hover:indeterminate {
+	background:
+		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
 
-menuitem check:disabled:indeterminate, menuitem radio:disabled:indeterminate {
-	-gtk-icon-source: url("img/menuitem-mixed-disabled.png");
+menuitem check:disabled:indeterminate,
+menuitem radio:disabled:indeterminate {
+	background:
+		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
 
 /**********************************************/
