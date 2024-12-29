@@ -2637,8 +2637,8 @@ radio:indeterminate:active {
 /* Check and radio in menu */
 
 menuitem check, menuitem radio {
-	margin: 0px 5px 0px 4px;
-	padding: 0px;
+	margin: 0;
+	padding: 0;
 	background: none;
 	min-width: 8px;
 	min-height: 8px;
