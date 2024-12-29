@@ -2637,7 +2637,7 @@ radio:indeterminate:active {
 /* Check and radio in menu */
 
 menuitem check, menuitem radio {
-	margin: 0;
+	margin: 0 5px 0 4px;
 	padding: 0;
 	background: none;
 	min-width: 8px;
@@ -3104,11 +3104,6 @@ treeview, list {
 
 treeview.view {
 	padding: 0 1px;
-}
-
-treeview.view check,
-treeview.view radio {
-	background: transparent;
 }
 
 treeview.view.image:disabled {

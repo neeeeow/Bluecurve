@@ -2793,11 +2793,6 @@ treeview.view {
 	padding: 0 1px;
 }
 
-treeview.view check,
-treeview.view radio {
-	background: transparent;
-}
-
 treeview.view.image:disabled {
 	-gtk-icon-effect: dim;
 }
