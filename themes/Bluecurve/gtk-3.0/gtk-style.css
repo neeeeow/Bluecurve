@@ -954,18 +954,18 @@ scrollbar.vertical slider {
 	min-width: 11px;
 	min-height: 26px;
 	background:
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 2px) calc(100% + 9px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @theme_bg_color, @theme_bg_color) calc(50% - 3px) calc(100% + 10px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 2px) calc(100% + 9px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 3px) calc(100% + 10px) / 1px 50% no-repeat,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 2px) 1px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 1px) 2px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 50% 3px / 1px 5px repeat-y,
@@ -977,18 +977,18 @@ scrollbar.vertical slider {
 
 scrollbar.vertical slider:hover {
 	background:
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 2px) calc(100% + 9px) / 1px 50% no-repeat,
-		linear-gradient(to bottom, @prelight_color, @prelight_color) calc(50% - 3px) calc(100% + 10px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 2px) calc(100% + 9px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 3px) calc(100% + 10px) / 1px 50% no-repeat,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 2px) 1px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 1px) 2px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 50% 3px / 1px 5px repeat-y,
@@ -1002,18 +1002,18 @@ scrollbar.horizontal slider {
 	min-width: 26px;
 	min-height: 11px;
 	background:
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 50% / calc(50% - 7px) 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 9px) calc(50% - 2px) / 50% 1px no-repeat,
-		linear-gradient(to right, @theme_bg_color, @theme_bg_color) calc(100% + 10px) calc(50% - 3px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 50% / calc(50% - 7px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 9px) calc(50% - 2px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 10px) calc(50% - 3px) / 50% 1px no-repeat,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 1px calc(50% + 2px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 2px calc(50% + 1px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 3px 50% / 5px 1px repeat-x,
@@ -1025,18 +1025,18 @@ scrollbar.horizontal slider {
 
 scrollbar.horizontal slider:hover {
 	background:
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 50% / calc(50% - 7px) 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 9px) calc(50% - 2px) / 50% 1px no-repeat,
-		linear-gradient(to right, @prelight_color, @prelight_color) calc(100% + 10px) calc(50% - 3px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 50% / calc(50% - 7px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 9px) calc(50% - 2px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 10px) calc(50% - 3px) / 50% 1px no-repeat,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 1px calc(50% + 2px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 2px calc(50% + 1px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 3px 50% / 5px 1px repeat-x,
@@ -1059,193 +1059,193 @@ scrollbar button {
 
 scrollbar.vertical button.up {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@theme_bg_color;
 }
 
 scrollbar.vertical button.up:hover {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@prelight_color;
 }
 
 scrollbar.vertical button.up:active {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@darker_color;
 }
 
 scrollbar.vertical button.up:disabled {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) 50% calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 1px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) 50% calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 1px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 3px) / 1px 1px no-repeat,
 		@insensitive_bg_color;
 }
 
 scrollbar.vertical button.down {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
 		@theme_bg_color;
 }
 
 scrollbar.vertical button.down:hover {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
 		@prelight_color;
 }
 
 scrollbar.vertical button.down:active {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
 		@darker_color;
 }
 
 scrollbar.vertical button.down:disabled {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) 50% / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) 50% / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 3px) / 1px 1px no-repeat,
 		@insensitive_bg_color;
 }
 
 scrollbar.horizontal button.up {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@theme_bg_color;
 }
 
 scrollbar.horizontal button.up:hover {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@prelight_color;
 }
 
 scrollbar.horizontal button.up:active {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
 		@darker_color;
 }
 
 scrollbar.horizontal button.up:disabled {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% - 1px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% - 1px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 3px) / 1px 1px no-repeat,
 		@insensitive_bg_color;
 }
 
 scrollbar.horizontal button.down {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
 		@theme_bg_color;
 }
 
 scrollbar.horizontal button.down:hover {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
 		@prelight_color;
 }
 
 scrollbar.horizontal button.down:active {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
 		@darker_color;
 }
 
 scrollbar.horizontal button.down:disabled {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) 50% calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 2px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 1px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 1px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) 50% calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 2px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 1px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 1px) / 1px 1px no-repeat,
 		@insensitive_bg_color;
 }
 
@@ -2810,16 +2810,16 @@ combobox arrow {
 	border-left: 1px solid @medium_border_color;
 	margin-right: 1px;
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat;
 }
 
 combobox button:hover arrow,
@@ -2827,36 +2827,36 @@ combobox button:checked arrow,
 combobox button:active arrow, 
 combobox button:active:focus arrow {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat;
 }
 
 combobox button:disabled arrow {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 4px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 3px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 2px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 4.5px) 50% / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 5.5px) calc(50% - 1px) / 3px 1px no-repeat;
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 1px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 4.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 4px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 3px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 4.5px) 50% / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 5.5px) calc(50% - 1px) / 3px 1px no-repeat;
 }
 
 /**********************************************/
@@ -2870,14 +2870,14 @@ button.popup {
 button.popup > image {
 	-gtk-icon-transform: scale(0);
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
 button.popup:hover > image,
@@ -2885,31 +2885,31 @@ button.popup:checked > image,
 button.popup:active > image,
 button.popup:active:focus > image {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
 button.popup:disabled > image {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 0.5px) / 3px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 0.5px) / 3px 1px no-repeat;
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% - 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 0.5px) / 3px 1px no-repeat;
 }
 
 /**********************************************/
@@ -2926,20 +2926,16 @@ button.slider-button > image {
 	-gtk-icon-transform: scale(0);
 }
 
-.caja-pathbar button.slider-button > image {
-	margin: 0 3px 0 2px; /* Caja ignores horizontal pathbar paddding for some reason... */
-}
-
 button.slider-button:first-child > image {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
 }
 
 button.slider-button:first-child:hover > image,
@@ -2947,43 +2943,43 @@ button.slider-button:first-child:checked > image,
 button.slider-button:first-child:active > image,
 button.slider-button:first-child:active:focus > image {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
 }
 
 button.slider-button:first-child:disabled > image {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% - 2px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 2px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 4px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 4px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% - 2px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 4px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 4px) / 1px 1px no-repeat;
 }
 
 button.slider-button:not(:first-child) > image {
 	background:
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
 }
 
 button.slider-button:not(:first-child):hover > image,
@@ -2991,31 +2987,31 @@ button.slider-button:not(:first-child):checked > image,
 button.slider-button:not(:first-child):active > image,
 button.slider-button:not(:first-child):active:focus > image {
 	background:
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat;
 }
 
 button.slider-button:not(:first-child):disabled > image {
 	background:
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1px) / 1px 1px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 1px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 2px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 3px no-repeat,
-		linear-gradient(to right, @button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 0.5px) calc(50% + 4px) / 1px 3px no-repeat;
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) 50% / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) 50% / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) 50% / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) 50% / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% - 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 1px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 2px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 0.5px) calc(50% + 4px) / 1px 3px no-repeat;
 }
 
 /**********************************************/

@@ -49,6 +49,10 @@
 	margin: -1px 0px 0px -1px;
 }
 
+.caja-pathbar button.slider-button > image {
+	margin: 0 3px 0 2px; /* Caja ignores horizontal pathbar paddding for some reason... */
+}
+
 /**********************************************/
 /* Thunar */
 /**********************************************/
