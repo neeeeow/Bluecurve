@@ -24,9 +24,9 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 - Luxi font family (fonts used originally in Red Hat 8-9 and early versions of Fedora and RHEL).
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
 
-## Installation
-### 1. Download the theme
+## Automatic installation (reccomended)
 
+### 1. Download the theme
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
 git clone https://github.com/neeeeow/Bluecurve.git
@@ -35,19 +35,18 @@ cd Bluecurve
 > [!CAUTION]
 > You must either download the latest release or clone the git repository. Simply downloading the repository as a .zip file breaks permissions!
 
-### 2. Install GTK 2 engine (required)
-If on x86_64, copy `engine/x86_64/libbluecurve.so` to `/usr/lib64/gtk-2.0/2.10.0/engines`
+### 2. Run the install script
 ```bash
 ./install.sh
 ```
-### Other distributions (manual installation)
-#### 1. Download the theme
+## Manual installation
+### 1. Download the theme
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
 ```bash
 git clone https://github.com/neeeeow/Bluecurve.git
 cd Bluecurve
 ```
-#### 2. Compile GTK 2 engine
+### 2. Compile GTK 2 engine
 First ensure that you have the following installed on your system:
 - Cmake
 - gcc
@@ -71,17 +70,15 @@ make && make install && cd ../../../
 ```
 
 ### 3. Install icon and cursor set
-Copy the contents of the `icons` folder to `/usr/share/icons`
+Copy the contents of the `icons` folder to `~/.icons`
 ```bash
 cp -r icons/* ~/.icons
 ```
 ### 4. Install theme
-Copy the contents of the `themes` folder to `/usr/share/themes`
-
+Copy the contents of the `themes` folder to `~/.themes`
 ```bash
 cp -r themes/* ~/.themes
 ```
-
 ### (Optional) 5. Install Luxi fonts
 > [!WARNING]
 > Only do this step if your distribution doesn't include the Luxi font family.
