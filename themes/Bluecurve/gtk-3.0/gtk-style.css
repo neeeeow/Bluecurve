@@ -954,13 +954,13 @@ scrollbar.vertical slider {
 	min-width: 11px;
 	min-height: 26px;
 	background:
-		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* Top overlay*/
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
-		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* Bottom overlay */
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
@@ -977,13 +977,13 @@ scrollbar.vertical slider {
 
 scrollbar.vertical slider:hover {
 	background:
-		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* top overlay*/
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) 0 / 1px calc(50% - 9px) no-repeat, /* Top overlay*/
 		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1px) 0 / 1px calc(50% - 8px) no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 50% 0 / 1px calc(50% - 7px) no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1px) 0 / 1px calc(50% - 6px) no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(50% - 2px) 0 / 1px calc(50% - 5px) no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(50% - 3px) 0 / 1px calc(50% - 4px) no-repeat,
-		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* bottom overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 2px) calc(100% + 5px) / 1px 50% no-repeat, /* Bottom overlay */
 		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1px) calc(100% + 6px) / 1px 50% no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 50% calc(100% + 7px) / 1px 50% no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1px) calc(100% + 8px) / 1px 50% no-repeat,
@@ -1002,13 +1002,13 @@ scrollbar.horizontal slider {
 	min-width: 26px;
 	min-height: 11px;
 	background:
-		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* Left overlay*/
 		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 0 50% / calc(50% - 7px) 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
-		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* Right overlay */
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
 		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
@@ -1025,13 +1025,13 @@ scrollbar.horizontal slider {
 
 scrollbar.horizontal slider:hover {
 	background:
-		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* left overlay*/
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 2px) / calc(50% - 9px) 1px no-repeat, /* Left overlay*/
 		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 1px) / calc(50% - 8px) 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 0 50% / calc(50% - 7px) 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 1px) / calc(50% - 6px) 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 2px) / calc(50% - 5px) 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 3px) / calc(50% - 4px) 1px no-repeat,
-		linear-gradient(@prelight_color, @prelight_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* bottom overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 5px) calc(50% + 2px)  / 50% 1px no-repeat, /* Right overlay */
 		linear-gradient(@prelight_color, @prelight_color) calc(100% + 6px) calc(50% + 1px) / 50% 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(100% + 7px) 50% / 50% 1px no-repeat,
 		linear-gradient(@prelight_color, @prelight_color) calc(100% + 8px) calc(50% - 1px) / 50% 1px no-repeat,
@@ -1738,13 +1738,14 @@ row {
 }
 
 /**********************************************/
-/* separator */
+/* Separator */
 /**********************************************/
 
 separator {
 	padding: 0px;
 	border-top: 1px solid @separator_darker_color; /* horizontal separator color */
 	border-left: 1px solid @medium_border_color; /* vertical separator color */
+	-gtk-icon-source: none;
 }
 
 separator.horizontal {
@@ -1760,24 +1761,6 @@ menu separator, popover separator {
 	padding: 1px 0px 1px 0px;
 	border: none;
 	box-shadow: inset 0px 1px @separator_darker_color, inset 0px -1px @theme_selected_fg_color;
-}
-
-paned.vertical > separator {
-	border: none;
-	margin: 1px 0px 0px 0px;
-	padding: 0px;
-	background-image: url("img/separator_horizontal.png");
-	background-position: center center;
-	background-repeat: no-repeat;
-}
-
-paned.horizontal > separator {
-	border: none;
-	margin: 0px 0px 0px 1px;
-	padding: 0px;
-	background-image: url("img/separator_vertical.png");
-	background-position: center center;
-	background-repeat: no-repeat;
 }
 
 paned.vertical > separator:hover,
@@ -1797,6 +1780,82 @@ list separator.horizontal {
 	min-width: 12px;
 	min-height: 12px;
 	color: @theme_bg_color;
+}
+
+paned.vertical > separator {
+	border: none;
+	margin: 0;
+	padding: 0;
+	min-height: 6px;
+	background:
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 1.5px) / calc(50% - 11px) 1px no-repeat, /* Left overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% + 0.5px) / calc(50% - 10px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 0.5px) / calc(50% - 9px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 0 calc(50% - 1.5px) / calc(50% - 8px) 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 14px)  calc(50% + 1.5px) / 50% 1px no-repeat, /* Right overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 15px) calc(50% + 0.5px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 16px) calc(50% - 0.5px) / 50% 1px no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(100% + 17px) calc(50% - 1.5px) / 50% 1px no-repeat,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 1px calc(50% + 1.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 2px calc(50% + 0.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 3px calc(50% - 0.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 4px calc(50% - 1.5px) / 5px 1px repeat-x,
+		@theme_bg_color;
+}
+
+paned.vertical > separator:hover {
+	background:
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 1.5px) / calc(50% - 11px) 1px no-repeat, /* Left overlay */
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% + 0.5px) / calc(50% - 10px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 0.5px) / calc(50% - 9px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) 0 calc(50% - 1.5px) / calc(50% - 8px) 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 14px)  calc(50% + 1.5px) / 50% 1px no-repeat, /* Right overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 15px) calc(50% + 0.5px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 16px) calc(50% - 0.5px) / 50% 1px no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(100% + 17px) calc(50% - 1.5px) / 50% 1px no-repeat,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 1px calc(50% + 1.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 2px calc(50% + 0.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 3px calc(50% - 0.5px) / 5px 1px repeat-x,
+		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 4px calc(50% - 1.5px) / 5px 1px repeat-x,
+		@prelight_color;
+}
+
+paned.horizontal > separator {
+	border: none;
+	margin: 0;
+	padding: 0;
+	min-width: 6px;
+	background:
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1.5px) 0 / 1px calc(50% - 11px) no-repeat, /* Top overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 0.5px) 0 / 1px calc(50% - 10px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 0.5px) 0 / 1px calc(50% - 9px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1.5px) 0 / 1px calc(50% - 8px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 1.5px) calc(100% + 14px) / 1px 50% no-repeat, /* Bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% + 0.5px) calc(100% + 15px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 0.5px) calc(100% + 16px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) calc(50% - 1.5px) calc(100% + 17px) / 1px 50% no-repeat,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 1.5px) 1px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 0.5px) 2px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 0.5px) 3px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 1.5px) 4px / 1px 5px repeat-y,
+		@theme_bg_color;
+}
+
+paned.horizontal > separator:hover {
+	background:
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1.5px) 0 / 1px calc(50% - 11px) no-repeat, /* Top overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 0.5px) 0 / 1px calc(50% - 10px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 0.5px) 0 / 1px calc(50% - 9px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1.5px) 0 / 1px calc(50% - 8px) no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 1.5px) calc(100% + 14px) / 1px 50% no-repeat, /* Bottom overlay */
+		linear-gradient(@prelight_color, @prelight_color) calc(50% + 0.5px) calc(100% + 15px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 0.5px) calc(100% + 16px) / 1px 50% no-repeat,
+		linear-gradient(@prelight_color, @prelight_color) calc(50% - 1.5px) calc(100% + 17px) / 1px 50% no-repeat,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 1.5px) 1px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% + 0.5px) 2px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 0.5px) 3px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 1.5px) 4px / 1px 5px repeat-y,
+		@prelight_color;
 }
 
 /**********************************************/
