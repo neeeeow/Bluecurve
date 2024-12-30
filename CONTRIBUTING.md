@@ -22,12 +22,11 @@ If you have found a bug and have been able to fix it yourself or wish to impleme
 ### Guidelines for package maintainers
 - When packaging the theme, ensure that it is installed system-wide.
 - The following files should be installed to the corresponding directories (although this may vary depending on your distribution).
-  - The GTK 2 engine should be installed to `/usr/lib64/gtk-2.0/2.10.0/engines/` for x86_64 Linux and `/usr/lib/gtk-2.0/2.10.0/engines/` for i686 Linux.
+  - The GTK 2 engine should be installed to the directory that CMake installs the engine to (this depends on the distribution).
   - The icons should be installed to `/usr/share/icons/`
   - The themes should be installed to `/usr/share/themes/`
   - The Luxi fonts should be installed to `/usr/local/share/fonts/`
-  - The Plymouth themes should be installed to `/usr/share/plymouth/themes/`
 - Ensure that you package the [releases](https://github.com/neeeeow/Bluecurve/releases) and not the latest commit. A new release usually comes every few commits.
 - The version number of your package should be consistent with the version number of the releases [released on GitHub](https://github.com/neeeeow/Bluecurve/releases).
-- If you have packaged the theme a distribution, please fork the repository and modify the README.md file with instructions on how to install the package. Then submit a pull request.
+- If you have packaged the theme a distribution, please fork the repository and modify the README.md file with instructions on how to install the package. Then submit a pull request. This request will be accepted **only** if the package is in a distribution's official package repository!
 - **Note:** If your package goes unmaintained for a long time, the link to the package will be removed from the README.md file.
