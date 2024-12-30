@@ -1763,11 +1763,6 @@ menu separator, popover separator {
 	box-shadow: inset 0px 1px @separator_darker_color, inset 0px -1px @theme_selected_fg_color;
 }
 
-paned.vertical > separator:hover,
-paned.horizontal > separator:hover {
-	background-color: @prelight_color;
-}
-
 list separator.horizontal {
 	min-height:1px;
 	background-image: none;
