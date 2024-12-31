@@ -3402,7 +3402,9 @@ notebook > header.right arrow.down:disabled {
 		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 3.5px) calc(50% + 0.5px) / 3px 1px no-repeat,
 		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 4.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
 		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 5.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
-		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 5.5px) calc(50% + 3.5px) / 1px 1px no-repeat;
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 5.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 6.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 6.5px) calc(50% + 3.5px) / 1px 1px no-repeat;
 }
 
 notebook > header.left arrow.up,
