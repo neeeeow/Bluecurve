@@ -3139,77 +3139,181 @@ notebook > header.right arrow.up:disabled {
 /* Menu arrow */
 /**********************************************/
 
-item arrow, popover modelbutton arrow.right {
-	min-height: 9px;
-	min-width: 9px;
-	-gtk-icon-source: url("img/arrow-right.png");
+item arrow,
+popover modelbuttom arrow {
+	-gtk-icon-source: none;
+	border: 0;
+	min-width: 16px;
+	min-height: 16px;
 }
 
-item:hover > arrow,
-item:selected:not(prelight) > arrow,
+item arrow.right, 
+popover modelbutton arrow.right {
+	margin-right: -5px;
+	background:
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% + 0.5px) / 1px 1px no-repeat;
+}
+
+item:hover > arrow.right,
+item:selected:not(prelight) > arrow.right,
 popover modelbutton:hover > arrow.right,
 popover modelbutton:selected:not(prelight) > arrow.right {
-	-gtk-icon-source: url("img/arrow-right-hover.png");
+	background:
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 2.5px) calc(50% + 0.5px) / 1px 1px no-repeat;
 }
 
-item:disabled > arrow {
-	-gtk-icon-source: url("img/arrow-right-disabled.png");
+item:disabled > arrow.right,
+popover modelbutton:disabled > arrow.right {
+	background:
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 2.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 1.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 1.5px) / 1px 1px no-repeat;
+}
+
+item arrow.left,
+popover modelbutton arrow.left {
+	background:
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 1.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat;
+}
+
+item:hover > arrow.left,
+item:selected:not(prelight) > arrow.left,
+popover modelbutton:hover > arrow.left,
+popover modelbutton:selected:not(prelight) > arrow.left {
+	background:
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 2.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% + 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat;
+}
+
+item:disabled > arrow.left,
+popover modelbutton:disabled > arrow.left {
+	background:
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 0.5px) calc(50% + 0.5px) / 1px 5px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 1.5px) calc(50% + 0.5px) / 1px 7px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) calc(50% + 3.5px) / 1px 3px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 0.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% + 3.5px) / 1px 1px no-repeat;
+}
+
+menu arrow.top,
+.menu arrow.top,
+menu arrow.bottom,
+.menu arrow.bottom {
+	min-height: 14px;
+	border: 1px solid @border_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
 menu arrow.top,
 .menu arrow.top {
-	border: 1px solid @border_color;
-	padding: 2px 0px 3px 0px;
-
-	-gtk-icon-source: none;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image: url("img/arrow-up.png");
+	background:
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		@theme_bg_color;
 }
 
 menu arrow:hover.top,
 .menu arrow:hover.top {
-	background-color: @prelight_color;
+	background:
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		@prelight_color;
 }
 
 menu arrow:disabled.top,
 .menu arrow:disabled.top {
-	background-image: url("img/arrow-up-disabled.png");
-	background-color: @insensitive_bg_color;
+	background:
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 0.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) 50% calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% - 1px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		@insensitive_bg_color;
 }
 
 menu arrow.bottom,
 .menu arrow.bottom {
-	border: 1px solid @border_color;
 	margin: 8px 0px -8px 0px;
-	padding: 2px 0px 3px 0px;
-
-	-gtk-icon-source: none;
-	background-repeat: no-repeat;
-	background-position: center center;
-	background-image: url("img/arrow-down.png");
-	background-color: @theme_bg_color
+	background:
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 1.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) 50% calc(50% + 1.5px) / 1px 1px no-repeat,
+		@theme_bg_color;
 }
 
 menu arrow:hover.bottom,
 .menu arrow:hover.bottom {
-	background-color: @prelight_color;
+	background:
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 1.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) 50% calc(50% + 1.5px) / 1px 1px no-repeat,
+		@prelight_color;
 }
 
 menu arrow:disabled.bottom,
 .menu arrow:disabled.bottom {
-	background-image: url("img/arrow-down-disabled.png");
-	background-color: @insensitive_bg_color;
-}
-
-popover modelbutton arrow.left {
-	min-height: 9px;
-	min-width: 9px;
-	-gtk-icon-source: url("img/arrow-left.png");
-}
-
-popover modelbutton:hover > arrow.left {
-	-gtk-icon-source: url("img/arrow-left-hover.png");
+	background:
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2px) calc(50% - 2.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 1.5px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% - 0.5px) / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) 50% calc(50% + 1.5px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3px) calc(50% - 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2px) calc(50% + 0.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 1.5px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1px) calc(50% + 2.5px) / 1px 1px no-repeat,
+		@insensitive_bg_color;
 }
 
 /********************************************/

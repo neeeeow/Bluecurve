@@ -3486,6 +3486,7 @@ notebook > header.right arrow.up:disabled {
 menuitem arrow,
 popover modelbuttom arrow {
 	-gtk-icon-source: none;
+	border: 0;
 	min-width: 9px;
 	min-height: 9px;
 }
