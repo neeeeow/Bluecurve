@@ -87,7 +87,7 @@
 /* Outline color */
 /*********************************************/
 
-@define-color outline_color shade(@theme_bg_color, 0.2);
+@define-color outline_color shade(@theme_bg_color, 0.205);
 
 /*********************************************/
 /* Box shadow colors */
