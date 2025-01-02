@@ -596,7 +596,7 @@ button spinner:checked {
 }
 
 /**********************************************/
-/* button */
+/* Button */
 /**********************************************/
 
 button {
@@ -683,7 +683,7 @@ box.primary-toolbar button.toggle:not(:checked):not(:hover) {
 }
 
 /**********************************************/
-/* menubar, menu, popover */
+/* Menu, menuitem, popover */
 /**********************************************/
 
 menubar {
@@ -762,7 +762,7 @@ menubar > item:focus > * {
 }
 
 /**********************************************/
-/* toolbar */
+/* Toolbar */
 /**********************************************/
 
 box.toolbar image,
@@ -779,7 +779,7 @@ box.primary-toolbar {
 }
 
 /**********************************************/
-/* scale */
+/* Scale */
 /**********************************************/
 
 scale trough {
@@ -872,7 +872,7 @@ scale.horizontal.marks-after marks.bottom indicator {
 }
 
 /**********************************************/
-/* progressbar, levelbar */
+/* Progressbar, levelbar */
 /**********************************************/
 
 progressbar trough, levelbar.continuous trough {
@@ -1078,7 +1078,7 @@ scrolledwindow scrollbar.vertical {
 }
 
 /**********************************************/
-/* entry */
+/* Entry */
 /**********************************************/
 
 entry,
@@ -1117,7 +1117,7 @@ entry image ~ text {
 	margin-right: 4px;
 }
 /**********************************************/
-/* scrolledwindow */
+/* Scrolledwindow */
 /**********************************************/
 
 scrolledwindow {
@@ -1139,7 +1139,7 @@ overlay > scrolledwindow {
 }
 
 /**********************************************/
-/* placessidebar (filechooser and nautilus) */
+/* Placessidebar (filechooser and nautilus) */
 /**********************************************/
 
 placessidebar {
@@ -1147,7 +1147,7 @@ placessidebar {
 }
 
 /**********************************************/
-/* notebook, tab */
+/* Notebook, tab */
 /**********************************************/
 
 /* Tabs */
@@ -1413,7 +1413,7 @@ notebook scrolledwindow.frame {
 }
 
 /**********************************************/
-/* frame */
+/* Frame */
 /**********************************************/
 
 frame {
@@ -1498,7 +1498,7 @@ statusbar progressbar.horizontal text {
 }
 
 /**********************************************/
-/* list */
+/* List */
 /**********************************************/
 
 list {
@@ -1507,7 +1507,7 @@ list {
 }
 
 /**********************************************/
-/* row */
+/* Row */
 /**********************************************/
 
 row {
@@ -1525,7 +1525,7 @@ row:selected * {
 }
 
 /**********************************************/
-/* gridview * /
+/* Gridview * /
 /**********************************************/
 
 gridview child:selected label {
@@ -1654,7 +1654,7 @@ paned.horizontal > separator:hover {
 }
 
 /**********************************************/
-/* check, radio */
+/* Check, radio */
 /**********************************************/
 
 checkbutton:hover, checkbutton:active:focus, radiobutton:hover, radiobutton:active:focus {
@@ -2599,7 +2599,7 @@ item radio:disabled:indeterminate {
 }
 
 /**********************************************/
-/* switch */
+/* Switch */
 /**********************************************/
 
 switch {
@@ -3213,7 +3213,7 @@ popover modelbutton:hover > arrow.left {
 }
 
 /********************************************/
-/* treeview */
+/* Treeview */
 /* Modified from Human GTK 4 theme */
 /********************************************/
 
@@ -3324,7 +3324,7 @@ filechooser pathbar button:checked label {
 }
 
 /********************************************/
-/* expander */
+/* Expander */
 /*******************************************/
 
 expander-widget title {
@@ -3348,7 +3348,7 @@ expander-widget arrow:checked {
 }
 
 /**********************************************/
-/* calendar */
+/* Calendar */
 /**********************************************/
 
 calendar {

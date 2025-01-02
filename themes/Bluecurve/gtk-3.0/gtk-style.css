@@ -622,7 +622,7 @@ button spinner:checked {
 }
 
 /**********************************************/
-/* button */
+/* Button */
 /**********************************************/
 
 button {
@@ -697,7 +697,7 @@ toolbar .image-button {
 }
 
 /**********************************************/
-/* menubar, menu, popover */
+/* Menu, menuitem, popover */
 /**********************************************/
 
 menubar {
@@ -706,6 +706,7 @@ menubar {
 }
 
 menu, popover {
+	background-color: @theme_bg_color;
 	border: 1px solid @border_color;
 	padding: 4px 3px;
 }
@@ -735,7 +736,7 @@ menuitem:hover > *, menuitem:hover > * > *, menuitem:hover > * > * > *, popover 
 }
 
 /**********************************************/
-/* toolbar */
+/* Toolbar */
 /**********************************************/
 
 toolbar {
@@ -746,7 +747,7 @@ toolbar {
 }
 
 /**********************************************/
-/* scale */
+/* Scale */
 /**********************************************/
 
 scale * {
@@ -844,7 +845,7 @@ scale.vertical.fine-tune indicator {
 	min-width: 7px;
 }
 /**********************************************/
-/* progressbar, levelbar */
+/* Progressbar, levelbar */
 /**********************************************/
 
 progressbar trough, levelbar.continuous trough {
@@ -1284,7 +1285,7 @@ iconview ~ scrollbar.vertical:dir(rtl) {
 }
 
 /**********************************************/
-/* entry */
+/* Entry */
 /**********************************************/
 
 entry {
@@ -1313,7 +1314,7 @@ entry > image.right {
 }
 
 /**********************************************/
-/* scrolledwindow */
+/* Scrolledwindow */
 /**********************************************/
 
 scrolledwindow {
@@ -1335,7 +1336,7 @@ overlay > scrolledwindow {
 }
 
 /**********************************************/
-/* placessidebar (filechooser and nautilus) */
+/* Placessidebar (filechooser and nautilus) */
 /**********************************************/
 
 placessidebar {
@@ -1343,7 +1344,7 @@ placessidebar {
 }
 
 /**********************************************/
-/* notebook, tab */
+/* Notebook, tab */
 /**********************************************/
 
 /* Tabs */
@@ -1720,7 +1721,7 @@ window.eom-window statusbar > label {
 }
 
 /**********************************************/
-/* list */
+/* List */
 /**********************************************/
 
 list {
@@ -1729,7 +1730,7 @@ list {
 }
 
 /**********************************************/
-/* row */
+/* Row */
 /**********************************************/
 
 row {
@@ -2791,7 +2792,7 @@ menuitem radio:disabled:indeterminate {
 }
 
 /**********************************************/
-/* switch */
+/* Switch */
 /**********************************************/
 
 switch {
@@ -3655,7 +3656,7 @@ menu arrow:disabled.bottom,
 }
 
 /********************************************/
-/* treeview */
+/* Treeview */
 /* Modified from Human GTK 3 theme */
 /********************************************/
 
@@ -3772,7 +3773,7 @@ filechooser .path-bar button:checked label {
 }
 
 /********************************************/
-/* expander */
+/* Expander */
 /*******************************************/
 
 expander title {
@@ -3796,7 +3797,7 @@ expander arrow:checked {
 }
 
 /**********************************************/
-/* calendar */
+/* Calendar */
 /**********************************************/
 
 calendar {
