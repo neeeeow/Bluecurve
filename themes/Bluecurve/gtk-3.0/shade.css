@@ -95,6 +95,7 @@
 
 @define-color box_shadow_dark_color shade(@theme_bg_color, 0.896);
 @define-color box_shadow_light_color #ffffff;
+@define-color trough_box_shadow_color shade(@theme_bg_color, 0.768);
 
 /********************************************/
 /* Frame colors */

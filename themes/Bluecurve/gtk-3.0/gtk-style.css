@@ -775,17 +775,14 @@ scale:focus contents {
 scale trough {
 	margin: 1px;
 	background-color: @trough_bg_color;
-	border-left: 1.5px solid @border_color;
-	border-top: 1.5px solid  @border_color;
-	border-right: 1px solid @border_color;
-	border-bottom: 1px solid @border_color;
-	outline-offset: 6px;
+	border: 1px solid @border_color;
+	box-shadow: inset 1px 1px @trough_box_shadow_color;
 }
 
 scale.horizontal trough {
 	padding-left: 14px;
 	padding-right: 14px;
-	margin: 7px 0;
+	margin: 6px 0;
 }
 
 scale.vertical trough {
