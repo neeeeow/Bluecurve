@@ -3199,11 +3199,11 @@ combobox button:disabled arrow {
 /* Popup buttons */
 /**********************************************/
 
-button.popup {
+toolbar button.popup {
 	padding-left: 3px;
 }
 
-button.popup > image {
+toolbar button.popup > image {
 	-gtk-icon-transform: scale(0);
 	background:
 		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
@@ -3216,10 +3216,10 @@ button.popup > image {
 		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
-button.popup:hover > image,
-button.popup:checked > image,
-button.popup:active > image,
-button.popup:active:focus > image {
+toolbar button.popup:hover > image,
+toolbar button.popup:checked > image,
+toolbar button.popup:active > image,
+toolbar button.popup:active:focus > image {
 	background:
 		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
 		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
@@ -3231,7 +3231,7 @@ button.popup:active:focus > image {
 		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
-button.popup:disabled > image {
+toolbar button.popup:disabled > image {
 	background:
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 1.5px) / 3px 1px no-repeat,
