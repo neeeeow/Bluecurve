@@ -146,54 +146,34 @@ box.primary-toolbar button:checked:disabled image {
 /* Client side decorations
 /*********************************************/
 
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-.background {
-	box-shadow: none;
-}
-
 .background.csd,
 window.unified {
 	background: @theme_bg_color;
 	border-width: 0px;
 	border-radius: 7px;
 	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
-	margin: 0px;
+	margin: 0;
+	padding: 0 4px 4px 4px;
 }
 
-.solid-csd {
+.background.solid-csd {
 	border-radius: 0;
 	margin: 0;
+	padding: 0 4px 4px 4px;
 	background-color: @theme_bg_color;
 	border: solid 1px @wm_border;
 	box-shadow: none;
 }
 
-window.background.csd,
-window.background.solid-csd {
-	padding: 0 4px 4px 4px;
-}
-
 .background.csd.popup,
 .background.solid-csd.popup,
-window.background.csd.maximized,
-window.background.solid-csd.maximized,
-window.background.csd.fullscreen,
-window.background.solid-csd.fullscreen {
+.background.csd.maximized,
+.background.solid-csd.maximized,
+.background.csd.fullscreen,
+.background.solid-csd.fullscreen {
 	padding: 0px; /* Remove padding for menus & maximised windows */
 	border: 0;
 	border-radius: 0px;
-}
-
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-backdrop {
-/*    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px*/
-	box-shadow: none;
-}
-
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-.csd.popup {
-	border-radius: 0;
-	box-shadow: none;
 }
 
 .tiled {
@@ -208,6 +188,40 @@ backdrop {
 messagedialog.csd {
 	border-radius: 7px;
 	box-shadow: 0 1px 5px @wm_shadow;
+}
+
+/* Override CSD settings for tooltips & popups */
+tooltip,
+.tooltip,
+tooltip.csd,
+.tooltip.csd,
+tooltip.ssd,
+.tooltip.ssd,
+tooltip.solid-csd,
+.tooltip.solid-csd,
+tooltip.background.csd,
+.tooltip.background.csd,
+tooltip.background.ssd,
+.tooltip.background.ssd,
+tooltip.background.solid-csd,
+.tooltip.background.solid-csd,
+.popup,
+.popup.csd,
+.popup.ssd,
+.popup.solid-csd,
+.popup.background.csd,
+.popup.background.ssd,
+.popup.background.solid-csd {
+	border-radius: 0;
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.background {
+	box-shadow: none;
 }
 
 .background.csd headerbar,
@@ -453,19 +467,9 @@ messagedialog.csd {
 
 .background.csd headerbar:backdrop windowcontrols,
 .background.solid-csd headerbar:backdrop windowcontrols {
-	margin: -1px 0px -1px 0px;
+	padding-left: 4px;
 	border: 0;
 	background: none;
-}
-
-.background.csd headerbar:backdrop > .horizontal.right,
-.background.solid-csd headerbar:backdrop > .horizontal.right {
-	padding-left: 1px;	
-}
-
-.background.csd headerbar:backdrop > .horizontal.left,
-.background.solid-csd headerbar:backdrop > .horizontal.left {
-	padding-right: 1px;	
 }
 
 .background.csd headerbar:backdrop label,
@@ -542,25 +546,6 @@ tooltip.background,
 tooltip *,
 .tooltip * {
 	text-shadow: none;
-}
-
-/* needed for override CSD setting */
-tooltip decoration,
-.tooltip decoration,
-tooltip.csd decoration,
-.tooltip.csd decoration,
-tooltip.ssd decoration,
-.tooltip.ssd decoration,
-tooltip.solid-csd decoration,
-.tooltip.solid-csd decoration,
-tooltip.background.csd decoration,
-.tooltip.background.csd decoration,
-tooltip.background.ssd decoration,
-.tooltip.background.ssd decoration,
-tooltip.background.solid-csd decoration,
-.tooltip.background.solid-csd decoration {
-	border-radius: 0px;
-	box-shadow: none;
 }
 
 /**********************************************/

@@ -133,11 +133,6 @@ window:insensitive {
 /* Client side decorations */
 /**********************************************/
 
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-.background decoration  {
-	box-shadow: none;
-}
-
 .background.csd decoration,
 window.unified {
 	background: @theme_bg_color;
@@ -145,38 +140,23 @@ window.unified {
 	border-radius: 7px;
 	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
 	margin: 3px;
+	padding: 0 4px 4px 4px;
 }
 
-.solid-csd decoration {
+.background.solid-csd decoration {
 	border-radius: 0;
 	margin: 0;
+	padding: 0 4px 4px 4px;
 	background-color: @theme_bg_color;
 	border: solid 1px @wm_border;
 	box-shadow: none;
 }
 
-window.background.csd decoration,
-window.background.solid-csd decoration {
-	padding: 0 4px 4px 4px;
-}
-
 .background.csd.popup decoration,
 .background.solid-csd.popup decoration,
-window.background.csd.maximized decoration,
-window.background.solid-csd.maximized decoration {
+.background.csd.maximized decoration,
+.background.solid-csd.maximized decoration {
 	padding: 0px; /* Remove padding for menus & maximised windows */
-}
-
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-decoration:backdrop {
-/*    box-shadow: 0 0 0 1px shade(@wm_border,1.1), 0 2px 5px 1px*/
-	box-shadow: none;
-}
-
-/* workaround to avoid unwanted black frames if switching compositor on/off */
-.csd.popup decoration {
-	border-radius: 0;
-	box-shadow: none;
 }
 
 .tiled decoration {
@@ -193,6 +173,42 @@ messagedialog.csd decoration {
 	box-shadow: 0 1px 5px @wm_shadow;
 }
 
+/* Override CSD settings for tooltips & popups */
+tooltip decoration,
+.tooltip decoration,
+tooltip.csd decoration,
+.tooltip.csd decoration,
+tooltip.ssd decoration,
+.tooltip.ssd decoration,
+tooltip.solid-csd decoration,
+.tooltip.solid-csd decoration,
+tooltip.background.csd decoration,
+.tooltip.background.csd decoration,
+tooltip.background.ssd decoration,
+.tooltip.background.ssd decoration,
+tooltip.background.solid-csd decoration,
+.tooltip.background.solid-csd decoration,
+.popup decoration,
+.popup.csd decoration,
+.popup.ssd decoration,
+.popup.solid-csd decoration,
+.popup.background.csd decoration,
+.popup.background.ssd decoration,
+.popup.background.solid-csd decoration {
+	border-radius: 0;
+	border: 0;
+	box-shadow: none;
+	padding: 0;
+	margin: 0;
+}
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+decoration:backdrop,
+.background decoration {
+	box-shadow: none;
+}
+
+/* Headerbar */
 .background.csd headerbar,
 .background.solid-csd headerbar {
 	padding: 0;
@@ -234,6 +250,11 @@ messagedialog.csd decoration {
 	box-shadow: inset 0px 2px @headerbar_active_1, inset 0px 1px @headerbar_active_top, inset 0px -1px @headerbar_active_1;
 }
 
+.background.csd paned headerbar,
+.background.solid-csd paned headerbar { /* gedit 40 */
+	margin: 0;
+}
+
 .background.csd headerbar image,
 .background.solid-csd headerbar image {
 	color: @headerbar_active_text;
@@ -255,7 +276,7 @@ messagedialog.csd decoration {
 .background.solid-csd headerbar > .horizontal.left {
 	margin: -1px 0px -1px 0px;	
 	border-bottom: 1px solid @headerbar_active_outer_bottom;
-
+	padding: 1px 6px 0 6px;
 	background: linear-gradient(to bottom,
 		@headerbar_active_outer_1 80%,
 		@headerbar_active_outer_2);
@@ -284,8 +305,6 @@ messagedialog.csd decoration {
 .background.solid-csd headerbar > .horizontal.left:dir(rtl) {
 	border-left: 1px solid @headerbar_active_outer_side;
 	border-right: none;
-	padding-left: 4px;
-	padding-right: 6px;
 }
 
 .background.csd headerbar > .horizontal.left,
@@ -294,8 +313,6 @@ messagedialog.csd decoration {
 .background.solid-csd headerbar > .horizontal.right:dir(rtl) {
 	border-left: none;
 	border-right: 1px solid @headerbar_active_outer_side;
-	padding-left: 6px;
-	padding-right: 4px;
 }
 
 .background.csd headerbar label,
@@ -323,6 +340,14 @@ messagedialog.csd decoration {
 	min-width: 0px;
 	min-height: 0px;
 }
+
+
+.background.csd headerbar > .horizontal.right separator + button,
+.background.solid-csd headerbar > .horizontal.right separator + button,
+.background.csd headerbar > .horizontal.left:dir(rtl) separator + button,
+.background.solid-csd headerbar > .horizontal.left:dir(rtl) separator + button {
+	margin-left: -8px;
+}	
 
 .background.csd headerbar button > image,
 .background.solid-csd headerbar button > image {
@@ -480,19 +505,8 @@ messagedialog.csd decoration {
 .background.csd headerbar:backdrop > .horizontal.left,
 .background.solid-csd headerbar:backdrop > .horizontal.right,
 .background.solid-csd headerbar:backdrop > .horizontal.left {
-	margin: -1px 0px -1px 0px;
 	border: 0;
 	background: none;
-}
-
-.background.csd headerbar:backdrop > .horizontal.right,
-.background.solid-csd headerbar:backdrop > .horizontal.right {
-	padding-left: 1px;	
-}
-
-.background.csd headerbar:backdrop > .horizontal.left,
-.background.solid-csd headerbar:backdrop > .horizontal.left {
-	padding-right: 1px;	
 }
 
 .background.csd headerbar:backdrop label,
@@ -569,25 +583,6 @@ tooltip.background,
 tooltip *,
 .tooltip * {
 	text-shadow: none;
-}
-
-/* needed for override CSD setting */
-tooltip decoration,
-.tooltip decoration,
-tooltip.csd decoration,
-.tooltip.csd decoration,
-tooltip.ssd decoration,
-.tooltip.ssd decoration,
-tooltip.solid-csd decoration,
-.tooltip.solid-csd decoration,
-tooltip.background.csd decoration,
-.tooltip.background.csd decoration,
-tooltip.background.ssd decoration,
-.tooltip.background.ssd decoration,
-tooltip.background.solid-csd decoration,
-.tooltip.background.solid-csd decoration {
-	border-radius: 0px;
-	box-shadow: none;
 }
 
 /**********************************************/
