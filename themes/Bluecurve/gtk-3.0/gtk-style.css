@@ -221,7 +221,7 @@ decoration:backdrop,
 	border-bottom: 1px solid @headerbar_active_bottom;
 
 	background:
-		url("img/csd_stripes.png") repeat,
+		-gtk-scaled(url("img/csd_stripes.png"), url("img/csd_stripes_hidpi.png")) repeat,
 		linear-gradient(to bottom,
 		@headerbar_active_1,
 		@headerbar_active_2 25%,
