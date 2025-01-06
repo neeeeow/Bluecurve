@@ -257,12 +257,26 @@ PanelApplet.wnck-applet .wnck-pager:selected {
 	background-color: @theme_selected_bg_color;
 }
 
-/* Add image for panel separator */
+/******************************************/
+/*   Panel separator image    */
+/******************************************/
 MatePanelAppletFrameDBus > MatePanelAppletFrameDBus {
-	background-image: url("img/mate-panel-separator.png");
-	background-repeat: no-repeat;
-	background-position: left;
-	background-size: 12px 25px;
+	-gtk-icon-source: none;
+	background:
+		linear-gradient(@theme_bg_color, @theme_bg_color) 6px 0 / 1px calc(50% - 14px) no-repeat, /* Top overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) 5px 0 / 1px calc(50% - 13px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 4px 0 / 1px calc(50% - 12px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 3px 0 / 1px calc(50% - 11px) no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 6px calc(100% + 11px) / 1px 50% no-repeat, /* Bottom overlay */
+		linear-gradient(@theme_bg_color, @theme_bg_color) 5px calc(100% + 12px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 4px calc(100% + 13px) / 1px 50% no-repeat,
+		linear-gradient(@theme_bg_color, @theme_bg_color) 3px calc(100% + 14px) / 1px 50% no-repeat,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 6px 1px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 5px 2px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 4px 3px / 1px 5px repeat-y,
+		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 3px 4px / 1px 5px repeat-y,
+		@theme_bg_color;
 }
+
 
 
