@@ -484,6 +484,7 @@ tooltip.background.solid-csd,
 .background.solid-csd headerbar:backdrop button.minimize,
 .background.solid-csd headerbar:backdrop button.maximize,
 .background.solid-csd headerbar:backdrop button.close {
+	margin-bottom: 1px;
 	border: 1px solid @headerbar_backdrop_button_border;
 	box-shadow: none;
 	background: linear-gradient(to bottom,
