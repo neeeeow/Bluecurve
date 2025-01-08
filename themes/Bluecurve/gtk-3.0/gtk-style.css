@@ -458,7 +458,7 @@ decoration:backdrop,
 .background.solid-csd headerbar button.minimize > image,
 .background.solid-csd headerbar button.maximize > image,
 .background.solid-csd headerbar button.close > image {
-	-gtk-icon-transform: scale(0);
+	color: transparent;
 }
 
 .background.csd headerbar button.minimize,

@@ -306,132 +306,6 @@ tooltip.background.solid-csd,
 	font-weight: bold;
 }
 
-.background.csd headerbar button,
-.background.solid-csd headerbar button {
-	margin: 0 5px;
-	padding: 0;
-	border: 0;
-	outline: 0;
-	color: @theme_selected_fg_color;
-	background: none;
-	box-shadow: none;
-	min-width: 0px;
-	min-height: 0px;
-}
-
-.background.csd headerbar button:focus,
-.background.csd headerbar button:focus:hover,
-.background.csd headerbar button:active,
-.background.csd headerbar button:active:hover,
-.background.csd headerbar button:active:focus:hover,
-.background.csd headerbar button:hover,
-.background.csd headerbar button:disabled,
-.background.csd headerbar button:checked,
-.background.csd headerbar button:checked:hover,
-.background.csd headerbar button.toggle:checked,
-.background.csd headerbar button.toggle:checked:hover,
-.background.solid-csd headerbar button:focus,
-.background.solid-csd headerbar button:focus:hover,
-.background.solid-csd headerbar button:active,
-.background.solid-csd headerbar button:active:hover,
-.background.solid-csd headerbar button:active:focus:hover,
-.background.solid-csd headerbar button:hover,
-.background.solid-csd headerbar button:disabled,
-.background.solid-csd headerbar button:checked,
-.background.solid-csd headerbar button:checked:hover,
-.background.solid-csd headerbar button.toggle:checked,
-.background.solid-csd headerbar button.toggle:checked:hover {
-	padding: 0;
-	border: 0;
-	outline: 0;
-	background: none;
-	box-shadow: none;
-}
-
-.background.csd headerbar button.minimize,
-.background.csd headerbar button.maximize,
-.background.csd headerbar button.close,
-.background.solid-csd headerbar button.minimize,
-.background.solid-csd headerbar button.maximize,
-.background.solid-csd headerbar button.close {
-	margin: 0px 1px;
-	padding: 0px;
-	border-radius: 3px;
-	border: 1px solid @headerbar_active_button_border;
-	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark, inset 1px 1px @headerbar_active_button_shadow_light;
-	background: linear-gradient(135deg,
-		@headerbar_active_button_1,
-		@headerbar_active_button_2);
-}
-
-.background.csd headerbar button.minimize > image,
-.background.csd headerbar button.maximize > image,
-.background.csd headerbar button.close > image,
-.background.solid-csd headerbar button.minimize > image,
-.background.solid-csd headerbar button.maximize > image,
-.background.solid-csd headerbar button.close > image {
-	color: @headerbar_active_button;
-}
-
-.background.csd headerbar button.minimize:hover,
-.background.csd headerbar button.maximize:hover,
-.background.csd headerbar button.close:hover,
-.background.solid-csd headerbar button.minimize:hover,
-.background.solid-csd headerbar button.maximize:hover,
-.background.solid-csd headerbar button.close:hover {
-	border: 1px solid @headerbar_active_button_hover_border;
-	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark,
-		inset -1px -1px @prelight_tint,
-		inset 1px 1px @headerbar_active_button_shadow_light,
-		inset 1px 1px @prelight_tint;
-	background:
-		linear-gradient(135deg,
-		@prelight_tint,
-		@prelight_tint),
-		linear-gradient(135deg,
-		@headerbar_active_button_1,
-		@headerbar_active_button_2);
-
-}
-
-.background.csd headerbar button.minimize:hover > image,
-.background.csd headerbar button.maximize:hover > image,
-.background.csd headerbar button.close:hover > image,
-.background.solid-csd headerbar button.minimize:hover > image,
-.background.solid-csd headerbar button.maximize:hover > image,
-.background.solid-csd headerbar button.close:hover > image {
-	color: @headerbar_active_button_hover;
-}
-
-.background.csd headerbar button.minimize:active,
-.background.csd headerbar button.maximize:active,
-.background.csd headerbar button.close:active,
-.background.solid-csd headerbar button.minimize:active,
-.background.solid-csd headerbar button.maximize:active,
-.background.solid-csd headerbar button.close:active {
-	border: 1px solid @headerbar_active_button_active_border;
-	box-shadow: inset -1px -1px @headerbar_active_button_shadow_dark,
-		inset -1px -1px @darken_tint,
-		inset 1px 1px @headerbar_active_button_shadow_light,
-		inset 1px 1px @darken_tint;
-	background:
-		linear-gradient(135deg,
-		@darken_tint,
-		@darken_tint),
-		linear-gradient(135deg,
-		@headerbar_active_button_1,
-		@headerbar_active_button_2);
-}
-
-.background.csd headerbar button.minimize:active > image,
-.background.csd headerbar button.maximize:active > image,
-.background.csd headerbar button.close:active > image,
-.background.solid-csd headerbar button.minimize:active > image,
-.background.solid-csd headerbar button.maximize:active > image,
-.background.solid-csd headerbar button.close:active > image {
-	color: @headerbar_active_button_active;
-}
-
 .background.csd headerbar:backdrop,
 .background.solid-csd headerbar:backdrop {
 	color: @insensitive_fg_color;
@@ -478,6 +352,73 @@ tooltip.background.solid-csd,
 	text-shadow: none;
 }
 
+.background.csd headerbar button,
+.background.solid-csd headerbar button {
+	margin: 0 5px;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	color: @theme_selected_fg_color;
+	background: none;
+	box-shadow: none;
+	min-width: 0px;
+	min-height: 0px;
+}
+
+.background.csd headerbar > .horizontal.right separator + button,
+.background.solid-csd headerbar > .horizontal.right separator + button,
+.background.csd headerbar > .horizontal.left:dir(rtl) separator + button,
+.background.solid-csd headerbar > .horizontal.left:dir(rtl) separator + button {
+	margin-left: -8px;
+}	
+
+.background.csd headerbar button > image,
+.background.solid-csd headerbar button > image {
+	-gtk-icon-transform: initial;
+	background: initial;
+}
+
+.background.csd headerbar button:focus,
+.background.csd headerbar button:focus:hover,
+.background.csd headerbar button:active,
+.background.csd headerbar button:active:hover,
+.background.csd headerbar button:active:focus:hover,
+.background.csd headerbar button:hover,
+.background.csd headerbar button:disabled,
+.background.csd headerbar button:checked,
+.background.csd headerbar button:checked:hover,
+.background.csd headerbar button.toggle:checked,
+.background.csd headerbar button.toggle:checked:hover,
+.background.solid-csd headerbar button:focus,
+.background.solid-csd headerbar button:focus:hover,
+.background.solid-csd headerbar button:active,
+.background.solid-csd headerbar button:active:hover,
+.background.solid-csd headerbar button:active:focus:hover,
+.background.solid-csd headerbar button:hover,
+.background.solid-csd headerbar button:disabled,
+.background.solid-csd headerbar button:checked,
+.background.solid-csd headerbar button:checked:hover,
+.background.solid-csd headerbar button.toggle:checked,
+.background.solid-csd headerbar button.toggle:checked:hover {
+	padding: 0;
+	border: 0;
+	outline: 0;
+	background: none;
+	box-shadow: none;
+}
+
+.background.csd headerbar button.minimize,
+.background.csd headerbar button.maximize,
+.background.csd headerbar button.close,
+.background.solid-csd headerbar button.minimize,
+.background.solid-csd headerbar button.maximize,
+.background.solid-csd headerbar button.close {
+	margin: 0px 1px;
+	padding: 0px;
+	min-width: 18px;
+	min-height: 16px;
+}
+
 .background.csd headerbar:backdrop button.minimize,
 .background.csd headerbar:backdrop button.maximize,
 .background.csd headerbar:backdrop button.close,
@@ -485,46 +426,497 @@ tooltip.background.solid-csd,
 .background.solid-csd headerbar:backdrop button.maximize,
 .background.solid-csd headerbar:backdrop button.close {
 	margin-bottom: 1px;
-	border: 1px solid @headerbar_backdrop_button_border;
-	box-shadow: none;
-	background: linear-gradient(to bottom,
-		@headerbar_backdrop_button_1,
-		@headerbar_backdrop_button_2);
 }
 
-.background.csd headerbar:backdrop button.minimize > image,
-.background.csd headerbar:backdrop button.maximize > image,
-.background.csd headerbar:backdrop button.close > image,
-.background.solid-csd headerbar:backdrop button.minimize > image,
-.background.solid-csd headerbar:backdrop button.maximize > image,
-.background.solid-csd headerbar:backdrop button.close > image {
-	color: @headerbar_backdrop_button;
+.background.csd headerbar button.minimize > image,
+.background.csd headerbar button.maximize > image,
+.background.csd headerbar button.close > image,
+.background.solid-csd headerbar button.minimize > image,
+.background.solid-csd headerbar button.maximize > image,
+.background.solid-csd headerbar button.close > image {
+	color: transparent;
+}
+
+.background.csd headerbar button.minimize,
+.background.solid-csd headerbar button.minimize {
+	background:
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 8px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd headerbar button.maximize,
+.background.solid-csd headerbar button.maximize {
+	background:
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 4px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 11px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 10px / 7px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd.maximized headerbar button.maximize,
+.background.solid-csd.maximized headerbar button.maximize {
+	background:
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 5px / 6px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 10px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 10px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button, 0.702), alpha(@headerbar_active_button, 0.702)) 7px 3px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button, 0.702), alpha(@headerbar_active_button, 0.702)) 12px 4px / 1px 5px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd headerbar button.close,
+.background.solid-csd headerbar button.close {
+	background:
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 6px 4px / 1px 1px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 9px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 6px 6px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 7px 7px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 6px 8px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 5px 9px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 9px 9px / 3px 1px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button, @headerbar_active_button) 10px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_border, @headerbar_active_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd headerbar button.minimize:hover,
+.background.solid-csd headerbar button.minimize:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 8px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar button.maximize:hover,
+.background.solid-csd headerbar button.maximize:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 4px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 11px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 10px / 7px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd.maximized headerbar button.maximize:hover,
+.background.solid-csd.maximized headerbar button.maximize:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 5px / 6px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 10px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_hover, 0.702), alpha(@headerbar_active_button_hover, 0.702)) 7px 3px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_hover, 0.702), alpha(@headerbar_active_button_hover, 0.702)) 12px 4px / 1px 5px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar button.close:hover,
+.background.solid-csd headerbar button.close:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 4px / 1px 1px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 9px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 6px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 7px 7px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 8px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 9px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 9px 9px / 3px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint)  16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar button.minimize:active,
+.background.solid-csd headerbar button.minimize:active {
+	background:
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 8px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar button.maximize:active,
+.background.solid-csd headerbar button.maximize:active {
+	background:
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 4px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 11px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 10px / 7px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd.maximized headerbar button.maximize:active,
+.background.solid-csd.maximized headerbar button.maximize:active {
+	background:
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 5px / 6px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 10px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 10px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_active, 0.702), alpha(@headerbar_active_button_active, 0.702)) 7px 3px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_active, 0.702), alpha(@headerbar_active_button_active, 0.702)) 12px 4px / 1px 5px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar button.close:active,
+.background.solid-csd headerbar button.close:active {
+	background:
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 6px 4px / 1px 1px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 9px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 6px 6px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 7px 7px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 6px 8px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 5px 9px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 9px 9px / 3px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active, @headerbar_active_button_active) 10px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_active_border, @headerbar_active_button_active_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 1px / 14px 1px no-repeat, /* Box shadow */
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 2px 1px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_light, @headerbar_active_button_shadow_light) 1px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 2px 14px / 14px 1px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_shadow_dark, @headerbar_active_button_shadow_dark) 16px 2px / 1px 12px no-repeat,
+		linear-gradient(@darken_tint, @darken_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(135deg, @headerbar_active_button_1, @headerbar_active_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar:backdrop button.minimize,
+.background.solid-csd headerbar:backdrop button.minimize {
+	background:
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 8px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd headerbar:backdrop button.maximize,
+.background.solid-csd headerbar:backdrop button.maximize {
+	background:
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 4px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 11px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 10px / 7px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd.maximized headerbar:backdrop button.maximize,
+.background.solid-csd.maximized headerbar:backdrop button.maximize {
+	background:
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 5px / 6px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 10px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 10px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_backdrop_button, 0.702), alpha(@headerbar_backdrop_button, 0.702)) 7px 3px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_backdrop_button, 0.702), alpha(@headerbar_backdrop_button, 0.702)) 12px 4px / 1px 5px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
+}
+
+.background.csd headerbar:backdrop button.close,
+.background.solid-csd headerbar:backdrop button.close {
+	background:
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 6px 4px / 1px 1px no-repeat, /* Icon */
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 9px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 6px 6px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 7px 7px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 6px 8px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 5px 9px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 9px 9px / 3px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button, @headerbar_backdrop_button) 10px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_backdrop_button_border, @headerbar_backdrop_button_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat; /* Background */
 }
 
 .background.csd headerbar:backdrop button.minimize:hover,
-.background.csd headerbar:backdrop button.maximize:hover,
-.background.csd headerbar:backdrop button.close:hover,
-.background.solid-csd headerbar:backdrop button.minimize:hover,
-.background.solid-csd headerbar:backdrop button.maximize:hover,
-.background.solid-csd headerbar:backdrop button.close:hover {
-	border: 1px solid @headerbar_active_button_hover_border;
-	box-shadow: none;
+.background.solid-csd headerbar:backdrop button.minimize:hover {
 	background:
-		linear-gradient(to bottom,
-		@prelight_tint,
-		@prelight_tint),
-		linear-gradient(to bottom,
-		@headerbar_backdrop_button_1,
-		@headerbar_backdrop_button_2);
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 8px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat;
 }
 
-.background.csd headerbar:backdrop button.minimize:hover > image,
-.background.csd headerbar:backdrop button.maximize:hover > image,
-.background.csd headerbar:backdrop button.close:hover > image,
-.background.solid-csd headerbar:backdrop button.minimize:hover > image,
-.background.solid-csd headerbar:backdrop button.maximize:hover > image,
-.background.solid-csd headerbar:backdrop button.close:hover > image {
-	color: @headerbar_active_button_hover;
+.background.csd headerbar:backdrop button.maximize:hover,
+.background.solid-csd headerbar:backdrop button.maximize:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 4px / 7px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 11px 7px / 1px 3px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 10px / 7px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd.maximized headerbar:backdrop button.maximize:hover,
+.background.solid-csd.maximized headerbar:backdrop button.maximize:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 5px / 6px 3px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 8px / 1px 2px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 10px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_hover, 0.702), alpha(@headerbar_active_button_hover, 0.702)) 7px 3px / 6px 1px no-repeat,
+		linear-gradient(alpha(@headerbar_active_button_hover, 0.702), alpha(@headerbar_active_button_hover, 0.702)) 12px 4px / 1px 5px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat;
+}
+
+.background.csd headerbar:backdrop button.close:hover,
+.background.solid-csd headerbar:backdrop button.close:hover {
+	background:
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 4px / 1px 1px no-repeat, /* Icon */
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 4px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 9px 5px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 6px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 7px 7px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 8px / 5px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 5px 9px / 3px 1px no-repeat, 
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 9px 9px / 3px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 6px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover, @headerbar_active_button_hover) 10px 10px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 0 / 14px 1px no-repeat, /* Border */
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 1px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 0 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 17px 2px / 1px 12px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 1px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 16px 14px / 1px 1px no-repeat,
+		linear-gradient(@headerbar_active_button_hover_border, @headerbar_active_button_hover_border) 2px 15px / 14px 1px no-repeat,
+		linear-gradient(@prelight_tint, @prelight_tint) 1px 1px / 16px 14px no-repeat, /* Background */
+		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat;
 }
 
 /********************************************/
