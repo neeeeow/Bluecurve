@@ -283,7 +283,7 @@ tooltip.background.solid-csd,
 .background.csd headerbar windowcontrols,
 .background.solid-csd headerbar windowcontrols {
 	margin: -1px 0px -1px 0px;
-	padding: 0px 3px;
+	padding: 0 2px;
 	border-bottom: 1px solid @headerbar_active_outer_bottom;
 	border-left: 1px solid @headerbar_active_outer_side;
 	background: linear-gradient(to bottom,

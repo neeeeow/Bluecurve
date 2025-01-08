@@ -276,10 +276,24 @@ decoration:backdrop,
 .background.solid-csd headerbar > .horizontal.left {
 	margin: -1px 0px -1px 0px;	
 	border-bottom: 1px solid @headerbar_active_outer_bottom;
-	padding: 1px 6px 0 6px;
+	padding: 1px 5px 0 5px;
 	background: linear-gradient(to bottom,
 		@headerbar_active_outer_1 80%,
 		@headerbar_active_outer_2);
+}
+
+.background.csd.maximized headerbar > .horizontal.right,
+.background.csd.maximized headerbar > .horizontal.left:dir(rtl),
+.background.solid-csd.maximized headerbar > .horizontal.right,
+.background.solid-csd.maximized headerbar > .horizontal.left:dir(rtl) {
+	padding-right: 2px;
+}
+
+.background.csd.maximized headerbar > .horizontal.left,
+.background.csd.maximized headerbar > .horizontal.right:dir(rtl),
+.background.solid-csd.maximized headerbar > .horizontal.left,
+.background.solid-csd.maximized headerbar > .horizontal.right:dir(rtl) {
+	padding-left: 2px;
 }
 
 .background.csd headerbar > .horizontal.right,
