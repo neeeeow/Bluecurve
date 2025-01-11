@@ -37,6 +37,16 @@
 /* Caja */
 /**********************************************/
 
+.caja-desktop.view *:selected,
+.caja-notebook scrolledwindow .view *:selected {
+	background-color: @theme_unfocused_selected_bg_color;
+}
+
+.caja-desktop.view:focus *:selected,
+.caja-notebook scrolledwindow .view:focus *:selected {
+	background-color: @theme_selected_bg_color;
+}
+
 .caja-notebook scrolledwindow scrollbar.horizontal {
 	margin: 0px -1px 0px -1px;
 }
@@ -51,6 +61,55 @@
 
 .caja-pathbar button.slider-button > image {
 	margin: 0 3px 0 2px; /* Caja ignores horizontal pathbar paddding for some reason... */
+}
+
+.caja-side-pane > .horizontal > button > box > image {
+	-gtk-icon-transform: scale(0);
+	background:
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 0.5px) calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_color, @button_icon_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat;
+}
+
+.caja-side-pane > .horizontal > button:hover > box > image,
+.caja-side-pane > .horizontal > button:checked > box > image,
+.caja-side-pane > .horizontal > button:active > box > image,
+.caja-side-pane > .horizontal > button:active:focus > box > image {
+	background:
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 0.5px) calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_hover_color, @button_icon_hover_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat;
+}
+
+.caja-side-pane > .horizontal > button:disabled > box > image {
+	background:
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 2px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) 50% / 5px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% - 1px) / 7px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 3.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% + 2.5px) calc(50% - 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 3px) / 1px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 0.5px) calc(50% + 2px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 1.5px) calc(50% + 1px) / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 2.5px) 50% / 3px 1px no-repeat,
+		linear-gradient(@button_icon_shadow_color, @button_icon_shadow_color) calc(50% + 3.5px) calc(50% - 1px) / 3px 1px no-repeat;
+}
+
+.caja-side-pane > notebook > stack > widget.view > box.vertical { /* Caja sidebar information view */
+	background-color: @theme_bg_color;
 }
 
 /**********************************************/
