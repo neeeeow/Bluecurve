@@ -1814,6 +1814,18 @@ placessidebar {
 /* Notebook, tab */
 /**********************************************/
 
+notebook scrolledwindow.frame {
+	margin-top: -1px;
+	border: 1px solid @medium_border_color;
+}
+
+notebook.frame > stack {
+	background-color: @theme_bg_color;
+	border: 1px solid @darker_border_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+	padding: 1px;
+}
+
 /* Tabs */
 notebook tab {
 	background-color: @darker_color;
@@ -1823,13 +1835,6 @@ notebook tab {
 
 notebook tab:checked {
 	background-color: @theme_bg_color;
-}
-
-notebook.frame > stack {
-	background-color: @theme_bg_color;
-	border: 1px solid @darker_border_color;
-	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
-	padding: 1px;
 }
 
 notebook tab button {
@@ -1899,11 +1904,9 @@ notebook.frame > header.top tab:checked {
 }
 
 notebook.frame > header.top tab:first-child:checked {
-	margin-left: 0px;
-	border-left: 0px;
-	box-shadow: -1px 0px @darker_border_color;
 	background:
-		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 0 / 1px 100% no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) border-box 0 100% / 1px 1px no-repeat,
+		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 1px 0 / 1px 100% no-repeat,
 		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) 0 0 / calc(100% - 1px) 1px no-repeat,
 		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 100% 100% / 1px 1px no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) border-box calc(100% - 1px) 0 / 1px 100% no-repeat,
@@ -1967,11 +1970,9 @@ notebook.frame > header.bottom tab:checked {
 }
 
 notebook.frame > header.bottom tab:first-child:checked {
-	margin-left: 0px;
-	border-left: 0px;
-	box-shadow: -1px 0px @darker_border_color;
 	background:
-		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 0 / 1px 100% no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) border-box 0 0 / 1px 1px no-repeat,
+		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 1px 0 / 1px 100% no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) 100% 100% / calc(100% - 1px) 1px no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) border-box 100% 0 / 2px 100% no-repeat,
 		@theme_bg_color;
@@ -2033,11 +2034,9 @@ notebook.frame > header.left tab:checked {
 }
 
 notebook.frame > header.left tab:first-child:checked {
-	margin-top: 0px;
-	border-top: 0px;
-	box-shadow: inset 1px 1px @box_shadow_light_color, inset 0 -1px @box_shadow_dark_color, 0px -1px @darker_border_color;
 	background:
-		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 0 / 100% 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) border-box 100% 0 / 1px 1px no-repeat,
+		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 1px / 100% 1px no-repeat,
 		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) 0 0 / 1px calc(100% - 1px) no-repeat,
 		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 100% 100% / 1px 1px no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) border-box 0 calc(100% - 1px) / 100% 1px no-repeat,
@@ -2100,11 +2099,9 @@ notebook.frame > header.right tab:checked {
 }
 
 notebook.frame > header.right tab:first-child:checked {
-	margin-top: 0px;
-	border-top: 0px;
-	box-shadow: 0px -1px @darker_border_color;
 	background:
-		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 0 / 100% 1px no-repeat,
+		linear-gradient(@darker_border_color, @darker_border_color) border-box 0 0 / 2px 1px no-repeat,
+		linear-gradient(@box_shadow_light_color, @box_shadow_light_color) border-box 0 1px / 100% 1px no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) 100% 100% / 1px 100% no-repeat,
 		linear-gradient(@box_shadow_dark_color, @box_shadow_dark_color) border-box 1px 100% / calc(100% - 1px) 2px no-repeat,
 		@theme_bg_color;
@@ -2116,11 +2113,6 @@ notebook.frame > header.right {
 
 notebook.frame > header.right tab:checked {
 	margin-left: -2px;
-}
-
-notebook scrolledwindow.frame {
-	margin-top: -1px;
-	border: 1px solid @medium_border_color;
 }
 
 /**********************************************/
