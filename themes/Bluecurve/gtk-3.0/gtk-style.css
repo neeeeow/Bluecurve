@@ -329,8 +329,14 @@ decoration:backdrop,
 	border-right: 1px solid @headerbar_active_outer_side;
 }
 
-.background.csd headerbar label,
-.background.solid-csd headerbar label {
+.background.csd headerbar button > label,
+.background.csd headerbar button > box > label,
+.background.csd headerbar label.title,
+.background.csd headerbar label.subtitle,
+.background.csd headerbar menubar > menuitem > label,
+.background.solid-csd headerbar button label,
+.background.solid-csd headerbar label.title,
+.background.solid-csd headerbar menubar > menuitem > label {
 	color: @headerbar_active_text;
 	text-shadow: @headerbar_active_text_shadow 1px 1px;
 }
@@ -340,6 +346,18 @@ decoration:backdrop,
 .background.csd headerbar button:checked,
 .background.solid-csd headerbar button:checked {
 	font-weight: bold;
+}
+
+.background.csd headerbar:backdrop button > label,
+.background.csd headerbar:backdrop button > box > label,
+.background.csd headerbar:backdrop label.title,
+.background.csd headerbar:backdrop label.subtitle,
+.background.csd headerbar:backdrop menubar > menuitem > label,
+.background.solid-csd headerbar:backdrop button label,
+.background.solid-csd headerbar:backdrop label.title,
+.background.solid-csd headerbar:backdrop menubar > menuitem > label {
+	color: @insensitive_fg_color;
+	text-shadow: none;
 }
 
 .background.csd headerbar:backdrop,
@@ -381,12 +399,6 @@ decoration:backdrop,
 .background.solid-csd headerbar:backdrop > .horizontal.left {
 	border: 0;
 	background: none;
-}
-
-.background.csd headerbar:backdrop label,
-.background.solid-csd headerbar:backdrop label {
-	color: @insensitive_fg_color;
-	text-shadow: none;
 }
 
 .background.csd headerbar button,
