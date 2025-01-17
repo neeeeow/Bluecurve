@@ -262,8 +262,10 @@ decoration:backdrop,
 	-gtk-icon-style: symbolic;
 }
 
-.background.csd headerbar separator,
-.background.solid-csd headerbar separator {
+.background.csd headerbar > separator,
+.background.csd headerbar > .horizontal > separator,
+.background.solid-csd headerbar > separator,
+.background.solid-csd headerbar > .horizontal > separator  {
 	background: none;
 	padding: 0;
 	margin: 0px;
@@ -327,6 +329,17 @@ decoration:backdrop,
 .background.solid-csd headerbar > .horizontal.right:dir(rtl) {
 	border-left: none;
 	border-right: 1px solid @headerbar_active_outer_side;
+}
+
+.background.csd headerbar > menubar,
+.background.solid-csd headerbar > menubar  {
+	border: 0;
+	padding: 0 1px 0 3px;
+}
+
+.background.csd.maximized headerbar > menubar,
+.background.solid-csd.maximized headerbar > menubar  {
+	padding: 0 1px;
 }
 
 .background.csd headerbar button > label,
