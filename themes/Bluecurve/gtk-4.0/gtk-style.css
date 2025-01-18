@@ -371,6 +371,7 @@ tooltip.background.solid-csd,
 .background.csd headerbar:backdrop windowcontrols,
 .background.solid-csd headerbar:backdrop windowcontrols {
 	padding-left: 4px;
+	padding-bottom: 1px;
 	border: 0;
 	background: none;
 }
@@ -440,15 +441,6 @@ tooltip.background.solid-csd,
 	padding: 0px;
 	min-width: 18px;
 	min-height: 16px;
-}
-
-.background.csd headerbar:backdrop button.minimize,
-.background.csd headerbar:backdrop button.maximize,
-.background.csd headerbar:backdrop button.close,
-.background.solid-csd headerbar:backdrop button.minimize,
-.background.solid-csd headerbar:backdrop button.maximize,
-.background.solid-csd headerbar:backdrop button.close {
-	margin-bottom: 1px;
 }
 
 .background.csd headerbar button.minimize > image,

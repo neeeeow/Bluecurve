@@ -410,6 +410,7 @@ decoration:backdrop,
 .background.csd headerbar:backdrop > .horizontal.left,
 .background.solid-csd headerbar:backdrop > .horizontal.right,
 .background.solid-csd headerbar:backdrop > .horizontal.left {
+	padding-bottom: 1px;
 	border: 0;
 	background: none;
 }
@@ -480,15 +481,6 @@ decoration:backdrop,
 	padding: 0px;
 	min-width: 18px;
 	min-height: 16px;
-}
-
-.background.csd headerbar:backdrop button.minimize,
-.background.csd headerbar:backdrop button.maximize,
-.background.csd headerbar:backdrop button.close,
-.background.solid-csd headerbar:backdrop button.minimize,
-.background.solid-csd headerbar:backdrop button.maximize,
-.background.solid-csd headerbar:backdrop button.close {
-	margin-bottom: 1px;
 }
 
 .background.csd headerbar button.minimize > image,
