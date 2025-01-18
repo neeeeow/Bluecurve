@@ -2488,9 +2488,7 @@ toolbar separator {
 	margin: 6px;
 }
 
-menu separator,
-popover separator,
-popover separator.horizontal {
+menu separator, popover separator {
 	margin: 4px 6px 6px 6px;
 	padding: 1px 0px 1px 0px;
 	border: none;
@@ -4217,7 +4215,7 @@ notebook > header.right arrow.up:disabled {
 /**********************************************/
 
 menuitem arrow,
-popover modelbutton arrow {
+popover modelbuttom arrow {
 	-gtk-icon-source: none;
 	border: 0;
 	min-width: 9px;

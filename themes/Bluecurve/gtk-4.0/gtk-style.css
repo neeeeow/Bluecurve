@@ -1089,12 +1089,6 @@ menu, popover {
 	padding: 0px;
 }
 
-popover.menu  {
-	background: none;
-	border: 0;
-	margin-top: -12px;
-}
-
 popover.menu scrolledwindow,
 popover.menu viewport {
 	border: 0;
@@ -1103,8 +1097,6 @@ popover.menu viewport {
 popover.menu viewport {
 	padding: 3px 2px;
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
-	background: @theme_bg_color;
-	border: 1px solid @border_color;
 }
 
 /* Override global settings for selected items to ensure that menubar doesn't highlight when cursor is placed over it */
@@ -2282,8 +2274,7 @@ box.primary-toolbar separator {
 	margin: 6px;
 }
 
-menu separator.horizontal,
-popover separator.horizontal {
+menu separator.horizontal, popover separator.horizontal {
 	margin: 4px 6px 6px 6px;
 	padding: 1px 0px 1px 0px;
 	border: none;
@@ -3867,7 +3858,7 @@ notebook > header.right arrow.up:disabled {
 /**********************************************/
 
 item arrow,
-popover modelbutton arrow {
+popover modelbuttom arrow {
 	-gtk-icon-source: none;
 	border: 0;
 	min-width: 16px;
