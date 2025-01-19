@@ -1665,7 +1665,7 @@ scrollbar.vertical slider {
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 1px) 4px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_light_color 1px, transparent 1px, transparent 4px, @grab_dark_color 4px) calc(50% - 2px) 6px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, transparent 1px) calc(50% - 3px) 6px / 1px 5px repeat-y,
-		@theme_bg_color;
+		linear-gradient(@theme_bg_color, @theme_bg_color);
 }
 
 scrollbar.vertical slider:hover {
@@ -1688,7 +1688,7 @@ scrollbar.vertical slider:hover {
 		linear-gradient(to bottom, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) calc(50% - 1px) 4px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_light_color 1px, transparent 1px, transparent 4px, @grab_dark_color 4px) calc(50% - 2px) 6px / 1px 5px repeat-y,
 		linear-gradient(to bottom, @grab_dark_color 1px, transparent 1px) calc(50% - 3px) 6px / 1px 5px repeat-y,
-		@prelight_color;
+		linear-gradient(@prelight_color, @prelight_color);
 }
 
 scrollbar.horizontal slider {
@@ -1713,7 +1713,7 @@ scrollbar.horizontal slider {
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 4px calc(50% - 1px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_light_color 1px, transparent 1px, transparent 4px, @grab_dark_color 4px) 6px calc(50% - 2px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, transparent 1px) 6px calc(50% - 3px) / 5px 1px repeat-x,
-		@theme_bg_color;
+		linear-gradient(@theme_bg_color, @theme_bg_color);
 }
 
 scrollbar.horizontal slider:hover {
@@ -1736,7 +1736,7 @@ scrollbar.horizontal slider:hover {
 		linear-gradient(to right, @grab_dark_color 1px, @grab_light_color 1px, @grab_light_color 2px, transparent 2px) 4px calc(50% - 1px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_light_color 1px, transparent 1px, transparent 4px, @grab_dark_color 4px) 6px calc(50% - 2px) / 5px 1px repeat-x,
 		linear-gradient(to right, @grab_dark_color 1px, transparent 1px) 6px calc(50% - 3px) / 5px 1px repeat-x,
-		@prelight_color;
+		linear-gradient(@prelight_color, @prelight_color);
 }
 
 /**********************************************/
