@@ -304,14 +304,34 @@ tooltip.background.solid-csd,
 	padding: 0 1px;
 }
 
+.background.csd headerbar checkbutton,
+.background.csd headerbar radiobutton,
+.background.solid-csd headerbar checkbutton,
+.background.solid-csd headerbar radiobutton {
+	background: none;
+}
+
+.background.csd headerbar checkbutton > label,
+.background.csd headerbar radiobutton > label,
+.background.solid-csd headerbar checkbutton > label,
+.background.solid-csd headerbar radiobutton > label {
+	border: 0;
+}
+
 .background.csd headerbar button > label,
 .background.csd headerbar button > box > label,
 .background.csd headerbar label.title,
 .background.csd headerbar label.subtitle,
 .background.csd headerbar menubar > menuitem > label,
-.background.solid-csd headerbar button label,
+.background.csd headerbar checkbutton > label,
+.background.csd headerbar radiobutton > label,  
+.background.solid-csd headerbar button > label,
+.background.solid-csd headerbar button > box > label,
 .background.solid-csd headerbar label.title,
-.background.solid-csd headerbar menubar > menuitem > label {
+.background.solid-csd headerbar label.subtitle,
+.background.solid-csd headerbar menubar > menuitem > label,
+.background.solid-csd headerbar checkbutton > label,
+.background.solid-csd headerbar radiobutton > label {
 	color: @headerbar_active_text;
 	text-shadow: @headerbar_active_text_shadow 1px 1px;
 }
@@ -328,9 +348,15 @@ tooltip.background.solid-csd,
 .background.csd headerbar:backdrop label.title,
 .background.csd headerbar:backdrop label.subtitle,
 .background.csd headerbar:backdrop menubar > menuitem > label,
-.background.solid-csd headerbar:backdrop button label,
+.background.csd headerbar:backdrop checkbutton > label,
+.background.csd headerbar:backdrop radiobutton > label,
+.background.solid-csd headerbar:backdrop button > label,
+.background.solid-csd headerbar:backdrop button > box > label,
 .background.solid-csd headerbar:backdrop label.title,
-.background.solid-csd headerbar:backdrop menubar > menuitem > label {
+.background.solid-csd headerbar:backdrop label.subtitle,
+.background.solid-csd headerbar:backdrop menubar > menuitem > label,
+.background.solid-csd headerbar:backdrop checkbutton > label,
+.background.solid-csd headerbar:backdrop radiobutton > label {
 	color: @insensitive_fg_color;
 	text-shadow: none;
 }
