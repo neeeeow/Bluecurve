@@ -3231,7 +3231,8 @@ radio:indeterminate:active {
 
 /* Check and radio in menu */
 
-item check, item radio {
+popover check,
+popover radio {
 	margin: 0 0 0 5px;
 	background: none;
 	min-width: 16px;
@@ -3239,22 +3240,22 @@ item check, item radio {
 	-gtk-icon-source: none;
 }
 
-item check:hover,
-item check:selected:hover,
-item check:checked,
-item check:hover:checked,
-item check:disabled:checked,
-item radio:hover,
-item radio:selected:hover,
-item radio:checked,
-item radio:hover:checked,
-item radio:disabled:checked {
+popover check:hover,
+popover check:selected:hover,
+popover check:checked,
+popover check:hover:checked,
+popover check:disabled:checked,
+popover radio:hover,
+popover radio:selected:hover,
+popover radio:checked,
+popover radio:hover:checked,
+popover radio:disabled:checked {
 	background: none;
 }
 
 /* Set menu check image */
 
-item check:checked {
+popover check:checked {
 	background:
 		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
 		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% - 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
@@ -3271,7 +3272,7 @@ item check:checked {
 		linear-gradient(alpha(@menu_check_color, 0.5), alpha(@menu_check_color, 0.5)) calc(50% + 3.5px) calc(50% - 2.5px) / 1px 1px no-repeat;
 }
 
-item check:hover:checked {
+popover check:hover:checked {
 	background:
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 1.5px) calc(50% + 2.5px) / 3px 1px no-repeat,
@@ -3283,7 +3284,7 @@ item check:hover:checked {
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% + 3px) calc(50% - 2.5px) / 2px 1px no-repeat;
 }
 
-item check:disabled:checked {
+popover check:disabled:checked {
 	background:
 		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 3.5px) / 1px 1px no-repeat,
 		linear-gradient(alpha(@menu_check_disabled_color, 0.5), alpha(@menu_check_disabled_color, 0.5)) calc(50% - 2.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
@@ -3302,21 +3303,21 @@ item check:disabled:checked {
 
 /* Set menu radio image */
 
-item radio:checked {
+popover radio:checked {
 	background:
 		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
 		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
 		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat;
 }
 
-item radio:hover:checked {
+popover radio:hover:checked {
 	background:
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 2.5px) / 3px 1px no-repeat;
 }
 
-item radio:disabled:checked {
+popover radio:disabled:checked {
 	background:
 		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% - 1.5px) / 3px 1px no-repeat,
 		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 5px 3px no-repeat,
@@ -3325,20 +3326,20 @@ item radio:disabled:checked {
 
 /* Set menu indeterminate image */
 
-item check:indeterminate,
-item radio:indeterminate {
+popover check:indeterminate,
+popover radio:indeterminate {
 	background:
 		linear-gradient(@menu_check_color, @menu_check_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
 
-item check:hover:indeterminate,
-item radio:hover:indeterminate {
+popover check:hover:indeterminate,
+popover radio:hover:indeterminate {
 	background:
 		linear-gradient(@menu_check_hover_color, @menu_check_hover_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
 
-item check:disabled:indeterminate,
-item radio:disabled:indeterminate {
+popover check:disabled:indeterminate,
+popover radio:disabled:indeterminate {
 	background:
 		linear-gradient(@menu_check_disabled_color, @menu_check_disabled_color) calc(50% - 0.5px) calc(50% + 1px) / 7px 2px no-repeat;
 }
