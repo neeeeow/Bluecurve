@@ -3926,7 +3926,9 @@ popover modelbutton arrow.right {
 item:hover > arrow.right,
 item:selected:not(prelight) > arrow.right,
 popover modelbutton:hover > arrow.right,
-popover modelbutton:selected:not(prelight) > arrow.right {
+popover modelbutton:selected:not(prelight) > arrow.right,
+popover modelbutton:hover > box > arrow.right,
+popover modelbutton:selected:not(prelight) > box > arrow.right {
 	background:
 		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
 		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
@@ -3937,7 +3939,8 @@ popover modelbutton:selected:not(prelight) > arrow.right {
 }
 
 item:disabled > arrow.right,
-popover modelbutton:disabled > arrow.right {
+popover modelbutton:disabled > arrow.right,
+popover modelbutton:disabled > box > arrow.right {
 	background:
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% - 1.5px) / 1px 1px no-repeat,
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 2.5px) / 1px 1px no-repeat,
@@ -3965,7 +3968,9 @@ popover modelbutton arrow.left {
 item:hover > arrow.left,
 item:selected:not(prelight) > arrow.left,
 popover modelbutton:hover > arrow.left,
-popover modelbutton:selected:not(prelight) > arrow.left {
+popover modelbutton:selected:not(prelight) > arrow.left,
+popover modelbutton:hover > box > arrow.left,
+popover modelbutton:selected:not(prelight) > box > arrow.left {
 	background:
 		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 1.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
 		linear-gradient(@theme_selected_fg_color, @theme_selected_fg_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
@@ -3976,7 +3981,8 @@ popover modelbutton:selected:not(prelight) > arrow.left {
 }
 
 item:disabled > arrow.left,
-popover modelbutton:disabled > arrow.left {
+popover modelbutton:disabled > arrow.left,
+popover modelbutton:disabled > box > arrow.left {
 	background:
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 1.5px) calc(50% + 0.5px) / 1px 1px no-repeat,
 		linear-gradient(@button_icon_disabled_color, @button_icon_disabled_color) calc(50% - 0.5px) calc(50% + 0.5px) / 1px 3px no-repeat,
