@@ -62,6 +62,16 @@ cp -r icons/* ~/.icons
 # Copy themes
 echo "Installing themes..."
 mkdir -p ~/.themes
+rm -rf ~/.themes/Bluecurve # Delete old theme files
+rm -rf ~/.themes/Bluecurve-BerriesAndCream
+rm -rf ~/.themes/Bluecurve-Classic-RH8
+rm -rf ~/.themes/Bluecurve-Classic-RH9
+rm -rf ~/.themes/Bluecurve-Gnome
+rm -rf ~/.themes/Bluecurve-Grape
+rm -rf ~/.themes/Bluecurve-Lime
+rm -rf ~/.themes/Bluecurve-Slate
+rm -rf ~/.themes/Bluecurve-Strawberry
+rm -rf ~/.themes/Bluecurve-Tangerine
 cp -r themes/* ~/.themes
 
 read -p "Install the Luxi font family? (only do this if your distribution does not include them) (y/N): " user_input
