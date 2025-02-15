@@ -151,9 +151,19 @@ window.unified {
 	background: @theme_bg_color;
 	border-width: 0px;
 	border-radius: 7px;
-	box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
 	margin: 0;
 	padding: 0 4px 4px 4px;
+	box-shadow: 
+		0 2px 15px 5px @wm_shadow,
+		0 0 0 1px @wm_border;
+}
+
+.background.csd:backdrop,
+window.unified:backdrop {
+	box-shadow: 
+		0 2px 15px 5px transparent,
+		0 2px 8px 2px @wm_shadow,
+		0 0 0 1px @wm_border;
 }
 
 .background.solid-csd {
