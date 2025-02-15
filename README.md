@@ -1,10 +1,8 @@
 # Bluecurve GTK 3/4
 Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce desktop environments.
 
-### Screenshot (Red Hat 9 style)
-![Red Hat 8/9 style](screenshots/desktop1.png)
-### Screenshot (Fedora Core 1-3 style)
-![Red Hat 8/9 style](screenshots/desktop2.png)
+### Screenshot
+![Desktop screenshot](screenshots/desktop.png)
 ### Screenshots (Widget preview, click to enlarge)
 [<img alt="Default color scheme" src="screenshots/Bluecurve_awf.png?raw=true" width="200" />](screenshots/Bluecurve_awf.png?raw=true)
 [<img alt="BerriesAndCream color scheme" src="screenshots/BerriesAndCream_awf.png?raw=true" width="200" />](screenshots/BerriesAndCream_awf.png?raw=true)
@@ -16,10 +14,10 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 [<img alt="Tangerine color scheme" src="screenshots/Tangerine_awf.png?raw=true" width="200" />](screenshots/Tangerine_awf.png?raw=true)
 
 ## Contents
-- GTK 3/4 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and modified to make the theme better resemble the original GTK 2 theme and updated to support both GTK 3 and 4, as well as including all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
+- GTK 3/4 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and significantly rewritten/extended to make the theme better resemble the original GTK 2 theme and updated to support both GTK 3 and 4, as well as including all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
 - GTK 2 engine and theme.
 - Original Bluecurve Metacity themes updated to resolve issues arising from using old metacity themes on newer versions of MATE.
-- Original Bluecurve XFWM4 theme.
+- Original Bluecurve XFWM4 theme, updated to support the additional color schemes.
 - Bluecurve icon and cursor set.
 - Luxi font family (fonts used originally in Red Hat 8-9 and early versions of Fedora and RHEL).
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
