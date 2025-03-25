@@ -489,6 +489,7 @@ decoration:backdrop,
 .background.csd headerbar button:checked:hover,
 .background.csd headerbar button.toggle:checked,
 .background.csd headerbar button.toggle:checked:hover,
+.background.csd headerbar button.default,
 .background.solid-csd headerbar button:focus,
 .background.solid-csd headerbar button:focus:hover,
 .background.solid-csd headerbar button:active,
@@ -499,7 +500,8 @@ decoration:backdrop,
 .background.solid-csd headerbar button:checked,
 .background.solid-csd headerbar button:checked:hover,
 .background.solid-csd headerbar button.toggle:checked,
-.background.solid-csd headerbar button.toggle:checked:hover {
+.background.solid-csd headerbar button.toggle:checked:hover,
+.background.csd headerbar button.default {
 	padding: 0;
 	border: 0;
 	outline: 0;
@@ -1072,6 +1074,10 @@ button {
 	padding: 4px;
 	border: 1px solid @darker_border_color;
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+}
+
+button.default {
+	border: 1px solid #000;
 }
 
 button.flat, .appmenu, .minimize, .maximize, .close {
