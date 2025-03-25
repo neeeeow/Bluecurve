@@ -501,7 +501,7 @@ decoration:backdrop,
 .background.solid-csd headerbar button:checked:hover,
 .background.solid-csd headerbar button.toggle:checked,
 .background.solid-csd headerbar button.toggle:checked:hover,
-.background.csd headerbar button.default {
+.background.solid-csd headerbar button.default {
 	padding: 0;
 	border: 0;
 	outline: 0;
