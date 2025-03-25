@@ -3518,8 +3518,13 @@ combobox button {
 	padding: 3px;
 }
 
-combobox button:active {
+combobox button:focus:active {
 	outline: 0;
+}
+
+combobox button:focus {
+	outline: 1px dotted @outline_color;
+	outline-offset: -4px;
 }
 
 combobox button:checked:hover,
