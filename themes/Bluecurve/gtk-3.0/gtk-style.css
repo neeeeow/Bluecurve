@@ -1176,7 +1176,7 @@ menuitem:hover, popover modelbutton:hover {
 	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
 	color: @theme_selected_fg_color;
 	border: 1px solid @menuitem_border_color;
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	box-shadow: inset -1px -1px @menuitem_dark_color, inset 1px 1px @menuitem_light_color;
 }
 
 menuitem:hover > *, menuitem:hover > * > *, menuitem:hover > * > * > *, popover modelbutton:hover label {
@@ -1632,7 +1632,7 @@ levelbar.discrete block {
 
 progressbar.vertical progress, levelbar.vertical block.filled {
 	border: 1px solid @progressbar_border_color;
-	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
+	box-shadow: inset -1px -1px @progressbar_dark_color, inset 1px 1px @progressbar_light_color;
 	background: linear-gradient(
 		to right, 
 		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
@@ -1642,7 +1642,7 @@ progressbar.vertical progress, levelbar.vertical block.filled {
 
 progressbar.horizontal progress, levelbar.horizontal block.filled {
 	border: 1px solid @progressbar_border_color;
-	box-shadow: inset 1px 1px @progressbar_light_color, inset -1px -1px @progressbar_dark_color;
+	box-shadow: inset -1px -1px @progressbar_dark_color, inset 1px 1px @progressbar_light_color;
 	background: linear-gradient(
 		to bottom, 
 		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
@@ -3652,7 +3652,7 @@ switch:checked {
 	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
 	color: @theme_selected_fg_color;
 	border: 1px solid @menuitem_border_color;
-	box-shadow: inset 1px 1px @menuitem_light_color, inset -1px -1px @menuitem_dark_color;
+	box-shadow: inset -1px -1px @menuitem_dark_color, inset 1px 1px @menuitem_light_color;
 }
 
 switch:disabled {
