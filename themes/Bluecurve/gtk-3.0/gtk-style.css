@@ -4616,6 +4616,18 @@ filechooser .path-bar button:checked label {
 }
 
 /********************************************/
+/* Button dialog */
+/********************************************/
+
+.dialog-action-area.horizontal.linked {
+	margin: -13px 0 5px 0;
+}
+
+.dialog-action-area.horizontal.linked > button {
+	margin: 0 5px;
+}
+
+/********************************************/
 /* Expander */
 /*******************************************/
 
