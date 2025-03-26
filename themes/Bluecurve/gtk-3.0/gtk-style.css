@@ -2402,14 +2402,27 @@ frame.border-ridge {
 	padding: 0 1px 1px 0;
 }
 
+frame.border-groove > border,
+frame.border-ridge > border {
+	padding: 1px 0 0 1px;
+}
+
 frame.border-groove > border {
 	border: 1px solid @trough_bg_color;
-	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
+	box-shadow:
+		inset 1px 1px @frame_groove_color,
+		1px 1px @frame_groove_color,
+		0 1px @frame_groove_color,
+		1px 0 @frame_groove_color;
 }
 
 frame.border-ridge > border {
 	border: 1px solid @frame_groove_color;
-	box-shadow: inset 1px 1px @trough_bg_color, 1px 1px @trough_bg_color;
+	box-shadow:
+		inset 1px 1px @trough_bg_color,
+		1px 1px @trough_bg_color,
+		0 1px @trough_bg_color,
+		1px 0 @trough_bg_color;
 }
 
 /**********************************************/
