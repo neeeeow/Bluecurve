@@ -48,25 +48,25 @@
 	padding: 3px 5px 3px 4px;
 } 
 
-PanelToplevel.horizontal.top > grid {
+PanelToplevel.mate-panel-menu-bar.horizontal.top > grid {
 	border-style: outset;
 	border-width: 0px 0px 1px 0px;
 	border-color: @medium_border_color;
 }
 
-PanelToplevel.horizontal.bottom > grid {
+PanelToplevel.mate-panel-menu-bar.horizontal.bottom > grid {
 	border-style: outset;
 	border-width: 1px 0px 0px 0px;
 	border-color: @medium_border_color;
 }
 
-PanelToplevel.vertical.left > grid {
+PanelToplevel.mate-panel-menu-bar.vertical.left > grid {
 	border-style: outset;
 	border-width: 0px 1px 0px 0px;
 	border-color: @medium_border_color;
 }
 
-PanelToplevel.vertical.right > grid {
+PanelToplevel.mate-panel-menu-bar.vertical.right > grid {
 	border-style: outset;
 	border-width: 0px 0px 0px 1px;
 	border-color: @medium_border_color;
