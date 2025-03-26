@@ -1144,6 +1144,10 @@ toolbar .image-button {
 	min-height: 24px;
 }
 
+spinbutton > entry ~ button {
+	margin-left: -1px;
+}
+
 /**********************************************/
 /* Menu, menuitem, popover */
 /**********************************************/

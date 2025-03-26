@@ -1117,6 +1117,10 @@ box.primary-toolbar button.toggle:not(:checked):not(:hover) {
 	box-shadow: none;
 }
 
+spinbutton > text ~ button {
+	margin-left: -1px;
+}
+
 /**********************************************/
 /* Menu, menuitem, popover */
 /**********************************************/
