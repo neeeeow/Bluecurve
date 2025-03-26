@@ -2207,23 +2207,39 @@ frame > border {
 }
 
 frame.border-inset {
+	padding: 0 1px 1px 0;
 	border: 1px solid @border_color;
 	box-shadow: inset -1px -1px 0 0 @frame_light_color;
 }
 
 frame.border-outset {
+	padding: 1px 0 0 1px;
 	border: 1px solid @border_color;
 	box-shadow: inset 1px 1px 0 0 @frame_light_color;
 }
 
+frame.border-groove,
+frame.border-ridge {
+	margin: 0 1px 1px 0;
+	padding: 1px 0 0 1px;
+}
+
 frame.border-groove {
 	border: 1px solid @trough_bg_color;
-	box-shadow: inset 1px 1px @frame_groove_color, 1px 1px @frame_groove_color;
+	box-shadow:
+		inset 1px 1px @frame_groove_color,
+		1px 1px @frame_groove_color,
+		0 1px @frame_groove_color,
+		1px 0 @frame_groove_color;
 }
 
 frame.border-ridge {
 	border: 1px solid @frame_groove_color;
-	box-shadow: inset 1px 1px @trough_bg_color, 1px 1px @trough_bg_color;
+	box-shadow:
+		inset 1px 1px @trough_bg_color,
+		1px 1px @trough_bg_color,
+		0 1px @trough_bg_color,
+		1px 0 @trough_bg_color;
 }
 
 frame > label {

@@ -2388,11 +2388,13 @@ frame > label {
 }
 
 frame.border-inset > border {
+	padding: 0 1px 1px 0;
 	border: 1px solid @border_color;
 	box-shadow: inset -1px -1px 0 0 @frame_light_color;
 }
 
 frame.border-outset > border {
+	padding: 1px 0 0 1px;
 	border: 1px solid @border_color;
 	box-shadow: inset 1px 1px 0 0 @frame_light_color;
 }
