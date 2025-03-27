@@ -1891,6 +1891,11 @@ notebook tab:checked {
 	background-color: @theme_bg_color;
 }
 
+notebook:focus tab:checked {
+	outline: 1px dotted @outline_color;
+	outline-offset: -4px;
+}
+
 notebook tab button {
 	padding: 0;
 }
