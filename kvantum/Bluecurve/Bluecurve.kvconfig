@@ -85,6 +85,26 @@ indicator.element=arrow
 [PanelButtonTool]
 inherits=PanelButtonCommand
 
+[Dock]
+inherits=PanelButtonCommand
+frame=true
+interior.element=tabframe
+frame.element=tabframe
+frame.top=0
+frame.bottom=2
+frame.left=2
+frame.right=2
+
+[DockTitle]
+inherits=PanelButtonCommand
+frame=true
+interior.element=tabframe
+frame.element=tabframe
+frame.top=2
+frame.bottom=0
+frame.left=2
+frame.right=2
+
 [IndicatorSpinBox]
 inherits=PanelButtonCommand
 indicator.element=spinbutton
@@ -286,6 +306,14 @@ text.margin.right=5
 inherits=PanelButtonCommand
 indicator.element=combobox-indicator
 indicator.size=12
+
+[GroupBox]
+interior.element=groupbox
+frame.element=groupbox
+frame.top=2
+frame.bottom=2
+frame.left=2
+frame.right=2
 
 [IndicatorArrow]
 indicator.element=indicatorarrow
