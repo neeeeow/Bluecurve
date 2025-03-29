@@ -255,7 +255,7 @@ indicator.element=menuitem
 text.margin=true
 text.margin.top=3
 text.margin.bottom=2
-text.margin.left=6
+text.margin.left=4
 text.margin.right=5
 text.normal.color=#000000
 text.focus.color=#000000
@@ -277,12 +277,16 @@ frame.element=menubaritem
 text.normal.color=#000000
 text.focus.color=#000000
 text.press.color=#ffffff
+text.margin.left=6
+text.margin.right=5
 
 [ComboBox]
 inherits=PanelButtonCommand
 indicator.element=combobox-indicator
 indicator.size=12
 
-
+[IndicatorArrow]
+indicator.element=indicatorarrow
+indicator.size=8
 
 
