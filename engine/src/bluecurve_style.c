@@ -468,9 +468,9 @@ draw_hgradient (GdkDrawable *drawable, GdkGC *gc, GdkColormap *colormap,
   GdkGCValues old_values;
 
   col = *top_color;
-  dr = (bottom_color->red - top_color->red) / height;
-  dg = (bottom_color->green - top_color->green) / height;
-  db = (bottom_color->blue - top_color->blue) / height;
+  dr = (bottom_color->red - top_color->red) / (height == 0 ? 1 : height);
+  dg = (bottom_color->green - top_color->green) / (height == 0 ? 1 : height);
+  db = (bottom_color->blue - top_color->blue) / (height == 0 ? 1 : height);
   
   gdk_gc_get_values (gc, &old_values);
   
@@ -503,9 +503,9 @@ draw_vgradient (GdkDrawable *drawable, GdkGC *gc, GdkColormap *colormap,
   GdkGCValues old_values;
 
   col = *left_color;
-  dr = (right_color->red - left_color->red) / width;
-  dg = (right_color->green - left_color->green) / width;
-  db = (right_color->blue - left_color->blue) / width;
+  dr = (right_color->red - left_color->red) / (width == 0 ? 1 : width);
+  dg = (right_color->green - left_color->green) / (width == 0 ? 1 : width);
+  db = (right_color->blue - left_color->blue) / (width == 0 ? 1 : width);
   
   gdk_gc_get_values (gc, &old_values);
   
