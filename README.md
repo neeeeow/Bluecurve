@@ -72,12 +72,19 @@ Copy the contents of the `icons` folder to `~/.icons`
 ```bash
 cp -r icons/* ~/.icons
 ```
-### 4. Install theme
+### 4. Install GTK theme
 Copy the contents of the `themes` folder to `~/.themes`
 ```bash
 cp -r themes/* ~/.themes
 ```
-### (Optional) 5. Install Luxi fonts
+
+### 5. Install Kvantum (Qt) theme
+> [!CAUTION]
+> The Kvantum theme is currently a work-in-progress. It is not complete yet and not suitable for daily use!
+
+Install the Kvantum theme using the Kvantum theme manager. 
+
+### (Optional) 6. Install Luxi fonts
 > [!WARNING]
 > Only do this step if your distribution doesn't include the Luxi font family.
 
