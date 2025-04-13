@@ -1160,10 +1160,14 @@ item:selected,
 item:hover, 
 popover modelbutton:selected, 
 popover modelbutton:hover {
-	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
 	color: @theme_selected_fg_color;
 	border: 1px solid @menuitem_border_color;
 	box-shadow: inset -1px -1px @menuitem_dark_color, inset 1px 1px @menuitem_light_color;
+	background: linear-gradient(
+		to bottom,
+		@menuitem_top_color 1px,
+		@menuitem_bottom_color
+	) border-box;
 }
 
 popover modelbutton > box {
@@ -3494,10 +3498,14 @@ switch {
 }
 
 switch:checked {
-	background-image: linear-gradient(to bottom, @menuitem_top_color, @menuitem_bottom_color);
 	color: @theme_selected_fg_color;
 	border: 1px solid @menuitem_border_color;
 	box-shadow: inset -1px -1px @menuitem_dark_color, inset 1px 1px @menuitem_light_color;
+	background: linear-gradient(
+		to bottom,
+		@menuitem_top_color 1px,
+		@menuitem_bottom_color
+	) border-box;
 }
 
 switch:disabled {
