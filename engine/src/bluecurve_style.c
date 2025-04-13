@@ -1888,9 +1888,9 @@ draw_box (GtkStyle      *style,
       if (area)
 	{
 	  gdk_gc_set_clip_rectangle (style->base_gc[state_type], area);
-	  gdk_gc_set_clip_rectangle (bluecurve_style->spot1_gc, area);
+	  /*gdk_gc_set_clip_rectangle (bluecurve_style->spot1_gc, area); // Removing these lines fixes progress bar borders
 	  gdk_gc_set_clip_rectangle (bluecurve_style->spot2_gc, area);
-	  gdk_gc_set_clip_rectangle (bluecurve_style->spot3_gc, area);
+	  gdk_gc_set_clip_rectangle (bluecurve_style->spot3_gc, area);*/
 	}
       
       gdk_draw_rectangle (window,
