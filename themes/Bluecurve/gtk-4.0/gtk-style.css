@@ -965,7 +965,34 @@ tooltip.background.solid-csd,
 		linear-gradient(to bottom, @headerbar_backdrop_button_1, @headerbar_backdrop_button_2) 1px 1px / 16px 14px no-repeat;
 }
 
-/********************************************/
+/*******************************************/
+/* OSD */
+/*******************************************/
+
+.background.osd {
+	background: @theme_bg_color;
+	border: 1px solid @border_color;
+	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
+}
+
+overlay.osd {
+	background: transparent;
+}
+
+.osd .trough {
+	background-color: @trough_bg_color;
+	border: 1px solid @border_color;
+	box-shadow: none;
+}
+
+.osd *:selected {
+	/* OSDs presumably are always in the foreground, so we make all selected OSD
+	   elements have the same properties as selected items that are in focus */
+	background-color: @theme_selected_bg_color;
+	color: @theme_selected_fg_color;
+}
+
+/*******************************************/
 /* Tooltips */
 /*******************************************/
 
@@ -1645,22 +1672,26 @@ levelbar.discrete block {
 	margin: -1px;
 }
 
-progressbar.vertical progress, levelbar.vertical block.filled {
+progressbar.vertical progress,
+levelbar.vertical block.filled {
 	border: 1px solid @progressbar_border_color;
 	box-shadow: inset -1px -1px @progressbar_dark_color, inset 1px 1px @progressbar_light_color;
 	background: linear-gradient(
 		to right, 
-		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
+		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
 		@progressbar_bottom_color calc(100% - 0.75px) /* The gradient ends 0.75 pixels from the bottom */
 	);
 }
 
-progressbar.horizontal progress, levelbar.horizontal block.filled {
+progressbar.horizontal progress,
+levelbar.horizontal block.filled,
+.osd .progressbar,
+.osd progressbar {
 	border: 1px solid @progressbar_border_color;
 	box-shadow: inset -1px -1px @progressbar_dark_color, inset 1px 1px @progressbar_light_color;
 	background: linear-gradient(
 		to bottom, 
-		@progressbar_top_color calc(2px), /* The gradient starts from here to account for the border */
+		@progressbar_top_color 2px, /* The gradient starts from here to account for the border */
 		@progressbar_bottom_color calc(100% - 0.75px) /* The gradient ends 0.75 pixels from the bottom */
 	);
 }
