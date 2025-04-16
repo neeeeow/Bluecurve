@@ -315,6 +315,15 @@ frame.bottom=2
 frame.left=2
 frame.right=2
 
+[ToolTip]
+inherits=PanelButtonCommand
+interior.element=tooltip
+frame.element=tooltip
+frame.top=1
+frame.bottom=1
+frame.left=1
+frame.right=1
+
 [IndicatorArrow]
 indicator.element=indicatorarrow
 indicator.size=8
