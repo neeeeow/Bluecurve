@@ -12,11 +12,11 @@ If you have found a bug and have been able to fix it yourself or wish to impleme
 - Ensure that your patch keeps the theme's appearance consistent with Fedora Core 3.
   - Installing Fedora Core 3 in a virtual machine is recommended for this. Fedora Core 3 ISO files can be found [here](https://archives.fedoraproject.org/pub/archive/fedora/linux/core/3/i386/iso/).
 - Changes to the appearance of widgets should go in the `gtk-style.css` file.
-- Changes to MATE and Xfce elements should go in the `mate.css` and `xfce.css` files respectively. 
-- Changes to the classic Red Hat 8 & 9 themes should go in the `classic-tweaks.css` file.
+- Changes to MATE and Xfce elements should go in the `mate.css` and `xfce.css` files respectively.
+- Changes to other applications should go in the `applications.css` file 
 - Do not add any additional color definitions to `gtk.css`. Only add additional color definitions to `shade.css` if absolutely necessary.
   - Color definitions that are in `shade.css` generally should be shades of the colors defined in `gtk.css`.
-    - The shade values should come from the Bluecurve [GTK 2 engine source code](https://download.fedoraproject.org/pub/fedora/linux/releases/37/Everything/source/tree/Packages/b/bluecurve-gtk-themes-1.0.0-29.fc37.src.rpm).
+    - The shade values should come from the Bluecurve GTK 2 engine source code
 - Ensure that there are no profanities or otherwise inappropriate language in the comments.
 - When submitting your pull request, ensure that you describe the issue that you've resolved or the feature that you've added. Include before/after screenshots if possible.
 ### Guidelines for package maintainers
