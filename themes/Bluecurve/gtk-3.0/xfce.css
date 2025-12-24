@@ -74,6 +74,11 @@
 	margin: 0px 2px 0px -5px;
 }
 
+/* Fix places button padding */
+#XfcePanelWindowWrapper button {
+	padding: 2px;
+}
+
 /* Logout dialog */
 .xfsm-logout-dialog {
 	border: 1px solid @border_color;
