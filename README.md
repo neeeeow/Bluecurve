@@ -37,6 +37,9 @@ cd Bluecurve
 ```bash
 ./install.sh
 ```
+### (Optional) 3. Install the Qt 5/6 theme
+See [neeeeow/Bluecurve-Qt](https://github.com/neeeeow/Bluecurve-Qt).
+
 ## Manual installation
 ### 1. Download the theme
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
@@ -90,6 +93,8 @@ Next, copy the fonts to the directory:
 ```bash
 cp fonts/*.ttf ~/.local/share/fonts
 ```
+### (Optional) 6. Install the Qt 5/6 theme
+See [neeeeow/Bluecurve-Qt](https://github.com/neeeeow/Bluecurve-Qt).
 
 ## Hints
 ### Use Red Hat icon in MATE menu bar
