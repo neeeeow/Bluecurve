@@ -142,6 +142,10 @@
   </layout>
 
   <!-- Aliases define extra icons via symlinks to those in the theme -->
+
+	<!-- Freedesktop.org standard action icons -->
+
+
 	<!-- GTK+ Stock icons -->
 	<alias name="gtk-new" target="stock-new"/>
 	<alias name="gtk-open" target="stock-open"/>
@@ -255,16 +259,6 @@
 	<alias name="gtk-close" target="stock-close"/>
 	<alias name="foo" target="stock-foo"/>
 	<alias name="gtk-clear" target="stock-clear"/>
-	<alias name="stock_volume" target="stock-volume-max"/>
-	<alias name="stock_volume-max" target="stock-volume-max"/>
-	<alias name="volume-max" target="stock-volume-max"/>
-	<alias name="volume-medium" target="stock-volume-med"/>
-	<alias name="stock_volume-med" target="stock-volume-med"/>
-	<alias name="volume-min" target="stock-volume-min"/>
-	<alias name="stock_volume-min" target="stock-volume-min"/>
-	<alias name="volume-zero" target="stock-volume-0"/>
-	<alias name="volume-0" target="stock-volume-0" />
-	<alias name="stock_volume-0" target="stock-volume-0" />
 	<alias name="panel-screenshot" target="stock-panel-screenshot"/>
 	<alias name="foo" target="stock-foo"/>
 	<alias name="foo" target="stock-foo"/>
@@ -276,12 +270,12 @@
 	<alias name="epiphany-download" target="stock-download"/>
 	<alias name="epiphany-new-tab" target="stock-new-tab"/>
 	<alias name="volume-mute" target="stock-volume-mute"/>
-        <alias name="stock_volume-mute" target="stock-volume-mute"/>
+	<alias name="stock_volume-mute" target="stock-volume-mute"/>
 
 	<!-- GTK+ stock icons (extended) -->
-  <alias name="printer-workgroup" target="stock-print"/>
-  <alias name="printer-personal-laser" target="stock-print"/>
-  <alias name="printer-inkjet" target="stock-print"/>
+	<alias name="printer-workgroup" target="stock-print"/>
+	<alias name="printer-personal-laser" target="stock-print"/>
+	<alias name="printer-inkjet" target="stock-print"/>
 	<alias name="panel-utility" target="stock-preferences"/>
 	<alias name="gtk-ok" target="stock-apply"/>
 	<alias name="gtk-yes" target="stock-apply"/>
@@ -308,15 +302,10 @@
 	<alias name="gthumb-fullscreen" target="stock-fullscreen"/>
 	<alias name="gthumb-add-comment" target="stock-edit"/>
 	<alias name="gthumb-catalog" target="stock-book"/>
-        <alias name="rhythmbox-play" target="stock-media-play"/>
-        <alias name="rhythmbox-next" target="stock-media-next"/>
-        <alias name="rhythmbox-previous" target="stock-media-prev"/>
-        <alias name="rhythmbox-pause" target="stock-media-pause"/>
-        <alias name="rhythmbox-volume-max" target="stock-volume-max"/>
-        <alias name="rhythmbox-volume-medium" target="stock-volume-med"/>
-        <alias name="rhythmbox-volume-min" target="stock-volume-min"/>
-        <alias name="rhythmbox-volume-zero" target="stock-volume-0"/>
-	<alias name="rhythmbox-volume-0" target="stock-volume-0"/>
+	<alias name="rhythmbox-play" target="stock-media-play"/>
+	<alias name="rhythmbox-next" target="stock-media-next"/>
+	<alias name="rhythmbox-previous" target="stock-media-prev"/>
+	<alias name="rhythmbox-pause" target="stock-media-pause"/>
 	
 	<!-- Missing GTK+ icons -->
 	<!--
