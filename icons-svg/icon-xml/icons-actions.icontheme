@@ -1,0 +1,405 @@
+<theme name="Bluecurve" typedir="actions">
+	<source size="16" sizedir="16x16"/>
+	<source size="20" sizedir="20x20"/>
+	<source size="24" sizedir="24x24"/>
+	<source size="32" sizedir="32x32"/>
+	<source size="48" sizedir="48x48"/>
+  <layout>
+    <row>
+			<!-- ROW 1 -->
+      <icon name="stock-new"/>
+      <icon name="stock-open"/>
+      <icon name="stock-save"/>
+      <icon name="stock-save-as"/>
+      <icon name="stock-import"/>
+      <icon name="stock-export"/>
+      <icon name="stock-revert-to-saved"/>
+      <icon name="stock-cut"/>
+      <icon name="stock-copy"/>
+      <icon name="stock-paste"/>
+      <icon name="stock-foo"/>
+      <icon name="stock-undo"/>
+      <icon name="stock-redo"/>
+      <icon name="stock-refresh"/>
+      <icon name="stock-stop"/>
+      <icon name="stock-home"/>
+    </row><row>
+			<!-- ROW 2 -->
+      <icon name="stock-print"/>
+      <icon name="stock-print-preview"/>
+      <icon name="stock-spell-check"/>
+      <icon name="stock-help"/>
+      <icon name="stock-about"/>
+      <icon name="stock-quit"/>
+      <icon name="stock-jump-to"/>
+      <icon name="stock-execute"/>
+      <icon name="stock-edit"/>
+      <icon name="stock-attach"/>
+      <icon name="stock-find"/>
+      <icon name="stock-find-and-replace"/>
+      <icon name="stock-bold"/>
+      <icon name="stock-italic"/>
+      <icon name="stock-underline"/>
+      <icon name="stock-strikethrough"/>
+    </row><row>
+			<!-- ROW 3 -->
+      <icon name="stock-justify-left"/>
+      <icon name="stock-justify-center"/>
+      <icon name="stock-justify-right"/>
+      <icon name="stock-justify-fill"/>
+      <icon name="stock-delete"/>
+      <icon name="stock-undelete"/>
+      <icon name="stock-go-back"/>
+      <icon name="stock-go-forward"/>
+      <icon name="stock-go-down"/>
+      <icon name="stock-go-up"/>
+      <icon name="stock-goto-first"/>
+      <icon name="stock-goto-last"/>
+      <icon name="stock-goto-top"/>
+      <icon name="stock-goto-bottom"/>
+      <icon name="stock-apply"/>
+      <icon name="stock-cancel"/>
+    </row><row>
+			<!-- ROW 4 -->
+      <icon name="stock-book"/>
+      <icon name="stock-media-rewind"/>
+      <icon name="stock-media-prev"/>
+      <icon name="stock-media-stop"/>
+      <icon name="stock-media-pause"/>
+      <icon name="stock-media-play"/>
+      <icon name="stock-media-rec"/>
+      <icon name="stock-media-next"/>
+      <icon name="stock-media-ffwd"/>
+      <icon name="stock-foo"/>
+      <icon name="stock-new-window"/>
+      <icon name="stock-cdrom"/>
+      <icon name="stock-convert"/>
+      <icon name="stock-font"/>
+      <icon name="stock-insert-object"/>
+      <icon name="stock-insert-image"/>
+    </row><row>
+			<!-- ROW 5 -->
+      <icon name="stock-insert-table"/>
+      <icon name="stock-line-in"/>
+      <icon name="stock-mic"/>
+      <icon name="stock-select-color"/>
+      <icon name="stock-preferences"/>
+      <icon name="stock-new-tab"/>
+      <icon name="stock-zoom-100"/>
+      <icon name="stock-zoom-fit"/>
+      <icon name="stock-zoom-in"/>
+      <icon name="stock-zoom-out"/>
+      <icon name="stock-add"/>
+      <icon name="stock-remove"/>
+      <icon name="stock-lockscreen"/>
+      <icon name="stock-panel-internet"/>
+      <icon name="stock-dnd-multiple"/>
+      <icon name="stock-dnd"/>
+    </row><row>
+			<!-- ROW 6 -->
+      <icon name="stock-volume"/>
+      <icon name="stock-volume-muted"/>
+      <icon name="stock-panel-multimedia"/>
+      <icon name="stock-panel-accessories"/>
+      <icon name="stock-properties"/>
+      <icon name="stock-panel-amusements"/>
+      <icon name="stock-sort-ascending"/>
+      <icon name="stock-sort-descending"/>
+      <icon name="stock-media-eject"/>
+      <icon name="stock-panel-launcher"/>
+      <icon name="stock-disconnect"/>
+      <icon name="stock-connect"/>
+      <icon name="stock-panel-drawer"/>
+      <icon name="stock-close"/>
+      <icon name="stock-foo"/>
+      <icon name="stock-clear"/>
+    </row><row>
+			<!-- ROW 7 -->
+      <icon name="stock-archive-new"/>
+      <icon name="stock-archive-insert"/>
+      <icon name="stock-archive-remove"/>
+      <icon name="stock-archive-extract"/>
+      <icon name="stock-panel-screenshot"/>
+      <icon name="stock-foo"/>
+      <icon name="stock-foo"/>
+      <icon name="stock-history"/>
+      <icon name="stock-bookmarks"/>
+      <icon name="stock-bookmark-page"/>
+      <icon name="stock-fullscreen"/>
+      <icon name="stock-send-link"/>
+      <icon name="stock-download"/>
+    </row><row>
+    			<!-- ROW 8 -->
+	  <icon name="stock-sub-menu"/>
+	  <icon name="stock-tree-expand-all"/>
+	  <icon name="stock-tree-collapse-all"/>
+	  <icon name="stock-tree-expand"/>
+	  <icon name="stock-tree-collapse"/>
+	  <icon name="stock-view-tree"/>
+	  <icon name="stock-text-generic"/>
+	  <icon name="stock-debug-step-through"/>
+    </row>
+  </layout>
+
+  <!-- Aliases define extra icons via symlinks to those in the theme -->
+	<!-- GTK+ Stock icons -->
+	<alias name="gtk-new" target="stock-new"/>
+	<alias name="gtk-open" target="stock-open"/>
+	<alias name="gtk-save" target="stock-save"/>
+	<alias name="gtk-save-as" target="stock-save-as"/>
+	<alias name="gnome-stock-import" target="stock-import"/>
+	<alias name="gnome-stock-export" target="stock-export"/>
+	<alias name="gtk-revert-to-saved" target="stock-revert-to-saved"/>
+	<alias name="gtk-revert-to-saved-ltr" target="stock-revert-to-saved"/>
+	<alias name="gtk-revert-to-saved-rtl" target="stock-revert-to-saved"/>
+	<alias name="gtk-cut" target="stock-cut"/>
+	<alias name="gtk-copy" target="stock-copy"/>
+	<alias name="gtk-paste" target="stock-paste"/>
+	<alias name="foo" target="stock-foo"/>
+	<alias name="gtk-undo" target="stock-undo"/>
+	<alias name="gtk-redo" target="stock-redo"/>
+	<alias name="gtk-redo-lrt" target="stock-redo"/>
+	<alias name="gtk-redo-rtl" target="stock-redo"/>
+	<alias name="gtk-refresh" target="stock-refresh"/>
+	<alias name="gtk-stop" target="stock-stop"/>
+	<alias name="gtk-home" target="stock-home"/>
+	<alias name="gtk-print" target="stock-print"/>
+	<alias name="gtk-print-preview" target="stock-print-preview"/>
+	<alias name="gtk-spell-check" target="stock-spell-check"/>
+	<alias name="gtk-help" target="stock-help"/>
+	<alias name="gnome-stock-about" target="stock-about"/>
+	<alias name="gtk-quit" target="stock-quit"/>
+	<alias name="gtk-jump-to" target="stock-jump-to"/>
+	<alias name="gtk-jump-to-ltr" target="stock-jump-to"/>
+	<alias name="gtk-jump-to-rtl" target="stock-jump-to"/>
+	<alias name="gtk-execute" target="stock-execute"/>
+	<alias name="gnome-stock-edit" target="stock-edit"/>
+	<alias name="gnome-stock-attach" target="stock-attach"/>
+	<alias name="gtk-find" target="stock-find"/>
+	<alias name="gtk-find-and-replace" target="stock-find-and-replace"/>
+	<alias name="gtk-bold" target="stock-bold"/>
+	<alias name="gtk-italic" target="stock-italic"/>
+	<alias name="gtk-underline" target="stock-underline"/>
+	<alias name="gtk-strikethrough" target="stock-strikethrough"/>
+	<alias name="gtk-justify-left" target="stock-justify-left"/>
+	<alias name="gtk-justify-center" target="stock-justify-center"/>
+	<alias name="gtk-justify-right" target="stock-justify-right"/>
+	<alias name="gtk-justify-fill" target="stock-justify-fill"/>
+	<alias name="gtk-delete" target="stock-delete"/>
+	<alias name="gtk-undelete" target="stock-undelete"/>
+	<alias name="gtk-undelete-ltr" target="stock-undelete"/>
+	<alias name="gtk-undelete-rtl" target="stock-undelete"/>
+	<alias name="gtk-go-back" target="stock-go-back"/>
+	<alias name="gtk-go-back-ltr" target="stock-go-back"/>
+	<alias name="gtk-go-back-rtl" target="stock-go-forward"/>
+	<alias name="gtk-go-forward" target="stock-go-forward"/>
+	<alias name="gtk-go-forward-ltr" target="stock-go-forward"/>
+	<alias name="gtk-go-forward-rtl" target="stock-go-back"/>
+	<alias name="gtk-go-down" target="stock-go-down"/>
+	<alias name="gtk-go-up" target="stock-go-up"/>
+	<alias name="gtk-goto-first" target="stock-goto-first"/>
+	<alias name="gtk-goto-first-ltr" target="stock-goto-first"/>
+	<alias name="gtk-goto-first-rtl" target="stock-goto-last"/>
+	<alias name="gtk-goto-last" target="stock-goto-last"/>
+	<alias name="gtk-goto-last-ltr" target="stock-goto-last"/>
+	<alias name="gtk-goto-last-rtl" target="stock-goto-first"/>
+	<alias name="gtk-goto-top" target="stock-goto-top"/>
+	<alias name="gtk-goto-bottom" target="stock-goto-bottom"/>
+	<alias name="gtk-apply" target="stock-apply"/>
+	<alias name="gtk-cancel" target="stock-cancel"/>
+	<alias name="gtk-stock-book" target="stock-book"/>
+	<alias name="media-rewind" target="stock-media-rewind"/>
+	<alias name="media-prev" target="stock-media-prev"/>
+	<alias name="media-stop" target="stock-media-stop"/>
+	<alias name="media-pause" target="stock-media-pause"/>
+	<alias name="media-play" target="stock-media-play"/>
+	<alias name="media-rec" target="stock-media-rec"/>
+	<alias name="media-next" target="stock-media-next"/>
+	<alias name="media-ffwd" target="stock-media-ffwd"/>
+	<alias name="foo" target="stock-foo"/>
+	<alias name="gtk-missing-image" target="stock-missing-image"/>
+	<alias name="gtk-cdrom" target="stock-cdrom"/>
+	<alias name="gtk-convert" target="stock-convert"/>
+	<alias name="gtk-font" target="stock-font"/>
+	<alias name="gnome-stock-insert-object" target="stock-insert-object"/>
+	<alias name="gnome-stock-insert-image" target="stock-insert-image"/>
+	<alias name="gnome-stock-insert-table" target="stock-insert-table"/>
+	<alias name="gnome-stock-line-in" target="stock-line-in"/>
+	<alias name="gnome-stock-mic" target="stock-mic"/>
+	<alias name="gtk-select-color" target="stock-select-color"/>
+	<alias name="gtk-preferences" target="stock-preferences"/>
+	<alias name="gnome-stock-volume" target="stock-volume"/>
+	<alias name="gtk-zoom-100" target="stock-zoom-100"/>
+	<alias name="gtk-zoom-fit" target="stock-zoom-fit"/>
+	<alias name="gtk-zoom-in" target="stock-zoom-in"/>
+	<alias name="gtk-zoom-out" target="stock-zoom-out"/>
+	<alias name="gtk-add" target="stock-add"/>
+	<alias name="gtk-remove" target="stock-remove"/>
+	<alias name="gnome-stock-lockscreen" target="stock-lockscreen"/>
+	<alias name="panel-internet" target="stock-panel-internet"/>
+	<alias name="gtk-dnd-multiple" target="stock-dnd-multiple"/>
+	<alias name="gtk-dnd" target="stock-dnd"/>
+	<alias name="printer-broken" target="stock-printer-broken"/>
+	<alias name="printer-default" target="stock-printer-default"/>
+	<alias name="panel-multimedia" target="stock-panel-multimedia"/>
+	<alias name="panel-accessories" target="stock-panel-accessories"/>
+	<alias name="gtk-properties" target="stock-properties"/>
+	<alias name="panel-amusements" target="stock-panel-amusements"/>
+	<alias name="gtk-sort-ascending" target="stock-sort-ascending"/>
+	<alias name="gtk-sort-descending" target="stock-sort-descending"/>
+	<alias name="media-eject" target="stock-media-eject"/>
+	<alias name="panel-launcher" target="stock-panel-launcher"/>
+	<alias name="gnome-stock-disconnect" target="stock-disconnect"/>
+	<alias name="gnome-stock-connect" target="stock-connect"/>
+	<alias name="panel-drawer" target="stock-panel-drawer"/>
+	<alias name="gtk-close" target="stock-close"/>
+	<alias name="foo" target="stock-foo"/>
+	<alias name="gtk-clear" target="stock-clear"/>
+	<alias name="stock_volume" target="stock-volume-max"/>
+	<alias name="stock_volume-max" target="stock-volume-max"/>
+	<alias name="volume-max" target="stock-volume-max"/>
+	<alias name="volume-medium" target="stock-volume-med"/>
+	<alias name="stock_volume-med" target="stock-volume-med"/>
+	<alias name="volume-min" target="stock-volume-min"/>
+	<alias name="stock_volume-min" target="stock-volume-min"/>
+	<alias name="volume-zero" target="stock-volume-0"/>
+	<alias name="volume-0" target="stock-volume-0" />
+	<alias name="stock_volume-0" target="stock-volume-0" />
+	<alias name="panel-screenshot" target="stock-panel-screenshot"/>
+	<alias name="foo" target="stock-foo"/>
+	<alias name="foo" target="stock-foo"/>
+	<alias name="epiphany-history" target="stock-history"/>
+	<alias name="epiphany-bookmarks" target="stock-bookmarks"/>
+	<alias name="epiphany-bookmark-page" target="stock-bookmark-page"/>
+	<alias name="gtk-stock-fullscreen" target="stock-fullscreen"/>
+	<alias name="epiphany-send-link" target="stock-send-link"/>
+	<alias name="epiphany-download" target="stock-download"/>
+	<alias name="epiphany-new-tab" target="stock-new-tab"/>
+	<alias name="volume-mute" target="stock-volume-mute"/>
+        <alias name="stock_volume-mute" target="stock-volume-mute"/>
+
+	<!-- GTK+ stock icons (extended) -->
+  <alias name="printer-workgroup" target="stock-print"/>
+  <alias name="printer-personal-laser" target="stock-print"/>
+  <alias name="printer-inkjet" target="stock-print"/>
+	<alias name="panel-utility" target="stock-preferences"/>
+	<alias name="gtk-ok" target="stock-apply"/>
+	<alias name="gtk-yes" target="stock-apply"/>
+	<alias name="gtk-no" target="stock-cancel"/>
+	<alias name="gtk-floppy" target="stock-save"/>
+	<alias name="gnome-stock-searchtool" target="stock-find"/>
+	<alias name="panel-logout" target="stock-quit"/>
+	<alias name="gnome-logout" target="stock-quit"/>
+	<alias name="panel-lockscreen" target="stock-lockscreen"/>
+	<alias name="panel-searchtool" target="stock-find"/>
+	<alias name="gnome-stock-run" target="stock-execute"/>
+	<alias name="panel-run" target="stock-execute"/>
+	<alias name="cdplayer-eject" target="stock-media-eject"/>
+	<alias name="cdplayer-backward" target="stock-media-rewind"/>
+	<alias name="cdplayer-prev" target="stock-media-prev"/>
+	<alias name="cdplayer-stop" target="stock-media-stop"/>
+	<alias name="cdplayer-pause" target="stock-media-pause"/>
+	<alias name="cdplayer-play" target="stock-media-play"/>
+	<alias name="cdplayer-record" target="stock-media-rec"/>
+	<alias name="cdplayer-next" target="stock-media-next"/>
+	<alias name="cdplayer-forward" target="stock-media-ffwd"/>
+	<alias name="applets-screenshooter" typedir="apps" target="stock-panel-screenshot"/>
+	<alias name="epiphany-fullscreen" target="stock-fullscreen"/>
+	<alias name="gthumb-fullscreen" target="stock-fullscreen"/>
+	<alias name="gthumb-add-comment" target="stock-edit"/>
+	<alias name="gthumb-catalog" target="stock-book"/>
+        <alias name="rhythmbox-play" target="stock-media-play"/>
+        <alias name="rhythmbox-next" target="stock-media-next"/>
+        <alias name="rhythmbox-previous" target="stock-media-prev"/>
+        <alias name="rhythmbox-pause" target="stock-media-pause"/>
+        <alias name="rhythmbox-volume-max" target="stock-volume-max"/>
+        <alias name="rhythmbox-volume-medium" target="stock-volume-med"/>
+        <alias name="rhythmbox-volume-min" target="stock-volume-min"/>
+        <alias name="rhythmbox-volume-zero" target="stock-volume-0"/>
+	<alias name="rhythmbox-volume-0" target="stock-volume-0"/>
+	
+	<!-- Missing GTK+ icons -->
+	<!--
+	gtk-index
+	-->
+
+	<!-- KDE action icons -->
+	<!-- contributed by Kreg Steppe <kreg@virtual1.net> -->
+	<alias name="filenew" typedir="actions" target="stock-new"/>		
+	<alias name="fileopen" typedir="actions" target="stock-open"/>
+	<alias name="filesave" typedir="actions" target="stock-save"/>
+	<alias name="filesaveas" typedir="actions" target="stock-save-as"/>
+	<alias name="fileimport" typedir="actions" target="stock-import"/>
+	<alias name="fileexport" typedir="actions" target="stock-export"/>
+	<alias name="editcut" typedir="actions" target="stock-cut"/>
+	<alias name="editcopy" typedir="actions" target="stock-copy"/>
+	<alias name="editpaste" typedir="actions" target="stock-paste"/>
+	<alias name="undo" typedir="actions" target="stock-undo"/>
+	<alias name="redo" typedir="actions" target="stock-redo"/>
+	<alias name="reload" typedir="actions" target="stock-refresh"/>
+	<alias name="stop" typedir="actions" target="stock-stop"/>
+	<alias name="gohome" typedir="actions" target="stock-home"/>
+	<alias name="fileprint" typedir="actions" target="stock-print"/>
+	<alias name="filequickprint" typedir="actions" target="stock-print"/>
+	<alias name="frameprint" typedir="actions" target="stock-print"/>
+	<alias name="spellcheck" typedir="actions" target="stock-spell-check"/>
+	<alias name="help" typedir="actions" target="stock-help"/>
+	<alias name="about_kde" typedir="actions" target="stock-about"/>
+	<alias name="exit" typedir="actions" target="stock-quit"/>
+	<alias name="goto" typedir="actions" target="stock-jump-to"/>
+	<alias name="run" typedir="actions" target="stock-execute"/>
+	<alias name="exec" typedir="actions" target="stock-execute"/>
+	<alias name="edit" typedir="actions" target="stock-edit"/>
+	<alias name="attach" typedir="actions" target="stock-attach"/>
+	<alias name="filefind" typedir="actions" target="stock-find"/>
+	<alias name="text_bold" typedir="actions" target="stock-bold"/>
+	<alias name="text_italic" typedir="actions" target="stock-italic"/>
+	<alias name="text_under" typedir="actions" target="stock-underline"/>
+	<alias name="text_strike" typedir="actions" target="stock-strikethrough"/>
+	<alias name="text-left" typedir="actions" target="stock-justify-left"/>
+	<alias name="text_center" typedir="actions" target="stock-justify-center"/>
+	<alias name="text_right" typedir="actions" target="stock-justify-right"/>
+	<alias name="text_block" typedir="actions" target="stock-justify-fill"/>
+	<alias name="edittrash" typedir="actions" target="stock-delete"/>
+	<alias name="back" typedir="actions" target="stock-go-back"/>
+	<alias name="forward" typedir="actions" target="stock-go-forward"/>
+	<alias name="down" typedir="actions" target="stock-go-down"/>
+	<alias name="up" typedir="actions" target="stock-go-up"/>
+	<alias name="start" typedir="actions" target="stock-goto-first"/>
+	<alias name="finish" typedir="actions" target="stock-goto-last"/>
+	<alias name="top" typedir="actions" target="stock-goto-first"/>
+	<alias name="bottom" typedir="actions" target="stock-goto-bottom"/>
+	<alias name="button_ok" typedir="actions" target="stock-apply"/>
+	<alias name="button_cancel" typedir="actions" target="stock-cancel"/>
+	<alias name="contents2" typedir="actions" target="stock-book"/>
+	<alias name="player_rew" typedir="actions" target="stock-media-rewind"/>
+	<alias name="player_start" typedir="actions" target="stock-media-prev"/>
+	<alias name="player_stop" typedir="actions" target="stock-media-stop"/>
+	<alias name="player_pause" typedir="actions" target="stock-media-pause"/>
+	<alias name="player_play" typedir="actions" target="stock-media-play"/>
+	<alias name="player_end" typedir="actions" target="stock-media-next"/>
+	<alias name="player-fwd" typedir="actions" target="stock-media-ffwd"/>
+	<alias name="contents" typedir="actions" target="stock-book"/>
+	<alias name="editdelete" typedir="actions" target="stock-delete"/>
+	<alias name="cd" typedir="actions" target="stock-cdrom"/>
+	<alias name="colorpicker" typedir="actions" target="stock-select-color"/>
+	<alias name="configure_shortcuts" typedir="actions" target="stock-preferences"/>
+	<alias name="configure_toolbars" typedir="actions" target="stock-preferences"/>
+	<alias name="viewmag1" typedir="actions" target="stock-zoom-100"/>
+	<alias name="viewmagfit" typedir="actions" target="stock-zoom-fit"/>
+	<alias name="viewmag+" typedir="actions" target="stock-zoom-in"/>
+	<alias name="viewmag-" typedir="actions" target="stock-zoom-out"/>
+	<alias name="edit_add" typedir="actions" target="stock-add"/>
+	<alias name="edit_remove" typedir="actions" target="stock-remove"/>
+	<alias name="lock" typedir="actions" target="stock-lockscreen"/>
+	<alias name="configure" typedir="actions" target="stock-preferences"/>
+	<alias name="player-eject" typedir="actions" target="stock-media-eject"/>
+	<alias name="connect_no" typedir="actions" target="stock-disconnect"/>
+	<alias name="connect_established" typedir="actions" target="stock-connect"/>
+	<alias name="locationbar_erase" typedir="actions" target="stock-clear"/>
+	<alias name="history" typedir="actions" target="stock-history"/>
+	<alias name="bookmark" typedir="actions" target="stock-bookmarks"/>
+	<alias name="bookmark_add" typedir="actions" target="stock-bookmark-page"/>
+	<alias name="window_fullscreen" typedir="actions" target="stock-fullscreen"/>
+	<alias name="khtml_kget" typedir="actions" target="stock-download"/>
+</theme>

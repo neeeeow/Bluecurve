@@ -28,40 +28,71 @@ function main() {
 
     doc.selection = null; // clear selection
 
-    var layers = doc.layers;
-    for (var j = layers.length - 1; j >= 0; j--) {
-        var layer = layers[j];
+    function flatten(item) {
+        if (item.hidden || item.locked)
+            return;
 
-        if (!layer.visible || layer.locked)
-            continue;
+        doc.selection = null;
+        item.selected = true;
 
-        if (layer.pageItems && layer.pageItems.length > 0) {
-            var items = layer.pageItems;
-            for (var k = items.length - 1; k>=0; k--) {
-                var item = items[k];
-                if (item.hidden || item.locked)
-                    continue;
+        var actionName = "Flatten Transparency";
+        var actionSetName = "Default Actions";
 
-                if (item.typename === "GroupItem") { // Only apply flatten transparency to a group
-                    unlockAndCleanGroup(item);
+        try {
+            app.doScript(actionName, actionSetName);
+        } catch (error) {}
 
-                    doc.selection = null;
-                    item.selected = true;
+        doc.selection = null;
+    }
 
-                    var actionName = "Flatten Transparency";
-                    var actionSetName = "Default Actions";
+    function recurseItems(items) {
+        if (!items || items.length === 0)
+            return;
 
-                    try {
-                        app.doScript(actionName, actionSetName);
-                    } catch (error) {}
+        // Recurse through each item and apply the crop.
+        for (var b = items.length - 1; b>=0; b--) {
+            var item = items[b];
 
-                    doc.selection = null;
-                }   
+            if (item.hidden || item.locked)
+                continue;
+
+            if (item.typename === "GroupItem" && item.pageItems && item.pageItems.length > 0) { // we have a group
+                recurseItems(item.pageItems);
+                continue;
+            }
+
+            if (item.hasOwnProperty("blendingMode") && item.blendingMode !== BlendModes.NORMAL) {
+                var parent = item.parent;
+                if (parent.typename === "GroupItem") {
+                    unlockAndCleanGroup(parent);
+                    flatten(parent);
+                    return; // we return here since we've now flattened the parent of the items[], so we can move onwards...
+                }
             }
         }
     }
 
-    doc.selection = null;
+    function traverseLayers(layers) {
+        for (var c = layers.length - 1; c >= 0; c--) {
+            var layer = layers[c];
+
+            if (!layer.visible || layer.locked)
+                continue;
+
+            if (layer.layers && layer.layers.length > 0) {
+                traverseLayers(layer.layers);
+            }
+
+            if (layer.pageItems && layer.pageItems.length > 0) {
+                recurseItems(layer.pageItems);
+            }
+        }
+    }
+
+    // Execute the recursion
+    traverseLayers(doc.layers);
+
+    //doc.selection = null;
     app.userInteractionLevel = oldInteractionLevel;
 
     alert("Transparency flattened!");

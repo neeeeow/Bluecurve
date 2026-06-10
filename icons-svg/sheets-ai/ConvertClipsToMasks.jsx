@@ -14,6 +14,12 @@ function main() {
 
     doc.selection = null; // clear selection
 
+    // Define our white fill color
+    var whiteColor = new RGBColor();
+    whiteColor.red = 255;
+    whiteColor.green = 255;
+    whiteColor.blue = 255;
+
     function applyMask(clipGroup) {
         // First clean up the group and remove any hidden items
         function unlockAndCleanGroup(group) {
@@ -39,17 +45,11 @@ function main() {
         dummy.filled = false;
         dummy.stroked = false;
 
-        // Define our white fill color
-        var whiteColor = new RGBColor();
-        whiteColor.red = 255;
-        whiteColor.green = 255;
-        whiteColor.blue = 255;
-
         var clipPath = clipGroup.pageItems[0]; // It's pretty much always the first one, it's safe to assume this.
         clipPath.clipping = false;
 
         if (clipPath.filled === true || clipPath.typename === "CompoundPathItem") {
-            var origClipPath = clipPath.duplicate();
+            var origClipPath = clipPath.duplicate(); // If the clip path has a fill, we place a copy of it at the bottom
             origClipPath.stroked = false;
             origClipPath.move(clipGroup.pageItems[clipGroup.pageItems.length - 1], ElementPlacement.PLACEAFTER);
             if (origClipPath.typename === "CompoundPathItem") {
@@ -62,7 +62,7 @@ function main() {
         }
 
         if ((clipPath.stroked === true && clipPath.strokeWidth > 0) || clipPath.typename === "CompoundPathItem") {
-            var origClipStroke = clipPath.duplicate();
+            var origClipStroke = clipPath.duplicate(); // If the clip path has a stroke, we place a copy (without the fill) at the front
             origClipStroke.filled = false;
             origClipStroke.move(clipGroup, ElementPlacement.PLACEATBEGINNING);
             if (origClipStroke.typename === "CompoundPathItem") {
