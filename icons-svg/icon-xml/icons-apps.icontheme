@@ -1,0 +1,762 @@
+<theme name="Bluecurve" typedir="apps">
+   <source size="16" sizedir="16x16"/>
+   <source size="24" sizedir="24x24"/>
+   <source size="32" sizedir="32x32"/>
+   <source size="36" sizedir="36x36"/>
+   <source size="48" sizedir="48x48"/>
+   <source size="96" sizedir="96x96"/>
+  <layout>
+    <row>
+      <icon name="icon-accessories"/>
+      <icon name="icon-notepad"/>
+      <icon name="icon-calculator"/>
+      <icon name="icon-logbook"/>
+      <icon name="icon-documentation"/>
+      <icon name="icon-html"/>
+      <icon name="icon-httpd"/>
+      <icon name="icon-dns"/>
+      <icon name="icon-kickstart"/>
+      <icon name="icon-fileshare"/>
+      <icon name="icon-fileshare-smb"/>
+      <icon name="icon-connect-windows"/>
+      <icon name="icon-update"/>
+      <icon name="icon-security-global"/>
+      <icon name="icon-network"/>
+      <icon name="icon-security-keys"/>
+      <icon name="icon-globe"/>
+      <icon name="icon-network-address"/>
+      <icon name="icon-user-id"/>
+      <icon name="icon-user-keys"/>
+      <icon name="icon-clipboard"/>
+    </row><row>
+      <icon name="icon-web-browser"/>
+      <icon name="icon-instantmessage"/>
+      <icon name="icon-email"/>
+      <icon name="icon-office"/>
+      <icon name="icon-office-wordprocessor"/>
+      <icon name="icon-office-presentation"/>
+      <icon name="icon-office-spreadsheet"/>
+      <icon name="icon-games"/>
+      <icon name="icon-gfx"/>
+      <icon name="icon-gimp"/>
+      <icon name="icon-audio"/>
+      <icon name="icon-media"/>
+      <icon name="icon-terminal"/>
+      <icon name="icon-systemhealth"/>
+      <icon name="icon-terminal-linux"/>
+      <icon name="icon-system-settings"/>
+      <icon name="icon-system-configuration"/>
+      <icon name="icon-fonts"/>
+      <icon name="icon-system-preferences"/>
+      <icon name="icon-configuration"/>
+      <icon name="icon-development"/>
+    </row><row>
+      <icon name="icon-unknown"/>
+      <icon name="icon-help"/>
+      <icon name="icon-search"/>
+      <icon name="icon-security-lock"/>
+      <icon name="icon-server"/>
+      <icon name="icon-text-internet"/>
+      <icon name="icon-speaker"/>
+      <icon name="icon-security-badge"/>
+      <icon name="icon-keyboard"/>
+      <icon name="icon-datetime"/>
+      <icon name="icon-mouse"/>
+      <icon name="icon-computer"/>
+      <icon name="icon-monitor"/>
+      <icon name="icon-x-config"/>
+      <icon name="icon-xscreensaver"/>
+      <icon name="icon-system-security"/>
+      <icon name="icon-printer"/>
+      <icon name="icon-settings"/>
+      <icon name="icon-network"/>
+      <icon name="icon-network-firewall"/>
+      <icon name="icon-install-software"/>
+    </row><row>
+      <icon name="icon-user"/>
+      <icon name="icon-sound"/>
+      <icon name="icon-mixer"/>
+      <icon name="icon-launcher"/>
+      <icon name="icon-system-packages"/>
+      <icon name="icon-packages"/>
+      <icon name="icon-system-parts"/>
+      <icon name="icon-bug"/>
+      <icon name="icon-television"/>
+      <icon name="icon-eclipse"/>
+      <icon name="icon-filemanager"/>
+      <icon name="icon-network-systems"/>
+      <icon name="icon-system"/>
+      <icon name="icon-clock"/>
+      <icon name="icon-date"/>
+      <icon name="icon-runapp"/>
+      <icon name="icon-glade"/>
+      <icon name="icon-service"/>
+      <icon name="icon-memory-profile"/>
+      <icon name="icon-cd-rip"/>
+      <icon name="icon-config-edit"/>
+    </row><row>
+      <icon name="redhat-icon-panel-menu"/> <!-- this should be removed -->
+      <icon name="icon-panel"/>
+      <icon name="icon-desktop"/>
+      <icon name="icon-applications"/>
+      <icon name="icon-windowmanager"/>
+      <icon name="icon-update-applet"/>
+      <icon name="icon-vector-editor"/>
+      <icon name="icon-computer-ccenter"/>
+      <icon name="icon-camera"/>
+      <icon name="icon-db-user"/>
+      <icon name="icon-explore-tree"/>
+      <icon name="icon-themes"/>
+      <icon name="icon-keyboard-shortcuts"/>
+      <icon name="icon-background-picture"/>
+      <icon name="icon-computer-restart"/>
+      <icon name="icon-accessibility"/>
+      <icon name="icon-mime-types"/>
+      <icon name="icon-menus-toolbars"/>
+      <icon name="icon-resize-screen"/>
+      <icon name="icon-accessibility-technologies"/>
+      <icon name="icon-languages"/>
+    </row><row>
+      <icon name="icon-character-map"/>
+      <icon name="icon-disks"/>
+      <icon name="icon-traceroute"/>
+      <icon name="icon-groupchat"/>
+      <icon name="icon-network-wizard"/>
+      <icon name="icon-cd-burn"/>
+    </row>
+  </layout>
+
+  <!-- Aliases define extra icons via symlinks to those in the theme -->
+  <!--<alias typedir="emblems" name="disk" target="gtk-save"/>-->
+  <!-- Aliases for icons can also have display names -->
+	<alias name="redhat-accessories" target="icon-accessories"/>
+	
+	<alias name="gedit-icon" target="icon-notepad"/>
+		<alias name="org.gnome.gedit" target="icon-notepad"/>
+		<alias name="kedit" target="icon-notepad"/>
+		<alias name="kjots" target="icon-notepad"/>
+		<alias name="xedit" target="icon-notepad"/>
+		<alias name="accessories-text-editor" target="icon-notepad"/>
+		<alias name="emacs" target="icon-notepad"/>
+		<alias name="nota" target="icon-notepad"/>
+		<alias name="org.kde.nota" target="icon-notepad"/>
+		<alias name="org.xfce.mousepad" target="icon-notepad"/>
+
+	<alias name="gcalctool" target="icon-calculator"/>
+		<alias name="gnome-calc2" target="icon-calculator"/>
+		<alias name="gnome-calc3" target="icon-calculator"/>
+		<alias name="gnome-calculator" target="icon-calculator"/>
+		<alias name="org.gnome.Calculator" target="icon-calculator"/>
+		<alias name="kcalc" target="icon-calculator"/>
+		<alias name="accessories-calculator" target="icon-calculator"/>
+		<alias name="cantor" target="icon-calculator"/>
+		<alias name="applications-education-mathematics" target="icon-calculator"/>
+
+	<alias name="redhat-logviewer" target="icon-logbook"/>
+		<alias name="system-logviewer" target="icon-logbook"/>
+		<alias name="gnome-log" target="icon-logbook"/>
+		<alias name="kde-im-log-viewer" target="icon-logbook"/>
+		<alias name="logviewer" target="icon-logbook"/>
+		<alias name="logview" target="icon-logbook"/>
+		<alias name="mate-system-log" target="icon-logbook"/><alias name="control-center2" target="icon-configuration"/>
+		<alias name="preferences-log" target="icon-logbook"/>
+		<alias name="utilities-log-viewer" target="icon-logbook"/>
+
+	<alias name="gdict" target="icon-documentation"/>
+		<alias name="accessories-dictionary" target="icon-documentation"/>
+		<alias name="applications-education" target="icon-documentation"/>
+		<alias name="org.xfce.Dictionary" target="icon-documentation"/>
+		<alias name="org.gnome.Dictionary" target="icon-documentation"/>
+
+	<alias name="unused-html" target="icon-html"/>
+
+	<alias name="system-config-httpd" target="icon-httpd"/>
+		<alias name="preferences-system-network-server-web" target="icon-httpd"/>
+		<alias name="yast-http-server" target="icon-httpd"/>
+
+	<alias name="system-config-bind" target="icon-dns"/>
+		<alias name="preferences-system-network-server-dns" target="icon-dns"/>
+		<alias name="yast-dns-server" target="icon-dns"/>
+
+	<alias name="system-config-kickstart" target="icon-kickstart"/>
+
+	<alias name="nfs_mount" target="icon-fileshare"/>
+		<alias name="system-config-nfs" target="icon-fileshare"/>
+		<alias name="yast-nfs" target="icon-fileshare"/>
+		<alias name="preferences-system-network-share" target="icon-fileshare"/>
+		<alias name="preferences-system-network-sharing" target="icon-fileshare"/>
+		<alias name="document-share" typedir="actions" target="icon-fileshare"/>
+
+	<alias name="samba" target="icon-fileshare-smb"/>
+		<alias name="system-config-samba" target="icon-fileshare-smb"/>
+		<alias name="smb4k" target="icon-fileshare-smb"/>
+		<alias name="preferences-system-network-share-windows" target="icon-fileshare-smb"/>
+		<alias name="yast-samba-client" target="icon-fileshare-smb"/>
+
+	<alias name="tsclient" target="icon-connect-windows"/>
+		<alias name="krdc" target="icon-connect-windows"/>
+		<alias name="org.kde.krdc" target="icon-connect-windows"/>
+
+	<alias name="up2date" target="icon-update"/>
+		<alias name="system-software-update" target="icon-update"/>
+		<alias name="yast-update" target="icon-update"/>
+		<alias name="bqm-update" typedir="actions" target="icon-update"/>
+		<alias name="svn-update" typedir="actions" target="icon-update"/>
+		<alias name="kget" target="icon-update"/>
+		<alias name="org.kde.kget" target="icon-update"/>
+		<alias name="ktorrent" target="icon-update"/>
+		<alias name="org.kde.ktorrent" target="icon-update"/>
+
+	<alias name="user_auth" target="icon-security-global"/>
+		<alias name="network-vpn" target="icon-security-global"/>
+		<alias name="proton-vpn-logo" target="icon-security-global"/>
+		<alias name="preferences-system-network-vpn" target="icon-security-global"/>
+		<alias name="yast-vpn" target="icon-security-global"/>
+
+	<alias name="gnome-networktool" target="icon-network"/>
+		<alias name="gnome-modem" target="icon-network"/>
+		<alias name="network-manager" target="icon-network"/>
+		<alias name="package_network" target="icon-network"/>
+
+	<alias name="password" target="icon-security-keys"/>
+		<alias name="kwalletmanager" target="icon-security-keys"/>
+		<alias name="kwalletmanager2" target="icon-security-keys"/>
+		<alias name="org.kde.kwalletmanager5" target="icon-security-keys"/>
+
+	<alias name="system-config-language" target="icon-globe"/>
+		<alias name="preferences-desktop-locale" target="icon-globe"/>
+		<alias name="yast-language" target="icon-globe"/>
+
+	<alias name="preferences-system-network-ldap" target="icon-network-address"/>
+		<alias name="yast-ldap-kerberos" target="icon-network-address"/>
+
+	<alias name="login-photo" target="icon-user-id"/>
+		<alias name="system-config-users" target="icon-user-id"/>
+		<alias name="kuser" target="icon-user-id"/>
+		<alias name="preferences-system-users" target="icon-user-id"/>
+		<alias name="yast-users" target="icon-user-id"/>
+		<alias name="user-info" target="icon-user-id"/>
+
+	<alias name="preferences-desktop-user-password" target="icon-user-keys"/>
+
+	<alias name="klipper" target="icon-clipboard"/>
+	
+	<alias name="redhat-web-browser" target="icon-web-browser"/>
+		<alias name="internet-web-browser" target="icon-web-browser"/>
+		<alias name="mozilla" target="icon-web-browser"/>
+		<alias name="mozilla-icon" target="icon-web-browser"/>
+		<alias name="galeon" target="icon-web-browser"/>
+		<alias name="netscape" target="icon-web-browser"/>
+		<alias name="firefox" target="icon-web-browser"/>
+		<alias name="falkon" target="icon-web-browser"/>
+		<alias name="org.kde.falkon" target="icon-web-browser"/>
+		<alias name="konqueror" target="icon-web-browser"/>
+		<alias name="chromium-browser" target="icon-web-browser"/>
+		<alias name="rekonq" target="icon-web-browser"/>
+		<alias name="seamonkey" target="icon-web-browser"/>
+		<alias name="org.gnome.Epiphany" target="icon-web-browser"/>
+
+	<alias name="gaim" target="icon-instantmessage"/>
+		<alias name="pidgin" target="icon-instantmessage"/>
+		<alias name="kopete" target="icon-instantmessage"/>
+		<alias name="org.kde.kopete" target="icon-instantmessage"/>
+		<alias name="telepathy-kde" target="icon-instantmessage"/>
+		<alias name="mate-notification-properties" target="icon-instantmessage"/>
+		<alias name="mate-panel-notification-area" target="icon-instantmessage"/>
+		<alias name="preferences-desktop-notification" target="icon-instantmessage"/>
+		<alias name="preferences-desktop-notification-bell" target="icon-instantmessage"/>
+	
+	<alias name="redhat-email" target="icon-email"/>
+		<alias name="evolution" target="icon-email"/>
+		<alias name="email" target="icon-email"/>
+		<alias name="mozilla-compose-icon" target="icon-email"/>
+		<alias name="kmail" target="icon-email"/>
+		<alias name="internet-mail" target="icon-email"/>
+		<alias name="mail-client" target="icon-email"/>
+		<alias name="thunderbird" target="icon-email"/>
+		<alias name="org.xfce.mailreader" target="icon-email"/>
+		<alias name="claws-mail" target="icon-email"/>
+		<alias name="seamonkey-mail" target="icon-email"/>
+
+	<alias name="redhat-office" target="icon-office"/>
+		<alias name="applications-office" target="icon-office"/>
+		<alias name="libreoffice-base" target="icon-office"/>
+
+	<alias name="redhat-word-processor" target="icon-office-wordprocessor"/>
+		<alias name="gnome-word" target="icon-office-wordprocessor"/>
+		<alias name="kword" target="icon-office-wordprocessor"/>
+		<alias name="kwrite" target="icon-office-wordprocessor"/>
+		<alias name="org.kde.kwrite" target="icon-office-wordprocessor"/>
+		<alias name="kate" target="icon-office-wordprocessor"/>
+		<alias name="libreoffice-writer" target="icon-office-wordprocessor"/>
+		<alias name="words" target="icon-office-wordprocessor"/>
+		<alias name="calligrawords" target="icon-office-wordprocessor"/>
+		<alias name="kile" target="icon-office-wordprocessor"/>
+		<alias name="org.kde.kile" target="icon-office-wordprocessor"/>
+
+	<alias name="redhat-presentations" target="icon-office-presentation"/>
+		<alias name="kpresenter" target="icon-office-presentation"/>
+		<alias name="libreoffice-impress" target="icon-office-presentation"/>
+		<alias name="stage" target="icon-office-presentation"/>
+		<alias name="calligrastage" target="icon-office-presentation"/>
+
+	<alias name="redhat-spreadsheet" target="icon-office-spreadsheet"/>
+		<alias name="kspread" target="icon-office-spreadsheet"/>
+		<alias name="kchart" target="icon-office-spreadsheet"/>
+		<alias name="libreoffice-calc" target="icon-office-spreadsheet"/>
+		<alias name="sheets" target="icon-office-spreadsheet"/>
+		<alias name="calligrasheets" target="icon-office-spreadsheet"/>
+		<alias name="org.gnumeric.gnumeric" target="icon-office-spreadsheet"/>
+
+	<alias name="redhat-games" target="icon-games"/>
+		<alias name="gnome-joystick" target="icon-games"/>
+		<alias name="packages_games" target="icon-games"/>
+		<alias name="applications-games" target="icon-games"/>
+
+	<alias name="redhat-graphics" target="icon-gfx"/>
+		<alias name="kpaint" target="icon-gfx"/>
+		<alias name="kolourpaint" target="icon-gfx"/>
+		<alias name="org.kde.kolourpaint" target="icon-gfx"/>
+		<alias name="applications-graphics" target="icon-gfx"/>
+		<alias name="gnome-graphics" target="icon-gfx"/>
+
+	<alias name="gimp" target="icon-gimp"/>
+		<alias name="gnome-gimp" target="icon-gimp"/>
+
+	<alias name="rhythmbox" target="icon-audio"/>
+		<alias name="org.gnome.Rhythmbox3" target="icon-audio"/>
+		<alias name="xmms" target="icon-audio"/>
+		<alias name="qmmp" target="icon-audio"/>
+		<alias name="kaboodle" target="icon-audio"/>
+		<alias name="amarok" target="icon-audio"/>
+		<alias name="org.kde.amarok" target="icon-audio"/>
+		<alias name="elisa" target="icon-audio"/>
+		<alias name="org.kde.elisa" target="icon-audio"/>
+		<alias name="juk" target="icon-audio"/>
+		<alias name="org.kde.juk" target="icon-audio"/>
+
+	<alias name="redhat-sound_video" target="icon-media"/>
+		<alias name="gnome-multimedia" target="icon-media"/>
+		<alias name="applications-multimedia" target="icon-media"/>
+		<alias name="multimedia" target="icon-media"/>
+		<alias name="xine" target="icon-media"/>
+		<alias name="xine_48x48" target="icon-media"/>
+		<alias name="kmplayer" target="icon-media"/>
+		<alias name="org.xfce.parole" target="icon-media"/>
+		<alias name="plasma-media-center" target="icon-media"/>
+		<alias name="dragonplayer" target="icon-media"/>
+	
+	<alias name="gnome-terminal" target="icon-terminal"/>
+		<alias name="gnome-color-xterm" target="icon-terminal"/>
+		<alias name="gnome-xterm" target="icon-terminal"/>
+		<alias name="gnome-eterm" target="icon-terminal"/>
+		<alias name="gnome-gemvt" target="icon-terminal"/>
+		<alias name="org.gnome.Terminal" target="icon-terminal"/>
+		<alias name="terminal" target="icon-terminal"/>
+		<alias name="utilities-terminal" target="icon-terminal"/>
+		<alias name="konsole" target="icon-terminal"/>
+		<alias name="org.xfce.terminal" target="icon-terminal"/>
+		<alias name="org.xfce.terminalemulator" target="icon-terminal"/>
+		<alias name="qterminal" target="icon-terminal"/>
+	
+	<alias name="gnome-monitor" target="icon-systemhealth"/>
+		<alias name="procman" target="icon-systemhealth"/>
+		<alias name="org.xfce.genmon" target="icon-systemhealth"/>
+		<alias name="org.xfce.taskmanager" target="icon-systemhealth"/>
+		<alias name="utilities-system-monitor" target="icon-systemhealth"/>
+	
+	<alias name="gnome-term-linux" target="icon-terminal-linux"/>
+	<alias name="gnome-term-linux2" target="icon-terminal-linux"/>
+
+	<alias name="redhat-preferences" target="icon-system-settings"/>
+		<alias name="gnome-desktop-config" target="icon-system-settings"/>
+		<alias name="kcontrol" target="icon-system-settings"/>
+		<alias name="preferences-desktop" target="icon-system-settings"/>
+
+	<alias name="redhat-system_settings" target="icon-system-configuration"/>
+		<alias name="gnome-system-config" target="icon-system-configuration"/>
+		<alias name="preferences-system" target="icon-system-configuration"/>
+		<alias name="yast-sysconfig" target="icon-system-configuration"/>
+
+	<alias name="font-capplet" target="icon-fonts"/>
+		<alias name="gnome-settings-font" target="icon-fonts"/>
+		<alias name="fonts" target="icon-fonts"/>
+		<alias name="kcmfontinst" target="icon-fonts"/>
+		<alias name="preferences-desktop-font" target="icon-fonts"/>
+		<alias name="yast-fonts" target="icon-fonts"/>
+		<alias name="kfontview" target="icon-fonts"/>
+	
+	<alias name="gnome-user-interface" target="icon-system-preferences"/>
+		<alias name="package_settings" target="icon-system-preferences"/>
+		<alias name="systemsettings" target="icon-system-preferences"/>
+		<alias name="org.xfce.settings.manager" target="icon-system-preferences"/>
+	
+	<alias name="redhat-system_tools" target="icon-configuration"/>
+		<alias name="redhat-tools" target="icon-configuration"/>
+		<alias name="gnome-settings" target="icon-configuration"/>
+		<alias name="control-center2" target="icon-configuration"/>
+		<alias name="applications-utilities" target="icon-configuration"/>
+
+	<alias name="redhat-programming" target="icon-development"/>
+		<alias name="gnome-devel" target="icon-development"/>
+		<alias name="kdevelop" target="icon-development"/>
+		<alias name="org.kde.kdevelop" target="icon-development"/>
+		<alias name="package_utilites" target="icon-development"/>
+		<alias name="applications-development" target="icon-development"/>
+
+	<alias name="gnome-unknown" target="icon-unknown"/>
+	
+	<alias name="gnome-help" target="icon-help"/>
+		<alias name="khelpcenter" target="icon-help"/>
+		<alias name="help-browser" target="icon-help"/>
+		<alias name="system-help" target="icon-help"/>
+		<alias name="org.gnome.Yelp" target="icon-help"/>
+
+	<alias name="gnome-searchtool" target="icon-search"/>
+		<alias name="kfind" target="icon-search"/>
+		<alias name="org.kde.kfind" target="icon-search"/>
+		<alias name="kappfinder" target="icon-search"/>
+		<alias name="org.xfce.appfinder" target="icon-search"/>
+		<alias name="plasma-search" target="icon-search"/>
+		<alias name="preferences-desktop-search" target="icon-search"/>
+		<alias name="baloo" target="icon-search"/>
+		<alias name="kmag" target="icon-search"/>
+
+	<alias name="gnome-lockscreen" target="icon-security-lock"/>
+		<alias name="passwd" target="icon-security-lock"/>
+		<alias name="system-lock-screen" target="icon-security-lock"/>
+
+	<alias name="redhat-server_settings" target="icon-server"/>
+		<alias name="gnome-server-config" target="icon-server"/>
+		<alias name="preferences-system-network-server" target="icon-server"/>
+		<alias name="network-server" typedir="places" target="icon-server"/>
+		<alias name="server" typedir="places" target="icon-server"/>
+
+	<alias name="unused-text-internet" target="icon-text-internet"/>
+
+	<alias name="gnome-audio2" target="icon-speaker"/>
+		<alias name="noatun" target="icon-speaker"/>
+		<alias name="konqsidebar_mediaplayer" target="icon-speaker"/>
+
+	<alias name="gnome-lokkit-logo" target="icon-security-badge"/>
+		<alias name="root-password" target="icon-security-badge"/>
+		<alias name="system-config-rootpassword" target="icon-security-badge"/>
+		<alias name="preferences-security-kerberos" target="icon-security-badge"/>
+	
+	<alias name="gnome-cckeyboard" target="icon-keyboard"/>
+		<alias name="system-config-keyboard" target="icon-keyboard"/>
+		<alias name="gnome-dev-keyboard" target="icon-keyboard"/>
+		<alias name="accessibility-keyboard-capplet" target="icon-keyboard"/>
+		<alias name="keyboard-capplet" target="icon-keyboard"/>
+		<alias name="keyboard" target="icon-keyboard"/>
+		<alias name="keyboard_layout" target="icon-keyboard"/>
+		<alias name="key_bindings" target="icon-keyboard"/>
+		<alias name="kcharselect" target="icon-keyboard"/>
+		<alias name="preferences-keyboard" target="icon-keyboard"/>
+		<alias name="org.xfce.settings.keyboard" target="icon-keyboard"/>
+		<alias name="yast-keyboard" target="icon-keyboard"/>
+	
+	<alias name="gnome-set-time" target="icon-datetime"/>
+		<alias name="preferences-system-time" target="icon-datetime"/>
+		<alias name="yast-timezone" target="icon-datetime"/>
+
+	<alias name="gnome-mouse" target="icon-mouse"/>
+		<alias name="gnome-dev-mouse-optical" target="icon-mouse"/>
+		<alias name="gnome-dev-mouse-ball" target="icon-mouse"/>
+		<alias name="mouse-capplet" target="icon-mouse"/>
+		<alias name="mouse" target="icon-mouse"/>
+		<alias name="input-mouse" target="icon-mouse"/>
+		<alias name="kmousetool" target="icon-mouse"/>
+		<alias name="org.xfce.settings.mouse" target="icon-mouse"/>
+		<alias name="preferences-desktop-mouse" target="icon-mouse"/>
+	
+	<alias name="gnome-system" target="icon-computer"/>
+		<alias name="kcmsystem" target="icon-computer"/>
+		<alias name="gnome-fs-client" target="icon-computer" typedir="places"/>
+		<alias name="applications-system" target="icon-computer" typedir="places"/>
+
+	<alias name="monitor" target="icon-monitor"/>
+
+	<alias name="system-config-xfree" target="icon-x-config"/>
+		<alias name="xorg" target="icon-x-config"/>
+
+	<alias name="xscreensaver" target="icon-xscreensaver"/>
+		<alias name="org.xfce.ScreenSaver" target="icon-xscreensaver"/>
+		<alias name="preferences-desktop-screensaver" target="icon-xscreensaver"/>
+
+	<alias name="gdm" target="icon-system-security"/>
+		<alias name="preferences-security" target="icon-system-security"/>
+		<alias name="yast-security" target="icon-system-security"/>
+	
+	<alias name="cupsprinter" target="icon-printer"/>
+		<alias name="switch-printer" target="icon-printer"/>
+		<alias name="kljettool" target="icon-printer"/>
+		<alias name="klpq" target="icon-printer"/>
+		<alias name="printer" target="icon-printer"/>
+		<alias name="printer" typedir="devices" target="icon-printer"/>
+		<alias name="preferences-devices-printer" target="icon-printer"/>
+		<alias name="yast-printer" target="icon-printer"/>
+
+	<alias name="preferences-other" target="icon-settings"/>
+
+	<alias name="redhat-internet" target="icon-network"/>
+		<alias name="gnome-globe" target="icon-network"/>
+		<alias name="neat-control" target="icon-network"/>
+		<alias name="kppp" target="icon-network"/>
+		<alias name="package_network" target="icon-network"/>
+		<alias name="network-manager" target="icon-network"/>
+
+	<alias name="system-config-securitylevel" target="icon-network-firewall"/>
+		<alias name="firewall-config" target="icon-network-firewall"/>
+		<alias name="firewall-applet" target="icon-network-firewall"/>
+		<alias name="preferences-security-firewall" target="icon-network-firewall"/>
+		<alias name="yast-firewall" target="icon-network-firewall"/>
+
+	<alias name="default-applications-capplet" target="icon-install-software"/>
+		<alias name="gnome-settings-default-applications" target="icon-install-software"/>
+		<alias name="package_applications-applications-capplet" target="icon-install-software"/>
+		<alias name="500_setup" target="icon-install-software"/>
+		<alias name="org.xfce.settings.default-applications" target="icon-install-software"/>
+		<alias name="preferences-desktop-default-applications" target="icon-install-software"/>
+		<alias name="system-software-install" target="icon-install-software"/>
+		<alias name="plasmadiscover" target="icon-install-software"/>
+
+	<alias name="personal" target="icon-user"/>
+		<alias name="user_icon" target="icon-user"/>
+		<alias name="preferences-desktop-user" target="icon-user"/>
+
+	<alias name="gnome-mixer" target="icon-sound"/>
+		<alias name="system-config-soundcard" target="icon-sound"/>
+		<alias name="gnome-settings-sound" target="icon-sound"/>
+		<alias name="gnome-mixer-applet" target="icon-sound"/>
+		<alias name="sound-capplet" target="icon-sound"/>
+		<alias name="kcmmidi" target="icon-sound"/>
+		<alias name="preferences-desktop-sound" target="icon-sound"/>
+		<alias name="yast-sound" target="icon-sound"/>
+
+	<alias name="gnome-grecord" target="icon-mixer"/>
+		<alias name="kmix" target="icon-mixer"/>
+
+	<alias name="launcher-program" target="icon-launcher"/>
+		<alias name="applications-science" target="icon-launcher"/>
+
+	<alias name="file-roller" target="icon-system-packages"/>
+		<alias name="calamares" target="icon-system-packages"/>
+
+	<alias name="system-config-packages" target="icon-packages"/>
+		<alias name="apper" target="icon-packages"/>
+		<alias name="dnfdragora" target="icon-packages"/>
+	
+	<alias name="gnome-ccperiph" target="icon-system-parts"/>
+		<alias name="hwbrowser" target="icon-system-parts"/>
+		<alias name="hwinfo" target="icon-system-parts"/>
+		<alias name="yast-hardware-group" target="icon-system-parts"/>
+		<alias name="yast-hwinfo" target="icon-system-parts"/>
+		
+	<alias name="bug-buddy" target="icon-bug"/>
+		<alias name="tools-report-bug" typedir="actions" target="icon-bug"/>
+
+	<alias name="tvtime" target="icon-television"/>
+		<alias name="xawtv" target="icon-television"/>
+
+	<alias name="eclipse" target="icon-eclipse"/>
+
+	<alias name="redhat-filemanager" target="icon-filemanager"/>
+		<alias name="file-manager" target="icon-filemanager"/>
+		<alias name="kfm" target="icon-filemanager"/>
+		<alias name="system-file-manager" target="icon-filemanager"/>
+		<alias name="org.kde.dolphin" target="icon-filemanager"/>
+		<alias name="pcmanfm-qt" target="icon-filemanager"/>
+		<alias name="org.xfce.thunar" target="icon-filemanager"/>
+		<alias name="org.xfce.filemanager" target="icon-filemanager"/>
+		<alias name="caja" target="icon-filemanager"/>
+		<alias name="org.gnome.Nautilus" target="icon-filemanager"/>
+
+	<alias name="redhat-system-group" target="icon-network-systems"/>
+		<alias name="proxy" target="icon-network-systems"/>
+		<alias name="gnome-fs-network" typedir="places" target="icon-network-systems"/>
+		<alias name="gtk-network" typedir="places" target="icon-network-systems"/>
+		<alias name="network-workgroup" typedir="places" target="icon-network-systems"/>
+
+	<alias name="redhat-network-server" target="icon-system"/>
+
+	<alias name="gnome-clock" target="icon-clock"/>
+		<alias name="clock" target="icon-clock"/>
+		<alias name="mate-panel-clock" target="icon-clock"/>
+		<alias name="org.xfce.panel.clock" target="icon-clock"/>
+	
+	<alias name="gnome-calendar" target="icon-date"/>
+		<alias name="org.gnome.Calendar" target="icon-date"/>
+		<alias name="system-config-date" target="icon-date"/>
+		<alias name="date" target="icon-date"/>
+		<alias name="office-calendar" target="icon-date"/>
+		<alias name="calindori" target="icon-date"/>
+		<alias name="korganizer" target="icon-date"/>
+
+	<alias name="gnome-run" target="icon-runapp"/>
+		<alias name="shell-output-logo" target="icon-runapp"/>
+		<alias name="mate-run" target="icon-runapp"/>
+		<alias name="system-run" target="icon-runapp"/>
+		<alias name="krunner" target="icon-runapp"/>
+
+	<alias name="glade-2" target="icon-glade"/>
+		<alias name="org.gnome.Glade" target="icon-glade"/>
+		<alias name="designer-qt5" target="icon-glade"/>
+		<alias name="designer-qt6" target="icon-glade"/>
+		<alias name="ar.xjuan.Cambalache" target="icon-glade"/>
+
+	<alias name="system-config-services" target="icon-service"/>
+		<alias name="preferences-system-services" target="icon-service"/>
+		<alias name="yast-services-manager" target="icon-service"/>
+      
+	<alias name="memprof" target="icon-memory-profile"/>
+		<alias name="preferences-devices-cpu" target="icon-memory-profile"/>
+		<alias name="mate-cpu-frequency-applet" target="icon-memory-profile"/>
+	
+	<alias name="sound-juicer" target="icon-cd-rip"/>
+		<alias name="org.gnome.SoundJuicer" target="icon-cd-rip"/>
+		<alias name="grip" target="icon-cd-rip"/>
+		<alias name="org.kde.audex" target="icon-cd-rip"/>
+		
+	<alias name="gconf-editor" target="icon-config-edit"/>
+		<alias name="ca.desrt.dconf-editor" target="icon-config-edit"/>
+
+	<alias name="gnome-main-menu" target="redhat-icon-panel-menu"/>
+		<alias name="kmenu" target="redhat-icon-panel-menu"/>
+		<alias name="icon-panel-menu" target="redhat-icon-panel-menu"/>
+		<alias name="org.xfce.panel.whiskermenu" target="redhat-icon-panel-menu"/>
+	
+	<alias name="gnome-panel" target="icon-panel"/>
+		<alias name="mate-panel" target="icon-panel"/>
+		<alias name="org.xfce.panel" target="icon-panel"/>
+		<alias name="org.xfce.PanelProfiles" target="icon-panel"/>
+		<alias name="alacarte" target="icon-panel"/>
+		<alias name="mozo" target="icon-panel"/>
+		<alias name="preferences-desktop-menu-edit" target="icon-panel"/>
+
+	<alias name="gnome-ccdesktop" target="icon-desktop"/>
+		<alias name="gnome-show-desktop" target="icon-desktop"/>
+		<alias name="gnome-fs-desktop" target="icon-desktop" typedir="places"/>
+		<alias name="desktop" target="icon-desktop"/>
+		<alias name="switchdesk" target="icon-desktop"/>
+		<alias name="org.xfce.panel.showdesktop" target="icon-desktop"/>
+	
+	<alias name="gnome-session" target="icon-applications"/>
+		<alias name="package_system" target="icon-applications"/>
+		<alias name="winprops" target="icon-applications"/>
+		<alias name="mate-session-properties" target="icon-applications"/>
+		<alias name="applications-other" target="icon-applications"/>
+
+	<alias name="applet-busy" target="icon-update-applet"/>
+
+	<alias name="gnome-ccwindowmanager" target="icon-windowmanager"/>
+		<alias name="gnome-window-manager" target="icon-windowmanager"/>
+		<alias name="gnome-windows" target="icon-windowmanager"/>
+		<alias name="metacity-properties" target="icon-windowmanager"/>
+		<alias name="window-capplet" target="icon-windowmanager"/>
+		<alias name="kcmkwm" target="icon-windowmanager"/>
+		<alias name="kwin" target="icon-windowmanager"/>
+		<alias name="windowlist" target="icon-windowmanager"/>
+		<alias name="preferences-system-windows" target="icon-windowmanager"/>
+		<alias name="mate-panel-window-list" target="icon-windowmanager"/>
+		<alias name="mate-panel-window-menu" target="icon-windowmanager"/>
+		<alias name="org.xfce.panel.windowmenu" target="icon-windowmanager"/>
+		<alias name="org.xfce.xfwm4" target="icon-windowmanager"/>
+		<alias name="org.xfce.xfwm4-tweaks" target="icon-windowmanager"/>
+
+	<alias name="inkscape" target="icon-vector-editor"/>
+		<alias name="org.inkscape.Inkscape" target="icon-vector-editor"/>
+		<alias name="libreoffice-draw" target="icon-vector-editor"/>
+		<alias name="calligrakarbon" target="icon-vector-editor"/>
+		<alias name="karbon" target="icon-vector-editor"/>
+
+	<alias name="unused-computer-ccenter" target="icon-computer-ccenter"/>
+
+	<alias name="camera" target="icon-camera"/>
+		<alias name="camera-photo" target="icon-camera"/>
+		<alias name="digikam" target="icon-camera"/>
+		<alias name="org.kde.digikam" target="icon-camera"/>
+		<alias name="kamoso" target="icon-camera"/>
+		<alias name="org.kde.kamoso" target="icon-camera"/>
+
+	<alias name="unused-db-user" target="icon-db-user"/>
+
+	<alias name="preferences-devices-tree" target="icon-explore-tree"/>
+		<alias name="yast-device-tree" target="icon-explore-tree"/>
+
+	<alias name="gnome-settings-theme" target="icon-themes"/>
+		<alias name="preferences-desktop-plasma-theme" target="icon-themes"/>
+		<alias name="preferences-desktop-theme" target="icon-themes"/>
+
+	<alias name="gnome-settings-keybindings" target="icon-keyboard-shortcuts"/>
+		<alias name="preferences-desktop-keyboard-shortcut" target="icon-keyboard-shortcuts"/>
+
+	<alias name="gnome-settings-background" target="icon-background-picture"/>
+		<alias name="preferences-desktop-wallpaper" target="icon-background-picture"/>
+		<alias name="viewimage" typedir="actions" target="icon-background-picture"/>
+
+	<alias name="system-config-boot" target="icon-computer-restart"/>
+		<alias name="preferences-system-startup" target="icon-computer-restart"/>
+		<alias name="yast-bootloader" target="icon-computer-restart"/>
+
+	<alias name="accessibility-directory" target="icon-accessibility"/>
+		<alias name="org.xfce.settings.accessibility" target="icon-accessibility"/>
+		<alias name="preferences-desktop-accessibility" target="icon-accessibility"/>
+
+	<alias name="gnome-ccmime" target="icon-mime-types"/>
+		<alias name="preferences-desktop-filetype-association" target="icon-mime-types"/>
+
+	<alias name="gnome-settings-ui-behavior" target="icon-menus-toolbars"/>
+
+	<alias name="display-capplet" target="icon-resize-screen"/>
+		<alias name="display" target="icon-resize-screen"/>
+		<alias name="preferences-desktop-display" target="icon-resize-screen"/>
+		<alias name="mate-panel-workspace-switcher" target="icon-resize-screen"/>
+		<alias name="mate-preferences-desktop-display" target="icon-resize-screen"/>
+		<alias name="org.xfce.panel.pager" target="icon-resize-screen"/>
+		<alias name="org.xfce.settings.display" target="icon-resize-screen"/>
+		<alias name="org.xfce.workspaces" target="icon-resize-screen"/>
+
+	<alias name="gnome-settings-accessibility-technologies" target="icon-accessibility-technologies"/>
+		<alias name="kaccess" target="icon-accessibility-technologies"/>
+		<alias name="kmouth" target="icon-accessibility-technologies"/>
+
+	<alias name="applications-education-language" target="icon-languages"/>
+		<alias name="crow-translate" target="icon-languages"/>
+		<alias name="org.kde.CrowTranslate" target="icon-languages"/>
+		<alias name="lokalize" target="icon-languages"/>
+		<alias name="org.kde.lokalize" target="icon-languages"/>
+		<alias name="languages" typedir="actions" target="icon-languages"/>
+		<alias name="language-chooser" typedir="actions" target="icon-languages"/>
+		<alias name="set-language" typedir="actions" target="icon-languages"/>
+		<alias name="amarok_change_language" typedir="actions" target="icon-languages"/>
+		<alias name="translate" typedir="actions" target="icon-languages"/>
+
+	<alias name="gucharmap" target="icon-character-map"/>
+		<alias name="accessories-character-map" target="icon-character-map"/>
+
+	<alias name="disks" target="icon-disks"/>
+		<alias name="preferences-system-disks" target="icon-disks"/>
+		<alias name="yast-disk" target="icon-disks"/>
+		<alias name="org.gnome.DiskUtility" target="icon-disks"/>
+
+	<alias name="mtr_icon" target="icon-traceroute"/>
+
+	<alias name="xchat" target="icon-groupchat"/>
+		<alias name="io.github.Hexchat" target="icon-groupchat"/>
+		<alias name="choqok" target="icon-groupchat"/>
+		<alias name="discord" target="icon-groupchat"/>
+		<alias name="konversation" target="icon-groupchat"/>
+		<alias name="org.kde.konversation" target="icon-groupchat"/>
+		<alias name="org.kde.neochat" target="icon-instantmessage"/>
+
+	<alias name="neat" target="icon-network-wizard"/>
+		<alias name="preferences-system-network" target="icon-network-wizard"/>
+		<alias name="yast-network-group" target="icon-network-wizard"/>
+		<alias name="mate-network-properties" target="icon-network-wizard"/>
+
+	<alias name="gtoaster" target="icon-cd-burn"/>
+		<alias name="brasero" target="icon-cd-burn"/>
+		<alias name="org.xfce.xfburn" target="icon-cd-burn"/>
+		<alias name="k3b" target="icon-cd-burn"/>
+</theme>
