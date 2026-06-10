@@ -206,9 +206,11 @@
 		<alias name="org.kde.kget" target="icon-update"/>
 		<alias name="ktorrent" target="icon-update"/>
 		<alias name="org.kde.ktorrent" target="icon-update"/>
+		<alias name="cloud-download" typedir="actions" target="icon-update"/>
 
 	<alias name="user_auth" target="icon-security-global"/>
 		<alias name="network-vpn" target="icon-security-global"/>
+		<alias name="network-vpn" typedir="devices" target="icon-security-global"/>
 		<alias name="proton-vpn-logo" target="icon-security-global"/>
 		<alias name="preferences-system-network-vpn" target="icon-security-global"/>
 		<alias name="yast-vpn" target="icon-security-global"/>
@@ -217,6 +219,7 @@
 		<alias name="gnome-modem" target="icon-network"/>
 		<alias name="network-manager" target="icon-network"/>
 		<alias name="package_network" target="icon-network"/>
+		<alias name="network-wired" typedir="devices" target="icon-network"/>
 
 	<alias name="password" target="icon-security-keys"/>
 		<alias name="kwalletmanager" target="icon-security-keys"/>
@@ -421,6 +424,7 @@
 		<alias name="preferences-desktop-search" target="icon-search"/>
 		<alias name="baloo" target="icon-search"/>
 		<alias name="kmag" target="icon-search"/>
+		<alias name="system-search" typedir="actions" target="icon-search"/>
 
 	<alias name="gnome-lockscreen" target="icon-security-lock"/>
 		<alias name="passwd" target="icon-security-lock"/>
@@ -437,6 +441,7 @@
 	<alias name="gnome-audio2" target="icon-speaker"/>
 		<alias name="noatun" target="icon-speaker"/>
 		<alias name="konqsidebar_mediaplayer" target="icon-speaker"/>
+		<alias name="audio-speakers" typedir="devices" target="icon-speaker"/>
 
 	<alias name="gnome-lokkit-logo" target="icon-security-badge"/>
 		<alias name="root-password" target="icon-security-badge"/>
@@ -455,6 +460,7 @@
 		<alias name="preferences-keyboard" target="icon-keyboard"/>
 		<alias name="org.xfce.settings.keyboard" target="icon-keyboard"/>
 		<alias name="yast-keyboard" target="icon-keyboard"/>
+		<alias name="input-keyboard" typedir="devices" target="icon-keyboard"/>
 	
 	<alias name="gnome-set-time" target="icon-datetime"/>
 		<alias name="preferences-system-time" target="icon-datetime"/>
@@ -469,13 +475,16 @@
 		<alias name="kmousetool" target="icon-mouse"/>
 		<alias name="org.xfce.settings.mouse" target="icon-mouse"/>
 		<alias name="preferences-desktop-mouse" target="icon-mouse"/>
+		<alias name="input-mouse" typedir="devices" target="icon-mouse"/>
 	
 	<alias name="gnome-system" target="icon-computer"/>
 		<alias name="kcmsystem" target="icon-computer"/>
 		<alias name="gnome-fs-client" target="icon-computer" typedir="places"/>
 		<alias name="applications-system" target="icon-computer" typedir="places"/>
+		<alias name="computer" typedir="devices" target="icon-computer"/>
 
 	<alias name="monitor" target="icon-monitor"/>
+		<alias name="monitor" typedir="devices" target="icon-monitor"/>
 
 	<alias name="system-config-xfree" target="icon-x-config"/>
 		<alias name="xorg" target="icon-x-config"/>
@@ -494,6 +503,8 @@
 		<alias name="klpq" target="icon-printer"/>
 		<alias name="printer" target="icon-printer"/>
 		<alias name="printer" typedir="devices" target="icon-printer"/>
+		<alias name="cups" typedir="devices" target="icon-printer"/>
+		<alias name="cupsprinter" typedir="devices" target="icon-printer"/>
 		<alias name="preferences-devices-printer" target="icon-printer"/>
 		<alias name="yast-printer" target="icon-printer"/>
 
@@ -539,6 +550,8 @@
 
 	<alias name="launcher-program" target="icon-launcher"/>
 		<alias name="applications-science" target="icon-launcher"/>
+		<alias name="mate-panel-launcher" target="icon-launcher"/>
+		<alias name="org.xfce.panel.launcher" target="icon-launcher"/>
 
 	<alias name="file-roller" target="icon-system-packages"/>
 		<alias name="calamares" target="icon-system-packages"/>
@@ -617,6 +630,7 @@
 		<alias name="org.gnome.SoundJuicer" target="icon-cd-rip"/>
 		<alias name="grip" target="icon-cd-rip"/>
 		<alias name="org.kde.audex" target="icon-cd-rip"/>
+		<alias name="tools-rip-audio-cd" typedir="actions" target="icon-cd-rip"/>
 		
 	<alias name="gconf-editor" target="icon-config-edit"/>
 		<alias name="ca.desrt.dconf-editor" target="icon-config-edit"/>
@@ -646,6 +660,7 @@
 		<alias name="winprops" target="icon-applications"/>
 		<alias name="mate-session-properties" target="icon-applications"/>
 		<alias name="applications-other" target="icon-applications"/>
+		<alias name="application-menu" typedir="actions" target="icon-applications"/>
 
 	<alias name="applet-busy" target="icon-update-applet"/>
 
@@ -674,6 +689,8 @@
 
 	<alias name="camera" target="icon-camera"/>
 		<alias name="camera-photo" target="icon-camera"/>
+		<alias name="camera-photo" typedir="devices" target="icon-camera"/>
+		<alias name="camera-web" typedir="devices" target="icon-camera"/>
 		<alias name="digikam" target="icon-camera"/>
 		<alias name="org.kde.digikam" target="icon-camera"/>
 		<alias name="kamoso" target="icon-camera"/>
@@ -741,6 +758,7 @@
 		<alias name="org.gnome.DiskUtility" target="icon-disks"/>
 
 	<alias name="mtr_icon" target="icon-traceroute"/>
+		<alias name="network-wireless" typedir="devices" target="icon-traceroute"/>
 
 	<alias name="xchat" target="icon-groupchat"/>
 		<alias name="io.github.Hexchat" target="icon-groupchat"/>
@@ -759,4 +777,8 @@
 		<alias name="brasero" target="icon-cd-burn"/>
 		<alias name="org.xfce.xfburn" target="icon-cd-burn"/>
 		<alias name="k3b" target="icon-cd-burn"/>
+		<alias name="tools-media-optical-burn" typedir="actions" target="icon-cd-burn"/>
+		<alias name="tools-media-optical-burn-image" typedir="actions" target="icon-cd-burn"/>
+		<alias name="media-write-cd" typedir="devices" target="icon-cd-burn"/>
+		<alias name="media-write-dvd" typedir="devices" target="icon-cd-burn"/>
 </theme>

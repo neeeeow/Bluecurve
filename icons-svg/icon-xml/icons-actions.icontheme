@@ -70,7 +70,7 @@
       <icon name="stock-media-rec"/>
       <icon name="stock-media-next"/>
       <icon name="stock-media-ffwd"/>
-      <icon name="stock-foo"/>
+      <icon name="stock-book-open"/>
       <icon name="stock-new-window"/>
       <icon name="stock-cdrom"/>
       <icon name="stock-convert"/>
@@ -111,7 +111,7 @@
       <icon name="stock-connect"/>
       <icon name="stock-panel-drawer"/>
       <icon name="stock-close"/>
-      <icon name="stock-foo"/>
+      <icon name="stock-gnome-icon"/>
       <icon name="stock-clear"/>
     </row><row>
 			<!-- ROW 7 -->
@@ -120,7 +120,7 @@
       <icon name="stock-archive-remove"/>
       <icon name="stock-archive-extract"/>
       <icon name="stock-panel-screenshot"/>
-      <icon name="stock-foo"/>
+      <icon name="stock-speaker"/>
       <icon name="stock-foo"/>
       <icon name="stock-history"/>
       <icon name="stock-bookmarks"/>
@@ -130,21 +130,90 @@
       <icon name="stock-download"/>
     </row><row>
     			<!-- ROW 8 -->
-	  <icon name="stock-sub-menu"/>
+	  <icon name="stock-view-more"/>
 	  <icon name="stock-tree-expand-all"/>
 	  <icon name="stock-tree-collapse-all"/>
 	  <icon name="stock-tree-expand"/>
 	  <icon name="stock-tree-collapse"/>
 	  <icon name="stock-view-tree"/>
 	  <icon name="stock-text-generic"/>
-	  <icon name="stock-debug-step-through"/>
+	  <icon name="stock-line-indent"/>
     </row>
   </layout>
 
   <!-- Aliases define extra icons via symlinks to those in the theme -->
 
 	<!-- Freedesktop.org standard action icons -->
-
+	<alias name="address-book-new" target="stock-book"/>
+	<alias name="application-exit" target="stock-quit"/>
+	<alias name="contact-new" target="stock-book-open"/>
+	<alias name="document-new" target="stock-new"/>
+	<alias name="document-open" target="stock-open"/>
+	<alias name="document-open-recent" target="stock-open"/>
+	<alias name="document-print" target="stock-print"/>
+	<alias name="document-print-preview" target="stock-print-preview"/>
+	<alias name="document-properties" target="stock-properties"/>
+	<alias name="document-revert" target="stock-revert-to-saved"/>
+	<alias name="document-save" target="stock-save"/>
+	<alias name="document-save-as" target="stock-save-as"/>
+	<alias name="edit-clear" target="stock-clear"/>
+	<alias name="edit-copy" target="stock-copy"/>
+	<alias name="edit-cut" target="stock-cut"/>
+	<alias name="edit-delete" target="stock-delete"/>
+	<alias name="edit-find" target="stock-find"/>
+	<alias name="edit-find-replace" target="stock-find-and-replace"/>
+	<alias name="edit-paste" target="stock-paste"/>
+	<alias name="edit-redo" target="stock-redo"/>
+	<alias name="edit-undo" target="stock-undo"/>
+	<alias name="find-location" target="stock-find"/>
+	<alias name="format-justify-center" target="stock-justify-center"/>
+	<alias name="format-justify-fill" target="stock-justify-fill"/>
+	<alias name="format-justify-left" target="stock-justifgtky-left"/>
+	<alias name="format-justify-right" target="stock-justify-right"/>
+	<alias name="format-text-bold" target="stock-bold"/>
+	<alias name="format-text-italic" target="stock-italic"/>
+	<alias name="format-text-underline" target="stock-underline"/>
+	<alias name="format-text-strikethrough" target="stock-strikethrough"/>
+	<alias name="go-bottom" target="stock-goto-bottom"/>
+	<alias name="go-down" target="stock-go-down"/>
+	<alias name="go-first" target="stock-goto-first"/>
+	<alias name="go-home" target="stock-home"/>
+	<alias name="go-jump" target="stock-jump-to"/>
+	<alias name="go-last" target="stock-goto-last"/>
+	<alias name="go-next" target="stock-go-forward"/>
+	<alias name="go-previous" target="stock-go-back"/>
+	<alias name="go-top" target="stock-goto-top"/>
+	<alias name="go-up" target="stock-go-up"/>
+	<alias name="help-about" target="stock-about"/>
+	<alias name="help-contents" target="stock-help"/>
+	<alias name="help-faq" target="stock-help"/>
+	<alias name="insert-image" target="stock-insert-image"/>
+	<alias name="insert-object" target="stock-insert-object"/>
+	<alias name="mail-message-new" target="stock-send-link"/>
+	<alias name="media-playback-pause" target="stock-media-pause"/>
+	<alias name="media-playback-start" target="stock-media-play"/>
+	<alias name="media-playback-stop" target="stock-media-stop"/>
+	<alias name="media-record" target="stock-media-rec"/>
+	<alias name="media-seek-backward" target="stock-media-prev"/>
+	<alias name="media-seek-forward" target="stock-media-next"/>
+	<alias name="media-skip-backward" target="stock-media-rewind"/>
+	<alias name="media-skip-forward" target="stock-media-ffwd"/>
+	<alias name="process-stop" target="stock-stop"/>
+	<alias name="system-lock-screen" target="stock-lockscreen"/>
+	<alias name="system-log-out" target="stock-quit"/>
+	<alias name="system-run" target="stock-execute"/>
+	<alias name="system-reboot" target="stock-refresh"/>
+	<alias name="system-shutdown" target="stock-disconnect"/>
+	<alias name="tools-check-spelling" target="stock-spell-check"/>
+	<alias name="view-fullscreen" target="stock-fullscreen"/>
+	<alias name="view-refresh" target="stock-refresh"/>
+	<alias name="view-sort-ascending" target="stock-sort-ascending"/>
+	<alias name="view-sort-descending" target="stock-sort-descending"/>
+	<alias name="window-close" target="stock-close"/>
+	<alias name="window-new" target="stock-new-window"/>
+	<alias name="zoom-in" target="stock-zoom-in"/>
+	<alias name="zoom-original" target="stock-zoom-100"/>
+	<alias name="zoom-out" target="stock-zoom-out"/>
 
 	<!-- GTK+ Stock icons -->
 	<alias name="gtk-new" target="stock-new"/>
@@ -225,12 +294,14 @@
 	<alias name="gtk-cdrom" target="stock-cdrom"/>
 	<alias name="gtk-convert" target="stock-convert"/>
 	<alias name="gtk-font" target="stock-font"/>
+	<alias name="gtk-select-font" target="stock-font"/>
 	<alias name="gnome-stock-insert-object" target="stock-insert-object"/>
 	<alias name="gnome-stock-insert-image" target="stock-insert-image"/>
 	<alias name="gnome-stock-insert-table" target="stock-insert-table"/>
 	<alias name="gnome-stock-line-in" target="stock-line-in"/>
 	<alias name="gnome-stock-mic" target="stock-mic"/>
 	<alias name="gtk-select-color" target="stock-select-color"/>
+	<alias name="gtk-color-picker" target="stock-select-color"/>
 	<alias name="gtk-preferences" target="stock-preferences"/>
 	<alias name="gnome-stock-volume" target="stock-volume"/>
 	<alias name="gtk-zoom-100" target="stock-zoom-100"/>
@@ -243,8 +314,6 @@
 	<alias name="panel-internet" target="stock-panel-internet"/>
 	<alias name="gtk-dnd-multiple" target="stock-dnd-multiple"/>
 	<alias name="gtk-dnd" target="stock-dnd"/>
-	<alias name="printer-broken" target="stock-printer-broken"/>
-	<alias name="printer-default" target="stock-printer-default"/>
 	<alias name="panel-multimedia" target="stock-panel-multimedia"/>
 	<alias name="panel-accessories" target="stock-panel-accessories"/>
 	<alias name="gtk-properties" target="stock-properties"/>
@@ -254,7 +323,9 @@
 	<alias name="media-eject" target="stock-media-eject"/>
 	<alias name="panel-launcher" target="stock-panel-launcher"/>
 	<alias name="gnome-stock-disconnect" target="stock-disconnect"/>
+	<alias name="gtk-disconnect" target="stock-disconnect"/>
 	<alias name="gnome-stock-connect" target="stock-connect"/>
+	<alias name="gtk-connect" target="stock-connect"/>
 	<alias name="panel-drawer" target="stock-panel-drawer"/>
 	<alias name="gtk-close" target="stock-close"/>
 	<alias name="foo" target="stock-foo"/>
@@ -312,7 +383,174 @@
 	gtk-index
 	-->
 
-	<!-- KDE action icons -->
+	<!-- Other action icons -->
+	<alias name="folder-open-recent" target="stock-open"/>
+	<alias name="system-save-session" target="stock-save"/>
+	<alias name="document-import" target="stock-import"/>
+	<alias name="document-export" target="stock-export"/>
+	<alias name="document-export-table" target="stock-export"/>
+	<alias name="document-export-ocal" target="stock-export"/>
+	<alias name="export" target="stock-export"/>
+	<alias name="edit-duplicate" target="stock-copy"/>
+	<alias name="document-duplicate" target="stock-copy"/>
+	<alias name="refreshstructure" target="stock-refresh"/>
+	<alias name="amarok_playlist_refresh" target="stock-refresh"/>
+	<alias name="go-home-large" target="stock-home"/>
+	<alias name="akonadi-phone-home" target="stock-home"/>
+	<alias name="document-print-frame" target="stock-print"/>
+	<alias name="document-print-direct" target="stock-print"/>
+	<alias name="help-whatisthis" target="stock-help"/>
+	<alias name="help-latex" target="stock-help"/>
+	<alias name="help-feedback" target="stock-help"/>
+	<alias name="help-contextual" target="stock-help"/>
+	<alias name="help-hint" target="stock-about"/>
+	<alias name="run-build" target="stock-execute"/>
+	<alias name="debug-run" target="stock-execute"/>
+	<alias name="scriptnew" target="stock-execute"/>
+	<alias name="document-edit" target="stock-edit"/>
+	<alias name="mail-attachment" target="stock-attach"/>
+	<alias name="mail-forward-attachment" target="stock-attach"/>
+	<alias name="delete" target="stock-delete"/>
+	<alias name="usermenu-delete" target="stock-delete"/>
+	<alias name="mail-deleted" target="stock-delete"/>
+	<alias name="knotes-delete" target="stock-delete"/>
+	<alias name="group-delete" target="stock-delete"/>
+	<alias name="entry-delete" target="stock-delete"/>
+	<alias name="edit-delete-shred" target="stock-delete"/>
+	<alias name="draw-eraser-delete-objects" target="stock-delete"/>
+	<alias name="trash-empty" target="stock-delete"/>
+	<alias name="dialog-ok" target="stock-apply"/>
+	<alias name="dialog-ok-apply" target="stock-apply"/>
+	<alias name="answer" target="stock-apply"/>
+	<alias name="answer-correct" target="stock-apply"/>
+	<alias name="dialog-cancel" target="stock-cancel"/>
+	<alias name="dialog-close" target="stock-cancel"/>
+	<alias name="mate-panel-force-quit" typedir="apps" target="stock-cancel"/>
+	<alias name="tag-addressbook" target="stock-book"/>
+	<alias name="addressbook-details" target="stock-book"/>
+	<alias name="practice-stop" target="stock-media-stop"/>
+	<alias name="kt-stop" target="stock-media-stop"/>
+	<alias name="kt-pause" target="stock-media-pause"/>
+	<alias name="media-import-audio-cd" target="stock-cdrom"/>
+	<alias name="convert" target="stock-convert"/>
+	<alias name="font" target="stock-font"/>
+	<alias name="gnumeric-font" target="stock-font"/>
+	<alias name="font-select" target="stock-font"/>
+	<alias name="font-face" target="stock-font"/>
+	<alias name="dialog-text-and-font" target="stock-font"/>
+	<alias name="table" target="stock-insert-table"/>
+	<alias name="insert-table" target="stock-insert-table"/>
+	<alias name="audio-input-microphone" typedir="devices" target="stock-mic"/>
+	<alias name="tool_color_picker" target="stock-select-color"/>
+	<alias name="kstars_colors" target="stock-select-color"/>
+	<alias name="color-select" target="stock-select-color"/>
+	<alias name="settings-configure" target="stock-preferences"/>
+	<alias name="configure-toolbars" target="stock-preferences"/>
+	<alias name="configure-shortcuts" target="stock-preferences"/>
+	<alias name="configure_project" target="stock-preferences"/>
+	<alias name="configure_kile" target="stock-preferences"/>
+	<alias name="tab-new" target="stock-new-tab"/>
+	<alias name="zoom-selection" target="stock-zoom-fit"/>
+	<alias name="zoom-select" target="stock-zoom-fit"/>
+	<alias name="zoom-select-fit" target="stock-zoom-fit"/>
+	<alias name="zoom-fit-selection" target="stock-zoom-fit"/>
+	<alias name="zoom-fit-drawing" target="stock-zoom-fit"/>
+	<alias name="zoom-draw" target="stock-zoom-fit"/>
+	<alias name="view-zoom-fit" target="stock-zoom-fit"/>
+	<alias name="sticky_zoom" target="stock-zoom-fit"/>
+	<alias name="labplot-zoom" target="stock-zoom-fit"/>
+	<alias name="zoom-in-large" target="stock-zoom-in"/>
+	<alias name="zoom-in-map" target="stock-zoom-in"/>
+	<alias name="view-zoom-in" target="stock-zoom-in"/>
+	<alias name="file-zoom-in" target="stock-zoom-in"/>
+	<alias name="zoom-out-large" target="stock-zoom-out"/>
+	<alias name="zoom-out-map" target="stock-zoom-out"/>
+	<alias name="view-zoom-out" target="stock-zoom-out"/>
+	<alias name="file-zoom-out" target="stock-zoom-out"/>
+	<alias name="project_add" target="stock-add"/>
+	<alias name="media-track-add-amarok" target="stock-add"/>
+	<alias name="list-add" target="stock-add"/>
+	<alias name="lighttableadd" target="stock-add"/>
+	<alias name="bqm-addqueue" target="stock-add"/>
+	<alias name="bqm-add" target="stock-add"/>
+	<alias name="value-increase" target="stock-add"/>
+	<alias name="spinbox-increase" target="stock-add"/>
+	<alias name="remove" target="stock-remove"/>
+	<alias name="remove-amarok" target="stock-remove"/>
+	<alias name="project_remove" target="stock-remove"/>
+	<alias name="media-track-remove-amarok" target="stock-remove"/>
+	<alias name="list-remove" target="stock-remove"/>
+	<alias name="kt-remove" target="stock-remove"/>
+	<alias name="edit-delete-remove" target="stock-remove"/>
+	<alias name="value-decrease" target="stock-remove"/>
+	<alias name="spinbox-decrease" target="stock-remove"/>
+	<alias name="object-locked" target="stock-lockscreen"/>
+	<alias name="mail-encrypted" target="stock-lockscreen"/>
+	<alias name="mail-encrypted-full" target="stock-lockscreen"/>
+	<alias name="kt-encrypted" target="stock-lockscreen"/>
+	<alias name="document-encrypted" target="stock-lockscreen"/>
+	<alias name="document-encrypt" target="stock-lockscreen"/>
+	<alias name="globe" target="stock-panel-internet"/>
+	<alias name="internet-services" target="stock-panel-internet"/>
+	<alias name="internet-amarok" target="stock-panel-internet"/>
+	<alias name="document-multiple" target="stock-dnd-multiple"/>
+	<alias name="player-volume" target="stock-volume"/>
+	<alias name="player-volume-muted" target="stock-volume-muted"/>
+	<alias name="tag-properties" target="stock-properties"/>
+	<alias name="dialog-object-properties" target="stock-properties"/>
+	<alias name="mate-panel-fish" typedir="apps" target="stock-panel-amusements"/>
+	<alias name="mate-eyes-applet" typedir="apps" target="stock-panel-amusements"/>
+	<alias name="network-disconnect" target="stock-disconnect"/>
+	<alias name="network-connect" target="stock-connect"/>
+	<alias name="mate-panel-drawer" typedir="apps" target="stock-panel-drawer"/>
+	<alias name="view-close" target="stock-close"/>
+	<alias name="tab-close" target="stock-close"/>
+	<alias name="tab-close-other" target="stock-close"/>
+	<alias name="kontes_close" target="stock-close"/>
+	<alias name="geany-close-all" target="stock-close"/>
+	<alias name="preferences-gtk-config" typedir="apps" target="stock-gnome-icon"/>
+	<alias name="edit-clear-locationbar" target="stock-clear"/>
+	<alias name="edit-clear-list" target="stock-clear"/>
+	<alias name="edit-clear-history" target="stock-clear"/>
+	<alias name="edit-clear-all" target="stock-clear"/>
+	<alias name="project_archive" target="stock-archive-new"/>
+	<alias name="archive-insert" target="stock-archive-insert"/>
+	<alias name="archive-remove" target="stock-archive-remove"/>
+	<alias name="archive-extract" target="stock-archive-extract"/>
+	<alias name="ksnapshot" typedir="apps" target="stock-panel-screenshot"/>
+	<alias name="applets-screenshooter" typedir="apps" target="stock-panel-screenshot"/>
+	<alias name="org.xfce.screenshooter" typedir="apps" target="stock-panel-screenshot"/>
+	<alias name="spectacle" typedir="apps" target="stock-panel-screenshot"/>
+	<alias name="speaker" target="stock-speaker"/>
+	<alias name="view-history" target="stock-history"/>
+	<alias name="edit-undo-history" target="stock-history"/>
+	<alias name="bookmarks" target="stock-bookmarks"/>
+	<alias name="bookmarks-organize" target="stock-bookmarks"/>
+	<alias name="bookmarks-bookmarked" target="stock-bookmarks"/>
+	<alias name="bookmark-toolbar" target="stock-bookmarks"/>
+	<alias name="bookmark-new-list" target="stock-bookmark-page"/>
+	<alias name="bookmark-new" target="stock-bookmark-page"/>
+	<alias name="bookmark-add" target="stock-bookmark-page"/>
+	<alias name="mail-message" target="stock-send-link"/>
+	<alias name="gnumeric-link-email" target="stock-send-link"/>
+	<alias name="download" target="stock-download"/>
+	<alias name="mail-download-now" target="stock-download"/>
+	<alias name="kt-set-max-download-speed" target="stock-download"/>
+	<alias name="edit-download" target="stock-download"/>
+	<alias name="download-amarok" target="stock-download"/>
+	<alias name="view-more" target="stock-view-more"/>
+	<alias name="overflow-menu" target="stock-view-more"/>
+	<alias name="expand-all" target="stock-tree-expand-all"/>
+	<alias name="collapse-all" target="stock-tree-collapse-all"/>
+	<alias name="expand" target="stock-tree-expand"/>
+	<alias name="collapse" target="stock-tree-collapse"/>
+	<alias name="view-list-tree" target="stock-view-tree"/>
+	<alias name="view-process-tree" target="stock-view-tree"/>
+	<alias name="view-process-all-tree" target="stock-view-tree"/>
+	<alias name="view-list-text" target="stock-text-generic"/>
+	<alias name="x-shape-text" target="stock-text-generic"/>
+
+	<!-- legacy KDE action icons -->
 	<!-- contributed by Kreg Steppe <kreg@virtual1.net> -->
 	<alias name="filenew" typedir="actions" target="stock-new"/>		
 	<alias name="fileopen" typedir="actions" target="stock-open"/>
