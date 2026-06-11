@@ -241,6 +241,8 @@
 		<alias name="user-info" target="icon-user-id"/>
 
 	<alias name="preferences-desktop-user-password" target="icon-user-keys"/>
+		<alias name="system-switch-user" typedir="actions" target="icon-user-keys"/>
+		<alias name="xfsm-switch-user" typedir="actions" target="icon-user-keys"/>
 
 	<alias name="klipper" target="icon-clipboard"/>
 	

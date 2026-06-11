@@ -1,0 +1,517 @@
+<theme name="Bluecurve" typedir="actions">
+   <source size="16" sizedir="16x16"/>
+   <source size="20" sizedir="20x20"/>
+   <source size="24" sizedir="24x24"/>
+   <source size="32" sizedir="32x32"/>
+   <source size="48" sizedir="48x48"/>
+  <layout>
+	<row>
+    <icon name="stock_autospellcheck"/>
+    <icon name="stock_autotext"/>
+    <icon name="stock_copy"/>
+    <icon name="stock_cut"/>
+    <icon name="stock_data-sources"/>
+    <icon name="stock_default-folder"/>
+    <icon name="stock_directcursor"/>
+    <icon name="stock_edit"/>
+    <icon name="stock_folder"/>
+    <icon name="stock_form-table-control"/>
+    <icon name="stock_insert-chart"/>
+    <icon name="stock_insert-fields"/>
+    <icon name="stock_insert-form"/>
+    <icon name="stock_insert_image"/>
+    <icon name="stock_insert_url"/>
+    <icon name="stock_list_bullet"/>
+	</row>
+	<row>
+    <icon name="stock_list_enum"/>
+    <icon name="stock_navigator"/>
+    <icon name="stock_new-dir"/>
+    <icon name="stock_new-text"/>
+    <icon name="stock_nonprinting-chars"/>
+    <icon name="stock_online-layout"/>
+    <icon name="stock_open"/>
+    <icon name="stock_paste"/>
+    <icon name="stock_print"/>
+    <icon name="stock_redo"/>
+    <icon name="stock_save"/>
+    <icon name="stock_save-pdf"/>
+    <icon name="stock_search"/>
+    <icon name="stock_show-draw-functions"/>
+    <icon name="stock_spellcheck"/>
+    <icon name="stock_styles"/>
+	</row>
+	<row>
+    <icon name="stock_text_bold"/>
+    <icon name="stock_text_italic"/>
+    <icon name="stock_text_underlined"/>
+    <icon name="stock_text_underlined-double"/>
+    <icon name="stock_text_strikethrough"/>
+    <icon name="stock_text_color_foreground"/>
+    <icon name="stock_text_color_background"/>
+    <icon name="stock_text_color_hilight"/>
+    <icon name="stock_text_left"/>
+    <icon name="stock_text_center"/>
+    <icon name="stock_text_right"/>
+    <icon name="stock_text_justify"/>
+    <icon name="stock_text_indent"/>
+    <icon name="stock_text_unindent"/>
+    <icon name="stock_toggle-graphics"/>
+    <icon name="stock_undo"/>
+	</row>
+	<row>
+    <icon name="stock_up-one-dir"/>
+		<icon name="stock_draw-selection"/>
+		<icon name="stock_draw-arc"/>
+		<icon name="stock_draw-ellipse-segment"/>
+		<icon name="stock_draw-ellipse-pie"/>
+		<icon name="stock_draw-ellipse"/>
+		<icon name="stock_draw-rectangle"/>
+		<icon name="stock_draw-freeform-line"/>
+		<icon name="stock_draw-line"/>
+		<icon name="stock_draw-polygon"/>
+		<icon name="stock_draw-text"/>
+		<icon name="stock_draw-text-animation"/>
+		<icon name="stock_draw-vertical-text"/>
+		<icon name="stock_draw-callouts"/>
+		<icon name="stock_draw-vertical-callouts"/>
+		<icon name="stock_form-activation-order"/>
+	</row><row>
+		<icon name="stock_form-add-field"/>
+		<icon name="stock_form-automatic-control-focus"/>
+		<icon name="stock_form-autopilots"/>
+		<icon name="stock_form-button"/>
+		<icon name="stock_form-checkbox"/>
+		<icon name="stock_form-combobox"/>
+		<icon name="stock_form-control-properties"/>
+		<icon name="stock_form-currency-field"/>
+		<icon name="stock_form-date-field"/>
+		<icon name="stock_form-design-mode"/>
+		<icon name="stock_form-file-selection"/>
+		<icon name="stock_form-formatted-field"/>
+		<icon name="stock_form-frame"/>
+		<icon name="stock_form-image-button"/>
+		<icon name="stock_form-image-control"/>
+		<icon name="stock_form-label"/>
+	</row><row>
+		<icon name="stock_form-listbox"/>
+		<icon name="stock_form-navigator"/>
+		<icon name="stock_form-numerical-field"/>
+		<icon name="stock_form-open-in-design-mode"/>
+		<icon name="stock_form-pattern-field"/>
+		<icon name="stock_form-properties"/>
+		<icon name="stock_form-radio"/>
+		<icon name="stock_form-table-control"/>
+		<icon name="stock_form-text-box"/>
+		<icon name="stock_form-time-field"/>
+		<icon name="stock_frame"/>
+		<icon name="stock_insert-floating-frame"/>
+		<icon name="stock_insert-math-object"/>
+		<icon name="stock_insert-ole-object"/>
+		<icon name="stock_insert-plugin"/>
+		<icon name="stock_insert_bookmark"/>
+	</row><row>
+		<icon name="stock_insert_endnote"/>
+		<icon name="stock_insert_footnote"/>
+		<icon name="stock_insert_graphic"/>
+		<icon name="stock_insert_index_marker"/>
+		<icon name="stock_insert_section"/>
+		<icon name="stock_insert_special_character"/>
+		<icon name="stock_new-text"/>
+		<icon name="stock_3d-effects"/>
+		<icon name="stock_add-decimal-place"/>
+		<icon name="stock_arrowstyle"/>
+		<icon name="stock_autofilter"/>
+		<icon name="stock_bucketfill"/>
+		<icon name="stock_calc-accept"/>
+		<icon name="stock_calc-cancel"/>
+		<icon name="stock_cell-align-bottom"/>
+		<icon name="stock_cell-align-center"/>
+	</row><row>
+		<icon name="stock_cell-align-top"/>
+		<icon name="stock_choose-themes"/>
+		<icon name="stock_delete-decimal-place"/>
+		<icon name="stock_draw-circle"/>
+		<icon name="stock_draw-cube"/>
+		<icon name="stock_draw-freeform-line-filled"/>
+		<icon name="stock_draw-rectangle-unfilled"/>
+		<icon name="stock_draw-rounded-rectangle-unfilled"/>
+		<icon name="stock_draw-rounded-rectangle"/>
+		<icon name="stock_draw-rounded-square-unfilled"/>
+		<icon name="stock_draw-rounded-square"/>
+		<icon name="stock_draw-square-unfilled"/>
+		<icon name="stock_draw-square"/>
+		<icon name="stock_draw-text-frame"/>
+		<icon name="stock_draw-vertical-text-frame"/>
+		<icon name="stock_edit-points"/>
+	</row><row>
+		<icon name="stock_format-default"/>
+		<icon name="stock_format-percent"/>
+		<icon name="stock_function-autopilot"/>
+		<icon name="stock_graphics-align-left"/>
+		<icon name="stock_graphics-align-center"/>
+		<icon name="stock_graphics-align-right"/>
+		<icon name="stock_insert-cells-down"/>
+		<icon name="stock_insert-cells-right"/>
+		<icon name="stock_insert-columns"/>
+		<icon name="stock_insert-rows"/>
+		<icon name="stock_linepen"/>
+		<icon name="stock_rotate"/>
+		<icon name="stock_sort-ascending"/>
+		<icon name="stock_sort-descending"/>
+		<icon name="stock_text-direction-ltr"/>
+		<icon name="stock_text-direction-ttb"/>
+	</row><row>
+		<icon name="stock_to-top"/>
+		<icon name="stock_to-bottom"/>
+		<icon name="stock_zoom-1"/>
+		<icon name="stock_zoom-fit"/>
+		<icon name="stock_zoom-in"/>
+		<icon name="stock_zoom-out"/>
+		<icon name="stock_zoom-page-width"/>
+		<icon name="stock_zoom-page"/>
+		<icon name="stock_zoom-optimal"/>
+		<icon name="stock_zoom-previous"/>
+		<icon name="stock_zoom-next"/>
+		<icon name="stock_zoom-object"/>
+		<icon name="stock_zoom-shift"/>
+		<icon name="stock_bring-forward"/>
+		<icon name="stock_bring-backward"/>
+		<icon name="stock_create-with-attributes"/>
+	</row><row>
+		<icon name="stock_display-grid"/>
+		<icon name="stock_display-guides"/>
+		<icon name="stock_distort"/>
+		<icon name="stock_draw-ellipse-segment-unfilled"/>
+		<icon name="stock_draw-ellipse-pie-unfilled"/>
+		<icon name="stock_draw-circle-pie-unfilled"/>
+		<icon name="stock_draw-circle-pie"/>
+		<icon name="stock_draw-ellipse-unfilled"/>
+		<icon name="stock_draw-circle-unfilled"/>
+		<icon name="stock_draw-circle-segment"/>
+		<icon name="stock_draw-circle-segment-unfilled"/>
+		<icon name="stock_draw-cone"/>
+		<icon name="stock_draw-cylinder"/>
+		<icon name="stock_draw-curve-filled"/>
+		<icon name="stock_draw-sphere"/>
+		<icon name="stock_draw-half-sphere"/>
+	</row><row>
+		<icon name="stock_draw-pyramid"/>
+		<icon name="stock_draw-shell"/>
+		<icon name="stock_draw-polygon-filled"/>
+		<icon name="stock_draw-polygon-45"/>
+		<icon name="stock_draw-polygon-45-filled"/>
+		<icon name="stock_draw-torus"/>
+		<icon name="stock_exit-group"/>
+		<icon name="stock_flip"/>
+		<icon name="stock_glue"/>
+		<icon name="stock_gradient"/>
+		<icon name="stock_graphics-align-bottom"/>
+		<icon name="stock_graphics-align-centered"/>
+		<icon name="stock_graphics-align-top"/>
+		<icon name="stock_guides"/>
+		<icon name="stock_handles-big"/>
+		<icon name="stock_handles-simple"/>
+	</row><row>
+		<icon name="stock_insert-file"/>
+		<icon name="stock_insert-slide"/>
+		<icon name="stock_insert-sound-plugin"/>
+		<icon name="stock_insert-video-plugin"/>
+		<icon name="stock_object-infront"/>
+		<icon name="stock_object-behind"/>
+		<icon name="stock_placeholder-graphic"/>
+		<icon name="stock_placeholder-line-contour"/>
+		<icon name="stock_placeholder-picture"/>
+		<icon name="stock_placeholder-text"/>
+		<icon name="stock_reverse-order"/>
+		<icon name="stock_rotate-3d"/>
+		<icon name="stock_rotation-mode"/>
+		<icon name="stock_snap-grid"/>
+		<icon name="stock_snap-guides"/>
+		<icon name="stock_snap-margins"/>
+	</row><row>
+		<icon name="stock_snap-object-points"/>
+		<icon name="stock_snap-object"/>
+		<icon name="stock_text-double-click-to-edit"/>
+		<icon name="stock_text-quickedit"/>
+		<icon name="stock_text-select-text-only"/>
+		<icon name="stock_transform-circle-perspective"/>
+		<icon name="stock_transform-circle-slant"/>
+		<icon name="stock_transparency"/>
+		<icon name="stock_draw-circle-arc"/>
+		<icon name="stock_draw-curve"/>
+		<icon name="stock_advanced-filter"/>
+		<icon name="stock_anchor"/>
+		<icon name="stock_brightness"/>
+		<icon name="stock_channel-red"/>
+		<icon name="stock_channel-green"/>
+		<icon name="stock_channel-blue"/>
+	</row><row>
+		<icon name="stock_chart-autoformat"/>
+		<icon name="stock_chart-toggle-axes"/>
+		<icon name="stock_chart-edit-type"/>
+		<icon name="stock_chart-toggle-axes-title"/>
+		<icon name="stock_chart-toggle-title"/>
+		<icon name="stock_chart-toggle-hgrid"/>
+		<icon name="stock_chart-toggle-vgrid"/>
+		<icon name="stock_chart-toggle-legend"/>
+		<icon name="stock_chart-reorganize"/>
+		<icon name="stock_chart-data-in-rows"/>
+		<icon name="stock_chart-data-in-columns"/>
+		<icon name="stock_chart-scale-text"/>
+		<icon name="stock_contrast"/>
+		<icon name="stock_crop"/>
+<!--
+		<icon name="stock_data-delete-query-16"/>
+		<icon name="stock_data-edit-sql-query-16"/>
+		<icon name="stock_data-links-16"/>
+		<icon name="stock_data-queries-16"/>
+		<icon name="stock_data-sources-hand-32"/>
+		<icon name="stock_data-tables-16"/>
+		<icon name="stock_data-explorer"/>
+-->
+		<icon name="stock_delete-autofilter"/>
+		<icon name="stock_data-undo"/>
+	</row><row>
+		<icon name="stock_filters-aging"/>
+		<icon name="stock_filters-charcoal"/>
+		<icon name="stock_filters-invert"/>
+		<icon name="stock_filters-pop-art"/>
+		<icon name="stock_filters-pixelize"/>
+		<icon name="stock_filters-posterize"/>
+		<icon name="stock_filters-relief"/>
+		<icon name="stock_filters-remove-noise"/>
+		<icon name="stock_filters-sharpen"/>
+		<icon name="stock_filters-smooth"/>
+		<icon name="stock_filters-solarize"/>
+		<icon name="stock_filters"/>
+		<icon name="stock_gamma"/>
+		<icon name="stock_hyperlink-target"/>
+		<icon name="stock_transform-move"/>
+		<icon name="stock_insert-cells"/>
+	</row><row>
+		<icon name="stock_mail-merge"/>
+		<icon name="stock_slide-show"/>
+		<icon name="stock_sort-criteria"/>
+		<icon name="stock_standard-filter"/>
+		<icon name="stock_to-foreground"/>
+		<icon name="stock_to-background"/>
+		<icon name="stock_update-data"/>
+		<icon name="stock_update-fields"/>
+	</row>
+	</layout>
+
+	<alias name="document-open-data" target="stock_data-sources"/>
+	<alias name="bookmark-add-folder" target="stock_default-folder"/>
+	<alias name="office-chart-pie" target="stock_insert-chart"/>
+	<alias name="text-field" target="stock_insert-fields"/>
+	<alias name="view-form" target="stock_insert-form"/>
+	<alias name="insert-link" target="stock_insert_url"/>
+	<alias name="gnumeric-link-url" target="stock_insert_url"/>
+	<alias name="format-list-unordered" target="stock_list_bullet"/>
+	<alias name="format-list-ordered" target="stock_list_enum"/>
+	<alias name="image-navigator" target="stock_navigator"/>
+	<alias name="folder-new" target="stock_new-dir"/>
+	<alias name="folder-add" target="stock_new-dir"/>
+	<alias name="document-new-from-template" target="stock_new-text"/>
+	<alias name="viewpdf" target="stock_save-pdf"/>
+	<alias name="ps2pdf" target="stock_save-pdf"/>
+	<alias name="pdflatex" target="stock_save-pdf"/>
+	<alias name="dvipdf" target="stock_save-pdf"/>
+	<alias name="format-text-color" target="stock_text_color_foreground"/>
+	<alias name="format-indent-more" target="stock_text_indent"/>
+	<alias name="format-indent-less" target="stock_text_unindent"/>
+	<alias name="selection" target="stock_draw-selection"/>
+	<alias name="cursor-arrow" target="stock_draw-selection"/>
+	<alias name="labplot-cursor-arrow" target="stock_draw-selection"/>
+	<alias name="draw-ellipse-arc" target="stock_draw-ellipse-segment"/>
+	<alias name="draw-ellipse-segment" target="stock_draw-ellipse-pie"/>
+	<alias name="draw-ellipse" target="stock_draw-ellipse"/>
+	<alias name="tool_ellipse" target="stock_draw-ellipse"/>
+	<alias name="ellipse-shape" target="stock_draw-ellipse"/>
+	<alias name="draw-ellipse-whole" target="stock_draw-ellipse"/>
+	<alias name="gnumeric-object-ellipse" target="stock_draw-ellipse"/>
+	<alias name="tool_rectangle" target="stock_draw-rectangle"/>
+	<alias name="rectangle-shape" target="stock_draw-rectangle"/>
+	<alias name="draw-rectangle" target="stock_draw-rectangle"/>
+	<alias name="gnumeric-object-rectangle" target="stock_draw-rectangle"/>
+	<alias name="kdenlive-insert-rect" target="stock_draw-rectangle"/>
+	<alias name="draw-freehand" target="stock_draw-freeform-line"/>
+	<alias name="tool_line" target="stock_draw-line"/>
+	<alias name="draw-line" target="stock_draw-line"/>
+	<alias name="gnumeric-object-line" target="stock_draw-line"/>
+	<alias name="draw-polygon" target="stock_draw-polygon"/>
+	<alias name="tool-text" target="stock_draw-text"/>
+	<alias name="tool_text" target="stock_draw-text"/>
+	<alias name="text_letter_spacing" target="stock_draw-text-animation"/>
+	<alias name="callout-shape" target="stock_draw-callouts"/>
+	<alias name="imagecomment" target="stock_draw-callouts"/>
+	<alias name="gnumeric-comment-add" target="stock_draw-callouts"/>
+	<alias name="filename-comment-amarok" target="stock_draw-callouts"/>
+	<alias name="edit-comment" target="stock_draw-callouts"/>
+	<alias name="comment" target="stock_draw-callouts"/>
+	<alias name="pdf-annotations" target="stock_draw-callouts"/>
+	<alias name="document-page-setup" target="stock_form-autopilots"/>
+	<alias name="insert-button" target="stock_form-button"/>
+	<alias name="gnumeric-object-button" target="stock_form-button"/>
+	<alias name="checkbox" target="stock_form-checkbox"/>
+	<alias name="gnumeric-object-checkbox" target="stock_form-checkbox"/>
+	<alias name="gnumeric-object-combo" target="stock_form-combobox"/>
+	<alias name="view-currency-list" target="stock_form-currency-field"/>
+	<alias name="knotes_date" target="stock_form-date-field"/>
+	<alias name="change-date" target="stock_form-date-field"/>
+	<alias name="appointment-new" target="stock_form-date-field"/>
+	<alias name="quickopen" target="stock_form-file-selection"/>
+	<alias name="quickopen-file" target="stock_form-file-selection"/>
+	<alias name="x-shape-image" target="stock_form-image-control"/>
+	<alias name="viewimage" target="stock_form-image-control"/>
+	<alias name="viewimage" target="stock_form-image-control"/>
+	<alias name="label" target="stock_form-label"/>
+	<alias name="label-amarok" target="stock_form-label"/>
+	<alias name="gnumeric-object-label" target="stock_form-label"/>
+	<alias name="text-field-framed" target="stock_form-text-box"/>
+	<alias name="clock" target="stock_form-time-field"/>
+	<alias name="smallclock" target="stock_form-time-field"/>
+	<alias name="clock-large" target="stock_form-time-field"/>
+	<alias name="amarok_clock" target="stock_form-time-field"/>
+	<alias name="accept_time_event" target="stock_form-time-field"/>
+	<alias name="insert-math-expression" target="stock_insert-math-object"/>
+	<alias name="mathmode" target="stock_insert-math-object"/>
+	<alias name="wizard_math" target="stock_insert-math-object"/>
+	<alias name="preview_math" target="stock_insert-math-object"/>
+	<alias name="bookmark-add" target="stock_insert_bookmark"/>
+	<alias name="bookmark_add" target="stock_insert_bookmark"/>
+	<alias name="insert-endnote" target="stock_insert_endnote"/>
+	<alias name="insert-footnote" target="stock_insert_footnote"/>
+	<alias name="graphics" target="stock_insert_graphic"/>
+	<alias name="character-set" target="stock_insert_special_character"/>
+	<alias name="xml-text-new" target="stock_new-text"/>
+	<alias name="insert-text" target="stock_new-text"/>
+	<alias name="show-gpu-effects" target="stock_3d-effects"/>
+	<alias name="gnumeric-autofilter" target="stock_autofilter"/>
+	<alias name="format-fill-color" target="stock_bucketfill"/>
+	<alias name="fill-color" target="stock_bucketfill"/>
+	<alias name="color-fill" target="stock_bucketfill"/>
+	<alias name="gnumeric-bucket" target="stock_bucketfill"/>
+	<alias name="draw-circle" target="stock_draw-circle"/>
+	<alias name="draw-cuboid" target="stock_draw-cube"/>
+	<alias name="shape-cuboid" target="stock_draw-cube"/>
+	<alias name="tool_rounded_rectangle" target="stock_draw-rounded-rectangle"/>
+	<alias name="draw-rectangle-rounded" target="stock_draw-rounded-rectangle"/>
+	<alias name="step_object_Box" target="stock_draw-square"/>
+	<alias name="box" target="stock_draw-square"/>
+	<alias name="insert-text-frame" target="stock_draw-text-frame"/>
+	<alias name="pointer" target="stock_edit-points"/>
+	<alias name="tool-pointer" target="stock_edit-points"/>
+	<alias name="format-number-percent" target="stock_format-percent"/>
+	<alias name="gnumeric-format-percentage" target="stock_format-percent"/>
+	<alias name="x-shape-formula" target="stock_function-autopilot"/>
+	<alias name="gnumeric-formulaguru" target="stock_function-autopilot"/>
+	<alias name="formula" target="stock_function-autopilot"/>
+	<alias name="align-horizontal-left" target="stock_graphics-align-left"/>
+	<alias name="object-align-horizontal-left-calligra" target="stock_graphics-align-left"/>
+	<alias name="align-horizontal-center" target="stock_graphics-align-center"/>
+	<alias name="object-align-horizontal-center-calligra" target="stock_graphics-align-center"/>
+	<alias name="align-horizontal-right" target="stock_graphics-align-right"/>
+	<alias name="object-align-horizontal-right-calligra" target="stock_graphics-align-right"/>
+	<alias name="edit-table-insert-row-below" target="stock_insert-cells-down"/>
+	<alias name="edit-table-insert-column-right" target="stock_insert-cells-right"/>
+	<alias name="insert-table-row" target="stock_insert-rows"/>
+	<alias name="tool_pen" target="stock_linepen"/>
+	<alias name="object-rotate-right" target="stock_rotate"/>
+	<alias name="object-rotate-left" target="stock_rotate"/>
+	<alias name="object-order-front" target="stock_to-top"/>
+	<alias name="object-order-front-calligra" target="stock_to-top"/>
+	<alias name="object-order-back" target="stock_to-bottom"/>
+	<alias name="object-order-back-calligra" target="stock_to-bottom"/>
+	<alias name="zoom-fit-width" target="stock_zoom-page-width"/>
+	<alias name="zoom-fit-page" target="stock_zoom-page"/>
+	<alias name="page-zoom" target="stock_zoom-page"/>
+	<alias name="zoom-fit-best" target="stock_zoom-optimal"/>
+	<alias name="zoom-previous" target="stock_zoom-previous"/>
+	<alias name="zoom-next" target="stock_zoom-next"/>
+	<alias name="zoom-selection" target="stock_zoom-object"/>
+	<alias name="zoom-select" target="stock_zoom-object"/>
+	<alias name="zoom-select-fit" target="stock_zoom-object"/>
+	<alias name="zoom-fit-selection" target="stock_zoom-object"/>
+	<alias name="hand" target="stock_zoom-shift"/>
+	<alias name="transform-browse" target="stock_zoom-shift"/>
+	<alias name="object-order-raise" target="stock_bring-forward"/>
+	<alias name="object-order-raise-calligra" target="stock_bring-forward"/>
+	<alias name="object-order-lower" target="stock_bring-backward"/>
+	<alias name="object-order-lower-calligra" target="stock_bring-backward"/>
+	<alias name="view-grid" target="stock_display-grid"/>
+	<alias name="distortionfx" target="stock_distort"/>
+	<alias name="draw-circle" target="stock_draw-circle"/>
+	<alias name="tool_polygon" target="stock_draw-polygon-45-filled"/>
+	<alias name="object-ungroup" target="stock_exit-group"/>
+	<alias name="object-ungroup-calligra" target="stock_exit-group"/>
+	<alias name="gnumeric-ungroup" target="stock_exit-group"/>
+	<alias name="object-flip-vertical" target="stock_flip"/>
+	<alias name="object-flip-horizontal" target="stock_flip"/>
+	<alias name="gradient" target="stock_gradient"/>
+	<alias name="color-gradient" target="stock_gradient"/>
+	<alias name="align-vertical-bottom" target="stock_graphics-align-bottom"/>
+	<alias name="object-align-vertical-bottom-calligra" target="stock_graphics-align-bottom"/>
+	<alias name="format-align-vertical-bottom" target="stock_graphics-align-bottom"/>
+	<alias name="align-vertical-center" target="stock_graphics-align-centered"/>
+	<alias name="object-align-vertical-center-calligra" target="stock_graphics-align-centered"/>
+	<alias name="format-align-vertical-center" target="stock_graphics-align-centered"/>
+	<alias name="align-vertical-top" target="stock_graphics-align-top"/>
+	<alias name="object-align-vertical-top-calligra" target="stock_graphics-align-top"/>
+	<alias name="format-align-vertical-top" target="stock_graphics-align-top"/>
+	<alias name="guides" target="stock_guides"/>
+	<alias name="show-node-handles" target="stock_handles-simple"/>
+	<alias name="reverse" target="stock_reverse-order"/>
+	<alias name="transform-rotate" target="stock_rotation-mode"/>
+	<alias name="snap-guideline" target="stock_snap-guides"/>
+	<alias name="snap-page" target="stock_snap-margins"/>
+	<alias name="snap-nodes-cusp" target="stock_snap-object-points"/>
+	<alias name="snap" target="stock_snap-object"/>
+	<alias name="perspective" target="stock_transform-circle-perspective"/>
+	<alias name="edit-opacity" target="stock_transparency"/>
+	<alias name="tool_curve" target="stock_draw-curve"/>
+	<alias name="anchor" target="stock_anchor"/>
+	<alias name="step_object_Anchor" target="stock_anchor"/>
+	<alias name="low-brightness" target="stock_brightness"/>
+	<alias name="high-brightness" target="stock_brightness"/>
+	<alias name="brightness-low" target="stock_brightness"/>
+	<alias name="brightness-high" target="stock_brightness"/>
+	<alias name="mate-brightness-applet" typedir="apps" target="stock_brightness"/>
+	<alias name="colors-chromared" target="stock_channel-red"/>
+	<alias name="colors-chromagreen" target="stock_channel-green"/>
+	<alias name="colors-chromablue" target="stock_channel-blue"/>
+	<alias name="labplot-worksheet-new" target="stock_chart-autoformat"/>
+	<alias name="object-rows" target="stock_chart-data-in-rows"/>
+	<alias name="object-columns" target="stock_chart-data-in-columns"/>
+	<alias name="contrast" target="stock_contrast"/>
+	<alias name="transform-crop" target="stock_crop"/>
+	<alias name="ratiocrop" target="stock_crop"/>
+	<alias name="gnumeric-autofilter-delete" target="stock_delete-autofilter"/>
+	<alias name="kt-remove-filters" target="stock_delete-autofilter"/>
+	<alias name="charcoaltool" target="stock_filters-charcoal"/>
+	<alias name="mask-invert" target="stock_filters-invert"/>
+	<alias name="invertimage" target="stock_filters-invert"/>
+	<alias name="edit-select-invert" target="stock_filters-invert"/>
+	<alias name="color-mode-invert-text" target="stock_filters-invert"/>
+	<alias name="color-mode-invert-image" target="stock_filters-invert"/>
+	<alias name="channelmixer" target="stock_filters-pop-art"/>
+	<alias name="pixelate" target="stock_filters-pixelize"/>
+	<alias name="sharpenimage" target="stock_filters-sharpen"/>
+	<alias name="smooth" target="stock_filters-smooth"/>
+	<alias name="show-all-effects" target="stock_filters"/>
+	<alias name="tool_imageeffects" target="stock_filters"/>
+	<alias name="tools-wizard" target="stock_filters"/>
+	<alias name="quickwizard" target="stock_filters"/>
+	<alias name="select" target="stock_hyperlink-target"/>
+	<alias name="edit-select" target="stock_hyperlink-target"/>
+	<alias name="transform-move" target="stock_transform-move"/>
+	<alias name="labplot-transform-move" target="stock_transform-move"/>
+	<alias name="insertcell" target="stock_insert-cells"/>
+	<alias name="mail-message" target="stock_mail-merge"/>
+	<alias name="mail-message-new" target="stock_mail-merge"/>
+	<alias name="view-presentation" target="stock_slide-show"/>
+	<alias name="view-filter" target="stock_standard-filter"/>
+	<alias name="kt-add-filters" target="stock_standard-filter"/>
+
+</theme>

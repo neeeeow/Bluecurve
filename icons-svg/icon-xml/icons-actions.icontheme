@@ -149,7 +149,7 @@
 	<alias name="contact-new" target="stock-book-open"/>
 	<alias name="document-new" target="stock-new"/>
 	<alias name="document-open" target="stock-open"/>
-	<alias name="document-open-recent" target="stock-open"/>
+	<alias name="document-open-recent" target="stock-history"/>
 	<alias name="document-print" target="stock-print"/>
 	<alias name="document-print-preview" target="stock-print-preview"/>
 	<alias name="document-properties" target="stock-properties"/>
@@ -189,7 +189,7 @@
 	<alias name="help-faq" target="stock-help"/>
 	<alias name="insert-image" target="stock-insert-image"/>
 	<alias name="insert-object" target="stock-insert-object"/>
-	<alias name="mail-message-new" target="stock-send-link"/>
+	<alias name="mail-send" target="stock-send-link"/>
 	<alias name="media-playback-pause" target="stock-media-pause"/>
 	<alias name="media-playback-start" target="stock-media-play"/>
 	<alias name="media-playback-stop" target="stock-media-stop"/>
@@ -384,7 +384,13 @@
 	-->
 
 	<!-- Other action icons -->
+	<alias name="document-single" target="stock-new"/>
 	<alias name="folder-open-recent" target="stock-open"/>
+	<alias name="document-open-folder" target="stock-open"/>
+	<alias name="project-open" target="stock-open"/>
+	<alias name="scriptopen" target="stock-open"/>
+	<alias name="document-save-all" target="stock-save"/>
+	<alias name="geany-save-all" target="stock-save"/>
 	<alias name="system-save-session" target="stock-save"/>
 	<alias name="document-import" target="stock-import"/>
 	<alias name="document-export" target="stock-export"/>
@@ -407,6 +413,7 @@
 	<alias name="run-build" target="stock-execute"/>
 	<alias name="debug-run" target="stock-execute"/>
 	<alias name="scriptnew" target="stock-execute"/>
+	<alias name="amarok_scripts" target="stock-execute"/>
 	<alias name="document-edit" target="stock-edit"/>
 	<alias name="mail-attachment" target="stock-attach"/>
 	<alias name="mail-forward-attachment" target="stock-attach"/>
@@ -450,10 +457,6 @@
 	<alias name="configure_project" target="stock-preferences"/>
 	<alias name="configure_kile" target="stock-preferences"/>
 	<alias name="tab-new" target="stock-new-tab"/>
-	<alias name="zoom-selection" target="stock-zoom-fit"/>
-	<alias name="zoom-select" target="stock-zoom-fit"/>
-	<alias name="zoom-select-fit" target="stock-zoom-fit"/>
-	<alias name="zoom-fit-selection" target="stock-zoom-fit"/>
 	<alias name="zoom-fit-drawing" target="stock-zoom-fit"/>
 	<alias name="zoom-draw" target="stock-zoom-fit"/>
 	<alias name="view-zoom-fit" target="stock-zoom-fit"/>
@@ -491,6 +494,8 @@
 	<alias name="document-encrypted" target="stock-lockscreen"/>
 	<alias name="document-encrypt" target="stock-lockscreen"/>
 	<alias name="globe" target="stock-panel-internet"/>
+	<alias name="open-link" target="stock-panel-internet"/>
+	<alias name="open-link-rtl" target="stock-panel-internet"/>
 	<alias name="internet-services" target="stock-panel-internet"/>
 	<alias name="internet-amarok" target="stock-panel-internet"/>
 	<alias name="document-multiple" target="stock-dnd-multiple"/>
@@ -530,8 +535,6 @@
 	<alias name="bookmark-toolbar" target="stock-bookmarks"/>
 	<alias name="bookmark-new-list" target="stock-bookmark-page"/>
 	<alias name="bookmark-new" target="stock-bookmark-page"/>
-	<alias name="bookmark-add" target="stock-bookmark-page"/>
-	<alias name="mail-message" target="stock-send-link"/>
 	<alias name="gnumeric-link-email" target="stock-send-link"/>
 	<alias name="download" target="stock-download"/>
 	<alias name="mail-download-now" target="stock-download"/>
@@ -549,6 +552,12 @@
 	<alias name="view-process-all-tree" target="stock-view-tree"/>
 	<alias name="view-list-text" target="stock-text-generic"/>
 	<alias name="x-shape-text" target="stock-text-generic"/>
+
+	<!-- XFCE actions -->
+	<alias name="xfsm-shutdown" target="stock-disconnect"/>
+	<alias name="xfsm-lock" target="stock-lockscreen"/>
+	<alias name="xfsm-logout" target="stock-quit"/>
+	<alias name="xfsm-reboot" target="stock-refresh"/>
 
 	<!-- legacy KDE action icons -->
 	<!-- contributed by Kreg Steppe <kreg@virtual1.net> -->
@@ -626,7 +635,6 @@
 	<alias name="locationbar_erase" typedir="actions" target="stock-clear"/>
 	<alias name="history" typedir="actions" target="stock-history"/>
 	<alias name="bookmark" typedir="actions" target="stock-bookmarks"/>
-	<alias name="bookmark_add" typedir="actions" target="stock-bookmark-page"/>
 	<alias name="window_fullscreen" typedir="actions" target="stock-fullscreen"/>
 	<alias name="khtml_kget" typedir="actions" target="stock-download"/>
 </theme>
