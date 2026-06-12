@@ -161,6 +161,9 @@
 		<alias name="mate-system-log" target="icon-logbook"/><alias name="control-center2" target="icon-configuration"/>
 		<alias name="preferences-log" target="icon-logbook"/>
 		<alias name="utilities-log-viewer" target="icon-logbook"/>
+		<alias name="office-address-book" target="icon-logbook"/>
+		<alias name="kaddressbook" target="icon-logbook"/>
+		<alias name="x-office-address-book" typedir="mimetypes" target="icon-logbook"/>
 
 	<alias name="gdict" target="icon-documentation"/>
 		<alias name="accessories-dictionary" target="icon-documentation"/>
@@ -350,6 +353,7 @@
 		<alias name="org.xfce.parole" target="icon-media"/>
 		<alias name="plasma-media-center" target="icon-media"/>
 		<alias name="dragonplayer" target="icon-media"/>
+		<alias name="preferences-desktop-multimedia" target="icon-media"/>
 	
 	<alias name="gnome-terminal" target="icon-terminal"/>
 		<alias name="gnome-color-xterm" target="icon-terminal"/>
@@ -460,6 +464,7 @@
 		<alias name="key_bindings" target="icon-keyboard"/>
 		<alias name="kcharselect" target="icon-keyboard"/>
 		<alias name="preferences-keyboard" target="icon-keyboard"/>
+		<alias name="preferences-desktop-keyboard" target="icon-keyboard"/>
 		<alias name="org.xfce.settings.keyboard" target="icon-keyboard"/>
 		<alias name="yast-keyboard" target="icon-keyboard"/>
 		<alias name="input-keyboard" typedir="devices" target="icon-keyboard"/>
@@ -487,6 +492,7 @@
 
 	<alias name="monitor" target="icon-monitor"/>
 		<alias name="monitor" typedir="devices" target="icon-monitor"/>
+		<alias name="video-display" typedir="devices" target="icon-monitor"/>
 
 	<alias name="system-config-xfree" target="icon-x-config"/>
 		<alias name="xorg" target="icon-x-config"/>
@@ -549,6 +555,7 @@
 
 	<alias name="gnome-grecord" target="icon-mixer"/>
 		<alias name="kmix" target="icon-mixer"/>
+		<alias name="multimedia-volume-control" target="icon-mixer"/>
 
 	<alias name="launcher-program" target="icon-launcher"/>
 		<alias name="applications-science" target="icon-launcher"/>
@@ -607,6 +614,9 @@
 		<alias name="office-calendar" target="icon-date"/>
 		<alias name="calindori" target="icon-date"/>
 		<alias name="korganizer" target="icon-date"/>
+		<alias name="x-office-calendar" typedir="mimetypes" target="icon-date"/>
+		<alias name="text-calendar" typedir="mimetypes" target="icon-date"/>
+		<alias name="text-vcalendar" typedir="mimetypes" target="icon-date"/>
 
 	<alias name="gnome-run" target="icon-runapp"/>
 		<alias name="shell-output-logo" target="icon-runapp"/>

@@ -1,0 +1,918 @@
+<theme name="Bluecurve" typedir="mimetypes">
+   <source size="16" sizedir="16x16"/>
+   <source size="24" sizedir="24x24"/>
+   <source size="48" sizedir="48x48"/>
+  <layout>
+    <row>
+      <icon name="folder"/>
+      <icon name="folder-home"/>
+      <icon name="folder-apps"/>
+      <icon name="folder-locked"/>
+      <icon name="folder-accept"/>
+      <icon name="folder-visiting"/>
+    </row><row>
+      <icon name="floppy"/>
+      <icon name="harddrive"/>
+      <icon name="raid"/>
+      <icon name="fileshare"/>
+      <icon name="fileshare-nfs"/>
+      <icon name="fileshare-smb"/>
+      <icon name="cd"/>
+      <icon name="cd-audio"/>
+      <icon name="cd-video"/>
+      <icon name="cdr"/>
+      <icon name="cdrw"/>
+      <icon name="dvd"/>
+      <icon name="dvdr"/>
+      <icon name="dvdrw"/>
+      <icon name="dvdr-plus"/>
+      <icon name="dvdram"/>
+      <icon name="dvdrom"/>
+      <icon name="dvd-video" />
+    </row><row>
+      <icon name="archive"/>
+      <icon name="rpm"/>
+      <icon name="start-here"/>
+      <icon name="trash-full"/>
+      <icon name="trash-drop"/>
+      <icon name="trash-empty"/>
+      <icon name="pda"/>
+      <icon name="camcorder"/>
+      <icon name="tablet"/>
+      <icon name="scanner"/>
+    </row><row>
+      <icon name="multiple-files"/>
+      <icon name="file"/>
+      <icon name="file-broken"/>
+      <icon name="file-loading"/>
+      <icon name="file-unknown"/>
+      <icon name="file-help"/>
+      <icon name="file-url"/>
+      <icon name="file-media"/>
+      <icon name="file-keys"/>
+      <icon name="file-gimp"/>
+      <icon name="file-lock"/>
+      <icon name="file-executable"/>
+      <icon name="file-wordprocessor"/>
+      <icon name="file-presentation"/>
+      <icon name="file-spreadsheet"/>
+      <icon name="file-launcher"/>
+      <icon name="file-security"/>
+      <icon name="file-clipboard"/>
+      <icon name="file-font"/>
+      <icon name="file-device"/>
+      <icon name="file-generic"/>
+    </row><row>
+      <icon name="file-container"/>
+      <icon name="file-doc_container"/>
+      <icon name="file-document"/>
+      <icon name="file-style"/>
+      <icon name="file-xml"/>
+      <icon name="file-info"/>
+      <icon name="file-bug"/>
+      <icon name="file-about"/>
+      <icon name="file-amusement"/>
+    </row><row>
+      <icon name="file-devel"/>
+      <icon name="file-devel-c"/>
+      <icon name="file-devel-cpp"/>
+      <icon name="file-devel-h"/>
+      <icon name="file-devel-java"/>
+      <icon name="file-devel-perl"/>
+      <icon name="file-devel-python"/>
+      <icon name="file-devel-php"/>
+    </row><row>
+      <icon name="file-gfx"/>
+      <icon name="file-gfx-png"/>
+      <icon name="file-gfx-jpg"/>
+      <icon name="file-gfx-gif"/>
+      <icon name="file-gfx-bmp"/>
+      <icon name="file-gfx-xpm"/>
+      <icon name="file-gfx-ico"/>
+    </row><row>
+      <icon name="file-printer"/>
+      <icon name="file-printer-eps"/>
+      <icon name="file-printer-ps"/>
+      <icon name="file-printer-pdf"/>
+      <icon name="file-printer-tex"/>
+      <icon name="file-printer-dvi"/>
+    </row><row>
+      <icon name="file-audio"/>
+      <icon name="file-audio-ogg"/>
+      <icon name="file-audio-mp3"/>
+      <icon name="file-audio-wav"/>
+      <icon name="file-audio-au"/>
+      <icon name="file-audio-aiff"/>
+      <icon name="file-audio-midi"/>
+    </row><row>
+      <icon name="file-video"/>
+      <icon name="file-video-avi"/>
+      <icon name="file-video-mov"/>
+      <icon name="file-video-asf"/>
+      <icon name="file-video-rm"/>
+      <icon name="file-video-mpeg"/>
+    </row><row>
+      <icon name="file-vector_art"/>
+      <icon name="file-vector_art-svg"/>
+      <icon name="file-vector_art-ai"/>
+      <icon name="file-vector_art-cdr"/>
+      <icon name="file-vector_art-fh"/>
+      <icon name="file-vector_art-sxd"/>
+      <icon name="file-vector_art-sda"/>
+      <icon name="file-vector_art-wmf"/>
+    </row>
+  </layout>
+
+  <!-- Aliases define extra icons via symlinks to those in the theme -->
+  <!--<alias name="" target="gtk-save"/>-->
+	<alias name="gnome-folder" typedir="places" target="folder"/>
+		<alias name="gnome-fs-directory" typedir="places" target="folder"/>
+		<alias name="folder_flat" typedir="places" target="folder"/>
+		<alias name="folder_open" typedir="places" target="folder"/>
+		<alias name="stock_folder" typedir="places" target="folder"/>
+		<alias name="folder" typedir="places" target="folder"/>
+
+	<alias name="gnome-fs-home" typedir="places" target="folder-home"/>
+		<alias name="folder_home" typedir="places" target="folder-home"/>
+		<alias name="gnome-home" typedir="apps" target="folder-home"/>
+		<alias name="kfm_home" typedir="apps" target="folder-home"/>
+		<alias name="redhat-home" typedir="apps" target="folder-home"/>
+		<alias name="temp-home" typedir="apps" target="folder-home"/>
+		<alias name="user-home" typedir="places" target="folder-home"/>
+		<alias name="caja_home" typedir="apps" target="folder-home"/>
+
+	<alias name="gnome-folder-apps" target="folder-apps"/>
+		<alias name="gnome-applications" typedir="apps" target="folder-apps"/>
+
+	<alias name="gnome-folder-locked" target="folder-locked"/>
+		<alias name="folder_locked" target="folder-locked"/>
+		<alias name="folder-locked" typedir="places" target="folder-locked"/>
+
+	<alias name="gnome-fs-directory-accept" typedir="places" target="folder-accept"/>
+		<alias name="folder-open" typedir="places" target="folder-accept"/>
+
+	<alias name="gnome-fs-directory-visiting" typedir="places" target="folder-visiting"/>
+
+	<alias name="gnome-floppy" target="floppy"/>
+		<alias name="media-floppy" typedir="devices" target="floppy"/>
+		<alias name="gnome-dev-floppy" typedir="devices" target="floppy"/>
+		<alias name="gnome-dev-jazdisk" typedir="devices" target="floppy"/>
+		<alias name="gnome-dev-zipdisk" typedir="devices" target="floppy"/>
+		<alias name="i-floppy" target="floppy"/>
+		<alias name="3floppy_mount" typedir="devices" target="floppy"/>
+		<alias name="3floppy_unmount" typedir="devices" target="floppy"/>
+		<alias name="5floppy_mount" typedir="devices" target="floppy"/>
+		<alias name="5floppy_unmount" typedir="devices" target="floppy"/>
+		<alias name="kfloppy" typedir="apps" target="floppy"/>
+
+	<alias name="gnome-dev-harddisk" typedir="devices" target="harddrive"/>
+		<alias name="hdd_mount" typedir="devices" target="harddrive"/>
+		<alias name="hdd_unmount" typedir="devices" target="harddrive"/>
+		<alias name="hdd_linux_mount" typedir="devices" target="harddrive"/>
+		<alias name="hdd_linux_unmount" typedir="devices" target="harddrive"/>
+		<alias name="hdd_win_mount" typedir="devices" target="harddrive"/>
+		<alias name="hdd_win_unmount" typedir="devices" target="harddrive"/>
+		<alias name="kcmdevices" typedir="apps" target="harddrive"/>
+		<alias name="drive-harddisk" typedir="devices" target="harddrive"/>
+		<alias name="drive-harddisk-system" typedir="devices" target="harddrive"/>
+		<alias name="drive-harddisk-usb" typedir="devices" target="harddrive"/>
+
+	<alias name="gnome-raid" target="raid"/>
+		<alias name="kcmpartitions" typedir="apps" target="raid"/>
+		<alias name="partitionmanager" typedir="apps" target="raid"/>
+
+	<alias name="gnome-mime-x-directory-share" target="fileshare"/>
+		<alias name="gnome-fs-share" typedir="places" target="fileshare"/>
+		<alias name="gnome-fs-ssh" typedir="places" target="fileshare"/>
+	
+	<alias name="gnome-mime-x-directory-nfs-share" target="fileshare-nfs"/>
+		<alias name="gnome-fs-nfs" typedir="places" target="fileshare-nfs"/>
+		<alias name="nfs_mount" typedir="devices" target="fileshare-nfs"/>
+		<alias name="nfs_unmount" typedir="devices" target="fileshare-nfs"/>
+
+	<alias name="gnome-mime-x-directory-smb-share" target="fileshare-smb"/>
+		<alias name="gnome-fs-smb" typedir="places" target="fileshare-smb"/>
+		<alias name="smb_mount" typedir="devices" target="fileshare-smb"/>
+		<alias name="smb_unmount" typedir="devices" target="fileshare-smb"/>
+		<alias name="application-x-smb-server" target="fileshare-smb"/>
+	
+	<alias name="gnome-dev-cdrom" typedir="devices" target="cd"/>
+		<alias name="cdrom_mount" target="cd"/>
+		<alias name="cdrom_unmount" target="cd"/>
+		<alias name="cdwriter_mount" target="cd"/>
+		<alias name="cdwriter_unmount" target="cd"/>
+		<alias name="gripicon" typedir="apps" target="cd"/>
+		<alias name="application-x-cd-image" target="cd"/>
+		<alias name="media-optical" typedir="devices" target="cd"/>
+		<alias name="drive-optical" typedir="devices" target="cd"/>
+
+	<alias name="gnome-cd-audio" target="cd-audio"/>
+		<alias name="gnome-dev-cdrom-audio" typedir="devices" target="cd-audio"/>
+		<alias name="gnome-cdplayer-icon" typedir="apps" target="cd-audio"/>
+		<alias name="gnome-cd" typedir="apps" target="cd-audio"/>
+		<alias name="cdaudio_mount" target="cd-audio"/>
+		<alias name="cdaudio_unmount" target="cd-audio"/>
+		<alias name="kscd" typedir="apps" target="cd-audio"/>
+		<alias name="media-optical-audio" typedir="devices" target="cd-audio"/>
+		<alias name="media-optical-cd-audio" typedir="devices" target="cd-audio"/>
+
+	<alias name="gnome-cd-video" target="cd-video"/>
+		<alias name="gnome-dev-dvd" typedir="devices" target="cd"/>
+		<alias name="dvd_mount" target="cd-video"/>
+		<alias name="dvd_unmount" target="cd-video"/>
+		<alias name="package_multimedia" typedir="apps" target="cd-video"/>
+		<alias name="gnome-optical-video" typedir="devices" target="cd"/>
+
+	<alias name="gnome-dev-disc-cdr" typedir="devices" target="cdr"/> 
+	<alias name="gnome-dev-disc-cdrw" typedir="devices" target="cdrw"/>
+
+	<alias name="gnome-dev-disc-dvd" typedir="devices" target="dvd"/>
+		<alias name="media-optical-dvd" typedir="devices" target="dvd"/>
+
+	<alias name="gnome-dev-disc-dvdr" typedir="devices" target="dvdr"/>
+	<alias name="gnome-dev-disc-dvdrw" typedir="devices" target="dvdrw"/>
+	<alias name="gnome-dev-disc-dvdrw-plus" typedir="devices" target="dvdr-plus"/>
+	<alias name="gnome-dev-disc-dvdram" typedir="devices" target="dvdram"/>
+	<alias name="gnome-dev-disc-dvdrom" typedir="devices" target="dvdrom"/>
+
+	<alias name="gnome-package" target="archive"/>
+		<alias name="gnome-mime-application-x-jar" target="archive"/>
+		<alias name="gnome-mime-application-x-tar" target="archive"/>
+		<alias name="gnome-mime-application-x-gzip" target="archive"/>
+		<alias name="gnome-mime-application-x-compressed-tar" target="archive"/>
+		<alias name="gnome-mime-application-x-unix-archive" target="archive"/>
+		<alias name="gnome-mime-application-x-backup" target="archive"/>
+		<alias name="gnome-mime-application-x-arj" target="archive"/>
+		<alias name="gnome-mime-application-x-compress" target="archive"/>
+		<alias name="gnome-mime-application-x-deb" target="archive"/>
+		<alias name="gnome-mime-application-x-stuffit" target="archive"/>
+		<alias name="gnome-mime-application-x-bzip" target="archive"/>
+		<alias name="gnome-mime-application-x-bzip-compressed-tar" target="archive"/>
+		<alias name="gnome-mime-application-zip" target="archive"/>
+		<alias name="tar" target="archive"/>
+		<alias name="tgz" target="archive"/>
+		<alias name="deb" target="archive"/>
+		<alias name="pk" target="archive"/>
+		<alias name="ark" typedir="apps" target="archive"/>
+		<alias name="package" typedir="apps" target="archive"/>
+		<alias name="package-x-generic" target="archive"/>
+		<alias name="application-x-jar" target="archive"/>
+		<alias name="application-x-tar" target="archive"/>
+		<alias name="application-x-tarz" target="archive"/>
+		<alias name="application-x-rar" target="archive"/>
+		<alias name="application-x-gzip" target="archive"/>
+		<alias name="application-gzip" target="archive"/>
+		<alias name="application-x-compressed-tar" target="archive"/>
+		<alias name="application-x-xz-compressed-tar" target="archive"/>
+		<alias name="application-x-lzma-compressed-tar" target="archive"/>
+		<alias name="application-x-archive" target="archive"/>
+		<alias name="application-x-unix-archive" target="archive"/>
+		<alias name="application-x-java-archive" target="archive"/>
+		<alias name="application-x-backup" target="archive"/>
+		<alias name="application-x-arj" target="archive"/>
+		<alias name="application-x-compress" target="archive"/>
+		<alias name="application-x-7z-compressed" target="archive"/>
+		<alias name="application-x-deb" target="archive"/>
+		<alias name="application-x-stuffit" target="archive"/>
+		<alias name="application-x-bzip" target="archive"/>
+		<alias name="application-x-bzip-compressed-tar" target="archive"/>
+		<alias name="application-zip" target="archive"/>
+
+	<alias name="gnome-rpm" target="rpm"/>
+		<alias name="gnome-mime-application-x-rpm" target="rpm"/>
+		<alias name="application-x-rpm" target="rpm"/>
+
+	<alias name="gnome-starthere" target="start-here"/>
+		<alias name="redhat-starthere" typedir="apps" target="start-here"/>
+		<alias name="start-here" typedir="places" target="start-here"/>
+		<alias name="start-here-kde" typedir="places" target="start-here"/>
+		<alias name="start-here-kde-plasma" typedir="places" target="start-here"/>
+
+	<alias name="gnome-fs-trash-full" typedir="places" target="trash-full"/>
+		<alias name="trashcan_full" typedir="places" target="trash-full"/>
+		<alias name="user-trash-full" typedir="places" target="trash-full"/>
+		<alias name="user-trash-full" typedir="status" target="trash-full"/>
+
+	<alias name="gnome-fs-trash-empty-accept" typedir="places" target="trash-drop"/>
+
+	<alias name="gnome-fs-trash-empty" typedir="places" target="trash-empty"/>
+		<alias name="trashcan_empty" typedir="places" target="trash-empty"/>
+		<alias name="user-trash" typedir="places" target="trash-empty"/>
+		<alias name="user-trash" typedir="status" target="trash-empty"/>
+
+	<alias name="pda" typedir="devices" target="pda"/>
+	<alias name="phone" typedir="devices" target="pda"/>
+		<alias name="smartphone" typedir="devices" target="pda"/>
+
+	<alias name="camera-video" typedir="devices" target="camcorder"/>
+
+	<alias name="input-tablet" typedir="devices" target="tablet"/>
+
+	<alias name="document-scan" typedir="actions" target="scanner"/>
+		<alias name="scanner" typedir="apps" target="scanner"/>
+		<alias name="scanner" typedir="devices" target="scanner"/>
+		<alias name="skanpage" typedir="apps" target="scanner"/>
+		<alias name="skanlite" typedir="apps" target="scanner"/>
+		<alias name="org.kde.skanlite" typedir="apps" target="scanner"/>
+
+	<!--<alias name="gnome-mime-text-plain" target="file-container"/>-->
+	<alias name="gnome-mime-text-plain" target="file-doc_container"/>
+		<alias name="text-x-plain" target="file-doc_container"/>
+		<alias name="text-plain" target="file-doc_container"/>
+
+	<alias name="gnome-mime-text-html" target="file-document"/>
+		<alias name="gnome-mime-text-docbook" target="file-document"/>
+		<alias name="html" target="file-document"/>
+		<alias name="netscape_doc" target="file-document"/>
+		<alias name="text-html" target="file-document"/>
+		<alias name="text-docbook" target="file-document"/>
+		<alias name="viewhtml" target="file-document"/>
+		<alias name="application-xhtml+xml" target="file-document"/>
+	
+	<alias name="gnome-mime-text-css" target="file-style"/>
+		<alias name="gnome-mime-text-xsl" target="file-style"/>
+		<alias name="source_css" target="file-style"/>
+		<alias name="source_xsl" target="file-style"/>
+		<alias name="text-css" target="file-style"/>
+		<alias name="text-xsl" target="file-style"/>
+	
+	<alias name="gnome-mime-text-xml" target="file-xml"/>
+		<alias name="gnome-mime-application-text-xml" target="file-xml"/>
+		<alias name="source_xml" target="file-xml"/>
+		<alias name="text-xml" target="file-xml"/>
+		<alias name="application-xml" target="file-xml"/>
+		<alias name="text-rdf+xml" target="file-xml"/>
+		<alias name="application-xslt+xml" target="file-xml"/>
+
+	<alias name="gnome-mime-application-x-gnome-app-info" target="file-info"/>
+		<alias name="gnome-mime-text-x-copying" target="file-info"/>
+		<alias name="gnome-mime-text-x-authors" target="file-info"/>
+		<alias name="gnome-mime-text-x-credits" target="file-info"/>
+		<alias name="info" target="file-info"/>
+		<alias name="text-x-copying" target="file-info"/>
+		<alias name="text-x-authors" target="file-info"/>
+		<alias name="text-x-credits" target="file-info"/>
+
+	<alias name="gnome-mime-application-x-core-file" target="file-bug"/>
+		<alias name="core" target="file-bug"/>
+		<alias name="application-x-core" target="file-bug"/>
+		
+	<alias name="gnome-mime-text-x-readme" target="file-about"/>
+		<alias name="gnome-mime-text-x-install" target="file-about"/>
+		<alias name="readme" target="file-about"/>
+		<alias name="install" target="file-about"/>
+		<alias name="text-x-readme" target="file-about"/>
+		<alias name="text-x-install" target="file-about"/>
+	
+	<alias name="gnome-mime-application-x-theme" target="file-amusement"/>
+		<alias name="gnome-mime-application-x-e-theme" target="file-amusement"/>
+		<alias name="application-x-theme" target="file-amusement"/>
+
+	<alias name="gnome-multiple-files" target="multiple-files"/>
+		<alias name="kmultiple" target="multiple-files"/>
+	
+	<alias name="gnome-mime-text" target="file"/>
+		<alias name="gnome-mime-application-x-trash" target="file"/>
+		<alias name="gnome-mime-text-x-log" target="file"/>
+		<alias name="gnome-mime-application-text" target="file"/>
+		<alias name="gnome-mime-application-qif" target="file"/>
+		<alias name="gnome-mime-application-x-gettext-translation" target="file"/>
+		<alias name="gnome-mime-text-x-gettext-translation" target="file"/>
+		<alias name="document" target="file"/>
+		<alias name="document2" target="file"/>
+		<alias name="misc_doc" target="file"/>
+		<alias name="mime_empty" target="file"/>
+		<alias name="gettext" target="file"/>
+		<alias name="gf" target="file"/>
+		<alias name="kugardata" target="file"/>
+		<alias name="log" target="file"/>
+		<alias name="mime_ascii" target="file"/>
+		<alias name="recycled" target="file"/>
+		<alias name="resource" target="file"/>
+		<alias name="source_txt" target="file"/>
+		<alias name="txt" target="file"/>
+		<alias name="text" target="file"/>
+		<alias name="application-x-trash" target="file"/>
+		<alias name="text-x-log" target="file"/>
+		<alias name="application-text" target="file"/>
+		<alias name="application-qif" target="file"/>
+		<alias name="application-x-gettext-translation" target="file"/>
+		<alias name="text-x-gettext-translation" target="file"/>
+		<alias name="text-x-generic" target="file"/>
+		<alias name="text-x-generic-template" target="file"/>
+
+	<alias name="gnome-mime-application-x-reject" target="file-broken"/>
+		<alias name="file_broken" typedir="places" target="file-broken"/>
+		<alias name="application-x-reject" target="file-broken"/>
+
+	<alias name="gnome-fs-loading-icon" target="file-loading"/>
+	
+	<alias name="gnome-unknown" target="file-unknown"/>
+		<alias name="unknown" target="file-unknown"/>
+
+	<alias name="gnome-mime-text-x-troff-man" target="file-help"/>
+		<alias name="man" target="file-help"/>
+		<alias name="application-x-troff-man" target="file-help"/>
+	
+	<alias name="gnome-fs-web" typedir="places" target="file-url"/>
+		<alias name="www" typedir="places" target="file-url"/>
+		<alias name="ftp" typedir="places" target="file-url"/>
+		<alias name="gnome-mime-application-x-desktop" target="file-url"/>
+		<alias name="application-x-desktop" target="file-url"/>
+	
+	<alias name="gnome-media" target="file-media"/>
+		<alias name="gnome-mime-application-x-smil" target="file-media"/>
+		<alias name="application-x-smil" target="file-media"/>
+		<alias name="real_doc" target="file-media"/>
+	
+	<alias name="gnome-mime-application-pgp-keys" target="file-keys"/>
+		<alias name="application-pgp-keys" target="file-keys"/>
+	
+	<alias name="gnome-mime-image-xcf" target="file-gimp"/>
+		<alias name="gnome-mime-image-x-xcf" target="file-gimp"/>
+		<alias name="gnome-mime-image-x-compressed-xcf" target="file-gimp"/>
+		<alias name="image-x-xcf" target="file-gimp"/>
+		<alias name="image-x-compressed-xcf" target="file-gimp"/>
+
+	<alias name="gnome-lock" target="file-lock"/>
+	
+	<alias name="gnome-executable" target="file-executable"/>
+		<alias name="gnome-mime-application-x-shared-library" target="file-executable"/>
+		<alias name="gnome-mime-application-x-sharedlib" target="file-executable"/>
+		<alias name="gnome-mime-application-object-file" target="file-executable"/>
+		<alias name="gnome-mime-application-x-object" target="file-executable"/>
+		<alias name="gnome-library" target="file-executable"/>
+		<alias name="binary" target="file-executable"/>
+		<alias name="binary2" target="file-executable"/>
+		<alias name="gnome-ccmime" target="file-executable"/>
+		<alias name="application-x-shared-library" target="file-executable"/>
+		<alias name="application-x-sharedlib" target="file-executable"/>
+		<alias name="application-object-file" target="file-executable"/>
+		<alias name="application-x-object" target="file-executable"/>
+
+	<alias name="gnome-wordprocessor" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-rtf" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-vnd.oasis.opendocument.text" target="file-wordprocessor" />
+		<alias name="gnome-mime-application-vnd.sun.xml.writer" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-vnd.stardivision.writer" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-msword" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-vnd.ms-word" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-x-abiword" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-x-applix-word" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-x-abiword" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-x-kword" target="file-wordprocessor"/>
+		<alias name="gnome-mime-application-x-lyx" target="file-wordprocessor"/>
+		<alias name="ooo_writer" target="file-wordprocessor"/>
+		<alias name="wordprocessing" target="file-wordprocessor"/>
+		<alias name="applix" target="file-wordprocessor"/>
+		<alias name="hancomword" target="file-wordprocessor"/>
+		<alias name="application-rtf" target="file-wordprocessor"/>
+		<alias name="text-rtf" target="file-wordprocessor"/>
+		<alias name="application-vnd.oasis.opendocument.text" target="file-wordprocessor" />
+		<alias name="application-vnd.sun.xml.writer" target="file-wordprocessor"/>
+		<alias name="application-vnd.stardivision.writer" target="file-wordprocessor"/>
+		<alias name="application-vnd.wordperfect" target="file-wordprocessor"/>
+		<alias name="application-msword" target="file-wordprocessor"/>
+		<alias name="application-vnd.ms-word" target="file-wordprocessor"/>
+		<alias name="application-x-abiword" target="file-wordprocessor"/>
+		<alias name="application-x-applix-word" target="file-wordprocessor"/>
+		<alias name="application-x-abiword" target="file-wordprocessor"/>
+		<alias name="application-x-kword" target="file-wordprocessor"/>
+		<alias name="application-x-lyx" target="file-wordprocessor"/>
+		<alias name="libreoffice-text" target="file-wordprocessor"/>
+		<alias name="libreoffice-oasis-text" target="file-wordprocessor"/>
+		<alias name="libreoffice-master-document" target="file-wordprocessor"/>
+		<alias name="libreoffice-oasis-master-document" target="file-wordprocessor"/>
+		<alias name="odf" target="file-wordprocessor"/>
+		<alias name="x-office-document" target="file-wordprocessor"/>
+		<alias name="application-wps-office.doc" target="file-wordprocessor"/>
+		<alias name="application-wps-office.docx" target="file-wordprocessor"/>
+
+	<alias name="gnome-presentation" target="file-presentation"/>
+		<alias name="gnome-mime-application-vnd.oasis.opendocument.presentation" target="file-presentation" />
+		<alias name="gnome-mime-application-vnd.sun.xml.impress" target="file-presentation"/>
+		<alias name="gnome-mime-application-vnd.stardivision.impress" target="file-presentation"/>
+		<alias name="gnome-mime-application-vnd.ms-powerpoint" target="file-presentation"/>
+		<alias name="gnome-mime-application-kpresenter" target="file-presentation"/>
+		<alias name="ooo_presenter" target="file-presentation"/>
+		<alias name="ooo_impress" target="file-presentation"/>
+		<alias name="hancompresenter" target="file-presentation"/>
+		<alias name="application-vnd.oasis.opendocument.presentation" target="file-presentation" />
+		<alias name="application-vnd.sun.xml.impress" target="file-presentation"/>
+		<alias name="application-vnd.stardivision.impress" target="file-presentation"/>
+		<alias name="application-vnd.ms-powerpoint" target="file-presentation"/>
+		<alias name="application-kpresenter" target="file-presentation"/>
+		<alias name="libreoffice-presentation" target="file-presentation"/>
+		<alias name="libreoffice-oasis-presentation" target="file-presentation"/>
+		<alias name="x-office-presentation" target="file-presentation"/>
+		<alias name="application-wps-office.ppt" target="file-presentation"/>
+		<alias name="application-wps-office.pptx" target="file-presentation"/>
+
+	<alias name="gnome-mime-application-gnumeric" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.stardivison.calc" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.oasis.opendocument.spreadsheet" target="file-spreadsheet" />
+		<alias name="gnome-mime-application-vnd.sun.xml.calc" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.ms-excel" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.applix-spreadsheet" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.kspread" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-vnd.lotus-1-2-3" target="file-spreadsheet"/>
+		<alias name="gnome-mime-application-kspread" target="file-spreadsheet"/>
+		<alias name="ooo_calc" target="file-spreadsheet"/>
+		<alias name="spreadsheet" target="file-spreadsheet"/>
+		<alias name="hancomsheet" target="file-spreadsheet"/>
+		<alias name="hancomsheet" target="file-spreadsheet"/>
+		<alias name="application-x-gnumeric" target="file-spreadsheet"/>
+		<alias name="application-vnd.stardivison.calc" target="file-spreadsheet"/>
+		<alias name="application-vnd.oasis.opendocument.spreadsheet" target="file-spreadsheet" />
+		<alias name="application-vnd.sun.xml.calc" target="file-spreadsheet"/>
+		<alias name="application-vnd.ms-excel" target="file-spreadsheet"/>
+		<alias name="application-vnd.applix-spreadsheet" target="file-spreadsheet"/>
+		<alias name="application-x-applix-spreadsheet" target="file-spreadsheet"/>
+		<alias name="application-vnd.kspread" target="file-spreadsheet"/>
+		<alias name="application-vnd.lotus-1-2-3" target="file-spreadsheet"/>
+		<alias name="application-kspread" target="file-spreadsheet"/>
+		<alias name="libreoffice-spreadsheet" target="file-spreadsheet"/>
+		<alias name="libreoffice-oasis-spreadsheet" target="file-spreadsheet"/>
+		<alias name="x-office-spreadsheet" target="file-spreadsheet"/>
+		<alias name="application-wps-office.xls" target="file-spreadsheet"/>
+		<alias name="application-wps-office.xlsx" target="file-spreadsheet"/>
+
+	<alias name="gnome-mime-application-x-executable-binary" target="file-launcher"/>
+		<alias name="gnome-mime-application-x-executable" target="file-launcher"/>
+		<alias name="gnome-mime-text-x-sh" target="file-launcher"/>
+		<alias name="gnome-mime-text-x-csh" target="file-launcher"/>
+		<alias name="gnome-mime-text-x-haskell" target="file-launcher"/>
+		<alias name="gnome-mime-text-x-zsh" target="file-launcher"/>
+		<alias name="gnome-mime-text-x-ksh" target="file-launcher"/>
+		<alias name="gnome-mime-application-x-shellscript" target="file-launcher"/>
+		<alias name="gnome-fs-executable" typedir="places" target="file-launcher"/>
+		<alias name="exec" typedir="places" target="file-launcher"/>
+		<alias name="application-x-executable-binary" target="file-launcher"/>
+		<alias name="application-x-executable" target="file-launcher"/>
+		<alias name="application-x-executable-script" target="file-launcher"/>
+		<alias name="text-x-sh" target="file-launcher"/>
+		<alias name="text-x-csh" target="file-launcher"/>
+		<alias name="text-x-haskell" target="file-launcher"/>
+		<alias name="text-x-zsh" target="file-launcher"/>
+		<alias name="text-x-ksh" target="file-launcher"/>
+		<alias name="text-x-script" target="file-launcher"/>
+		<alias name="application-x-shellscript" target="file-launcher"/>
+		<alias name="application-x-macbinary" target="file-launcher"/>
+		<alias name="application-x-ms-dos-executable" target="file-launcher"/>
+
+	<alias name="gnome-mime-application-pgp" target="file-security"/>
+		<alias name="gnome-mime-application-pgp-encrypted" target="file-security"/>
+		<alias name="encrypted" target="file-security"/>
+		<alias name="application-pgp-encrypted" target="file-security"/>
+
+	<alias name="gnome-clipboard" target="file-clipboard"/>
+	
+	<alias name="gnome-mime-application-x-font-pcf" target="file-font"/>
+		<alias name="gnome-mime-application-x-font-ttf" target="file-font"/>
+		<alias name="gnome-mime-application-x-font-afm" target="file-font"/>
+		<alias name="gnome-mime-application-x-font-bdf" target="file-font"/>
+		<alias name="gnome-mime-application-x-font-psf" target="file-font"/>
+		<alias name="gnome-mime-application-x-font-sunos-news" target="file-font"/>
+		<alias name="gnome-mime-x-font-afm" target="file-font"/>
+		<alias name="font_bitmap" target="file-font"/>
+		<alias name="font_truetype" target="file-font"/>
+		<alias name="font_type1" target="file-font"/>
+		<alias name="metafont" target="file-font"/>
+		<alias name="font-x-generic" target="file-font"/>
+		<alias name="font-ttf" target="file-font"/>
+		<alias name="font-otf" target="file-font"/>
+		<alias name="fonts-package" target="file-font"/>
+		<alias name="application-x-font-pcf" target="file-font"/>
+		<alias name="application-x-font-ttf" target="file-font"/>
+		<alias name="application-x-font-afm" target="file-font"/>
+		<alias name="application-x-font-bdf" target="file-font"/>
+		<alias name="application-x-font-psf" target="file-font"/>
+		<alias name="application-x-font-sunos-news" target="file-font"/>
+		<alias name="application-x-font-type1" target="file-font"/>
+		<alias name="application-x-font-ttx" target="file-font"/>
+		<alias name="application-x-font-snf" target="file-font"/>
+		<alias name="application-x-font-otf" target="file-font"/>
+	
+	<alias name="gnome-mime-application-x-gameboy-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-genesis-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-msx-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-n64-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-nes-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-sms-rom" target="file-device"/>
+		<alias name="gnome-mime-application-x-dc-rom" target="file-device"/>
+		<alias name="application-x-gameboy-rom" target="file-device"/>
+		<alias name="application-x-genesis-rom" target="file-device"/>
+		<alias name="application-x-msx-rom" target="file-device"/>
+		<alias name="application-x-n64-rom" target="file-device"/>
+		<alias name="application-x-nes-rom" target="file-device"/>
+		<alias name="application-x-sms-rom" target="file-device"/>
+		<alias name="application-x-dc-rom" target="file-device"/>
+		<alias name="application-x-nintendo-ds-rom" target="file-device"/>
+		<alias name="application-x-gba-rom" target="file-device"/>
+		<alias name="application-x-gamecube-rom" target="file-device"/>
+		<alias name="application-vnd.nintendo.snes.rom" target="file-device"/>
+
+	<alias name="gnome-mime-application-octet-stream" target="file-generic"/>
+		<alias name="application-octet-stream" target="file-generic"/>
+
+	<alias name="gnome-mime-text-devel" target="file-devel"/>
+		<alias name="gnome-mime-text-x-makefile" target="file-devel"/>
+		<alias name="gnome-mime-text-x-patch" target="file-devel"/>
+		<alias name="gnome-mime-application-x-scheme" target="file-devel"/>
+		<alias name="gnome-mime-x-wais-source" target="file-devel"/>
+		<alias name="gnome-mime-text-x-moc" target="file-devel"/>
+		<alias name="make" target="file-devel"/>
+		<alias name="shellscript" target="file-devel"/>
+		<alias name="shellscript2" target="file-devel"/>
+		<alias name="source" target="file-devel"/>
+		<alias name="source_f" target="file-devel"/>
+		<alias name="source_l" target="file-devel"/>
+		<alias name="source_o" target="file-devel"/>
+		<alias name="source_p" target="file-devel"/>
+		<alias name="source_s" target="file-devel"/>
+		<alias name="source_y" target="file-devel"/>
+		<alias name="source_moc" target="file-devel"/>
+		<alias name="text-devel" target="file-devel"/>
+		<alias name="text-x-makefile" target="file-devel"/>
+		<alias name="text-x-cmake" target="file-devel"/>
+		<alias name="text-x-patch" target="file-devel"/>
+		<alias name="application-x-scheme" target="file-devel"/>
+		<alias name="x-wais-source" target="file-devel"/>
+		<alias name="text-x-moc" target="file-devel"/>
+
+	<alias name="gnome-mime-text-x-c" target="file-devel-c"/>
+		<alias name="gnome-mime-text-x-csrc" target="file-devel-c"/>
+		<alias name="source_c" target="file-devel-c"/>
+		<alias name="text-x-c" target="file-devel-c"/>
+		<alias name="text-x-csrc" target="file-devel-c"/>
+
+	<alias name="gnome-mime-text-x-cpp" target="file-devel-cpp"/>
+		<alias name="gnome-mime-text-x-c++" target="file-devel-cpp"/>
+		<alias name="gnome-mime-text-x-c++src" target="file-devel-cpp"/>
+		<alias name="source_cpp" target="file-devel-cpp"/>
+		<alias name="text-x-cpp" target="file-devel-cpp"/>
+		<alias name="text-x-c++" target="file-devel-cpp"/>
+		<alias name="text-x-c++src" target="file-devel-cpp"/>
+
+	<alias name="gnome-mime-text-x-c-header" target="file-devel-h"/>
+		<alias name="gnome-mime-text-x-chdr" target="file-devel-h"/>
+		<alias name="source_h" target="file-devel-h"/>
+		<alias name="text-x-c-header" target="file-devel-h"/>
+		<alias name="text-x-chdr" target="file-devel-h"/>
+		<alias name="text-x-c++hdr" target="file-devel-h"/>
+
+	<alias name="gnome-mime-text-x-java" target="file-devel-java"/>
+		<alias name="gnome-mime-text-x-java-byte-code" target="file-devel-java"/>
+		<alias name="source_java" target="file-devel-java"/>
+		<alias name="text-x-java" target="file-devel-java"/>
+		<alias name="text-x-java-source" target="file-devel-java"/>
+		<alias name="text-x-java-byte-code" target="file-devel-java"/>
+		<alias name="application-x-java" target="file-devel-java"/>
+
+	<alias name="gnome-mime-text-x-perl" target="file-devel-perl"/>
+		<alias name="gnome-mime-application-x-perl" target="file-devel-perl"/>
+		<alias name="source_perl" target="file-devel-perl"/>
+		<alias name="source_pl" target="file-devel-perl"/>
+		<alias name="text-x-perl" target="file-devel-perl"/>
+		<alias name="application-x-perl" target="file-devel-perl"/>
+
+	<alias name="gnome-mime-text-x-python" target="file-devel-python"/>
+		<alias name="gnome-mime-application-x-python" target="file-devel-python"/>
+		<alias name="source_python" target="file-devel-python"/>
+		<alias name="source_py" target="file-devel-python"/>
+		<alias name="text-x-python" target="file-devel-python"/>
+		<alias name="text-x-python2" target="file-devel-python"/>
+		<alias name="text-x-python3" target="file-devel-python"/>
+		<alias name="application-x-python" target="file-devel-python"/>
+		<alias name="application-x-python-bytecode" target="file-devel-python"/>
+
+	<alias name="gnome-mime-application-x-php" target="file-devel-php"/>
+		<alias name="source_php" target="file-devel-php"/>
+		<alias name="application-x-php" target="file-devel-php"/>
+
+	<alias name="gnome-mime-image" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-portable-anymap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-portable-bitmap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-portable-graymap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-portable-pixmap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-lwo" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-lws" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-ief" target="file-gfx"/>
+		<alias name="gnome-mime-image-tiff" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-applix-graphic" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-cmu-raster" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-psd" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-rgb" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-tga" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-xbitmap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-xpixmap" target="file-gfx"/>
+		<alias name="gnome-mime-image-x-xwindowdump" target="file-gfx"/>
+		<alias name="image" target="file-gfx"/>
+		<alias name="image2" target="file-gfx"/>
+		<alias name="image3" target="file-gfx"/>
+		<alias name="hancompainter" target="file-gfx"/>
+		<alias name="image-x-portable-anymap" target="file-gfx"/>
+		<alias name="image-x-portable-bitmap" target="file-gfx"/>
+		<alias name="image-x-portable-graymap" target="file-gfx"/>
+		<alias name="image-x-portable-pixmap" target="file-gfx"/>
+		<alias name="image-x-lwo" target="file-gfx"/>
+		<alias name="image-x-lws" target="file-gfx"/>
+		<alias name="image-x-ief" target="file-gfx"/>
+		<alias name="image-tiff" target="file-gfx"/>
+		<alias name="image-x-applix-graphic" target="file-gfx"/>
+		<alias name="image-x-cmu-raster" target="file-gfx"/>
+		<alias name="image-x-psd" target="file-gfx"/>
+		<alias name="image-x-psdimage-x-psd" target="file-gfx"/>
+		<alias name="image-x-rgb" target="file-gfx"/>
+		<alias name="image-x-tga" target="file-gfx"/>
+		<alias name="image-x-xbitmap" target="file-gfx"/>
+		<alias name="image-x-xpixmap" target="file-gfx"/>
+		<alias name="image-x-xwindowdump" target="file-gfx"/>
+		<alias name="image-x-generic" target="file-gfx"/>
+
+	<alias name="gnome-mime-image-png" target="file-gfx-png"/>
+		<alias name="image-png" target="file-gfx-png"/>
+	
+	<alias name="gnome-mime-image-jpg" target="file-gfx-jpg"/>
+		<alias name="gnome-mime-image-jpeg" target="file-gfx-jpg"/>
+		<alias name="image-jpg" target="file-gfx-jpg"/>
+		<alias name="image-jpeg" target="file-gfx-jpg"/>
+		<alias name="image-jpeg2000" target="file-gfx-jpg"/>
+
+	<alias name="gnome-mime-image-gif" target="file-gfx-gif"/>
+		<alias name="image-gif" target="file-gfx-gif"/>
+
+	<alias name="gnome-mime-image-bmp" target="file-gfx-bmp"/>
+		<alias name="image-bmp" target="file-gfx-bmp"/>
+		<alias name="image-x-win-bmp" target="file-gfx-bmp"/>
+		<alias name="image-x-win-bitmap" target="file-gfx-bmp"/>
+
+	<alias name="gnome-mime-image-xpm" target="file-gfx-xpm"/>
+		<alias name="image-xpm" target="file-gfx-xpm"/>
+
+	<alias name="gnome-mime-image-x-ico" target="file-gfx-ico"/>
+		<alias name="image-x-ico" target="file-gfx-ico"/>
+		<alias name="image-ico" target="file-gfx-ico"/>
+
+	<alias name="gnome-dev-printer" typedir="devices" target="file-printer"/>
+		<alias name="print-manager" typedir="apps" target="file-printer"/>
+		<alias name="501_printeradmin" target="file-printer"/>
+		<alias name="ooo_printeradmin" target="file-printer"/>
+
+	<alias name="gnome-mime-application-encapsulatedpostscript" target="file-printer-eps"/>
+		<alias name="eps" target="file-printer-eps"/>
+		<alias name="image-x-eps" target="file-printer-eps"/>
+		<alias name="application-encapsulatedpostscript" target="file-printer-eps"/>
+
+	<alias name="gnome-mime-application-postscript" target="file-printer-ps"/>
+		<alias name="postscript" target="file-printer-ps"/>
+		<alias name="application-postscript" target="file-printer-ps"/>
+		<alias name="viewps" target="file-printer-ps"/>
+
+	<alias name="gnome-mime-application-pdf" target="file-printer-pdf"/>
+		<alias name="pdf" target="file-printer-pdf"/>
+		<alias name="application-pdf" target="file-printer-pdf"/>
+		<alias name="viewpdf" target="file-printer-pdf"/>
+	
+	<alias name="gnome-mime-text-x-tex" target="file-printer-tex"/>
+		<alias name="gnome-mime-application-x-tex" target="file-printer-tex"/>
+		<alias name="tex" target="file-printer-tex"/>
+		<alias name="text-x-tex" target="file-printer-tex"/>
+		<alias name="application-x-tex" target="file-printer-tex"/>
+
+	<alias name="gnome-mime-text-x-dvi" target="file-printer-dvi"/>
+		<alias name="dvi" target="file-printer-dvi"/>
+		<alias name="text-x-dvi" target="file-printer-dvi"/>
+
+	<alias name="gnome-mime-audio" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-ac3" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-it" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-mod" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-s3m" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-stm" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-ulaw" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-voc" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-xi" target="file-audio"/>
+		<alias name="gnome-mime-audio-x-xm" target="file-audio"/>
+		<alias name="cdtrack" target="file-audio"/>
+		<alias name="sound" target="file-audio"/>
+		<alias name="audio" target="file-audio"/>
+		<alias name="audio-x-generic" target="file-audio"/>
+		<alias name="audio-x-ac3" target="file-audio"/>
+		<alias name="audio-ac3" target="file-audio"/>
+		<alias name="audio-x-it" target="file-audio"/>
+		<alias name="audio-x-mod" target="file-audio"/>
+		<alias name="audio-x-s3m" target="file-audio"/>
+		<alias name="audio-x-stm" target="file-audio"/>
+		<alias name="audio-x-ulaw" target="file-audio"/>
+		<alias name="audio-x-voc" target="file-audio"/>
+		<alias name="audio-x-xi" target="file-audio"/>
+		<alias name="audio-x-xm" target="file-audio"/>
+
+	<alias name="gnome-mime-application-x-ogg" target="file-audio-ogg"/>
+		<alias name="gnome-mime-application-ogg" target="file-audio-ogg"/>
+		<alias name="application-x-ogg" target="file-audio-ogg"/>
+		<alias name="application-ogg" target="file-audio-ogg"/>
+		<alias name="audio-ogg" target="file-audio-ogg"/>
+
+	<alias name="gnome-mime-audio-x-mp3" target="file-audio-mp3"/>
+		<alias name="gnome-mime-audio-mpeg" target="file-audio-mp3"/>
+		<alias name="audio-x-mp3" target="file-audio-mp3"/>
+		<alias name="audio-mp3" target="file-audio-mp3"/>
+		<alias name="audio-x-mpeg" target="file-audio-mp3"/>
+		<alias name="audio-mpeg" target="file-audio-mp3"/>
+
+	<alias name="gnome-mime-audio-x-wav" target="file-audio-wav"/>
+		<alias name="audio-x-wav" target="file-audio-wav"/>
+
+	<alias name="gnome-mime-audio-basic" target="file-audio-au"/>
+		<alias name="gnome-mime-audio-x-au" target="file-audio-au"/>
+		<alias name="audio-basic" target="file-audio-au"/>
+		<alias name="audio-x-au" target="file-audio-au"/>
+
+	<alias name="gnome-mime-audio-x-aiff" target="file-audio-aiff"/>
+		<alias name="audio-x-aiff" target="file-audio-aiff"/>
+	
+	<alias name="gnome-mime-audio-x-midi" target="file-audio-midi"/>
+		<alias name="midi" target="file-audio-midi"/>
+		<alias name="audio-x-midi" target="file-audio-midi"/>
+		<alias name="audio-midi" target="file-audio-midi"/>
+
+	<alias name="gnome-mime-video" target="file-video"/>
+		<alias name="video" target="file-video"/>
+		<alias name="video-x-generic" target="file-video"/>
+	
+	<alias name="gnome-mime-video-avi" target="file-video-avi"/>
+		<alias name="gnome-mime-video-x-ms-asf" target="file-video-avi"/>
+		<alias name="gnome-mime-video-x-msvideo" target="file-video-avi"/>
+		<alias name="gnome-mime-video-x-ms-wmv" target="file-video-avi"/>
+		<alias name="video-avi" target="file-video-avi"/>
+		<alias name="video-x-ms-asf" target="file-video-avi"/>
+		<alias name="video-x-msvideo" target="file-video-avi"/>
+		<alias name="video-x-wmv" target="file-video-avi"/>
+		<alias name="video-x-ms-wmv" target="file-video-avi"/>
+
+	<alias name="gnome-mime-video-quicktime" target="file-video-mov"/>
+		<alias name="video-quicktime" target="file-video-mov"/>
+
+	<alias name="gnome-mime-video-asf" target="file-video-asf"/>
+		<alias name="video-asf" target="file-video-asf"/>
+
+	<alias name="gnome-mime-audio-x-pn-realaudio" target="file-video-rm"/>
+		<alias name="gnome-mime-application-vnd.rn-realmedia" target="file-video-rm"/>
+		<alias name="audio-x-pn-realaudio" target="file-video-rm"/>
+		<alias name="audio-vnd.rn-realmedia" target="file-video-rm"/>
+		<alias name="application-vnd.rn-realmedia" target="file-video-rm"/>
+
+	<alias name="gnome-mime-video-mpeg" target="file-video-mpeg"/>
+		<alias name="video-mpeg" target="file-video-mpeg"/>
+		<alias name="video-mp4" target="file-video-mpeg"/>
+      
+	<alias name="gnome-mime-image-vector" target="file-vector_art"/>
+		<alias name="gnome-mime-application-x-killustrator" target="file-vector_art"/>
+		<alias name="gnome-mime-application-x-dia-diagram" target="file-vector_art"/>
+		<alias name="gnome-mime-image-x-xfig" target="file-vector_art"/>
+		<alias name="gnome-mime-image-x-3ds" target="file-vector_art"/>
+		<alias name="xfig" target="file-vector_art"/>
+		<alias name="vectorgfx" target="file-vector_art"/>
+		<alias name="ooo_draw" target="file-vector_art"/>
+		<alias name="image-vector" target="file-vector_art"/>
+		<alias name="application-x-killustrator" target="file-vector_art"/>
+		<alias name="application-x-dia-diagram" target="file-vector_art"/>
+		<alias name="image-x-xfig" target="file-vector_art"/>
+		<alias name="image-x-3ds" target="file-vector_art"/>
+		<alias name="libreoffice-drawing" target="file-vector_art"/>
+		<alias name="libreoffice-oasis-drawing" target="file-vector_art"/>
+		<alias name="x-office-drawing" target="file-vector_art"/>
+
+	<alias name="gnome-mime-image-x-svg" target="file-vector_art-svg"/>
+		<alias name="gnome-mime-image-svg" target="file-vector_art-svg"/>
+		<alias name="gnome-mime-image-svg+xml" target="file-vector_art-svg"/>
+		<alias name="image-x-svg" target="file-vector_art-svg"/>
+		<alias name="image-x-svg+xml" target="file-vector_art-svg"/>
+		<alias name="image-svg" target="file-vector_art-svg"/>
+		<alias name="image-svg+xml" target="file-vector_art-svg"/>
+		<alias name="image-svg+xml-compressed" target="file-vector_art-svg"/>
+
+	<alias name="gnome-mime-image-x-ai" target="file-vector_art-ai"/>
+		<alias name="image-x-ai" target="file-vector_art-ai"/>
+		<alias name="application-illustrator" target="file-vector_art-ai"/>
+
+	<alias name="gnome-mime-image-x-cdr" target="file-vector_art-cdr"/>
+		<alias name="image-x-cdr" target="file-vector_art-cdr"/>
+
+	<alias name="gnome-mime-image-x-fh" target="file-vector_art-fh"/>
+		<alias name="image-x-fh" target="file-vector_art-fh"/>
+        
+	<alias name="gnome-mime-application-vnd.oasis.opendocument.graphics" target="file-vector_art-sxd"/>
+		<alias name="gnome-mime-application-vnd.sun.xml.draw" target="file-vector_art-sxd"/>
+		<alias name="application-vnd.oasis.opendocument.graphics" target="file-vector_art-sxd"/>
+		<alias name="application-vnd.sun.xml.draw" target="file-vector_art-sxd"/>
+
+	<alias name="gnome-mime-application-vnd.stardivision.draw" target="file-vector_art-sda"/>
+		<alias name="application-vnd.stardivision.draw" target="file-vector_art-sda"/>
+
+	<alias name="gnome-mime-image-x-wmf" target="file-vector_art-wmf"/>
+		<alias name="image-x-wmf" target="file-vector_art-wmf"/>
+		<alias name="application-x-wmf" target="file-vector_art-wmf"/>
+</theme>

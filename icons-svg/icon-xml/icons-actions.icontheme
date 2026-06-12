@@ -522,6 +522,7 @@
 	<alias name="archive-insert" target="stock-archive-insert"/>
 	<alias name="archive-remove" target="stock-archive-remove"/>
 	<alias name="archive-extract" target="stock-archive-extract"/>
+	<alias name="accessories-screenshot-tool" typedir="apps" target="stock-panel-screenshot"/>
 	<alias name="ksnapshot" typedir="apps" target="stock-panel-screenshot"/>
 	<alias name="applets-screenshooter" typedir="apps" target="stock-panel-screenshot"/>
 	<alias name="org.xfce.screenshooter" typedir="apps" target="stock-panel-screenshot"/>
