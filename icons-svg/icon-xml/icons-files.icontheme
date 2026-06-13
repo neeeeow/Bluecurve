@@ -185,6 +185,7 @@
 	<alias name="gnome-mime-x-directory-share" target="fileshare"/>
 		<alias name="gnome-fs-share" typedir="places" target="fileshare"/>
 		<alias name="gnome-fs-ssh" typedir="places" target="fileshare"/>
+		<alias name="folder-remote" typedir="places" target="fileshare"/>
 	
 	<alias name="gnome-mime-x-directory-nfs-share" target="fileshare-nfs"/>
 		<alias name="gnome-fs-nfs" typedir="places" target="fileshare-nfs"/>
