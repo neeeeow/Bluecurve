@@ -134,6 +134,7 @@
 
 	<alias name="gnome-fs-home" typedir="places" target="folder-home"/>
 		<alias name="folder_home" typedir="places" target="folder-home"/>
+		<alias name="folder-home" typedir="places" target="folder-home"/>
 		<alias name="gnome-home" typedir="apps" target="folder-home"/>
 		<alias name="kfm_home" typedir="apps" target="folder-home"/>
 		<alias name="redhat-home" typedir="apps" target="folder-home"/>

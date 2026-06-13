@@ -405,6 +405,7 @@
 	<alias name="akonadi-phone-home" target="stock-home"/>
 	<alias name="document-print-frame" target="stock-print"/>
 	<alias name="document-print-direct" target="stock-print"/>
+	<alias name="printer-printing" typedir="status" target="stock-print"/>
 	<alias name="help-whatisthis" target="stock-help"/>
 	<alias name="help-latex" target="stock-help"/>
 	<alias name="help-feedback" target="stock-help"/>

@@ -1,0 +1,37 @@
+<theme name="Bluecurve" typedir="emblems">
+   <source size="36" sizedir="48x48"/>
+  <layout>
+    <row>
+			<icon name="emblem-art"/>
+			<icon name="emblem-web"/>
+			<icon name="emblem-documentation"/>
+			<icon name="emblem-sound"/>
+			<icon name="emblem-video"/>
+			<icon name="emblem-multimedia"/>
+			<icon name="emblem-documents"/>
+			<icon name="emblem-package"/>
+			<icon name="emblem-wordprocessor"/>
+			<icon name="emblem-edit"/>
+			<icon name="emblem-favorite"/>
+			<icon name="emblem-bug"/>
+			<icon name="emblem-question"/>
+			<icon name="emblem-rocket"/>
+			<icon name="emblem-security"/>
+			<icon name="emblem-keys"/>
+			<icon name="emblem-gear"/>
+    </row><row>
+			<icon name="emblem-home"/>
+			<icon name="emblem-apps"/>
+			<icon name="emblem-lock"/>
+    </row><row>
+			<icon name="emblem-symbolic-link"/>
+    </row><row>
+			<icon name="emblem-nowrite"/>
+			<icon name="emblem-noread"/>
+    </row>
+  </layout>
+
+  <!-- Aliases define extra icons via symlinks to those in the theme -->
+  <!--<alias typedir="emblems" name="disk" target="gtk-save"/>-->
+  <!-- Aliases for icons can also have display names -->
+</theme>

@@ -1,0 +1,20 @@
+<theme name="Bluecurve" typedir="actions">
+   <source size="48" sizedir="48x48"/>
+
+  <layout>
+    <row>
+			<icon name="dialog-info"/>
+			<icon name="dialog-warning"/>
+			<icon name="dialog-error"/>
+			<icon name="dialog-question"/>
+    </row>
+  </layout>
+
+  <!-- Aliases define extra icons via symlinks to those in the theme -->
+  <!--<alias typedir="emblems" name="disk" target="gtk-save"/>-->
+  <!-- Aliases for icons can also have display names -->
+	<alias name="gtk-dialog-info" target="dialog-info"/>
+	<alias name="gtk-dialog-warning" target="dialog-warning"/>
+	<alias name="gtk-dialog-error" target="dialog-error"/>
+	<alias name="gtk-dialog-question" target="dialog-question"/>
+</theme>

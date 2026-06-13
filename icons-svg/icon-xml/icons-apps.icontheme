@@ -666,6 +666,8 @@
 		<alias name="desktop" target="icon-desktop"/>
 		<alias name="switchdesk" target="icon-desktop"/>
 		<alias name="org.xfce.panel.showdesktop" target="icon-desktop"/>
+		<alias name="desktop" typedir="places" target="icon-desktop"/>
+		<alias name="user-desktop" typedir="places" target="icon-desktop"/>
 	
 	<alias name="gnome-session" target="icon-applications"/>
 		<alias name="package_system" target="icon-applications"/>

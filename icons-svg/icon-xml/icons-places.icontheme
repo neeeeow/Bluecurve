@@ -1,0 +1,63 @@
+<theme name="Bluecurve" typedir="places">
+	<source size="16" sizedir="16x16"/>
+	<source size="24" sizedir="24x24"/>
+	<source size="48" sizedir="48x48"/>
+
+	<layout>
+	<row>
+		<icon name="folder-activities"/>
+		<icon name="folder-book"/>
+		<icon name="folder-bookmark"/>
+		<icon name="folder-html"/>
+		<icon name="folder-comic"/>
+		<icon name="folder-build"/>
+		<icon name="folder-documents"/>
+		<icon name="folder-downloads"/>
+		<icon name="folder-unlocked"/>
+		<icon name="folder-favorites"/>
+		<icon name="folder-games"/>
+		<icon name="folder-image-people"/>
+		<icon name="folder-important"/>
+		<icon name="folder-library"/>
+		<icon name="folder-mail"/>
+		<icon name="folder-music"/>
+		<icon name="folder-network"/>
+		<icon name="folder-pictures"/>
+		<icon name="folder-print"/>
+		<icon name="folder-public"/>
+		<icon name="folder-recent"/>
+	</row><row>
+		<icon name="folder-encrypted"/>
+		<icon name="folder-script"/>
+		<icon name="folder-tar"/>
+		<icon name="folder-templates"/>
+		<icon name="folder-text"/>
+		<icon name="folder-videos"/>
+		<icon name="folder-notes"/>
+		<icon name="folder-rpm"/>
+		<icon name="folder-temp"/>
+		<icon name="folder-locked"/>
+		<icon name="folder-chart"/>
+	</row>
+	</layout>
+
+	<alias name="user-bookmarks" target="folder-bookmark"/>
+	<alias name="folder-cloud" target="folder-html"/>
+	<alias name="folder-dropbox" target="folder-html"/>
+	<alias name="folder-cloud" target="folder-html"/>
+	<alias name="folder_html" target="folder-html"/>
+	<alias name="folder-gdrive" target="folder-html"/>
+	<alias name="folder-onedrive" target="folder-html"/>
+	<alias name="folder-owncloud" target="folder-html"/>
+	<alias name="folder-remote" target="folder-html"/>
+	<alias name="folder-development" target="folder-build"/>
+	<alias name="folder-download" target="folder-downloads"/>
+	<alias name="favorites" target="folder-favorites"/>
+	<alias name="folder-picture" target="folder-pictures"/>
+	<alias name="folder-paint" target="folder-pictures"/>
+	<alias name="folder-publicshare" target="folder-public"/>
+	<alias name="folder-drawing" target="folder-templates"/>
+	<alias name="folder-txt" target="folder-text"/>
+	<alias name="folder-video" target="folder-videos"/>
+
+</theme>
