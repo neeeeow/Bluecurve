@@ -148,6 +148,7 @@
 	<alias name="gnome-folder-locked" target="folder-locked"/>
 		<alias name="folder_locked" target="folder-locked"/>
 		<alias name="folder-locked" typedir="places" target="folder-locked"/>
+		<alias name="folder-locked" typedir="places" target="folder-encrypted"/>
 
 	<alias name="gnome-fs-directory-accept" typedir="places" target="folder-accept"/>
 		<alias name="folder-open" typedir="places" target="folder-accept"/>
