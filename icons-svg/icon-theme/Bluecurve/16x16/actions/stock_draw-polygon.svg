@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="-.5" y=".5" width="18" height="17" maskUnits="userSpaceOnUse">
+      <polyline points="16.4999847 1.5000191 .4999847 1.5000191 .4999847 16.4999886 16.4999847 16.4999886 16.4999847 1.5000191" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-144" y1="-32.0000005" x2="-143" y2="-32.0000005" gradientTransform="translate(-1142.0018768 -640.3515625) rotate(-138.0127957) scale(8.9694669 -8.9694669)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_25" data-name="New Gradient Swatch 25" x1="4.9757263" y1="6.0066036" x2="12.6521042" y2="12.5598613" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="18" height="17" transform="translate(-.5 .5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAASCAYAAAC5DOVpAAAACXBIWXMAAAsSAAALEgHS3X78AAAAs0lEQVQ4jeWTTQvCMBBEX6xKaMWTJ/H//7KCd0tRED8ObmFNJumlB8GBsNBMZl+7KfyqgnjWANGq0gO4Wf3SWpgjcAK6QtgI9FarYY2F7IGWnPzlPBld+iotcLSwlaAKdiYY2d1v+gNTx040UfSZz4dF4GB1TtKbktWmmNJlXh9WHLmQ9Prkp9UdsJ0JuwJnYOAzYUk22qrRFX3p9/F0G/Q9k1SQX9qp66VCV6Rf9N/8E70BVXkuQMbtg1MAAAAASUVORK5CYII="/>
+    </g>
+    <polygon points="5.1670074 13.5 2.3329926 8.5 5.1670074 3.5 10.8329926 3.5 13.6670074 8.5 10.8329926 13.5 5.1670074 13.5" fill="url(#linear-gradient)"/>
+    <polygon points="5.1670074 13.5 5.6019897 13.2534485 2.9077148 8.5 5.4583282 3.9999962 10.5416412 3.9999962 13.0922546 8.4999962 10.5416412 12.9999924 5.1670074 13 5.1670074 13.5 5.6019897 13.2534485 5.1670074 13.5 5.1670074 13.9999962 11.1243134 13.9999962 14.2417297 8.4999847 11.1243134 3 4.8756409 3 1.7582397 8.4999924 4.8756409 13.9999962 5.1670074 13.9999962 5.1670074 13.5"/>
+  </g>
+  <polygon points="5.667 12.7061 3.333 8.5884 5.667 4.4707 10.333 4.4707 12.667 8.5884 10.333 12.7061 5.667 12.7061" fill="url(#New_Gradient_Swatch_25)"/>
+</svg>

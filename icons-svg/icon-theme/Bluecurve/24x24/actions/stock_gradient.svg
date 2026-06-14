@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_4" data-name="Set 4" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="4.7350654" y1="12" x2="30.7240812" y2="12" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="3.3267505" y1="12.49365" x2="23.9649293" y2="12.49365" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <rect x="4.5" y="5.5" width="15.882794" height="13" fill="url(#White_Black)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="6.1171944" y="7.1143" width="13.8828056" height="10.7587" fill="url(#White_Black-2)"/>
+</svg>

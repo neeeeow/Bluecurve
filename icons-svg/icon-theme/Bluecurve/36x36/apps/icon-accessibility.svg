@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_7" data-name="Layer 7" xmlns="http://www.w3.org/2000/svg" width="36" height="36" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 36 36">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_8" data-name="New Gradient Swatch 8" x1="6" y1="18" x2="30" y2="18" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b0caff"/>
+      <stop offset=".1381484" stop-color="#97b5f2"/>
+      <stop offset=".4019205" stop-color="#6f93dd"/>
+      <stop offset=".64258" stop-color="#527ace"/>
+      <stop offset=".8499057" stop-color="#406bc5"/>
+      <stop offset="1" stop-color="#3a66c2"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="12.1872" cy="-.5616" fx="12.1872" fy="-.5616" r="34.9282495" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b0caff"/>
+      <stop offset=".0650509" stop-color="#9cb8f2"/>
+      <stop offset=".2011342" stop-color="#7999db"/>
+      <stop offset=".3392313" stop-color="#5e81c9"/>
+      <stop offset=".4783251" stop-color="#4a6fbc"/>
+      <stop offset=".6190887" stop-color="#3e65b4"/>
+      <stop offset=".764045" stop-color="#3b62b2"/>
+    </radialGradient>
+  </defs>
+  <rect x="6" y="6" width="24" height="24" rx="2.8574" ry="2.8574" fill="#69c" stroke="#000" stroke-width="2"/>
+  <g>
+    <rect x="6" y="6" width="24" height="24" rx="2.8574" ry="2.8574" fill="url(#New_Gradient_Swatch_8)"/>
+    <rect x="6" y="6" width="24" height="24" rx="2.8574" ry="2.8574" fill="url(#radial-gradient)"/>
+  </g>
+  <g>
+    <polygon points="25.9198857 22.4512 23.9511858 22.9424 21.5282858 17.8779 21.2948858 17.3911 20.7548858 17.3911 15.171886 17.3911 15.171886 16.2983 19.3515859 16.2983 19.3515859 14.584 15.171886 14.584 15.171886 9.8276 13.458 9.8276 13.458 15.4414 13.458 18.248 13.458 19.105 14.315386 19.105 20.2138858 19.105 22.7060858 24.3135 23.0077858 24.9443 23.6874858 24.7754 26.3358857 24.1152 25.9198857 22.4512" fill="#fff"/>
+    <path d="M16.877,10.3994c0,1.0991-.890714,1.9902-1.990314,1.9902-1.0986,0-1.9891999-.8911-1.9891999-1.9902,0-1.0986.8906-1.9897,1.9891999-1.9897,1.0996,0,1.990314.8911,1.990314,1.9897Z" fill="#fff"/>
+    <path d="M20.8456858,22.4106l-.1543-.0551c-.6601,1.834-2.4100999,3.0654-4.3534999,3.0654-2.5546999,0-4.6327999-2.0781-4.6327999-4.6323,0-1.0015.3213-1.9424.8965-2.7232v-2.3569l-.0215-.0278c-1.621086,1.1953-2.5888999,3.1049-2.5888999,5.1079,0,3.4995,2.8466999,6.3471,6.3466998,6.3471,2.1952999,0,4.2069999-1.1474,5.3544999-2.955-.2656-.5547-.5625-1.1758-.8467-1.7701Z" fill="#fff"/>
+  </g>
+  <rect x="7.0858862" y="7.0859" width="21.8281994" height="21.8282" rx="1.4561" ry="1.4561" fill="none" opacity=".25" stroke="#fff"/>
+</svg>

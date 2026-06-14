@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="9.7799072" y="21.9600092" width="16.5599993" height="14.5799994" maskUnits="userSpaceOnUse">
+      <path d="M25.1063232,22.3067932h1-1M26.1063232,22.3067932H10.0790405v14.0238342h16.0272827v-14.0238342" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="39.2483076" y1="27.4213684" x2="13.3854741" y2="11.0869097" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="21.3539391" y1="14.6824586" x2="41.0446921" y2="31.4922846" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M10.0790405,22.3067932h16.0272827v14.0238342H10.0790405v-14.0238342M27.1063232,21.3068237H9.0791016v16.0238037h18.0272217v-16.0238037" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M25.1063232,22.3067932h1-1M26.1063232,22.3067932H10.0790405v14.0238342h16.0272827v-14.0238342" fill="none"/>
+        <image width="92" height="81" transform="translate(9.7799072 36.5400085) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAABPCAYAAACEcbkUAAAACXBIWXMAAD2DAAA9gwGH6AkLAAABDklEQVR4nO3QQW6DMBBA0cHc/zK5QE8GdFclSGmz+ovqvY3NgC30t8fj8TUzs+/7rLVm3/eX/VrrZX+f3efvzmzbNsdxzHEcc57ny3qfzcyc5znXdf2sv+2fnz/5/q+z93/45P53755na8iIHRI7JHZI7JDYIbFDYofEDokdEjskdkjskNghsUNih8QOiR0SOyR2SOyQ2CGxQ2KHxA6JHRI7JHZI7JDYIbFDYofEDokdEjskdkjskNghsUNih8QOiR0SOyR2SOyQ2CGxQ2KHxA6JHRI7JHZI7JDYIbFDYofEDokdEjskdkjskNghsUNih8QOiR0SOyR2SOyQ2CGxQ2KHxA6JHRI7JHZIbP6nb8ejvQU1y5sFAAAAAElFTkSuQmCC"/>
+        <path d="M25.1063232,22.3067932h1-1M26.1063232,22.3067932H10.0790405v14.0238342h16.0272827v-14.0238342" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect x="17.091" y="11.288" width="22.0375832" height="18.197" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="20.0961837" y="14.2931" width="18.0306995" height="14.0239" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

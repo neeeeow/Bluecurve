@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.5597636" y1="17.5529377" x2="2.6503921" y2="9.3996317" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="6.6278094" y1="11.1943443" x2="16.4564166" y2="19.5849415" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="19.1329682" y1="13.8377574" x2="9.3337919" y2="4.7385223" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="12.4474633" y1="7.8787543" x2="19.9173359" y2="14.2557202" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="4.5" y="9.5" width="11" height="9.083" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="6" y="11" width="9" height="7" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g opacity=".75">
+    <circle cx="15" cy="10" r="5.5" fill="url(#linear-gradient-3)" stroke="#000"/>
+    <path d="M11.0624967,10.3906c0-2.3896,1.9375033-4.3281,4.3275999-4.3281,2.3901999,0,4.3286999,1.9385,4.3286999,4.3281,0,2.3907-1.9385,4.3291-4.3286999,4.3291-2.3900966,0-4.3275999-1.9384-4.3275999-4.3291Z" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

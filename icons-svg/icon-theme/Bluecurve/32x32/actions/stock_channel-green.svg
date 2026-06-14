@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_5" data-name="Set 5" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="25.7874176" y1="25.9530294" x2="6.2048561" y2="6.3704678" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="6.5092885" y1="20.01335" x2="25.183188" y2="20.01335" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#328e36"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="3.8415886" y="4.0072" width="24.0092994" height="24.0093" fill="#9c9c9c" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="3.8415886" y="4.0072" width="24.0092994" height="24.0093" fill="#fff"/>
+    <rect x="5.1753886" y="5.341" width="22.6754994" height="22.6755" fill="url(#linear-gradient)"/>
+  </g>
+  <g>
+    <rect x="6.5092885" y="6.6749" width="18.6738995" height="9.3369" fill="#bfbfbf"/>
+    <rect x="7.9458885" y="8.0087" width="17.2372996" height="8.0031" fill="#fff"/>
+    <polygon points="25.183188 16.0118 7.9458885 16.0118 25.183188 8.0087 25.183188 16.0118" fill="#328e36"/>
+  </g>
+  <rect x="6.5092885" y="18.6795" width="18.6738995" height="2.6677" fill="url(#linear-gradient-2)"/>
+  <polygon points="21.1815881 21.3459 22.5154881 23.3467 23.8492881 25.3474 21.1815881 25.3474 18.5138882 25.3474 19.8477882 23.3467 21.1815881 21.3459"/>
+</svg>

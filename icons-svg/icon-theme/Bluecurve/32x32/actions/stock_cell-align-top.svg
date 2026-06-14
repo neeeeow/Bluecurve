@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="22.885821" y1="23.150746" x2="9.0628451" y2="9.3277701" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="6.3354" y="7.9342" width="18.6739" height="16.0062" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="6.3354" y="7.9342" width="18.6739" height="16.0062" fill="#fff"/>
+  <rect x="7.66925" y="9.268" width="17.34005" height="14.6724" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="3.6677" y="6.6003" width="2.6677" height="1.3339" fill="gray"/>
+    <rect x="5.00155" y="5.2665" width="1.33385" height="2.6677" fill="gray"/>
+    <rect x="25.0093" y="6.6003" width="2.6677" height="1.3339" fill="gray"/>
+    <rect x="25.0093" y="5.2665" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="25.0093" y="23.9404" width="2.6677" height="1.3339" fill="gray"/>
+    <rect x="25.0093" y="23.9404" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="5.00155" y="23.9404" width="1.33385" height="2.6677" fill="gray"/>
+    <rect x="3.6677" y="23.9404" width="2.6677" height="1.3339" fill="gray"/>
+  </g>
+  <g>
+    <line x1="9.39913" y1="11.5345" x2="15.2933" y2="11.5345" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="9.39913" y1="14.2049" x2="15.2933" y2="14.2049" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <line x1="20.4776" y1="21.274" x2="20.4776" y2="11.5411" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  <polyline points="19.162 14.6035 17.466 14.6035 20.475 10.7713 23.4866 14.6035 21.7463 14.6035"/>
+</svg>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="2.876" y="4" width="19" height="17" maskUnits="userSpaceOnUse">
+      <path d="M16.876,7h-7v-3H2.876v5h.1854969c-.1133.3145-.1854969.6479-.1854969,1v6c0,1.6499,1.3495969,4,3,4h11c1.6503965,0,4-2.3501,4-4v-6c0-1.6499-2.3496035-3-4-3Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="18.946678" y1="20.3258862" x2="3.4465538" y2="5.4507865" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+  <path d="M16.876,7h-7v-3H2.876v5h.1854969c-.1133.3145-.1854969.6479-.1854969,1v6c0,1.6499,1.3495969,4,3,4h11c1.6503965,0,4-2.3501,4-4v-6c0-1.6499-2.3496035-3-4-3Z" fill="none"/>
+  <g>
+    <rect x="9.876" y="5" width="5" height="2" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M16.876,7h-7v-3H2.876v5h.1854969c-.1133.3145-.1854969.6479-.1854969,1v6c0,1.6499,1.3495969,4,3,4h11c1.6503965,0,4-2.3501,4-4v-6c0-1.6499-2.3496035-3-4-3Z" fill="none" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <rect x="9.876" y="5" width="5" height="2" fill="gray"/>
+    <rect x="9.876" y="7" width="1" height="2" fill="#666"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M16.876,7h-7v-3H2.876v5h.1854969c-.1133.3145-.1854969.6479-.1854969,1v6c0,1.6499,1.3495969,4,3,4h11c1.6503965,0,4-2.3501,4-4v-6c0-1.6499-2.3496035-3-4-3Z" fill="#fff"/>
+        <path d="M18.876,8h-9v-3H3.876v5h.1854969c-.1133.3145-.1854969.6479-.1854969,1v7c0,1.6499,1.3495968,3,3,3h12c1.6503965,0,3-1.3501,3-3v-7c0-1.6499-1.3496035-3-3-3Z" fill="url(#linear-gradient)"/>
+      </g>
+    </g>
+    <g>
+      <g>
+        <line x1="9.0145967" y1="13.1543" x2="14.9560966" y2="13.1553" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+        <line x1="11.9862967" y1="10.1816" x2="11.9862967" y2="16.125" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      </g>
+      <g>
+        <line x1="9.0145967" y1="13.1543" x2="14.9560966" y2="13.1553" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+        <line x1="11.9862967" y1="10.1816" x2="11.9862967" y2="16.125" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      </g>
+      <g>
+        <line x1="8.7040967" y1="12.8096" x2="14.6474966" y2="12.8096" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+        <line x1="11.6747967" y1="10.1816" x2="11.6747967" y2="16.125" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      </g>
+    </g>
+  </g>
+</svg>

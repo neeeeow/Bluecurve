@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_5" data-name="Set 5" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="6.6804394" y1="7.0374848" x2="15.6818471" y2="15.0659896" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="13.9998855" cy="-6.1289812" fx="13.9998855" fy="-6.1289812" r="7.9355245" gradientTransform="translate(-11.752 12.9657) scale(1.2131)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffbba2"/>
+      <stop offset=".606741" stop-color="#c40000"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path d="M15.414693,9.9457c0,3.0226-2.4509999,5.4736-5.473693,5.4736-3.0228067,0-5.4737067-2.451-5.4737067-5.4736,0-3.0228,2.4508999-5.4738,5.4737067-5.4738,3.0226931,0,5.473693,2.451,5.473693,5.4738Z" fill="url(#linear-gradient)" stroke="#000"/>
+    <path d="M12.4957931,9.9982c0,1.3818-1.1204,2.5022-2.5022999,2.5022s-2.5021999-1.1204-2.5021999-2.5022c0-1.3819,1.1203-2.5023,2.5021999-2.5023s2.5022999,1.1204,2.5022999,2.5023Z" fill="url(#radial-gradient)"/>
+  </g>
+  <g>
+    <polyline points="13.9802931 15.4267 13.108 16.2979 12.1780931 12.2769 16.201493 13.2042 15.307193 14.0985" opacity=".5"/>
+    <polyline points="14.8648931 16.3112 13.9925931 17.1837 13.0626931 13.1614 17.087293 14.09 16.193 14.9844" opacity=".5"/>
+    <polygon points="15.273 15.3704 17.284093 15.8347 18.058693 15.0601 14.0340931 14.1327 14.9650931 18.1539 15.737293 17.3816 15.273 15.3704" opacity=".5"/>
+    <line x1="14.8147931" y1="14.9111" x2="9.9702932" y2="10.0678" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+</svg>

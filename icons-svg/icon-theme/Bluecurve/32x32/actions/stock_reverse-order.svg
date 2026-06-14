@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_4" data-name="Set 4" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="16.4311525" y1="26.4945418" x2="2.5692164" y2="17.7396147" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.2417377" y1="20.0178458" x2="17.1061682" y2="28.4390251" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="27.1019732" y1="14.4899051" x2="13.2399884" y2="5.7349472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_1-2" data-name="New Gradient Swatch 1" x1="17.9125836" y1="8.0131926" x2="27.7770238" y2="16.4343801" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#555b91"/><stop offset="1" stop-color="#a4aad9"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="4.4587918" y="18.0002" width="12.0046997" height="9.4476" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="6.4595918" y="20.0009" width="9.3368998" height="6.6693" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <rect x="15.1295915" y="5.9955" width="12.0046997" height="9.4477" fill="url(#New_Gradient_Swatch_1)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="17.1303915" y="7.9963" width="9.3369998" height="6.6692" fill="url(#New_Gradient_Swatch_1-2)"/>
+  </g>
+  <g>
+    <polyline points="22.712 22.5749 23.6732913 23.5349 19.7980914 24.0025 20.2630914 20.1247 21.2478914 21.1107"/>
+    <line x1="25.1334913" y1="18.6671" x2="21.3090914" y2="22.4902" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <polyline points="8.8810917 10.7578 7.9197917 9.7978 11.795 9.3301 11.33 13.2079 10.3451917 12.2219"/>
+    <line x1="6.4595918" y1="14.6655" x2="10.284" y2="10.8425" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+</svg>

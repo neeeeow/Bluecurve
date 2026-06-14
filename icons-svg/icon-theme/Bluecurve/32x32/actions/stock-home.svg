@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="1.168" y="7.1567" width="28.8876887" height="23.2139" maskUnits="userSpaceOnUse">
+      <polygon points="27.9882888 16.2969 23.6278889 12.9531 16.9540891 7.8364 10.2821892 12.9531 5.9218893 16.2969 5.9208893 16.2969 5.9208893 29.1929 5.9218893 29.1929 27.9882888 29.1929 27.9882888 29.1929 27.9882888 16.2969 27.9882888 16.2969" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_181" data-name="New Gradient 181" x1="14.3428" y1="32.3831021" x2="20.861289" y2="32.3831021" gradientTransform="translate(.1582 -4.1411184) scale(1 .9079)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="17.3242547" y1="11.479" x2="1.6567882" y2="11.479" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset="1" stop-color="#4c4c4c"/>
+    </linearGradient>
+  </defs>
+  <polygon points="30.0556887 18.4116 28.751 13.8159 14.96 3.2397 1.168 13.8159 1.168 15.1216 3.7802894 21.0239 3.9882894 20.8638 3.9882894 26.2231 5.9208893 29.1929 5.9218893 29.1929 27.9882888 29.1929 27.9882888 29.1929 27.9882888 18.1831 30.0556887 19.7183 30.0556887 18.4116" fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g>
+    <polygon points="27.9882888 16.2969 23.6278889 12.9531 16.9540891 7.8364 10.2821892 12.9531 5.9218893 16.2969 5.9208893 16.2969 5.9208893 29.1929 5.9218893 29.1929 27.9882888 29.1929 27.9882888 29.1929 27.9882888 16.2969 27.9882888 16.2969" fill="#b45b15" fill-rule="evenodd"/>
+    <polygon points="5.9208893 29.1929 3.9882894 26.2231 3.9882894 13.3267 5.9208893 16.2969 5.9208893 29.1929" fill="#e48446" fill-rule="evenodd"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="28.751 17.7329 14.96 7.1567 1.168 17.7329 3.7802894 23.6353 17.570289 13.0601 30.0556887 22.3286 28.751 17.7329" fill="#9c3e0d" fill-rule="evenodd"/>
+        <rect x="14.501" y="20.1484" width="6.518489" height="9.0955" fill="#9c3e0d" stroke="#9c3e0d" stroke-miterlimit="3.8637" stroke-width="2"/>
+        <rect x="14.501" y="20.1484" width="6.518489" height="10.2222" fill="url(#New_Gradient_181)"/>
+        <path d="M17.4374891,24.4902c0,.3872-.3134891.7032-.7031.7032-.3897,0-.7041-.316-.7041-.7032,0-.3881.3144-.7026.7041-.7026.3896109,0,.7031.3145.7031.7026Z"/>
+      </g>
+    </g>
+    <polygon points="5.9208893 21.9927 3.9882894 19.0229 3.9882894 15.1138 5.9208893 18.0825 5.9208893 21.9927" fill="#b45b15" fill-rule="evenodd"/>
+    <polygon points="30.0556887 18.4116 28.751 13.8159 14.96 4.5454 1.168 13.8159 1.168 15.1216 3.7802894 21.0239 17.570289 10.4478 30.0556887 19.7183 30.0556887 18.4116" fill="#333" fill-rule="evenodd"/>
+    <polygon points="17.570289 9.1421 3.7802894 19.7183 1.168 13.8159 14.96 3.2397 17.570289 9.1421" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+    <polygon points="30.0556887 18.4116 17.570289 9.1421 14.96 3.2397 28.751 13.8159 30.0556887 18.4116" fill="#474747" fill-rule="evenodd"/>
+  </g>
+</svg>

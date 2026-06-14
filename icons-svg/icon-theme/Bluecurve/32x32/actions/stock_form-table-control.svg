@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="6.5209878" y1="8.1229894" x2="28.0302613" y2="28.3289608" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="4.9230942" y="6.5755" width="22.5333994" height="21.3416" maskUnits="userSpaceOnUse">
+      <rect x="4.9230942" y="6.5755" width="21.1994995" height="20.0078" fill="#fff"/>
+    </mask>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_2" data-name="Set 2">
+      <g mix-blend-mode="color">
+        <rect x="4.9230942" y="6.5755" width="21.1994995" height="20.0078" fill="url(#White_Black)" stroke="#000" stroke-width="2"/>
+        <g mask="url(#mask)">
+          <g>
+            <rect x="4.9230942" y="6.5755" width="21.1994995" height="20.0078" fill="#e6e6e6"/>
+            <g>
+              <line x1="6.2568942" y1="12.4111" x2="27.4564936" y2="12.4111" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="6.2568942" y1="17.7465" x2="27.4564936" y2="17.7465" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="20.5124938" y1="7.9094" x2="20.5124938" y2="27.9171" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="13.843194" y1="7.9094" x2="13.843194" y2="27.9171" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <g>
+                <line x1="7.174" y1="7.9094" x2="7.174" y2="27.9171" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+                <line x1="6.2568942" y1="8.3262" x2="27.4564936" y2="8.3262" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+            <g>
+              <line x1="4.9230942" y1="16.6628" x2="26.1225937" y2="16.6628" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="6.2568942" y1="23.332" x2="27.4564936" y2="23.332" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="4.9230942" y1="21.9982" x2="26.1225937" y2="21.9982" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="4.9230942" y1="11.0773" x2="26.1225937" y2="11.0773" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="19.1785939" y1="6.5755" x2="19.1785939" y2="26.5833" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="12.509394" y1="6.5755" x2="12.509394" y2="26.5833" fill="none" stroke="#999" stroke-width=".75"/>
+              <g>
+                <line x1="5.8400942" y1="6.5755" x2="5.8400942" y2="26.5833" fill="none" stroke="#fff" stroke-width=".75"/>
+                <line x1="4.9230942" y1="6.9923" x2="26.1225937" y2="6.9923" fill="none" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

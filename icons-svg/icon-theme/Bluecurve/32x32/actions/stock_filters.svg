@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="12.1225908" y="6.3753" width="12.2365997" height="12.1662" maskUnits="userSpaceOnUse">
+      <polygon points="21.0114906 6.3753 20.8786906 10.6895 24.3591905 13.24 20.2168906 14.4475 18.8674906 18.5415 16.4367907 14.9789 12.1225908 14.9542 14.7642907 11.5466 13.4498908 7.4409 17.5101907 8.8946 21.0114906 6.3753" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="108.3251336" cy="-57.1856011" fx="108.3251336" fy="-57.1856011" r="8.6481936" gradientTransform="translate(-101.4472 42.6358) rotate(13.9987235)" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="136.9220128" cy="-42.5952541" fx="136.9220128" fy="-42.5952541" r="8.9832136" gradientTransform="translate(-107.2138 15.2994) rotate(13.9964404) scale(.8728132)" gradientUnits="userSpaceOnUse"><stop offset=".410112" stop-color="#f9e917"/><stop offset="1" stop-color="#d68112"/></radialGradient>
+  </defs>
+  <polygon points="20.8786906 10.6895 21.0114906 6.3753 17.5101907 8.8946 13.4498908 7.4409 14.7642907 11.5466 12.1225908 14.9542 15.7164907 14.975 8.6706909 28.2223 9.9042909 28.8763 16.9174907 15.681 18.8674906 18.5415 20.2168906 14.4475 24.3591905 13.24 20.8786906 10.6895" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="5.1722126" y="21.0024761" width="15.5140563" height="1.3955977" transform="translate(-12.2998784 22.9487734) rotate(-62.0461426)" fill="#9c3e0d"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="21.0114906 6.3753 20.8786906 10.6895 24.3591905 13.24 20.2168906 14.4475 18.8674906 18.5415 16.4367907 14.9789 12.1225908 14.9542 14.7642907 11.5466 13.4498908 7.4409 17.5101907 8.8946 21.0114906 6.3753" fill="url(#radial-gradient)"/>
+      <polygon points="20.3784906 7.5686 20.2742906 10.8928 22.9510905 12.8597 19.761 13.791 18.7188906 16.9498 16.8483907 14.1999 13.5241908 14.1843 15.5614907 11.5544 14.5493907 8.384 17.6754907 9.5055 20.3784906 7.5686" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+  <line x1="16.6165907" y1="6.2607" x2="14.6001907" y2="1.363" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.7782908" y1="11.7694" x2="6.472" y2="11.785" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="22.7530905" y1="16.5902" x2="24.7172905" y2="20.9304" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="24.2392905" y1="8.9232" x2="29.1474904" y2="4.8618" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_5" data-name="Set 5" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="11.2448313" y1="12.040994" x2="22.7652723" y2="23.5614351" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="24.0057621" y1="24.8019248" x2="39.5122232" y2="40.3083859" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#333"/>
+    </linearGradient>
+  </defs>
+  <rect x="7.9784877" y="8.7746" width="32.0545992" height="32.0547" fill="#b3b3b3" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="7.9784877" y="8.7746" width="32.0545992" height="32.0547" fill="url(#linear-gradient)"/>
+  <polygon points="40.0330869 40.8293 7.9784877 40.8293 40.0330869 8.7746 40.0330869 40.8293" fill="url(#linear-gradient-2)"/>
+</svg>

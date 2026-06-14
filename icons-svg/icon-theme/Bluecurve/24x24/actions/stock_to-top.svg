@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="12.7799988" y="3.6600015" width="8.4599996" height="7.5599997" maskUnits="userSpaceOnUse">
+      <path d="M20.0000038,3.9999847h.9999886-.9999886M20.9999924,3.9999847h-8.0000029v7.0000153h8.0000029V3.9999847" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="2.6999998" y="12.6600015" width="8.6399996" height="7.5599997" maskUnits="userSpaceOnUse">
+      <path d="M10.0000153,13.0000153h1.0000067-1.0000067M11.0000219,13.0000153H3.0000205v7h8.0000014v-7" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="17.5597636" y1="15.5529377" x2="4.6503921" y2="7.3996317" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="8.6278094" y1="9.1943443" x2="18.4564166" y2="17.5849415" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M12.9999895,3.9999847h8.0000029v7.0000153h-8.0000029V3.9999847M21.999979,3h-9.9999762v8.9999847h9.9999762V3" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M20.0000038,3.9999847h.9999886-.9999886M20.9999924,3.9999847h-8.0000029v7.0000153h8.0000029V3.9999847" fill="none"/>
+        <image width="47" height="42" transform="translate(12.7799988 11.2200012) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmCAYAAAC76qlaAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAfUlEQVRYhe3OUQrDIBBF0Vdx3P9a3ED3pY70KyGFhP5dKLwDAzqI3Ffv/V1rVUQoInScW2u67q9TStGc85wxhtZa2nsrM5WZX+fjfrd7evvrn6I/5XCaw2kOpzmc5nCaw2kOpzmc5nCaw2kOpzmc5nCaw2kOpzmc5nCaw2kfndZital6w9kAAAAASUVORK5CYII="/>
+        <path d="M20.0000038,3.9999847h.9999886-.9999886M20.9999924,3.9999847h-8.0000029v7.0000153h8.0000029V3.9999847" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path d="M3.0000205,13.0000153h8.0000014v7H3.0000205v-7M11.9999762,12.0000153H2.0000138v9.0000153h9.9999623v-9.0000153" opacity=".7490196"/>
+    <g mask="url(#mask-1)">
+      <g>
+        <path d="M10.0000153,13.0000153h1.0000067-1.0000067M11.0000219,13.0000153H3.0000205v7h8.0000014v-7" fill="none"/>
+        <image width="48" height="42" transform="translate(2.6999998 20.2200012) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAmCAYAAABUKMJkAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAeElEQVRYhe3OUQqEMAxF0edAF+aWurUuwH01afFvUEHBr4vwDoRCAuUurbWtlKI3k5mKCEWEeu/KTI0x/jPnPL3H/XX3dLv7R5JqretPH+Z4iuMpjqc4nuJ4iuMpjqc4nuJ4iuMpjqc4nuJ4iuMpjqc4nuJ4iuMpOxpkZEx2nmm0AAAAAElFTkSuQmCC"/>
+        <path d="M10.0000153,13.0000153h1.0000067-1.0000067M11.0000219,13.0000153H3.0000205v7h8.0000014v-7" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect x="6.5" y="7.5" width="11" height="9.083" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="8" y="9" width="9" height="7" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

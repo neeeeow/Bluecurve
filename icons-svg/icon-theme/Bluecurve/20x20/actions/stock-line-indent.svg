@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Icons_-_24x24" data-name="Icons - 24x24" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <radialGradient id="New_Gradient_190" data-name="New Gradient 190" cx="-279.6212652" cy="297.7785803" fx="-279.6212652" fy="297.7785803" r="4.3904648" gradientTransform="translate(-239.9913 246.1139) rotate(90) scale(.8333 -.8333)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#328e36"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+    <mask id="mask" x="5.8974963" y="12.0908" width="4.8115037" height="5.0337" maskUnits="userSpaceOnUse">
+      <polyline points="8.3026963 16.0649 8.3026963 17.1245 10.6962962 15.2437 8.3026963 13.3628 8.3026963 14.4497" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="8.6102738" cy="13.5113872" fx="8.6102738" fy="13.5113872" r="1.9842312" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-330.2891377" cy="363.3192862" fx="-330.2891377" fy="363.3192862" r="4.6751865" gradientTransform="translate(-263.8605 262.0109) rotate(90) scale(.7457 -.7457)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+    <radialGradient id="New_Gradient_190-2" data-name="New Gradient 190" cx="-286.6217452" cy="292.7779027" fx="-286.6217452" fy="292.7779027" r="4.390991" gradientTransform="translate(-239.9913 246.1139) rotate(90) scale(.8333 -.8333)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#328e36"/><stop offset="1" stop-color="#00cd00"/></radialGradient>
+    <mask id="mask-1" x="1.7304964" y="6.2578" width="4.8115036" height="5.0332" maskUnits="userSpaceOnUse">
+      <polyline points="4.1356964 10.2314 4.1356964 11.291 6.5302963 9.4102 4.1356964 7.5293 4.1356964 8.6167" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient-3" cx="4.4434025" cy="7.6778872" fx="4.4434025" fy="7.6778872" r="1.9844385" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c9ffc9"/><stop offset=".80899" stop-color="#00cd00"/></radialGradient>
+    <radialGradient id="radial-gradient-4" cx="-338.1118412" cy="357.7312482" fx="-338.1118412" fy="357.7312482" r="4.6751497" gradientTransform="translate(-263.8605 262.0109) rotate(90) scale(.7457 -.7457)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#c9ffc9"/><stop offset=".80899" stop-color="#00cd00"/><stop offset="1" stop-color="#00cd00"/></radialGradient>
+  </defs>
+  <g>
+    <line x1="4.9950963" y1="4.7803" x2="14.9364961" y2="4.7803" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="9.1620962" y1="9.7803" x2="14.9364961" y2="9.7803" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="13.3280961" y1="14.7803" x2="14.9364961" y2="14.7803" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <line x1="4.9950963" y1="5.6138" x2="14.9364961" y2="5.6138" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="9.1620962" y1="10.6138" x2="14.9364961" y2="10.6138" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="13.3280961" y1="15.6138" x2="14.9364961" y2="15.6138" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g opacity=".75">
+    <g>
+      <polygon points="8.3026963 16.0649 8.3026963 17.1245 10.6962962 15.2437 8.3026963 13.3628 8.3026963 14.4497 8.3026963 16.0649" fill="url(#New_Gradient_190)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g mask="url(#mask)">
+        <g>
+          <polyline points="8.3026963 16.0649 8.3026963 17.1245 10.6962962 15.2437 8.3026963 13.3628 8.3026963 14.4497" fill="url(#radial-gradient)"/>
+          <polyline points="8.5038962 15.8853 8.5038962 16.7363 10.709 14.9937 5.8974963 12.0908" fill="url(#radial-gradient-2)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g opacity=".75">
+    <g>
+      <polygon points="4.1356964 10.2314 4.1356964 11.291 6.5302963 9.4102 4.1356964 7.5293 4.1356964 8.6167 4.1356964 10.2314" fill="url(#New_Gradient_190-2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <g mask="url(#mask-1)">
+        <g>
+          <polyline points="4.1356964 10.2314 4.1356964 11.291 6.5302963 9.4102 4.1356964 7.5293 4.1356964 8.6167" fill="url(#radial-gradient-3)"/>
+          <polyline points="4.3378964 10.0522 4.3378964 10.9028 6.542 9.1602 1.7304964 6.2578" fill="url(#radial-gradient-4)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

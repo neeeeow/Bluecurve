@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="-12.98545" y1="-167.1915539" x2="-18.32085" y2="-167.1915539" gradientTransform="translate(183.0004946 -1) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="18.2599487" y="6.3800032" width="5.7599998" height="16.5599993" maskUnits="userSpaceOnUse">
+      <polyline points="23.8121338 6.6500244 18.4766541 6.6500244 18.4766541 22.656189 23.8121338 22.656189 23.8121338 6.6500244" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="7.4599609" y="9.0799907" width="5.9399997" height="11.1599995" maskUnits="userSpaceOnUse">
+      <polyline points="13.1412964 9.3176575 7.8058472 9.3176575 7.8058472 19.9884949 13.1412964 19.9884949 13.1412964 9.3176575" fill="#fff"/>
+    </mask>
+  </defs>
+  <rect x="3.804291" y="13.3193" width="24.0092994" height="2.6677" fill="url(#White_Black)"/>
+  <g>
+    <polyline points="23.8121338 6.6500244 18.4766541 6.6500244 18.4766541 22.656189 23.8121338 22.656189 23.8121338 6.6500244"/>
+    <path d="M18.4766541,6.6500244h5.3354797v16.0061646h-5.3354797V6.6500244M24.8120422,5.6500244h-7.3353882v18.0061646h7.3353882V5.6500244"/>
+    <g mask="url(#mask)">
+      <image width="32" height="92" transform="translate(18.2599487 22.9400024) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAABcCAYAAAB9VdX4AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAa0lEQVRoge3NMQ4CMQwEwIUm+f+j7k2O4ghaQKK9arbZtWRpHtd1veacGWPks5OkqlJVWWvlnJPuTndn7/33/t3d/fX7zM0BAoFAIBAIBAKBQCAQCAQCgUAgEAgEAoFAIBAIBAKBQCAQeGfex2hCYSBVaBoAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="13.1412964 9.3176575 7.8058472 9.3176575 7.8058472 19.9884949 13.1412964 19.9884949 13.1412964 9.3176575"/>
+    <path d="M7.8058472,9.3176575h5.3354492v10.6708374h-5.3354492v-10.6708374M14.1412659,8.3177185h-7.3353577v12.6707153h7.3353577v-12.6707153"/>
+    <g mask="url(#mask-1)">
+      <image width="33" height="62" transform="translate(7.4599609 20.2399902) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAA6CAYAAACnDemCAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAdUlEQVRYhe3NQQqDQAyF4d8uVEbvv+pRPFYL6mScLkLxAoVu/kAWL3nwDc+t9zJBGWGdoUywzHc+A94HvHY4au4ZuXHBXqEG1Ja/aHmLKzvffrQ7tw4P/jTCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwr+YDyKtL2Akj60fAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

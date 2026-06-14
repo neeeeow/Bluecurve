@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <radialGradient id="radial-gradient" cx="5.6735" cy="9.0639436" fx="5.6735" fy="9.0639436" r="5.753257" gradientTransform="translate(0 .890493) scale(1 .9663)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#b7e9ff"/>
+      <stop offset=".606741" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#195fa8"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="5.9995" cy="8.2345295" fx="5.9995" fy="8.2345295" r="5.2061855" gradientTransform="translate(0 .890493) scale(1 .9663)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".2348511" stop-color="#bdb8dc"/>
+      <stop offset=".4513659" stop-color="#887ebf"/>
+      <stop offset=".6351314" stop-color="#6254ab"/>
+      <stop offset=".7789852" stop-color="#4a3a9e"/>
+      <stop offset=".865168" stop-color="#42319a"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="4.6402524" y1="7.7186783" x2="13.972369" y2="9.0518374" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#000"/>
+      <stop offset=".0846078" stop-color="#080613"/>
+      <stop offset=".3510439" stop-color="#21184d"/>
+      <stop offset=".5793378" stop-color="#322576"/>
+      <stop offset=".7580659" stop-color="#3d2d90"/>
+      <stop offset=".865168" stop-color="#42319a"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="81" height="75" transform="translate(-31 -25)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABLCAYAAAAIwmvLAAAACXBIWXMAAAsSAAALEgHS3X78AAAArUlEQVR4nO3UIU4DQQCG0a8JkkNgAc+1OBQ34Q6g2TO0voipQExCMe3QvGfWrPjz7c4UAAAAAAAAAAAAANyi3bUHTPy26XiRFX+wWsT76uH0nDlUW7W/1KBz3F17wA+7RsDX6rn5B96qt+q9hUKuFLHGH/hUvTSP+Ng4zlv10SJHe7WIh+qzEXAW8Xh6Zyn/7U6sEfGrhWKuFrHO27TEMQYAAAAAAAAAAACA2/YNkIsUD13VZRkAAAAASUVORK5CYII="/>
+  </g>
+  <path d="M8.3325,13.0273c2.7608,0,5-2.164,5-4.831H3.3325c0,2.667,2.2388,4.831,5,4.831Z" fill="url(#radial-gradient)" stroke="#000" stroke-width="2"/>
+  <path d="M13.3325,8.2461c0,.7119-2.2378,1.2891-4.999,1.2891-2.7627,0-5.001-.5772-5.001-1.2891,0-.7109,2.2383-1.2891,5.001-1.2891,2.7612,0,4.999.5782,4.999,1.2891Z" fill="none" stroke="#000" stroke-width="2"/>
+  <path d="M8.3325,13.0273c2.7608,0,5-2.164,5-4.831H3.3325c0,2.667,2.2388,4.831,5,4.831Z" fill="url(#radial-gradient-2)"/>
+  <path d="M13.3325,8.2461c0,.7119-2.2378,1.2891-4.999,1.2891-2.7627,0-5.001-.5772-5.001-1.2891,0-.7109,2.2383-1.2891,5.001-1.2891,2.7612,0,4.999.5782,4.999,1.2891Z" fill="url(#linear-gradient)"/>
+</svg>

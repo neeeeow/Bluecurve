@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_3" data-name="Layer 3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="3.0363" y="5.274" width="10.3675" height="8.0623" maskUnits="userSpaceOnUse">
+      <polygon points="6.8496 13.0399 12.6078 11.532 12.6078 7.0106 3.6051 5.274 3.6051 9.7954 6.8496 13.0399" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <mask id="mask-1" x="3.0363" y="5.6925" width="4.3323" height="7.6438" maskUnits="userSpaceOnUse">
+      <rect x="3.0363" y="6.0967" width="3.8237" height="7.2396" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_33" data-name="New Gradient 33" x1="7.1686912" y1="13.1358336" x2="2.7276088" y2="6.2971664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c1a35f"/>
+      <stop offset="1" stop-color="#a78631"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_393" data-name="New Gradient 393" x1="5.2587" y1="5.6925" x2="5.2587" y2="9.731" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#a78631"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_394" data-name="New Gradient 394" x1="9.6528224" y1="6.207893" x2="10.286108" y2="9.7994345" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#957630"/>
+    </linearGradient>
+    <mask id="mask-2" x="3.6051" y="2.0452" width="10.2016" height="7.1797" maskUnits="userSpaceOnUse">
+      <polygon points="6.8496 8.5192 12.6078 7.0106 9.3919 3.7954 3.6051 5.274 6.8496 8.5192" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_395" data-name="New Gradient 395" x1="7.3415866" y1="3.6405446" x2="8.8795971" y2="8.6711502" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#52380d"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_32" data-name="New Gradient 32" x1="11.5921" y1="2.0452" x2="11.5921" y2="9.2249" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78631"/>
+      <stop offset=".696625" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_397" data-name="New Gradient 397" x1="6.8760837" y1="2.2586367" x2="9.4357943" y2="8.9269106" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset=".30899" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_17" data-name="New Gradient Swatch 17" x1="8.0000251" y1="8.3864501" x2="14.5861376" y2="14.9725626" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".2348511" stop-color="#bdb8dc"/>
+      <stop offset=".4513659" stop-color="#887ebf"/>
+      <stop offset=".6351314" stop-color="#6254ab"/>
+      <stop offset=".7789852" stop-color="#4a3a9e"/>
+      <stop offset=".865168" stop-color="#42319a"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon points="9.3919 3.7954 11.2174 1.9734 14.4231 5.2034 12.6078 7.0106 14.5793 7.0252 12.6078 7.5626 12.6078 11.532 6.8496 13.0399 3.6051 9.7954 3.6051 7.2046 1.6761 5.2758 3.6051 5.274 2.9524 2.8782 8.6098 1.4701 9.3919 3.7954" fill="#a78631" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="6.8496 13.0399 12.6078 11.532 12.6078 7.0106 3.6051 5.274 3.6051 9.7954 6.8496 13.0399" fill="#a78631" fill-rule="evenodd"/>
+        <g mask="url(#mask-1)">
+          <g>
+            <rect x="3.0363" y="6.0967" width="3.8237" height="7.2396" fill="url(#New_Gradient_33)"/>
+            <polygon points="3.1488 7.5075 5.3727 9.731 7.3686 8.4127 4.5918 5.6925 3.1488 7.5075" fill="url(#New_Gradient_393)" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <polygon points="6.5882 8.3089 8.2164 9.4625 13.4038 7.9994 12.6183 6.5353 6.5882 8.3089" fill="url(#New_Gradient_394)" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g mask="url(#mask-2)">
+      <g>
+        <polygon points="6.8496 8.5192 12.6078 7.0106 9.3919 3.7954 3.6051 5.274 6.8496 8.5192" fill="url(#New_Gradient_395)" fill-rule="evenodd"/>
+        <rect x="9.3775" y="2.0452" width="4.4292" height="7.1797" fill="url(#New_Gradient_32)"/>
+      </g>
+    </g>
+    <polygon points="2.9524 2.8782 3.6051 5.274 9.3919 3.7954 8.6098 1.4701 2.9524 2.8782" fill="#c1a35f" fill-rule="evenodd"/>
+    <polygon points="9.3919 3.7954 12.6078 7.0106 14.4231 5.2034 11.2174 1.9734 9.3919 3.7954" fill="#f8dea0" fill-rule="evenodd"/>
+    <line x1="6.86" y1="12.8149" x2="6.86" y2="8.6734" fill="none" stroke="#6f4b0a" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <line x1="3.7013" y1="5.2603" x2="9.2889" y2="3.8038" fill="none" stroke="#a78631" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <line x1="9.4721" y1="3.9263" x2="12.4387" y2="6.9135" fill="none" stroke="#c1a35f" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <polyline points="3.6807 7.4755 4.8317 8.6267 6.769 8.6267" fill="none" stroke="#6f4b0a" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".75"/>
+    <polygon points="5.4968 8.3089 5.4952 3.9981 10.7356 2.6696 10.808 7.7095 6.8496 8.5192 5.4968 8.3089" fill="url(#New_Gradient_397)" fill-rule="evenodd"/>
+    <path d="M5.5014,8.02l-.0062-4.0219,5.2404-1.3285v4.6415c0,.1773.0046.3396.0143.4868" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="6.4046" y1="5.0761" x2="9.8637" y2="4.2001" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <line x1="6.4046" y1="5.7302" x2="9.8637" y2="4.8542" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <line x1="6.4046" y1="6.384" x2="9.8637" y2="5.5076" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <line x1="6.4046" y1="7.0439" x2="9.8637" y2="6.1673" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <line x1="6.4046" y1="7.7006" x2="9.8637" y2="6.8241" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <line x1="6.4046" y1="8.3573" x2="9.8637" y2="7.481" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    <polygon points="6.86 8.53 9.0535 8.53 14.5793 7.0252 12.6136 7.0252 6.86 8.53" fill="#c1a35f" fill-rule="evenodd"/>
+    <polygon points="3.6051 5.274 6.8496 8.5192 4.9301 8.53 1.6761 5.2758 3.6051 5.274" fill="#a78631" fill-rule="evenodd"/>
+    <polyline points="3.6247 5.1383 3.0297 2.8945 8.5841 1.5341" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <line x1="6.7535" y1="12.814" x2="6.7535" y2="8.8005" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <line x1="1.8144" y1="5.346" x2="4.9641" y2="8.4332" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <polyline points="7.0637 8.5577 8.8946 8.5577 14.144 7.0941" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+  </g>
+  <g>
+    <path d="M11.6661,9.0177c1.6768,0,3.0339,1.3579,3.0339,3.0347,0,1.6765-1.3571,3.0344-3.0339,3.0344-1.6763,0-3.0353-1.3579-3.0353-3.0344,0-1.6768,1.359-3.0347,3.0353-3.0347Z" fill="url(#New_Gradient_Swatch_17)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+    <g>
+      <polygon points="10.7823 12.9746 10.2555 12.37 11.7601 10.6446 13.2647 12.37 12.7366 12.975 12.7061 12.975 11.7601 11.8901 10.8141 12.9746 10.7823 12.9746" fill="#42319a" stroke="#42319a" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <polygon points="10.7823 12.9746 10.2555 12.37 11.7601 10.6446 13.2647 12.37 12.7366 12.975 12.7061 12.975 11.7601 11.8901 10.8141 12.9746 10.7823 12.9746" fill="#fff"/>
+    </g>
+  </g>
+</svg>

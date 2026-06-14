@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="23.0720936" y1="23.1383562" x2="9.2490963" y2="9.3153588" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="6.5216877" y="7.9218" width="18.6738995" height="16.0062" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="6.5216877" y="7.9218" width="18.6738995" height="16.0062" fill="#fff"/>
+  <rect x="7.8554877" y="9.2556" width="17.3400996" height="14.6724" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="3.854" y="6.5879" width="2.6676877" height="1.3339" fill="gray"/>
+    <rect x="5.1877877" y="5.2541" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="25.1955872" y="6.5879" width="2.6676999" height="1.3339" fill="gray"/>
+    <rect x="25.1955872" y="5.2541" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="25.1955872" y="23.928" width="2.6676999" height="1.3338" fill="gray"/>
+    <rect x="25.1955872" y="23.928" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="5.1877877" y="23.928" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="3.854" y="23.928" width="2.6676877" height="1.3338" fill="gray"/>
+  </g>
+  <g>
+    <line x1="9.5853876" y1="15.5275" x2="15.4795875" y2="15.5275" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="9.5853876" y1="18.1979" x2="15.4795875" y2="18.1979" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <line x1="20.6637874" y1="18.6565" x2="20.6637874" y2="11.5286" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="21.9768873 18.7085 23.6728873 18.7085 20.6637874 22.5408 17.6522874 18.7085 19.3924874 18.7085"/>
+  </g>
+  <polyline points="19.3482874 14.591 17.6522874 14.591 20.6612874 10.7589 23.6728873 14.591 21.9325873 14.591"/>
+</svg>

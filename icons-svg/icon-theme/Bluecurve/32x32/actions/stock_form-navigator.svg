@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="10.8427727" y1="14.2347593" x2="4.7338975" y2="8.2825921" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="94.6739739" cy="67.9680645" fx="94.6739739" fy="67.9680645" r="3.2186634" gradientTransform="translate(-58.3447 -36.4992) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="16.3517" cy="19.6913" fx="16.3517" fy="19.6913" r="5.3354" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="16.3517" cy="19.6913" fx="16.3517" fy="19.6913" r="5.3354" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+  </defs>
+  <g opacity=".75">
+    <g>
+      <g>
+        <polygon points="15.6848 6.5755 15.6848 15.9125 17.0186 15.9125 27.3754 15.9125 27.3754 7.9094 27.3754 6.5755 15.6848 6.5755" fill="#555"/>
+        <polygon points="15.6848 6.5755 15.6848 15.9125 17.0186 15.9125 27.3754 15.9125 27.3754 7.9094 27.3754 6.5755 15.6848 6.5755" fill="none" stroke="#555" stroke-width="2"/>
+      </g>
+      <rect x="15.6848" y="6.5755" width="11.6906" height="9.337" fill="#fff"/>
+      <rect x="17.0186" y="7.9094" width="10.3568" height="8.0031" fill="silver"/>
+      <rect x="17.0186" y="7.9094" width="9.023" height="6.6692" fill="#d7d7d7"/>
+    </g>
+    <g opacity=".75">
+      <path d="M19.7566,13.4811c-.8296,0-1.4041-.7411-1.4041-1.8346,0-1.1483.6115-1.8992,1.4465-1.8992.8577,0,1.4094.7561,1.4094,1.8295,0,1.2387-.6532,1.9043-1.4466,1.9043h-.0052ZM19.7762,13.1002c.6396,0,1.0018-.6812,1.0018-1.5019,0-.719-.3251-1.4699-.9979-1.4699s-1.0056.7241-1.0056,1.5071c0,.7619.3615,1.4647.9965,1.4647h.0052Z"/>
+      <path d="M22.0831,9.8066h.4677v1.7428h.0156c.097-.1393.1934-.2677.284-.3861l1.1052-1.3567h.579l-1.3085,1.5345,1.4107,2.0808h-.5529l-1.1847-1.7754-.3484.3966v1.3788h-.4677v-3.6153Z"/>
+    </g>
+    <g>
+      <g>
+        <polygon points="25.0191 26.5833 25.0191 19.914 23.6852 19.914 6.3478 19.914 6.3478 25.2494 6.3478 26.5833 25.0191 26.5833" fill="#555"/>
+        <polygon points="25.0191 26.5833 25.0191 19.914 23.6852 19.914 6.3478 19.914 6.3478 25.2494 6.3478 26.5833 25.0191 26.5833" fill="none" stroke="#555" stroke-width="2"/>
+      </g>
+      <rect x="6.3478" y="19.914" width="18.6739" height="6.6666" fill="silver"/>
+      <rect x="7.6817" y="21.2479" width="17.3387" height="5.334" fill="#fff"/>
+    </g>
+    <g>
+      <path d="M11.8708,11.2427c0,2.2671-1.8327,4.1031-4.094,4.1031-2.2665,0-4.0967-1.836-4.0967-4.1031,0-2.26,1.8302-4.096,4.0967-4.096,2.2613,0,4.094,1.836,4.094,4.096Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+      <path d="M10.1266,11.2427c0,1.3013-1.0537,2.355-2.3498,2.355-1.3,0-2.3487-1.0537-2.3487-2.355,0-1.2948,1.0487-2.3447,2.3487-2.3447,1.2961,0,2.3498,1.0499,2.3498,2.3447Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+    </g>
+  </g>
+  <g>
+    <polygon points="16.3517 14.3559 17.8177 18.2252 21.6871 19.6913 17.8177 21.1573 16.3517 25.0267 14.8857 21.1573 11.0163 19.6913 14.8857 18.2252 16.3517 14.3559" fill="url(#radial-gradient-2)" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <polygon points="16.3517 14.3559 17.8177 18.2252 21.6871 19.6913 17.8177 21.1573 16.3517 25.0267 14.8857 21.1573 11.0163 19.6913 14.8857 18.2252 16.3517 14.3559" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

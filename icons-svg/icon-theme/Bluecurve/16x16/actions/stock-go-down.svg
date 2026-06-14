@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="-32" y="-34" width="83" height="80" maskUnits="userSpaceOnUse">
+      <polygon points="12.9882964 4.0596 8.4940966 12 4 4.0596 12.9882964 4.0596" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="8.1825254" y1="3.2805425" x2="10.2228115" y2="8.3812602" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbc8e3"/>
+      <stop offset=".1636033" stop-color="#b3c0dc"/>
+      <stop offset=".4142154" stop-color="#9daccb"/>
+      <stop offset=".7187591" stop-color="#7b8caf"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+  </defs>
+  <polygon points="12.9882964 4.0596 8.4940966 12 4 4.0596 12.9882964 4.0596" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="12.9882964 4.0596 8.4940966 12 4 4.0596 12.9882964 4.0596" fill="url(#linear-gradient)"/>
+      <image width="83" height="80" transform="translate(-32 -34)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAABQCAYAAABlJkmuAAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVR4nO3XsWsTURwH8O/v8t7Zu8tc6KRbhuAoHVxcjeBWXAK6OJQOBRFxcxTHBCF/QIOLiFvr4pK6iK4J1ClxKnTrRbCFvK9DYokZpIvcU78fOLiDN3z5vt/jcYCIiIiIiIiIiIiIiIiIiIiIiIiIiIj8+6zqAKvu7XQtTVPkeY4iz1AUBYoiQ5EXyPM1pGkKs3nsdqvBiuP+wlUdYNnWdqcO4BqA+iWWT/v7R+N2qzH9s6kuL5oyt7Y7hnmRuwCa+P2pIYAhgE5//2gYy4RGU+ZCnUST5CZDMJIgAxiIwID5N2FmpwAmVYddlVQdYMUUwFeS00AaSQuB9vOdhC3WfADQBzCJZSqBiMp83dsl5tO2R+KQZBkCL6Zx8ZQABgB6AAbtVqOsNPSKWtUBlo0+vztv3rh9nCR24pxb995veO+veO/hnS+99wPvXc/MoisSiKxMABh+Oji/vnnn2Dl34p1bd85teO9S790XV6u9NLP3D+42oysSiOiYL3vV3Smdc4dJkuyRHJM8DbMw+n52Niqn36IsEojvNr+QZ1mZJDY0s48kh4Hsz2az8aP7N6O5cFZF9we07PHzN/UkSa5m2ZplWTZ5+vBWtFP5V3jy4q096x5EvekiIiIiIiIiIiIiIiIiIiIiIiIiIiLyP/kBMkKwgKikOVMAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+</svg>

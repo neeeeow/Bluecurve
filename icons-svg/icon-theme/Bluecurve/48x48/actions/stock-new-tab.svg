@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="5.9805" y="8.04" width="38" height="34" maskUnits="userSpaceOnUse">
+      <path d="M33.9805,14.04h-14v-6H5.9805v10h.3711c-.2266.6289-.3711,1.2959-.3711,2v12c0,3.2998,2.6992,8,6,8h22c3.3008,0,8-4.7002,8-8v-12c0-3.2998-4.6992-6-8-6Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="38.1218584" y1="40.6917723" x2="7.1216089" y2="10.9415717" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="19.9805" y="10.04" width="10" height="4" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g>
+      <g>
+        <rect x="5.9805" y="14.04" width="36" height="26" rx="6" ry="6"/>
+        <rect x="5.9805" y="14.04" width="36" height="26" rx="6" ry="6" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+      <rect x="5.9805" y="8.04" width="14" height="10" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+  <rect x="19.9805" y="10.04" width="10" height="4" fill="gray"/>
+  <rect x="19.9805" y="14.04" width="2" height="4" fill="#666"/>
+  <g mask="url(#mask)">
+    <g>
+      <path d="M33.9805,14.04h-14v-6H5.9805v10h.3711c-.2266.6289-.3711,1.2959-.3711,2v12c0,3.2998,2.6992,8,6,8h22c3.3008,0,8-4.7002,8-8v-12c0-3.2998-4.6992-6-8-6Z" fill="#fff"/>
+      <path d="M37.9805,16.04h-18v-6H7.9805v10h.3711c-.2266.6289-.3711,1.2959-.3711,2v14c0,3.2998,2.6992,6,6,6h24c3.3008,0,6-2.7002,6-6v-14c0-3.2998-2.6992-6-6-6Z" fill="url(#linear-gradient)"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line x1="18.2578" y1="26.3486" x2="30.1406" y2="26.3506" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+      <line x1="24.2012" y1="20.4033" x2="24.2012" y2="32.29" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="7"/>
+    </g>
+    <g>
+      <line x1="18.2578" y1="26.3486" x2="30.1406" y2="26.3506" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+      <line x1="24.2012" y1="20.4033" x2="24.2012" y2="32.29" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="6"/>
+    </g>
+    <g>
+      <line x1="17.6367" y1="25.6592" x2="29.5234" y2="25.6592" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+      <line x1="23.5781" y1="20.4033" x2="23.5781" y2="32.29" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3"/>
+    </g>
+  </g>
+</svg>

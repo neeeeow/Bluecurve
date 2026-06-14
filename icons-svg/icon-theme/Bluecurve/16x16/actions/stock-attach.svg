@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Icons_-_16x16" data-name="Icons - 16x16" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="New_Gradient_66" data-name="New Gradient 66" x1="-65.3136844" y1="159.4654742" x2="-59.9931428" y2="170.3742012" gradientTransform="translate(71.883301 -154.6574605)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_64" data-name="New Gradient 64" x1="-65.3136844" y1="159.4654742" x2="-59.9931428" y2="170.3742012" gradientTransform="translate(71.883301 -154.6574605)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_66-2" data-name="New Gradient 66" x1="-66.964818" y1="158.1550066" x2="-61.6442763" y2="169.0637336" gradientTransform="translate(71.5269728 -154.0165815)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e5e5e5"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="New_Gradient_64-2" data-name="New Gradient 64" x1="-66.964818" y1="158.1550066" x2="-61.6442763" y2="169.0637336" gradientTransform="translate(71.5269728 -154.0165815)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e5e5e5"/><stop offset=".286514" stop-color="#f2f2f2"/><stop offset=".646072" stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="4.0154678" y="6.0455969" width="10.0613585" height="7.7122562" transform="translate(-2.8412657 3.6915436) rotate(-20.0020822)" fill="url(#New_Gradient_66)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="4.0154678" y="6.0455969" width="10.0613585" height="7.7122562" transform="translate(-2.8412657 3.6915436) rotate(-20.0020822)" fill="url(#New_Gradient_64)"/>
+  </g>
+  <g>
+    <rect x="2.0154678" y="5.3788469" width="10.0613585" height="7.7122562" transform="translate(-2.7335479 2.9667601) rotate(-19.9994065)" fill="url(#New_Gradient_66-2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="2.0154678" y="5.3788469" width="10.0613585" height="7.7122562" transform="translate(-2.7335479 2.9667601) rotate(-19.9994065)" fill="url(#New_Gradient_64-2)"/>
+  </g>
+  <path d="M3.6171963,9c0,1.2861,1.0469,2.333,2.3329999,2.333s2.3329999-1.0469,2.3329999-2.333v-4.667c0-1.2861-1.0469-2.333-2.3329999-2.333s-2.3329999,1.0469-2.3329999,2.333v4.667ZM4.9501962,4.333c0-.5513.4482-1,1-1,.5518038,0,1,.4487,1,1v4.667c0,.5513-.4481962,1-1,1-.5518,0-1-.4487-1-1v-4.667Z"/>
+  <path d="M3.9501963,9c0,1.1025.8975,2,1.9999999,2s1.9999999-.8975,1.9999999-2v-4.667c0-1.1025-.8975-2-1.9999999-2s-1.9999999.8975-1.9999999,2v4.667ZM4.6171962,4.333c0-.7349.5976-1.333,1.333-1.333.7353,0,1.333.5981,1.333,1.333v4.667c0,.7349-.5977,1.333-1.333,1.333-.7354,0-1.333-.5981-1.333-1.333v-4.667Z" fill="#999"/>
+</svg>

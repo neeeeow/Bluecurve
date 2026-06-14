@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x=".5" y="1.5" width="15" height="15" maskUnits="userSpaceOnUse">
+      <polyline points="14.5 2.4999847 1.5 2.4999847 1.5 15.5000114 14.5 15.5000114 14.5 2.4999847" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-128" y1="-32.0000009" x2="-127" y2="-32.0000009" gradientTransform="translate(141.3851299 74.9880772) rotate(40.4871013) scale(1.136277 -1.136277)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g mask="url(#mask)">
+    <image width="15" height="15" transform="translate(.5 1.5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAACXBIWXMAAAsSAAALEgHS3X78AAAAeElEQVQ4jcWS0QqAIAwArwyKIIL+/y+LKErooQkiZttL7cWhu5vi4O+oDLUO6CTfZPXOAA/ABLTALntnY4B7YJHuRzh8e0IMr8AM+LigJHiFSwIV/CRQwzmBCU4FZhigjvIOGLn/WAWnAgTatHAaYVS105m9wfdxAXUFHzfk8fm2AAAAAElFTkSuQmCC"/>
+  </g>
+  <line x1="3" y1="13" x2="12" y2="4" fill="url(#linear-gradient)"/>
+  <polyline points="3.3535461 13.35355 12.3535461 4.35355 11.6464386 3.6464462 2.6464386 12.6464462"/>
+</svg>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="5.565895" y="4" width="35.434105" height="40.3848074" maskUnits="userSpaceOnUse">
+      <path d="M24.46,42.4297074l-17.894105-4.4609999L14.7865948,5l25.2134052,6.2832082-6.4136057,25.6493994c-.8676,3.4853924-5.7299999,6.3437998-9.1263943,5.4970999Z" fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </mask>
+    <linearGradient id="New_Gradient_399" data-name="New Gradient 399" x1="13.9174767" y1="5.4238972" x2="32.3641258" y2="43.2451326" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_400" data-name="New Gradient 400" cx="81.6473936" cy="44.0236182" fx="81.6473936" fy="44.0236182" r="8.8646633" gradientTransform="translate(-42.784 -28.3925) rotate(13.9915205) skewX(-.0111829)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <mask id="mask-1" x="6.565895" y="5" width="33.434105" height="39.3848074" maskUnits="userSpaceOnUse">
+      <path d="M24.46,42.4297074l-17.894105-4.4609999L14.7865948,5l25.2134052,6.2832082-6.4136057,25.6493994c-.8676,3.4853924-5.7299999,6.3437998-9.1263943,5.4970999Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_401" data-name="New Gradient 401" x1="13.9174767" y1="5.4238972" x2="32.3641258" y2="43.2451326" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_402" data-name="New Gradient 402" cx="81.6473936" cy="44.0236182" fx="81.6473936" fy="44.0236182" r="8.8646633" gradientTransform="translate(-42.784 -28.3925) rotate(13.9915205) skewX(-.0111829)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".331467" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+    <mask id="mask-2" x="3" y="14" width="19.1527946" height="13" maskUnits="userSpaceOnUse">
+      <rect x="3" y="14" width="18" height="11.8018078" fill="#fff"/>
+    </mask>
+  </defs>
+  <g id="Layer_4" data-name="Layer 4">
+    <g>
+      <g mask="url(#mask)">
+        <g>
+          <path d="M24.46,42.4297074l-17.894105-4.4609999L14.7865948,5l25.2134052,6.2832082-6.4136057,25.6493994c-.8676,3.4853924-5.7299999,6.3437998-9.1263943,5.4970999Z" fill="url(#New_Gradient_399)" fill-rule="evenodd"/>
+          <path d="M23.2645946,42.2617074s4.2187999.8809,5.3759999-3.7577999c4.3046999,1.0732,5.2748999-2.6719075,5.2748999-2.6719075l-2.1332999,8.5528074-8.5175998-2.1230999Z" fill="url(#New_Gradient_400)" fill-rule="evenodd"/>
+          <path d="M24.46,42.4297074l-17.894105-4.4609999L14.7865948,5l25.2134052,6.2832082-6.4136057,25.6493994c-.8676,3.4853924-5.7299999,6.3437998-9.1263943,5.4970999Z" fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g mask="url(#mask-1)">
+        <g>
+          <path d="M24.46,42.4297074l-17.894105-4.4609999L14.7865948,5l25.2134052,6.2832082-6.4136057,25.6493994c-.8676,3.4853924-5.7299999,6.3437998-9.1263943,5.4970999Z" fill="url(#New_Gradient_401)" fill-rule="evenodd"/>
+          <path d="M23.2645946,42.2617074s4.2187999.8809,5.3759999-3.7577999c4.3046999,1.0732,5.2748999-2.6719075,5.2748999-2.6719075l-2.1332999,8.5528074-8.5175998-2.1230999Z" fill="url(#New_Gradient_402)" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+  </g>
+  <g id="Layer_5" data-name="Layer 5">
+    <g>
+      <path d="M12.1942948,28.5195078c6.3901998,1.5918,12.7783997,3.1874922,19.1708995,4.7812999" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <path d="M16.3036947,12.0381082c6.3891998,1.5918,12.7783053,3.1864999,19.1708995,4.7811999" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <path d="M14.6601948,18.630908c6.3895998,1.5908,12.7782997,3.1874999,19.1703995,4.7801999" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <path d="M15.4818948,15.334c6.3896998,1.5918081,12.7773997,3.187508,19.1703995,4.781208" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <path d="M13.0160948,25.2227079c6.3896998,1.5918,12.7777997,3.1874999,19.1709052,4.7811999" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <path d="M13.8378948,21.9258079c6.3895998,1.5928,12.7782997,3.1884999,19.1703995,4.7821921" fill="none" stroke="#ccc" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    </g>
+  </g>
+  <g id="labels">
+    <g opacity=".85">
+      <rect x="3" y="14" width="18" height="11.8018078" fill="#032c87" stroke="#1459a5" stroke-width="2"/>
+      <g mask="url(#mask-2)">
+        <g>
+          <rect x="3" y="14" width="18" height="11.8018078" fill="#fff"/>
+          <rect x="4.154295" y="15.1699081" width="17.9984995" height="11.8300919" fill="#d8eafd"/>
+        </g>
+      </g>
+      <g>
+        <path d="M7.1445312,17.5107422c.3964844-.0771484.8579102-.1191406,1.3837891-.1240234.75,0,1.2910156.1582031,1.6225586.4755859.2836914.2617188.4291992.6259766.4370117,1.09375-.0078125.3759766-.1098633.6875-.3056641.9355469-.1987305.25-.4467773.4257812-.7446289.5253906v.0292969c.4145508.1650391.6879883.5517578.8198242,1.1611328.1777344.8154297.3188477,1.3427734.4238281,1.5820312h-.7490234c-.0917969-.1835938-.2133789-.6425781-.3642578-1.3779297-.0756836-.3984375-.199707-.6816406-.3725586-.8515625-.1757812-.1787109-.4267578-.2675781-.753418-.2675781h-.6801758v2.4970703h-.7172852v-5.6787109ZM7.8618164,20.1337891h.7387695c.824707-.0166016,1.2456055-.3828125,1.2617188-1.0986328-.0053711-.3710938-.121582-.6464844-.3491211-.8251953-.237793-.1650391-.550293-.2480469-.9370117-.2480469-.3491211.0058594-.5869141.0283203-.7143555.0673828v2.1044922Z"/>
+        <path d="M16.4438477,20.6621094c-.0566406-.8808594-.0874023-1.7109375-.0927734-2.4912109h-.0161133c-.1914062.6679688-.4257812,1.3974609-.703125,2.1884766l-.9858398,2.7978516h-.5458984l-.9091797-2.7480469c-.2636719-.8125-.4765625-1.5585938-.6381836-2.2382812h-.0161133c-.0161133.7685547-.0512695,1.6171875-.1049805,2.546875l-.1499023,2.4716797h-.6870117l.3881836-5.7617188h.9174805l.9536133,2.7871094c.2314453.7021484.418457,1.3496094.5615234,1.9433594h.0161133c.1484375-.5771484.3476562-1.2246094.5981445-1.9433594l.9902344-2.7871094h.9208984l.3476562,5.7617188h-.7114258l-.1333008-2.5273438Z"/>
+      </g>
+    </g>
+  </g>
+  <g id="Layer_3" data-name="Layer 3">
+    <image width="32" height="32" transform="translate(23 16) scale(.6875)" xlink:href="data:image/png;base64,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"/>
+  </g>
+</svg>

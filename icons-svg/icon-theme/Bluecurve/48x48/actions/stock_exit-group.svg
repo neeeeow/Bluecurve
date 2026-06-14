@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="27.3599548" y="16.1399908" width="10.4399996" height="12.5999995" maskUnits="userSpaceOnUse">
+      <polyline points="37.5521545 16.4545898 27.540863 16.4545898 27.540863 28.4731445 37.5521545 28.4731445 37.5521545 16.4545898" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="11.1599731" y="12.1799688" width="10.6199995" height="12.5999995" maskUnits="userSpaceOnUse">
+      <polyline points="21.5298767 12.4438477 11.5185547 12.4438477 11.5185547 24.4622192 21.5298767 24.4622192 21.5298767 12.4438477" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="17.2799683" y="24.2399664" width="10.4399996" height="12.5999995" maskUnits="userSpaceOnUse">
+      <polyline points="27.525238 24.4761353 17.5141296 24.4761353 17.5141296 36.4946289 27.525238 36.4946289 27.525238 24.4761353" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="3.4951926" y="4.4399" width="42.0716989" height="40.0683" maskUnits="userSpaceOnUse">
+      <polygon points="3.4951926 4.4399 3.4951926 26.4755 11.5087924 26.4755 11.5087924 40.5034 3.4951926 40.5034 3.4951926 44.5082 45.5668916 44.5082 45.5668916 4.4399 3.4951926 4.4399" fill="none"/>
+    </mask>
+  </defs>
+  <g>
+    <polyline points="37.5521545 16.4545898 27.540863 16.4545898 27.540863 28.4731445 37.5521545 28.4731445 37.5521545 16.4545898"/>
+    <path d="M27.540863,16.4545898h10.0112915v12.0185547h-10.0112915v-12.0185547M38.5520935,15.4545288h-12.0111694v14.0185547h12.0111694v-14.0185547"/>
+    <g mask="url(#mask)">
+      <image width="58" height="70" transform="translate(27.3599548 28.7399902) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAABFCAYAAADuMX6MAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAApUlEQVRoge3PSwrDMAwAUbmWL5z7+WT+tLuQUgrZTpgHAiHsxZTe+7u1FpkZtdbIzHNaaz+3zIxSSsw5Y84ZY4xzX2vF3jv23l/7df7d7769+/84jvKKBzOOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKO6tFxH8YrfIqgv3VPAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="21.5298767 12.4438477 11.5185547 12.4438477 11.5185547 24.4622192 21.5298767 24.4622192 21.5298767 12.4438477"/>
+    <path d="M11.5185547,12.4438477h10.011322v12.0183716h-10.011322v-12.0183716M22.5298157,11.4437256h-12.0112v14.0184326h12.0112v-14.0184326"/>
+    <g mask="url(#mask-1)">
+      <image width="59" height="70" transform="translate(11.1599731 24.7799683) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAABFCAYAAADuMX6MAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAoklEQVRoge3PSwrEIBAA0XbUC3tAL+ZnZpWQLAayrVAPGlrRRaXe+7eUEsfknM+91no7H5NSijlnzDljjHHua63Ye8fe+7Zf59/907dP/7fW0idezDgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjgq46iMozKOyjiqV8f9AMZDfIqbWSRqAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="27.525238 24.4761353 17.5141296 24.4761353 17.5141296 36.4946289 27.525238 36.4946289 27.525238 24.4761353"/>
+    <path d="M17.5141296,24.4761353h10.0111084v12.0184937h-10.0111084v-12.0184937M28.525238,23.4761353h-12.0109863v14.0183716h12.0109863v-14.0183716"/>
+    <g mask="url(#mask-2)">
+      <image width="58" height="70" transform="translate(17.2799683 36.8399658) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADYAAABGCAYAAACHZ2ccAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAlUlEQVRoge3PSQrFIBAA0U7a+9/Ikzkkuw8/kGFbUg8aodVFbbXWIzOjlPJ5MjN673/TWosxRsw5f+d17vZP929/7t7usSjDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaAyjMYzGMBrDaJYNW9YJ+fp7M3xPIm4AAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <line x1="7.3278925" y1="33.0004" x2="13.5141924" y2="33.0004" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="7.2495925 31.0283 7.2495925 28.4809 1.4936927 33.0004 7.2495925 37.5238 7.2495925 34.9099" fill="#c40000"/>
+  </g>
+  <g mask="url(#mask-3)">
+    <g opacity=".5">
+      <g>
+        <rect x="7.5087925" y="8.4468" width="33.8075991" height="32.26" rx="1.9999999" ry="1.9999999"/>
+        <rect x="7.5087925" y="8.4468" width="33.8075991" height="32.26" rx="1.9999999" ry="1.9999999" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+      <rect x="7.5087925" y="8.4468" width="33.8075991" height="32.26" rx="1.9999999" ry="1.9999999" fill="#fff"/>
+    </g>
+  </g>
+</svg>

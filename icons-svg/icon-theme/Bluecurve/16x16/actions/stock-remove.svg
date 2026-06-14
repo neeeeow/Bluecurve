@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="5.5" y1="5.5" x2="10.5" y2="10.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff936a"/>
+      <stop offset=".148471" stop-color="#ff845f"/>
+      <stop offset=".4334744" stop-color="#ff5d43"/>
+      <stop offset=".8224383" stop-color="#ff1e16"/>
+      <stop offset="1" stop-color="red"/>
+    </linearGradient>
+  </defs>
+  <rect x="4" y="7" width="8" height="2" fill="#fff" stroke="#141414" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="4" y="7" width="8" height="2" fill="url(#linear-gradient)"/>
+</svg>

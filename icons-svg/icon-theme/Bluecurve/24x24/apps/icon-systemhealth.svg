@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="New_Gradient_176" data-name="New Gradient 176" x1="18.1709327" y1="4.938414" x2="5.8848695" y2="20.1104385" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9d9d9"/>
+      <stop offset=".522476" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_176-2" data-name="New Gradient 176" x1="12.3343994" y1="4.9746611" x2="4.6552189" y2="14.4576593" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9d9d9"/><stop offset=".522476" stop-color="#f2f2f2"/><stop offset="1" stop-color="#ccc"/></linearGradient>
+    <linearGradient id="New_Gradient_175" data-name="New Gradient 175" x1="21.8951101" y1="20.8656185" x2="3.2824967" y2="4.6859205" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <mask id="mask" x="5.894492" y="4.4702" width="16.8486996" height="18.7158" maskUnits="userSpaceOnUse">
+      <polygon points="19.6347916 5.7485 5.894492 9.1763 5.894492 19.6235 19.6347916 16.2378 19.6347916 5.7485" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="20.9643624" y1="17.2311793" x2="4.5665666" y2="8.1417327" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#016e13"/>
+      <stop offset="1" stop-color="#015910"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="31.3855295" cy="-11.435882" fx="31.3855295" fy="-11.435882" r="13.1930565" gradientTransform="translate(-20.6688 21.4418)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#238e35"/>
+      <stop offset="1" stop-color="#015910"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path d="M4.168892,21.9751s-1.1855-.6782-1.1855-2.3545v-11.6089s-.0459-1.0679.7393-1.2915c.7812-.2226,14.5887996-3.5127,15.3055996-3.7041.9492-.2544,1.8643.5347,1.8643.5347l-.0967.1064.1641084-.041v14.1939l-16.742208,4.1254-.0489.0396Z" fill="url(#New_Gradient_176)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M4.168892,21.9751s-1.1855-.6782-1.1855-2.3545v-11.6089s-.0459-1.0679.7393-1.2915c.7812-.2226,14.5887996-3.5127,15.3055996-3.7041.9492-.2544,1.8643.5347,1.8643.5347L4.168892,21.9751Z" fill="url(#New_Gradient_176-2)" fill-rule="evenodd"/>
+    <polygon points="20.96 3.6162 4.217792 7.791 4.217792 21.9355 20.96 17.8101 20.96 3.6162" fill="url(#New_Gradient_175)" fill-rule="evenodd"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="19.6347916 5.7485 5.894492 9.1763 5.894492 19.6235 19.6347916 16.2378 19.6347916 5.7485" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+        <path d="M18.7216916,5.2261s-4.3564999,2.3135-6.7236916,7.4873c-2.3662081,5.1733-.7451082,10.4726-.7451082,10.4726l11.4902997-3.2539-.6133-15.4619-3.4081999.7559Z" fill="url(#radial-gradient)" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <path d="M3.904292,21.4985V7.8071c0-.0962.126-.2661.2139-.2876L20.3778916,3.3994c.4346-.1108.7149.5903.2813.7002l-16.2245996,3.9751v13.6484c0,.4727-.5303.2481-.5303-.2246Z" fill="#fff"/>
+    <polyline points="4.434592 21.7231 4.434592 8.0747 20.7284916 3.9619" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+    <polyline points="6.012692 19.6914 19.6854916 16.3403 19.6854916 5.8252" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".9039"/>
+    <polyline points="5.853492 19.4077 5.853492 9.2095 19.4198916 5.7734" fill="none" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8877"/>
+  </g>
+  <polyline points="7.5800919 14.0269 9.4530919 13.5615 10.6796918 10.6924 12.0751918 15.436 13.9823918 12.4336 17.2851917 11.6113" fill="none" fill-rule="evenodd" stroke="#8aff9e"/>
+</svg>

@@ -1,0 +1,96 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_3" data-name="Set 3" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-256.3755" y1="-159.1879868" x2="-247.4102" y2="-159.1879868" gradientTransform="translate(-147.1875 -242.4102) rotate(-90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".20224" stop-color="#f2f2f2"/>
+      <stop offset=".662921" stop-color="#b2b2b2"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_248" data-name="New Gradient 248" x1="-152.9061935" y1="49.0371" x2="-146.4531" y2="49.0371" gradientTransform="translate(-137.4941 -35.4131) scale(-1 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".20224" stop-color="#f2f2f2"/>
+      <stop offset=".516861" stop-color="#b2b2b2"/>
+      <stop offset=".769669" stop-color="#b2b2b2"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="-144.2714961" y1="49.0371" x2="-137.8184026" y2="49.0371" gradientTransform="translate(153.2304961 -35.4131)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#999"/><stop offset=".20224" stop-color="#f2f2f2"/><stop offset=".662921" stop-color="#b2b2b2"/><stop offset="1" stop-color="#737373"/></linearGradient>
+    <mask id="mask" x="3.5085128" y="4.5" width="16.9837745" height="9.4653" maskUnits="userSpaceOnUse">
+      <path d="M19.9882934,7.0054c.2197066,1.103-2.5673999,6.958-7.9862934,6.9599-5.4258062,0-8.209-5.8589-7.9893062-6.9599h15.9755996Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_95" data-name="New Gradient 95" x1="10.2045354" y1="11.8004245" x2="14.088565" y2="2.0622126" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".415726" stop-color="#f2f2f2"/>
+      <stop offset=".48877" stop-color="#fff"/>
+      <stop offset=".578659" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_122" data-name="New Gradient 122" cx="-191.6975722" cy="-14.5242269" fx="-191.6975722" fy="-14.5242269" r="6.1722615" gradientTransform="translate(-184.4551 -147.3429) rotate(-137.383978) scale(1.286846 -1.2894856) skewX(-1.2332845)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset=".415726" stop-color="#ccc"/>
+      <stop offset="1" stop-color="gray"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient" cx="-188.8514695" cy="-16.4779334" fx="-188.8514695" fy="-16.4779334" r="8.6584832" gradientTransform="translate(-184.4551 -147.3429) rotate(-137.383978) scale(1.286846 -1.2894856) skewX(-1.2332845)" gradientUnits="userSpaceOnUse">
+      <stop offset=".146067" stop-color="#e5e5e5"/>
+      <stop offset=".640449" stop-color="gray"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask-1" x="5.6999817" y="2.7599947" width="2.5199999" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="8 2.9999924 5.9999847 2.9999924 5.9999847 7.0000305 8 7.0000305 8 2.9999924" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="10.7399902" y="2.7599947" width="2.5199999" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="12.9999847 2.9999924 11.0000305 2.9999924 11.0000305 7.0000305 12.9999847 7.0000305 12.9999847 2.9999924" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="15.7799835" y="2.7599947" width="2.5199999" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="17.9999695 2.9999924 16.0000305 2.9999924 16.0000305 7.0000305 17.9999695 7.0000305 17.9999695 2.9999924" fill="#fff"/>
+    </mask>
+    <mask id="mask-4" x="9.6599731" y="18.7800032" width="4.4999998" height="2.5199999" maskUnits="userSpaceOnUse">
+      <polyline points="13.9511719 18.9999695 9.9999847 18.9999695 9.9999847 21.0000153 13.9511719 21.0000153 13.9511719 18.9999695" fill="#fff"/>
+    </mask>
+  </defs>
+  <g>
+    <path d="M19.9882934,7.0054c.2197066,1.103-2.5673999,6.958-7.9862934,6.9599-5.4258062,0-8.209-5.8589-7.9893062-6.9599.1269-.6372,3.0468999-2.0054,7.9893062-2.0054,4.9393935,0,7.8573934,1.3677,7.9862934,2.0054Z" fill="url(#linear-gradient)" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <path d="M15.4120935,13.9927v-2.7447h-6.4530935v2.7442c0,1.1099,1.4432937,2.0078,3.2274936,2.0078,1.7803,0,3.2255999-.8979,3.2255999-2.0073Z" fill="url(#New_Gradient_248)" fill-rule="evenodd" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <path d="M8.959,13.9927v-2.7447h6.4530935v2.7442c0,1.1099-1.4453,2.0078-3.2274999,2.0078-1.7823,0-3.2255936-.8979-3.2255936-2.0073Z" fill="url(#linear-gradient-2)" fill-rule="evenodd"/>
+    <g>
+      <g mask="url(#mask)">
+        <g>
+          <path d="M19.9882934,7.0054c.2197066,1.103-2.5673999,6.958-7.9862934,6.9599-5.4258062,0-8.209-5.8589-7.9893062-6.9599h15.9755996Z" fill="url(#New_Gradient_95)" fill-rule="evenodd"/>
+          <path d="M7.3036938,9.0679c-.6318.1606-.5986.7285.1904,2.0161.2832.456.6846.897,1.1036,1.2285-.0801.126-.2071.1948-.3896937.208-.7373063.0483-2.3057062-1.2212-3.0068062-2.2905-.8379-1.272-1.294-1.7403-.7354-2.105.5713-.373,1.6514.165,2.8378999.9429Z" fill="#fff" fill-rule="evenodd" opacity=".6"/>
+          <path d="M4.0126938,7.0054c-.127.6357,2.6415999,2.6377,7.9873062,2.6372,5.3466935,0,8.1122934-2.003,7.9882934-2.6372-.1289-.6377-3.0468999-2.0054-7.9862934-2.0054-4.9424062,0-7.8624062,1.3682-7.9893062,2.0054Z" fill="url(#New_Gradient_122)" fill-rule="evenodd" stroke="#4d4d4d" stroke-miterlimit="3.8637"/>
+        </g>
+      </g>
+      <path d="M4.0126938,7.0054c-.127.6357,2.6415999,2.6377,7.9873062,2.6372,5.3466935,0,8.1122934-2.003,7.9882934-2.6372-.1289-.6377-3.0468999-2.0054-7.9862934-2.0054-4.9424062,0-7.8624062,1.3682-7.9893062,2.0054Z" fill="url(#radial-gradient)" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <rect x="6" y="3" width="2" height="4" stroke="#000" stroke-width="2"/>
+      <rect x="11" y="3" width="2" height="4" stroke="#000" stroke-width="2"/>
+      <rect x="16" y="3" width="2" height="4" stroke="#000" stroke-width="2"/>
+    </g>
+    <g>
+      <g mask="url(#mask-1)">
+        <image width="14" height="25" transform="translate(5.6999817 7.2599945) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAYAAACdbmSKAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAXklEQVQ4jWMsmP//PwMJYEIiIyMLByspWiCAhYONDE1sLGRo4qSb88gKCHZyNHGS4zx2ckKPfs7j4yJDEz8nGZr+kZTGoZo+fSdD08dv5NhEjqaP5DiPLJu+/yJdEwAMdhKH9S92+QAAAABJRU5ErkJggg=="/>
+      </g>
+      <g mask="url(#mask-2)">
+        <image width="14" height="25" transform="translate(10.7399902 7.2599945) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAYAAACdbmSKAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAXUlEQVQ4jWP8H2X9n4FEwMLAyk6qHgYWBjYOMjSxspJjEyc5msjxE1kBQcfQI8smNnI0keM8YV4yNEnzkaHp3z8yND36TIamj5/I0PT1CxmavpFj0zdy/PTzO8maAACHERgH5SmTAAAAAElFTkSuQmCC"/>
+      </g>
+      <g mask="url(#mask-3)">
+        <image width="14" height="25" transform="translate(15.7799835 7.2599945) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA0AAAAVCAYAAACdbmSKAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAASElEQVQ4je3SIQ4AQQgDwG5SEPxf8k4EhntDV5AVh5+0aTiZORCPZqYa0N11RHIp6QpdDbG33uP1ImIJzchPDlbVjwCwu2X0ATrGGGe3J/a6AAAAAElFTkSuQmCC"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect x="10" y="19" width="3.9511936" height="2" stroke="#000" stroke-width="2"/>
+    <g mask="url(#mask-4)">
+      <image width="25" height="14" transform="translate(9.6599731 21.3000031) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAALCAYAAABlNU3NAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAS0lEQVQ4jWMsOFfwn4FGYILRBEYWbm5uWpnPwMDAwMDCxcVFWwto7gOaWyDPJk9bCwQYBGhrwZW/V2hrwZs3b2hrwcePH2lqAc0BADKhDUeYlzzeAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+  <g>
+    <polygon points="19.585 21.0469 18.3925935 19.4854 17.2001935 18.0117 19.585 18.0117 21.9687934 18.0117 20.7763934 19.4854 19.585 21.0469"/>
+    <rect x="19" y="15" width="1" height="3"/>
+    <polygon points="19.585 21.0469 18.3925935 19.4854 17.2001935 18.0117 19.585 18.0117 21.9687934 18.0117 20.7763934 19.4854 19.585 21.0469"/>
+    <rect x="19" y="15" width="1" height="3"/>
+  </g>
+</svg>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="New_Gradient_519" data-name="New Gradient 519" x1="4.3210063" y1="13.4166466" x2="13.3521637" y2="5.8386057" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset=".168533" stop-color="#e5e5e5"/>
+      <stop offset=".230331" stop-color="#fff"/>
+      <stop offset=".280899" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="4.7665786" y1="12.3717668" x2="11.6004445" y2="5.5379008" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset=".168533" stop-color="#e5e5e5"/>
+      <stop offset=".230331" stop-color="#fff"/>
+      <stop offset=".280899" stop-color="#e5e5e5"/>
+      <stop offset=".5" stop-color="#c2c2c2"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_518" data-name="New Gradient 518" x1="7.8784904" y1="8.6293462" x2="13.8788146" y2="14.6296704" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ccc"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_517" data-name="New Gradient 517" x1="12.3656846" y1="14.9375405" x2="9.3974523" y2="8.2707816" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b2b2b2"/>
+      <stop offset=".5" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_516" data-name="New Gradient 516" x1="13.2969041" y1="11.2518402" x2="13.5922948" y2="12.0634193" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0f6124"/>
+      <stop offset="1" stop-color="#219630"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_515" data-name="New Gradient 515" x1="3.1326894" y1="12.9427106" x2="6.9147888" y2="9.1606112" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="9.6157274" y1="9.4602226" x2="13.3701623" y2="5.7057877" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bfbfbf"/>
+      <stop offset="1" stop-color="#f2f2f2"/>
+    </linearGradient>
+  </defs>
+  <path d="M7.1387,13.8877l-4.0757-4.023c-.0415-.0473-.063-.1098-.063-.1855v-2.2412c0-.1948.1567-.3916.3525-.44l6.9126-1.7124c.1187-.0293.2237.002.2867.0752l4.0669,4.0113c.0468.06.0688.1206.0688.1928v2.2413c0,.1938-.1577.3911-.353.4399l-6.9126,1.7114c-.1157.0298-.2198-.0005-.2832-.0698Z" fill="url(#New_Gradient_519)" stroke="#000" stroke-miterlimit="3.8637" stroke-width="1.8248"/>
+  <path d="M7.1387,13.8877l-4.0757-4.023c-.0415-.0473-.063-.1098-.063-.1855v-2.2412c0-.1948.1567-.3916.3525-.44l6.9126-1.7124c.1187-.0293.2237.002.2867.0752l4.0781,4.0245-7.4912,4.5024Z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+  <path d="M7.4219,11.0122l6.9126-1.7119c.1953-.0483.353.0698.353.2646v2.2413c0,.1938-.1577.3911-.353.4399l-6.9126,1.7114c-.1948.0493-.3531-.0698-.3531-.2641v-2.2398c0-.1943.1583-.3921.3531-.4414Z" fill="url(#New_Gradient_518)" fill-rule="evenodd"/>
+  <path d="M14.1343,9.2046c.3364-.0913.5532.0776.5532.4326v2.1284c0,.2539-.1943.4864-.4297.5459l-6.6206,1.6885c-.1797.0449-.5527.0474-.5527-.3867v-2.1743c0-.2544.1938-.4869.4297-.5459l6.6201-1.6885ZM7.4009,13.7051c.0195.0014.0556,0,.1133-.0142l6.6206-1.6885c.1342-.0336.2402-.1762.2402-.2915v-2.1289c0-.0493,0-.0698-.0059-.0859-.0205-.0005-.0566.0024-.1103.0171l-6.6216,1.6894c-.1348.0337-.2402.1753-.2402.2911v2.1748l.0039.0366Z" fill="url(#New_Gradient_517)"/>
+  <path d="M13.1523,11.4448l.5845-.1357c.3745-.0869.3745.4746,0,.5615l-.5845.1348c-.3745.0879-.3745-.4746,0-.5606Z" fill="url(#New_Gradient_516)"/>
+  <line x1="13.1299" y1="11.6821" x2="13.6919" y2="11.5503" fill="none" stroke="#7cc771" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width="1.1405"/>
+  <path d="M3.2695,9.7246l3.5083,3.3555-.0175-1.1123c-.606.2871-3.4908-2.9444-3.4908-2.9444v.7012Z" fill="url(#New_Gradient_515)" fill-rule="evenodd"/>
+  <path d="M10.3267,5.5957l3.5288,3.3779-3.6118.9805c3.8007-2.3638-.7305-4.1445-.7305-4.1445l.8135-.2139Z" fill="url(#linear-gradient-2)" fill-rule="evenodd"/>
+</svg>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="4.0635958" y="3.0471" width="23.2387995" height="27.2506" maskUnits="userSpaceOnUse">
+      <path d="M20.1410954,29.2963l-15.0735996.0014-.0039-25.2506,21.2387995.0012-.0105,19.6209c0,2.6795-3.2903999,5.6271-6.1507998,5.6271Z" fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </mask>
+    <linearGradient id="New_Gradient_181" data-name="New Gradient 181" x1="8.6691761" y1="2.288541" x2="22.6510863" y2="30.9557051" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_182" data-name="New Gradient 182" cx="-9.440512" cy="63.0358894" fx="-9.440512" fy="63.0358894" r="6.9862098" gradientTransform="translate(28.895 -36.5740114) scale(1.0313 .9421)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <mask id="mask-1" x="5.0635958" y="4.0471" width="21.2725995" height="25.3457" maskUnits="userSpaceOnUse">
+      <path d="M20.1410954,29.2963l-15.0735996.0014-.0039-25.2506,21.2387995.0012-.0105,19.6209c0,2.6795-3.2903999,5.6271-6.1507998,5.6271Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_178" data-name="New Gradient 178" x1="8.6691761" y1="2.288541" x2="22.6510863" y2="30.9557051" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_179" data-name="New Gradient 179" cx="-9.440512" cy="63.0358894" fx="-9.440512" fy="63.0358894" r="6.9862098" gradientTransform="translate(28.895 -36.5740114) scale(1.0313 .9421)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".331467" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+    <mask id="mask-2" x="6" y="10" width="24" height="20" maskUnits="userSpaceOnUse">
+      <polyline points="29.0000305 11 7.0000458 11 7.0000458 28.999939 29.0000305 28.999939 29.0000305 11" fill="#fff"/>
+    </mask>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_5" data-name="Set 5">
+      <g>
+        <g>
+          <g mask="url(#mask)">
+            <g>
+              <path d="M20.1410954,29.2963l-15.0735996.0014-.0039-25.2506,21.2387995.0012-.0105,19.6209c0,2.6795-3.2903999,5.6271-6.1507998,5.6271Z" fill="url(#New_Gradient_181)" fill-rule="evenodd"/>
+              <path d="M19.159,29.3914s3.5207954-.1224,3.5220954-3.6914c3.6237999.0012,3.6550999-2.8879,3.6550999-2.8879l-.0026,6.5807-7.1745953-.0014Z" fill="url(#New_Gradient_182)" fill-rule="evenodd"/>
+              <path d="M20.1410954,29.2963l-15.0735996.0014-.0039-25.2506,21.2387995.0012-.0105,19.6209c0,2.6795-3.2903999,5.6271-6.1507998,5.6271Z" fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            </g>
+          </g>
+          <g mask="url(#mask-1)">
+            <g>
+              <path d="M20.1410954,29.2963l-15.0735996.0014-.0039-25.2506,21.2387995.0012-.0105,19.6209c0,2.6795-3.2903999,5.6271-6.1507998,5.6271Z" fill="url(#New_Gradient_178)" fill-rule="evenodd"/>
+              <path d="M19.159,29.3914s2.4474954-.8987,2.4487954-4.4678c3.6237999,0,4.7283999-2.1115,4.7283999-2.1115l-.0026,6.5807-7.1745953-.0014Z" fill="url(#New_Gradient_179)" fill-rule="evenodd"/>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g mask="url(#mask-2)">
+            <image width="24" height="20" transform="translate(6 10)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAUCAYAAACXtf2DAAAACXBIWXMAAAsSAAALEgHS3X78AAABH0lEQVQ4jd2U21LDMAxETy6kXMoD//+X0BJS0oQHr4rwWHGG4QnNeBwnklZSdt2wz5rCu3VPYLsT4NdWqsx/a1RE1MGiPeymFGiJO6AHBu3edwVm4KL9GgHlAFbxANwDD8Cjzn6ci5K/AyPwobN1VASw5AfgWetJ56iDCTgDb1pTDtJnAHfAEXgRwEAaVWmUvfxthPZPLhGAr/6o5yi5FWRrBT7VwSygW1Lv2CvxVuU5SCd/P8pbXK6DLVrWgIpxOYDn9p9Yyzd/PTOKlNuwJfLvAlATWe0/rCSRGV1PrrgigAWs/Jyrjc6vq5KNJA28koQ3E9DUkkxyNuodKF+KuZpH+YdK9u9akohKKvYFVe+jmohqlK3eqHv4XgP45/YFB2pj+puVfS0AAAAASUVORK5CYII="/>
+          </g>
+          <path d="M9.9698029,19.2521973c0-2.864502,3.217392-5.1895752,7.183197-5.1895752,3.9656982,0,7.1823883,2.3250732,7.1823883,5.1895752,0,2.8670044-3.2166901,5.1932983-7.1823883,5.1932983-3.9658051,0-7.183197-2.3262939-7.183197-5.1932983Z" fill="#ddb800"/>
+          <path d="M9.9698029,19.2521973h.4999847c-.0002441-1.2363892.6916809-2.3892822,1.8972473-3.2637329,1.2018433-.869873,2.9007568-1.4268799,4.785965-1.4259033,1.8851166-.0009766,3.5838318.5560303,4.7854767,1.4259033,1.205368.8743896,1.8971405,2.0272827,1.8969116,3.2637329.0002136,1.237793-.6917114,2.3916016-1.897049,3.2666016-1.2016144.8704224-2.9002686,1.4276733-4.7853394,1.4266968-1.8851471.0009766-3.5840149-.5562744-4.7858276-1.4267578-1.2055511-.875-1.8976135-2.0287476-1.8973846-3.2665405h-.9999847c.0002289,1.6291504.9168549,3.0720215,2.3114624,4.0769653,1.3983307,1.0093994,3.2910461,1.6152954,5.3717346,1.616272,2.0806122-.0009766,3.9731598-.6068726,5.3713074-1.616333,1.3944244-1.0049438,2.3108368-2.4477539,2.3110657-4.0769043-.0002441-1.6281128-.9167938-3.0700073-2.311203-4.0742798-1.3981323-1.0087891-3.2906036-1.6143188-5.37117-1.6152954-2.0806274.0009766-3.9732971.6065063-5.3716125,1.6152954-1.394577,1.0042114-2.3113403,2.446106-2.3115845,4.0742798h.5Z" fill="#8c7400"/>
+        </g>
+        <g mix-blend-mode="multiply">
+          <line x1="7.8628958" y1="13.0348" x2="12.633" y2="13.0348" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="18.875" y1="9.0333" x2="23.6437954" y2="9.0333" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="15.3853956" y1="13.0348" x2="23.6437954" y2="13.0348" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="7.6622958" y1="25.0395" x2="19.5145955" y2="25.0395" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="7.8628958" y1="17.0364" x2="11.7145957" y2="17.0364" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="13.9798956" y1="17.0364" x2="17.8316955" y2="17.0364" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="19.3620955" y1="17.0364" x2="23.6437954" y2="17.0364" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="7.8628958" y1="9.0333" x2="15.3853956" y2="9.0333" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="7.8628958" y1="21.0379" x2="14.1621956" y2="21.0379" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+          <line x1="15.9206956" y1="21.0379" x2="23.9498954" y2="21.0379" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="27.9286569" y1="26.3050231" x2="7.8957922" y2="16.2886131" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-5.3144995" cy="78.3884724" fx="-5.3144995" fy="78.3884724" r="12.9197146" gradientTransform="translate(18.4364866 -42.741) rotate(7.0902005) scale(.8368997 1.0162327) skewX(15.3921494)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c5399"/>
+      <stop offset=".1270279" stop-color="#3c4179"/>
+      <stop offset=".3239409" stop-color="#262a4d"/>
+      <stop offset=".5148917" stop-color="#15172c"/>
+      <stop offset=".6955452" stop-color="#090a13"/>
+      <stop offset=".8618002" stop-color="#020205"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="21.3156" y="22.9183" width="14.3066" height="21.6854" maskUnits="userSpaceOnUse">
+      <polygon points="21.3156 22.9183 33.1817 34.7822 26.2597 34.7822 21.3156 39.7262 21.3156 22.9183" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient-2" cx="-16.2299454" cy="1.9463889" fx="-16.2299454" fy="1.9463889" r="12.9821364" gradientTransform="translate(35.1225 29.7239) scale(.8507)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c5399"/>
+      <stop offset=".0407904" stop-color="#454c8c"/>
+      <stop offset=".1957941" stop-color="#303561"/>
+      <stop offset=".353468" stop-color="#1f213e"/>
+      <stop offset=".5119457" stop-color="#111323"/>
+      <stop offset=".671658" stop-color="#07080f"/>
+      <stop offset=".8333639" stop-color="#010203"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="-14.7973549" cy="3.3790524" fx="-14.7973549" fy="3.3790524" r="8.6034048" gradientTransform="translate(35.1225 29.7239) scale(.8507)" gradientUnits="userSpaceOnUse">
+      <stop offset=".230337" stop-color="#1e234c"/>
+      <stop offset=".3355921" stop-color="#141835"/>
+      <stop offset=".4755944" stop-color="#0b0d1d"/>
+      <stop offset=".6254358" stop-color="#05050d"/>
+      <stop offset=".7904559" stop-color="#010103"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect x="7.0922" y="13.8833" width="30.0512" height="18.0308" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="7.0922" y="13.8833" width="30.0512" height="18.0308" fill="#fff"/>
+  <rect x="9.0956" y="15.8868" width="28.0478" height="16.0273" fill="url(#linear-gradient)"/>
+  <g>
+    <g opacity=".2">
+      <image width="88" height="99" transform="translate(-15 -15)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFgAAABjCAYAAAAfKMdaAAAACXBIWXMAAAsSAAALEgHS3X78AAACEElEQVR4nO3aQUtUURzG4eeWFdVYQdQqcGWLgoK2UQvpA/Vtau+uTUHQNqhvUCRFELYIoiSoESQjpsWZYXSSSgzvOcP7gIxeXRx+9/DnjHeIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIjoRTf+mgtH+17AjAGWcRFb2O53OQdXU+AOl3EXd/AVHzUeeaHvBcwY4CquYHF87RmGva3ogGoLTNnJZ3B7x7VmI9cYeGLRHESuOTBzELn2wDQeuYXANBy5lcA0GrmlwDQYubXANBa5xcA0FLnVwDQSudXAo/HrALfGP4/wXGWRWwy8iffj10noE7iBtZnrvWsh8Mj0/8MjbOCh3SNhpITdUFFc6g88xBecV8ZBN/5+GQ/wyu6gVcWFI30v4A+Gykxdxbrdc3cJp01n70iFcak38FAZAffwRNmpmzt+P4k8OPyl7U9tTzQu4Sbe4b6ygz/hJ67jwvjvTirj7SU+97HYf1Vb4LM4hcemR64fyk5dUW5Ah+PKSHitnCiqfaxUU2DKg863eGN6QuhwTtnBS8qRrFNuxAJeqHgX1xZ4G9/wfeb6ljImrilPnDscU+byU3w4xDXuS43HtL1OA5vKm4g1ZRd3ysli8saiWjUG3stICbpqegMeKaeLdZUe0WjvEzSLyg7m97fL8Z/M1UerIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIi4u9+AdHxcIIsSg7oAAAAAElFTkSuQmCC"/>
+    </g>
+    <g opacity=".2">
+      <image width="87" height="97" transform="translate(-16 -14)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABhCAYAAACj6z3cAAAACXBIWXMAAAsSAAALEgHS3X78AAAB60lEQVR4nO3ZwWpTQRiG4ScqijQVQXSpIliogt6AuPIGvBPvxp0bly7cuRX0DoqCSysIoiLUBIsViYs5oWmJInRx/oHvgZBwchbDy3Rm0kNERERERERERERERERERERERERERERERDWT4dW902MP4JgpbuIK9nEw7nBOplLcCbbwCA+wh086Dnxm7AEcM8Vt3MLmcO0VZqON6ASqxaXN4Au4v3Kty8AV4y5t6jxw5bh0Hrh6XDoO3ENcOg3cS1w6DNxTXDoL3FtcOgrcY1w6CdxrXDoI3GvcxfA+xT0t6i7ernw3uh7jzrWQcy3kYvhcTg9xFw7/v7vAVzx3dBmY471Cs5b6cWf4hkvaEjAZPm/hGd44DFoqLJwaewD/MMNrPHV0Vk6xPbw2HC4N5VSMu8B37c/+MV5oG9VyXZ3gOh7imsKPhKo9ibiIG/iAJ9rM/YzfuKM9/pngrBb7JT6OMdj/USku/MA7LeqOtjT80oJuazP13HDv3nDPrqKPgqrFPdBOA1/wc+X6vjZ77+KyFvu8tiHvDPeXU/G0sG5zWp5tZyvfb+CqtsGVVDHu38y1jY02cxeObnTllN1p15hqp4TVmbr88VAycE9xWT/ekmfciIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIXv0B0+NnvSbB2E8AAAAASUVORK5CYII="/>
+    </g>
+    <g>
+      <g>
+        <polygon points="31.2624 43.4377 28.94 44.3992 24.485 33.7159 26.8074 32.7543 31.2624 43.4377" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+        <polygon points="21.3156 22.9183 33.1817 34.7822 26.2597 34.7822 21.3156 39.7262 21.3156 22.9183" stroke="#fff" stroke-width="2"/>
+      </g>
+      <g>
+        <polygon points="31.2624 43.4377 28.94 44.3992 24.485 33.7159 26.8074 32.7543 31.2624 43.4377" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+        <polygon points="21.3156 22.9183 33.1817 34.7822 26.2597 34.7822 21.3156 39.7262 21.3156 22.9183" stroke="#fff" stroke-width="2"/>
+      </g>
+      <g>
+        <polygon points="31.2624 43.4377 28.94 44.3992 24.485 33.7159 26.8074 32.7543 31.2624 43.4377" fill="url(#radial-gradient)"/>
+        <g mask="url(#mask)">
+          <g>
+            <polygon points="21.3156 22.9183 33.1817 34.7822 26.2597 34.7822 21.3156 39.7262 21.3156 22.9183"/>
+            <polygon points="22.5355 25.3571 34.4014 37.2219 27.4786 37.2219 22.5355 42.1659 22.5355 25.3571" fill="url(#radial-gradient-2)"/>
+            <polygon points="23.7544 27.7967 35.6222 39.6627 28.6984 39.6627 23.7544 44.6037 23.7544 27.7967" fill="url(#radial-gradient-3)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <rect x="3.0854" y="9.8765" width="4.0068" height="4.0068"/>
+  <rect x="37.1434" y="9.8765" width="4.0069" height="4.0068"/>
+  <rect x="37.1434" y="31.9141" width="4.0069" height="4.0068"/>
+  <rect x="3.0854" y="31.9141" width="4.0068" height="4.0068"/>
+  <rect x="3.5237" y="21.897" width="3.1304" height="2.0034"/>
+  <rect x="37.5818" y="21.897" width="3.1303" height="2.0034"/>
+  <rect x="19.1127" y="10.3149" width="2.0034" height="3.1303"/>
+</svg>

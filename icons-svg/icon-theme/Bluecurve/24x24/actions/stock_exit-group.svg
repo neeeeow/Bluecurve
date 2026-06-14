@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="13.6799927" y="7.6799966" width="5.5799998" height="6.6599997" maskUnits="userSpaceOnUse">
+      <polyline points="18.9994965 7.9971161 14.0023804 7.9971161 14.0023804 13.9960785 18.9994965 13.9960785 18.9994965 7.9971161" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="5.7599945" y="5.7000082" width="5.5799998" height="6.4799997" maskUnits="userSpaceOnUse">
+      <polyline points="11.0020142 5.9950867 6.0049286 5.9950867 6.0049286 11.9940643 11.0020142 11.9940643 11.0020142 5.9950867" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="8.6399841" y="11.8199881" width="5.5799998" height="6.4799997" maskUnits="userSpaceOnUse">
+      <polyline points="13.9946289 12.0010071 8.9975586 12.0010071 8.9975586 18 13.9946289 18 13.9946289 12.0010071" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="2" y="2" width="21" height="20" maskUnits="userSpaceOnUse">
+      <polygon points="2 2 2 12.999 6 12.999 6 20.001 2 20.001 2 22 23 22 23 2 2 2" fill="none"/>
+    </mask>
+  </defs>
+  <g>
+    <polyline points="18.9994965 7.9971161 14.0023804 7.9971161 14.0023804 13.9960785 18.9994965 13.9960785 18.9994965 7.9971161"/>
+    <path d="M14.0023804,7.9971161h4.9971161v5.9989624h-4.9971161v-5.9989624M19.9994812,6.9970703h-6.9970856v7.9989929h6.9970856v-7.9989929"/>
+    <g mask="url(#mask)">
+      <image width="31" height="37" transform="translate(13.6799927 14.3399963) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAiCAYAAABIiGl0AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAYElEQVRYhe3NOw7AIAyDYacL4bpcjcOBCKKdKvVxgHb4LXmIM3xWa91zznJ3pZTk7reamXrvaq1pjKGI0Jzz1XN//q93RGitpVKKbfoowMDAwMDAwMDAwMDAwMA/gj/LAbkoQEJn5RQJAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="11.0020142 5.9950867 6.0049286 5.9950867 6.0049286 11.9940643 11.0020142 11.9940643 11.0020142 5.9950867"/>
+    <path d="M6.0049286,5.9950867h4.9970856v5.9989777h-4.9970856v-5.9989777M12.0019989,4.9951019h-6.9971161v7.9989471h6.9971161v-7.9989471"/>
+    <g mask="url(#mask-1)">
+      <image width="31" height="36" transform="translate(5.7599945 12.1800079) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAgCAYAAAAFQMh/AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAW0lEQVRIie3NsQoAMQgD0NxBMf3/P+nPVVDwttKlc29IQIwu7xljVGsNJGFm6L2D5LpJIiIw54S7IyKQmWvvs/9OPTNRVXhxKYIFCxYsWLBgwYIFCxYs+MfwtXxQ+kHn3Gl1lgAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="13.9946289 12.0010071 8.9975586 12.0010071 8.9975586 18 13.9946289 18 13.9946289 12.0010071"/>
+    <path d="M8.9975586,12.0010071h4.9970703v5.9989929h-4.9970703v-5.9989929M14.9945526,11.0010071h-6.996994v7.9989319h6.996994v-7.9989319"/>
+    <g mask="url(#mask-2)">
+      <image width="31" height="36" transform="translate(8.6399841 18.2999878) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB0AAAAhCAYAAAAlK6DZAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAV0lEQVRIie3NMQrAMAxDUbUQ7Nz/Jr5cDA60U4dA6ZoOXyAQWt4REZe766mZqfcuM5O7q7WmzNQYQ5mpOefSqnrdX9+pDQEFBQUFBQUFBQUFBQX9M7olN6v0PulOR5WyAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+  <g>
+    <line x1="3.9130963" y1="16.2559" x2="7.001" y2="16.2559" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="3.874 15.2715 3.874 14 1.001 16.2559 3.874 18.5137 3.874 17.209" fill="#c40000"/>
+  </g>
+  <g mask="url(#mask-3)">
+    <g opacity=".5">
+      <g>
+        <rect x="4.0033963" y="4" width="16.8749996" height="16.1025" rx="1.9999999" ry="1.9999999"/>
+        <rect x="4.0033963" y="4" width="16.8749996" height="16.1025" rx="1.9999999" ry="1.9999999" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+      <rect x="4.0033963" y="4" width="16.8749996" height="16.1025" rx="1.9999999" ry="1.9999999" fill="#fff"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="16.1856814" y1="16.2346847" x2="4.0054698" y2="4.0544731" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <linearGradient id="White_Black" data-name="White, Black" x1="14.7441442" y1="15.4706" x2="6.002" y2="15.4706" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="4.6757938" y1="4.3668" x2="4.6757938" y2="13.7515302" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <g>
+    <g>
+      <rect x="2.4685939" y="2.4913" width="15.0136996" height="15.0137" fill="#9c9c9c" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="2.4685939" y="2.4913" width="15.0136996" height="15.0137" fill="#fff"/>
+      <rect x="3.352" y="3.4273" width="14.1302935" height="14.0777" fill="url(#linear-gradient)"/>
+    </g>
+    <g>
+      <rect x="6.002" y="4.3668" width="9.711" height="9.8614" fill="gray"/>
+      <rect x="6.9513938" y="5.4115" width="8.7616062" height="8.8167" fill="#ababab"/>
+    </g>
+    <rect x="6.002" y="15.0014" width="9.7134935" height=".9384" fill="url(#White_Black)"/>
+    <rect x="4.2340938" y="4.3668" width=".8834" height="10.3231" fill="url(#White_Black-2)"/>
+  </g>
+  <g opacity=".25">
+    <line x1="9.092" y1="4.3693" x2="9.092" y2="14.2244" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="12.6278936" y1="4.3693" x2="12.6278936" y2="14.2244" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="15.2804936" y1="7.6572" x2="6.0093938" y2="7.6572" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="15.2804936" y1="11.4118" x2="6.0093938" y2="11.4118" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+  </g>
+  <path d="M6.1840938,14.2293c.7135-.3409,3.9232999-1.9047,5.9259062-4.1114,2.3371936-2.5841,3.2376935-5.3845,3.2376935-5.3845" fill="none" stroke="#000" stroke-miterlimit="1" stroke-width=".75"/>
+</svg>

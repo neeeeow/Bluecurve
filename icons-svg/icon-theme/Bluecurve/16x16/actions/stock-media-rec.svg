@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <radialGradient id="radial-gradient" cx="26.7319084" cy="7.5946894" fx="26.7319084" fy="7.5946894" r="5.6963225" gradientTransform="translate(-16.5104202 -.6352205) scale(.9)" gradientUnits="userSpaceOnUse">
+      <stop offset=".101124" stop-color="#ff8d61"/>
+      <stop offset=".206653" stop-color="#fa7854"/>
+      <stop offset=".4221426" stop-color="#ef4433"/>
+      <stop offset=".595506" stop-color="#e51616"/>
+      <stop offset=".6428264" stop-color="#d11212"/>
+      <stop offset=".7518673" stop-color="#a90a0a"/>
+      <stop offset=".8515011" stop-color="#8b0404"/>
+      <stop offset=".9374822" stop-color="#7a0101"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+  </defs>
+  <circle cx="8.1483974" cy="8" r="3.00025" fill="#999" stroke="#000" stroke-width="2"/>
+  <circle cx="8.1483974" cy="8" r="3.00025" fill="url(#radial-gradient)"/>
+</svg>

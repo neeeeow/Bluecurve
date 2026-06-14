@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="13.8676232" y1="14.298481" x2="5.7640759" y2="6.1949337" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="3.7741923" y="4.8305" width="11.2600997" height="10.0091" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="3.7741923" y="4.8305" width="11.2600997" height="10.0091" fill="#fff"/>
+  <rect x="5.0252923" y="6.0817" width="10.0089997" height="8.7579" fill="url(#linear-gradient)"/>
+  <g>
+    <line x1="5.4711923" y1="9.0298" x2="8.3327922" y2="9.0298" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="5.4711923" y1="11.8914" x2="8.3327922" y2="11.8914" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <g>
+      <line x1="11.9125921" y1="11.0203" x2="11.9125921" y2="6.5631" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <polyline points="12.7335921 11.0525 13.7941921 11.0525 11.9125921 13.4492 10.0298922 11.0525 11.1183921 11.0525"/>
+    </g>
+    <polyline points="11.0902921 8.4782 10.0298922 8.4782 11.9113921 6.0817 13.7941921 8.4782 12.7066921 8.4782"/>
+  </g>
+  <g opacity=".5">
+    <rect x="1.2718924" y="3.5794" width="2.5022999" height="1.2511" fill="gray"/>
+    <rect x="2.523" y="2.3283" width="1.2511923" height="2.5022" fill="gray"/>
+    <rect x="15.034292" y="2.3283" width="1.2511" height="2.5022" fill="gray"/>
+    <rect x="15.034292" y="3.5794" width="2.5022999" height="1.2511" fill="gray"/>
+    <rect x="15.034292" y="14.8396" width="2.5022999" height="1.2511" fill="gray"/>
+    <rect x="15.034292" y="14.8396" width="1.2511" height="2.5022" fill="gray"/>
+    <rect x="2.523" y="14.8396" width="1.2511923" height="2.5022" fill="gray"/>
+    <rect x="1.2718924" y="14.8396" width="2.5022999" height="1.2511" fill="gray"/>
+  </g>
+</svg>

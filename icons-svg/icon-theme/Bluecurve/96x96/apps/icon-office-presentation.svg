@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="96" height="96" viewBox="0 0 96 96">
+  <defs>
+    <linearGradient id="linear-gradient" x1="-214.4074012" y1="222.1483115" x2="-179.7604657" y2="252.2664329" gradientTransform="translate(342.2412 -168.6814) rotate(21.7535167) scale(.7331069 1.264729) skewX(-17.3073966)" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#555b91"/>
+      <stop offset=".679775" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="mask" x="20.8534873" y="16.4614" width="51.3368987" height="39.7115" maskUnits="userSpaceOnUse">
+      <polygon points="20.8803873 56.1729 72.1903861 56.147 72.1903861 16.5669 20.8534873 16.4614 20.8803873 56.1729" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="31.9013817" y1="23.6487535" x2="61.1281216" y2="49.0551709" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a4aad9"/>
+      <stop offset=".0298226" stop-color="#9fa5d3"/>
+      <stop offset=".233691" stop-color="#8187b5"/>
+      <stop offset=".348315" stop-color="#777caa"/>
+      <stop offset=".617977" stop-color="#a4aad9"/>
+      <stop offset=".7474002" stop-color="#999ecd"/>
+      <stop offset=".9768646" stop-color="#7c81af"/>
+      <stop offset="1" stop-color="#797eac"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-138.0228906" cy="-120.7947501" fx="-138.0228906" fy="-120.7947501" r="86.2068446" gradientTransform="translate(137.8203 84.2498) scale(.6951)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ff7845"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-120.4983783" cy="-76.5363261" fx="-120.4983783" fy="-76.5363261" r="38.8040256" gradientTransform="translate(137.8203 84.2498) scale(.6951)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ff7845"/></radialGradient>
+    <radialGradient id="radial-gradient-3" cx="-155.140312" cy="-102.0669319" fx="-155.140312" fy="-102.0669319" r="65.7141011" gradientTransform="translate(137.8203 84.2498) scale(.6951)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ff7845"/></radialGradient>
+    <radialGradient id="radial-gradient-4" cx="139.179323" cy="138.4247007" fx="139.179323" fy="138.4247007" r="46.5661627" gradientTransform="translate(-137.2432 -177.8793) scale(1.287)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#65d081"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="148.6441937" cy="162.3318151" fx="148.6441937" fy="162.3318151" r="20.9602083" gradientTransform="translate(-137.2432 -177.8793) scale(1.287)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#3c97f6"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="129.9343194" cy="148.5409238" fx="129.9343194" fy="148.5409238" r="35.4964942" gradientTransform="translate(-137.2432 -177.8793) scale(1.287)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ff7845"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-7" cy="167.9549909" fy="167.9549909" r="9.767137" cx="148.6441937" fx="148.6441937" gradientTransform="translate(-137.2432 -177.8793) scale(1.287)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#3c97f6"/></radialGradient>
+    <radialGradient id="radial-gradient-8" cy="159.6369962" fy="159.6369962" r="9.767986" cx="129.9343194" fx="129.9343194" gradientTransform="translate(-137.2432 -177.8793) scale(1.287)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#ff7845"/></radialGradient>
+    <mask id="mask-1" x="23.9520873" y="54.1533" width="39.819399" height="19.1929" maskUnits="userSpaceOnUse">
+      <polygon points="36.979 73.3462 62.8627863 66.876 51.1937866 55.208 25.2333872 61.6157 36.979 73.3462" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+  </defs>
+  <polygon points="28.7323871 55.1284 72.453586 55.1685 70.2528861 52.9648 28.7323871 52.9648 28.7323871 55.1284" fill="#555b91"/>
+  <g>
+    <g>
+      <polygon points="20.8803873 56.1729 72.1903861 56.147 72.1903861 16.5669 20.8534873 16.4614 20.8803873 56.1729" fill="url(#linear-gradient)" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <g mask="url(#mask)">
+        <polygon points="20.8803873 56.1729 72.1903861 56.147 72.1903861 16.5669 20.8534873 16.4614 20.8803873 56.1729" fill="url(#linear-gradient-2)" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <polygon points="56.4926864 52.5327 60.2855864 52.5327 66.8134862 52.5371 64.8422862 50.563 64.7577862 50.563 64.7577862 41.5542 62.7836863 39.5801 54.5165865 39.5801 54.5165865 50.5571 54.5228865 50.562 52.5785865 50.562 52.5785865 23.0059 50.6015866 21.0313 42.3353868 21.0313 42.3353868 50.5439 42.355 50.562 40.6786868 50.562 40.6786868 30.8506 38.708 28.8755 30.437 28.8755 30.437 50.5361 30.4633871 50.562 27.626 50.562 27.6298872 21.6338 25.6513872 19.6587 25.6503872 50.5259 27.626 52.5024 32.3988871 52.5034 32.4096871 52.5142 40.6786868 52.5142 40.6786868 52.5142 44.312 52.5161 44.312 52.521 48.3100867 52.521 56.4906864 52.5288 56.4926864 52.5327" fill="none" fill-rule="evenodd" stroke="#000" stroke-miterlimit="3.8637" stroke-width="3"/>
+    <polyline points="64.8422862 50.563 27.626 52.5024 25.6503872 50.5259 25.6513872 19.6587 27.6298872 21.6338 27.626 52.5024 66.8134862 52.5371" fill="#555b91"/>
+    <g opacity=".5">
+      <polygon points="42.3353868 21.0313 42.3353868 50.5439 44.312 52.521 52.5785865 52.519 52.5785865 23.0059 50.6015866 21.0313 42.3353868 21.0313" fill="url(#radial-gradient)" fill-rule="evenodd" stroke="#000" stroke-miterlimit="3.8637"/>
+      <polygon points="62.7836863 39.5801 54.5165865 39.5801 54.5165865 50.5571 56.4926864 52.5327 64.7577862 52.5327 64.7577862 41.5542 62.7836863 39.5801" fill="url(#radial-gradient-2)" fill-rule="evenodd" stroke="#000" stroke-miterlimit="3.8637"/>
+      <polygon points="30.437 28.8755 30.437 50.5361 32.4096871 52.5142 40.6786868 52.5142 40.6786868 30.8506 38.708 28.8755 30.437 28.8755" fill="url(#radial-gradient-3)" fill-rule="evenodd" stroke="#000" stroke-miterlimit="3.8637"/>
+    </g>
+    <polygon points="50.6015866 50.5439 50.6015866 21.0313 42.3353868 21.0313 42.3353868 50.5439 44.312 52.521 52.5785865 52.519 50.6015866 50.5439" fill="url(#radial-gradient-4)" fill-rule="evenodd"/>
+    <polygon points="62.7836863 50.5581 62.7836863 39.5801 54.5165865 39.5801 54.5165865 50.5571 56.4926864 52.5327 64.7577862 52.5327 62.7836863 50.5581" fill="url(#radial-gradient-5)" fill-rule="evenodd"/>
+    <polygon points="38.707 50.5376 38.708 28.8755 30.437 28.8755 30.437 50.5361 32.4096871 52.5142 40.6786868 52.5142 38.707 50.5376" fill="url(#radial-gradient-6)" fill-rule="evenodd"/>
+    <polygon points="62.7836863 39.5801 64.7577862 41.5542 56.4926864 41.5542 54.5165865 39.5801 62.7836863 39.5801" fill="url(#radial-gradient-7)" fill-rule="evenodd"/>
+    <polygon points="38.708 28.8755 40.6786868 30.8506 32.4096871 30.8506 30.437 28.8755 38.708 28.8755" fill="url(#radial-gradient-8)" fill-rule="evenodd"/>
+    <path d="M55.8793865,40.9434v10.9775l8.2704998-.002v-10.9755h-8.2704998ZM43.6981868,51.9087h8.2690998v-29.5166h-8.2690998v29.5166ZM31.8002871,51.9023h8.2641998v-21.6611h-8.2641998v21.6611Z" fill="#fff" fill-rule="evenodd" opacity=".5"/>
+    <rect x="44.3119999" y="23.0059" width="8.2665867" height="29.5141" fill="#65d081"/>
+    <rect x="56.4926864" y="41.5542" width="8.2650998" height="10.9785" fill="#3c97f6"/>
+    <rect x="32.4096871" y="30.8506" width="8.2689998" height="21.6636" fill="#ff7845"/>
+  </g>
+  <g>
+    <g>
+      <path d="M13.7216875,57.9834c-.0108-.1318-.0088-.2607.0039-.3857.1245-.9873.9062-1.7671,2.2426999-2.0992l33.8744991-8.3628c.5083-.1259,2.1205999.3223,2.4912134.6944l21.269486,21.2671c.916.9165,1.1973,1.9101.919,2.7456.020514,1.5605-.041486,3.0742-2.1420999,3.5967l-33.776386,8.4404c-.5068131.1279-2.122613-.3159-2.499513-.6904l-21.6786995-21.6851c-.7285-.9063-.7149-2.3599-.7041-3.521Z" fill="#b2b2b2" stroke="#000" stroke-miterlimit="3.8637" stroke-width="4"/>
+      <g>
+        <path d="M72.380386,75.4395l-33.776386,8.4404c-.5068131.1279-2.122613-.3159-2.499513-.6904l-21.6786995-21.6851c-.8262-1.0303-.7002-2.7529-.7002-3.9678l36.1171991-8.4721c.5083-.125,2.1205999.3242,2.4912134.6943l22.185486,21.3926c0,1.791.272514,3.6884-2.1390999,4.2881Z" fill="#b2b2b2"/>
+        <path d="M72.380386,73.5127l-33.776386,8.437c-.5068131.1333-2.122613-.3144-2.499513-.6885l-21.3622995-21.3442c-1.7608-1.7622-1.1929-3.8208,1.2261-4.4185l33.8744991-8.3628c.5083-.1259,2.1205999.3223,2.4912134.6944l21.269486,21.2671c1.7564,1.7549,1.188514,3.813-1.2231,4.4155Z" fill="#e5e5e5"/>
+        <g mask="url(#mask-1)">
+          <g>
+            <polygon points="36.979 73.3462 62.8627863 66.876 51.1937866 55.208 25.2333872 61.6157 36.979 73.3462" fill="#3c97f6" fill-rule="evenodd"/>
+            <polygon points="25.0346872 62.7173 51.1210866 56.3232 63.5150863 68.6563 63.7714863 66.3574 51.6952866 54.1533 23.9520873 61.1152 25.0346872 62.7173" fill="#032c87" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <path d="M23.2572873,57.1968c.9331,0,1.6861.5566,1.6861,1.2524,0,.6861-.753,1.2437-1.6861,1.2437-.9302,0-1.688-.5576-1.688-1.2437,0-.6958.7578-1.2524,1.688-1.2524Z" fill="#999"/>
+        <path d="M47.3866867,51.1626c.9317,0,1.6875.5581,1.6875,1.248,0,.6866-.7558,1.2452-1.6875,1.2452-.9296867,0-1.6899-.5586-1.6899-1.2452,0-.6899.7602133-1.248,1.6899-1.248Z" fill="#999"/>
+        <path d="M41.2035868,75.1426c.9282,0,1.688.5576,1.688,1.248,0,.6885-.7598,1.2481-1.688,1.2481-.9365,0-1.6914-.5596-1.6914-1.2481,0-.6904.7549-1.248,1.6914-1.248Z" fill="#999"/>
+        <polyline points="28.875 63.1035 50.7353866 57.791 59.1078864 66.1016" fill="none" stroke="#78dcff" stroke-linecap="round" stroke-linejoin="round" stroke-width=".5229"/>
+      </g>
+    </g>
+    <path d="M65.3183862,69.0923c.9306138,0,1.685.5547,1.685,1.2451s-.7543862,1.2505-1.685,1.2505c-.9361,0-1.6933862-.5601-1.6933862-1.2505s.7572862-1.2451,1.6933862-1.2451Z" fill="#999"/>
+  </g>
+</svg>

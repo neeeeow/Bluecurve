@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="39.3303066" y1="27.4213681" x2="13.467474" y2="11.08691" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="21.4358621" y1="14.6824365" x2="41.1266807" y2="31.4923186" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <mask id="mask" x="9.8399048" y="21.9600092" width="16.5599993" height="14.5799994" maskUnits="userSpaceOnUse">
+      <path d="M25.1883545,22.3067932h.999939-.999939M26.1882935,22.3067932H10.1611328v14.0239258h16.0271606v-14.0239258" fill="#fff"/>
+    </mask>
+  </defs>
+  <g>
+    <rect x="17.173" y="11.288" width="22.037582" height="18.197" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="20.1780825" y="14.2931" width="18.0307995" height="14.0239" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <path d="M10.1611328,22.3067932h16.0271606v14.0239258H10.1611328v-14.0239258M27.1882935,21.3068237H9.1611328v16.0238647h18.0271606v-16.0238647" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M25.1883545,22.3067932h.999939-.999939M26.1882935,22.3067932H10.1611328v14.0239258h16.0271606v-14.0239258" fill="none"/>
+        <image width="92" height="81" transform="translate(9.8399048 36.5400085) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFwAAABPCAYAAABmraJtAAAACXBIWXMAAD2DAAA9gwGH6AkLAAABD0lEQVR4nO3QwW2DQBBA0QFXlpYojQZcGZBTpNiSE+fyD9F7lxntIrT6y77v95mZ2+0267q+nD/dvTOXZZnjOOY8zzmO42H/fnZd11zXNed5Pszn/dXd89nM/Pqvv+zvvOH5+683bNv2sQ4pwWOCxwSPCR4TPCZ4TPCY4DHBY4LHBI8JHhM8JnhM8JjgMcFjgscEjwkeEzwmeEzwmOAxwWOCxwSPCR4TPCZ4TPCY4DHBY4LHBI8JHhM8JnhM8JjgMcFjgscEjwkeEzwmeEzwmOAxwWOCxwSPCR4TPCZ4TPCY4DHBY4LHBI8JHhM8JnhM8JjgMcFjgscEjwkeEzwmeEzwmOAxwWOCxwSPCc7/9glfjr6cHN1XIQAAAABJRU5ErkJggg=="/>
+        <path d="M25.1883545,22.3067932h.999939-.999939M26.1882935,22.3067932H10.1611328v14.0239258h16.0271606v-14.0239258" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

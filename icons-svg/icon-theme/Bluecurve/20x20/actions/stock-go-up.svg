@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <mask id="mask" x="-33" y="-28" width="87" height="82" maskUnits="userSpaceOnUse">
+      <polygon points="15.7138951 15.751 9.4706952 4.1665 3.2304954 15.751 15.7138951 15.751" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="5.9230955" y1="6.8782465" x2="8.8734699" y2="14.2541861" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbc8e3"/>
+      <stop offset=".1636033" stop-color="#b3c0dc"/>
+      <stop offset=".4142154" stop-color="#9daccb"/>
+      <stop offset=".7187591" stop-color="#7b8caf"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+  </defs>
+  <polygon points="15.7138951 15.751 9.4706952 4.1665 3.2304954 15.751 15.7138951 15.751" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="15.7138951 15.751 9.4706952 4.1665 3.2304954 15.751 15.7138951 15.751" fill="url(#linear-gradient)"/>
+      <image width="87" height="82" transform="translate(-33 -28)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFcAAABSCAYAAAAhBUjfAAAACXBIWXMAAAsSAAALEgHS3X78AAACEUlEQVR4nO3YP2tTURzG8e9zmtx7h3tfQ7MV2t2pySjYvYOSvIBQrF3cVBARdJKC0kEQhYq4iCh0cvA9FAvdxJcgXQpNjsO9CRGxBJd7pM8HfvkzBH48OechBMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzsalPbCyzr7pMPKvKcLOtyf+d6bHufZYS2F1jG3qP3FbABXAM2Hh98KVteaSnJh7v78F0FDIB7wDOkvRBC7+nLr8nfuk7bC1xm58FbxRh7wEjSDaQyhFB2s+5GnmU/gJ8tr3ippE/u+fl5dXExWY8xrkuqJAVJvRDCqNPp9F99PK7a3vEyyYY7vHNQTSbTfoxxJKknIdUPlaQBMAYGrz99SzbgJMO9tfti1rNjSQOkColQhzsLuE9dF703n0+S7N/kwr15+3nds2Ikqd8EiRCIWbhIqkII680keXqTC3cymVbTaWx6lmohzGbmAauuC40k9Q+PTpMLOKlwt8f7VYyxD7OelWan9reAm/egeX0Ag9QCTibc7fG+gFVgCNqUVCJFRFRQlBaH+QAlsFl/jtXDo9Nk+jfF37lngpPm4vPHLJziBRE4a2nfv0rmWwbYHu+XQG8lhDLLMvIipyhyiqKgyJvXs+cip9vtEsL88p0B34dba8mEnFS4UNfDSgj8Q7gMt9b+iz90zMzMzMzMzMzMzMzMzMzMzMzMzMzMzOyq+AUeF2m+pgUI/wAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="38.5969201" y1="40.4168889" x2="23.304434" y2="25.5166933" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="379.9113416" cy="24.8736412" fx="379.9113416" fy="24.8736412" r="8.0565906" gradientTransform="translate(-232.9527 13.3888) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <rect x="8.2395816" y="9.7946" width="16.0272996" height="16.0273" fill="gray" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="8.2395816" y="9.7946" width="16.0272996" height="16.0273" fill="#fff"/>
+    </g>
+    <path d="M20.7452813,9.5814c-.0372813-.0607-.1018-.0637-.1449-.007l-6.6596998,11.0512c-.0353.0605-.0958.0635-.135.0068l-2.8582999-3.7838c-.0411-.0567-.098-.0499-.1252.0156l-1.395,3.5168c-.0254.0665-.002.1545.0547.1975l4.6759999,4.3336c.0529.0489.1272.0431.1703-.0136l9.3988186-10.8086c.0526812-.0479.0624812-.1321.0253812-.1918l-3.0070999-4.3167Z" fill="#16336e"/>
+  </g>
+  <g>
+    <polyline points="12.3481815 39.2862 12.3481815 41.8336 18.104 37.3141 12.3481815 32.7908 12.3481815 35.4046"/>
+    <polyline points="7.0010816 30.8304 7.0010816 37.3141 14.0971815 37.3141" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <path d="M41.1706808,32.9278c0,5.6747-4.5877999,10.2695-10.2498997,10.2695-5.6735999,0-10.253781-4.5948-10.253781-10.2695,0-5.6581,4.5801812-10.2549,10.253781-10.2549,5.6620999,0,10.2498997,4.5968,10.2498997,10.2549Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+    <path d="M36.8038809,32.9278c0,3.2555-2.6372999,5.8928-5.8830999,5.8928-3.2516999,0-5.8771999-2.6373-5.8771999-5.8928,0-3.2439,2.6254999-5.8714,5.8771999-5.8714,3.2457999,0,5.8830999,2.6275,5.8830999,5.8714Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+  </g>
+</svg>

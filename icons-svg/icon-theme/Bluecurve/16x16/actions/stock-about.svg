@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="5" y="5" width="7.1943" height="6.8735" maskUnits="userSpaceOnUse">
+      <polygon points="8.3428 5 9.3955 7.0962 11.7202 7.4175 10.0518 9.0664 10.4648 11.3755 8.3799 10.2993 6.3115 11.4048 6.6919 9.0903 5 7.4644 7.3198 7.1113 8.3428 5" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-50.0684811" y1="30.2177112" x2="-43.5478768" y2="30.2177112" gradientTransform="translate(46.4278 -32.5171) rotate(-14.4003213)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0342d3"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="-23.5587639" cy="19.5641083" fx="-23.5587639" fy="19.5641083" r="5.1805377" gradientTransform="translate(23.6642 -3.8226) rotate(-.398321) scale(.6329153)" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#b7e9ff"/>
+      <stop offset="1" stop-color="#4c8bca"/>
+    </radialGradient>
+  </defs>
+  <polygon points="8.3428 5 9.3955 7.0962 11.7202 7.4175 10.0518 9.0664 10.4648 11.3755 8.3799 10.2993 6.3115 11.4048 6.6919 9.0903 5 7.4644 7.3198 7.1113 8.3428 5" fill="#ffe900" stroke="#000" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="8.3428 5 9.3955 7.0962 11.7202 7.4175 10.0518 9.0664 10.4648 11.3755 8.3799 10.2993 6.3115 11.4048 6.6919 9.0903 5 7.4644 7.3198 7.1113 8.3428 5" fill="url(#linear-gradient)"/>
+      <polygon points="8.8184 5.4673 9.8706 7.5645 12.1943 7.8857 10.5259 9.5342 10.939 11.8438 8.855 10.7671 6.7852 11.8735 7.1665 9.5576 5.4751 7.9331 7.7935 7.5781 8.8184 5.4673" fill="url(#radial-gradient)"/>
+    </g>
+  </g>
+</svg>

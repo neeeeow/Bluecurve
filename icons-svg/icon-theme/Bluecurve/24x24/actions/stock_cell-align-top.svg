@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="17.408" y1="17.408" x2="7.0448" y2="7.0448" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="5" y="6" width="14" height="12" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="5" y="6" width="14" height="12" fill="#fff"/>
+  <rect x="6" y="7" width="13" height="11" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="3" y="5" width="2" height="1" fill="gray"/>
+    <rect x="4" y="4" width="1" height="2" fill="gray"/>
+    <rect x="19" y="5" width="2" height="1" fill="gray"/>
+    <rect x="19" y="4" width="1" height="2" fill="gray"/>
+    <rect x="19" y="18" width="2" height="1" fill="gray"/>
+    <rect x="19" y="18" width="1" height="2" fill="gray"/>
+    <rect x="4" y="18" width="1" height="2" fill="gray"/>
+    <rect x="3" y="18" width="2" height="1" fill="gray"/>
+  </g>
+  <g>
+    <line x1="7.2969" y1="8.6992" x2="11.7158" y2="8.6992" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="7.2969" y1="10.7012" x2="11.7158" y2="10.7012" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <line x1="15.6025" y1="16.001" x2="15.6025" y2="8.7041" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  <polyline points="14.6162 11 13.3447 11 15.6006 8.127 17.8584 11 16.5537 11"/>
+</svg>

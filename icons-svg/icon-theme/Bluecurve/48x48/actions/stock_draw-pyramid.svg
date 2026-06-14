@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="23.3273458" y1="30.5094658" x2="31.8584098" y2="20.7587425" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c96b00"/>
+      <stop offset="1" stop-color="#ffffb3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="9.9842249" y1="28.9790573" x2="23.6328055" y2="24.1040872" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d68100"/>
+      <stop offset="1" stop-color="#ffffb3"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="105" height="91" transform="translate(-25 -12)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGkAAABbCAYAAABwMKucAAAACXBIWXMAAAsSAAALEgHS3X78AAABuUlEQVR4nO3YzVHCQBiH8SeON8GDBQhnqUF7oAAKsBs7sQdrEC9eoAbxHA/ZjDsZPsLwkTfw/GYyC2GBhX/2zSYgSZIkSZIkSZIkSZIkSZIkSZIkSZK6U3Q9gA41f3vZyShauMaQCmAAjFILsAIWqQ3nWkKqf2cdzgSYpscl8AW8AXMCzqjbrgdwQs1g6nZKFVK9r0ztBFgCP2cf6Q6XGFKznNXBjBr7i6z/OPWZE3A2XUpI28pZ8/yzrsQPgMesTyh9DqltOcv7tvm8cPoY0r7lrPf6EtKh5Wzf7wmlDyENOU4526U+L30SbIUXPaQh8ALMOG05K/g/AMKt8CKHVAf0Cjyn53C6khR2hRc1pPraZUYV0P0Zvzecm64HsMEAeErbcEffixcxpPwOwJjzHN1ltoUTsdzls+iY54dNAayo7tmtqBYM4e6ERwvp0FnUJoimJfCevb7Y8jmdiBZSm1l0aBC73hcqIIgVUn6tMkr7mn/YsYJoChdMLlJIAHfAA9Uf+rvm9YsNYptoIa2AD+CbKwuiTwZUC4YhVflbtykAg5AkSZIkSZIkSZIkSZIkSZIkSZIkSYH8AS/IVuM9U3taAAAAAElFTkSuQmCC"/>
+  </g>
+  <polygon points="22.0515 10.6694 7.01024 27.0096 11.3106 42.5048 38.4779 34.4912 22.0515 10.6694" fill="none" stroke="#000" stroke-width="2"/>
+  <g>
+    <polygon points="22.0515 10.6694 38.4779 34.4912 11.3106 42.5048 22.0515 10.6694" fill="url(#linear-gradient)"/>
+    <polygon points="22.0515 10.6694 7.01024 27.0096 11.3106 42.5048 22.0515 10.6694" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="6.7482347" y1="8.35064" x2="2.9280965" y2="4.628498" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="128.9773508" cy="83.320311" fx="128.9773508" fy="83.320311" r="2.0129403" gradientTransform="translate(-84.5359 -51.4656) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="10.19305" cy="11.76265" fx="10.19305" fy="11.76265" r="3.3363" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="10.19305" cy="11.76265" fx="10.19305" fy="11.76265" r="3.3363" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+  </defs>
+  <g opacity=".75">
+    <g>
+      <g>
+        <polygon points="9.7761 3.5612 9.7761 9.3997 10.6099 9.3997 17.0868 9.3997 17.0868 4.3951 17.0868 3.5612 9.7761 3.5612" fill="#555"/>
+        <polygon points="9.7761 3.5612 9.7761 9.3997 10.6099 9.3997 17.0868 9.3997 17.0868 4.3951 17.0868 3.5612 9.7761 3.5612" fill="none" stroke="#555" stroke-width="2"/>
+      </g>
+      <rect x="9.7761" y="3.5612" width="7.3107" height="5.8385" fill="#fff"/>
+      <rect x="10.6099" y="4.3951" width="6.4769" height="5.0046" fill="silver"/>
+      <rect x="10.6099" y="4.3951" width="5.6424" height="4.1707" fill="#d7d7d7"/>
+    </g>
+    <g opacity=".75">
+      <path d="M12.3224,7.8792c-.5188,0-.878-.4631-.878-1.1473,0-.7179.3825-1.1876.9042-1.1876.5364,0,.8815.4728.8815,1.1442,0,.7746-.4087,1.1907-.9047,1.1907h-.003ZM12.3345,7.6408c.4001,0,.6262-.4257.6262-.9388,0-.4497-.2029-.9195-.6237-.9195-.421,0-.6287.4533-.6287.9426,0,.4765.2261.9157.6231.9157h.0031Z"/>
+      <path d="M13.7769,5.5815h.2926v1.0898h.0098c.0604-.0873.1209-.1673.1777-.2412l.691-.8486h.3622l-.8186.9597.8821,1.3013h-.3456l-.7404-1.1106-.2182.248v.8626h-.2926v-2.261Z"/>
+    </g>
+    <g>
+      <g>
+        <polygon points="15.6133 16.0726 15.6133 11.902 14.7787 11.902 3.9377 11.902 3.9377 15.2381 3.9377 16.0726 15.6133 16.0726" fill="#555"/>
+        <polygon points="15.6133 16.0726 15.6133 11.902 14.7787 11.902 3.9377 11.902 3.9377 15.2381 3.9377 16.0726 15.6133 16.0726" fill="none" stroke="#555" stroke-width="2"/>
+      </g>
+      <rect x="3.9377" y="11.902" width="11.6767" height="4.1687" fill="silver"/>
+      <rect x="4.7715" y="12.7358" width="10.8423" height="3.3355" fill="#fff"/>
+    </g>
+    <g>
+      <path d="M7.3912,6.4795c0,1.4179-1.1463,2.5659-2.5604,2.5659-1.4172,0-2.5616-1.148-2.5616-2.5659,0-1.413,1.1444-2.5615,2.5616-2.5615,1.4141,0,2.5604,1.1485,2.5604,2.5615Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+      <path d="M6.3006,6.4795c0,.8138-.6591,1.473-1.4698,1.473-.8126,0-1.4687-.6592-1.4687-1.473,0-.8095.6561-1.4661,1.4687-1.4661.8107,0,1.4698.6566,1.4698,1.4661Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+    </g>
+  </g>
+  <g>
+    <polygon points="10.1933 8.4265 11.1097 10.8458 13.5295 11.7627 11.1097 12.6796 10.1933 15.0988 9.2763 12.6796 6.8566 11.7627 9.2763 10.8458 10.1933 8.4265" fill="url(#radial-gradient-2)" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <polygon points="10.1933 8.4265 11.1097 10.8458 13.5295 11.7627 11.1097 12.6796 10.1933 15.0988 9.2763 12.6796 6.8566 11.7627 9.2763 10.8458 10.1933 8.4265" fill="url(#radial-gradient-3)"/>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <mask id="mask" x=".5" y="1.5" width="20" height="18" maskUnits="userSpaceOnUse">
+      <polyline points="19.4999847 2.4999847 1.4999847 2.4999847 1.4999847 18.5000153 19.4999847 18.5000153 19.4999847 2.4999847" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-160" y1="-139.9999996" x2="-159" y2="-139.9999996" gradientTransform="translate(-3638.7223854 586.875042) rotate(-147.7242985) scale(17.4014908 -17.4014908)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_20" data-name="New Gradient Swatch 20" x1="5.6740245" y1="6.255532" x2="17.4998138" y2="16.3511064" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="20" height="18" transform="translate(.5 1.5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABUAAAATCAYAAAB/TkaLAAAACXBIWXMAAAsSAAALEgHS3X78AAAAiUlEQVQ4je2UMQqAMAxFn9rBUVy8/91cBFehg6KDqba1g0EdhL7lh5J8SEgKf6Hw4gqoRTUsgBU9TJ1JA3RirGECelEAjGfSAa283WUVDboro6QCHcn8kn0eFhhFH2M4BxwM+wlx+6+QTb81dec2K+pnElvjX48FBonvnqqrCfY7vgjtp3L5TDJsf90bwzf3eTEAAAAASUVORK5CYII="/>
+    </g>
+    <rect x="3.021698" y="4.2230072" width="13.7623901" height="11.2602997" rx="2" ry="2" fill="url(#linear-gradient)"/>
+    <path d="M3.021698,13.4833069h-.5c.0018921,1.3783112,1.1216431,2.4980774,2.5,2.4999847h9.7623901c1.3783417-.0019073,2.4980774-1.1216736,2.4999847-2.4999847v-7.2602997c-.0018921-1.3783417-1.1216583-2.4981079-2.4999847-2.5H5.021698c-1.3783417.0018921-2.4981079,1.1216583-2.5,2.5v7.2602997h.9999847v-7.2602997c.0015106-.8216858.6783295-1.4985046,1.5000153-1.5000153h9.7623901c.8216705.0015106,1.4984894.6783295,1.5,1.5000153v7.2602997c-.0015106.8216553-.6783447,1.4984894-1.5,1.5H5.021698c-.8216705-.0015106-1.4985046-.6783447-1.5000153-1.5h-.4999847Z"/>
+  </g>
+  <rect x="4.312" y="5.4663" width="12.0420955" height="9.5332" rx="2" ry="2" fill="url(#New_Gradient_Swatch_20)"/>
+</svg>

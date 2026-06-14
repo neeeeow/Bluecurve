@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="New_Gradient_176" data-name="New Gradient 176" x1="21.9177852" y1="8.2971671" x2="9.3439936" y2="23.8245065" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9d9d9"/>
+      <stop offset=".522476" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_176-2" data-name="New Gradient 176" x1="15.9448749" y1="8.3345135" x2="8.085855" y2="18.0395948" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9d9d9"/><stop offset=".522476" stop-color="#f2f2f2"/><stop offset="1" stop-color="#ccc"/></linearGradient>
+    <linearGradient id="New_Gradient_175" data-name="New Gradient 175" x1="25.7284942" y1="24.5964198" x2="6.681617" y2="8.039222" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <mask id="mask" x="9.3534893" y="7.8184" width="17.2441996" height="19.1533" maskUnits="userSpaceOnUse">
+      <polygon points="23.416 9.1265 9.3534893 12.6338 9.3534893 23.3257 23.416 19.8608 23.416 9.1265" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="24.7765797" y1="20.8777702" x2="7.9943021" y2="11.5752018" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#016e13"/>
+      <stop offset="1" stop-color="#015910"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="39.2843974" cy="-23.3000335" fx="39.2843974" fy="-23.3000335" r="15.8309732" gradientTransform="translate(-19.2163 33.3538) scale(.8543)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#238e35"/>
+      <stop offset="1" stop-color="#015910"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <path d="M7.5878893,25.7329s-1.2128893-.6938-1.2128893-2.4101v-11.8804s-.0449107-1.0923.7558893-1.3218c.8007-.2275,14.9315996-3.5947,15.6639996-3.791.9727-.2603,1.9082.5474,1.9082.5474l-.0996.1084.168-.0416v14.5259l-17.1327996,4.2222-.0508.041Z" fill="url(#New_Gradient_176)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <path d="M7.5878893,25.7329s-1.2128893-.6938-1.2128893-2.4101v-11.8804s-.0449107-1.0923.7558893-1.3218c.8007-.2275,14.9315996-3.5947,15.6639996-3.791.9727-.2603,1.9082.5474,1.9082.5474L7.5878893,25.7329Z" fill="url(#New_Gradient_176-2)" fill-rule="evenodd"/>
+    <polygon points="24.7714889 6.9438 7.6386893 11.2168 7.6386893 25.6919 24.7714889 21.4697 24.7714889 6.9438" fill="url(#New_Gradient_175)" fill-rule="evenodd"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="23.416 9.1265 9.3534893 12.6338 9.3534893 23.3257 23.416 19.8608 23.416 9.1265" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+        <path d="M22.4823889,8.5918s-4.4589999,2.3677-6.8807998,7.6626c-2.4218999,5.2944-.7637,10.7173-.7637,10.7173l11.7597997-3.3306-.627-15.8227-3.4882999.7734Z" fill="url(#radial-gradient)" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <path d="M7.3163893,25.2451v-14.0122c0-.0981.1309-.2725.2188-.2944l16.6405996-4.2168c.4453-.1128.7324.605.2871.7173L7.8593893,11.5068v13.9683c0,.4834-.543.2534-.543-.23Z" fill="#fff"/>
+    <polyline points="7.8593893 25.4751 7.8593893 11.5068 24.5351889 7.2974" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+    <polyline points="9.4745893 23.3955 23.4687889 19.9663 23.4687889 9.2046" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".9039"/>
+    <polyline points="9.3124893 23.1045 9.3124893 12.668 23.1972889 9.1519" fill="none" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8877"/>
+  </g>
+  <polyline points="10.1464892 17.7617 12.3925892 17.2036 13.8651891 13.7603 15.541 19.4531 17.828089 15.8496 21.793 14.8638" fill="none" fill-rule="evenodd" stroke="#8aff9e" stroke-width="1.5"/>
+</svg>

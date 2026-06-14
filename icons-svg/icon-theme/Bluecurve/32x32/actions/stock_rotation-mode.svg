@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="radial-gradient" cx="16.1166739" cy="5.4174894" fx="16.1166739" fy="5.4174894" r="3.335453" gradientTransform="translate(-5.7852 7.8513) scale(1.2131)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffbba2"/>
+      <stop offset=".606741" stop-color="#c40000"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="16.5690399" cy="18.52645" fx="16.5690399" fy="18.52645" r="12.3081498" gradientTransform="translate(30.3713492 -2.1437601) rotate(75.5403657)" gradientUnits="userSpaceOnUse">
+      <stop offset=".252809" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="4.2608902" y="6.2183" width="34.7391098" height="32.7817" maskUnits="userSpaceOnUse">
+      <circle cx="16.5690199" cy="18.526425" r="12.3081782" transform="translate(-5.5078072 29.9445925) rotate(-75.5403657)" fill="url(#radial-gradient-2)"/>
+    </mask>
+    <mask id="mask-1" x="11" y="11" width="28" height="28" maskUnits="userSpaceOnUse">
+      <polyline points="38.000061 11.9999695 11.9999695 11.9999695 11.9999695 38.000061 38.000061 38.000061 38.000061 11.9999695" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-384" y1="-383.9999996" x2="-383" y2="-383.9999996" gradientTransform="translate(-13638.9090271 3117.31427) rotate(-147.7242992) scale(25.8100687 -25.8100687)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="17.6941124" y1="18.8510322" x2="35.3638633" y2="33.9355463" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M18.1386898,15.5604c0,1.5761-1.2792,2.8553-2.8552999,2.8553-1.5762,0-2.8539999-1.2792-2.8539999-2.8553s1.2778-2.8539,2.8539999-2.8539c1.5761,0,2.8552999,1.2778,2.8552999,2.8539Z" fill="url(#radial-gradient)" stroke="#000" stroke-width=".75"/>
+  <g>
+    <polyline points="18.0083898 8.3207 18.0083898 10.0165 21.8405897 7.0076 18.0083898 3.9961 18.0083898 5.7363"/>
+    <path d="M6.827,18.1369v-5.5646c0-3.0606,2.5040901-5.5647,5.56459-5.5647h5.5646999" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="5.514 18.189 3.8180902 18.189 6.827 22.0212 9.8384901 18.189 8.0983901 18.189"/>
+  </g>
+  <g mask="url(#mask)">
+    <g>
+      <g>
+        <g mask="url(#mask-1)">
+          <image width="28" height="28" transform="translate(11 11)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAAACXBIWXMAAAsSAAALEgHS3X78AAAAy0lEQVRIie2W0Q6CMAxFz+ZMjMbE//9KXyAmIvPBIqM4hMF42n0psKyndwRaw2+ZyPO58rEFuzLxYhl1baSILRy2EgdunQI64CQx1X0LNMBDYhRoBXYDLsAhEfgCKuAO1FLAANgdnwGOwBm4qrW58vSuKvrX9HXp1IbuWJ3AUxUtVgNDcBjnyv/bs/tnUYAFWIAFmF+xf6lXcYkm92hg114auU9tT6PGGwJDN08+TdOwrgHXkms0YoQOLHlGjEHH332IiiXONpcWba43S4oyLj1O7BEAAAAASUVORK5CYII="/>
+        </g>
+        <rect x="15.1622925" y="15.4653015" width="17.3400879" height="17.3400879" fill="url(#linear-gradient)"/>
+        <path d="M15.1622925,32.8053894v.4999695h17.3400879c.1316528,0,.260437-.0533142.3535461-.1464233s.1464233-.2218933.1464233-.3535461V15.4653015c0-.1316833-.0533142-.260437-.1464233-.3535461s-.2218933-.1464539-.3535461-.1464539H15.1622925c-.1316833,0-.2604675.0533142-.3535767.1464233s-.1464233.2218933-.1464233.3535767v17.3400879c0,.1316528.0533447.260437.1464539.3535461s.2218628.1464233.3535461.1464233v-.4999695h.4999695V15.9652405h16.3401184v16.3401489H15.1622925v.5h.4999695-.4999695Z"/>
+      </g>
+      <rect x="17.3192899" y="17.6186" width="14.6723996" height="14.3506" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

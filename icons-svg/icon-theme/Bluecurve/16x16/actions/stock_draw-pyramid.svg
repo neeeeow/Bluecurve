@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="8.0954158" y1="10.0083423" x2="10.9342547" y2="6.7636436" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c96b00"/>
+      <stop offset="1" stop-color="#ffffb3"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="3.6553304" y1="9.4991099" x2="8.1971015" y2="7.87689" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d68100"/>
+      <stop offset="1" stop-color="#ffffb3"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="83" height="78" transform="translate(-32 -28)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAABOCAYAAABc+ipFAAAACXBIWXMAAAsSAAALEgHS3X78AAAA5ElEQVR4nO3VMU7DQBCG0d8Spe8QenrOATfhKpyE06RP7pDeFF6LVbIIUXkC70nWNC5Gn9beBAAAAAAAAAAAAAD4+6a9F/il632XXbb4xj3E3HackxzaTJJLklObJVSNOQp4SPLa5pLkmOS9zRIn9GHvBQbmJI+5DdiHXbp3y6gWc8oa8i3JU24/7enq3VKqxZyzRnxuc8r40tmeUirFnLKewpc2t4h9tEuSc5vHFLp8kloxN1uo0Wd8TvKRr6CnFDqh1f47/eUz0p/MpFDIpF7M5OedSgUEAAAAAAAAAAAAAP6bT+yhId53+DK5AAAAAElFTkSuQmCC"/>
+  </g>
+  <polygon points="7.6709 3.4063 2.6655 8.8438 4.0967 14 13.1372 11.333 7.6709 3.4063" fill="none" stroke="#000" stroke-width="2"/>
+  <g>
+    <polygon points="7.6709 3.4063 13.1372 11.333 4.0967 14 7.6709 3.4063" fill="url(#linear-gradient)"/>
+    <polygon points="7.6709 3.4063 2.6655 8.8438 4.0967 14 7.6709 3.4063" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

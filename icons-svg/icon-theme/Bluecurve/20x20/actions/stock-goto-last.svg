@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="14.048879" y1="4.9024756" x2="19.1672651" y2="16.5681821" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a4b6d9"/>
+      <stop offset=".2050246" stop-color="#91a1c2"/>
+      <stop offset=".4080705" stop-color="#8594b3"/>
+      <stop offset=".573034" stop-color="#8190ae"/>
+      <stop offset=".6379975" stop-color="#8493b2"/>
+      <stop offset=".7082057" stop-color="#8f9fbf"/>
+      <stop offset=".7806541" stop-color="#a0b2d4"/>
+      <stop offset=".792135" stop-color="#a4b6d9"/>
+      <stop offset=".832815" stop-color="#9caed1"/>
+      <stop offset=".8951108" stop-color="#8699be"/>
+      <stop offset=".97089" stop-color="#64779e"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+    <mask id="mask" x="-35" y="-29" width="84" height="85" maskUnits="userSpaceOnUse">
+      <polygon points="4.1522943 14.876 12.3153941 10.3545 4.1522943 5.8335 4.1522943 14.876" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient-2" x1="5.6185804" y1="6.0770873" x2="7.5131394" y2="10.8134871" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbc8e3"/>
+      <stop offset=".1636033" stop-color="#b3c0dc"/>
+      <stop offset=".4142154" stop-color="#9daccb"/>
+      <stop offset=".7187591" stop-color="#7b8caf"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="15.634794" y="5" width="1.667" height="10.8335" fill="#d68100" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="15.634794" y="5" width="1.667" height="10.8335" fill="url(#linear-gradient)"/>
+  </g>
+  <g>
+    <polygon points="4.1522943 14.876 12.3153941 10.3545 4.1522943 5.8335 4.1522943 14.876" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="4.1522943 14.876 12.3153941 10.3545 4.1522943 5.8335 4.1522943 14.876" fill="url(#linear-gradient-2)"/>
+        <image width="84" height="85" transform="translate(-35 -29)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABVCAYAAADXN8NkAAAACXBIWXMAAAsSAAALEgHS3X78AAADOUlEQVR4nO3YP2hdZRjH8e/veU9uktqS+g9UqIOLOqiDbsXBSQw4GKg6CNaxiliqYqFKwYJULNI6OziIkyiIuImuErV1qFBiTWnThtxUuMaa++f8eRzOTQmFDk73VZ4PXM4dn/PlPed9ORBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQQrgpTXqA7fYdOLU1j8zMUzI+++gVn+hQ/1I2QfcdOGVAAcwAyczqlGxklsoiJS+mCv/4+EvZx80i6HhlTgG3A3uAOTPrp2TrZqlXpDQopophkVJZFMmLovCT7zyXZdxi0gMAmBm0K/Ne4AngPjPblHRe0hWJdWAN6AEDYPj6e5+XMnPATxxeyCZuFkGLIol2ltuAB0CPmilJtm6mq2Z22aSlNq62x+0DgzeOf1GdOLzQTPAWrssiaKfT2fprQEfSbkm3muwemQYm9czsETNr45otSbokaRW4CPzx5vtflh+89czEV2oWQaenOw5UoA2Jdcn+NtMdQrOSdso0Z9JdkgZm1jPTQ5JdRDoDlMBf4+vEZRF0ZmYGYAR0JZ03s65Jd0ualmTjX0fSLZJ2SewEcOd3oPBMNlfIJOjJt5/1Ix9+XQIbiDVJGyYrJbmEtnGgBv5smma5rptz7t5199GEb+G6LIIC7Ngx60ApaTi+utqaSCCpod2EVuq6+bGuqu/d/UzTcBUojx2cn/j7E3IKOjsL4ECJGEoqJTWSJGiQNnFfqZtmUaq+bep6UWgFvH/s4HwWOzxkFHS8MZVIG4I1mTYkzUkyoWvuvto0zU+qqu/qul5EugT0333tqXrSs2+XTdBOZwpgBOpK/GZmDyPtEuqDX3DnbF1XP9R1/XO7MukfffXJrGJCRrsjwCdf/Zok7gQ9LrEgaQ+w7O6L7pytqnJ5OBx1B4Nh/9D+vdnFhIxWKEBK5rTHp56kC8AV4BfgtLuvMj5vHtq/N5t35o2yCjo+FpVAFzgNbAJLtGE3gebl5x/LYje/mayCjg2By8A12g8hPWDw4tMPZvmI3yirdyjAp9+c2/pQkmgP8fUL8/dn+4j/Z4zDhhBCCCGEEEIIIYQQQgghhBBCCCGEEEIIIYQQ/k/+Af+XFN35Hm1HAAAAAElFTkSuQmCC"/>
+      </g>
+    </g>
+  </g>
+</svg>

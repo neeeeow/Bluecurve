@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="5.6999817" y="7.6800077" width="4.4999998" height="8.6399996" maskUnits="userSpaceOnUse">
+      <polyline points="10 8.0000153 6.0000305 8.0000153 6.0000305 15.9999695 10 15.9999695 10 8.0000153" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="13.7999725" y="3.7200079" width="4.4999998" height="12.5999995" maskUnits="userSpaceOnUse">
+      <polyline points="18 4 14.0000305 4 14.0000305 16.0000305 18 16.0000305 18 4" fill="#fff"/>
+    </mask>
+    <linearGradient id="White_Black" data-name="White, Black" x1="22" y1="-179.0004952" x2="18" y2="-179.0004952" gradientTransform="translate(191.0004952 39) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="10 8.0000153 6.0000305 8.0000153 6.0000305 15.9999695 10 15.9999695 10 8.0000153"/>
+    <path d="M6.0000305,8.0000153h3.9999695v7.9999542h-3.9999695v-7.9999542M11,7.0000153h-6.0000305v10.0000153h6.0000305V7.0000153"/>
+    <g mask="url(#mask)">
+      <image width="25" height="48" transform="translate(5.6999817 16.3200073) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAtCAYAAAC0wKvmAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAZElEQVRYhe3NwQ2AIABD0Y8XA0ZxUqdxBHdwLj2ACAleWYCLaZMmTS/P7Get3sFiYbawTuAtuBGuAHeEkCBliC+k0uwMT9vmSwWOzZiBzhEgQIAAAQIECBAgQIAAAQIE/Anong9UIyRYbq3QQQAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="18 4 14.0000305 4 14.0000305 16.0000305 18 16.0000305 18 4"/>
+    <path d="M14.0000305,4h3.9999695v12.0000305h-3.9999695V4M18.999939,3.0000153h-5.9999084v13.9999847h5.9999084V3.0000153"/>
+    <g mask="url(#mask-1)">
+      <image width="25" height="70" transform="translate(13.7999725 16.3200073) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAABDCAYAAACGPsXMAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAW0lEQVRYhe3NsRWAMAzE0IPunP0XyXAu7JfACjShkip1/5pzPrZlW2MM2VZEKCK01lJmKjPV3epuVdXn33vr1uEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB+7wUiZDYtLDPDMgAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <rect x="3" y="18" width="18" height="2" fill="url(#White_Black)"/>
+</svg>

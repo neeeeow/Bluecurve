@@ -1,5 +1,26 @@
 #target illustrator
 
+function loadXML() {
+    var file = File.openDialog("Select .icontheme file:", "*.icontheme");
+    if (file == null) {
+        alert("Error: invalid file!");
+        return null;
+    }
+
+    if (file.open("r")) {
+        var content = file.read();
+        file.close();
+
+        try {
+            var data = new XML(content);
+            return data;
+        } catch (e) {
+            alert("Error parsing file: " + e.message);
+            return null;
+        }
+    }
+}
+
 function main() {
     if (app.documents.length === 0) {
         alert("Please open a document first.");
@@ -11,7 +32,7 @@ function main() {
     var userInput = Window.prompt("Enter icon size:", "", "Icon exporter");
     var cellSize;
 
-    if (userInput !== null) {
+    if (userInput != null) {
         cellSize = parseInt(userInput, 10);
         if (isNaN(cellSize)) {
             alert("Error: invalid input!");
@@ -19,6 +40,12 @@ function main() {
         }
     } else {
         alert("Error: invalid input!");
+        return;
+    }
+
+    var data = loadXML();
+    if (data == null) {
+        alert("Error: invalid data!");
         return;
     }
 
@@ -37,18 +64,16 @@ function main() {
     var abBounds = doc.artboards[doc.artboards.getActiveArtboardIndex()].artboardRect;
     var abLeft = abBounds[0];
     var abTop = abBounds[1];
-    var abRight = abBounds[2];
-    var abBottom = abBounds[3];
-    var abWidth = abRight - abLeft;
-    var abHeight = abTop - abBottom; 
 
-    var cols = Math.ceil(abWidth / cellSize);
-    var rows = Math.ceil(abHeight / cellSize);
+    var rows = data.layout.row;
 
-    var iconCounter = 0; // for keeping track of file names
+    for (var r = 0; r < rows.length(); r++) {
+        var row = rows[r];
+        var icons = row.icon;
 
-    for (var r = 0; r < rows; r++) {
-        for (var c = 0; c < cols; c++) {
+        for (var c = 0; c < icons.length(); c++) {
+            var icon = icons[c];
+            var iconName = icon.@name.toString();
 
             // Cell dimensions
             var cellLeft = abLeft + (c * cellSize);
@@ -107,24 +132,24 @@ function main() {
             doc.artboards[doc.artboards.getActiveArtboardIndex()].artboardRect = [cellLeft, cellTop, cellRight, cellBottom];
 
             // Rename the artboard for the file output
-            var fileName = "icon_" + iconCounter;
-            doc.artboards[doc.artboards.getActiveArtboardIndex()].name = fileName;
+            doc.artboards[doc.artboards.getActiveArtboardIndex()].name = iconName;
 
             // Set options and export
             var opts = new ExportForScreensOptionsWebOptimizedSVG();
             opts.svgResponsive       = false;
             opts.fontType            = SVGFontType.OUTLINEFONT;
             opts.coordinatePrecision = 7;
+            opts.cssProperties       = SVGCSSPropertyLocation.PRESENTATIONATTRIBUTES;
             doc.exportForScreens(
                 new File(exportFolder),
                 ExportForScreensType.SE_SVG,
                 opts
             );
 
-            iconCounter++;
-
             app.undo();
+
         }
+
     }
 
     // Restore settings

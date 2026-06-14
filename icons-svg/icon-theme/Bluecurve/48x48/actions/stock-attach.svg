@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Icons_-_24x24" data-name="Icons - 24x24" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="New_Gradient_399" data-name="New Gradient 399" x1="15.0723136" y1="196.5984381" x2="31.0347136" y2="229.3262084" gradientTransform="translate(4.3736233 -184.1441746)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_401" data-name="New Gradient 401" x1="15.0723136" y1="196.5984381" x2="31.0347136" y2="229.3262084" gradientTransform="translate(4.3736233 -184.1441746)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_399-2" data-name="New Gradient 399" x1="10.1181141" y1="192.6670386" x2="26.0805142" y2="225.3948088" gradientTransform="translate(3.3278475 -182.2128055)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e5e5e5"/><stop offset="1" stop-color="#fff"/></linearGradient>
+    <linearGradient id="New_Gradient_401-2" data-name="New Gradient 401" x1="10.1181141" y1="192.6670386" x2="26.0805142" y2="225.3948088" gradientTransform="translate(3.3278475 -182.2128055)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#e5e5e5"/><stop offset=".286514" stop-color="#f2f2f2"/><stop offset=".646072" stop-color="#fff"/><stop offset="1" stop-color="#fff"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="11.8135593" y="16.1768995" width="30.184418" height="23.1374068" transform="translate(-7.8664721 10.8746175) rotate(-19.9984152)" fill="url(#New_Gradient_399)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="11.8135593" y="16.1768995" width="30.184418" height="23.1374068" transform="translate(-7.8664721 10.8746175) rotate(-19.9984152)" fill="url(#New_Gradient_401)"/>
+  </g>
+  <g>
+    <rect x="5.8135594" y="14.1768996" width="30.184418" height="23.1374068" transform="translate(-7.5442713 8.7020568) rotate(-19.9984152)" fill="url(#New_Gradient_399-2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="5.8135594" y="14.1768996" width="30.184418" height="23.1374068" transform="translate(-7.5442713 8.7020568) rotate(-19.9984152)" fill="url(#New_Gradient_401-2)"/>
+  </g>
+  <path d="M10.6171937,25.04c0,3.8594029,3.1405999,7,6.9999998,7s6.9999998-3.1405971,6.9999998-7v-14c0-3.8592965-3.1405999-7-6.9999998-7s-6.9999998,3.1407035-6.9999998,7v14ZM14.6171936,11.04c0-1.6542966,1.3457-3,2.9999999-3s2.9999999,1.3457034,2.9999999,3v14c0,1.654303-1.3457,3-2.9999999,3s-2.9999999-1.345697-2.9999999-3v-14Z"/>
+  <path d="M11.6171936,25.04c0,3.3086029,2.6913999,6,5.9999998,6s5.9999998-2.6913971,5.9999998-6v-14c0-3.3085966-2.6913999-6-5.9999998-6s-5.9999998,2.6914034-5.9999998,6v14ZM13.6171936,11.04c0-2.205,1.7949-4,3.9999999-4s3.9999999,1.795,3.9999999,4v14c0,2.2051029-1.7949,4-3.9999999,4s-3.9999999-1.7948971-3.9999999-4v-14Z" fill="#999"/>
+</svg>

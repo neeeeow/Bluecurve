@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="New_Gradient_176" data-name="New Gradient 176" x1="18.188761" y1="4.9111562" x2="5.8623512" y2="20.1330046" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d9d9d9"/>
+      <stop offset=".522476" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_176-2" data-name="New Gradient 176" x1="12.3325904" y1="4.9471412" x2="4.6281918" y2="14.461281" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#d9d9d9"/><stop offset=".522476" stop-color="#f2f2f2"/><stop offset="1" stop-color="#ccc"/></linearGradient>
+    <linearGradient id="New_Gradient_175" data-name="New Gradient 175" x1="21.9255791" y1="20.8913426" x2="3.2508888" y2="4.657682" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+    <mask id="mask" x="5.8710926" y="4.4414" width="16.9042996" height="18.7783" maskUnits="userSpaceOnUse">
+      <polygon points="19.6581922 5.7246 5.8710926 9.1636 5.8710926 19.645 19.6581922 16.2485 19.6581922 5.7246" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_192" data-name="New Gradient 192" x1="20.9921783" y1="17.2453976" x2="4.5388666" y2="8.125178" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#01326e"/>
+      <stop offset="1" stop-color="#012859"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_193" data-name="New Gradient 193" cx="27.0416601" cy="-10.7404155" fx="27.0416601" fy="-10.7404155" r="13.2483376" gradientTransform="translate(-16.2996 20.7265)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#23468e"/>
+      <stop offset="1" stop-color="#012859"/>
+    </radialGradient>
+  </defs>
+  <path d="M4.1415926,22.0044s-1.1904-.6807-1.1904-2.3628V7.9946s-.0469-1.0708.7402-1.2954c.7852-.2236,14.6386996-3.5239,15.3573996-3.7168.9522078-.2549,1.8701.5362,1.8701.5362l-.0966.1064.165-.0405v14.2412l-16.7977996,4.1391-.0479.0396Z" fill="url(#New_Gradient_176)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <path d="M4.1415926,22.0044s-1.1904-.6807-1.1904-2.3628V7.9946s-.0469-1.0708.7402-1.2954c.7852-.2236,14.6386996-3.5239,15.3573996-3.7168.9522078-.2549,1.8701.5362,1.8701.5362L4.1415926,22.0044Z" fill="url(#New_Gradient_176-2)" fill-rule="evenodd"/>
+  <polygon points="20.9872922 3.5845 4.1894926 7.7729 4.1894926 21.9648 20.9872922 17.8257 20.9872922 3.5845" fill="url(#New_Gradient_175)" fill-rule="evenodd"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="19.6581922 5.7246 5.8710926 9.1636 5.8710926 19.645 19.6581922 16.2485 19.6581922 5.7246" fill="url(#New_Gradient_192)" fill-rule="evenodd"/>
+      <path d="M18.7401923,5.1997s-4.3700999,2.3213-6.7450998,7.5127c-2.3739999,5.1899-.7460924,10.5073-.7460924,10.5073l11.5263921-3.2651-.6143-15.5132-3.4208999.7583Z" fill="url(#New_Gradient_193)" fill-rule="evenodd"/>
+    </g>
+  </g>
+  <path d="M3.874,21.5259V7.7896c0-.0972.127-.2667.2148926-.2891L20.4022922,3.3672c.4366-.1113.7188.5918.2823.7031l-16.2782996,3.9878v13.6939c0,.4741-.5322926.2485-.5322926-.2261Z" fill="#fff"/>
+  <polyline points="4.4062926 21.752 4.4062926 8.0581 20.7548922 3.9312" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width=".75"/>
+  <polyline points="5.9882926 19.7134 19.708 16.3511 19.708 5.8013" fill="none" stroke="#fff" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".9039"/>
+  <polyline points="5.8300926 19.4282 5.8300926 9.1963 19.4423922 5.749" fill="none" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width=".8877"/>
+  <g>
+    <polygon points="7.7802925 10.0767 10.3495925 11.0923 7.7802925 13.4272 7.3251925 12.8491 8.8300925 11.4814 7.3251925 10.8877 7.7802925 10.0767" fill="#fff"/>
+    <polygon points="10.2968925 12.6411 13.0331924 11.939 13.0331924 12.7695 10.2968925 13.4702 10.2968925 12.6411" fill="#fff"/>
+  </g>
+</svg>

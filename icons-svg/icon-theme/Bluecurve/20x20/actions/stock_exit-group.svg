@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <mask id="mask" x="1.5241969" y=".7487" width="17.5158031" height="16.6826" maskUnits="userSpaceOnUse">
+      <polygon points="1.5241969 .7487 1.5241969 9.9231 4.8607968 9.9231 4.8607968 15.7634 1.5241969 15.7634 1.5241969 17.4313 19.04 17.4313 19.04 .7487 1.5241969 .7487" fill="none"/>
+    </mask>
+    <mask id="mask-1" x="10.6799774" y="5.899996" width="4.4999998" height="5.5799998" maskUnits="userSpaceOnUse">
+      <polyline points="14.8700256 6.1710052 10.9608002 6.1710052 10.9608002 11.1756134 14.8700256 11.1756134 14.8700256 6.1710052" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="5.6399841" y="4.6400015" width="4.4999998" height="5.5799998" maskUnits="userSpaceOnUse">
+      <polyline points="9.8653717 4.9223938 5.9563141 4.9223938 5.9563141 9.9269104 9.8653717 9.9269104 9.8653717 4.9223938" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="8.3399811" y="8.4200002" width="4.4999998" height="5.5799998" maskUnits="userSpaceOnUse">
+      <polyline points="12.5246735 8.6770782 8.6156311 8.6770782 8.6156311 13.6815338 12.5246735 13.6815338 12.5246735 8.6770782" fill="#fff"/>
+    </mask>
+  </defs>
+  <g mask="url(#mask)">
+    <g opacity=".5">
+      <g>
+        <rect x="3.1955969" y="2.4176" width="14.0752996" height="13.4302" rx="1.9999999" ry="1.9999999"/>
+        <rect x="3.1955969" y="2.4176" width="14.0752996" height="13.4302" rx="1.9999999" ry="1.9999999" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+      <rect x="3.1955969" y="2.4176" width="14.0752996" height="13.4302" rx="1.9999999" ry="1.9999999" fill="#fff"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="14.8700256 6.1710052 10.9608002 6.1710052 10.9608002 11.1756134 14.8700256 11.1756134 14.8700256 6.1710052"/>
+    <path d="M10.9608002,6.1710052h3.9092255v5.0046082h-3.9092255v-5.0046082M15.8699646,5.1710052h-5.9091644v7.0046082h5.9091644v-7.0046082"/>
+    <g mask="url(#mask-1)">
+      <image width="25" height="31" transform="translate(10.6799774 11.4799957) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAdCAYAAACwuqxLAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAVklEQVRIie3NMQ7AIAwDQNNMmN/mc7yMDEGibFWHriyVvdjycqX3ftdaQRKtNZAESZgZxhiICGQm5pxPv3dmfv5rLbh7uXA4AgQIECBAgAABAv4CHM8GO7s0ON5v6kAAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="9.8653717 4.9223938 5.9563141 4.9223938 5.9563141 9.9269104 9.8653717 9.9269104 9.8653717 4.9223938"/>
+    <path d="M5.9563141,4.9223938h3.9090576v5.0045166h-3.9090576v-5.0045166M10.8653717,3.9223938h-5.9090576v7.0045166h5.9090576V3.9223938"/>
+    <g mask="url(#mask-2)">
+      <image width="25" height="31" transform="translate(5.6399841 10.2200012) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABcAAAAbCAYAAACX6BTbAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAUElEQVRIie3MsQ3AIBBD0Z80CLP/KDcaFIdQUiGRAdLZje3mXRHx1FqRhCRaa0iilMIYg947mUlmMuf87P3P3nutxc2PMW7cuHHjxo0bNw68Azgy3wt5E1MAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="12.5246735 8.6770782 8.6156311 8.6770782 8.6156311 13.6815338 12.5246735 13.6815338 12.5246735 8.6770782"/>
+    <path d="M8.6156311,8.6770782h3.9090424v5.0044556h-3.9090424v-5.0044556M13.5246582,7.6770935h-5.9090729v7.004425h5.9090729v-7.004425"/>
+    <g mask="url(#mask-3)">
+      <image width="25" height="31" transform="translate(8.3399811 14) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAfCAYAAADjuz3zAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAT0lEQVRIie3MsRHAMAgDQDl0sK3HZB8o4I6kSs4LpJMaSc0vd7/NDKoKVYWIICKQmagqdDeq6tvvP/vcM4O997rwUwgTJkyYMGHChAkTxgPZcTQ+nLC9wwAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <line x1="3.5358969" y1="13.0596" x2="6.1113968" y2="13.0596" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="3.5041969 12.2386 3.5041969 11.1781 1.1074969 13.0596 3.5041969 14.9436 3.5041969 13.855" fill="#c40000"/>
+  </g>
+</svg>

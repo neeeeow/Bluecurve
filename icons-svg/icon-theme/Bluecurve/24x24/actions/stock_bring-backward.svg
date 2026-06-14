@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="19.5597636" y1="13.5529377" x2="6.6503921" y2="5.3996317" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="10.6278094" y1="7.1943443" x2="20.4564166" y2="15.5849415" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <mask id="mask" x="4.7399597" y="10.6799906" width="8.4599996" height="7.5599997" maskUnits="userSpaceOnUse">
+      <path d="M11.9999695,10.9999695h1.000061-1.000061M13.0000305,10.9999695H5v7.0000458h8.0000305v-7.0000458" fill="#fff"/>
+    </mask>
+  </defs>
+  <g>
+    <rect x="8.5" y="5.5" width="11" height="9.083" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="10" y="7" width="9" height="7" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <path d="M5,10.9999695h8.0000305v7.0000458H5v-7.0000458M13.999939,9.9999847H4v9.0000305h9.999939v-9.0000305" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M11.9999695,10.9999695h1.000061-1.000061M13.0000305,10.9999695H5v7.0000458h8.0000305v-7.0000458" fill="none"/>
+        <image width="47" height="42" transform="translate(4.7399597 18.2399902) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmCAYAAAC76qlaAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAfUlEQVRYhe3OQQpCMQxF0adNu/+1dAPuq2mKM1H44uyC8A6EhgzKvc05H601RYR67xpjvPZvExHKTK21lJnKTO29VVWqKp1zPt73+9Xtav/1z11/yuE0h9McTnM4zeE0h9McTnM4zeE0h9McTnM4zeE0h9McTnM4zeE0h9OengZitU1z+R8AAAAASUVORK5CYII="/>
+        <path d="M11.9999695,10.9999695h1.000061-1.000061M13.0000305,10.9999695H5v7.0000458h8.0000305v-7.0000458" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

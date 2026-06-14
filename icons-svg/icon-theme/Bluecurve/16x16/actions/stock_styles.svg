@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_1" data-name="Set 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="2.3056939" y="2.1875" width="11.8006998" height="11.8008" maskUnits="userSpaceOnUse">
+      <rect x="3.3056939" y="3.1875" width="9.8006998" height="9.8008" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="8.2055937" cy="5.9878" fx="8.2055937" fy="5.9878" r="3.1302936" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".0998635" stop-color="#fdfeff"/>
+      <stop offset=".1358351" stop-color="#f6fcff"/>
+      <stop offset=".1614737" stop-color="#eaf8ff"/>
+      <stop offset=".1821949" stop-color="#d9f3ff"/>
+      <stop offset=".1997497" stop-color="#c3ecff"/>
+      <stop offset=".207865" stop-color="#b7e9ff"/>
+      <stop offset=".426966" stop-color="#3c97f6"/>
+      <stop offset=".865173" stop-color="#032c87"/>
+      <stop offset="1" stop-color="#0342d3"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="3.9096156" y1="2.9021384" x2="5.502472" y2="6.2731616" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_7" data-name="New Gradient Swatch 7" x1="8.2055937" y1="6.688" x2="8.2055937" y2="9.4883" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="10.3056937" cy="5.287725" fx="10.3056937" fy="5.287725" r="4.4833647" gradientUnits="userSpaceOnUse">
+      <stop offset=".134831" stop-color="#86e099"/>
+      <stop offset=".882022" stop-color="#005e00"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="10.3057937" y1="9.4884" x2="13.1062936" y2="6.6879" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#a70000"/>
+      <stop offset="1" stop-color="#fff95e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="5.0767633" y1="9.5710331" x2="4.3766709" y2="6.770654" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d68100"/>
+      <stop offset=".2354921" stop-color="#b59725"/>
+      <stop offset=".5851571" stop-color="#8ab656"/>
+      <stop offset=".8511327" stop-color="#6fc875"/>
+      <stop offset="1" stop-color="#65d081"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-3" cx="8.9055437" cy="12.288225" fx="8.9055437" fy="12.288225" r="2.969873" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec9573"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-4" x1="13.5759566" y1="16.5745964" x2="11.4758966" y2="10.9744231" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdea0"/>
+      <stop offset=".320225" stop-color="#e2be89"/>
+      <stop offset=".4727513" stop-color="#dfbb85"/>
+      <stop offset=".5908384" stop-color="#d6b27c"/>
+      <stop offset=".6974079" stop-color="#c7a36b"/>
+      <stop offset=".7971367" stop-color="#b28e54"/>
+      <stop offset=".8921255" stop-color="#977336"/>
+      <stop offset=".982371" stop-color="#765212"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="4.2756052" y1="9.9353986" x2="5.1364825" y2="13.2409014" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe900"/>
+      <stop offset="1" stop-color="#c40000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="3.9096156" y1="2.9021384" x2="5.502472" y2="6.2731616" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </linearGradient>
+  </defs>
+  <rect x="3.3056939" y="3.1875" width="9.8006998" height="9.8008" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <g>
+        <rect x="6.8056938" y="3.1875" width="2.7997999" height="2.8003" fill="none" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+        <rect x="6.8056938" y="3.1875" width="2.7997999" height="2.8003" fill="url(#radial-gradient)"/>
+      </g>
+      <g>
+        <rect x="3.3056939" y="3.1875" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="3.3056939" y="3.1875" width="2.8006999" height="2.8003" fill="url(#linear-gradient)"/>
+      </g>
+      <g>
+        <rect x="6.8056938" y="6.688" width="2.7997999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="6.8056938" y="6.688" width="2.7997999" height="2.8003" fill="url(#New_Gradient_Swatch_7)"/>
+      </g>
+      <g>
+        <rect x="10.3056937" y="3.1875" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="10.3056937" y="3.1875" width="2.8006999" height="2.8003" fill="url(#radial-gradient-2)"/>
+      </g>
+      <g>
+        <rect x="10.3056937" y="6.688" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="10.3056937" y="6.688" width="2.8006999" height="2.8003" fill="url(#linear-gradient-2)"/>
+      </g>
+      <g>
+        <rect x="3.3056939" y="6.688" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="3.3056939" y="6.688" width="2.8006999" height="2.8003" fill="url(#linear-gradient-3)"/>
+      </g>
+      <g>
+        <rect x="6.8056938" y="10.188" width="2.7997999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="6.8056938" y="10.188" width="2.7997999" height="2.8003" fill="url(#radial-gradient-3)"/>
+      </g>
+      <g>
+        <rect x="10.3056937" y="10.188" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="10.3056937" y="10.188" width="2.8006999" height="2.8003" fill="url(#linear-gradient-4)"/>
+      </g>
+      <g>
+        <rect x="3.3056939" y="10.188" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <rect x="3.3056939" y="10.188" width="2.8006999" height="2.8003" fill="url(#linear-gradient-5)"/>
+      </g>
+      <rect x="3.3056939" y="3.1875" width="9.8006998" height="9.8008" fill="#fff" opacity=".4"/>
+      <polygon points="4.0048938 3.8882 13.1063936 3.8882 13.1063936 3.1875 3.3056939 3.1875 3.3056939 12.9883 4.0048938 12.9883 4.0048938 3.8882" fill="#fff" opacity=".5"/>
+      <rect x="2.6063939" y="2.4878" width="9.7998998" height="9.8008" fill="#fff" opacity=".25"/>
+    </g>
+  </g>
+  <g opacity=".5">
+    <rect x="3.3056939" y="3.1875" width="2.8006999" height="2.8003" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="3.3056939" y="3.1875" width="2.8006999" height="2.8003" fill="url(#linear-gradient-6)"/>
+  </g>
+</svg>

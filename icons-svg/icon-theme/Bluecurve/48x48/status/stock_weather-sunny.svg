@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="18.5961836" cy=".3936255" fx="18.5961836" fy=".3936255" r="26.3403634" gradientTransform="translate(-5.2939 14.312) scale(1.1575 1.129)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".331467" stop-color="#ffffb3"/>
+      <stop offset=".561798" stop-color="#ffe900"/>
+      <stop offset=".865173" stop-color="#d68100"/>
+    </radialGradient>
+    <mask id="mask" x="13.1938" y="11.0019" width="26.6047" height="26.4506583" maskUnits="userSpaceOnUse">
+      <circle cx="25.581" cy="23.3896" r="12.26245" fill="#fff" stroke="#fff" stroke-width=".25"/>
+    </mask>
+    <radialGradient id="radial-gradient-2" cx="21.1617031" cy="18.1926677" fx="21.1617031" fy="18.1926677" r="17.4591852" gradientTransform="matrix(1,0,0,1,0,0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".331467" stop-color="#ffffb3"/><stop offset=".561798" stop-color="#ffe900"/><stop offset=".865173" stop-color="#d68100"/></radialGradient>
+    <mask id="mask-1" x="22.7648033" y="19.1514138" width="17.0336967" height="18.3011445" maskUnits="userSpaceOnUse">
+      <path d="M36.9414,22.2734c0,7.1152-4.3037,12.1045-11.3628,12.5977-.75.0527-.8569-.5938-.1235-.7676,6.0044-1.4199,10.0703-8.0703,10.7324-11.8985.0688-.8847.7539-.6835.7539.0684Z" fill="#fff"/>
+    </mask>
+  </defs>
+  <path d="M9.6572,12.5312c7.4312.4024,7.2305-3.0117,7.6323-10.041,5.2217,5.2207,8.1929,9.5752,13.5137,2.3545,1.1397,8.3818,5.4468,6.5752,13.1738,4.5127-6.0796,8.5107-5.3198,11.4756.7598,14.4414-6.7139,2.9648-4.1797,7.3486-1.3931,12.8926-3.3593-1.2657-9.6489-4.4317-9.7866,1.9492-7.1475-5.0274-8.1006,3.0098-9.8408,6.4258-2.4717-6.0586-5.624-13.0537-12.854-6.8282,6.0254-10.2421-4.6192-11.8486-8.0332-13.6562,7.9326-2.6113,11.0093-5.7324,6.8281-12.0508Z" fill="url(#radial-gradient)" fill-rule="evenodd" stroke="#000" stroke-width=".75"/>
+  <g mask="url(#mask)">
+    <g>
+      <circle cx="25.581" cy="23.3896" r="12.26245" fill="url(#radial-gradient-2)"/>
+      <g mask="url(#mask-1)">
+        <g>
+          <path d="M36.9414,22.2734c0,7.1152-4.3037,12.1045-11.3628,12.5977-.75.0527-.8569-.5938-.1235-.7676,6.0044-1.4199,10.0703-8.0703,10.7324-11.8985.0688-.8847.7539-.6835.7539.0684Z" fill="#f6893c"/>
+          <path d="M37.2739,22.3281c0,7.1142-4.3047,12.1035-11.3628,12.5967-.7505.0537-.8569-.5928-.1245-.7666,6.0059-1.42,10.0703-8.0723,10.7334-11.8985.0684-.8847.7539-.6836.7539.0684Z" fill="none" stroke="#ea9d29" stroke-miterlimit="3.8637" stroke-width="5.0492"/>
+          <path d="M37.1074,22.3007c0,7.1133-4.3037,12.1036-11.3623,12.5977-.75.0527-.8564-.5937-.125-.7676,6.0054-1.4199,10.0713-8.0713,10.7334-11.8984.0684-.8848.7539-.6836.7539.0683Z" fill="none" stroke="#df8f16" stroke-miterlimit="3.8637" stroke-width="2.5247"/>
+          <path d="M36.9414,22.2734c0,7.1152-4.3037,12.1045-11.3628,12.5977-.75.0527-.8569-.5938-.1235-.7676,6.0044-1.4199,10.0703-8.0703,10.7324-11.8985.0688-.8847.7539-.6835.7539.0684Z" fill="none" stroke="#d3b003" stroke-miterlimit="3.8637"/>
+        </g>
+      </g>
+      <circle cx="25.581" cy="23.3896" r="12.26245" fill="none" stroke="#d68100" stroke-width=".25"/>
+    </g>
+  </g>
+</svg>

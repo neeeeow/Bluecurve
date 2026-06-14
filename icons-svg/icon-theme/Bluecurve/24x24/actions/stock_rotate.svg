@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="14.3919546" y1="11.7627431" x2=".7112594" y2="3.1222841" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="4.8692469" y1="4.9736117" x2="15.3541517" y2="13.9244845" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="1.0857555" y1="24.8708718" x2="-12.594393" y2="16.2307582" gradientTransform="translate(33.6495408 17.8475336) rotate(90.0003369)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="-8.4366833" y1="18.0819731" x2="2.048029" y2="27.0326816" gradientTransform="translate(34.1374162 18.0250627) rotate(89.9995941)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="20.7284928 6.127 22 6.127 19.7440928 9 17.4862929 6.127 18.791 6.127"/>
+    <polyline points="17.0253929 4.458 19.7440928 4.458 19.7440928 7" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <polyline points="4.2714932 18.873 3 18.873 5.2558932 16 7.5136931 18.873 6.209 18.873"/>
+    <polyline points="7.9745931 20.542 5.2558932 20.542 5.2558932 18" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g opacity=".5">
+    <rect x="2.5" y="3.5" width="12" height="9.083" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="4" y="5" width="10" height="7" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <rect x="7.9587131" y="7.0414692" width="9.0826097" height="12.0000615" transform="translate(-5.5605648 12.6587206) rotate(-45.0003369)" fill="url(#linear-gradient-3)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="9.0293271" y="8.71912" width="6.9999353" height="10.0002601" transform="translate(-6.0312233 12.8776931) rotate(-44.9995941)" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

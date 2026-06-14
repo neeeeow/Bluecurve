@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_1" data-name="Set 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <radialGradient id="radial-gradient" cx="8.2915" cy="8.34915" fx="8.2915" fy="8.34915" r="3.981425" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="8.2915" cy="8.34915" fx="8.2915" fy="8.34915" r="3.981425" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+  </defs>
+  <polygon points="8.2915 4.3677 9.3853 7.2544 12.2729 8.3491 9.3853 9.4438 8.2915 12.3306 7.1973 9.4438 4.3101 8.3491 7.1973 7.2544 8.2915 4.3677" fill="url(#radial-gradient)" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+  <polygon points="8.2915 4.3677 9.3853 7.2544 12.2729 8.3491 9.3853 9.4438 8.2915 12.3306 7.1973 9.4438 4.3101 8.3491 7.1973 7.2544 8.2915 4.3677" fill="url(#radial-gradient-2)"/>
+</svg>

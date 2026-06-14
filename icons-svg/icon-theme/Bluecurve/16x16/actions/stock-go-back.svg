@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="-31" y="-33" width="81" height="83" maskUnits="userSpaceOnUse">
+      <polygon points="11.9403973 11.9883 3 7.4941 11.9403973 3 11.9403973 11.9883" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="7.5964588" y1="5.5627005" x2="9.4796619" y2="10.2707107" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbc8e3"/>
+      <stop offset=".1636033" stop-color="#b3c0dc"/>
+      <stop offset=".4142154" stop-color="#9daccb"/>
+      <stop offset=".7187591" stop-color="#7b8caf"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+  </defs>
+  <polygon points="11.9403973 11.9883 3 7.4941 11.9403973 3 11.9403973 11.9883" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="11.9403973 11.9883 3 7.4941 11.9403973 3 11.9403973 11.9883" fill="url(#linear-gradient)"/>
+      <image width="81" height="83" transform="translate(-31 -33)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFEAAABTCAYAAADnR+s9AAAACXBIWXMAAAsSAAALEgHS3X78AAAB8UlEQVR4nO3XMWtTURjG8f/7nmNvyM39CqabQ1bBKbhbHAUFMwguFTSEopNuqYKLFMQuHQQ7GVwEu5vvEKFb7UdoIjS08TokjW2h4JYTeX5wuGd8eO57LveAiIiIiIiIiIiIiIiIiIiIiIiIiIjI/8gWHeBf3VvfmmftbbfLRWa5bClKfPD0fXF6OqkDOfALOOhtt0cLjjWXdImPnu/YZDIpTk5OmpPJ7xZwHRgAW8Dg84dnSUxkXHSAq6y/+lQcH4/rQMM9tMy8aUbNzABqC453QXIldjZ7VpZlMR6Pm+7eMrNGjNTNrDCz0mctpiSpEjubvRqwatCIIbQss6abFzaFu5Fgh+mUuPHmiwGrQNvNboUYVg0rpuU5ZtMC3VXilbKVlfnezAghzCfvQokJTqIvOsCZ1xt3S3c/cPetGONmpZL182p1WMtz8mqVPJ+u6rmVimQmEaDbWRu9fPdtYHAYQhhllYxrMTbd/34XExzEtEoE6HbWSuDo7c73fgyBLMtGMYYGUCexX5szyRzny148vj0E+u7ena2+ux+5e+nuuKcTPblJPO/J/ZvDj19/DIBDYAQMZ89krnyQ+LXvvN29/YLpkS6Bnw/v3EiqyKWxu7dvu3v7S/PiRUREREREREREREREREREREREREREltsf6IliVQhR7X4AAAAASUVORK5CYII="/>
+    </g>
+  </g>
+</svg>

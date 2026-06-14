@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="23.0596944" y1="23.1383562" x2="9.2366971" y2="9.3153588" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="6.5092885" y="7.9218" width="18.6738995" height="16.0062" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="6.5092885" y="7.9218" width="18.6738995" height="16.0062" fill="#fff"/>
+  <rect x="7.8430885" y="9.2556" width="17.3400996" height="14.6724" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="3.8415886" y="6.5879" width="2.6676999" height="1.3339" fill="gray"/>
+    <rect x="5.1753886" y="5.2541" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="25.183188" y="6.5879" width="2.6676999" height="1.3339" fill="gray"/>
+    <rect x="25.183188" y="5.2541" width="1.333812" height="2.6677" fill="gray"/>
+    <rect x="25.183188" y="23.928" width="2.6676999" height="1.3338" fill="gray"/>
+    <rect x="25.183188" y="23.928" width="1.333812" height="2.6677" fill="gray"/>
+    <rect x="5.1753886" y="23.928" width="1.3339" height="2.6677" fill="gray"/>
+    <rect x="3.8415886" y="23.928" width="2.6676999" height="1.3338" fill="gray"/>
+  </g>
+  <g>
+    <line x1="9.573" y1="18.1979" x2="15.4670883" y2="18.1979" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="9.573" y1="20.8683" x2="15.4670883" y2="20.8683" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <line x1="20.6513882" y1="18.6565" x2="20.6513882" y2="11.5286" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="21.9644881 18.7085 23.6603881 18.7085 20.6513882 22.5408 17.6397882 18.7085 19.3800882 18.7085"/>
+  </g>
+</svg>

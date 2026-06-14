@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="7.01024" y1="25.42135" x2="41.0683" y2="25.42135" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c8019"/>
+      <stop offset=".325843" stop-color="#23a11f"/>
+      <stop offset="1" stop-color="#a8efb1"/>
+    </linearGradient>
+    <mask id="mask" x="25.4264" y="17.5397" width="14.7977" height="14.7127" maskUnits="userSpaceOnUse">
+      <polygon points="29.4753 17.5397 29.6348 22.7556 25.4264 25.8429 30.435 27.3026 32.0666 32.2524 35.0072 27.9443 40.2241 27.9148 37.0302 23.7946 38.6187 18.8271 33.7092 20.5859 29.4753 17.5397" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="546.4761934" cy="-32.2720632" fx="546.4761934" fy="-32.2720632" r="10.4584001" gradientTransform="translate(571.7809 -74.9018) rotate(166.0012765) scale(.9999988 -.9999988)" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="568.7244853" cy="-8.2888014" fx="568.7244853" fy="-8.2888014" r="10.8650081" gradientTransform="translate(516.8366 -93.3774) rotate(166.0035596) scale(.8728132 -.8728132)" gradientUnits="userSpaceOnUse"><stop offset=".410112" stop-color="#f9e917"/><stop offset="1" stop-color="#d68112"/></radialGradient>
+  </defs>
+  <polyline points="7.01024 41.749 11.1902 36.4528 14.7334 35.8327 17.7522 32.1096 18.7362 29.7343 19.9327 28.1282 22.476 25.9076 24.8208 28.8775 27.1071 26.246 28.8923 19.8641 35.7448 16.3405 41.0683 9.0937 41.0643 41.1484" fill="none" stroke="#0f6124" stroke-width="2"/>
+  <polyline points="7.01024 41.749 11.1902 36.4528 14.7334 35.8327 17.7522 32.1096 18.7362 29.7343 19.9327 28.1282 22.476 25.9076 24.8208 28.8775 27.1071 26.246 28.8923 19.8641 35.7448 16.3405 41.0683 9.0937 41.0643 41.1484" fill="url(#linear-gradient)"/>
+  <g>
+    <g>
+      <rect x="35.0581" y="42.7507" width="2.0034" height="2.0034"/>
+      <rect x="27.0444" y="42.7507" width="2.0034" height="2.0034"/>
+      <rect x="19.0307" y="42.7507" width="2.0034" height="2.0034"/>
+      <rect x="11.0171" y="42.7507" width="2.0034" height="2.0034"/>
+      <rect x="3.00341" y="10.6961" width="2.00342" height="2.0034"/>
+      <rect x="3.00341" y="18.7097" width="2.00342" height="2.0035"/>
+      <rect x="3.00341" y="26.7234" width="2.00342" height="2.0034"/>
+      <rect x="3.00341" y="34.7371" width="2.00342" height="2.0034"/>
+      <rect x="3.00341" y="42.7507" width="2.00342" height="2.0034"/>
+    </g>
+    <rect x="5.00683" y="6.6892" width="2.00341" height="36.0615"/>
+    <rect x="5.00683" y="40.7473" width="36.06147" height="2.0034"/>
+  </g>
+  <g>
+    <polygon points="29.6348 22.7556 29.4753 17.5397 33.7092 20.5859 38.6187 18.8271 37.0302 23.7946 40.2241 27.9148 35.8779 27.9383 44.3982 43.9598 42.9074 44.7501 34.4252 28.7933 32.0666 32.2524 30.435 27.3026 25.4264 25.8429 29.6348 22.7556" fill="none" stroke="#000" stroke-width="2"/>
+    <polygon points="34.0994 28.1849 35.5902 27.3945 44.3982 43.9598 42.9074 44.7501 34.0994 28.1849" fill="#9c3e0d"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="29.4753 17.5397 29.6348 22.7556 25.4264 25.8429 30.435 27.3026 32.0666 32.2524 35.0072 27.9443 40.2241 27.9148 37.0302 23.7946 38.6187 18.8271 33.7092 20.5859 29.4753 17.5397" fill="url(#radial-gradient)"/>
+        <polygon points="30.2402 18.9816 30.3675 23.0023 27.1295 25.3813 30.9867 26.5082 32.2477 30.3291 34.5093 27.0031 38.5288 26.9836 36.0666 23.8004 37.2895 19.9697 33.5086 21.3256 30.2402 18.9816" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+    <line x1="34.79" y1="17.4009" x2="37.2288" y2="11.4786" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="41.8498" y1="24.0627" x2="47.0571" y2="24.0821" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="27.3681" y1="29.8928" x2="24.9931" y2="35.1419" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="25.5721" y1="20.6192" x2="19.6354" y2="15.7066" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

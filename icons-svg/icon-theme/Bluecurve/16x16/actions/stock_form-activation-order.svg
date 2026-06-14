@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="12.5136776" y1="13.5234148" x2="7.4247008" y2="8.564983" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="250.3113024" cy="82.3925489" fx="250.3113024" fy="82.3925489" r="2.6808063" gradientTransform="translate(-163.1095 -46.4768) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <rect x="3" y="3.0801" width="5" height="4.9199" fill="gray" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="3" y="3.0801" width="5" height="4.9199" fill="#fff"/>
+    </g>
+    <path d="M6.9013938,3.0146c-.0118-.0185-.0323-.0195-.045-.0019l-2.0780999,3.3921c-.0117.0185-.0292938.0195-.042.0024l-.8925-1.1616c-.0127-.0176-.0303-.0156-.0381.0049l-.4356,1.0791c-.0078.021,0,.0478.0176.061l1.458,1.3301c.0166.0151.04.0137.0527-.0039l2.9326999-3.3184c.0166-.0146.0195-.0405.0087-.0586l-.9384-1.3252Z" fill="#16336e"/>
+  </g>
+  <g>
+    <polyline points="1.5 10.3535 1.5 12.5 4.1562938 12.5" fill="none" stroke="#000" stroke-miterlimit="3.8637"/>
+    <polyline points="3 13.1553 3 14 5 12.5005 3 11 3 11.8677"/>
+  </g>
+  <g>
+    <path d="M13.3700936,11.0313c0,1.8881-1.5263,3.4174-3.4110936,3.4174-1.8877063,0-3.4121062-1.5293-3.4121062-3.4174,0-1.8829,1.5244-3.4126,3.4121062-3.4126,1.8847936,0,3.4110936,1.5297,3.4110936,3.4126Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+    <path d="M11.917,11.0313c0,1.0834-.8779063,1.9609-1.958,1.9609-1.082,0-1.9551063-.8775-1.9551063-1.9609,0-1.0796.8731063-1.9537,1.9551063-1.9537,1.0800937,0,1.958.8741,1.958,1.9537Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+  </g>
+</svg>

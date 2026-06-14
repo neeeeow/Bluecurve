@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="17.1486615" cy="22.9858587" fx="17.1486615" fy="22.9858587" r="18.8805872" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".331467" stop-color="#f7f7f7"/>
+      <stop offset=".561798" stop-color="#d6d6d6"/>
+      <stop offset=".865173" stop-color="#8c8c8c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cy="29.8921175" fy="29.8921175" r="18.8805951" cx="17.1486615" fx="17.1486615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".331467" stop-color="#f7f7f7"/><stop offset=".561798" stop-color="#d6d6d6"/><stop offset=".865173" stop-color="#8c8c8c"/></radialGradient>
+    <radialGradient id="radial-gradient-3" cy="15.6186617" fy="15.6186617" r="18.8805866" cx="17.1486615" fx="17.1486615" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".331467" stop-color="#f7f7f7"/><stop offset=".561798" stop-color="#d6d6d6"/><stop offset=".865173" stop-color="#8c8c8c"/></radialGradient>
+  </defs>
+  <path d="M42.30811,27.2187s-3.8369-2.916-7.36671-2.916c-3.5303,0-19.0318,5.6777-22.1011,5.6777s-7.5205-2.7617-7.5205-2.7617v-4.1445s4.2979,2.7627,7.6738,2.7627c3.377,0,17.6499-5.8321,21.794-5.6787,2.7607.1025,7.52051,2.916,7.52051,2.916v4.1445Z" fill="url(#radial-gradient)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+  <path d="M42.30811,34.125s-3.8369-2.916-7.36671-2.916c-3.5303,0-19.0318,5.6777-22.1011,5.6777s-7.5205-2.7617-7.5205-2.7617v-4.1446s4.2979,2.7637,7.6738,2.7637c3.377,0,17.6499-5.832,21.794-5.6797,2.7607.1026,7.52051,2.916,7.52051,2.916v4.1446Z" fill="url(#radial-gradient-2)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+  <path d="M42.30811,19.8515s-3.8369-2.916-7.36671-2.916c-3.5303,0-19.0318,5.6777-22.1011,5.6777s-7.5205-2.7617-7.5205-2.7617v-4.1445s4.2979,2.7637,7.6738,2.7637c3.377,0,17.6499-5.833,21.794-5.6797,2.7607.1035,7.52051,2.916,7.52051,2.916v4.1445Z" fill="url(#radial-gradient-3)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+</svg>

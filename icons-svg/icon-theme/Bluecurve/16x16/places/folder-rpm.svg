@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="3.0740971" y="5.896" width="10.2046997" height="7.9975" maskUnits="userSpaceOnUse">
+      <polygon points="6.827597 13.6 12.4948969 12.104 12.4948969 7.6193 3.6337971 5.896 3.6337971 10.3817 6.827597 13.6" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <mask id="mask-1" x="3.0740971" y="6.3111" width="4.2642999" height="7.5824" maskUnits="userSpaceOnUse">
+      <rect x="3.0740971" y="6.712" width="3.7639999" height="7.1815" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_392" data-name="New Gradient 392" x1="7.1545145" y1="13.6880161" x2="2.7576796" y2="6.9174839" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c1a35f"/>
+      <stop offset="1" stop-color="#a78631"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_393" data-name="New Gradient 393" x1="5.261797" y1="6.3111" x2="5.261797" y2="10.3177" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#a78631"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_394" data-name="New Gradient 394" x1="9.5830279" y1="6.8169913" x2="10.2129493" y2="10.3894531" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#967631"/>
+    </linearGradient>
+    <mask id="mask-2" x="3.6337971" y="2.6932" width="10.0408997" height="7.1224" maskUnits="userSpaceOnUse">
+      <polygon points="6.827597 9.1148 12.4948969 7.6193 9.3296969 4.4295 3.6337971 5.896 6.827597 9.1148" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_395" data-name="New Gradient 395" x1="7.309126" y1="4.2874335" x2="8.8277472" y2="9.2546197" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#523800"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_396" data-name="New Gradient 396" x1="11.4949469" y1="2.6932" x2="11.4949469" y2="9.8156" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a78631"/>
+      <stop offset=".696625" stop-color="#6f4b0a"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_397" data-name="New Gradient 397" x1="6.8474151" y1="2.9151358" x2="9.3793618" y2="9.5110824" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f2f2f2"/>
+      <stop offset=".30899" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polygon points="9.3296969 4.4295 11.126 2.6219 14.2815968 5.8266 12.4948969 7.6193 14.4353968 7.6337 12.4948969 8.1659 12.4948969 12.104 6.827597 13.6 3.6337971 10.3817 3.6337971 7.8111 1.7354971 5.8979 3.6337971 5.896 2.9914971 3.5196 8.560397 2.1225 9.3296969 4.4295" fill="#a78631" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="6.827597 13.6 12.4948969 12.104 12.4948969 7.6193 3.6337971 5.896 3.6337971 10.3817 6.827597 13.6" fill="#a78631" fill-rule="evenodd"/>
+        <g mask="url(#mask-1)">
+          <g>
+            <rect x="3.0740971" y="6.712" width="3.7639999" height="7.1815" fill="url(#New_Gradient_392)"/>
+            <polygon points="3.1851971 8.1119 5.373797 10.3177 7.338397 9.0096 4.6048971 6.3111 3.1851971 8.1119" fill="url(#New_Gradient_393)" fill-rule="evenodd"/>
+          </g>
+        </g>
+        <polygon points="6.57 8.907 8.173 10.051 13.2787968 8.599 12.5052969 7.1475 6.57 8.907" fill="url(#New_Gradient_394)" fill-rule="evenodd"/>
+      </g>
+    </g>
+    <g mask="url(#mask-2)">
+      <g>
+        <polygon points="6.827597 9.1148 12.4948969 7.6193 9.3296969 4.4295 3.6337971 5.896 6.827597 9.1148" fill="url(#New_Gradient_395)" fill-rule="evenodd"/>
+        <rect x="9.3151969" y="2.6932" width="4.3594999" height="7.1224" fill="url(#New_Gradient_396)"/>
+      </g>
+    </g>
+    <polygon points="2.9914971 3.5196 3.6337971 5.896 9.3296969 4.4295 8.560397 2.1225 2.9914971 3.5196" fill="#c1a35f" fill-rule="evenodd"/>
+    <polygon points="9.3296969 4.4295 12.4948969 7.6193 14.2815968 5.8266 11.126 2.6219 9.3296969 4.4295" fill="#ffdea0" fill-rule="evenodd"/>
+    <line x1="6.838097" y1="13.3768" x2="6.838097" y2="9.2686" fill="none" stroke="#6f4b0a" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <line x1="3.7281971" y1="5.8829" x2="9.2284969" y2="4.4382" fill="none" stroke="#a78631" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <line x1="9.4085969" y1="4.5588" x2="12.3288969" y2="7.5222" fill="none" stroke="#c1a35f" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+    <polyline points="3.7086971 8.0801 4.841697 9.2223 6.748297 9.2223" fill="none" stroke="#6f4b0a" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".75"/>
+    <g>
+      <polygon points="5.495797 8.907 5.494097 4.6309 10.6518969 3.3132 10.7235969 8.3119 6.827597 9.1148 5.495797 8.907" fill="url(#New_Gradient_397)" fill-rule="evenodd"/>
+      <path d="M5.500397,8.6208l-.0063-3.9899,5.1577999-1.3177v4.6036c0,.1764.0055.337.0145.4831" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <line x1="6.389897" y1="7.6519" x2="9.7936969" y2="6.7823" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <line x1="6.389897" y1="8.3033" x2="9.7936969" y2="7.4337" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+      <line x1="6.389897" y1="8.9547" x2="9.7936969" y2="8.0855" fill="none" stroke="#b2b2b2" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.0502"/>
+    </g>
+    <polygon points="6.838097 9.1261 8.9967969 9.1261 14.4353968 7.6337 12.5008969 7.6337 6.838097 9.1261" fill="#c1a35f" fill-rule="evenodd"/>
+    <polygon points="3.6337971 5.896 6.827597 9.1148 4.938297 9.1261 1.7354971 5.8979 3.6337971 5.896" fill="#a78631" fill-rule="evenodd"/>
+    <polyline points="3.6532971 5.7622 3.0677971 3.5359 8.535 2.1864" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <line x1="6.732797" y1="13.3755" x2="6.732797" y2="9.3942" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <line x1="1.8715971" y1="5.9673" x2="4.971497" y2="9.0304" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+    <polyline points="7.038097 9.1534 8.8401969 9.1534 14.0071968 7.7014" fill="none" stroke="#ffdea0" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".5"/>
+  </g>
+  <g>
+    <path d="M8.456097,11.2603c-.0137-.0408-.0218-.0844-.0218-.1311,0-.4155.584703-.8991,1.3064-1.0805.7216-.1814,1.3063031.0086,1.3063031.4237,0,.0472-.0082031.0948-.0217031.1424.2635-.0417.5189-.0735.7638-.0961-.1338-.5866-1.0002-.8483-2.0483999-.5847-1.0486969.2635-1.9146969.9598-2.0484999,1.6144.2445-.1007.5003-.1964.7639-.2881Z" stroke="#000" stroke-width=".5"/>
+    <path d="M11.047,10.4724c0,.0472-.0082031.0948-.0217031.1424.2635-.0417.5189-.0735.7638-.0961-.093-.4096-.5434-.6605-1.1635-.6854-.0508.0521-.1007.1062-.1488.1614.3444.0491.5702031.2196.5702031.4777Z" fill="#900" stroke="#000" stroke-width=".5"/>
+    <path d="M9.8404969,10.7259c0,.0554-.045.1116-.0998.1253-.0545.014-.0994-.02-.0994-.0754,0-.0553.0449-.1111.0994-.1251.0548-.0141.0998.02.0998.0752Z" stroke="#000" stroke-width=".5"/>
+    <path d="M12.0031969,10.4878c-1.026.1261-1.539.1896-2.5650999.3157" fill="none" stroke="#000" stroke-width=".5"/>
+  </g>
+  <g opacity=".5">
+    <path d="M6.952397,6.3641c-.0132-.0371-.02-.078-.02-.1215,0-.3842.5407-.8319,1.2089-.9998.6681-.1678,1.209703.0077,1.209703.392,0,.0434-.0077031.0875-.0204031.1324.2441-.0386.4808-.0685.7076-.0894-.1243-.5434-.9261969-.7857-1.8969-.5416-.9707.244-1.7722.8887-1.8961,1.4942.2263-.0926.4631-.1815.7072-.2663Z"/>
+    <path d="M9.351,5.6348c0,.0434-.0077031.0875-.0204031.1324.2441-.0386.4808-.0685.7076-.0894-.0866-.3796-.503-.6115-1.0773-.6341-.0477.0481-.0935.098-.1378969.1488.3188969.0453.528.2036.528.4423Z" fill="#900"/>
+    <path d="M8.233797,5.8692c0,.0518-.0413.1034-.0921.1162-.0508.0127-.092-.0186-.092-.0694,0-.0513.0412-.103.092-.1157.0508-.0132.0921.0181.0921.0689Z" stroke="#000" stroke-width=".5"/>
+    <path d="M10.236,5.6493c-.9499031.1166-1.4248031.1755-2.374603.292" fill="none" stroke="#000" stroke-width=".5"/>
+  </g>
+</svg>

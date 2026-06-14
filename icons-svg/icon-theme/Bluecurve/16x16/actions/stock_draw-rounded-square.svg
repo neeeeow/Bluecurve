@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="0" y="0" width="18" height="18" maskUnits="userSpaceOnUse">
+      <polyline points="16.9999847 1 1 1 1 16.9999771 16.9999847 16.9999771 16.9999847 1" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-160" y1="-96.0000008" x2="-159" y2="-96.0000008" gradientTransform="translate(-1935.1770935 -34.1888733) rotate(-147.7242985) scale(10.4372331 -10.4372331)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_49" data-name="New Gradient Swatch 49" x1="5.7705839" y1="6.074491" x2="12.4741455" y2="11.7972637" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="18" height="18" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAACXBIWXMAAAsSAAALEgHS3X78AAAA3klEQVQ4ja2TyxKCMAxFTwHFhW78/590ZJwRUFx4oyEUcAazKWnDyaO3iWVLwR/mAosV0M8WM9peUpJcRU+tQ/wp+gWwA2qgcjED0AN3oHPACcggNXAETvq29p+CXIFG3x9YFUA7Qc5a96GiVjEGbnMgq+YkyAEoQ+tWXaeKegFHM0jya1VSMp1hqTM/v+Qz+PZyt7Ua8zcdRZDXyZxlYyq34XXSKkkc9kNnNuiPMGMgvHsv+c7BKngI0AAX4OZgo+sfeF9rI79jWZAdM8o2f/MT8XubH20OGkFZ+5uOXnrHShWHFeZqAAAAAElFTkSuQmCC"/>
+    </g>
+    <rect x="3.6670074" y="3.6664963" width="8.6659851" height="8.6670074" rx="3" ry="3" fill="url(#linear-gradient)"/>
+    <path d="M3.6670074,9.3335037h-.5c.0018616,1.9281464,1.5712585,3.4981155,3.5,3.4999924h2.6659851c1.9287262-.0018768,3.4981232-1.571846,3.4999847-3.4999924v-2.6670074c-.0018616-1.928154-1.5712585-3.4981232-3.4999847-3.5h-2.6659851c-1.9287415.0018768-3.4981384,1.571846-3.5,3.5v2.6670074h.9999847v-2.6670074c.0001373-.6871338.2800293-1.3097839.7346802-1.7651825.4553528-.4546967,1.0779572-.7346878,1.7653351-.7348251h2.6659851c.6873627.0001373,1.309967.2801285,1.7653198.7348251.4546509.4553986.7345428,1.0780487.7346802,1.7651825v2.6670074c-.0001373.6871262-.2800293,1.3097763-.7346802,1.7651749-.4553528.4546967-1.0779572.7346878-1.7653198.7348251h-2.6659851c-.6873779-.0001373-1.3099823-.2801285-1.7653351-.7348251-.4546509-.4553986-.7345428-1.0780487-.7346802-1.7651749h-.4999847Z"/>
+  </g>
+  <rect x="4.7450958" y="4.7427" width="7.3329998" height="7.1728" rx="2.9999999" ry="2.9999999" fill="url(#New_Gradient_Swatch_49)"/>
+</svg>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_56" data-name="New Gradient Swatch 56" x1="9.5948369" y1="8.0080948" x2=".4746819" y2="2.2479837" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_55" data-name="New Gradient Swatch 55" x1="3.2464842" y1="3.4823473" x2="10.2356096" y2="9.4489034" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_58" data-name="New Gradient Swatch 58" x1="5.7883378" y1="38.1306655" x2="-3.3329774" y2="32.3698216" gradientTransform="translate(43.9824148 6.8281483) rotate(89.9898713)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_57" data-name="New Gradient Swatch 57" x1="-.5609133" y1="33.604023" x2="6.4288444" y2="39.5711189" gradientTransform="translate(44.3080906 6.9571068) rotate(90.0066851)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="14.1522952 4.084 15 4.084 13.4960952 6 11.9901953 4.084 12.8603952 4.084"/>
+    <polyline points="11.6835953 2.9727 13.4960952 2.9727 13.4960952 4.666" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <polyline points="1.8476955 12.916 1 12.916 2.5038955 11 4.0087955 12.916 3.1395955 12.916"/>
+    <polyline points="4.3163954 14.0293 2.5038955 14.0293 2.5038955 12.334" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g opacity=".5">
+    <rect x="1.667" y="2.5" width="8" height="6.0547" fill="url(#New_Gradient_Swatch_56)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="2.667" y="3.5" width="6.666" height="4.666" fill="url(#New_Gradient_Swatch_55)"/>
+  </g>
+  <g>
+    <rect x="5.3057677" y="4.6939288" width="6.0549553" height="8.0008425" transform="translate(-3.7070375 8.436882) rotate(-44.9898713)" fill="url(#New_Gradient_Swatch_58)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="6.0193076" y="5.812628" width="4.6669755" height="6.6667441" transform="translate(-4.0207869 8.5865633) rotate(-45.0066851)" fill="url(#New_Gradient_Swatch_57)"/>
+  </g>
+</svg>

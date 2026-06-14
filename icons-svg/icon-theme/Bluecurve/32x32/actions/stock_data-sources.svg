@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="6.4837198" y1="8.0608753" x2="27.9930421" y2="28.2668924" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="3.8013967" y="5.42899" width="23.6177994" height="22.42601" maskUnits="userSpaceOnUse">
+      <rect x="4.8857966" y="6.51341" width="21.1995995" height="20.00779" fill="#fff"/>
+    </mask>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_1" data-name="Set 1">
+      <g mix-blend-mode="color">
+        <rect x="4.8857966" y="6.51341" width="21.1995995" height="20.00779" fill="url(#White_Black)" stroke="#000" stroke-width="2"/>
+        <g mask="url(#mask)">
+          <g>
+            <rect x="4.8857966" y="6.51341" width="21.1995995" height="20.00779" fill="#e6e6e6"/>
+            <g>
+              <line x1="6.2196966" y1="21.9361" x2="27.4191961" y2="21.9361" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="6.2196966" y1="15.0167" x2="27.4191961" y2="15.0167" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="15.1397964" y1="7.84726" x2="15.1397964" y2="27.855" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <g>
+                <line x1="7.1366966" y1="7.84726" x2="7.1366966" y2="27.855" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+                <line x1="6.2196966" y1="8.26409" x2="27.4191961" y2="8.26409" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+            <rect x="3.8013967" y="5.42899" width="22.2839994" height="8.25391" fill="#ccc"/>
+            <g>
+              <line x1="4.8857966" y1="20.6022" x2="26.0853961" y2="20.6022" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="4.8857966" y1="13.6829" x2="26.0853961" y2="13.6829" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="13.806" y1="6.51341" x2="13.806" y2="26.5212" fill="none" stroke="#999" stroke-width=".75"/>
+              <g>
+                <line x1="5.8027966" y1="6.51341" x2="5.8027966" y2="26.5212" fill="none" stroke="#fff" stroke-width=".75"/>
+                <line x1="4.8857966" y1="6.93024" x2="26.0853961" y2="6.93024" fill="none" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

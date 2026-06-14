@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="-32" y="-30" width="83" height="80" maskUnits="userSpaceOnUse">
+      <polygon points="12.988296 11.9404 8.4940961 4 4 11.9404 12.988296 11.9404" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="6.0643333" y1="5.8658603" x2="8.1046281" y2="10.9665997" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#bbc8e3"/>
+      <stop offset=".1636033" stop-color="#b3c0dc"/>
+      <stop offset=".4142154" stop-color="#9daccb"/>
+      <stop offset=".7187591" stop-color="#7b8caf"/>
+      <stop offset="1" stop-color="#556991"/>
+    </linearGradient>
+  </defs>
+  <polygon points="12.988296 11.9404 8.4940961 4 4 11.9404 12.988296 11.9404" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="12.988296 11.9404 8.4940961 4 4 11.9404 12.988296 11.9404" fill="url(#linear-gradient)"/>
+      <image width="83" height="80" transform="translate(-32 -30)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFMAAABQCAYAAABlJkmuAAAACXBIWXMAAAsSAAALEgHS3X78AAABo0lEQVR4nO3Vv4oTURiG8ff9xoxmkvES3OkWshdgY9K7fQQhuYARFgWxEiwsVGw0YiPYCFtYiGVasfEOLLbzIvxT7DBjsWNAC91uDvj84OtO8fHMOYwEAAAAAAAAAAAAAAAAAAAAAIO79+S9Hzzfeug9ziOGXuBv7j56N5U0k3Tw+NWHcuh9/iXZmLcfvnXbtpWkO5LuS1o8ff0x6aDJxvz2/Ud52jQHXddddfi6w+ssy6pnbz4l++STjHnz6GXZNM28bdu17cr25SxidvFSPivLSbK3M7mYy3pTSlpYrsOxsF3atsNVlmXr0Wg0P96eJBk0qZi/QkquHV7YLiNCEaFwlH3cWtIixaDJxFzWG0vas722Pe9vpHYTlu0+tpIMmkzM3lTSFVtT212EO/v36c9ck7SStHe8PUnmh3Rh6AX+8FXSZ9sK27YVYcXuhu7Odf3ZpCTzVSVpWW+mtqs8H02L8ViTSXE2RaFiUmhSjJXnuSJCOov5ZXW4n0zUpGJK0o1bL5znI50jplaH+93A6wIAAAAAAAAAAAAAAAAAAAD47/wEzthLpWM77+sAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+</svg>

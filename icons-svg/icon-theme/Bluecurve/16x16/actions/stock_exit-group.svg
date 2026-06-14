@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="1.332" y=".665" width="14" height="13.334" maskUnits="userSpaceOnUse">
+      <polygon points="1.332 .665 1.332 7.998 3.999 7.998 3.999 12.666 1.332 12.666 1.332 13.999 15.332 13.999 15.332 .665 1.332 .665" fill="none"/>
+    </mask>
+    <mask id="mask-1" x="8.5799866" y="4.6999971" width="3.5999998" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="11.9989777 4.9990082 8.8744965 4.9990082 8.8744965 8.9989777 11.9989777 8.9989777 11.9989777 4.9990082" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="4.6199875" y="3.8000032" width="3.5999998" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="7.9990158 4.0010071 4.8745117 4.0010071 4.8745117 8.0009918 7.9990158 8.0009918 7.9990158 4.0010071" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="6.7799911" y="6.6800008" width="3.5999998" height="4.6799998" maskUnits="userSpaceOnUse">
+      <polyline points="10.1245193 7.0020142 6.9999924 7.0020142 6.9999924 11.0020142 10.1245193 11.0020142 10.1245193 7.0020142" fill="#fff"/>
+    </mask>
+  </defs>
+  <g mask="url(#mask)">
+    <g opacity=".5">
+      <g>
+        <rect x="2.668" y="1.999" width="11.25" height="10.7344" rx="2" ry="2"/>
+        <rect x="2.668" y="1.999" width="11.25" height="10.7344" rx="2" ry="2" fill="none" stroke="#000" stroke-width="2"/>
+      </g>
+      <rect x="2.668" y="1.999" width="11.25" height="10.7344" rx="2" ry="2" fill="#fff"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="11.9989777 4.9990082 8.8744965 4.9990082 8.8744965 8.9989777 11.9989777 8.9989777 11.9989777 4.9990082"/>
+    <path d="M8.8744965,4.9990082h3.1244812v3.9999695h-3.1244812v-3.9999695M12.9989929,3.9989929h-5.1245117v6h5.1245117V3.9989929"/>
+    <g mask="url(#mask-1)">
+      <image width="20" height="25" transform="translate(8.5799866 9.1999969) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAVCAYAAABLy77vAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAQElEQVQ4jWPcvn37fx4eHgZeXl4GGM3AwMDw6dMnhh8/fjD8/PkTK/716xcKn4mBSmDUoFGDRg0aNWjUIJobBAB0pibTp9sODgAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="7.9990158 4.0010071 4.8745117 4.0010071 4.8745117 8.0009918 7.9990158 8.0009918 7.9990158 4.0010071"/>
+    <path d="M4.8745117,4.0010071h3.1245041v3.9999847h-3.1245041v-3.9999847M8.9990005,3.0009918H3.8744888v5.9999847h5.1245117V3.0009918"/>
+    <g mask="url(#mask-2)">
+      <image width="20" height="25" transform="translate(4.6199875 8.3000031) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAWCAYAAADNX8xBAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAQ0lEQVQ4je3MoRHAMAxDUbXY2n8Wz2ViizQ4V5ow/TsBkfdk5kcSEQGSIAlJqCp0N2Zmm6Tfl4QXhzJkyJAhQ9ehYy0YJynT6hitzgAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="10.1245193 7.0020142 6.9999924 7.0020142 6.9999924 11.0020142 10.1245193 11.0020142 10.1245193 7.0020142"/>
+    <path d="M6.9999924,7.0020142h3.124527v4h-3.124527v-4M11.1245193,6.0020142h-5.124527v5.9999542h5.124527v-5.9999542"/>
+    <g mask="url(#mask-3)">
+      <image width="20" height="26" transform="translate(6.7799911 11.3600006) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABMAAAAXCAYAAADpwXTaAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAR0lEQVQ4je3MsQkAMQxDUd2VQdp/D69mMNgY7gZImy7+oEbFe8zsW2uBJCRBEkgiIuDuyMxtVbV93Y0XBxtssMEGG+xe7Gg/bugp1YcWxNEAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <line x1="2.9399" y1="10.5049" x2="4.9984974" y2="10.5049" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="2.9146 9.8486 2.9146 9.001 .999 10.5049 2.9146 12.0107 2.9146 11.1406" fill="#c40000"/>
+  </g>
+</svg>

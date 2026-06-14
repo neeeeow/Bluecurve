@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="22.102573" y1="25.4723799" x2="-8.1323983" y2="-19.8813987" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="26.472596" y1="34.1299484" x2="10.9094664" y2="11.4509562" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <circle cx="15.8213899" cy="16.050225" r="11.3377374" fill="none" opacity=".7" stroke="#000"/>
+  <g>
+    <path d="M22.4905897,16.0502c0,3.6812-2.9880999,6.6693-6.6691998,6.6693-3.6811999,0-6.6692998-2.9881-6.6692998-6.6693,0-3.681,2.9880999-6.6692,6.6692998-6.6692,3.6810999,0,6.6691998,2.9882,6.6691998,6.6692Z" fill="#fff" stroke="#000" stroke-width="2"/>
+    <path d="M22.4905897,16.0502c0,3.6812-2.9880999,6.6693-6.6691998,6.6693-3.6811999,0-6.6692998-2.9881-6.6692998-6.6693,0-3.681,2.9880999-6.6692,6.6692998-6.6692,3.6810999,0,6.6691998,2.9882,6.6691998,6.6692Z" fill="url(#White_Black)"/>
+    <path d="M15.8213899,9.381c-3.6811999,0-6.6692998,2.9882-6.6692998,6.6692,0,3.6812,2.9880999,6.6693,6.6692998,6.6693v-13.3385Z" fill="url(#White_Black-2)"/>
+  </g>
+</svg>

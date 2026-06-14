@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <mask id="mask" x="3.519989" y="8.2799954" width="7.9199997" height="6.8399997" maskUnits="userSpaceOnUse">
+      <path d="M10.2446899,8.6382904h1-1M11.2446899,8.6382904H3.737793v6.2556915h7.506897v-6.2556915" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="15.7289059" y1="10.8448725" x2="5.3167701" y2="4.2687716" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="8.5014247" y1="5.7468133" x2="16.4337724" y2="12.5185902" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <path d="M3.737793,8.6382904h7.506897v6.2556915H3.737793v-6.2556915M12.2446594,7.6382751H2.7377625v8.255722h9.506897V7.6382751" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M10.2446899,8.6382904h1-1M11.2446899,8.6382904H3.737793v6.2556915h7.506897v-6.2556915" fill="none"/>
+        <image width="44" height="38" transform="translate(3.519989 15.1199951) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACoAAAAiCAYAAAApkEs2AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAdUlEQVRYhe3OSwrAIAxF0bRE99UtuT6h+/JHRwoddFB4E+EeCCGCcI+c8+3uFmO0EMLac+bt7lZrtVLK2q01672vGWO87q+3v39SStdpmyBUjVA1QtUIVSNUjVA1QtUIVSNUjVA1QtUIVSNUjVA1QtW2Cd3GAycUXkIr+ucfAAAAAElFTkSuQmCC"/>
+        <path d="M10.2446899,8.6382904h1-1M11.2446899,8.6382904H3.737793v6.2556915h7.506897v-6.2556915" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <rect x="6.8656933" y="4.2593" width="8.7578998" height="7.5068" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="8.0093932" y="5.5728" width="7.2342998" height="5.6838" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

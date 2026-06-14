@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="11.331697" y1="11.332697" x2="4.9989182" y2="4.9999182" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="3.999" y="4" width="8" height="8" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="3.999" y="4" width="8" height="8" fill="#fff"/>
+  <rect x="4.666" y="4.667" width="7.333" height="7.333" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="1.999" y="2" width="2" height="2" fill="#00cd00" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <rect x="11.999" y="2" width="2" height="2" fill="#00cd00" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <rect x="11.999" y="12" width="2" height="2" fill="#00cd00" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+    <rect x="1.999" y="12" width="2" height="2" fill="#00cd00" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+  </g>
+  <g>
+    <rect x="1.999" y="2" width="2" height="2" fill="#00cd00"/>
+    <rect x="11.999" y="2" width="2" height="2" fill="#00cd00"/>
+    <rect x="11.999" y="12" width="2" height="2" fill="#00cd00"/>
+    <rect x="1.999" y="12" width="2" height="2" fill="#00cd00"/>
+  </g>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_2" data-name="Set 2" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="17.3993568" y1="11.001153" x2="19.7314253" y2="8.820147" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#f90"/>
+      <stop offset=".331461" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#fc6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" y1="15.413253" y2="13.232247" x1="17.3993568" x2="19.7314253" gradientUnits="userSpaceOnUse"><stop offset=".005618" stop-color="#f90"/><stop offset=".331461" stop-color="#ff9"/><stop offset="1" stop-color="#fc6"/></linearGradient>
+    <mask id="mask" x="9.6894913" y="6.2334" width="9.0897998" height="12.7666" maskUnits="userSpaceOnUse">
+      <path d="M15.5731911,6.2334c-3.2499999,0-5.8836999,2.6338-5.8836999,5.8838,0,3.249,2.6336999,5.8828,5.8836999,5.8828h2.2060999V6.2334h-2.2060999Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_26" data-name="New Gradient Swatch 26" x1="18.713864" y1="15.1108508" x2="11.8762719" y2="8.8571086" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+  </defs>
+  <path d="M17.7792911,6.2334h-2.2060999c-2.6737999,0-4.9276999,1.7852-5.6434999,4.2285H3.876v3.3096h6.0536913c.7158,2.4424,2.9696999,4.2285,5.6434999,4.2285h2.2060999v-2.5742h1.9404v-2.2061h-1.9404v-2.206h1.9404v-2.2061h-1.9404v-2.5742Z" fill="#c8cce8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="3.876" y="10.4619" width="10.7772911" height="3.3096" fill="#032c87"/>
+  <g>
+    <rect x="17.4110911" y="8.8076" width="2.3085999" height="2.2061" fill="url(#linear-gradient)"/>
+    <rect x="17.4110911" y="13.2197" width="2.3085999" height="2.2061" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g mask="url(#mask)">
+    <g>
+      <path d="M15.5731911,6.2334c-3.2499999,0-5.8836999,2.6338-5.8836999,5.8838,0,3.249,2.6336999,5.8828,5.8836999,5.8828h2.2060999V6.2334h-2.2060999Z" fill="#c8cce8"/>
+      <path d="M16.5731911,7.2334c-3.2499999,0-5.8836999,2.6338-5.8836999,5.8838,0,3.249,2.6336999,5.8828,5.8836999,5.8828h2.2060999V7.2334h-2.2060999Z" fill="url(#New_Gradient_Swatch_26)"/>
+    </g>
+  </g>
+</svg>

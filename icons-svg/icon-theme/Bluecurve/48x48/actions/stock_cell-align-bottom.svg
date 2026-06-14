@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="35.0194308" y1="34.8987984" x2="14.2576667" y2="14.1370343" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <rect x="10.1610828" y="12.0438" width="28.0477993" height="24.041" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+  <rect x="10.1610828" y="12.0438" width="28.0477993" height="24.041" fill="#fff"/>
+  <rect x="12.1644827" y="14.0473" width="26.0443993" height="22.0375" fill="url(#linear-gradient)"/>
+  <g>
+    <rect x="6.1541829" y="10.0404" width="4.0068999" height="2.0034" fill="gray"/>
+    <rect x="8.1575828" y="8.037" width="2.0034999" height="4.0068" fill="gray"/>
+    <rect x="38.2088821" y="10.0404" width="4.0067999" height="2.0034" fill="gray"/>
+    <rect x="38.2088821" y="8.037" width="2.0033999" height="4.0068" fill="gray"/>
+    <rect x="38.2088821" y="36.0848" width="4.0067999" height="2.0034" fill="gray"/>
+    <rect x="38.2088821" y="36.0848" width="2.0033999" height="4.0068" fill="gray"/>
+    <rect x="8.1575828" y="36.0848" width="2.0034999" height="4.0068" fill="gray"/>
+    <rect x="6.1541829" y="36.0848" width="4.0068999" height="2.0034" fill="gray"/>
+  </g>
+  <g>
+    <line x1="14.7626827" y1="27.4783" x2="23.6155824" y2="27.4783" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <line x1="14.7626827" y1="31.4892" x2="23.6155824" y2="31.4892" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+  </g>
+  <g>
+    <line x1="31.4021822" y1="28.1671" x2="31.4021822" y2="17.4613" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="33.3743822 28.2453 35.9216821 28.2453 31.4021822 34.0013 26.8788823 28.2453 29.4927823 28.2453"/>
+  </g>
+</svg>

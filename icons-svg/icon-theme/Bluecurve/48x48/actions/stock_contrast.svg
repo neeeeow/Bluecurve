@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="33.4552978" y1="38.9108805" x2="-11.9569598" y2="-29.2094911" gradientTransform="translate(43.0186895 -4.0351997) rotate(77.5489991)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="40.0188495" y1="51.9142512" x2="16.6434629" y2="17.8510376" gradientTransform="matrix(1,0,0,1,0,0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <circle cx="24.0210211" cy="24.759025" r="17.0290571" transform="translate(-9.2434454 15.6215174) rotate(-30.5068909)" fill="none" opacity=".7" stroke="#000"/>
+  <g>
+    <circle cx="24.0210211" cy="24.759025" r="10.0170778" transform="translate(-5.334733 42.8769297) rotate(-77.5489991)" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="24.0210211" cy="24.759025" r="10.0170778" transform="translate(-5.334733 42.8769297) rotate(-77.5489991)" fill="url(#White_Black)"/>
+    <path d="M24.021,14.742c-5.529,0-10.017,4.4882-10.017,10.017,0,5.5291,4.488,10.0171,10.017,10.0171V14.742Z" fill="url(#White_Black-2)"/>
+  </g>
+</svg>

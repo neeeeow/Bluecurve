@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_1" data-name="Set 1" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="4" y="4" width="16" height="16" maskUnits="userSpaceOnUse">
+      <rect x="5" y="5" width="14" height="14" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="12" cy="9" fx="12" fy="9" r="4.4721675" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".0998635" stop-color="#fdfeff"/>
+      <stop offset=".1358351" stop-color="#f6fcff"/>
+      <stop offset=".1614737" stop-color="#eaf8ff"/>
+      <stop offset=".1821949" stop-color="#d9f3ff"/>
+      <stop offset=".1997497" stop-color="#c3ecff"/>
+      <stop offset=".207865" stop-color="#b7e9ff"/>
+      <stop offset=".426966" stop-color="#3c97f6"/>
+      <stop offset=".865173" stop-color="#032c87"/>
+      <stop offset="1" stop-color="#0342d3"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient" x1="5.8624195" y1="4.5924945" x2="8.1375805" y2="9.4075055" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_23" data-name="New Gradient Swatch 23" x1="12" y1="10" x2="12" y2="14" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-2" cx="15" cy="8" fx="15" fy="8" r="6.4032598" gradientUnits="userSpaceOnUse">
+      <stop offset=".134831" stop-color="#86e099"/>
+      <stop offset=".882022" stop-color="#005e00"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-2" x1="15" y1="14" x2="19" y2="10" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#a70000"/>
+      <stop offset="1" stop-color="#fff95e"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-3" x1="7.5295275" y1="14.1181171" x2="6.5295312" y2="10.1181182" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#d68100"/>
+      <stop offset=".2354921" stop-color="#b59725"/>
+      <stop offset=".5851571" stop-color="#8ab656"/>
+      <stop offset=".8511327" stop-color="#6fc875"/>
+      <stop offset="1" stop-color="#65d081"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient-3" cx="13" cy="18" fx="13" fy="18" r="4.2426" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ec9573"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-4" x1="19.670914" y1="24.1224543" x2="16.6712666" y2="16.1233754" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffdea0"/>
+      <stop offset=".320225" stop-color="#e2be89"/>
+      <stop offset=".4727513" stop-color="#dfbb85"/>
+      <stop offset=".5908384" stop-color="#d6b27c"/>
+      <stop offset=".6974079" stop-color="#c7a36b"/>
+      <stop offset=".7971367" stop-color="#b28e54"/>
+      <stop offset=".8921255" stop-color="#977336"/>
+      <stop offset=".982371" stop-color="#765212"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-5" x1="6.3851717" y1="14.6392492" x2="7.6148283" y2="19.3607508" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ffe900"/>
+      <stop offset="1" stop-color="#c40000"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-6" x1="5.8624195" y1="4.5924945" x2="8.1375805" y2="9.4075055" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <rect x="5" y="5" width="14" height="14" fill="#fff" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <g>
+          <rect x="10" y="5" width="4" height="4" fill="none" stroke="#000" stroke-miterlimit="3.8637" stroke-width="2"/>
+          <rect x="10" y="5" width="4" height="4" fill="url(#radial-gradient)"/>
+        </g>
+        <g>
+          <rect x="5" y="5" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="5" y="5" width="4" height="4" fill="url(#linear-gradient)"/>
+        </g>
+        <g>
+          <rect x="10" y="10" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="10" y="10" width="4" height="4" fill="url(#New_Gradient_Swatch_23)"/>
+        </g>
+        <g>
+          <rect x="15" y="5" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="15" y="5" width="4" height="4" fill="url(#radial-gradient-2)"/>
+        </g>
+        <g>
+          <rect x="15" y="10" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="15" y="10" width="4" height="4" fill="url(#linear-gradient-2)"/>
+        </g>
+        <g>
+          <rect x="5" y="10" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="5" y="10" width="4" height="4" fill="url(#linear-gradient-3)"/>
+        </g>
+        <g>
+          <rect x="10" y="15" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="10" y="15" width="4" height="4" fill="url(#radial-gradient-3)"/>
+        </g>
+        <g>
+          <rect x="15" y="15" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="15" y="15" width="4" height="4" fill="url(#linear-gradient-4)"/>
+        </g>
+        <g>
+          <rect x="5" y="15" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+          <rect x="5" y="15" width="4" height="4" fill="url(#linear-gradient-5)"/>
+        </g>
+        <rect x="5" y="5" width="14" height="14" fill="#fff" opacity=".4"/>
+        <polygon points="6 6 19 6 19 5 5 5 5 19 6 19 6 6" fill="#fff" opacity=".5"/>
+        <rect x="4" y="4" width="14" height="14" fill="#fff" opacity=".25"/>
+      </g>
+    </g>
+  </g>
+  <g opacity=".5">
+    <rect x="5" y="5" width="4" height="4" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="5" y="5" width="4" height="4" fill="url(#linear-gradient-6)"/>
+  </g>
+</svg>

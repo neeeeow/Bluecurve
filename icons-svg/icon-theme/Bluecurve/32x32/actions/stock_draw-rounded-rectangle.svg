@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="0" y="3" width="33" height="26" maskUnits="userSpaceOnUse">
+      <polyline points="31.9999695 3.9999695 1 3.9999695 1 28.0000305 31.9999695 28.0000305 31.9999695 3.9999695" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-256" y1="-224" x2="-255" y2="-224" gradientTransform="translate(-9219.245636 1471.0762482) rotate(-147.7242974) scale(27.5101008 -27.5101008)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="9.159487" y1="9.7231472" x2="27.6358416" y2="25.4962518" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="33" height="26" transform="translate(0 3)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACEAAAAaCAYAAAA5WTUBAAAACXBIWXMAAAsSAAALEgHS3X78AAAA8ElEQVRIie2W0Q6CMAxFzybIk8T//0zlRUDwYS0pUzDgNCRyE8JKSXZaxu4c03IzuaXq55I+4USrFVfr5PIvcp+oBzq5P3XFRWMP5EABZIlAeqAFbkBjYAZlEUQOnIBSQFJ8rk4ArkAl4xGIhfAycQmcgWMiiB6oCQUqVB1DaMudxIUAHBMAqLSYhtCJVmAGCCtdF97EKXQgFGXXmkO68ctfdPKv28Q+sUOodgjVDqH6Owhr5yPF27a+2Jk4he4E01LfGJ0rMhNY36/lWUoXrQh2rlY+yHZCff8i8bfOEw1RhzdxstrcGXNJbg3Errd6AEYgR/PHAZtfAAAAAElFTkSuQmCC"/>
+    </g>
+    <rect x="4.4339905" y="7.2673035" width="22.675415" height="16.1168976" rx="3" ry="3" fill="url(#linear-gradient)"/>
+    <path d="M4.4339905,20.384201h-.5c.0018921,1.9283295,1.5716553,3.4980774,3.5,3.4999847h16.675415c1.9283142-.0019073,3.4980774-1.5716553,3.4999695-3.4999847v-10.1168976c-.0018921-1.92836-1.5716553-3.4981079-3.4999695-3.5H7.4339905c-1.9283447.0018921-3.4981079,1.57164-3.5,3.5v10.1168976h.9999695v-10.1168976c.0001526-.687149.2801208-1.3097992.7348328-1.765213.4553833-.4546967,1.0780334-.7346649,1.7651978-.7348022h16.675415c.6871338.0001373,1.3097839.2801056,1.7651672.7348022.4547119.4554138.7346802,1.0780487.7348328,1.765213v10.1168976c-.0001526.6871338-.2801208,1.3097839-.7348328,1.7651825-.4553833.4547119-1.0780334.7346802-1.7651672.7348175H7.4339905c-.6871643-.0001373-1.3098145-.2801056-1.7651978-.7348175-.4547119-.4553986-.7346802-1.0780487-.7348328-1.7651825h-.4999695Z"/>
+  </g>
+  <rect x="6.4347934" y="9.268" width="20.0076995" height="13.3386" rx="2.9999999" ry="2.9999999" fill="url(#linear-gradient-2)"/>
+</svg>

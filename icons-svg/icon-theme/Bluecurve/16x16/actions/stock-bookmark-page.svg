@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_9" data-name="New Gradient Swatch 9" x1="-120.835785" y1="132.7167537" x2="-125.4753266" y2="128.0772121" gradientTransform="translate(56.5805 -164.0527) rotate(-28.0027189)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3403f"/>
+      <stop offset=".3789338" stop-color="#d02a27"/>
+      <stop offset=".7765172" stop-color="#b11713"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </linearGradient>
+    <mask id="mask" x="5" y="3" width="8.164096" height="11.6426" maskUnits="userSpaceOnUse">
+      <path d="M5,4.248c1.0038962,4.2564-.0508038,6.4991,2.8134962,9.1451.4404.4072.7119.583,1.3125038.873-.1084039-.7661.0477961-1.2285.3446961-2.082,1.0732-.0684,1.6445-.124,2.7890999-.2642-.4277961-.2993-.6504-.4624-1.0507961-.8218-2.6074039-2.3325-1.8203039-3.8701-3.9219038-8.0981-.6299.4907-1.1142.7061-2.2870962,1.248Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_5" data-name="New Gradient Swatch 5" x1="8.2026785" y1="8.6328564" x2="12.5250135" y2="8.8490862" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3403f"/>
+      <stop offset=".3789338" stop-color="#d02a27"/>
+      <stop offset=".7765172" stop-color="#b11713"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_11" data-name="New Gradient Swatch 11" x1="8.0307603" y1="8.8352353" x2="2.9822176" y2="3.0654664" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3403f"/>
+      <stop offset=".3789338" stop-color="#d02a27"/>
+      <stop offset=".7765172" stop-color="#b11713"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </linearGradient>
+  </defs>
+  <path d="M5,4.248c1.0038962,4.2564-.0508038,6.4991,2.8134962,9.1451.4404.4072.7119.583,1.3125038.873-.1084039-.7661.0477961-1.2285.3446961-2.082,1.0732-.0684,1.6445-.124,2.7890999-.2642-.4277961-.2993-.6504-.4624-1.0507961-.8218-2.6074039-2.3325-1.8203039-3.8701-3.9219038-8.0981-.6299.4907-1.1142.7061-2.2870962,1.248Z" fill="url(#New_Gradient_Swatch_9)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <path d="M5,4.248c1.0038962,4.2564-.0508038,6.4991,2.8134962,9.1451.4404.4072.7119.583,1.3125038.873-.1084039-.7661.0477961-1.2285.3446961-2.082,1.0732-.0684,1.6445-.124,2.7890999-.2642-.4277961-.2993-.6504-.4624-1.0507961-.8218-2.6074039-2.3325-1.8203039-3.8701-3.9219038-8.0981-.6299.4907-1.1142.7061-2.2870962,1.248Z" fill="url(#New_Gradient_Swatch_5)"/>
+      <path d="M5.4306962,5.1973c1.1631,4.1211.1308,6.3481,3.1717999,8.6977.4678.3609.7549.5117,1.3858.7476-.1348-.7173.0137039-1.1665.2949-1.9937,1.1094-.126,1.6992-.2104,2.8808999-.4126-.4532-.2539-.6895-.3945-1.1172-.7114-2.7675999-2.0576-1.9902999-3.5693-4.2870999-7.6265-.6367962.4986-1.1327962.7271-2.3290999,1.2989Z" fill="url(#New_Gradient_Swatch_11)"/>
+    </g>
+  </g>
+</svg>

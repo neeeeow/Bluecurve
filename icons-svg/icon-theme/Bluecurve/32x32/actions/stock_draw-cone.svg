@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_1" data-name="New Gradient Swatch 1" x1="19.727943" y1="25.3802208" x2="11.7243347" y2="17.3766125" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="22.845081" y1="16.0349606" x2="8.1731089" y2="20.0364024" gradientUnits="userSpaceOnUse">
+      <stop offset=".129213" stop-color="#00073d"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="95" height="88" transform="translate(-31 -22)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF8AAABYCAYAAACTSStNAAAACXBIWXMAAAsSAAALEgHS3X78AAABlElEQVR4nO3Yv0rDUBiG8ScodNA4Ci7q5OAfvAMXRycnL8BJ0OvSzaVX4D3obDfBSY2Lg3VIDgQppU0L+U55fnAIlHL4eL/k5OSAJEmSJEmSJEmSJEmSJEmSJEmS1EXRdwEdtese91bFgnIMvwT2gA3gGxgBX71W1NFa3wXMqQTOgDvgCjgFPoA34KfHulZeCVwAQ+rAf5vrsPm97K+01VYAJ8ADdeDj1vgk0was913AjErgsBn/A05LUfJEJu+AHNb8FO419Ro/mPCfAbADbAPvZPIOiB5+Cv6muU5bVrJrQOTw5wk+yaoBUcPvEnySTQMihl8AB8AtcA5sdZgjiwZE3O1M29nMO0/oXVC0O3+Wnc08sngCIiiAYyZ/SC0y0pfwfTN/mPOsaMvOJrDbXBeVTjsr6sO3aglzLlW08CvghTr8fbo3oR34CHgEnoFXAh1Bh3kEGyn0I+CS+ui4ixR4uwEVgYKHeOFDXdMmdfDLuPMhWOhJxPCTRWsLGbgkSZIkSZIkSZIkSZIkSZIkSZKkrP0BDc5gESpL+ngAAAAASUVORK5CYII="/>
+  </g>
+  <path d="M19.8468906,14.4218l-5.3860999-9.3277-5.3861999,9.3277-5.3848999,9.3279c0,2.0268,4.8221999,3.6708,10.7710997,3.6708s10.7710997-1.644,10.7710997-3.6708l-5.3849999-9.3279Z" fill="url(#New_Gradient_Swatch_1)" stroke="#000"/>
+  <path d="M19.8000906,16.1934l-4.0992999-7.0978-4.0991999,7.0978-4.0979999,7.1004c0,1.5423,3.6707999,2.7928,8.1971998,2.7928,4.5264999,0,8.1972998-1.2505,8.1972998-2.7928l-4.0979999-7.1004Z" fill="url(#linear-gradient)"/>
+</svg>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="17.5597636" y1="15.5529377" x2="4.6503921" y2="7.3996317" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="8.6278094" y1="9.1943443" x2="18.4564166" y2="17.5849415" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <mask id="mask" x="12.7199974" y="3.6600015" width="8.4599996" height="7.5599997" maskUnits="userSpaceOnUse">
+      <path d="M20.0000076,3.9999847h.9999886-.9999886M20.9999962,3.9999847h-8v7.0000153h8V3.9999847" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="2.8199978" y="12.6600015" width="8.4599996" height="7.5599997" maskUnits="userSpaceOnUse">
+      <path d="M10.0000191,13.0000153h.9999542-.9999542M10.9999733,13.0000153H3.0000248v7h7.9999485v-7" fill="#fff"/>
+    </mask>
+  </defs>
+  <g>
+    <rect x="6.5" y="7.5" width="11" height="9.083" fill="url(#linear-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="8" y="9" width="9" height="7" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <path d="M12.9999962,3.9999847h8v7.0000153h-8V3.9999847M21.9999847,3h-9.9999771v8.9999847h9.9999771V3" opacity=".7490196"/>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M20.0000076,3.9999847h.9999886-.9999886M20.9999962,3.9999847h-8v7.0000153h8V3.9999847" fill="none"/>
+        <image width="47" height="42" transform="translate(12.7199974 11.2200012) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmCAYAAAC76qlaAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAd0lEQVRYhe3OQQoDIRAF0U5Q75UreTb3uZeNktWEDLMI2RQE6sFHEYS6jTGetdb4XCklWmuX+7HMjDlnZOZ7a63Ye5/OY9/ef/3be3/c408ZTjOcZjjNcJrhNMNphtMMpxlOM5xmOM1wmuE0w2mG0wynGU4znPYCpghkTJPxGW4AAAAASUVORK5CYII="/>
+        <path d="M20.0000076,3.9999847h.9999886-.9999886M20.9999962,3.9999847h-8v7.0000153h8V3.9999847" fill="none"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <path d="M3.0000248,13.0000153h7.9999485v7H3.0000248v-7M11.9999809,12.0000153H2.0000191v9.0000153h9.9999619v-9.0000153" opacity=".7490196"/>
+    <g mask="url(#mask-1)">
+      <g>
+        <path d="M10.0000191,13.0000153h.9999542-.9999542M10.9999733,13.0000153H3.0000248v7h7.9999485v-7" fill="none"/>
+        <image width="47" height="42" transform="translate(2.8199978 20.2200012) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAmCAYAAAC76qlaAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAfElEQVRYhe3OQQqCMQxE4VGS3P8svYD3amhwJ/4uxNUDYT4IhaGLd1trPTJT7xcRykxV1WWrKkWEJKm71d3ae6u7dc553cxc3s/9lz/f9pnRXX/K4TSH0xxOczjN4TSH0xxOczjN4TSH0xxOczjN4TSH0xxOczjN4TSH056dpmK192YD7gAAAABJRU5ErkJggg=="/>
+        <path d="M10.0000191,13.0000153h.9999542-.9999542M10.9999733,13.0000153H3.0000248v7h7.9999485v-7" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>

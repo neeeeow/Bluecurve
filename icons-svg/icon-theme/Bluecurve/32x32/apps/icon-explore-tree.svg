@@ -1,0 +1,576 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="linear-gradient" x1="8.7867156" y1="16.41335" x2="11.8755225" y2="16.41335" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#6b6b6b"/>
+      <stop offset=".0134076" stop-color="#717171"/>
+      <stop offset=".1107988" stop-color="#999"/>
+      <stop offset=".1995884" stop-color="#b6b6b6"/>
+      <stop offset=".276085" stop-color="#c8c8c8"/>
+      <stop offset=".331461" stop-color="#cfcfcf"/>
+      <stop offset="1" stop-color="#6b6b6b"/>
+    </linearGradient>
+    <mask id="mask" x="8.8847917" y="15.3423" width="3.3758999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="8.8847917" y="15.3423" width="2.9540999" height="2.1421" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8" data-name="New Gradient Swatch 8" x1="9.315564" y1="15.7100871" x2="11.7464873" y2="17.3440494" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b0caff"/>
+      <stop offset=".1381484" stop-color="#97b5f2"/>
+      <stop offset=".4019205" stop-color="#6f93dd"/>
+      <stop offset=".64258" stop-color="#527ace"/>
+      <stop offset=".8499057" stop-color="#406bc5"/>
+      <stop offset="1" stop-color="#3a66c2"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-2" data-name="New Gradient Swatch 8" x1="11.5341022" y1="17.4002832" x2="9.174083" y2="15.640256" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-2" x1="13.8501287" x2="16.9385174" y1="16.41335" y2="16.41335" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-1" x="13.9481916" y="15.3423" width="3.3759999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="13.9481916" y="15.3423" width="2.9536999" height="2.1421" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-3" data-name="New Gradient Swatch 8" x1="14.3788591" y1="15.7101511" x2="16.8095612" y2="17.3439647" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-4" data-name="New Gradient Swatch 8" x1="16.5973147" y1="17.4005053" x2="14.2370362" y2="15.6402847" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-3" x1="13.8501287" y1="12.563" x2="16.9385174" y2="12.563" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-2" x="13.9481916" y="11.4927" width="3.3759999" height="2.5693" maskUnits="userSpaceOnUse">
+      <rect x="13.9481916" y="11.4927" width="2.9536999" height="2.1406" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-5" data-name="New Gradient Swatch 8" x1="14.3790992" y1="11.8599625" x2="16.8092434" y2="13.4934011" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-6" data-name="New Gradient Swatch 8" x1="16.5973116" y1="13.550653" x2="14.2374198" y2="11.7907208" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-4" x1="6.6778654" y1="12.563" x2="9.7651039" y2="12.563" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-3" x="6.7758917" y="11.4927" width="3.3744999" height="2.5693" maskUnits="userSpaceOnUse">
+      <rect x="6.7758917" y="11.4927" width="2.9525999" height="2.1406" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-7" data-name="New Gradient Swatch 8" x1="7.2065113" y1="11.8601385" x2="9.636047" y2="13.4931681" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-8" data-name="New Gradient Swatch 8" x1="9.423847" y1="13.55053" x2="7.0644737" y2="11.7909846" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-5" x1="21.0229821" y1="12.563" x2="24.1128345" y2="12.563" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-4" x="21.1210914" y="11.4927" width="3.3749999" height="2.5693" maskUnits="userSpaceOnUse">
+      <rect x="21.1210914" y="11.4927" width="2.9550999" height="2.1406" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-9" data-name="New Gradient Swatch 8" x1="21.5523657" y1="11.8597384" x2="23.9832844" y2="13.4936976" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-10" data-name="New Gradient Swatch 8" x1="23.7701834" y1="13.5502965" x2="21.4117953" y2="11.7914857" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-6" x1="13.8501287" y1="20.2632" x2="16.9385174" y2="20.2632" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-5" x="13.9481916" y="19.1924" width="3.3759999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="13.9481916" y="19.1924" width="2.9536999" height="2.1416" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-11" data-name="New Gradient Swatch 8" x1="14.3789392" y1="19.5600549" x2="16.8094553" y2="21.1937435" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-12" data-name="New Gradient Swatch 8" x1="16.5973731" y1="21.2506488" x2="14.2372879" y2="19.4905725" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-7" y1="20.2632" y2="20.2632" x1="8.7867156" x2="11.8755225" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-6" x="8.8847917" y="19.1924" width="3.3758999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="8.8847917" y="19.1924" width="2.9540999" height="2.1416" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-13" data-name="New Gradient Swatch 8" x1="9.315644" y1="19.5599909" x2="11.7463814" y2="21.1938282" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-14" data-name="New Gradient Swatch 8" x1="11.5340408" y1="21.2505873" x2="9.1742149" y2="19.4907043" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-8" y1="24.11355" y2="24.11355" x1="8.7867156" x2="11.8755225" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-7" x="8.8847917" y="23.043" width="3.3758999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="8.8847917" y="23.043" width="2.9540999" height="2.1411" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-15" data-name="New Gradient Swatch 8" x1="9.3157241" y1="23.4103947" x2="11.7462755" y2="25.044107" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-16" data-name="New Gradient Swatch 8" x1="11.5342835" y1="25.1006184" x2="9.1740709" y2="23.340447" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-9" x1="18.9136485" y1="24.11355" x2="22.0014098" y2="24.11355" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-8" x="19.0116914" y="23.043" width="3.3749999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="19.0116914" y="23.043" width="2.9530999" height="2.1411" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-17" data-name="New Gradient Swatch 8" x1="19.4423619" y1="23.4105547" x2="21.8723602" y2="25.0438952" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-18" data-name="New Gradient Swatch 8" x1="21.660331" y1="25.1007176" x2="19.3003777" y2="23.3407395" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-10" x1="4.5674323" x2="7.6557164" y1="16.41335" y2="16.41335" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-9" x="4.6654918" y="15.3423" width="3.3755082" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="4.6654918" y="15.3423" width="2.9535999" height="2.1421" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-19" data-name="New Gradient Swatch 8" x1="5.0961332" y1="15.7101671" x2="7.5267799" y2="17.3439435" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-20" data-name="New Gradient Swatch 8" x1="7.3144079" y1="17.4002842" x2="4.9543843" y2="15.6402538" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-11" x1="4.5674323" y1="20.2632" x2="7.6557164" y2="20.2632" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-10" x="4.6654918" y="19.1924" width="3.3755082" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="4.6654918" y="19.1924" width="2.9535999" height="2.1416" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-21" data-name="New Gradient Swatch 8" x1="5.0962132" y1="19.5600709" x2="7.526674" y2="21.1937223" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-22" data-name="New Gradient Swatch 8" x1="7.3143464" y1="21.2505884" x2="4.9545162" y2="19.4907022" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-12" x1="23.1324484" y1="20.2632" x2="26.2202097" y2="20.2632" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-11" x="23.2304913" y="19.1924" width="3.3749999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="23.2304913" y="19.1924" width="2.9530999" height="2.1416" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-23" data-name="New Gradient Swatch 8" x1="23.6610818" y1="19.5601509" x2="26.091266" y2="21.1936164" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-24" data-name="New Gradient Swatch 8" x1="25.8789745" y1="21.2505382" x2="23.519356" y2="19.4908098" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-13" x1="18.9136485" y1="20.2632" x2="22.0014098" y2="20.2632" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-12" x="19.0116914" y="19.1924" width="3.3749999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="19.0116914" y="19.1924" width="2.9530999" height="2.1416" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-25" data-name="New Gradient Swatch 8" x1="19.4422819" y1="19.5601509" x2="21.8724661" y2="21.1936164" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-26" data-name="New Gradient Swatch 8" x1="21.6602081" y1="21.2505259" x2="19.3006415" y2="19.4908362" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-14" x1="13.4003046" y1="7.427" x2="17.3712842" y2="7.427" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-13" x="13.5263916" y="6.356" width="4.2196999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="13.5263916" y="6.356" width="3.7977999" height="2.142" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-27" data-name="New Gradient Swatch 8" x1="13.5699349" y1="6.2852422" x2="17.2806482" y2="8.5687578" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-28" data-name="New Gradient Swatch 8" x1="17.2347568" y1="8.7375079" x2="12.0047749" y2="5.4094131" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-15" x1="21.0229821" x2="24.1128345" y1="16.41335" y2="16.41335" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-14" x="21.1210914" y="15.3423" width="3.3749999" height="2.5698" maskUnits="userSpaceOnUse">
+      <rect x="21.1210914" y="15.3423" width="2.9550999" height="2.1421" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-29" data-name="New Gradient Swatch 8" x1="21.5521256" y1="15.709927" x2="23.9836022" y2="17.3442612" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-30" data-name="New Gradient Swatch 8" x1="23.7702449" y1="17.4001923" x2="21.4116635" y2="15.6412374" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_85" data-name="New Gradient 85" x1="12.772" y1="20.1636" x2="23.6054913" y2="20.1636" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".20224" stop-color="#f2f2f2"/>
+      <stop offset=".516861" stop-color="#b2b2b2"/>
+      <stop offset=".769669" stop-color="#b2b2b2"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_84" data-name="New Gradient 84" x1="24.9379951" y1="20.8034931" x2="21.2656639" y2="24.4758244" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c4c4c"/>
+      <stop offset=".623596" stop-color="#d9d9d9"/>
+      <stop offset="1" stop-color="#4c4c4c"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_83" data-name="New Gradient 83" x1="27.4551391" y1="21.9701353" x2="22.4022559" y2="27.0230184" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#a70000"/>
+      <stop offset=".662918" stop-color="#df4e15"/>
+      <stop offset="1" stop-color="#740000"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_82" data-name="New Gradient 82" x1="25.6770487" y1="24.869924" x2="26.8240961" y2="26.7055834" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df4e15"/>
+      <stop offset="1" stop-color="#c42e00"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_64" data-name="New Gradient 64" x1="25.6770487" y1="24.869924" x2="26.8240961" y2="26.7055834" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#df4e15"/>
+      <stop offset="1" stop-color="#c42e00"/>
+    </linearGradient>
+    <mask id="mask-15" x="12.6298916" y="11.4927" width="10.9755997" height="11.9887" maskUnits="userSpaceOnUse">
+      <path d="M18.1894915,11.8003c2.9911999,0,5.4159999,2.1855,5.4159999,4.8828,0,2.6963-2.4247999,4.8833-5.4159999,4.8833-2.9916999-.0005-5.4160999-2.187-5.4160999-4.8833,0-2.6973,2.4243999-4.8828,5.4160999-4.8828Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_60" data-name="New Gradient 60" x1="12.7733916" y1="16.68335" x2="23.6054913" y2="16.68335" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#999"/>
+      <stop offset=".219101" stop-color="#b2b2b2"/>
+      <stop offset=".466293" stop-color="#b2b2b2"/>
+      <stop offset=".769669" stop-color="#f2f2f2"/>
+      <stop offset="1" stop-color="#737373"/>
+    </linearGradient>
+    <mask id="mask-16" x="12.8368916" y="12.7153" width="10.7060998" height="10.7661" maskUnits="userSpaceOnUse">
+      <path d="M18.1894915,13.1938c2.6913999,0,4.8749999,1.9693,4.8749999,4.397,0,2.4273-2.1835999,4.3936-4.8749999,4.3936-2.6923999,0-4.8740999-1.9663-4.8740999-4.3936,0-2.4282,2.1816999-4.397,4.8740999-4.397Z" fill="#fff" stroke="#fff" stroke-miterlimit="3.8637" stroke-width=".957"/>
+    </mask>
+    <linearGradient id="New_Gradient_61" data-name="New Gradient 61" x1="13.3153916" y1="17.5891" x2="23.0644913" y2="17.5891" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#5587c0"/>
+      <stop offset=".20787" stop-color="#97bae0"/>
+      <stop offset=".865173" stop-color="#b3e0ff"/>
+      <stop offset="1" stop-color="#5587c0"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_63" data-name="New Gradient 63" cx="42.762199" cy="49.5511261" fx="42.762199" fy="49.5511261" r="8.9426479" gradientTransform="translate(-22.0172 -45.591) scale(.8719 1.2166)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#78dcff"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </radialGradient>
+    <linearGradient id="linear-gradient-16" x1="14.3581654" y1="12.7899226" x2="21.7137206" y2="20.1454777" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="gray"/>
+      <stop offset=".187809" stop-color="#82868b"/>
+      <stop offset=".5233754" stop-color="#8a99aa"/>
+      <stop offset=".9651405" stop-color="#95b7db"/>
+      <stop offset="1" stop-color="#97bae0"/>
+    </linearGradient>
+    <linearGradient id="New_Gradient_59" data-name="New Gradient 59" x1="14.5112536" y1="13.0048441" x2="21.8671925" y2="20.360783" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="gray"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <mask id="mask-17" x="13.3153916" y="14.1900275" width="9.7490998" height="9.2913725" maskUnits="userSpaceOnUse">
+      <path d="M16.5853915,14.2173c.9166085-.1563,1.7193.375,1.7925,1.1894.0713.8145-.6152,1.6016-1.5341,1.7593-.9185.1548-1.7203-.376-1.794-1.1889-.0697915-.8155.6148-1.6026,1.5356-1.7598Z" fill="#fff"/>
+    </mask>
+    <mask id="mask-18" x="-6.8843079" y="-4.48" width="34.2787992" height="30.2422" maskUnits="userSpaceOnUse">
+      <path d="M18.1894915,13.1938c-2.6923999,0-4.8740999,1.9688-4.8740999,4.397,0,.7295.2007,1.4185.5518,2.0254.9878084,1.1817,2.5546999,1.9502,4.3222999,1.9502,1.7695085,0,3.3338999-.7676,4.3231999-1.9487.3506-.607.5518-1.2959.5518-2.0269,0-2.4277-2.1835999-4.397-4.8749999-4.397Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient-17" x1=".2976595" y1="11.60595" x2="4.9314449" y2="11.60595" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-19" x=".4447919" y="10" width="5.0644999" height="3.854" maskUnits="userSpaceOnUse">
+      <rect x=".4447919" y="10" width="4.4316999" height="3.2119" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-31" data-name="New Gradient Swatch 8" x1="1.0912945" y1="10.5511021" x2="4.7375189" y2="13.0019376" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-32" data-name="New Gradient Swatch 8" x1="4.4191843" y1="13.08672" x2=".8793866" y2="10.4468516" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-18" x1="7.8939176" y1="11.60595" x2="12.526126" y2="11.60595" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-20" x="8.041" y="10" width="5.063" height="3.854" maskUnits="userSpaceOnUse">
+      <rect x="8.041" y="10" width="4.4301916" height="3.2119" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-33" data-name="New Gradient Swatch 8" x1="8.6871076" y1="10.5513435" x2="12.3324976" y2="13.0016181" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-34" data-name="New Gradient Swatch 8" x1="12.0140572" y1="13.0866595" x2="8.4745144" y2="10.4469812" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-19" x1="7.8939176" y1="5.83105" x2="12.526126" y2="5.83105" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-21" x="8.041" y="4.2246" width="5.063" height="3.854" maskUnits="userSpaceOnUse">
+      <rect x="8.041" y="4.2246" width="4.4301917" height="3.2124" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-35" data-name="New Gradient Swatch 8" x1="8.687179" y1="4.7759915" x2="12.3329409" y2="7.2265161" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-36" data-name="New Gradient Swatch 8" x1="12.0140572" y1="7.3112595" x2="8.4745144" y2="4.6715812" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-20" x1="-2.8653741" y1="5.8308" x2="1.7663202" y2="5.8308" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-22" x="-2.718308" y="4.2251" width="5.0629999" height="3.8535" maskUnits="userSpaceOnUse">
+      <rect x="-2.718308" y="4.2251" width="4.4296999" height="3.2114" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-37" data-name="New Gradient Swatch 8" x1="-2.0722492" y1="4.776326" x2="1.5726829" y2="7.2262928" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-38" data-name="New Gradient Swatch 8" x1="1.2546178" y1="7.3113077" x2="-2.285128" y2="4.6714779" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-21" x1="18.6537254" y1="5.83105" x2="23.2854196" y2="5.83105" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-23" x="18.8007914" y="4.2246" width="5.0624999" height="3.854" maskUnits="userSpaceOnUse">
+      <rect x="18.8007914" y="4.2246" width="4.4296999" height="3.2129" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-39" data-name="New Gradient Swatch 8" x1="19.4466102" y1="4.7764146" x2="23.0921" y2="7.2267564" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-40" data-name="New Gradient Swatch 8" x1="22.773519" y1="7.311197" x2="19.2342398" y2="4.6717153" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-22" x1="7.8939176" y1="17.38035" x2="12.526126" y2="17.38035" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-24" x="8.041" y="15.7739" width="5.063" height="3.855" maskUnits="userSpaceOnUse">
+      <rect x="8.041" y="15.7739" width="4.4301916" height="3.2129" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-41" data-name="New Gradient Swatch 8" x1="8.6869476" y1="16.3256359" x2="12.3327094" y2="18.7761605" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-42" data-name="New Gradient Swatch 8" x1="12.0141156" y1="18.8616031" x2="8.4747661" y2="16.2220689" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-23" x1=".2976595" y1="17.38035" x2="4.9314449" y2="17.38035" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-25" x=".4447919" y="15.7739" width="5.0644999" height="3.8545" maskUnits="userSpaceOnUse">
+      <rect x=".4447919" y="15.7739" width="4.4316999" height="3.2129" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-43" data-name="New Gradient Swatch 8" x1="1.0911344" y1="16.3253945" x2="4.7377308" y2="18.77648" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-44" data-name="New Gradient Swatch 8" x1="4.4190613" y1="18.8615283" x2=".8796503" y2="16.2219483" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-24" x1=".2976595" y1="23.15575" x2="4.9314449" y2="23.15575" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-26" x=".4447919" y="21.5493" width="5.0644999" height="3.855" maskUnits="userSpaceOnUse">
+      <rect x=".4447919" y="21.5493" width="4.4316999" height="3.2129" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-45" data-name="New Gradient Swatch 8" x1="1.0911344" y1="22.1007945" x2="4.7377308" y2="24.55188" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-46" data-name="New Gradient Swatch 8" x1="4.4191228" y1="24.6372241" x2=".8795184" y2="21.9974999" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-25" x1="15.4891089" y1="23.15575" x2="20.1213259" y2="23.15575" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-27" x="15.6361915" y="21.5493" width="5.0629999" height="3.855" maskUnits="userSpaceOnUse">
+      <rect x="15.6361915" y="21.5493" width="4.4301999" height="3.2129" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-47" data-name="New Gradient Swatch 8" x1="16.2821412" y1="22.1010346" x2="19.9279077" y2="24.5515623" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-48" data-name="New Gradient Swatch 8" x1="19.6091928" y1="24.6371616" x2="16.0698522" y2="21.997634" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-26" x1="21.8177253" y1="17.3806" x2="26.4494195" y2="17.3806" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-28" x="21.9647914" y="15.7739" width="5.0624999" height="3.855" maskUnits="userSpaceOnUse">
+      <rect x="21.9647914" y="15.7739" width="4.4296999" height="3.2134" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-49" data-name="New Gradient Swatch 8" x1="22.6105301" y1="16.3259108" x2="26.2562059" y2="18.7763775" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-50" data-name="New Gradient Swatch 8" x1="25.9377926" y1="18.8615783" x2="22.3992253" y2="16.2226275" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-27" x1="15.4891089" y1="17.3806" x2="20.1213259" y2="17.3806" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-29" x="15.6361915" y="15.7739" width="5.0629999" height="3.855" maskUnits="userSpaceOnUse">
+      <rect x="15.6361915" y="15.7739" width="4.4301999" height="3.21315" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-51" data-name="New Gradient Swatch 8" x1="16.282177" y1="16.3256586" x2="19.9281293" y2="18.7763113" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-52" data-name="New Gradient Swatch 8" x1="19.6091928" y1="18.8617616" x2="16.0698522" y2="16.222234" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-28" x1="7.2190909" y1="-1.8738" x2="13.174628" y2="-1.8738" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-30" x="7.4081917" y="-3.48" width="6.3285998" height="3.854" maskUnits="userSpaceOnUse"/>
+    <linearGradient id="New_Gradient_Swatch_8-53" data-name="New Gradient Swatch 8" x1="12.96978" y1=".091719" x2="5.1255573" y2="-4.8999459" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="linear-gradient-29" x1="18.6537254" y1="11.60595" x2="23.2854196" y2="11.60595" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#6b6b6b"/><stop offset=".0134076" stop-color="#717171"/><stop offset=".1107988" stop-color="#999"/><stop offset=".1995884" stop-color="#b6b6b6"/><stop offset=".276085" stop-color="#c8c8c8"/><stop offset=".331461" stop-color="#cfcfcf"/><stop offset="1" stop-color="#6b6b6b"/></linearGradient>
+    <mask id="mask-31" x="18.8007914" y="10" width="5.0624999" height="3.854" maskUnits="userSpaceOnUse">
+      <rect x="18.8007914" y="10" width="4.4296999" height="3.2119" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_8-54" data-name="New Gradient Swatch 8" x1="19.4467703" y1="10.5514222" x2="23.0918882" y2="13.001514" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+    <linearGradient id="New_Gradient_Swatch_8-55" data-name="New Gradient Swatch 8" x1="22.773519" y1="13.086597" x2="19.2342398" y2="10.4471153" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#b0caff"/><stop offset=".1381484" stop-color="#97b5f2"/><stop offset=".4019205" stop-color="#6f93dd"/><stop offset=".64258" stop-color="#527ace"/><stop offset=".8499057" stop-color="#406bc5"/><stop offset="1" stop-color="#3a66c2"/></linearGradient>
+  </defs>
+  <g isolation="isolate">
+    <g id="Layer_6" data-name="Layer 6">
+      <g>
+        <g>
+          <line x1="15.4262915" y1="8.0708" x2="15.4262915" y2="20.2642" fill="none" stroke="#000"/>
+          <line x1="10.3612917" y1="17.0537" x2="10.3612917" y2="24.1118" fill="none" stroke="#000"/>
+          <line x1="6.1420918" y1="17.0537" x2="6.1420918" y2="20.0474" fill="none" stroke="#000"/>
+          <line x1="22.5985913" y1="12.7759" x2="22.5985913" y2="16.627" fill="none" stroke="#000"/>
+          <g>
+            <line x1="15.4496915" y1="9.8481" x2="23.9296913" y2="11.7407" fill="none" stroke="#000"/>
+            <line x1="15.4916915" y1="9.8481" x2="7.0102917" y2="11.7407" fill="none" stroke="#000"/>
+          </g>
+          <g>
+            <line x1="8.396" y1="13.6987" x2="11.4828916" y2="15.5903" fill="none" stroke="#000"/>
+            <line x1="8.4115917" y1="13.6987" x2="5.3231918" y2="15.5903" fill="none" stroke="#000"/>
+          </g>
+          <g>
+            <rect x="8.8847917" y="15.3423" width="2.9540999" height="2.1421" fill="url(#linear-gradient)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask)">
+              <g>
+                <rect x="8.8847917" y="15.3423" width="2.9540999" height="2.1421" fill="url(#New_Gradient_Swatch_8)"/>
+                <rect x="9.3070917" y="15.7695" width="2.9535999" height="2.1426" fill="url(#New_Gradient_Swatch_8-2)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="13.9481916" y="15.3423" width="2.9536999" height="2.1421" fill="url(#linear-gradient-2)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-1)">
+              <g>
+                <rect x="13.9481916" y="15.3423" width="2.9536999" height="2.1421" fill="url(#New_Gradient_Swatch_8-3)"/>
+                <rect x="14.3700915" y="15.76975" width="2.9540999" height="2.14235" fill="url(#New_Gradient_Swatch_8-4)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="13.9481916" y="11.4927" width="2.9536999" height="2.1406" fill="url(#linear-gradient-3)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-2)">
+              <g>
+                <rect x="13.9481916" y="11.4927" width="2.9536999" height="2.1406" fill="url(#New_Gradient_Swatch_8-5)"/>
+                <rect x="14.3700916" y="11.9204" width="2.9540999" height="2.1416" fill="url(#New_Gradient_Swatch_8-6)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="6.7758917" y="11.4927" width="2.9525999" height="2.1406" fill="url(#linear-gradient-4)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-3)">
+              <g>
+                <rect x="6.7758917" y="11.4927" width="2.9525999" height="2.1406" fill="url(#New_Gradient_Swatch_8-7)"/>
+                <rect x="7.1972917" y="11.9204" width="2.9530999" height="2.1416" fill="url(#New_Gradient_Swatch_8-8)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="21.1210914" y="11.4927" width="2.9550999" height="2.1406" fill="url(#linear-gradient-5)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-4)">
+              <g>
+                <rect x="21.1210914" y="11.4927" width="2.9550999" height="2.1406" fill="url(#New_Gradient_Swatch_8-9)"/>
+                <rect x="21.5448914" y="11.9204" width="2.9511999" height="2.1416" fill="url(#New_Gradient_Swatch_8-10)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="13.9481916" y="19.1924" width="2.9536999" height="2.1416" fill="url(#linear-gradient-6)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-5)">
+              <g>
+                <rect x="13.9481916" y="19.1924" width="2.9536999" height="2.1416" fill="url(#New_Gradient_Swatch_8-11)"/>
+                <rect x="14.3700916" y="19.6201" width="2.9540999" height="2.1421" fill="url(#New_Gradient_Swatch_8-12)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="8.8847917" y="19.1924" width="2.9540999" height="2.1416" fill="url(#linear-gradient-7)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-6)">
+              <g>
+                <rect x="8.8847917" y="19.1924" width="2.9540999" height="2.1416" fill="url(#New_Gradient_Swatch_8-13)"/>
+                <rect x="9.3070917" y="19.6201" width="2.9535999" height="2.1421" fill="url(#New_Gradient_Swatch_8-14)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="8.8847917" y="23.043" width="2.9540999" height="2.1411" fill="url(#linear-gradient-8)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-7)">
+              <g>
+                <rect x="8.8847917" y="23.043" width="2.9540999" height="2.1411" fill="url(#New_Gradient_Swatch_8-15)"/>
+                <rect x="9.3070917" y="23.4697" width="2.9535999" height="2.14285" fill="url(#New_Gradient_Swatch_8-16)"/>
+              </g>
+            </g>
+          </g>
+          <line x1="20.4882914" y1="20.2622" x2="20.4882914" y2="24.1118" fill="none" stroke="#000"/>
+          <g>
+            <rect x="19.0116914" y="23.043" width="2.9530999" height="2.1411" fill="url(#linear-gradient-9)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-8)">
+              <g>
+                <rect x="19.0116914" y="23.043" width="2.9530999" height="2.1411" fill="url(#New_Gradient_Swatch_8-17)"/>
+                <rect x="19.4335914" y="23.4697" width="2.9530999" height="2.1431" fill="url(#New_Gradient_Swatch_8-18)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="4.6654918" y="15.3423" width="2.9535999" height="2.1421" fill="url(#linear-gradient-10)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-9)">
+              <g>
+                <rect x="4.6654918" y="15.3423" width="2.9535999" height="2.1421" fill="url(#New_Gradient_Swatch_8-19)"/>
+                <rect x="5.0873918" y="15.7695" width="2.9536082" height="2.1426" fill="url(#New_Gradient_Swatch_8-20)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="4.6654918" y="19.1924" width="2.9535999" height="2.1416" fill="url(#linear-gradient-11)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-10)">
+              <g>
+                <rect x="4.6654918" y="19.1924" width="2.9535999" height="2.1416" fill="url(#New_Gradient_Swatch_8-21)"/>
+                <rect x="5.0873918" y="19.6201" width="2.9536082" height="2.1421" fill="url(#New_Gradient_Swatch_8-22)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <line x1="22.7401913" y1="17.5479" x2="25.8300913" y2="19.4409" fill="none" stroke="#000"/>
+            <line x1="22.7577913" y1="17.5479" x2="19.6698914" y2="19.4409" fill="none" stroke="#000"/>
+          </g>
+          <g>
+            <rect x="23.2304913" y="19.1924" width="2.9530999" height="2.1416" fill="url(#linear-gradient-12)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-11)">
+              <g>
+                <rect x="23.2304913" y="19.1924" width="2.9530999" height="2.1416" fill="url(#New_Gradient_Swatch_8-23)"/>
+                <rect x="23.6522913" y="19.6201" width="2.9531999" height="2.1421" fill="url(#New_Gradient_Swatch_8-24)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="19.0116914" y="19.1924" width="2.9530999" height="2.1416" fill="url(#linear-gradient-13)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-12)">
+              <g>
+                <rect x="19.0116914" y="19.1924" width="2.9530999" height="2.1416" fill="url(#New_Gradient_Swatch_8-25)"/>
+                <rect x="19.4335914" y="19.6201" width="2.9530999" height="2.1421" fill="url(#New_Gradient_Swatch_8-26)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="13.5263916" y="6.356" width="3.7977999" height="2.142" fill="url(#linear-gradient-14)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-13)">
+              <g>
+                <rect x="13.5263916" y="6.356" width="3.7977999" height="2.142" fill="url(#New_Gradient_Swatch_8-27)"/>
+                <rect x="13.9481915" y="6.7842" width="3.7979" height="2.1411" fill="url(#New_Gradient_Swatch_8-28)"/>
+              </g>
+            </g>
+          </g>
+          <g>
+            <rect x="21.1210914" y="15.3423" width="2.9550999" height="2.1421" fill="url(#linear-gradient-15)" stroke="#000" stroke-width="2"/>
+            <g mask="url(#mask-14)">
+              <g>
+                <rect x="21.1210914" y="15.3423" width="2.9550999" height="2.1421" fill="url(#New_Gradient_Swatch_8-29)"/>
+                <rect x="21.5448914" y="15.77" width="2.9511999" height="2.1421" fill="url(#New_Gradient_Swatch_8-30)"/>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g>
+          <g>
+            <path d="M27.4784912,24.7144c-.6719-.6807-1.3984-1.4141-2.4022999-2.4331-.4199-.4253-.9081913-.5293-1.3614-.4356l-1.0897913-1.105c.6151913-.7934.9804913-1.7563.9804913-2.7988v-.4414h-.0801c.0488-.2656.0801-.5391.0801-.8174,0-.4346-.0664-.8535-.1856-1.2539-.166-.5977-.4463-1.147-.8164-1.6284-.9736-1.4087-2.6874913-2.3081-4.5663999-2.3081-2.8964999,0-5.4071999,2.1255-5.4071999,4.9751,0,.393.0522.7705.1421084,1.1318.0004916.1113.0013916.2188.0013916.3423,0,2.6973,2.4243999,4.8848,5.4160999,4.8848,1.081,0,2.0829999-.2876,2.9276999-.7803v.0019l1.1992,1.2139c-.0937.46.0078.957.4297,1.3828,1.0039087,1.0186,1.7285,1.7515,2.4022999,2.4336.9844.9981,3.3124999-1.3672,2.3300999-2.3642Z" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+            <g>
+              <path d="M12.772,17.5005c0,.1435.0013916.2803.0013916.4414,0,2.6973,2.4243999,4.8848,5.4160999,4.8848,2.9911999,0,5.4159999-2.1875,5.4159999-4.8848v-.4414h-10.8334913Z" fill="url(#New_Gradient_85)" fill-rule="evenodd"/>
+              <path d="M22.5175913,20.6313l2.2069999,2.2369c1.4102,1.4306.0137,2.8491-1.4004,1.4179l-2.2050999-2.2378c-.9336-.9448.4649086-2.3623,1.3985-1.417Z" fill="url(#New_Gradient_84)"/>
+              <g>
+                <path d="M25.0761913,22.2813c1.0039,1.019,1.7304,1.7524,2.4022999,2.4331.9824.997-1.3457,3.3623-2.3300999,2.3642-.6738-.6821-1.3983913-1.415-2.4022999-2.4336-1.4688-1.4887.8594-3.854,2.3300999-2.3637Z" fill="url(#New_Gradient_83)"/>
+                <path d="M22.9022913,22.7471c.8516.8623,1.6446,1.6679,2.2421999,2.2719" fill="none" stroke="#ff7845" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width="1.4356"/>
+                <path d="M26.5663912,24.4941c.8008-.1015,1.2695.3711,1.0313,1.043-.2383.6733-.9706912,1.4136-1.6329,1.6548-.666.2393-1.1289-.2339-1.0273-1.0449.0977-.8106.8301-1.5513,1.6289-1.6529Z" fill="url(#New_Gradient_82)" stroke="#a70000" stroke-miterlimit="3.8637" stroke-width=".4785"/>
+                <path d="M26.5663912,24.4941c.8008-.1015,1.2695.3711,1.0313,1.043-.2383.6733-.9706912,1.4136-1.6329,1.6548-.666.2393-1.1289-.2339-1.0273-1.0449.0977-.8106.8301-1.5513,1.6289-1.6529Z" fill="url(#New_Gradient_64)"/>
+              </g>
+              <g mask="url(#mask-15)">
+                <g>
+                  <path d="M18.1894915,11.8003c2.9911999,0,5.4159999,2.1855,5.4159999,4.8828,0,2.6963-2.4247999,4.8833-5.4159999,4.8833-2.9916999-.0005-5.4160999-2.187-5.4160999-4.8833,0-2.6973,2.4243999-4.8828,5.4160999-4.8828Z" fill="url(#New_Gradient_60)"/>
+                  <g mask="url(#mask-16)">
+                    <g>
+                      <path d="M18.1894915,13.1938c2.6913999,0,4.8749999,1.9693,4.8749999,4.397,0,2.4273-2.1835999,4.3936-4.8749999,4.3936-2.6923999,0-4.8740999-1.9663-4.8740999-4.3936,0-2.4282,2.1816999-4.397,4.8740999-4.397Z" fill="url(#New_Gradient_61)"/>
+                      <path d="M18.1894915,14.6929c2.6913999,0,4.8749999,1.9668,4.8749999,4.3955,0,2.4253-2.1835999,4.393-4.8749999,4.393-2.6923999,0-4.8740999-1.9677-4.8740999-4.393,0-2.4287,2.1816999-4.3955,4.8740999-4.3955Z" fill="url(#New_Gradient_63)"/>
+                      <path d="M18.1894915,13.1938c2.6913999,0,4.8749999,1.9693,4.8749999,4.397,0,2.4273-2.1835999,4.3936-4.8749999,4.3936-2.6923999,0-4.8740999-1.9663-4.8740999-4.3936,0-2.4282,2.1816999-4.397,4.8740999-4.397Z" fill="none" stroke="#69c" stroke-miterlimit="3.8637" stroke-width=".957"/>
+                    </g>
+                  </g>
+                  <path d="M18.0370915,11.4927c2.8944999,0,5.4042999,2.1255,5.4042999,4.9751,0,2.8491-2.5097999,4.9751-5.4042999,4.9751-2.8964999,0-5.4071999-2.126-5.4071999-4.9751,0-2.8496,2.5106999-4.9751,5.4071999-4.9751ZM18.0370915,12.0679c-2.8510915,0-4.9960915,2.0717-4.9960915,4.3999,0,2.3296,2.145,4.4018,4.9960915,4.4018,2.8476999,0,4.9921999-2.0722,4.9921999-4.4018,0-2.3282-2.1444999-4.3999-4.9921999-4.3999Z" fill="url(#linear-gradient-16)"/>
+                </g>
+              </g>
+              <path d="M18.1894915,11.7075c2.8945085,0,5.4061999,2.126,5.4061999,4.9756,0,2.8486-2.5116913,4.9756-5.4061999,4.9756-2.8955999-.001-5.4067999-2.127-5.4067999-4.9756,0-2.8496,2.5111999-4.9756,5.4067999-4.9756ZM18.1894915,12.2837c-2.8471999,0-4.9926999,2.0698-4.9926999,4.3994,0,2.3291,2.1454999,4.4004,4.9926999,4.4004,2.8495999,0,4.9940999-2.0713,4.9940999-4.4004,0-2.3296-2.1444999-4.3994-4.9940999-4.3994Z" fill="url(#New_Gradient_59)"/>
+              <g mask="url(#mask-17)">
+                <g>
+                  <path d="M16.5853915,14.2173c.9166085-.1563,1.7193.375,1.7925,1.1894.0713.8145-.6152,1.6016-1.5341,1.7593-.9185.1548-1.7203-.376-1.794-1.1889-.0697915-.8155.6148-1.6026,1.5356-1.7598Z" fill="#b3e0ff"/>
+                  <path d="M18.1894915,14.6929c2.6913999,0,4.8749999,1.9668,4.8749999,4.3955,0,2.4253-2.1835999,4.393-4.8749999,4.393-2.6923999,0-4.8740999-1.9677-4.8740999-4.393,0-2.4287,2.1816999-4.3955,4.8740999-4.3955Z" fill="#fff"/>
+                </g>
+              </g>
+            </g>
+          </g>
+          <g mask="url(#mask-18)">
+            <g mix-blend-mode="multiply" opacity=".25">
+              <line x1="10.2562917" y1="-.9097" x2="10.2562917" y2="17.3809" fill="none" stroke="#000"/>
+              <line x1="2.6605918" y1="12.5664" x2="2.6605918" y2="23.1538" fill="none" stroke="#000"/>
+              <line x1="21.0155914" y1="6.1489" x2="21.0155914" y2="11.9243" fill="none" stroke="#000"/>
+              <g>
+                <line x1="10.2934917" y1="1.7573" x2="23.0155913" y2="4.5962" fill="none" stroke="#000"/>
+                <line x1="10.3563917" y1="1.7573" x2="-2.365208" y2="4.5962" fill="none" stroke="#000"/>
+              </g>
+              <line x1="-.2886081" y1="7.5322" x2="4.3441918" y2="10.3706" fill="none" stroke="#000"/>
+              <g>
+                <rect x=".4447919" y="10" width="4.4316999" height="3.2119" fill="url(#linear-gradient-17)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-19)">
+                  <g>
+                    <rect x=".4447919" y="10" width="4.4316999" height="3.2119" fill="url(#New_Gradient_Swatch_8-31)"/>
+                    <rect x="1.0785919" y="10.6411" width="4.4306999" height="3.2129" fill="url(#New_Gradient_Swatch_8-32)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="8.041" y="10" width="4.4301916" height="3.2119" fill="url(#linear-gradient-18)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-20)">
+                  <g>
+                    <rect x="8.041" y="10" width="4.4301916" height="3.2119" fill="url(#New_Gradient_Swatch_8-33)"/>
+                    <rect x="8.6737917" y="10.6411" width="4.4302083" height="3.2129" fill="url(#New_Gradient_Swatch_8-34)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="8.041" y="4.2246" width="4.4301917" height="3.2124" fill="url(#linear-gradient-19)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-21)">
+                  <g>
+                    <rect x="8.041" y="4.2246" width="4.4301917" height="3.2124" fill="url(#New_Gradient_Swatch_8-35)"/>
+                    <rect x="8.6737917" y="4.8657" width="4.4302083" height="3.2129" fill="url(#New_Gradient_Swatch_8-36)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="-2.718308" y="4.2251" width="4.4296999" height="3.2114" fill="url(#linear-gradient-20)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-22)">
+                  <g>
+                    <rect x="-2.718308" y="4.2251" width="4.4296999" height="3.2114" fill="url(#New_Gradient_Swatch_8-37)"/>
+                    <rect x="-2.085908" y="4.8657" width="4.4305999" height="3.2129" fill="url(#New_Gradient_Swatch_8-38)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="18.8007914" y="4.2246" width="4.4296999" height="3.2129" fill="url(#linear-gradient-21)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-23)">
+                  <g>
+                    <rect x="18.8007914" y="4.2246" width="4.4296999" height="3.2129" fill="url(#New_Gradient_Swatch_8-39)"/>
+                    <rect x="19.4335914" y="4.8657" width="4.4296999" height="3.2129" fill="url(#New_Gradient_Swatch_8-40)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="8.041" y="15.7739" width="4.4301916" height="3.2129" fill="url(#linear-gradient-22)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-24)">
+                  <g>
+                    <rect x="8.041" y="15.7739" width="4.4301916" height="3.2129" fill="url(#New_Gradient_Swatch_8-41)"/>
+                    <rect x="8.6737917" y="16.4165" width="4.4302083" height="3.21215" fill="url(#New_Gradient_Swatch_8-42)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x=".4447919" y="15.7739" width="4.4316999" height="3.2129" fill="url(#linear-gradient-23)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-25)">
+                  <g>
+                    <rect x=".4447919" y="15.7739" width="4.4316999" height="3.2129" fill="url(#New_Gradient_Swatch_8-43)"/>
+                    <rect x="1.0785919" y="16.4165" width="4.4306999" height="3.2119" fill="url(#New_Gradient_Swatch_8-44)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x=".4447919" y="21.5493" width="4.4316999" height="3.2129" fill="url(#linear-gradient-24)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-26)">
+                  <g>
+                    <rect x=".4447919" y="21.5493" width="4.4316999" height="3.2129" fill="url(#New_Gradient_Swatch_8-45)"/>
+                    <rect x="1.0785919" y="22.1919" width="4.4306999" height="3.2124" fill="url(#New_Gradient_Swatch_8-46)"/>
+                  </g>
+                </g>
+              </g>
+              <line x1="17.8495915" y1="17.3789" x2="17.8495915" y2="23.1543" fill="none" stroke="#000"/>
+              <g>
+                <rect x="15.6361915" y="21.5493" width="4.4301999" height="3.2129" fill="url(#linear-gradient-25)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-27)">
+                  <g>
+                    <rect x="15.6361915" y="21.5493" width="4.4301999" height="3.2129" fill="url(#New_Gradient_Swatch_8-47)"/>
+                    <rect x="16.269" y="22.1919" width="4.4301914" height="3.2124" fill="url(#New_Gradient_Swatch_8-48)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <line x1="21.2323914" y1="13.3076" x2="25.8632913" y2="16.1465" fill="none" stroke="#000"/>
+                <line x1="21.2538914" y1="13.3076" x2="16.6215915" y2="16.1465" fill="none" stroke="#000"/>
+              </g>
+              <g>
+                <rect x="21.9647914" y="15.7739" width="4.4296999" height="3.2134" fill="url(#linear-gradient-26)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-28)">
+                  <g>
+                    <rect x="21.9647914" y="15.7739" width="4.4296999" height="3.2134" fill="url(#New_Gradient_Swatch_8-49)"/>
+                    <rect x="22.5985913" y="16.4165" width="4.4286999" height="3.2124" fill="url(#New_Gradient_Swatch_8-50)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="15.6361915" y="15.7739" width="4.4301999" height="3.21315" fill="url(#linear-gradient-27)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-29)">
+                  <g>
+                    <rect x="15.6361915" y="15.7739" width="4.4301999" height="3.21315" fill="url(#New_Gradient_Swatch_8-51)"/>
+                    <rect x="16.269" y="16.4165" width="4.4301914" height="3.2124" fill="url(#New_Gradient_Swatch_8-52)"/>
+                  </g>
+                </g>
+              </g>
+              <g>
+                <rect x="7.4081917" y="-3.48" width="5.6958083" height="3.2124" fill="url(#linear-gradient-28)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-30)">
+                  <rect x="8.041" y="-2.8389" width="5.6957916" height="3.2129" fill="url(#New_Gradient_Swatch_8-53)"/>
+                </g>
+              </g>
+              <g>
+                <rect x="18.8007914" y="10" width="4.4296999" height="3.2119" fill="url(#linear-gradient-29)" stroke="#000" stroke-width="2"/>
+                <g mask="url(#mask-31)">
+                  <g>
+                    <rect x="18.8007914" y="10" width="4.4296999" height="3.2119" fill="url(#New_Gradient_Swatch_8-54)"/>
+                    <rect x="19.4335914" y="10.6411" width="4.4296999" height="3.2129" fill="url(#New_Gradient_Swatch_8-55)"/>
+                  </g>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

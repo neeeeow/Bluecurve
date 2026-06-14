@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_4" data-name="Set 4" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="37.6556629" y1="28.2378399" x2="18.0239111" y2="10.0083561" gradientTransform="translate(42.5887037 -12.7766218) rotate(76.6533425)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#7f7f7f"/>
+      <stop offset="1" stop-color="#dcdcdc"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="24.2618403" y1="16.2995171" x2="39.2270709" y2="29.0752054" gradientTransform="matrix(1,0,0,1,0,0)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#7f7f7f"/><stop offset="1" stop-color="#dcdcdc"/></linearGradient>
+    <linearGradient id="linear-gradient-3" x1="30.4970328" y1="35.6808508" x2="4.6342639" y2="19.3464329" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="12.6026503" y1="22.9420586" x2="32.2934032" y2="39.7518846" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".75">
+    <circle cx="29.3756194" cy="20.549225" r="11.018722" transform="translate(2.600273 44.3878174) rotate(-76.6533425)" fill="url(#linear-gradient)" stroke="#000"/>
+    <path d="M21.4871946,21.3318c0-4.7874,3.8815999-8.671,8.6699998-8.671,4.7884999,0,8.6720998,3.8836,8.6720998,8.671,0,4.7895-3.8835999,8.673-8.6720998,8.673-4.7883999,0-8.6699998-3.8835-8.6699998-8.673Z" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <rect x="8.3397949" y="19.5475" width="22.0374994" height="18.197" fill="url(#linear-gradient-3)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="11.3448949" y="22.5527" width="18.0306995" height="14.0239" fill="url(#linear-gradient-4)"/>
+  </g>
+</svg>

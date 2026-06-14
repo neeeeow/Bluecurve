@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="134" y1="-244" x2="130" y2="-244" gradientTransform="translate(152 -232) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="8.6999817" y="5.6999971" width="8.6399996" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="17 5.9999847 9.0000153 5.9999847 9.0000153 9.9999847 17 9.9999847 17 5.9999847" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="4.7399902" y="13.8000032" width="12.5999995" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="17.0000153 14 4.9999771 14 4.9999771 18.0000153 17.0000153 18.0000153 17.0000153 14" fill="#fff"/>
+    </mask>
+  </defs>
+  <rect x="19" y="3" width="2" height="18" fill="url(#White_Black)"/>
+  <g>
+    <polyline points="17 5.9999847 9.0000153 5.9999847 9.0000153 9.9999847 17 9.9999847 17 5.9999847"/>
+    <path d="M9.0000153,5.9999847h7.9999847v4h-7.9999847v-4M18,5h-9.9999847v5.9999847h9.9999847v-5.9999847"/>
+    <g mask="url(#mask)">
+      <image width="48" height="25" transform="translate(8.6999817 10.1999969) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAVCAYAAADWxrdnAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAdklEQVRIie2OSwqDUBAE6wXFnDaHyRm8Qs4Wk/dzoYOBuG+ELhiG7plFpeer92mEmPsI03Dksy4XWDJ8Cry/W84Vyj61bbn1/z5u0eUKpR233z5y7PgFmB8p3bgwlldheRWWV2F5FZZXYXkVlldheRWWV3Fp+RV4uEQqq92s7gAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="17.0000153 14 4.9999771 14 4.9999771 18.0000153 17.0000153 18.0000153 17.0000153 14"/>
+    <path d="M4.9999771,14h12.0000381v4.0000153H4.9999771v-4.0000153M18,13.0000153H4v5.9999847h14v-5.9999847"/>
+    <g mask="url(#mask-1)">
+      <image width="70" height="25" transform="translate(4.7399902 18.3000031) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAWCAYAAACWl1FwAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAfklEQVRYhe3QSwrEMAwE0R7Z9z+Mz2dJWU0gSTMMZFsPjD/Im/qstToiNMY415zz3CPicr/P3M9Vpb23MvOxZ6a6W1V1Wd+37rYzv/68mXF/JCmEB6IYRDGIYhDFIIpBFIMoBlEMohhEMYhiEMUgikEUgygGUQyiGEQxiIL/HLJLktMOIxFZAAAAAElFTkSuQmCC"/>
+    </g>
+  </g>
+</svg>

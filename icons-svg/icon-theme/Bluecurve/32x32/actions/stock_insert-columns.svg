@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="6.537342" y1="8.1041471" x2="28.046723" y2="28.3102195" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="4.9393934" y="6.5567" width="22.5334994" height="21.3417" maskUnits="userSpaceOnUse">
+      <rect x="4.9393934" y="6.5567" width="21.1996995" height="20.0078" fill="#fff"/>
+    </mask>
+    <radialGradient id="New_Gradient_137" data-name="New Gradient 137" cx="-321.5648515" cy="275.7968582" fx="-321.5648515" fy="275.7968582" r="6.1981738" gradientTransform="translate(-302.1699 -272.0977) scale(-1 1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#328e36"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+    <mask id="mask-1" x="12.5868932" y="-.1125" width="8.5241068" height="8.1516" maskUnits="userSpaceOnUse">
+      <polyline points="14.3817932 3.962 12.5868932 3.962 15.7703931 8.0182 18.9590931 3.962 17.1172931 3.962" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="-47.0812783" cy="2.7848088" fx="-47.0812783" fy="2.7848088" r="3.361539" gradientTransform="translate(21.4922 51.5645) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-372.6683803" cy="337.5075468" fx="-372.6683803" fy="337.5075468" r="6.6006707" gradientTransform="translate(-318.4894 -300.1334141) scale(-.8948 .8948)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_3" data-name="Set 3">
+      <g mix-blend-mode="color">
+        <rect x="4.9393934" y="6.5567" width="21.1996995" height="20.0078" fill="url(#White_Black)" stroke="#000" stroke-width="2"/>
+        <g mask="url(#mask)">
+          <g>
+            <rect x="4.9393934" y="6.5567" width="21.1996995" height="20.0078" fill="#e6e6e6"/>
+            <g>
+              <line x1="6.2731934" y1="12.3923" x2="27.4728928" y2="12.3923" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="6.2731934" y1="17.7277" x2="27.4728928" y2="17.7277" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="20.528693" y1="7.8906" x2="20.528693" y2="27.8984" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="13.8594932" y1="7.8906" x2="13.8594932" y2="27.8984" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <g>
+                <line x1="7.1901934" y1="7.8906" x2="7.1901934" y2="27.8984" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+                <line x1="6.2731934" y1="8.3074" x2="27.4728928" y2="8.3074" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+            <g>
+              <line x1="4.9393934" y1="16.644" x2="26.1390929" y2="16.644" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="6.2731934" y1="23.3132" x2="27.4728928" y2="23.3132" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="4.9393934" y1="21.9794" x2="26.1390929" y2="21.9794" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="4.9393934" y1="11.0585" x2="26.1390929" y2="11.0585" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="19.194893" y1="6.5567" x2="19.194893" y2="26.5645" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="12.5255932" y1="6.5567" x2="12.5255932" y2="26.5645" fill="none" stroke="#999" stroke-width=".75"/>
+              <g>
+                <line x1="5.8563934" y1="6.5567" x2="5.8563934" y2="26.5645" fill="none" stroke="#fff" stroke-width=".75"/>
+                <line x1="4.9393934" y1="6.9736" x2="26.1390929" y2="6.9736" fill="none" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect x="11.774" y="5.2229" width="8.003093" height="22.6755" fill="#1659df" mix-blend-mode="multiply" opacity=".5"/>
+      <g>
+        <polygon points="14.3817932 3.962 12.5868932 3.962 15.7703931 8.0182 18.9590931 3.962 17.1172931 3.962 14.3817932 3.962" fill="url(#New_Gradient_137)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        <g mask="url(#mask-1)">
+          <g>
+            <polyline points="14.3817932 3.962 12.5868932 3.962 15.7703931 8.0182 18.9590931 3.962 17.1172931 3.962" fill="url(#radial-gradient)"/>
+            <polyline points="14.6840932 4.3033 13.2433932 4.3033 16.1950931 8.0391 21.111 -.1125" fill="url(#radial-gradient-2)"/>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

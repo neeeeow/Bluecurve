@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.6770046" y1="16.6911715" x2="9.3100417" y2="10.4875372" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="266.3678819" cy="74.9185189" fx="266.3678819" fy="74.9185189" r="3.3541131" gradientTransform="translate(-171.8399 -38.9936) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <rect x="3.7741923" y="3.6252" width="6.2556998" height="6.1555" fill="gray" stroke="gray" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="3.7741923" y="3.6252" width="6.2556998" height="6.1555" fill="#fff"/>
+    </g>
+    <path d="M8.6552922,3.5433c-.0147-.0232-.0404-.0244-.0562-.0024l-2.5999999,4.2439c-.0147.0232-.0368.0245-.0526.003l-1.1166-1.4532c-.0158923-.0221-.038-.0196-.0477.0061l-.545,1.35c-.0098.0264,0,.0599.022.0764l1.8242,1.6641c.0208.0189.05.0172.0659-.0048l3.6690999-4.1518c.0208-.0183.0245-.0507.0109-.0734l-1.174-1.6579Z" fill="#16336e"/>
+  </g>
+  <g>
+    <polyline points="1.8973924 12.7252 1.8973924 15.4108 5.2207923 15.4108" fill="none" stroke="#000" stroke-miterlimit="3.8637"/>
+    <polyline points="3.7741923 16.2306 3.7741923 17.2875 6.2763923 15.4114 3.7741923 13.5341 3.7741923 14.6196"/>
+  </g>
+  <g>
+    <path d="M16.748492,13.5732c0,2.3623-1.9096,4.2756-4.2676999,4.2756-2.3617921,0-4.2689999-1.9133-4.2689999-4.2756,0-2.3557,1.9072078-4.2696,4.2689999-4.2696,2.3580999,0,4.2676999,1.9139,4.2676999,4.2696Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+    <path d="M14.930492,13.5732c0,1.3555-1.0984,2.4534-2.4496999,2.4534-1.3537,0-2.4461999-1.0979-2.4461999-2.4534,0-1.3507,1.0925-2.4444,2.4461999-2.4444,1.3513,0,2.4496999,1.0937,2.4496999,2.4444Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+  </g>
+</svg>

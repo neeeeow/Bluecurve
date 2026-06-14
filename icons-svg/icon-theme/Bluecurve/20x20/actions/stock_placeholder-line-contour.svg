@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_4" data-name="Set 4" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="9.4796192" y1=".6789302" x2="10.4044299" y2="14.5509981" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="9.2645383" y1=".6930376" x2="10.1897592" y2="14.5712594" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <linearGradient id="White_Black-3" data-name="White, Black" x1="8.9878485" y1=".7078675" x2="9.9134789" y2="14.5922316" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="2.4243964" y="2.6887" width="14.8101996" height="14.8096" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+    <rect x="2.4243964" y="2.6887" width="14.8101996" height="14.8096" fill="#fff"/>
+  </g>
+  <g>
+    <rect x="4.2754964" y="5.4646" width="11.1079997" height=".9249" fill="url(#White_Black)"/>
+    <polyline points="4.2754964 8.2418 15.3834961 8.2418 15.3834961 10.0929 4.2754964 10.0929" fill="url(#White_Black-2)"/>
+    <polyline points="4.2754964 11.9439 15.3834961 11.9439 15.3834961 14.7211 4.2754964 14.7211" fill="url(#White_Black-3)"/>
+  </g>
+  <g>
+    <line x1="1.9607964" y1="2.2244" x2="17.698296" y2="17.9626" fill="none" stroke="#000" stroke-width=".5"/>
+    <line x1="1.9607964" y1="17.9626" x2="17.698296" y2="2.2244" fill="none" stroke="#000" stroke-width=".5"/>
+  </g>
+</svg>

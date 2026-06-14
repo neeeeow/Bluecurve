@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="3" y="5" width="44" height="40" maskUnits="userSpaceOnUse">
+      <polyline points="46.000061 6.0000458 4.0000305 6.0000458 4.0000305 44.0000153 46.000061 44.0000153 46.000061 6.0000458" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-432" y1="-144.0000002" x2="-431" y2="-144.0000002" gradientTransform="translate(-11222.2320862 -4875.3415222) rotate(-138.0127959) scale(26.9555432 -26.9555432)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="14.6863499" y1="16.4130796" x2="37.7560132" y2="36.1074522" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="44" height="40" transform="translate(3 5)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACwAAAAoCAYAAACFFRgXAAAACXBIWXMAAAsSAAALEgHS3X78AAACZ0lEQVRYhe2ZbW/iMBCEn4QQCnct7f//kz2upcdr+mG9jWNs4iR2TpU6khVAMjsZZie2KRiHYuQ8G82YSWWCwrNiiFKFGeXAeSE0wNVco9WuBhQogCWwMtcppBvgBBzMNTnhAlgAa2ALbMz7sbgAe+APA1UeQniJEH0CfjGdcAWcEYWvtMTvIoawqrsCfiMq10yzxMKQO5txRewxmbA2WY2ouqb179TGqxEBTsARId5rjb6ftUSUfQSeEdJLpsdhQfemjwjxCxMIF8gvsDFktwj5VLFmE1ZLqMpB3FNKG22NKFuTjqyvhm23IEKE3UZbmfcpyY6qE7KE7d0tcvc5CCsK2tRQL3vhI2x79wW5c7VDDrgNeEGIexvQR3hude26JdKAJwIN6Ko2l3dd3Mv7DhaeSSvk8fvEfOpq/d6YK50JS0TZR+CB+ci6HDTmKrd+6bxWK2juzkkWupbc4Gl2fRAosQVyhxXpHxKxUNIVrWW/eJR0FxwaKVFLvUxo6EabfgZ05b4ii5A9YvjehUgGKNmD4XE0vL4QyuEK8Y823VzWaBCSb8hu5B8RhOHWR3MQVnU/gFfgHc9+z0dYtysa5Lr+zUlad9AHYGfGjboQVrhBCNZm3ORhYqgV/iJW8KoL/Qt4zeacKqsV9ogVdtzZ34VWYHpu8GHGoLODgbBrvdMmg7de354ut8pRjWYj5mwhZ8z1xpiL2MOQHDE3WF2II5wj5qJjzEWswr6Ym4LoGHMRU9h+vr/Rnk2kOAzcme88kvgwUKNnj1jiTBrCvTHmYogPS/KdD/d6V/HtTuDHFv5vf8r8IDc+AYGsxfhn/pDAAAAAAElFTkSuQmCC"/>
+    </g>
+    <polygon points="15.2606812 38.9320068 6.7460938 23.9064026 15.2606812 8.8807983 32.2897034 8.8807983 40.8041992 23.9064026 32.2897034 38.9320068 15.2606812 38.9320068" fill="url(#linear-gradient)"/>
+    <polygon points="15.2606812 38.9320068 15.6956787 38.6854858 7.3207703 23.9063721 15.5520325 9.3807678 31.9983215 9.3807678 40.2294617 23.9063721 31.998291 38.4320068 15.2606812 38.4320068 15.2606812 38.9320068 15.6956787 38.6854858 15.2606812 38.9320068 15.2606812 39.4319916 32.5810547 39.4319916 41.3788757 23.9063721 32.5810242 8.3807983 14.9692688 8.3807983 6.1713562 23.9063873 14.9692688 39.4319916 15.2606812 39.4319916 15.2606812 38.9320068"/>
+  </g>
+  <polygon points="16.7631887 36.5462 9.7512888 24.1717 16.7631887 11.798 30.7870883 11.798 37.7990881 24.1717 30.7870883 36.5462 16.7631887 36.5462" fill="url(#linear-gradient-2)"/>
+</svg>

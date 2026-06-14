@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Icons_-_24x24" data-name="Icons - 24x24" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="-275.1557674" cy="-2068.8128257" fx="-275.1557674" fy="-2068.8128257" r="166.8022443" gradientTransform="translate(73.5999 433.105) scale(.2037)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffcd00"/>
+      <stop offset=".544944" stop-color="#ff7845"/>
+      <stop offset=".5836306" stop-color="#f57342"/>
+      <stop offset=".6488541" stop-color="#da673b"/>
+      <stop offset=".7326012" stop-color="#b0522f"/>
+      <stop offset=".8316344" stop-color="#74361f"/>
+      <stop offset=".9422571" stop-color="#29130b"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-35.2087992" cy="192.6737026" fx="-35.2087992" fy="192.6737026" r="22.6750479" gradientTransform="translate(40.6351 225.7312) scale(1 -.9998)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ecb300"/>
+      <stop offset=".539326" stop-color="#ffcd00"/>
+      <stop offset=".5857413" stop-color="#f9c800"/>
+      <stop offset=".6442217" stop-color="#e9bc02"/>
+      <stop offset=".7091918" stop-color="#d0a904"/>
+      <stop offset=".7788478" stop-color="#ac8d08"/>
+      <stop offset=".8522792" stop-color="#7e6a0d"/>
+      <stop offset=".9276233" stop-color="#464012"/>
+      <stop offset="1" stop-color="#0a1219"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="5.3621623" cy="200.7707116" fx="5.3621623" fy="200.7707116" r="15.6775954" gradientTransform="translate(21.3962 205.4423) scale(.8768 -.8765)" gradientUnits="userSpaceOnUse"><stop offset=".005618" stop-color="#ecb300"/><stop offset=".539326" stop-color="#ffcd00"/><stop offset=".5857413" stop-color="#f9c800"/><stop offset=".6442217" stop-color="#e9bc02"/><stop offset=".7091918" stop-color="#d0a904"/><stop offset=".7788478" stop-color="#ac8d08"/><stop offset=".8522792" stop-color="#7e6a0d"/><stop offset=".9276233" stop-color="#464012"/><stop offset="1" stop-color="#0a1219"/></radialGradient>
+  </defs>
+  <g>
+    <path d="M41.896,24.086903c0,7.4755998-6.0615033,13.5341997-13.5303031,13.5341997-7.4774998,0-13.5350997-6.0585998-13.5350997-13.5341997,0-7.4764998,6.0575998-13.5331997,13.5350997-13.5331997,7.4687998,0,13.5303031,6.0566998,13.5303031,13.5331997Z" fill="none" stroke="#000" stroke-width="2"/>
+    <path d="M40.5268966,24.086903c0,6.7069998-5.4540999,12.163097-12.1611997,12.163097-6.7089998,0-12.1659997-5.4560971-12.1659997-12.163097s5.4569999-12.1630997,12.1659997-12.1630997c6.7070998,0,12.1611997,5.4560999,12.1611997,12.1630997ZM28.3656969,9.1836034c-8.2196969,0-14.9052996,6.6845998-14.9052996,14.9032996,0,8.2187998,6.6856028,14.9032996,14.9052996,14.9032996,8.2167998,0,14.9013996-6.6844998,14.9013996-14.9032996,0-8.2186998-6.6845998-14.9032996-14.9013996-14.9032996Z"/>
+    <path d="M41.896,24.086903c0,7.4755998-6.0615033,13.5341997-13.5303031,13.5341997-7.4774998,0-13.5350997-6.0585998-13.5350997-13.5341997,0-7.4764998,6.0575998-13.5331997,13.5350997-13.5331997,7.4687998,0,13.5303031,6.0566998,13.5303031,13.5331997Z" fill="url(#radial-gradient)"/>
+    <image width="171" height="170" transform="translate(-58 -62)" xlink:href="data:image/png;base64,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"/>
+  </g>
+  <g>
+    <polygon points="3.8892 17.4111032 7.9154974 13.9004033 19.4057971 23.918 7.9154974 33.9355028 3.8862 30.4277029 3.8862 30.2158029 11.1117973 23.918 3.8892 17.623 3.8892 17.4111032" fill="url(#radial-gradient-2)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="3.8892 17.4111032 7.9154974 13.9004033 19.4057971 23.918 7.9154974 33.9355028 3.8862 30.4277029 3.8862 30.2158029 11.1117973 23.918 3.8892 17.623 3.8892 17.4111032" fill="#fff"/>
+  </g>
+  <g>
+    <polygon points="25.1117969 19.9639031 27.5521969 17.8389032 34.5180967 23.919903 27.5551969 29.9834029 25.1117969 27.8535029 25.1117969 27.7256029 29.4906968 23.915 25.1117969 20.0928031 25.1117969 19.9639031" fill="url(#radial-gradient-3)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="25.1117969 19.9639031 27.5521969 17.8389032 34.5180967 23.919903 27.5551969 29.9834029 25.1117969 27.8535029 25.1117969 27.7256029 29.4906968 23.915 25.1117969 20.0928031 25.1117969 19.9639031" fill="#fff"/>
+  </g>
+</svg>

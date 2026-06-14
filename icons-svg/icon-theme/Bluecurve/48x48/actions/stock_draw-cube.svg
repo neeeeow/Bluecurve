@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_3" data-name="Set 3" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.1641959" y1="25.8888739" x2="3.745756" y2="25.4878577" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="40.3227601" y1="16.0474226" x2="14.4133855" y2="3.8851519" gradientTransform="translate(-4.9966 6.1430886) rotate(-3.1127685)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4c8bca"/><stop offset="1" stop-color="#b7e9ff"/></linearGradient>
+    <linearGradient id="linear-gradient-3" x1="34.9732053" y1="36.2218871" x2="23.3700453" y2="6.3851772" gradientTransform="translate(-4.9966 6.1430886) rotate(-3.1127685)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#4c8bca"/><stop offset="1" stop-color="#b7e9ff"/></linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="104" height="85" transform="translate(-26 -6)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGgAAABVCAYAAACl+KHSAAAACXBIWXMAAAsSAAALEgHS3X78AAABgUlEQVR4nO3YT0rDQBiG8ScqgtKeoa7tBbyGJ/EC3skDuBS8gLhyoXUrLmojrrQuksHYptKG/PnA5wdh6KLJR9+Z6eQDSZIkSZIkSZIkSZIkSZIkSZIkSZL+o2zoAhpoo+ZlC/foRcSA/qppBEzKsakcmJVjEjawaAGNgBM2BzABzsuxqRlwVY6wHliosCIFlAFT4KIc62rrYgVVA1uwvrpUyoAz4Bb4BL42XMsWrur93oA74Bq4pFjBYSbuwdAF1MgqV5fPSMbAKUVwD8Argba5vaELCCID3oFngm1vBvQjbX+hGFAhJ+DqgZgB9T2Ll/w+yYVaRdECSjN5QT8/VNrWwh6v94cuYMUHMAeOy89HwCG7n+i2CTenOLU9AvfADfCy43M6F+a8XzGmeBmdUnQNpuz2clrXyqlT3dZy4GmL7/QuYkBQ1JW6Bimobds7q62cTUK3eJKoASXVoNpeQRA0lKroASVd/AdJkiRJkiRJkiRJkiRJkiRJkiRJkiSpmW/GAWrT8x1blQAAAABJRU5ErkJggg=="/>
+  </g>
+  <polygon points="27.2860945 8.119 7.499495 10.6741 8.0071949 29.8083 15.8172948 40.8574 36.5263942 36.9866 37.447 16.7401 27.2860945 8.119" fill="none" stroke="#000" stroke-width="2"/>
+  <polygon points="15.8172948 40.8574 8.0071949 29.8083 7.499495 10.6741 15.6666948 19.9684 15.8172948 40.8574" fill="url(#linear-gradient)"/>
+  <polygon points="15.6666948 19.9684 7.499495 10.6741 27.2860945 8.119 37.447 16.7401 15.6666948 19.9684" fill="url(#linear-gradient-2)"/>
+  <polygon points="15.8172948 40.8574 15.6666948 19.9684 37.447 16.7401 36.5263942 36.9866 15.8172948 40.8574" fill="url(#linear-gradient-3)"/>
+</svg>

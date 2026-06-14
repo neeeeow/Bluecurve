@@ -1,0 +1,52 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.6665" y1="8.7339" x2="14" y2="8.7339" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c8019"/>
+      <stop offset=".325843" stop-color="#23a11f"/>
+      <stop offset="1" stop-color="#a8efb1"/>
+    </linearGradient>
+    <mask id="mask" x="7.9282" y="5.6104" width="4.9243" height="4.8964" maskUnits="userSpaceOnUse">
+      <polygon points="9.2754 5.6104 9.3286 7.3467 7.9282 8.374 9.5947 8.8594 10.1377 10.5068 11.1162 9.0732 12.8525 9.0635 11.7896 7.6924 12.3184 6.0391 10.6846 6.624 9.2754 5.6104" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="21.4805825" cy="11.7959628" fx="21.4805825" fy="11.7959628" r="3.4804667" gradientTransform="translate(28.6801 -8.2234) rotate(166.0012765) scale(.9999988 -.9999988)" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="5.4857085" cy="23.6136408" fx="5.4857085" fy="23.6136408" r="3.6150955" gradientTransform="translate(10.2542 -14.8398) rotate(166.0035596) scale(.8728132 -.8728132)" gradientUnits="userSpaceOnUse"><stop offset=".410112" stop-color="#f9e917"/><stop offset="1" stop-color="#d68112"/></radialGradient>
+  </defs>
+  <polyline points="2.6665 13.667 4.0576 11.9043 5.2368 11.6982 6.2412 10.459 6.5688 9.6689 6.9668 9.1338 7.813 8.3955 8.5933 9.3838 9.354 8.5078 9.9482 6.3838 12.2285 5.2119 14 3.8008 13.9985 13.4668" fill="none" stroke="#0f6124" stroke-width="2"/>
+  <polyline points="2.6665 13.667 4.0576 11.9043 5.2368 11.6982 6.2412 10.459 6.5688 9.6689 6.9668 9.1338 7.813 8.3955 8.5933 9.3838 9.354 8.5078 9.9482 6.3838 12.2285 5.2119 14 3.8008 13.9985 13.4668" fill="url(#linear-gradient)"/>
+  <g>
+    <g>
+      <g>
+        <rect x="11" y="14" width="1" height="1"/>
+        <rect x="8" y="14" width="1" height="1"/>
+        <rect x="5" y="14" width="1" height="1"/>
+      </g>
+      <rect x="1" y="13" width="1" height="1"/>
+      <rect x="2" y="14" width="1" height="1"/>
+      <g>
+        <rect x="1" y="7" width="1" height="1"/>
+        <rect x="1" y="4" width="1" height="1"/>
+        <rect x="1" y="10" width="1" height="1"/>
+      </g>
+    </g>
+    <rect x="2.1577" y="2" width=".6577" height="11.8418"/>
+    <rect x="2.1577" y="13.1836" width="11.8423" height=".6582"/>
+  </g>
+  <g>
+    <polygon points="9.3286 7.3467 9.2754 5.6104 10.6846 6.624 12.3184 6.0391 11.7896 7.6924 12.8525 9.0635 11.4063 9.0713 14.2412 14.4023 13.7451 14.665 10.9229 9.3555 10.1377 10.5068 9.5947 8.8594 7.9282 8.374 9.3286 7.3467" fill="none" stroke="#000" stroke-width="2"/>
+    <rect x="12.2470493" y="8.6561297" width=".5615515" height="6.2428406" transform="translate(-4.0626148 7.2593212) rotate(-27.9974894)" fill="#9c3e0d"/>
+    <g mask="url(#mask)">
+      <g>
+        <polygon points="9.2754 5.6104 9.3286 7.3467 7.9282 8.374 9.5947 8.8594 10.1377 10.5068 11.1162 9.0732 12.8525 9.0635 11.7896 7.6924 12.3184 6.0391 10.6846 6.624 9.2754 5.6104" fill="url(#radial-gradient)"/>
+        <polygon points="9.5303 6.0908 9.5723 7.4287 8.4951 8.2197 9.7783 8.5947 10.1982 9.8662 10.9507 8.7598 12.2881 8.7529 11.4688 7.6943 11.876 6.4189 10.6177 6.8701 9.5303 6.0908" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+    <line x1="11.0439" y1="5.5645" x2="11.8555" y2="3.5938" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="13.3936" y1="7.7813" x2="15.126" y2="7.7881" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="8.5742" y1="9.7217" x2="7.7842" y2="11.4678" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+    <line x1="7.9766" y1="6.6357" x2="6.001" y2="5.001" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+</svg>

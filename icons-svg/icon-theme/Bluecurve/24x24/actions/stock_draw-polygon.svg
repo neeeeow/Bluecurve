@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="-1" y="1" width="28" height="25" maskUnits="userSpaceOnUse">
+      <polyline points="25.9999695 1.9999809 -.0000153 1.9999809 -.0000153 25.0000076 25.9999695 25.0000076 25.9999695 1.9999809" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-216" y1="-48.0000003" x2="-215" y2="-48.0000003" gradientTransform="translate(-2577.1577606 -1449.3206635) rotate(-138.0127972) scale(13.4548127 -13.4548127)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="7.463353" y1="8.3036035" x2="18.9785202" y2="18.1340025" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <image width="28" height="25" transform="translate(-1 1)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAZCAYAAAAiwE4nAAAACXBIWXMAAAsSAAALEgHS3X78AAABPUlEQVRIid2W627DIAxGT25Nq93e/y27VVu6NC37gdEQAexMUzXNEkqa8HH8BQNtsEejvHeWQdoNwF8JLetGWmvo64CbXItua4ME0ACMQF/p74AF+AQuEXgVvQIcgCfgWaClKbgJ7A04AfNWYAN0wAF4kbZTgLPoFuBK4dPWgIMAH4B9pW+IVmAfeLcBqgKDuxF4lGuHXjSxZsLP5cpl7hPF7g5yr8HMuhT4U3dmbQ7Ya1kq0NjlainlgAO+SHa5DA3ATrT7XMJ339pSoMNX1xm/rrKlXQknmlnGCJVaBS74sp5yAgPwEumXVN8VhGEfHfHzYN28rwI6Au+5hHNzmGZpdWnSlRxC3mUtVHcaEIH0fG+B4cxLWziaTvgT4yzPV1HakOP5eJXf1uNpolLddz+A/9RfjK19t6zXfxxf8iNzMoN5iXkAAAAASUVORK5CYII="/>
+    </g>
+    <polygon points="7.75 19.5438995 3.5 12.0438995 7.75 4.5438995 16.25 4.5438995 20.5 12.0438995 16.25 19.5438995 7.75 19.5438995" fill="url(#linear-gradient)"/>
+    <polygon points="7.75 19.5438995 8.1849976 19.2973862 4.0746765 12.0438995 8.0413513 5.0438919 15.9586334 5.0438919 19.925293 12.0438919 15.9586182 19.0438919 7.75 19.0438995 7.75 19.5438995 8.1849976 19.2973862 7.75 19.5438995 7.75 20.0438919 16.5413208 20.0438919 21.0746765 12.0438957 16.5413361 4.0438995 7.4586182 4.0438995 2.925293 12.0438881 7.4586182 20.0438919 7.75 20.0438919 7.75 19.5438995"/>
+  </g>
+  <polygon points="8.5 18.353 5 12.1763 8.5 6 15.5 6 19 12.1763 15.5 18.353 8.5 18.353" fill="url(#linear-gradient-2)"/>
+</svg>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Dialog_Icons" data-name="Dialog Icons" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <mask id="mask" x="8" y="8" width="32.9540965" height="33.8521" maskUnits="userSpaceOnUse">
+      <polygon points="17.3700971 39.9976 8 30.6265 8 17.3726 17.3700971 8 30.6234968 8 39.9970966 17.3726 39.9970966 30.6265 30.6234968 39.9976 17.3700971 39.9976" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="13.9711475" y1="12.4833564" x2="22.6541165" y2="22.4555072" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f3403f"/>
+      <stop offset=".3789338" stop-color="#d02a27"/>
+      <stop offset=".7765172" stop-color="#b11713"/>
+      <stop offset="1" stop-color="#a6100c"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="30.4937069" y1="32.820253" x2="19.1467549" y2="18.5506796" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f33735"/>
+      <stop offset=".3789338" stop-color="#d0201c"/>
+      <stop offset=".7765172" stop-color="#b10c07"/>
+      <stop offset="1" stop-color="#a60500"/>
+    </linearGradient>
+  </defs>
+  <polygon points="17.3700971 39.9976 8 30.6265 8 17.3726 17.3700971 8 30.6234968 8 39.9970966 17.3726 39.9970966 30.6265 30.6234968 39.9976 17.3700971 39.9976" fill="#c00" stroke="#000" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="17.3700971 39.9976 8 30.6265 8 17.3726 17.3700971 8 30.6234968 8 39.9970966 17.3726 39.9970966 30.6265 30.6234968 39.9976 17.3700971 39.9976" fill="url(#linear-gradient)"/>
+      <polygon points="18.3300971 41.8521 8.9574973 32.4834 8.9574973 19.2285 18.3300971 9.855 31.583 9.855 40.9540965 19.2285 40.9540965 32.4834 31.583 41.8521 18.3300971 41.8521" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line x1="18.4540971" y1="18.7363" x2="29.8627968" y2="30.144" fill="none" stroke="#730a08" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.5"/>
+      <line x1="29.8627968" y1="18.7363" x2="18.4540971" y2="30.144" fill="none" stroke="#730a08" stroke-linecap="round" stroke-linejoin="round" stroke-width="7.5"/>
+    </g>
+    <g>
+      <line x1="18.4540971" y1="18.7363" x2="29.8627968" y2="30.144" fill="none" stroke="#f2f2f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <line x1="29.8627968" y1="18.7363" x2="18.4540971" y2="30.144" fill="none" stroke="#f2f2f2" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <g>
+      <line x1="17.8578971" y1="18.1426" x2="29.2680968" y2="29.5488" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <line x1="29.2680968" y1="18.1426" x2="17.8578971" y2="29.5488" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

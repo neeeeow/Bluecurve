@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="14.1271078" y1="13.9863636" x2="6.2037074" y2="6.0629632" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_2" data-name="Set 2">
+      <rect x="4.9527943" y="4.8123" width="10.0090997" height="10.0091" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+      <rect x="4.9527943" y="4.8123" width="10.0090997" height="10.0091" fill="#fff"/>
+      <rect x="5.7872943" y="5.6463" width="9.1745998" height="9.1751" fill="url(#linear-gradient)"/>
+      <rect x="4.1182943" y="3.9785" width="11.6779997" height="4.17" fill="#3056a1" mix-blend-mode="multiply" opacity=".75"/>
+    </g>
+  </g>
+</svg>

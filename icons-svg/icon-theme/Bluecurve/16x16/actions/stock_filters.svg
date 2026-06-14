@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="5.457" y="2.7266" width="6.0468953" height="6.0117" maskUnits="userSpaceOnUse">
+      <polygon points="9.8515953 2.7266 9.7851953 4.8594 11.5038953 6.1191 9.457 6.7158 8.79 8.7383 7.5888954 6.9795 5.457 6.9658 6.7626954 5.2832 6.1142954 3.2539 8.1210953 3.9717 9.8515953 2.7266" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="76.5204036" cy="-47.4971564" fx="76.5204036" fy="-47.4971564" r="4.4447075" gradientTransform="translate(-74.3139 32.6809) rotate(14.001552) scale(.9613629)" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#f9e917"/>
+      <stop offset="1" stop-color="#d68112"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="93.0115962" cy="-41.805905" fx="93.0115962" fy="-41.805905" r="4.6178724" gradientTransform="translate(-75.9807 18.7598) rotate(13.9931851) scale(.8391007)" gradientUnits="userSpaceOnUse"><stop offset=".410112" stop-color="#f9e917"/><stop offset="1" stop-color="#d68112"/></radialGradient>
+  </defs>
+  <polygon points="9.7851953 4.8594 9.8515953 2.7266 8.1210953 3.9717 6.1142954 3.2539 6.7626954 5.2832 5.457 6.9658 7.2333954 6.9775 3.7528955 13.5234 4.3612954 13.8457 7.8270954 7.3252 8.79 8.7383 9.457 6.7158 11.5038953 6.1191 9.7851953 4.8594" fill="none" stroke="#000" stroke-width="2"/>
+  <rect x="2.0234636" y="9.9558688" width="7.666416" height=".6883124" transform="translate(-5.9873304 10.6327931) rotate(-61.9864686)" fill="#9c3e0d"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="9.8515953 2.7266 9.7851953 4.8594 11.5038953 6.1191 9.457 6.7158 8.79 8.7383 7.5888954 6.9795 5.457 6.9658 6.7626954 5.2832 6.1142954 3.2539 8.1210953 3.9717 9.8515953 2.7266" fill="url(#radial-gradient)"/>
+      <polygon points="9.5380953 3.3164 9.4853953 4.959 10.8085953 5.9316 9.2323953 6.3916 8.7167953 7.9521 7.793 6.5938 6.1513954 6.5859 7.1562954 5.2871 6.6562954 3.7188 8.2020953 4.2734 9.5380953 3.3164" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+  <line x1="7.6776954" y1="2.6709" x2="6.6815954" y2=".25" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="4.793" y1="5.3926" x2="2.665" y2="5.4004" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="10.7108953" y1="7.7744" x2="11.6806953" y2="9.9199" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+  <line x1="11.4462953" y1="3.9863" x2="13.8710952" y2="1.9795" fill="none" stroke="#ff0" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

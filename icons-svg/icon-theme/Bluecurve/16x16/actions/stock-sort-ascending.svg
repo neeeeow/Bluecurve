@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Icons_-_16x16" data-name="Icons - 16x16" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="2.0338607" y1="301.3755886" x2="9.2079926" y2="312.4629016" gradientTransform="translate(0 316.4297) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset=".539326" stop-color="#a4aad9"/>
+      <stop offset=".6294817" stop-color="#9ca2d1"/>
+      <stop offset=".7675427" stop-color="#868cbe"/>
+      <stop offset=".9354859" stop-color="#646a9e"/>
+      <stop offset="1" stop-color="#555b91"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="4.1115453" y1="301.9986793" x2="7.6017809" y2="307.3926886" gradientTransform="translate(0 316.4297) scale(1 -1)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#555b91"/><stop offset=".539326" stop-color="#a4aad9"/><stop offset=".6294817" stop-color="#9ca2d1"/><stop offset=".7675427" stop-color="#868cbe"/><stop offset=".9354859" stop-color="#646a9e"/><stop offset="1" stop-color="#555b91"/></linearGradient>
+  </defs>
+  <g>
+    <rect x="5.9584974" y="2.4297" width="1.333" height="10.9336" fill="#999" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="10.1298973 10.5156 6.6454974 14 3.1602 10.5156 10.1298973 10.5156" fill="#999" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <rect x="5.9984974" y="2.4297" width="1.3335026" height="10.9336" fill="url(#linear-gradient)"/>
+    <polygon points="10.1298973 10.5156 6.6454974 14 3.1602 10.5156 10.1298973 10.5156" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g>
+    <path d="M13.0814972,6.6504h.8819v-3.9004h-.75l-1.0381.4805.1504.6836.7436-.3536h.0122v3.0899Z"/>
+    <path d="M12.1996973,14.3232c.1196.0186.2158.0127.396,0,.2817-.0117.564-.0957.7739-.2392.2578-.168.4258-.4268.4917-.7207l-.0117-.0059c-.1802.1807-.4321.2822-.792.2822-.6601,0-1.2119-.456-1.2119-1.2177s.6118-1.4043,1.4697-1.4043c1.002,0,1.4761.7685,1.4761,1.6797,0,.8164-.2578,1.4043-.6777,1.7949-.3721.3418-.8882.5215-1.5005.5459-.1499.0117-.3057.0058-.4136,0v-.7149ZM13.2855972,11.6836c-.3061,0-.5341.2764-.5341.6846,0,.3359.186.624.5522.624.2578,0,.4258-.1143.5156-.2529.0303-.0596.042-.1192.042-.2334.0064-.4141-.1557-.8223-.5698-.8223h-.0059Z"/>
+  </g>
+  <rect x="13.1654972" y="8.1504" width=".6665028" height=".667"/>
+  <rect x="13.1654972" y="9.4844" width=".6665028" height=".666"/>
+</svg>

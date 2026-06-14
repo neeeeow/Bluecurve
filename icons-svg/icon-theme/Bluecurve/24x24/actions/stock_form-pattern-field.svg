@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <radialGradient id="New_Gradient_66" data-name="New Gradient 66" cx="-281.76716" cy="294.4094434" fx="-281.76716" fy="294.4094434" r="4.6468419" gradientTransform="translate(-291.6631 291.6630926) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#328e36"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+    <mask id="mask" x="-.1113" y="8.6084" width="6.1113" height="6.3916" maskUnits="userSpaceOnUse">
+      <polyline points="2.9434 13.6543 2.9434 15 5.9843974 12.6123 2.9434 10.2227 2.9434 11.6035" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="3.3341682" cy="10.4114034" fx="3.3341682" fy="10.4114034" r="2.5201836" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-340.7146491" cy="351.2946575" fx="-340.7146491" fy="351.2946575" r="4.9486216" gradientTransform="translate(-312.9647136 318.0814) rotate(90) scale(.8948 -.8948)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon points="19.998 17 19.998 9 18.998 9 5 9 5 16 5 17 19.998 17" fill="#555"/>
+      <polygon points="19.998 17 19.998 9 18.998 9 5 9 5 16 5 17 19.998 17" fill="none" stroke="#555" stroke-width="2"/>
+    </g>
+    <rect x="5" y="9" width="15" height="7.998" fill="silver"/>
+    <rect x="6" y="10" width="13.999" height="6.999" fill="#fff"/>
+  </g>
+  <g>
+    <polygon points="2.9434 13.6543 2.9434 15 5.9843974 12.6123 2.9434 10.2227 2.9434 11.6035 2.9434 13.6543" fill="url(#New_Gradient_66)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <polyline points="2.9434 13.6543 2.9434 15 5.9843974 12.6123 2.9434 10.2227 2.9434 11.6035" fill="url(#radial-gradient)"/>
+        <polyline points="3.1992 13.4268 3.1992 14.5078 6 12.2939 -.1113 8.6084" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

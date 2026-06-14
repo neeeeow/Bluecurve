@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <radialGradient id="New_Gradient_112" data-name="New Gradient 112" cx="-283.6014666" cy="293.7753348" fx="-283.6014666" fy="293.7753348" r="3.8761089" gradientTransform="translate(-291.6631 291.6630926) rotate(90) scale(1 -1)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#328e36"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+    <mask id="mask" x="-.2714" y="6.9878" width="5.0973" height="5.3314" maskUnits="userSpaceOnUse">
+      <polyline points="2.2766 11.1969 2.2766 12.3192 4.8131 10.3276 2.2766 8.3342 2.2766 9.4863" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="2.6025402" cy="8.4916075" fx="2.6025402" fy="8.4916075" r="2.1021865" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="-341.497738" cy="352.7214545" fx="-341.497738" fy="352.7214545" r="4.1275504" gradientTransform="translate(-314.6479136 316.3982) rotate(90) scale(.8948 -.8948)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#c9ffc9"/>
+      <stop offset=".80899" stop-color="#00cd00"/>
+      <stop offset="1" stop-color="#00cd00"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <polygon points="17.3353 13.5703 17.3353 7.3146 15.6676 7.3146 3.992 7.3146 3.992 13.1531 3.992 13.5703 17.3353 13.5703" fill="#555"/>
+      <polygon points="17.3353 13.5703 17.3353 7.3146 15.6676 7.3146 3.992 7.3146 3.992 13.1531 3.992 13.5703 17.3353 13.5703" fill="none" stroke="#555" stroke-width="2"/>
+    </g>
+    <rect x="3.992" y="7.3146" width="13.3452" height="6.2538" fill="silver"/>
+    <rect x="4.8259" y="8.1485" width="12.5101" height="5.4206" fill="#fff"/>
+  </g>
+  <g>
+    <polygon points="2.2766 11.1969 2.2766 12.3192 4.8131 10.3276 2.2766 8.3342 2.2766 9.4863 2.2766 11.1969" fill="url(#New_Gradient_112)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <g mask="url(#mask)">
+      <g>
+        <polyline points="2.2766 11.1969 2.2766 12.3192 4.8131 10.3276 2.2766 8.3342 2.2766 9.4863" fill="url(#radial-gradient)"/>
+        <polyline points="2.4897 11.0069 2.4897 11.9086 4.8259 10.0619 -.2714 6.9878" fill="url(#radial-gradient-2)"/>
+      </g>
+    </g>
+  </g>
+</svg>

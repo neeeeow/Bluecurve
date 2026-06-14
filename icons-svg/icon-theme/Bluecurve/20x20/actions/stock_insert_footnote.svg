@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <mask id="mask" x="1.2692" y="1.4236" width="12.8247" height="16.8754" maskUnits="userSpaceOnUse">
+      <path d="M9.8714,17.296l-7.6016.003-.0006-14.8748,10.8247-.0006-.0044,12.1992c0,1.2736-1.7208,2.6732-3.2181,2.6732Z" fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </mask>
+    <linearGradient id="New_Gradient_57" data-name="New Gradient 57" x1="3.7114477" y1="1.7207688" x2="11.6818764" y2="18.0625694" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_93" data-name="New Gradient 93" cx="-19.2129978" cy="61.8270643" fx="-19.2129978" fy="61.8270643" r="3.6340761" gradientTransform="translate(29.284 -38.9693) scale(1.0371 .8602)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <mask id="mask-1" x="2.2692" y="2.4236" width="10.843" height="14.9182" maskUnits="userSpaceOnUse">
+      <path d="M9.8714,17.296l-7.6016.003-.0006-14.8748,10.8247-.0006-.0044,12.1992c0,1.2736-1.7208,2.6732-3.2181,2.6732Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_55" data-name="New Gradient 55" x1="3.7114477" y1="1.7207688" x2="11.6818764" y2="18.0625694" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_56" data-name="New Gradient 56" cx="-19.2129978" cy="61.8270643" fx="-19.2129978" fy="61.8270643" r="3.6340761" gradientTransform="translate(29.284 -38.9693) scale(1.0371 .8602)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".331467" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g>
+      <g mask="url(#mask)">
+        <g>
+          <path d="M9.8714,17.296l-7.6016.003-.0006-14.8748,10.8247-.0006-.0044,12.1992c0,1.2736-1.7208,2.6732-3.2181,2.6732Z" fill="url(#New_Gradient_57)" fill-rule="evenodd"/>
+          <path d="M9.3582,17.3418s1.8425-.0593,1.8425-1.754c1.8944,0,1.9115-1.3719,1.9115-1.3719l-.0006,3.1259h-3.7534Z" fill="url(#New_Gradient_93)" fill-rule="evenodd"/>
+          <path d="M9.8714,17.296l-7.6016.003-.0006-14.8748,10.8247-.0006-.0044,12.1992c0,1.2736-1.7208,2.6732-3.2181,2.6732Z" fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+        </g>
+      </g>
+      <g mask="url(#mask-1)">
+        <g>
+          <path d="M9.8714,17.296l-7.6016.003-.0006-14.8748,10.8247-.0006-.0044,12.1992c0,1.2736-1.7208,2.6732-3.2181,2.6732Z" fill="url(#New_Gradient_55)" fill-rule="evenodd"/>
+          <path d="M9.3582,17.3418s1.2805-.427,1.2805-2.1223c1.8956,0,2.4735-1.0036,2.4735-1.0036l-.0006,3.1259h-3.7534Z" fill="url(#New_Gradient_56)" fill-rule="evenodd"/>
+        </g>
+      </g>
+    </g>
+    <g>
+      <line x1="3.7494" y1="6.1617" x2="7.8267" y2="6.1617" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="7.6446" y1="4.4964" x2="11.7206" y2="4.4964" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="9.217" y1="6.1617" x2="11.7206" y2="6.1617" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="3.6468" y1="14.492" x2="9.6361" y2="14.492" fill="none" stroke="#a70000" stroke-linecap="round" stroke-miterlimit="3.8637"/>
+      <line x1="3.7494" y1="7.8264" x2="5.6959" y2="7.8264" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="6.8394" y1="7.8264" x2="8.7864" y2="7.8264" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="9.5586" y1="7.8264" x2="11.7206" y2="7.8264" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="3.7494" y1="11.1663" x2="6.1589" y2="11.1663" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="7.5493" y1="11.1663" x2="11.7206" y2="11.1663" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="3.7494" y1="12.8308" x2="5.6959" y2="12.8308" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="6.8394" y1="12.8308" x2="8.7864" y2="12.8308" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="9.5586" y1="12.8308" x2="11.7206" y2="12.8308" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="3.7494" y1="4.4964" x2="5.8809" y2="4.4964" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="3.7494" y1="9.4911" x2="6.9311" y2="9.4911" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <line x1="7.8193" y1="9.4911" x2="11.8751" y2="9.4911" fill="none" stroke="#999" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    </g>
+  </g>
+  <g>
+    <polyline points="12.2783 6.1617 18.4289 6.1617 18.4289 14.492 15.4746 14.492" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="17.0367 15.313 17.0367 16.3736 14.6407 14.492 17.0367 12.6092 17.0367 13.6972"/>
+  </g>
+</svg>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="14.8321875" y1="27.13495" x2="14.8321875" y2="3.39242" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="1.4936878" y="1.7918" width="26.6769993" height="26.677" maskUnits="userSpaceOnUse">
+      <rect x="1.4936878" y="1.7918" width="26.6769993" height="26.677" fill="url(#White_Black)"/>
+    </mask>
+  </defs>
+  <path d="M5.5343877,10.3069l-.7621,2.3082h-.9782l2.4917999-7.3362h1.1437l2.5021999,7.3362h-1.012l-.7842-2.3082h-2.6011999ZM7.9401877,9.567l-.7295-2.1115c-.1524-.4781-.2618-.9144-.3686-1.3391h-.0339c-.0977.4247-.2174.882-.3581877,1.3287l-.719,2.1219h2.2091877Z"/>
+  <g mask="url(#mask)">
+    <g>
+      <line x1="7.3435877" y1="22.7362" x2="7.3435877" y2="15.6084" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <polyline points="8.6565877 22.7884 10.3525876 22.7884 7.3435877 26.6205 4.332 22.7884 6.0722877 22.7884"/>
+      <line x1="15.3466875" y1="22.7362" x2="15.3466875" y2="4.9376" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <polyline points="16.6596875 22.7884 18.3556874 22.7884 15.3466875 26.6205 12.3350876 22.7884 14.0753875 22.7884"/>
+      <line x1="23.3497873" y1="22.7362" x2="23.3497873" y2="4.9376" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+      <polyline points="24.6627873 22.7884 26.3587872 22.7884 23.3497873 26.6205 20.3381874 22.7884 22.0784873 22.7884"/>
+    </g>
+  </g>
+</svg>

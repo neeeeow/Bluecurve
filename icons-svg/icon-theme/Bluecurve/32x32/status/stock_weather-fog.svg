@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Layer_1" data-name="Layer 1" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <radialGradient id="radial-gradient" cx="45.5792342" cy="35.9467347" fx="45.5792342" fy="35.9467347" r="14.0213185" gradientTransform="translate(-29.8876207 -15.6526) scale(.8957 .874)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".331467" stop-color="#f7f7f7"/>
+      <stop offset=".561798" stop-color="#d6d6d6"/>
+      <stop offset=".865173" stop-color="#8c8c8c"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cy="41.0753749" fy="41.0753749" r="14.0213337" cx="45.5792342" fx="45.5792342" gradientTransform="translate(-29.8876207 -15.6526) scale(.8957 .874)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".331467" stop-color="#f7f7f7"/><stop offset=".561798" stop-color="#d6d6d6"/><stop offset=".865173" stop-color="#8c8c8c"/></radialGradient>
+    <radialGradient id="radial-gradient-3" cy="30.4761369" fy="30.4761369" r="14.0213413" cx="45.5792342" fx="45.5792342" gradientTransform="translate(-29.8876207 -15.6526) scale(.8957 .874)" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset=".331467" stop-color="#f7f7f7"/><stop offset=".561798" stop-color="#d6d6d6"/><stop offset=".865173" stop-color="#8c8c8c"/></radialGradient>
+  </defs>
+  <path d="M27.673,18.5123s-2.5528-1.8926-4.9004-1.8926c-2.3477,0-12.6602,3.6855-14.7012,3.6855s-5.0019-1.7929-5.0019-1.7929v-2.6885s2.8584,1.792,5.1035,1.792c2.2461,0,11.7402-3.7852,14.498-3.6865,1.836.0664,5.002,1.8945,5.002,1.8945v2.6885Z" fill="url(#radial-gradient)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+  <path d="M27.673,22.9937s-2.5528-1.8916-4.9004-1.8916c-2.3477,0-12.6602,3.6856-14.7012,3.6856s-5.0019-1.794-5.0019-1.794v-2.6885s2.8584,1.793,5.1035,1.793c2.2461,0,11.7402-3.7851,14.498-3.6865,1.836.0674,5.002,1.8935,5.002,1.8935v2.6885Z" fill="url(#radial-gradient-2)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+  <path d="M27.673,13.731s-2.5528-1.8926-4.9004-1.8926c-2.3477,0-12.6602,3.6856-14.7012,3.6856s-5.0019-1.793-5.0019-1.793v-2.6894s2.8584,1.7929,5.1035,1.7929c2.2461,0,11.7402-3.78611,14.498-3.68651,1.836.0664,5.002,1.89361,5.002,1.89361v2.6894Z" fill="url(#radial-gradient-3)" fill-rule="evenodd" stroke="#8c8c8c" stroke-width=".75"/>
+</svg>

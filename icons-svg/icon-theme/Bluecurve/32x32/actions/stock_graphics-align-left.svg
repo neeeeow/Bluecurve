@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="8.7599869" y="7.7000149" width="11.1599995" height="5.9399997" maskUnits="userSpaceOnUse">
+      <polyline points="19.7112198 7.9466248 9.0404053 7.9466248 9.0404053 13.2819824 19.7112198 13.2819824 19.7112198 7.9466248" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="8.7599945" y="18.32001" width="16.5599993" height="5.9399997" maskUnits="userSpaceOnUse">
+      <polyline points="25.0465775 18.6173706 9.0404053 18.6173706 9.0404053 23.9528198 25.0465775 23.9528198 25.0465775 18.6173706" fill="#fff"/>
+    </mask>
+    <linearGradient id="White_Black" data-name="White, Black" x1="325.6288487" y1="-231.94975" x2="320.2934539" y2="-231.94975" gradientTransform="translate(328 -216) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="19.7112198 7.9466248 9.0404053 7.9466248 9.0404053 13.2819824 19.7112198 13.2819824 19.7112198 7.9466248"/>
+    <path d="M9.0404053,7.9466248h10.6708145v5.3353577h-10.6708145v-5.3353577M20.7111969,6.9465637h-12.6707687v7.3353882h12.6707687v-7.3353882"/>
+    <g mask="url(#mask)">
+      <image width="62" height="33" transform="translate(8.7599869 13.6400146) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAAfCAYAAABUBsXUAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAgElEQVRYhe2P2wqAIBQEt7x8fx/Tx0XqOT0oXaCg992BgRUUmWlZ3ecJSBHIwxjGDrcdnzuFbo79bW3drQDVgL0CpQKlAc26Ztc+9ef59c6L5j/ufPw3gxBFs6BoFhTNgqJZUDQLimZB0SwomgVFs6BoFhTNgqJZUDQLimaBMvoA7nJZKt4wJqsAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="25.0465775 18.6173706 9.0404053 18.6173706 9.0404053 23.9528198 25.0465775 23.9528198 25.0465775 18.6173706"/>
+    <path d="M9.0404053,18.6173706h16.0061722v5.3354492H9.0404053v-5.3354492M26.0465775,17.6173706H8.0404053v7.3353577h18.0061722v-7.3353577"/>
+    <g mask="url(#mask-1)">
+      <image width="92" height="33" transform="translate(8.7599945 24.2600098) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFsAAAAdCAYAAADFNxDoAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAmElEQVRoge3QMQ7EIAwAQQP//wz/A19xIuKQOKXaakeK7CSutvTes5QStdZorT1z7evZv+3/zm+3GREx54wxxjP3fZ+ZGZn5s5/vaz/n2/u3N7f7fze3u28FIYwNMjbI2CBjg4wNMjbI2CBjg4wNMjbI2CBjg4wNMjbI2CBjg4wNMjbI2CBjg4wNMjbI2CBjg4wNMjbI2KAPL2zC4xxzGMEAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <rect x="3.705" y="3.9451" width="2.6676974" height="24.0093" fill="url(#White_Black)"/>
+</svg>

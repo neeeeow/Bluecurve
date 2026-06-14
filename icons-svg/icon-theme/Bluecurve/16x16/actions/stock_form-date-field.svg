@@ -1,0 +1,86 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="3.8957249" y1="5.2265094" x2="13.9172742" y2="14.6408273" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="3.2287249" y1="4.5600094" x2="13.2502742" y2="13.9743273" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <mask id="mask" x="2.1399841" y="3.6599998" width="11.0397339" height="10.0065079" maskUnits="userSpaceOnUse">
+      <polyline points="12.5126953 13.0000153 2.3329926 13.0000153 2.3329926 3.9999886 12.5126953 3.9999886 12.5126953 13.0000153" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="2.1399841" y="3.6599998" width="10.6199995" height="2.1599999" maskUnits="userSpaceOnUse">
+      <path d="M12.5126953,4.5834999H3.1659851v.6250038h9.3467102v-.6250038M2.3329926,3.9999886h0v1.5835037-.3749886h.0830231v-.6250038h-.0830231v-.5835114" fill="#fff"/>
+    </mask>
+    <mask id="mask-2" x="2.1399841" y="4.9200004" width="10.6199995" height="1.2599999" maskUnits="userSpaceOnUse">
+      <path d="M2.4160156,5.2085037h-.0830231v.7079887h.0830231v-.7079887M12.5126953,5.2085037H3.1659851v.7079887h9.3467102v-.7079887" fill="#fff"/>
+    </mask>
+    <mask id="mask-3" x="2.1399994" y="4.3799991" width="1.2599999" height="1.08" maskUnits="userSpaceOnUse">
+      <polyline points="3.1659851 4.5834999 2.4160156 4.5834999 2.4160156 5.2085037 3.1659851 5.2085037 3.1659851 4.5834999" fill="#fff"/>
+    </mask>
+    <mask id="mask-4" x="2.1399994" y="4.9200004" width="1.2599999" height="1.2599999" maskUnits="userSpaceOnUse">
+      <polyline points="3.1659851 5.2085037 2.4160156 5.2085037 2.4160156 5.9164925 3.1659851 5.9164925 3.1659851 5.2085037" fill="#fff"/>
+    </mask>
+    <mask id="mask-5" x="2.1399841" y="3.660002" width="10.6199995" height="1.2599999" maskUnits="userSpaceOnUse">
+      <polyline points="12.5126953 3.9999886 2.3329926 3.9999886 2.3329926 4.5834999 2.4160156 4.5834999 3.1659851 4.5834999 12.5126953 4.5834999 12.5126953 3.9999886" fill="#fff"/>
+    </mask>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_2" data-name="Set 2">
+      <g mix-blend-mode="color">
+        <rect x="3" y="4.6665" width="10.1796964" height="9" fill="url(#White_Black)" opacity=".5" stroke="#000" stroke-width="2"/>
+        <rect x="2.333" y="4" width="10.1796965" height="9" fill="url(#White_Black-2)" stroke="#000" stroke-width="2"/>
+        <g>
+          <path d="M3.0000153,5.9585152h-.5839996v7.0414619h.7499695v-6.3749657h-.1659698v-.6664963M2.3329926,3.9999886h0v9.0000267h10.1797028v-6.3750038H4.0839844v6.3750038h-.7499847v-6.3750038h-.1680145v6.3749657h-.7499695v-7.0414619h-.0830231v-1.9585266" fill="#e5e5e5"/>
+          <g mask="url(#mask)">
+            <g>
+              <path d="M3.1659851,5.9585152h-.1659698v.6664963h.1659698v-.6664963M3.3339996,5.9585152h-.1680145v.6664963h.1680145v-.6664963M12.5126953,5.9585152H4.0839844v.6664963h8.4287109v-.6664963" fill="#fff"/>
+              <polyline points="3 8.625 13.1797028 8.625 13.1797028 7.875 3 7.875" fill="#fff"/>
+              <polyline points="10.6670074 5.9165001 10.6670074 13.6665001 11.4170074 13.6665001 11.4170074 5.9165001" fill="#fff"/>
+              <polyline points="8.0010071 5.9165001 8.0010071 13.6665001 8.7510071 13.6665001 8.7510071 5.9165001" fill="#fff"/>
+              <polyline points="5.3339996 5.9165001 5.3339996 13.6665001 6.0839996 13.6665001 6.0839996 5.9165001" fill="#fff"/>
+              <polyline points="4.0839844 5.9585152 3.3339996 5.9585152 3.3339996 6.6250114 3.3339996 13.0000153 4.0839844 13.0000153 4.0839844 6.6250114 4.0839844 5.9585152" fill="#fff"/>
+              <polyline points="3.0000153 5.2499962 13.179718 5.2499962 13.179718 4.4999847 3.0000153 4.4999847 3.0000153 5.2499962" fill="#fff"/>
+              <polyline points="2.3329926 8.0834999 12.5126953 8.0834999 12.5126953 7.3334999 2.3329926 7.3334999" fill="#999"/>
+              <polyline points="3 12.75 13.1797028 12.75 13.1797028 12 3 12" fill="#fff"/>
+              <polyline points="2.3329926 12.0834999 12.5126953 12.0834999 12.5126953 11.3334999 2.3329926 11.3334999" fill="#999"/>
+              <polyline points="3 10.75 13.1797028 10.75 13.1797028 10 3 10" fill="#fff"/>
+              <polyline points="2.3329926 10.0834999 12.5126953 10.0834999 12.5126953 9.3334999 2.3329926 9.3334999" fill="#999"/>
+              <path d="M3.1659851,5.9164925h-.7499695v.0420227h.7499695v-.0420227M2.4160156,5.9164925h-.0830231v.0420227h.0830231v-.0420227M12.5126953,5.9164925H3.1659851v.0420227h9.3467102v-.0420227" fill="#999"/>
+              <polyline points="10.0010071 5.9165001 10.0010071 13 10.7510071 13 10.7510071 5.9165001" fill="#999"/>
+              <polyline points="7.3339996 5.9165001 7.3339996 13 8.0839996 13 8.0839996 5.9165001" fill="#999"/>
+              <polyline points="4.6670074 5.9165001 4.6670074 13 5.4170074 13 5.4170074 5.9165001" fill="#999"/>
+              <path d="M3.1659851,5.9164925h-.7499695v.0420227h.7499695v-.0420227M3.1659851,5.9585152h-.1659698v.6664963h.1659698v-.6664963M3.0000153,5.9585152h-.5839996v7.0414619h.7499695v-6.3749657h-.1659698v-.6664963" fill="#fff" opacity=".5019608"/>
+              <g mask="url(#mask-1)">
+                <g>
+                  <path d="M12.5126953,4.5834999H3.1659851v.6250038h9.3467102v-.6250038M2.3329926,3.9999886h0v1.5835037-.3749886h.0830231v-.6250038h-.0830231v-.5835114" fill="none"/>
+                  <image width="59" height="12" transform="translate(2.1399841 5.8199997) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAALCAYAAADbYxWQAAAACXBIWXMAAD2DAAA9gwGH6AkLAAACQ0lEQVRIiY2V263cMAxEz9CuJv2kn7SRRtKdOfkg9dq7mxsDi7UlQdDhDEf68+uHkQCBhBDnM759jBqDXeN2TTtrpsedCTYmwVnjzl6fuH/73Pjm+B579N4+z/Lu+fkb3Yp7QQw47VCvT4Pg9RN9CIGNSIxRCDuRwajHARKIo2w1FwhjB6jW1ILxnmiW+XvAGwU6lIOp5Ac42zU7FLK7KJ6QsgtCFHTmrKFTwHMCGqQGVDbggywsVYE00PRf6t2Ka8G1atOaegEcG6rV027LAjshQSmsRNEAKYgH57UBGiJwGimwqMK0gio9F2h9fQt4Sw23qTcq/FU9Dxee/YYbWBtkWZEoW45NHQ/K6wsgZIE5Z3uYaKV2e+o8zz/h4iqgTT29KrY/opp6U00jKFD1iplWtFQthhAPcDVgQCTOmLW0jBrIBPJTgIc9o5zwH+rdRABxqLfgtAo1Q4RDNZf3Vp+5FSJRCPxAXNgP5NWAbT2DVCDYKKITtvtOpehhT3uK8J16t3QxQ2XAvUtMwdFzs9cK7IDMTcWkQAHHA0OpALIVokG6jyVhr4Cr93bDDBeW9T+oN20pYtrz83WwXQOz1/QCmRDdgjkgaBNd26EqPOj3Wli2tDyLXLb8pN7+/0m52K+D2NR6k5Yq042ExH36AZldzVbnAPQDEZDu3ik0deyXClrQDVFb7+pRPciWnG8AS7kIVlL25h+vOa9A6QubZKpWAuTKF0bWVE+RLguOIk2lli0rtVipOS71HXAWf+TA16P+BYQHymQRmrr9AAAAAElFTkSuQmCC"/>
+                  <path d="M12.5126953,4.5834999H3.1659851v.6250038h9.3467102v-.6250038M2.3329926,3.9999886h0v1.5835037-.3749886h.0830231v-.6250038h-.0830231v-.5835114" fill="none"/>
+                </g>
+              </g>
+              <g mask="url(#mask-2)">
+                <g>
+                  <path d="M2.4160156,5.2085037h-.0830231v.7079887h.0830231v-.7079887M12.5126953,5.2085037H3.1659851v.7079887h9.3467102v-.7079887" fill="none"/>
+                  <image width="59" height="7" transform="translate(2.1399841 6.1800003) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAADCAYAAAA3MJf9AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAhUlEQVQokd2Qyw1CQQwDxytKoTIq4Uo99JfhkOwDgRB3opXsWPl5c7ucTQJkv+bDPkPEoQ4IOHnju2ZVo9Wa1XM2d/ooKD9qO/eJs/tbXO/klLUIgWwzL6byZlChq/vwjdmHjSEkr5pF1kKLsNoAi1gYjpkiMa0pSWZLek36Iw/9h8G/jgeBK2wFCHCHKwAAAABJRU5ErkJggg=="/>
+                  <path d="M2.4160156,5.2085037h-.0830231v.7079887h.0830231v-.7079887M12.5126953,5.2085037H3.1659851v.7079887h9.3467102v-.7079887" fill="none"/>
+                </g>
+              </g>
+              <g mask="url(#mask-3)">
+                <image width="7" height="6" transform="translate(2.1399994 5.4599991) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAJ0lEQVQImSXHwREAEBAEsCzKMuq8sqiIh/xi17yn1oWRDEn8tE4aeLf/BWQFcrR6AAAAAElFTkSuQmCC"/>
+              </g>
+              <g mask="url(#mask-4)">
+                <image width="7" height="7" transform="translate(2.1399994 6.1800003) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAMAAAADCAYAAABWKLW/AAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAIElEQVQImWPY3mzwf0eL4X8GBgYGFkYmZgZGRkYGDAAAp4QE4ynEiUkAAAAASUVORK5CYII="/>
+              </g>
+              <g mask="url(#mask-5)">
+                <image width="59" height="7" transform="translate(2.1399841 4.920002) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAAHCAYAAACsodXrAAAACXBIWXMAAD2DAAA9gwGH6AkLAAABc0lEQVQ4jYWU23XEIAxE7yiuJm2ksLSTzlKFNfmQeKyP1+EsK8DGcJkR+v35shQgAQIJIRD031bcP4PdfWPnFnPFHP0TssZX++znJ86z5nR0nus7Y8w55+1rvSuf3+hQHEiCDVAaUDdwUGATLsHRUa8VYQslOIQM9OtKQ4DTKHpc7jM1BmRjBWBkYQkRmEQIo97HfTkUH6BYgFe40fQFrsHsQBMswCdYOIVCc8o4hwJxsQNqEGQUxunaDxsY0eB1WLWpUR/hjg1O/eE3tvRlp1OxwE7kbKUSoiAZqiVTKbRDGlFAxgUpY6LaA0jthk4blwyP6m3Kxf9wnXMLbsSLJVG/omW5cAFqQUqGqRYNWcBgtAPfqudH9Uq5aLg+0mlL3SnX+ea4wHXN86IUW04B4cq3F4jujwut7WgZXGnyqh4TUvS8G8ANbs+5eFDuepkIshatxag21AXCsGLl1LDiXR+3JRuqQIXdFu1LZbpDm4I34v0B0R1iYh2GeuoAAAAASUVORK5CYII="/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+      <rect x="2.333" y="5.9165" width="2.709" height="1.792" fill="#333" mix-blend-mode="multiply" opacity=".5"/>
+      <rect x="10.376" y="11.7085" width="2.458" height="1.458" fill="#333" mix-blend-mode="multiply" opacity=".5"/>
+      <rect x="7.709" y="7.7085" width="2.458" height="1.7915" fill="#fff" opacity=".75" stroke="red"/>
+    </g>
+  </g>
+</svg>

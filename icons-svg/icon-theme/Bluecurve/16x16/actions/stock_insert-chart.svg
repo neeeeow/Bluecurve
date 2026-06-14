@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_1" data-name="Set 1" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="2.3002998" y="2.9300946" width="13.1641362" height="11.3618439" maskUnits="userSpaceOnUse">
+      <path d="M8.2733957,4.2397c3.1866043.19,5.6856043,2.2247,5.5790999,4.5459-.1064,2.3204-2.7792999,4.0464-5.9676998,3.857-3.1894999-.19-5.6894999-2.2251-5.5810999-4.5449.1065-2.3199,2.7803041-4.0479,5.9696998-3.858Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="2.7990242" y1="11.0395902" x2="13.4549592" y2="5.7953191" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#2c6eb2"/>
+      <stop offset=".213483" stop-color="#fff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="1.7957195" y1="13.7193225" x2="14.7393963" y2="8.251726" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".0659937" stop-color="#d7d9e1"/>
+      <stop offset=".1372393" stop-color="#b5b8c7"/>
+      <stop offset=".2162204" stop-color="#989bb1"/>
+      <stop offset=".3033519" stop-color="#80849f"/>
+      <stop offset=".4021126" stop-color="#6e7291"/>
+      <stop offset=".5192141" stop-color="#616687"/>
+      <stop offset=".672578" stop-color="#5a5f81"/>
+      <stop offset="1" stop-color="#585d80"/>
+    </linearGradient>
+    <mask id="mask-1" x="2.3002998" y="2.6454772" width="13.1911431" height="10.1423993" maskUnits="userSpaceOnUse">
+      <path d="M8.2733957,3.832c3.1866043.1685,5.6856043,1.9771,5.5790999,4.0391-.1064,2.0615-2.7792999,3.5952-5.9676998,3.4268-3.1894999-.1695-5.6894999-1.9771-5.5810999-4.0386.1065-2.0606,2.7803041-3.5962,5.9696998-3.4273Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="linear-gradient-3" x1="-.0280504" y1="12.8057009" x2="11.0266199" y2="5.6592583" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".193443" stop-color="#c3dffc"/>
+      <stop offset=".5249655" stop-color="#62abf7"/>
+      <stop offset=".674157" stop-color="#3c97f6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-4" x1="3.2150499" y1="12.7629029" x2="12.8111963" y2="8.5785449" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".5218671" stop-color="#a7abcf"/>
+      <stop offset=".780899" stop-color="#8187ba"/>
+    </linearGradient>
+  </defs>
+  <path d="M13.8524956,7.8711c.1065044-2.062-2.3924956-3.8706-5.5790999-4.0391-3.1893957-.1689-5.8631999,1.3667-5.9696998,3.4273-.0078.1797.002.3569.0303041.5307-.0156041.1021-.0254041.2032-.0303041.3077-.1084,2.3198,2.3915999,4.3549,5.5810999,4.5449,3.1883999.1894,5.8612999-1.5366,5.9676998-3.857.0098-.2104-.0029-.4194-.0361-.624.0166044-.0957.0313-.1929.0361-.2905Z" fill="#2c6eb2" fill-rule="evenodd" stroke="#000" stroke-width="2"/>
+  <g mask="url(#mask)">
+    <g>
+      <path d="M8.2733957,4.2397c3.1866043.19,5.6856043,2.2247,5.5790999,4.5459-.1064,2.3204-2.7792999,4.0464-5.9676998,3.857-3.1894999-.19-5.6894999-2.2251-5.5810999-4.5449.1065-2.3199,2.7803041-4.0479,5.9696998-3.858Z" fill="url(#linear-gradient)" fill-rule="evenodd"/>
+      <polygon points="4.166 8.4219 4.1776959 11.918 11.3017957 14 15 8.3491 4.166 8.4219" fill="url(#linear-gradient-2)" fill-rule="evenodd" stroke="#585d80" stroke-width=".5"/>
+      <polygon points="7.9755958 8.3491 9.0927957 3.3032 14.6884956 6.2349 7.9755958 8.3491" fill="#ff7845" fill-rule="evenodd" stroke="#000" stroke-width=".5"/>
+    </g>
+  </g>
+  <g mask="url(#mask-1)">
+    <g>
+      <path d="M8.2733957,3.832c3.1866043.1685,5.6856043,1.9771,5.5790999,4.0391-.1064,2.0615-2.7792999,3.5952-5.9676998,3.4268-3.1894999-.1695-5.6894999-1.9771-5.5810999-4.0386.1065-2.0606,2.7803041-3.5962,5.9696998-3.4273Z" fill="url(#linear-gradient-3)" fill-rule="evenodd"/>
+      <polygon points="7.9755958 7.4204 3.6825959 10.5264 11.3017957 12.5034 15 7.4824 7.9755958 7.4204" fill="url(#linear-gradient-4)" fill-rule="evenodd" stroke="#8187ba" stroke-width=".5"/>
+      <polygon points="7.9755958 7.4824 14.8144956 8.0459 13.5731956 5.1919 7.9755958 7.4824" fill="#65d081" fill-rule="evenodd" stroke="#4b995f" stroke-width=".5"/>
+      <polygon points="7.9755958 7.4824 9.0927957 3 14.6884956 5.604 7.9755958 7.4824" fill="#ff7845" fill-rule="evenodd" stroke="#cc6037" stroke-width=".5"/>
+    </g>
+  </g>
+</svg>

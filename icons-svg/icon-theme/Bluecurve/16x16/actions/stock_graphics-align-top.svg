@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="2.7599945" y="4.699999" width="3.4199999" height="5.5799998" maskUnits="userSpaceOnUse">
+      <polyline points="5.9638977 5.0010071 3.0225067 5.0010071 3.0225067 9.9335938 5.9638977 9.9335938 5.9638977 5.0010071" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="8.6999817" y="4.6999967" width="3.4199999" height="8.6399996" maskUnits="userSpaceOnUse">
+      <polyline points="11.878891 5.0039215 9.0215149 5.0039215 9.0215149 13.0039215 11.878891 13.0039215 11.878891 5.0039215" fill="#fff"/>
+    </mask>
+    <linearGradient id="White_Black" data-name="White, Black" x1="38.0093" y1="-151.4771002" x2="35.3433" y2="-151.4771002" gradientTransform="translate(159.0004952 39) rotate(-90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="5.9638977 5.0010071 3.0225067 5.0010071 3.0225067 9.9335938 5.9638977 9.9335938 5.9638977 5.0010071"/>
+    <path d="M3.0225067,5.0010071h2.941391v4.9325867h-2.941391v-4.9325867M6.9638977,4.0010071H2.0225067v6.9325562h4.941391v-6.9325562"/>
+    <g mask="url(#mask)">
+      <image width="19" height="31" transform="translate(2.7599945 10.2799988) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAbCAYAAABxwd+fAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAT0lEQVQ4je3MKw6AMBRE0QumCUkVXTiLYVtg6IfXiiIQNUjkXDMZc6Zt731xsHoIfuwZ4bggG+QKySDd748GpY5fGsz8lCBBggQJEiToowfOJBsiNDtr1QAAAABJRU5ErkJggg=="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="11.878891 5.0039215 9.0215149 5.0039215 9.0215149 13.0039215 11.878891 13.0039215 11.878891 5.0039215"/>
+    <path d="M9.0215149,5.0039215h2.8573761v8h-2.8573761V5.0039215M12.8788757,4.0039368h-4.8573914v9.9999695h4.8573914V4.0039368"/>
+    <g mask="url(#mask-1)">
+      <image width="19" height="48" transform="translate(8.6999817 13.3399963) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAAtCAYAAACj4jsvAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAUElEQVRIie3MoRUAMQgD0PQ8sCu7sRgKHuJOtRPUXWKSmL8i4hURmBlUFSKCqkJmorvR3aiq03vvPzNw9/XgUggRIkSIECFChAgRIvQH6Fo+RD8oWG0QKxQAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <rect x="1.0233951" y="1.6572" width="12.9999997" height="1.333" fill="url(#White_Black)"/>
+</svg>

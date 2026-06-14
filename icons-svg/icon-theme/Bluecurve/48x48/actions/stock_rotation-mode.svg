@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="10.7828202" cy="3.386887" fx="10.7828202" fy="3.386887" r="5.0097652" gradientTransform="translate(7.8532 18.0801) scale(1.2131)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffbba2"/>
+      <stop offset=".606741" stop-color="#c40000"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="25.1440348" cy="28.3516" fx="25.1440348" fy="28.3516" r="18.4866248" gradientUnits="userSpaceOnUse">
+      <stop offset=".252809" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="6.6573853" y="9.865" width="48.3426147" height="46.135" maskUnits="userSpaceOnUse">
+      <path d="M43.6306843,28.3515c0,10.2108-8.2759998,18.4867-18.4867995,18.4867-10.2105997,0-18.4864995-8.2759-18.4864995-18.4867,0-10.2106,8.2758998-18.4865,18.4864995-18.4865,10.2107997,0,18.4867995,8.2759,18.4867995,18.4865Z" fill="url(#radial-gradient-2)"/>
+    </mask>
+    <mask id="mask-1" x="19" y="20" width="36" height="36" maskUnits="userSpaceOnUse">
+      <polyline points="54 21 19.999939 21 19.999939 54.999939 54 54.999939 54 21" fill="#fff"/>
+    </mask>
+    <linearGradient id="linear-gradient" x1="-576" y1="-576.0000002" x2="-575" y2="-576.0000002" gradientTransform="translate(-30752.6526489 7001.1347046) rotate(-147.7242979) scale(38.7660827 -38.7660827)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="26.8338052" y1="28.8391487" x2="53.3733665" y2="51.4957433" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <path d="M27.5015848,23.8967c0,2.3673-1.9213,4.2886-4.2884999,4.2886-2.3674999,0-4.2866999-1.9213-4.2866999-4.2886,0-2.3672,1.9192-4.2865,4.2866999-4.2865,2.3671999,0,4.2884999,1.9193,4.2884999,4.2865Z" fill="url(#radial-gradient)" stroke="#000" stroke-width=".75"/>
+  <g>
+    <polyline points="27.3057848 13.0228 27.3057848 15.57 33.0617846 11.0506 27.3057848 6.5273 27.3057848 9.1412"/>
+    <path d="M10.5115852,27.7665v-8.3579c0-4.5969,3.7610999-8.358,8.3579998-8.358h8.3580998" fill="none" stroke="#000" stroke-linecap="round" stroke-miterlimit="3.8637" stroke-width=".7125"/>
+    <polyline points="8.5395852 27.8449 5.9922853 27.8449 10.5115852 33.6007 15.0348851 27.8449 12.4212851 27.8449"/>
+  </g>
+  <g mask="url(#mask)">
+    <g>
+      <g>
+        <g mask="url(#mask-1)">
+          <image width="36" height="36" transform="translate(19 20)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAACXBIWXMAAAsSAAALEgHS3X78AAAA4UlEQVRYhe2YwQqDMBAFJ9ZCaSn0/7+yF6VQa3ow0RiSLoVEPexcViOYcaPgiyGNyYyXxKYGmw0m/gsTHRsmya06NLo6d6uNhFrg4mrN7o3AALxcTQo1TuYB3IBTRaEP0AFPoHeCs5BfHgOcgStwj66VxLJ0pWN5VawXCvHL1jq5miQfOBbymKiWxP667+E+exWSUCEJFZJQIQkVklAhCRWSUCEJFZI4nFDuJ99GtTTZ+8ZCPjMN7rxmLlsl1lAo7MabKUka6ifX3s23yvZhBxr2y/ZzlD7c7kdu4t02rBSJL1R6MkAQm2gkAAAAAElFTkSuQmCC"/>
+        </g>
+        <rect x="23.0310669" y="23.7539062" width="26.0444336" height="26.0443726" fill="url(#linear-gradient)"/>
+        <path d="M23.0310669,49.7982788v.499939h26.0444336c.1335449,0,.2590942-.0519409.3535156-.1464233.0944824-.0944214.1464233-.2199707.1464233-.3535156v-26.0443726c0-.1316528-.0532837-.260437-.1464233-.3535767-.0930786-.0930786-.2218628-.1464233-.3535156-.1464233h-26.0444336c-.1317139,0-.260498.0532837-.3535767.1464233-.0931396.0930786-.1464233.2218628-.1464233.3535767v26.0443726c0,.1316528.0533447.260437.1464233.3535156.0931396.0931396.2219238.1464233.3535767.1464233v-.499939h.499939v-25.5444946h25.0444946v25.0444336l-25.5444336.000061v.5h.499939-.499939Z"/>
+      </g>
+      <rect x="26.2708848" y="26.988" width="22.0374994" height="21.5544" fill="url(#linear-gradient-2)"/>
+    </g>
+  </g>
+</svg>

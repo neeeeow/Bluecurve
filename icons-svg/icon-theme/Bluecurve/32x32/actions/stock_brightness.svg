@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="1.816" y="2.0064" width="28.0107895" height="28.0108" maskUnits="userSpaceOnUse">
+      <path d="M29.8267895,16.0118c0,7.7322-6.2731998,14.0054-14.0053996,14.0054S1.816,23.744,1.816,16.0118,8.0891901,2.0064,15.8213899,2.0064s14.0053996,6.2732,14.0053996,14.0054ZM15.8213899,6.4286c-5.2910999,0-9.5831998,4.2921-9.5831998,9.5832s4.2920999,9.5832,9.5831998,9.5832,9.5831998-4.2921,9.5831998-9.5832-4.2920999-9.5832-9.5831998-9.5832Z" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="12.1826472" cy="15.4054818" fx="12.1826472" fy="15.4054818" r="12.555304" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="27.2347359" cy="-20.3922437" fx="27.2347359" fy="-20.3922437" r="12.5558056" gradientTransform="translate(-3.9643703 -14.8615353) rotate(89.9999993)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="12.3725572" cy="-56.4277081" fx="12.3725572" fy="-56.4277081" r="12.5553043" gradientTransform="translate(-40 .0005) rotate(90)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="-23.4244918" cy="-71.3207545" fx="-23.4244918" fy="-71.3207545" r="12.5558056" gradientTransform="translate(-3.9640155 -54.7019825) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="14.3658992" cy="13.5863272" fx="14.3658992" fy="13.5863272" r="7.5771462" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#d68100"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-6" cx="14.3658992" cy="13.5863272" fx="14.3658992" fy="13.5863272" r="7.5771462" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#ff9"/><stop offset="1" stop-color="#d68100"/></radialGradient>
+  </defs>
+  <g mask="url(#mask)">
+    <g opacity=".75">
+      <path d="M29.8267895,16.0118c0,7.7322-6.2731998,14.0054-14.0053996,14.0054S1.816,23.744,1.816,16.0118,8.0891901,2.0064,15.8213899,2.0064s14.0053996,6.2732,14.0053996,14.0054ZM15.8213899,6.4286c-5.2910999,0-9.5831998,4.2921-9.5831998,9.5832s4.2920999,9.5832,9.5831998,9.5832,9.5831998-4.2921,9.5831998-9.5832-4.2920999-9.5832-9.5831998-9.5832Z" fill="none"/>
+      <g>
+        <rect x="2.4828902" y="14.678" width="26.6769993" height="2.6677" fill="url(#radial-gradient)"/>
+        <rect x="14.4877158" y="2.6728671" width="2.6673482" height="26.6778657" transform="translate(-6.6880745 15.8771594) rotate(-44.9999993)" fill="url(#radial-gradient-2)"/>
+        <rect x="14.4874899" y="2.6733" width="2.6676999" height="26.677" fill="url(#radial-gradient-3)"/>
+        <rect x="2.482457" y="14.6781259" width="26.6778657" height="2.6673482" transform="translate(-6.6880745 15.87716) rotate(-45.0000007)" fill="url(#radial-gradient-4)"/>
+      </g>
+      <path d="M29.8267895,16.0118c0,7.7322-6.2731998,14.0054-14.0053996,14.0054S1.816,23.744,1.816,16.0118,8.0891901,2.0064,15.8213899,2.0064s14.0053996,6.2732,14.0053996,14.0054ZM15.8213899,6.4286c-5.2910999,0-9.5831998,4.2921-9.5831998,9.5832s4.2920999,9.5832,9.5831998,9.5832,9.5831998-4.2921,9.5831998-9.5832-4.2920999-9.5832-9.5831998-9.5832Z" fill="none"/>
+    </g>
+  </g>
+  <circle cx="15.8213924" cy="16.0118" r="5.3353962" fill="url(#radial-gradient-5)" stroke="#ad6900" stroke-width="2"/>
+  <circle cx="15.8213924" cy="16.0118" r="5.3353962" fill="url(#radial-gradient-6)"/>
+</svg>

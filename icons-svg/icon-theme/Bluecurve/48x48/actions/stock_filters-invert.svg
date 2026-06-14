@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="-19.3908637" y1="-19.6422388" x2="37.5999657" y2="39.8265043" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="17.7040306" y1="19.4818713" x2="73.5982781" y2="73.5730614" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+    <linearGradient id="White_Black-3" data-name="White, Black" x1="-13.0404607" y1="-12.9961187" x2="30.3834589" y2="32.3158367" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <polygon points="38.5273966 8.5751 6.9735974 8.5751 6.9735974 40.1269 6.9735974 41.0288 39.4292966 41.0288 39.4292966 8.5751 38.5273966 8.5751" fill="url(#White_Black)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.8"/>
+  <rect x="6.9735974" y="8.5751" width="32.4556992" height="32.4537" fill="url(#White_Black-2)"/>
+  <path d="M6.9735974,40.1269V8.5751h31.5537992L6.9735974,40.1269ZM23.201497,12.7814c-6.6392998,0-12.020497,5.3842-12.020497,12.0205s5.3811972,12.0205,12.020497,12.0205,12.020503-5.3842,12.020503-12.0205-5.3812032-12.0205-12.020503-12.0205Z" fill="url(#White_Black-3)"/>
+</svg>

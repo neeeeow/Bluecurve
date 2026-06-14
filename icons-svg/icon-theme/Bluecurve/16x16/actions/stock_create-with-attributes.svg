@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="10.1236705" y1="10.1241705" x2="4.1868523" y2="4.1873523" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="6.1318335" cy="5.413177" fx="6.1318335" fy="5.413177" r="5.0773189" gradientTransform="translate(.3628869 .3593871) scale(.9375)" gradientUnits="userSpaceOnUse">
+      <stop offset=".117977" stop-color="#fff"/>
+      <stop offset=".522472" stop-color="#dccf71"/>
+      <stop offset=".5718336" stop-color="#dac36a"/>
+      <stop offset=".6609039" stop-color="#d7a359"/>
+      <stop offset=".7795211" stop-color="#d2703e"/>
+      <stop offset=".9215554" stop-color="#cb2918"/>
+      <stop offset="1" stop-color="#c70002"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="29.5237699" cy="-9.2709001" fx="29.5237699" fy="-9.2709001" r="3.8719585" gradientTransform="translate(-15.7518 19.2513) rotate(7.0902758) scale(.900083 1.0929709) skewX(15.392873)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c5399"/>
+      <stop offset=".1270279" stop-color="#3c4179"/>
+      <stop offset=".3239409" stop-color="#262a4d"/>
+      <stop offset=".5148917" stop-color="#15172c"/>
+      <stop offset=".6955452" stop-color="#090a13"/>
+      <stop offset=".8618002" stop-color="#020205"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="mask" x="9.332" y="7.333" width="4.6122936" height="6.9912" maskUnits="userSpaceOnUse">
+      <polygon points="9.332 7.333 13.1581936 11.1582 10.9257937 11.1582 9.332 12.752 9.332 7.333" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient-3" cx="26.56365" cy="12.0164903" fx="26.56365" fy="12.0164903" r="3.8905779" gradientTransform="translate(-14.9696175 -.9325176) scale(.9149)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c5399"/>
+      <stop offset=".0407904" stop-color="#454c8c"/>
+      <stop offset=".1957941" stop-color="#303561"/>
+      <stop offset=".353468" stop-color="#1f213e"/>
+      <stop offset=".5119457" stop-color="#111323"/>
+      <stop offset=".671658" stop-color="#07080f"/>
+      <stop offset=".8333639" stop-color="#010203"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="26.9925463" cy="12.4458538" fx="26.9925463" fy="12.4458538" r="2.5785946" gradientTransform="translate(-14.9696175 -.9325176) scale(.9149)" gradientUnits="userSpaceOnUse">
+      <stop offset=".230337" stop-color="#1e234c"/>
+      <stop offset=".3355921" stop-color="#141835"/>
+      <stop offset=".4755944" stop-color="#0b0d1d"/>
+      <stop offset=".6254358" stop-color="#05050d"/>
+      <stop offset=".7904559" stop-color="#010103"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <rect x="3.25" y="3.251" width="7.499" height="7.499" fill="#9c9c9c" stroke="#858585" stroke-width="2"/>
+    <rect x="3.25" y="3.251" width="7.499" height="7.499" fill="#fff"/>
+    <rect x="3.875" y="3.875" width="6.874" height="6.875" fill="url(#linear-gradient)"/>
+    <rect x="2" y="2" width="1.25" height="1.251"/>
+    <rect x="10.749" y="2" width="1.251" height="1.251"/>
+    <rect x="10.749" y="10.75" width="1.251" height="1.25"/>
+    <rect x="2" y="10.75" width="1.25" height="1.25"/>
+  </g>
+  <path d="M10.8573937,6.9932c0,2.1338-1.7303937,3.8642-3.8641999,3.8642-2.1347999,0-3.8652999-1.7304-3.8652999-3.8642,0-2.1328,1.7305-3.8633,3.8652999-3.8633,2.1338062,0,3.8641999,1.7305,3.8641999,3.8633Z" fill="url(#radial-gradient)" stroke="#000"/>
+  <g>
+    <g>
+      <polygon points="12.5390936 13.9482 11.791 14.2578 10.3544937 10.8145 11.1034937 10.5049 12.5390936 13.9482" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <polygon points="9.332 7.333 13.1581936 11.1582 10.9257937 11.1582 9.332 12.752 9.332 7.333" stroke="#fff" stroke-width="2"/>
+    </g>
+    <g>
+      <polygon points="12.5390936 13.9482 11.791 14.2578 10.3544937 10.8145 11.1034937 10.5049 12.5390936 13.9482" stroke="#fff" stroke-linejoin="round" stroke-width="2"/>
+      <polygon points="9.332 7.333 13.1581936 11.1582 10.9257937 11.1582 9.332 12.752 9.332 7.333" stroke="#fff" stroke-width="2"/>
+    </g>
+    <g>
+      <polygon points="12.5390936 13.9482 11.791 14.2578 10.3544937 10.8145 11.1034937 10.5049 12.5390936 13.9482" fill="url(#radial-gradient-2)"/>
+      <g mask="url(#mask)">
+        <g>
+          <polygon points="9.332 7.333 13.1581936 11.1582 10.9257937 11.1582 9.332 12.752 9.332 7.333"/>
+          <polygon points="9.7265937 8.1201 13.5507936 11.9443 11.3192937 11.9443 9.7265937 13.5381 9.7265937 8.1201" fill="url(#radial-gradient-3)"/>
+          <polygon points="10.1190937 8.9063 13.9442936 12.7314 11.7128936 12.7314 10.1190937 14.3242 10.1190937 8.9063" fill="url(#radial-gradient-4)"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

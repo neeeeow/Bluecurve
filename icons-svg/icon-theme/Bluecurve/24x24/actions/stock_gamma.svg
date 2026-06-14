@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="19.3397955" y1="18.8392955" x2="5.9544273" y2="5.4539273" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#d9d9d9"/>
+    </linearGradient>
+    <linearGradient id="White_Black" data-name="White, Black" x1="17.9" y1="18.5" x2="8" y2="18.5" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="6.5" y1="6" x2="6.5" y2="16.0001" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <g>
+    <g>
+      <rect x="4.001" y="4" width="16.999" height="16" fill="#9c9c9c" stroke="#858585" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <rect x="4.001" y="4" width="16.999" height="16" fill="#fff"/>
+      <rect x="5.001" y="5" width="15.999" height="15" fill="url(#linear-gradient)"/>
+    </g>
+    <g>
+      <rect x="8" y="6" width="10.999" height="10.5049" fill="gray"/>
+      <rect x="9.0770925" y="7.1113" width="9.9219075" height="9.3936" fill="#ababab"/>
+    </g>
+    <rect x="8" y="18" width="11" height="1" fill="url(#White_Black)"/>
+    <rect x="6" y="6" width="1" height="11" fill="url(#White_Black-2)"/>
+  </g>
+  <g opacity=".25">
+    <line x1="11.502" y1="6.001" x2="11.502" y2="16.501" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="15.5058923" y1="6.001" x2="15.5058923" y2="16.501" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="18.5077923" y1="9.5049" x2="8.0077925" y2="9.5049" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+    <line x1="18.5077923" y1="13.5049" x2="8.0077925" y2="13.5049" fill="none" stroke="#fff" stroke-miterlimit="1"/>
+  </g>
+  <path d="M8.209,16.5059c.8055925-.3633,4.4432924-2.0274,6.708-4.3799,2.6474923-2.751,3.667-5.7364,3.667-5.7364" fill="none" stroke="#000" stroke-miterlimit="1" stroke-width=".75"/>
+</svg>

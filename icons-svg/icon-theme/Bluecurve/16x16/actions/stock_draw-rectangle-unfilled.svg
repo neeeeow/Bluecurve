@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <mask id="mask" x="-1" y="0" width="20" height="18" maskUnits="userSpaceOnUse">
+      <polyline points="17.9999924 1 0 1 0 17 17.9999924 17 17.9999924 1" fill="#fff"/>
+    </mask>
+  </defs>
+  <g mask="url(#mask)">
+    <image width="20" height="18" transform="translate(-1)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAASCAYAAABb0P4QAAAACXBIWXMAAAsSAAALEgHS3X78AAAAwklEQVQ4jc2U3QrCMAyFv/6w3fj+TyoIY129MNEa01pwFx4I27rkJD1JG/AROusW1S7EycBpBPNubYTqGNkQZmAB0mRBBdiAvUe4ABchPHA0anyjEF7liRKGximJaeaCj9TsJNFIZCtEKtuAm2zFg8atJvaNUFGlsn1AiPh8SOIReglaDLt/+hzOVDh7arqE2u1Rssyru11C1SryGAn4PjYq2VPn3Hxod4sErMwNtna76g9F5Lejd1jCUy6HXtD/3Id372gzSG7OkGQAAAAASUVORK5CYII="/>
+  </g>
+  <path d="M2.5,12.5v.4999924h11c.1316605,0,.2604446-.0533371.3535461-.1464462.0931091-.0931015.1464462-.2218857.1464462-.3535461V3.5c0-.1316681-.0533371-.2604523-.1464386-.3535538s-.2218933-.1464462-.3535538-.1464462H2.5c-.1316681,0-.2604523.0533371-.3535538.1464462-.0931091.0931015-.1464462.2218857-.1464462.3535538v9c0,.1316605.0533447.2604523.1464462.3535538s.2218857.1464386.3535538.1464386v-.4999924h.4999924V3.9999847h10v8.0000076l-10.4999924.0000076v.5h.4999924-.4999924Z"/>
+</svg>

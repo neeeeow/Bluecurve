@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="16" height="16" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="11.0471268" y1="12.5708305" x2="-3.6203777" y2="-9.4310674" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <linearGradient id="White_Black-2" data-name="White, Black" x1="13.1672813" y1="16.7706916" x2="5.6173206" y2="5.7686949" gradientUnits="userSpaceOnUse"><stop offset="0" stop-color="#fff"/><stop offset="1" stop-color="#000"/></linearGradient>
+  </defs>
+  <circle cx="8" cy="8" r="5.5" fill="none" opacity=".7" stroke="#000"/>
+  <g>
+    <circle cx="7.9999975" cy="8" r="3.2349012" fill="#fff" stroke="#000" stroke-width="2"/>
+    <circle cx="7.9999975" cy="8" r="3.2349012" fill="url(#White_Black)"/>
+    <path d="M8,4.7646c-1.786105,0-3.234405,1.4493-3.234405,3.2354s1.4483,3.2354,3.234405,3.2354v-6.4708Z" fill="url(#White_Black-2)"/>
+  </g>
+</svg>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_2" data-name="Set 2" xmlns="http://www.w3.org/2000/svg" width="48" height="48" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 48 48">
+  <defs>
+    <linearGradient id="linear-gradient" x1="31.7734364" y1="32.0155644" x2="15.3532431" y2="16.0165901" gradientUnits="userSpaceOnUse">
+      <stop offset=".011236" stop-color="#fff"/>
+      <stop offset=".3944616" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#999"/>
+    </linearGradient>
+    <radialGradient id="radial-gradient" cx="173.1904781" cy="55.0984253" fx="173.1904781" fy="55.0984253" r="8.6509244" gradientTransform="translate(-98.2551 -16.544) scale(.6882)" gradientUnits="userSpaceOnUse">
+      <stop offset=".634831" stop-color="#9bf"/>
+      <stop offset=".7668062" stop-color="#7999da"/>
+      <stop offset="1" stop-color="#3a5791"/>
+    </radialGradient>
+  </defs>
+  <path d="M34.5372919,23.9736c0,6.0933-4.9263999,11.0276-11.0059997,11.0276-6.0923998,0-11.0099997-4.9343-11.0099997-11.0276,0-6.0748,4.9175999-11.01,11.0099997-11.01,6.0795998,0,11.0059997,4.9352,11.0059997,11.01Z" fill="url(#linear-gradient)" stroke="#000" stroke-width=".5"/>
+  <path d="M29.848692,23.9736c0,3.4961-2.8320999,6.3281-6.3173998,6.3281-3.4913999,0-6.3105998-2.832-6.3105998-6.3281,0-3.4826,2.8191999-6.3038,6.3105998-6.3038,3.4852999,0,6.3173998,2.8212,6.3173998,6.3038Z" fill="url(#radial-gradient)" stroke="#555b91" stroke-width=".5"/>
+</svg>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="New_Gradient_Swatch_18" data-name="New Gradient Swatch 18" x1="5.0234938" y1="10.5105" x2="14.9078936" y2="10.5105" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#b0caff"/>
+      <stop offset=".1381484" stop-color="#97b5f2"/>
+      <stop offset=".4019205" stop-color="#6f93dd"/>
+      <stop offset=".64258" stop-color="#527ace"/>
+      <stop offset=".8499057" stop-color="#406bc5"/>
+      <stop offset="1" stop-color="#3a66c2"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient" x1="11.977169" y1="11.7769" x2="6.1167084" y2="11.7769" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c8019"/>
+      <stop offset=".325843" stop-color="#23a11f"/>
+      <stop offset="1" stop-color="#a8efb1"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="10.1446553" y1="6.3103496" x2="5.5783596" y2="2.6573136" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#1c8019"/>
+      <stop offset=".325843" stop-color="#23a11f"/>
+      <stop offset="1" stop-color="#c9ffc9"/>
+    </linearGradient>
+  </defs>
+  <g opacity=".25">
+    <image width="84" height="77" transform="translate(-31 -22)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFQAAABNCAYAAAA4skOSAAAACXBIWXMAAAsSAAALEgHS3X78AAAAy0lEQVR4nO3WsU3DUBiF0S+I0lkBGIAZWIOK7SiYgxGQ6GEERCghFHEViQSQIC/SOZJlF6+4uu/9tgsAAAAAAAAAAAAA4L8sDh3gCz/Jtf6zFL8wYqHL6rya9qxbV6vqeb4P4fTQAbYsq6vqpk2pu7xW99Vt9dZgJ3UEi+qyuqteqo8d13v1UF232YRhnBw6wJapOmv/uNeA417jjfyqepyfd73f1/O6ocqs8T5KU3XR90/oU4OVOlqhdcS/TAAAAAAAAAAAAAAAHLVPXU8gn3nvGGAAAAAASUVORK5CYII="/>
+  </g>
+  <path d="M9.9644937,3.6336c-2.7295999,0-4.9409999,1.1325-4.9409999,2.5328v8.6846c0,1.399,2.2113999,2.5364,4.9409999,2.5364,2.7305999,0,4.9433999-1.1374,4.9433999-2.5364V6.1664c0-1.4003-2.2127999-2.5328-4.9433999-2.5328Z" fill="url(#New_Gradient_Swatch_18)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <g>
+    <path d="M5.0234938,6.1664v8.6846c0,1.399,2.2113999,2.5364,4.9409999,2.5364,2.7305999,0,4.9433999-1.1374,4.9433999-2.5364V6.1664H5.0234938Z" fill="url(#linear-gradient)"/>
+    <path d="M14.9078936,6.1664c0,1.4014-2.2127999,2.5352-4.9433999,2.5352-2.7295999,0-4.9409999-1.1338-4.9409999-2.5352,0-1.4003,2.2113999-2.5328,4.9409999-2.5328,2.7305999,0,4.9433999,1.1325,4.9433999,2.5328Z" fill="url(#linear-gradient-2)"/>
+  </g>
+</svg>

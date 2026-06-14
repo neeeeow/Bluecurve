@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_4" data-name="Set 4" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <linearGradient id="linear-gradient" x1="5.0863956" y1="10.71925" x2="19.0204953" y2="10.71925" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#8dacca"/>
+      <stop offset="1" stop-color="#dbf4ff"/>
+    </linearGradient>
+    <mask id="mask" x="-27" y="-20" width="82" height="75" maskUnits="userSpaceOnUse">
+      <polygon points="5.0863956 17.4385 19.0204953 13.9648 19.0204953 4 5.0863956 7.4746 5.0863956 17.4385" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="39.879458" cy="10.9721581" fx="39.879458" fy="10.9721581" r="5.6961318" gradientTransform="translate(-38.1764 -2.3775) scale(1.2131)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffbba2"/>
+      <stop offset=".606741" stop-color="#c40000"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="42.4362134" cy="12.8405943" fx="42.4362134" fy="12.8405943" r="5.6961318" gradientTransform="translate(-38.1764 -2.3775) scale(1.2131)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ffbba2"/>
+      <stop offset=".606741" stop-color="#c40000"/>
+      <stop offset="1" stop-color="#740000"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <polygon points="5.0863956 17.4385 19.0204953 13.9648 19.0204953 4 5.0863956 7.4746 5.0863956 17.4385" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="5.0863956 17.4385 19.0204953 13.9648 19.0204953 4 5.0863956 7.4746 5.0863956 17.4385" fill="url(#linear-gradient)"/>
+  </g>
+  <g mask="url(#mask)">
+    <g opacity=".25">
+      <g opacity=".25">
+        <image width="82" height="75" transform="translate(-27 -20)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABLCAYAAADj9dDIAAAACXBIWXMAAAsSAAALEgHS3X78AAAAuklEQVR4nO3UsU0DQRRF0WuJ0JSATGyKoyioBHpwbApwBLkJBiQCVpjA9gTnJBvMBk9v/vwCAAAAAAAAAAAAAM5nde0Avzgl0/HsKf5ptiLX1f3Xd8lH9Va9XyLQqW6uHeCHVaPEx+qh5UveV0/VaxOVOVOR39bVtrpdOL9rTOSuMZ1TPPOZijw2CnpuTONm4b999VIdmqTEmm9H1pjETct7csodOWOR9XeuaSYRAAAAAAAAAAAAALiETwtXFkIX08D0AAAAAElFTkSuQmCC"/>
+      </g>
+      <circle cx="12.7938954" cy="12.876" r="4.8749999" fill="url(#radial-gradient)" stroke="#000"/>
+    </g>
+  </g>
+  <g>
+    <g opacity=".25">
+      <image width="82" height="75" transform="translate(-24 -18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFIAAABLCAYAAADj9dDIAAAACXBIWXMAAAsSAAALEgHS3X78AAAAtElEQVR4nO3UsU0DURBF0WuJ0C4BQSXEFAHV0Qn0QGwKIMI5BF9IBF6xBKx/cE46ydPTzBQAAAAAAAAAAAAA8H92lw6w4Ldcn5uk+IMZizxUN9V+YX6q3qqPzRKtMFuRh+quemyUec6xeqpemqjMq0sH+GHXKO+hum+Ues51YyNfG9s5xZnPVOS3U6OkpWs5Vs/Ve5OUWPOd9r66bfk/lh+52ppM02wiAAAAAAAAAAAAALCFL3jqFf82QDv3AAAAAElFTkSuQmCC"/>
+    </g>
+    <circle cx="15.8954954" cy="15.1426" r="4.8749999" fill="url(#radial-gradient-2)" stroke="#000"/>
+  </g>
+</svg>

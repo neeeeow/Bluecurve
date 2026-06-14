@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_16x16" data-name="Icons - 16x16" xmlns="http://www.w3.org/2000/svg" width="16" height="16" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 16 16">
+  <defs>
+    <linearGradient id="linear-gradient" x1="9.6941" y1="16.1185116" x2="9.6941" y2="7.5908464" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="4.3018" y=".0273" width="10.374" height="15.6392" maskUnits="userSpaceOnUse">
+      <rect x="4.6758" y="3.3276" width="10" height="11.7251" fill="#fff"/>
+    </mask>
+    <radialGradient id="radial-gradient" cx="9.8775494" cy="8.7369634" fx="9.8775494" fy="8.7369634" r="7.0383083" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#c1a35f"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="9.8775494" cy="8.7369634" fx="9.8775494" fy="8.7369634" r="7.0383083" gradientUnits="userSpaceOnUse">
+      <stop offset=".410112" stop-color="#c1a35f"/>
+      <stop offset="1" stop-color="#6f4b0a"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="-38.7164954" cy="-234.5396267" fx="-38.7164954" fy="-234.5396267" r="8.3570169" gradientTransform="translate(40.6575 -222.224) scale(1 -.9998)" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#ecb300"/>
+      <stop offset=".539326" stop-color="#ffcd00"/>
+      <stop offset=".5857413" stop-color="#f9c800"/>
+      <stop offset=".6442217" stop-color="#e9bc02"/>
+      <stop offset=".7091918" stop-color="#d0a904"/>
+      <stop offset=".7788478" stop-color="#ac8d08"/>
+      <stop offset=".8522792" stop-color="#7e6a0d"/>
+      <stop offset=".9276233" stop-color="#464012"/>
+      <stop offset="1" stop-color="#0a1219"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-4" cx="9.7919025" cy="7.6163397" fx="9.7919025" fy="7.6163397" r="2.6809455" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".0732708" stop-color="#fefcfa"/>
+      <stop offset=".1515742" stop-color="#fcf6ed"/>
+      <stop offset=".2322525" stop-color="#f8ebd8"/>
+      <stop offset=".3145852" stop-color="#f3ddba"/>
+      <stop offset=".3981792" stop-color="#edca93"/>
+      <stop offset=".4828529" stop-color="#e6b264"/>
+      <stop offset=".5667368" stop-color="#dd972d"/>
+      <stop offset=".629213" stop-color="#d68100"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-5" cx="9.7919025" cy="7.6163397" fx="9.7919025" fy="7.6163397" r="2.6809455" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset=".0732708" stop-color="#fefcfa"/>
+      <stop offset=".1515742" stop-color="#fcf6ed"/>
+      <stop offset=".2322525" stop-color="#f8ebd8"/>
+      <stop offset=".3145852" stop-color="#f3ddba"/>
+      <stop offset=".3981792" stop-color="#edca93"/>
+      <stop offset=".4828529" stop-color="#e6b264"/>
+      <stop offset=".5667368" stop-color="#dd972d"/>
+      <stop offset=".629213" stop-color="#d68100"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+  </defs>
+  <rect x="4.6758" y="3.3276" width="10" height="11.7251" fill="#fff" stroke="#000" stroke-width="2"/>
+  <rect x="4.6758" y="3.3276" width="10.0366" height="11.7251" fill="url(#linear-gradient)"/>
+  <g mask="url(#mask)">
+    <g>
+      <polygon points="12.9951 12.7983 4.8018 15.1665 4.8018 2.3662 12.9951 .5273 12.9951 12.7983" fill="url(#radial-gradient)" stroke="#000" stroke-linecap="round" stroke-linejoin="round"/>
+      <polygon points="12.9951 12.7983 4.8018 15.1665 4.8018 2.3662 12.9951 .5273 12.9951 12.7983" fill="url(#radial-gradient-2)"/>
+    </g>
+  </g>
+  <g>
+    <polygon points="1.3438 6.4883 2.8281 5.1943 7.063 8.8862 2.8281 12.5781 1.3428 11.2856 1.3428 11.2075 4.0059 8.8862 1.3438 6.5664 1.3438 6.4883" fill="url(#radial-gradient-3)" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    <polygon points="1.3438 6.4883 2.8281 5.1943 7.063 8.8862 2.8281 12.5781 1.3428 11.2856 1.3428 11.2075 4.0059 8.8862 1.3438 6.5664 1.3438 6.4883" fill="#fff"/>
+  </g>
+  <circle cx="10.5093" cy="8.3608" r="1.1665" fill="url(#radial-gradient-4)" stroke="#6b3200"/>
+  <circle cx="10.5093" cy="8.3608" r="1.1665" fill="url(#radial-gradient-5)"/>
+</svg>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Set_3" data-name="Set 3" xmlns="http://www.w3.org/2000/svg" width="24" height="24" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24">
+  <defs>
+    <mask id="mask" x="6.659996" y="5.6999971" width="8.6399996" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="14.9999924 5.9999847 7.0000153 5.9999847 7.0000153 9.9999847 14.9999924 9.9999847 14.9999924 5.9999847" fill="#fff"/>
+    </mask>
+    <mask id="mask-1" x="6.6599884" y="13.8000032" width="12.5999995" height="4.4999998" maskUnits="userSpaceOnUse">
+      <polyline points="19 14 7.0000153 14 7.0000153 18.0000153 19 18.0000153 19 14" fill="#fff"/>
+    </mask>
+    <linearGradient id="White_Black" data-name="White, Black" x1="246" y1="-244" x2="242" y2="-244" gradientTransform="translate(248 -232) rotate(-180)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+  </defs>
+  <g>
+    <polyline points="14.9999924 5.9999847 7.0000153 5.9999847 7.0000153 9.9999847 14.9999924 9.9999847 14.9999924 5.9999847"/>
+    <path d="M7.0000153,5.9999847h7.9999771v4h-7.9999771v-4M15.9999924,5H6.0000229v5.9999847h9.9999695v-5.9999847"/>
+    <g mask="url(#mask)">
+      <image width="48" height="25" transform="translate(6.659996 10.1999969) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC8AAAAVCAYAAADWxrdnAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAd0lEQVRIie2OwQnDMBAERyHGqda1pIiUkOLsSDr5YSkEk/9i2IF77HCPSc93a/MEjwnmcffTPrkasGXYCqwZ1s/hcoXSrwaU+O/z70/tu/8ON/zYXx8QDV5LSjcujONVOF6F41U4XoXjVTheheNVOF6F41VcOn4HEc5GKsCS2AAAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <g>
+    <polyline points="19 14 7.0000153 14 7.0000153 18.0000153 19 18.0000153 19 14"/>
+    <path d="M7.0000153,14h11.9999847v4.0000153H7.0000153v-4.0000153M19.9999771,13.0000153H5.9999847v5.9999847h13.9999924v-5.9999847"/>
+    <g mask="url(#mask-1)">
+      <image width="70" height="25" transform="translate(6.6599884 18.3000031) scale(.18 -.18)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEUAAAAWCAYAAACWl1FwAAAACXBIWXMAAD2DAAA9gwGH6AkLAAAAgElEQVRYhe3QUQrEIBAE0U70xB7N8znOfm3QpHfJAeqBKCOC1NF7z1KKaq1a93Wts39nSYoIjTG2/XvOTM05t3WfZaYi4pq7N/f52zfr3a+/tNaOU3ggikEUgygGUQyiGEQxiGIQxSCKQRSDKAZRDKIYRDGIYhDFIIpBFIMoeOcDKSaUKm6aHwYAAAAASUVORK5CYII="/>
+    </g>
+  </g>
+  <rect x="3" y="3" width="2" height="18" fill="url(#White_Black)"/>
+</svg>

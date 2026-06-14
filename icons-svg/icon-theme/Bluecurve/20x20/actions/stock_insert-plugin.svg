@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_2" data-name="Set 2" width="20" height="20" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="linear-gradient" x1="15.5830545" y1="8.9835875" x2="17.5282305" y2="7.1644125" gradientUnits="userSpaceOnUse">
+      <stop offset=".005618" stop-color="#f90"/>
+      <stop offset=".331461" stop-color="#ff9"/>
+      <stop offset="1" stop-color="#fc6"/>
+    </linearGradient>
+    <linearGradient id="linear-gradient-2" x1="15.5830545" y1="12.6636875" x2="17.5282305" y2="10.8445125" gradientUnits="userSpaceOnUse"><stop offset=".005618" stop-color="#f90"/><stop offset=".331461" stop-color="#ff9"/><stop offset="1" stop-color="#fc6"/></linearGradient>
+    <mask id="mask" x="9.1527927" y="5.0073" width="7.5812998" height="10.6481" maskUnits="userSpaceOnUse">
+      <path d="M14.0595926,5.0073c-2.7100999,0-4.9067999,2.1967-4.9067999,4.9073,0,2.71,2.1966999,4.9068,4.9067999,4.9068h1.84V5.0073h-1.84Z" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_31" data-name="New Gradient Swatch 31" x1="16.6793613" y1="12.4116014" x2="10.9760697" y2="7.1953038" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#555b91"/>
+      <stop offset="1" stop-color="#a4aad9"/>
+    </linearGradient>
+  </defs>
+  <path d="M15.8995925,5.0073h-1.84c-2.2298999,0-4.1101999,1.4888-4.7064999,3.5267h-5.0496999v2.7608h5.0496999c.5963,2.0367,2.4765999,3.5266,4.7064999,3.5266h1.84v-2.1473h1.6189v-1.84h-1.6189v-1.8401h1.6189v-1.84h-1.6189v-2.1467Z" fill="#c8cce8" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+  <rect x="4.3033928" y="8.534" width="8.9888998" height="2.7608" fill="#032c87"/>
+  <g>
+    <rect x="15.5927925" y="7.154" width="1.9257" height="1.84" fill="url(#linear-gradient)"/>
+    <rect x="15.5927925" y="10.8341" width="1.9257" height="1.84" fill="url(#linear-gradient-2)"/>
+  </g>
+  <g mask="url(#mask)">
+    <g>
+      <path d="M14.0595926,5.0073c-2.7100999,0-4.9067999,2.1967-4.9067999,4.9073,0,2.71,2.1966999,4.9068,4.9067999,4.9068h1.84V5.0073h-1.84Z" fill="#c8cce8"/>
+      <path d="M14.8938926,5.8412c-2.7110999,0-4.9078926,2.1968-4.9078926,4.9073,0,2.7099,2.1967926,4.9069,4.9078926,4.9069h1.8402V5.8412h-1.8402Z" fill="url(#New_Gradient_Swatch_31)"/>
+    </g>
+  </g>
+</svg>

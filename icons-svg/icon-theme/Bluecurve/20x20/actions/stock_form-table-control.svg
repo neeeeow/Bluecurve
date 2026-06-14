@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 20 20">
+  <defs>
+    <linearGradient id="White_Black" data-name="White, Black" x1="5.8344976" y1="5.7064848" x2="16.8202409" y2="16.0265736" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </linearGradient>
+    <mask id="mask" x="4.7237963" y="5.1149" width="12.2504997" height="10.5405" maskUnits="userSpaceOnUse">
+      <rect x="4.7237963" y="5.2297" width="11.4166997" height="9.5917" fill="#fff"/>
+    </mask>
+    <linearGradient id="New_Gradient_Swatch_22" data-name="New Gradient Swatch 22" x1="12.3606446" y1="15.6446958" x2="8.5036478" y2="10.2449042" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#4c8bca"/>
+      <stop offset="1" stop-color="#b7e9ff"/>
+    </linearGradient>
+  </defs>
+  <g isolation="isolate">
+    <g id="Set_2" data-name="Set 2">
+      <g mix-blend-mode="color">
+        <rect x="4.7237963" y="5.2297" width="11.4166997" height="9.5917" fill="url(#White_Black)" stroke="#000" stroke-width="2"/>
+        <g mask="url(#mask)">
+          <g>
+            <rect x="4.7237963" y="5.2297" width="11.4166997" height="9.5917" fill="#e6e6e6"/>
+            <g>
+              <line x1="5.5577963" y1="8.8786" x2="16.974296" y2="8.8786" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="5.5577963" y1="10.9636" x2="16.974296" y2="10.9636" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="14.108" y1="6.0635" x2="14.108" y2="15.6554" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="9.938" y1="6.0635" x2="9.938" y2="15.6554" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <g>
+                <line x1="6.1313963" y1="6.0635" x2="6.1313963" y2="15.6554" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+                <line x1="5.5577963" y1="6.3244" x2="16.974296" y2="6.3244" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+            <g>
+              <line x1="4.7237963" y1="10.2861" x2="16.1404961" y2="10.2861" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="5.5577963" y1="13.5703" x2="16.974296" y2="13.5703" fill="#b7e9ff" stroke="#fff" stroke-width=".75"/>
+              <line x1="4.7237963" y1="12.9448" x2="16.1404961" y2="12.9448" fill="url(#New_Gradient_Swatch_22)" stroke="#999" stroke-width=".75"/>
+              <line x1="4.7237963" y1="8.0446" x2="16.1404961" y2="8.0446" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="13.2740961" y1="5.2297" x2="13.2740961" y2="14.8214" fill="none" stroke="#999" stroke-width=".75"/>
+              <line x1="9.1034962" y1="5.2297" x2="9.1034962" y2="14.8214" fill="none" stroke="#999" stroke-width=".75"/>
+              <g>
+                <line x1="5.2975963" y1="5.2297" x2="5.2975963" y2="14.8214" fill="none" stroke="#fff" stroke-width=".75"/>
+                <line x1="4.7237963" y1="5.4899" x2="16.1404961" y2="5.4899" fill="none" stroke="#fff" stroke-width=".75"/>
+              </g>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

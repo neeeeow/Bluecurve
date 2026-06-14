@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" id="Set_5" data-name="Set 5" width="48" height="48" viewBox="0 0 48 48">
+  <defs>
+    <radialGradient id="radial-gradient" cx="27.0993241" cy="65.4229088" fx="27.0993241" fy="65.4229088" r="25.5371975" gradientTransform="translate(2.0468 -19.7611) scale(.8918 .8422)" gradientUnits="userSpaceOnUse">
+      <stop offset=".089888" stop-color="#b7e9ff"/>
+      <stop offset="1" stop-color="#4c8bca"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="23.6927538" cy="36.8229856" fx="23.6927538" fy="36.8229856" r="14.1668405" gradientUnits="userSpaceOnUse">
+      <stop offset=".089888" stop-color="#b7e9ff"/>
+      <stop offset="1" stop-color="#4c8bca"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-3" cx="22.6882477" cy="44.8348475" fx="22.6882477" fy="44.8348475" r="17.0322444" gradientUnits="userSpaceOnUse"><stop offset=".089888" stop-color="#b7e9ff"/><stop offset="1" stop-color="#4c8bca"/></radialGradient>
+  </defs>
+  <g opacity=".3">
+    <image width="93" height="85" transform="translate(-21 -6)" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAF0AAABVCAYAAAArIuiuAAAACXBIWXMAAAsSAAALEgHS3X78AAAB7ElEQVR4nO3YTWsTYRSG4XtijUYSRUKkLqS0iFBru1EE/f9/RF3oJqJFRGrNuDjvkGb8oOaDOSP3tRkIk/DOM08O8w5IkiRJkiRJkiRJkiRJkiRJkqReqrpewA60r6nuZBV/8T+FXgEDYA8Yls8ugO/AoqtF/c6NrhewJQMi6LvAPnAAzIgbcQH8IFHj+x56RVzDHeAhcAy8AF4Bj4mbcQ58JVHb97pewJqaUXITGBOBnwEvieD3gS/ALeADMCcan0IfQ78a9pQYJcdE4GfEDRgBn4A3wL1yfkWSEdOn0Jt2j4AHwCHwBDgtx8Py+aicPySa3gSeRl9Cb9o94ddRckA0flzOGRDzuyJZ2I3sobfbfQQ8ZXWUXA07ZchtmUP/U7tPWB0lvQm7kTH067R7wrLdvZMt9F20O92/IFPo7XafsFm7q3L+kGRPMFlCbwKaAc+B10ToR6y2G663s6yJneq4/OYE+Fi+2/mzepbQIRo5I+b3M+AREfY3/n03WZfvDInd6X3g/Rq/sxOZQq+JF1PnwFvgM5utb0HsSufEm8bOG97IMuea8TIlGj4lWrrJ+pq2z4F3JAo/S+iwfBd+uxy38Ti4AC6JEXVJkjeNmUKH5Xq2ua66dZQkSZIkSZIkSZIkSZIkSZIkSVrPT2r0QCpasv+FAAAAAElFTkSuQmCC"/>
+  </g>
+  <polygon points="22.6483897 13.2372 26.7862896 26.0306 30.9300895 38.8258 22.6483897 38.8258 14.3648899 38.8258 18.5065898 26.0306 22.6483897 13.2372" fill="url(#radial-gradient)" stroke="#000" stroke-linecap="square" stroke-miterlimit="14" stroke-width="2"/>
+  <polygon points="22.6483897 12.7814 26.7862896 25.8016 30.9300895 38.8258 22.6483897 38.8258 14.3648899 38.8258 18.5065898 25.8016 22.6483897 12.7814" fill="url(#radial-gradient-2)"/>
+  <polygon points="22.6463897 12.7794 24.7828897 25.7996 26.9212896 38.8238 22.6463897 38.8238 18.3696898 38.8238 20.5081898 25.7996 22.6463897 12.7794" fill="url(#radial-gradient-3)"/>
+</svg>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Icons_-_24x24" data-name="Icons - 24x24" xmlns="http://www.w3.org/2000/svg" width="32" height="32" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 32 32">
+  <defs>
+    <mask id="mask" x="4.2104" y="3" width="23.2305" height="25.9097" maskUnits="userSpaceOnUse">
+      <path d="M20.2812,27.9087l-15.0678.001-.003-23.9097,21.2305.0015-.0097,18.5859c0,2.5342-3.2891,5.3213-6.15,5.3213Z" fill="#fff" fill-rule="evenodd" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </mask>
+    <linearGradient id="New_Gradient_399" data-name="New Gradient 399" x1="9.0763663" y1="2.1144422" x2="22.506229" y2="29.6497414" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_400" data-name="New Gradient 400" cx="-4.3331717" cy="41.8595236" fx="-4.3331717" fy="41.8595236" r="6.9835733" gradientTransform="translate(23.7691 -15.5237214) scale(1.0313 .8911)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="1" stop-color="#ccc"/>
+    </radialGradient>
+    <mask id="mask-1" x="5.2104" y="4" width="21.2637" height="24" maskUnits="userSpaceOnUse">
+      <path d="M20.2812,27.9087l-15.0678.001-.003-23.9097,21.2305.0015-.0097,18.5859c0,2.5342-3.2891,5.3213-6.15,5.3213Z" fill="#fff" fill-rule="evenodd"/>
+    </mask>
+    <linearGradient id="New_Gradient_401" data-name="New Gradient 401" x1="9.0763663" y1="2.1144422" x2="22.506229" y2="29.6497414" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".286514" stop-color="#f2f2f2"/>
+      <stop offset=".646072" stop-color="#fff"/>
+      <stop offset="1" stop-color="#fff"/>
+    </linearGradient>
+    <radialGradient id="New_Gradient_402" data-name="New Gradient 402" cx="-4.3331717" cy="41.8595236" fx="-4.3331717" fy="41.8595236" r="6.9835733" gradientTransform="translate(23.7691 -15.5237214) scale(1.0313 .8911)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#e5e5e5"/>
+      <stop offset=".331467" stop-color="#e5e5e5"/>
+      <stop offset="1" stop-color="#999"/>
+    </radialGradient>
+  </defs>
+  <g>
+    <g mask="url(#mask)">
+      <g>
+        <path d="M20.2812,27.9087l-15.0678.001-.003-23.9097,21.2305.0015-.0097,18.5859c0,2.5342-3.2891,5.3213-6.15,5.3213Z" fill="url(#New_Gradient_399)" fill-rule="evenodd"/>
+        <path d="M19.3003,27.9985s3.5195-.1157,3.52-3.4892c3.6235,0,3.6538-2.732,3.6538-2.732l-.0014,6.2227-7.1724-.0015Z" fill="url(#New_Gradient_400)" fill-rule="evenodd"/>
+        <path d="M20.2812,27.9087l-15.0678.001-.003-23.9097,21.2305.0015-.0097,18.5859c0,2.5342-3.2891,5.3213-6.15,5.3213Z" fill="none" fill-rule="evenodd" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      </g>
+    </g>
+    <g mask="url(#mask-1)">
+      <g>
+        <path d="M20.2812,27.9087l-15.0678.001-.003-23.9097,21.2305.0015-.0097,18.5859c0,2.5342-3.2891,5.3213-6.15,5.3213Z" fill="url(#New_Gradient_401)" fill-rule="evenodd"/>
+        <path d="M19.3003,27.9985s2.4463-.8486,2.4473-4.2236c3.6235-.0029,4.7265-1.9976,4.7265-1.9976l-.0014,6.2227-7.1724-.0015Z" fill="url(#New_Gradient_402)" fill-rule="evenodd"/>
+      </g>
+    </g>
+  </g>
+  <g>
+    <g>
+      <line x1="17.2505" y1="16.0435" x2="26.4395" y2="16.0449" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+      <line x1="21.8442" y1="11.3774" x2="21.8442" y2="20.7109" fill="none" stroke="#000" stroke-linecap="round" stroke-linejoin="round" stroke-width="5"/>
+    </g>
+    <g>
+      <line x1="17.2505" y1="16.0435" x2="26.4395" y2="16.0449" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <line x1="21.8442" y1="11.3774" x2="21.8442" y2="20.7109" fill="none" stroke="#23a11f" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <g>
+      <line x1="16.7729" y1="15.5044" x2="25.9604" y2="15.5044" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+      <line x1="21.3652" y1="11.3784" x2="21.3652" y2="20.7109" fill="none" stroke="#a8efb1" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+    </g>
+  </g>
+</svg>
