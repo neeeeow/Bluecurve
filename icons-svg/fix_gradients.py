@@ -6,7 +6,7 @@ def fixGradients(path):
     parser = etree.XMLParser(remove_blank_text=False)
     try:
         tree = etree.parse(path, parser)
-    except Exception as e:
+    except:
         print("Error parsing file")
         return
 

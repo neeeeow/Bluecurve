@@ -21,7 +21,7 @@
       <icon name="icon-connect-windows"/>
       <icon name="icon-update"/>
       <icon name="icon-security-global"/>
-      <icon name="icon-network"/>
+      <icon name="icon-internet"/>
       <icon name="icon-security-keys"/>
       <icon name="icon-globe"/>
       <icon name="icon-network-address"/>
@@ -130,6 +130,7 @@
   <!--<alias typedir="emblems" name="disk" target="gtk-save"/>-->
   <!-- Aliases for icons can also have display names -->
 	<alias name="redhat-accessories" target="icon-accessories"/>
+		<alias name="applications-accessories" target="icon-accessories"/>
 	
 	<alias name="gedit-icon" target="icon-notepad"/>
 		<alias name="org.gnome.gedit" target="icon-notepad"/>
@@ -209,6 +210,9 @@
 		<alias name="org.kde.kget" target="icon-update"/>
 		<alias name="ktorrent" target="icon-update"/>
 		<alias name="org.kde.ktorrent" target="icon-update"/>
+		<alias name="transmission" target="icon-update"/>
+		<alias name="transmission-qt" target="icon-update"/>
+		<alias name="transmission-gtk" target="icon-update"/>
 		<alias name="cloud-download" typedir="actions" target="icon-update"/>
 
 	<alias name="user_auth" target="icon-security-global"/>
@@ -217,6 +221,8 @@
 		<alias name="proton-vpn-logo" target="icon-security-global"/>
 		<alias name="preferences-system-network-vpn" target="icon-security-global"/>
 		<alias name="yast-vpn" target="icon-security-global"/>
+
+	<alias name="applications-internet" target="icon-internet"/>
 
 	<alias name="gnome-networktool" target="icon-network"/>
 		<alias name="gnome-modem" target="icon-network"/>
@@ -263,6 +269,7 @@
 		<alias name="rekonq" target="icon-web-browser"/>
 		<alias name="seamonkey" target="icon-web-browser"/>
 		<alias name="org.gnome.Epiphany" target="icon-web-browser"/>
+		<alias name="org.xfce.webbrowser" target="icon-web-browser"/>
 
 	<alias name="gaim" target="icon-instantmessage"/>
 		<alias name="pidgin" target="icon-instantmessage"/>
@@ -285,6 +292,7 @@
 		<alias name="org.xfce.mailreader" target="icon-email"/>
 		<alias name="claws-mail" target="icon-email"/>
 		<alias name="seamonkey-mail" target="icon-email"/>
+		<alias name="ktnef" target="icon-email"/>
 
 	<alias name="redhat-office" target="icon-office"/>
 		<alias name="applications-office" target="icon-office"/>
@@ -442,7 +450,7 @@
 		<alias name="network-server" typedir="places" target="icon-server"/>
 		<alias name="server" typedir="places" target="icon-server"/>
 
-	<alias name="unused-text-internet" target="icon-text-internet"/>
+	<alias name="putty" target="icon-text-internet"/>
 
 	<alias name="gnome-audio2" target="icon-speaker"/>
 		<alias name="noatun" target="icon-speaker"/>
@@ -487,7 +495,7 @@
 	<alias name="gnome-system" target="icon-computer"/>
 		<alias name="kcmsystem" target="icon-computer"/>
 		<alias name="gnome-fs-client" target="icon-computer" typedir="places"/>
-		<alias name="applications-system" target="icon-computer" typedir="places"/>
+		<alias name="applications-system" target="icon-computer"/>
 		<alias name="computer" typedir="devices" target="icon-computer"/>
 
 	<alias name="monitor" target="icon-monitor"/>
@@ -564,6 +572,8 @@
 
 	<alias name="file-roller" target="icon-system-packages"/>
 		<alias name="calamares" target="icon-system-packages"/>
+		<alias name="engrampa" target="icon-system-packages"/>
+		<alias name="ark" target="icon-system-packages"/>
 
 	<alias name="system-config-packages" target="icon-packages"/>
 		<alias name="apper" target="icon-packages"/>
@@ -593,12 +603,14 @@
 		<alias name="org.xfce.filemanager" target="icon-filemanager"/>
 		<alias name="caja" target="icon-filemanager"/>
 		<alias name="org.gnome.Nautilus" target="icon-filemanager"/>
+		<alias name="pcmanfm-qt" target="icon-filemanager"/>
 
 	<alias name="redhat-system-group" target="icon-network-systems"/>
 		<alias name="proxy" target="icon-network-systems"/>
 		<alias name="gnome-fs-network" typedir="places" target="icon-network-systems"/>
 		<alias name="gtk-network" typedir="places" target="icon-network-systems"/>
 		<alias name="network-workgroup" typedir="places" target="icon-network-systems"/>
+		<alias name="network-local" typedir="places" target="icon-network-systems"/>
 
 	<alias name="redhat-network-server" target="icon-system"/>
 
@@ -677,6 +689,10 @@
 		<alias name="application-menu" typedir="actions" target="icon-applications"/>
 
 	<alias name="applet-busy" target="icon-update-applet"/>
+		<alias name="update-high" typedir="status" target="icon-update-applet"/>
+		<alias name="update-medium" typedir="status" target="icon-update-applet"/>
+		<alias name="update-low" typedir="status" target="icon-update-applet"/>
+		<alias name="update-none" typedir="status" target="icon-update-applet"/>
 
 	<alias name="gnome-ccwindowmanager" target="icon-windowmanager"/>
 		<alias name="gnome-window-manager" target="icon-windowmanager"/>
@@ -770,6 +786,7 @@
 		<alias name="preferences-system-disks" target="icon-disks"/>
 		<alias name="yast-disk" target="icon-disks"/>
 		<alias name="org.gnome.DiskUtility" target="icon-disks"/>
+		<alias name="filelight" target="icon-disks"/>
 
 	<alias name="mtr_icon" target="icon-traceroute"/>
 		<alias name="network-wireless" typedir="devices" target="icon-traceroute"/>

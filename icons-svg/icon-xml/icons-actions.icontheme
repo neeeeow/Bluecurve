@@ -168,7 +168,7 @@
 	<alias name="find-location" target="stock-find"/>
 	<alias name="format-justify-center" target="stock-justify-center"/>
 	<alias name="format-justify-fill" target="stock-justify-fill"/>
-	<alias name="format-justify-left" target="stock-justifgtky-left"/>
+	<alias name="format-justify-left" target="stock-justify-left"/>
 	<alias name="format-justify-right" target="stock-justify-right"/>
 	<alias name="format-text-bold" target="stock-bold"/>
 	<alias name="format-text-italic" target="stock-italic"/>
@@ -204,7 +204,6 @@
 	<alias name="system-run" target="stock-execute"/>
 	<alias name="system-reboot" target="stock-refresh"/>
 	<alias name="system-shutdown" target="stock-disconnect"/>
-	<alias name="tools-check-spelling" target="stock-spell-check"/>
 	<alias name="view-fullscreen" target="stock-fullscreen"/>
 	<alias name="view-refresh" target="stock-refresh"/>
 	<alias name="view-sort-ascending" target="stock-sort-ascending"/>
@@ -393,31 +392,42 @@
 	<alias name="geany-save-all" target="stock-save"/>
 	<alias name="system-save-session" target="stock-save"/>
 	<alias name="document-import" target="stock-import"/>
+	<alias name="albumfolder-importdir" target="stock-import"/>
+	<alias name="action-albumfolder-importdir2" target="stock-import"/>
 	<alias name="document-export" target="stock-export"/>
 	<alias name="document-export-table" target="stock-export"/>
 	<alias name="document-export-ocal" target="stock-export"/>
 	<alias name="export" target="stock-export"/>
+	<alias name="document-revert-rtl" target="stock-revert-to-saved"/>
 	<alias name="edit-duplicate" target="stock-copy"/>
 	<alias name="document-duplicate" target="stock-copy"/>
 	<alias name="refreshstructure" target="stock-refresh"/>
 	<alias name="amarok_playlist_refresh" target="stock-refresh"/>
+	<alias name="action-unavailable" target="stock-stop"/>
 	<alias name="go-home-large" target="stock-home"/>
 	<alias name="akonadi-phone-home" target="stock-home"/>
 	<alias name="document-print-frame" target="stock-print"/>
 	<alias name="document-print-direct" target="stock-print"/>
 	<alias name="printer-printing" typedir="status" target="stock-print"/>
+	<alias name="dvips" typedir="status" target="stock-print"/>
 	<alias name="help-whatisthis" target="stock-help"/>
 	<alias name="help-latex" target="stock-help"/>
 	<alias name="help-feedback" target="stock-help"/>
 	<alias name="help-contextual" target="stock-help"/>
-	<alias name="help-hint" target="stock-about"/>
+	<alias name="documentinfo" target="stock-about"/>
+	<alias name="exifinfo" target="stock-about"/>
+	<alias name="go-jump-locationbar" target="stock-jump-to"/>
 	<alias name="run-build" target="stock-execute"/>
 	<alias name="debug-run" target="stock-execute"/>
 	<alias name="scriptnew" target="stock-execute"/>
 	<alias name="amarok_scripts" target="stock-execute"/>
 	<alias name="document-edit" target="stock-edit"/>
+	<alias name="document-edit-sign" target="stock-edit"/>
+	<alias name="document-sign" target="stock-edit"/>
 	<alias name="mail-attachment" target="stock-attach"/>
 	<alias name="mail-forward-attachment" target="stock-attach"/>
+	<alias name="document-edit-verify" target="stock-find"/>
+	<alias name="document-preview" target="stock-find"/>
 	<alias name="delete" target="stock-delete"/>
 	<alias name="usermenu-delete" target="stock-delete"/>
 	<alias name="mail-deleted" target="stock-delete"/>
@@ -427,6 +437,7 @@
 	<alias name="edit-delete-shred" target="stock-delete"/>
 	<alias name="draw-eraser-delete-objects" target="stock-delete"/>
 	<alias name="trash-empty" target="stock-delete"/>
+	<alias name="albumfolder-user-trash" target="stock-delete"/>
 	<alias name="dialog-ok" target="stock-apply"/>
 	<alias name="dialog-ok-apply" target="stock-apply"/>
 	<alias name="answer" target="stock-apply"/>
@@ -436,6 +447,7 @@
 	<alias name="mate-panel-force-quit" typedir="apps" target="stock-cancel"/>
 	<alias name="tag-addressbook" target="stock-book"/>
 	<alias name="addressbook-details" target="stock-book"/>
+	<alias name="documentation" target="stock-book"/>
 	<alias name="practice-stop" target="stock-media-stop"/>
 	<alias name="kt-stop" target="stock-media-stop"/>
 	<alias name="kt-pause" target="stock-media-pause"/>
@@ -495,15 +507,18 @@
 	<alias name="document-encrypted" target="stock-lockscreen"/>
 	<alias name="document-encrypt" target="stock-lockscreen"/>
 	<alias name="globe" target="stock-panel-internet"/>
+	<alias name="document-share" target="stock-panel-internet"/>
 	<alias name="open-link" target="stock-panel-internet"/>
 	<alias name="open-link-rtl" target="stock-panel-internet"/>
 	<alias name="internet-services" target="stock-panel-internet"/>
 	<alias name="internet-amarok" target="stock-panel-internet"/>
+	<alias name="atmosphere" target="stock-panel-internet"/>
 	<alias name="document-multiple" target="stock-dnd-multiple"/>
 	<alias name="player-volume" target="stock-volume"/>
 	<alias name="player-volume-muted" target="stock-volume-muted"/>
 	<alias name="tag-properties" target="stock-properties"/>
 	<alias name="dialog-object-properties" target="stock-properties"/>
+	<alias name="albumfolder-properties" target="stock-properties"/>
 	<alias name="mate-panel-fish" typedir="apps" target="stock-panel-amusements"/>
 	<alias name="mate-eyes-applet" typedir="apps" target="stock-panel-amusements"/>
 	<alias name="network-disconnect" target="stock-disconnect"/>
@@ -537,12 +552,16 @@
 	<alias name="bookmark-toolbar" target="stock-bookmarks"/>
 	<alias name="bookmark-new-list" target="stock-bookmark-page"/>
 	<alias name="bookmark-new" target="stock-bookmark-page"/>
+	<alias name="bookmark-edit" target="stock-bookmark-page"/>
 	<alias name="gnumeric-link-email" target="stock-send-link"/>
+	<alias name="document-send" target="stock-send-link"/>
+	<alias name="document-send-rtl" target="stock-send-link"/>
 	<alias name="download" target="stock-download"/>
 	<alias name="mail-download-now" target="stock-download"/>
 	<alias name="kt-set-max-download-speed" target="stock-download"/>
 	<alias name="edit-download" target="stock-download"/>
 	<alias name="download-amarok" target="stock-download"/>
+	<alias name="transmission-tray-icon" typedir="status" target="stock-download"/>
 	<alias name="view-more" target="stock-view-more"/>
 	<alias name="overflow-menu" target="stock-view-more"/>
 	<alias name="expand-all" target="stock-tree-expand-all"/>

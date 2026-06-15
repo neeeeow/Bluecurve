@@ -313,6 +313,7 @@
 	<alias name="image-navigator" target="stock_navigator"/>
 	<alias name="folder-new" target="stock_new-dir"/>
 	<alias name="folder-add" target="stock_new-dir"/>
+	<alias name="albumfolder-new" target="stock_new-dir"/>
 	<alias name="document-new-from-template" target="stock_new-text"/>
 	<alias name="viewpdf" target="stock_save-pdf"/>
 	<alias name="ps2pdf" target="stock_save-pdf"/>
@@ -321,6 +322,7 @@
 	<alias name="format-text-color" target="stock_text_color_foreground"/>
 	<alias name="format-indent-more" target="stock_text_indent"/>
 	<alias name="format-indent-less" target="stock_text_unindent"/>
+	<alias name="go-parent-folder" target="stock_up-one-dir"/>
 	<alias name="selection" target="stock_draw-selection"/>
 	<alias name="cursor-arrow" target="stock_draw-selection"/>
 	<alias name="labplot-cursor-arrow" target="stock_draw-selection"/>
@@ -361,6 +363,7 @@
 	<alias name="knotes_date" target="stock_form-date-field"/>
 	<alias name="change-date" target="stock_form-date-field"/>
 	<alias name="appointment-new" target="stock_form-date-field"/>
+	<alias name="go-jump-today" target="stock_form-date-field"/>
 	<alias name="quickopen" target="stock_form-file-selection"/>
 	<alias name="quickopen-file" target="stock_form-file-selection"/>
 	<alias name="x-shape-image" target="stock_form-image-control"/>
@@ -503,8 +506,12 @@
 	<alias name="tool_imageeffects" target="stock_filters"/>
 	<alias name="tools-wizard" target="stock_filters"/>
 	<alias name="quickwizard" target="stock_filters"/>
+	<alias name="help-hint" target="stock_filters"/>
+	<alias name="edit-image" target="stock_filters"/>
+	<alias name="editimage" target="stock_filters"/>
 	<alias name="select" target="stock_hyperlink-target"/>
 	<alias name="edit-select" target="stock_hyperlink-target"/>
+	<alias name="edit-move" target="stock_transform-move"/>
 	<alias name="transform-move" target="stock_transform-move"/>
 	<alias name="labplot-transform-move" target="stock_transform-move"/>
 	<alias name="insertcell" target="stock_insert-cells"/>
@@ -513,5 +520,7 @@
 	<alias name="view-presentation" target="stock_slide-show"/>
 	<alias name="view-filter" target="stock_standard-filter"/>
 	<alias name="kt-add-filters" target="stock_standard-filter"/>
+	<alias name="tools-check-spelling" target="stock_spellcheck"/>
+	<alias name="autocorrection" target="stock_autospellcheck"/>
 
 </theme>

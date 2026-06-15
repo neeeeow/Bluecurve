@@ -131,6 +131,7 @@
 		<alias name="folder_open" typedir="places" target="folder"/>
 		<alias name="stock_folder" typedir="places" target="folder"/>
 		<alias name="folder" typedir="places" target="folder"/>
+		<alias name="inode-directory" target="folder"/>
 
 	<alias name="gnome-fs-home" typedir="places" target="folder-home"/>
 		<alias name="folder_home" typedir="places" target="folder-home"/>
@@ -148,7 +149,7 @@
 	<alias name="gnome-folder-locked" target="folder-locked"/>
 		<alias name="folder_locked" target="folder-locked"/>
 		<alias name="folder-locked" typedir="places" target="folder-locked"/>
-		<alias name="folder-locked" typedir="places" target="folder-encrypted"/>
+		<alias name="folder-encrypted" typedir="places" target="folder-locked"/>
 
 	<alias name="gnome-fs-directory-accept" typedir="places" target="folder-accept"/>
 		<alias name="folder-open" typedir="places" target="folder-accept"/>
@@ -256,7 +257,6 @@
 		<alias name="tgz" target="archive"/>
 		<alias name="deb" target="archive"/>
 		<alias name="pk" target="archive"/>
-		<alias name="ark" typedir="apps" target="archive"/>
 		<alias name="package" typedir="apps" target="archive"/>
 		<alias name="package-x-generic" target="archive"/>
 		<alias name="application-x-jar" target="archive"/>
@@ -317,6 +317,7 @@
 		<alias name="skanpage" typedir="apps" target="scanner"/>
 		<alias name="skanlite" typedir="apps" target="scanner"/>
 		<alias name="org.kde.skanlite" typedir="apps" target="scanner"/>
+		<alias name="document-scan" typedir="actions" target="scanner"/>
 
 	<!--<alias name="gnome-mime-text-plain" target="file-container"/>-->
 	<alias name="gnome-mime-text-plain" target="file-doc_container"/>
