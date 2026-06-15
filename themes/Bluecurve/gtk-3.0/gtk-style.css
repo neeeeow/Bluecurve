@@ -2465,8 +2465,21 @@ frame.border-ridge > border {
 
 statusbar {
 	padding: 1px 0 0 0;
+	margin: 0 -10px;
 	border-top: 1px solid @trough_bg_color;
 	box-shadow: inset 0 1px @light_border_color;
+}
+
+box + statusbar {
+	margin: -7px -10px -4px;
+}
+
+grid statusbar {
+	margin: -1px -10px 2px;
+}
+
+paned + box > statusbar {
+	margin: -3px -5px 0;
 }
 
 statusbar frame,
@@ -2478,6 +2491,10 @@ statusbar label {
 	border: 0;
 	border-radius: 0;
 	box-shadow: none;
+}
+
+statusbar > frame {
+	margin: -4px -2px;
 }
 
 statusbar button {
@@ -2492,30 +2509,6 @@ statusbar button:hover:not(:active),
 statusbar button:checked:hover,
 statusbar button:active:hover {
 	box-shadow: none;
-}
-
-statusbar:not(.gtk-throwback) {
-	margin: 0 -10px;
-}
-
-box + statusbar:not(.gtk-throwback) {
-	margin: -7px -10px -4px;
-}
-
-grid statusbar:not(.gtk-throwback) {
-	margin: -1px -10px 2px;
-}
-
-paned + box > statusbar:not(.gtk-throwback) { 
-	margin: -8px -10px -4px;
-}
-
-statusbar:not(.gtk-throwback) > frame {
-	margin: -4px -2px;
-}
-
-statusbar.gtk-throwback > frame {
-	margin: 0 2px 1px 2px;
 }
 
 /**********************************************/
