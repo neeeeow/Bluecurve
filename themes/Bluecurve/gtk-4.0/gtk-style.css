@@ -468,7 +468,7 @@ tooltip.background.solid-csd,
 .background.solid-csd headerbar button.minimize,
 .background.solid-csd headerbar button.maximize,
 .background.solid-csd headerbar button.close {
-	margin: 0px 1px;
+	margin: 2px 1px -2px;
 	padding: 0px;
 	min-width: 18px;
 	min-height: 16px;
