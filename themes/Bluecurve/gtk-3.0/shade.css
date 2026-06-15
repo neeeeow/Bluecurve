@@ -95,6 +95,7 @@
 /********************************************/
 @define-color frame_light_color #ffffff; /* this is always #ffffff */
 @define-color frame_groove_color shade(@theme_bg_color, 1.065);
+@define-color frame_shadow_color shade(@theme_bg_color, 0.963);
 
 /*******************************************/
 /* Text color for entry:disabled */

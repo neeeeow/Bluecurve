@@ -1183,9 +1183,9 @@ menubar > item {
 	padding: 3px 7px;
 }
 
-item:selected, 
-item:hover, 
-popover modelbutton:selected, 
+item:selected,
+item:hover,
+popover modelbutton:selected,
 popover modelbutton:hover {
 	color: @theme_selected_fg_color;
 	border: 1px solid @menuitem_border_color;
@@ -2254,15 +2254,15 @@ frame > border {
 }
 
 frame.border-inset {
-	padding: 0 1px 1px 0;
+	padding: 1px;
 	border: 1px solid @border_color;
-	box-shadow: inset -1px -1px 0 0 @frame_light_color;
+	box-shadow: inset 0 0 1px 1px @frame_shadow_color, inset -1px -1px 0 0 @frame_light_color;
 }
 
 frame.border-outset {
-	padding: 1px 0 0 1px;
+	padding: 1px;
 	border: 1px solid @border_color;
-	box-shadow: inset 1px 1px 0 0 @frame_light_color;
+	box-shadow: inset 0 0 1px 1px @frame_shadow_color, inset 1px 1px 0 0 @frame_light_color;
 }
 
 frame.border-groove,
