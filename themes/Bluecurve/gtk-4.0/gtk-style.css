@@ -1165,14 +1165,6 @@ popover.menu viewport {
 	box-shadow: inset -1px -1px @box_shadow_dark_color, inset 1px 1px @box_shadow_light_color;
 }
 
-/* Override global settings for selected items to ensure that menubar doesn't highlight when cursor is placed over it */
-menubar > *:selected,
-menubar > *:selected:focus {
-	background: transparent;
-	border: 1px solid transparent;
-	box-shadow: inset 1px 1px transparent, inset -1px -1px transparent;
-}
-
 /* Set menu item padding */
 item, popover modelbutton {
 	padding: 3px 5px 3px 0px;
@@ -1222,16 +1214,12 @@ popover modelbutton > label:dir(rtl) {
 
 /* Set menu item label colors */
 item:hover > *,
-item:selected:not(prelight) > *,
+item:selected > *,
 popover modelbutton:hover > *,
-popover modelbutton:selected:not(prelight) > *,
+popover modelbutton:selected > *,
 combobox popover modelbutton.flat:hover cellview,
-combobox popover modelbutton.flat:selected:not(prelight) cellview {
+combobox popover modelbutton.flat:selected cellview {
 	color: @theme_selected_fg_color;
-}
-
-menubar > item:focus > * {
-	color: @theme_fg_color;
 }
 
 /**********************************************/
