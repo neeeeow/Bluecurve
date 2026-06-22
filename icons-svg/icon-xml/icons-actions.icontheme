@@ -165,7 +165,6 @@
 	<alias name="edit-paste" target="stock-paste"/>
 	<alias name="edit-redo" target="stock-redo"/>
 	<alias name="edit-undo" target="stock-undo"/>
-	<alias name="find-location" target="stock-find"/>
 	<alias name="format-justify-center" target="stock-justify-center"/>
 	<alias name="format-justify-fill" target="stock-justify-fill"/>
 	<alias name="format-justify-left" target="stock-justify-left"/>
@@ -289,7 +288,6 @@
 	<alias name="media-next" target="stock-media-next"/>
 	<alias name="media-ffwd" target="stock-media-ffwd"/>
 	<alias name="foo" target="stock-foo"/>
-	<alias name="gtk-missing-image" target="stock-missing-image"/>
 	<alias name="gtk-cdrom" target="stock-cdrom"/>
 	<alias name="gtk-convert" target="stock-convert"/>
 	<alias name="gtk-font" target="stock-font"/>
@@ -339,8 +337,8 @@
 	<alias name="epiphany-send-link" target="stock-send-link"/>
 	<alias name="epiphany-download" target="stock-download"/>
 	<alias name="epiphany-new-tab" target="stock-new-tab"/>
-	<alias name="volume-mute" target="stock-volume-mute"/>
-	<alias name="stock_volume-mute" target="stock-volume-mute"/>
+	<alias name="volume-mute" target="stock-volume-muted"/>
+	<alias name="stock_volume-mute" target="stock-volume-muted"/>
 
 	<!-- GTK+ stock icons (extended) -->
 	<alias name="printer-workgroup" target="stock-print"/>
@@ -404,8 +402,10 @@
 	<alias name="refreshstructure" target="stock-refresh"/>
 	<alias name="amarok_playlist_refresh" target="stock-refresh"/>
 	<alias name="action-unavailable" target="stock-stop"/>
+	<alias name="error" target="stock-stop"/>
 	<alias name="go-home-large" target="stock-home"/>
 	<alias name="akonadi-phone-home" target="stock-home"/>
+	<alias name="homerun" typedir="apps" target="stock-home"/>
 	<alias name="document-print-frame" target="stock-print"/>
 	<alias name="document-print-direct" target="stock-print"/>
 	<alias name="printer-printing" typedir="status" target="stock-print"/>
@@ -415,6 +415,7 @@
 	<alias name="help-feedback" target="stock-help"/>
 	<alias name="help-contextual" target="stock-help"/>
 	<alias name="documentinfo" target="stock-about"/>
+	<alias name="kdocumentinfo" target="stock-about"/>
 	<alias name="exifinfo" target="stock-about"/>
 	<alias name="go-jump-locationbar" target="stock-jump-to"/>
 	<alias name="run-build" target="stock-execute"/>
@@ -438,6 +439,10 @@
 	<alias name="draw-eraser-delete-objects" target="stock-delete"/>
 	<alias name="trash-empty" target="stock-delete"/>
 	<alias name="albumfolder-user-trash" target="stock-delete"/>
+	<alias name="arrow-left" target="stock-go-back"/>
+	<alias name="arrow-right" target="stock-go-forward"/>
+	<alias name="arrow-down" target="stock-go-down"/>
+	<alias name="arrow-up" target="stock-go-up"/>
 	<alias name="dialog-ok" target="stock-apply"/>
 	<alias name="dialog-ok-apply" target="stock-apply"/>
 	<alias name="answer" target="stock-apply"/>
@@ -469,6 +474,7 @@
 	<alias name="configure-shortcuts" target="stock-preferences"/>
 	<alias name="configure_project" target="stock-preferences"/>
 	<alias name="configure_kile" target="stock-preferences"/>
+	<alias name="preferences-system" target="stock-preferences"/>
 	<alias name="tab-new" target="stock-new-tab"/>
 	<alias name="zoom-fit-drawing" target="stock-zoom-fit"/>
 	<alias name="zoom-draw" target="stock-zoom-fit"/>
@@ -506,6 +512,7 @@
 	<alias name="kt-encrypted" target="stock-lockscreen"/>
 	<alias name="document-encrypted" target="stock-lockscreen"/>
 	<alias name="document-encrypt" target="stock-lockscreen"/>
+	<alias name="dialog-password" typedir="status" target="stock-lockscreen"/>
 	<alias name="globe" target="stock-panel-internet"/>
 	<alias name="document-share" target="stock-panel-internet"/>
 	<alias name="open-link" target="stock-panel-internet"/>
@@ -516,6 +523,10 @@
 	<alias name="document-multiple" target="stock-dnd-multiple"/>
 	<alias name="player-volume" target="stock-volume"/>
 	<alias name="player-volume-muted" target="stock-volume-muted"/>
+	<alias name="media" target="stock-panel-multimedia"/>
+	<alias name="media-playback-paused" typedir="status" target="stock-panel-multimedia"/>
+	<alias name="media-playback-playing" typedir="status" target="stock-panel-multimedia"/>
+	<alias name="media-playback-stopped" typedir="status" target="stock-panel-multimedia"/>
 	<alias name="tag-properties" target="stock-properties"/>
 	<alias name="dialog-object-properties" target="stock-properties"/>
 	<alias name="albumfolder-properties" target="stock-properties"/>

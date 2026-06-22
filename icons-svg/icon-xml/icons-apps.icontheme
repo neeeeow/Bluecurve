@@ -165,6 +165,7 @@
 		<alias name="office-address-book" target="icon-logbook"/>
 		<alias name="kaddressbook" target="icon-logbook"/>
 		<alias name="x-office-address-book" typedir="mimetypes" target="icon-logbook"/>
+		<alias name="kontact" target="icon-logbook"/>
 
 	<alias name="gdict" target="icon-documentation"/>
 		<alias name="accessories-dictionary" target="icon-documentation"/>
@@ -228,6 +229,7 @@
 		<alias name="gnome-modem" target="icon-network"/>
 		<alias name="network-manager" target="icon-network"/>
 		<alias name="package_network" target="icon-network"/>
+		<alias name="applications-network" target="icon-network"/>
 		<alias name="network-wired" typedir="devices" target="icon-network"/>
 
 	<alias name="password" target="icon-security-keys"/>
@@ -375,6 +377,7 @@
 		<alias name="org.xfce.terminal" target="icon-terminal"/>
 		<alias name="org.xfce.terminalemulator" target="icon-terminal"/>
 		<alias name="qterminal" target="icon-terminal"/>
+		<alias name="dialog-scripts" typedir="actions" target="icon-terminal"/>
 	
 	<alias name="gnome-monitor" target="icon-systemhealth"/>
 		<alias name="procman" target="icon-systemhealth"/>
@@ -392,7 +395,6 @@
 
 	<alias name="redhat-system_settings" target="icon-system-configuration"/>
 		<alias name="gnome-system-config" target="icon-system-configuration"/>
-		<alias name="preferences-system" target="icon-system-configuration"/>
 		<alias name="yast-sysconfig" target="icon-system-configuration"/>
 
 	<alias name="font-capplet" target="icon-fonts"/>
@@ -406,6 +408,7 @@
 	<alias name="gnome-user-interface" target="icon-system-preferences"/>
 		<alias name="package_settings" target="icon-system-preferences"/>
 		<alias name="systemsettings" target="icon-system-preferences"/>
+		<alias name="preferences-system" target="icon-system-preferences"/>
 		<alias name="org.xfce.settings.manager" target="icon-system-preferences"/>
 	
 	<alias name="redhat-system_tools" target="icon-configuration"/>
@@ -439,6 +442,7 @@
 		<alias name="baloo" target="icon-search"/>
 		<alias name="kmag" target="icon-search"/>
 		<alias name="system-search" typedir="actions" target="icon-search"/>
+		<alias name="find-location" typedir="actions" target="icon-search"/>
 
 	<alias name="gnome-lockscreen" target="icon-security-lock"/>
 		<alias name="passwd" target="icon-security-lock"/>
@@ -456,11 +460,11 @@
 		<alias name="noatun" target="icon-speaker"/>
 		<alias name="konqsidebar_mediaplayer" target="icon-speaker"/>
 		<alias name="audio-speakers" typedir="devices" target="icon-speaker"/>
+		<alias name="multimedia-player" typedir="devices" target="icon-speaker"/>
 
 	<alias name="gnome-lokkit-logo" target="icon-security-badge"/>
 		<alias name="root-password" target="icon-security-badge"/>
 		<alias name="system-config-rootpassword" target="icon-security-badge"/>
-		<alias name="preferences-security-kerberos" target="icon-security-badge"/>
 	
 	<alias name="gnome-cckeyboard" target="icon-keyboard"/>
 		<alias name="system-config-keyboard" target="icon-keyboard"/>
@@ -490,6 +494,7 @@
 		<alias name="kmousetool" target="icon-mouse"/>
 		<alias name="org.xfce.settings.mouse" target="icon-mouse"/>
 		<alias name="preferences-desktop-mouse" target="icon-mouse"/>
+		<alias name="preferences-desktop-peripherals" target="icon-mouse"/>
 		<alias name="input-mouse" typedir="devices" target="icon-mouse"/>
 	
 	<alias name="gnome-system" target="icon-computer"/>
@@ -685,10 +690,12 @@
 		<alias name="package_system" target="icon-applications"/>
 		<alias name="winprops" target="icon-applications"/>
 		<alias name="mate-session-properties" target="icon-applications"/>
+		<alias name="applications-all" target="icon-applications"/>
 		<alias name="applications-other" target="icon-applications"/>
 		<alias name="application-menu" typedir="actions" target="icon-applications"/>
 
 	<alias name="applet-busy" target="icon-update-applet"/>
+		<alias name="system-software-update" typedir="status" target="icon-update-applet"/>
 		<alias name="update-high" typedir="status" target="icon-update-applet"/>
 		<alias name="update-medium" typedir="status" target="icon-update-applet"/>
 		<alias name="update-low" typedir="status" target="icon-update-applet"/>

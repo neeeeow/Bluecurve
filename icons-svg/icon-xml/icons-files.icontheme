@@ -129,6 +129,8 @@
 		<alias name="gnome-fs-directory" typedir="places" target="folder"/>
 		<alias name="folder_flat" typedir="places" target="folder"/>
 		<alias name="folder_open" typedir="places" target="folder"/>
+		<alias name="folder-open" typedir="places" target="folder"/>
+		<alias name="folder-open" typedir="status" target="folder"/>
 		<alias name="stock_folder" typedir="places" target="folder"/>
 		<alias name="folder" typedir="places" target="folder"/>
 		<alias name="inode-directory" target="folder"/>
@@ -152,9 +154,12 @@
 		<alias name="folder-encrypted" typedir="places" target="folder-locked"/>
 
 	<alias name="gnome-fs-directory-accept" typedir="places" target="folder-accept"/>
-		<alias name="folder-open" typedir="places" target="folder-accept"/>
+		<alias name="folder-drag-accept" typedir="places" target="folder-accept"/>
+		<alias name="folder-drag-accept" typedir="status" target="folder-accept"/>
 
 	<alias name="gnome-fs-directory-visiting" typedir="places" target="folder-visiting"/>
+		<alias name="folder-visiting" typedir="places" target="folder-accept"/>
+		<alias name="folder-visiting" typedir="status" target="folder-accept"/>
 
 	<alias name="gnome-floppy" target="floppy"/>
 		<alias name="media-floppy" typedir="devices" target="floppy"/>
@@ -176,13 +181,16 @@
 		<alias name="hdd_win_mount" typedir="devices" target="harddrive"/>
 		<alias name="hdd_win_unmount" typedir="devices" target="harddrive"/>
 		<alias name="kcmdevices" typedir="apps" target="harddrive"/>
+		<alias name="drive" typedir="devices" target="harddrive"/>
 		<alias name="drive-harddisk" typedir="devices" target="harddrive"/>
 		<alias name="drive-harddisk-system" typedir="devices" target="harddrive"/>
 		<alias name="drive-harddisk-usb" typedir="devices" target="harddrive"/>
+		<alias name="drive-harddisk-ieee1394" typedir="devices" target="harddrive"/>
 
 	<alias name="gnome-raid" target="raid"/>
 		<alias name="kcmpartitions" typedir="apps" target="raid"/>
 		<alias name="partitionmanager" typedir="apps" target="raid"/>
+		<alias name="drive-multidisk" typedir="devices" target="raid"/>
 
 	<alias name="gnome-mime-x-directory-share" target="fileshare"/>
 		<alias name="gnome-fs-share" typedir="places" target="fileshare"/>
@@ -310,6 +318,7 @@
 	<alias name="camera-video" typedir="devices" target="camcorder"/>
 
 	<alias name="input-tablet" typedir="devices" target="tablet"/>
+		<alias name="tablet" typedir="devices" target="tablet"/>
 
 	<alias name="document-scan" typedir="actions" target="scanner"/>
 		<alias name="scanner" typedir="apps" target="scanner"/>

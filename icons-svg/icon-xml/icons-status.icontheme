@@ -51,6 +51,7 @@
 	<alias name="audio-volume-muted" target="stock-volume-mute"/>
 
 	<alias name="image-missing" target="stock-missing-image"/>
+	<alias name="gtk-missing-image" target="stock-missing-image"/>
 	<alias name="printer-broken" target="stock-printer-broken"/>
 	<alias name="printer-default" target="stock-printer-default"/>
 	<alias name="printer-error" target="stock-printer-broken"/>

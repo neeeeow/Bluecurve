@@ -17,4 +17,6 @@
 	<alias name="gtk-dialog-warning" target="dialog-warning"/>
 	<alias name="gtk-dialog-error" target="dialog-error"/>
 	<alias name="gtk-dialog-question" target="dialog-question"/>
+
+	<alias name="dialog-information" target="dialog-info"/>
 </theme>

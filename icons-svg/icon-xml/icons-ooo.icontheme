@@ -27,7 +27,7 @@
     <icon name="stock_list_enum"/>
     <icon name="stock_navigator"/>
     <icon name="stock_new-dir"/>
-    <icon name="stock_new-text"/>
+    <icon name="stock_new-text-file"/>
     <icon name="stock_nonprinting-chars"/>
     <icon name="stock_online-layout"/>
     <icon name="stock_open"/>
@@ -308,13 +308,14 @@
 	<alias name="view-form" target="stock_insert-form"/>
 	<alias name="insert-link" target="stock_insert_url"/>
 	<alias name="gnumeric-link-url" target="stock_insert_url"/>
+	<alias name="document-open-remote" target="stock_insert_url"/>
 	<alias name="format-list-unordered" target="stock_list_bullet"/>
 	<alias name="format-list-ordered" target="stock_list_enum"/>
 	<alias name="image-navigator" target="stock_navigator"/>
 	<alias name="folder-new" target="stock_new-dir"/>
 	<alias name="folder-add" target="stock_new-dir"/>
 	<alias name="albumfolder-new" target="stock_new-dir"/>
-	<alias name="document-new-from-template" target="stock_new-text"/>
+	<alias name="document-new-from-template" target="stock_new-text-file"/>
 	<alias name="viewpdf" target="stock_save-pdf"/>
 	<alias name="ps2pdf" target="stock_save-pdf"/>
 	<alias name="pdflatex" target="stock_save-pdf"/>
@@ -522,5 +523,12 @@
 	<alias name="kt-add-filters" target="stock_standard-filter"/>
 	<alias name="tools-check-spelling" target="stock_spellcheck"/>
 	<alias name="autocorrection" target="stock_autospellcheck"/>
+	<alias name="modified" target="stock_insert-file"/>
+	<alias name="new-audio-alarm" target="stock_insert-sound-plugin"/>
+	<alias name="view-media-track" target="stock_insert-sound-plugin"/>
+	<alias name="media-album-track" target="stock_insert-sound-plugin"/>
+	<alias name="video" target="stock_insert-video-plugin"/>
+	<alias name="videoclip-amarok" target="stock_insert-video-plugin"/>
+	<alias name="filmgrain" target="stock_insert-video-plugin"/>
 
 </theme>
