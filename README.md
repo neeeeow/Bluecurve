@@ -1,5 +1,9 @@
+<p align="center">
+  <img src="bluecurve-splash.png" alt="Bluecurve logo">
+</p>
+
 # Bluecurve GTK 3/4
-Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce desktop environments.
+Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE, Xfce and KDE desktop environments.
 
 ### Screenshot
 ![Desktop screenshot](screenshots/desktop.png)
@@ -14,15 +18,21 @@ Red Hat Bluecurve theme ported over to GTK 3/4. Designed for the MATE and Xfce d
 [<img alt="Tangerine color scheme" src="screenshots/Tangerine_awf.png?raw=true" width="200" />](screenshots/Tangerine_awf.png?raw=true)
 
 ## Contents
-- GTK 3/4 theme, forked from [Blueshell](https://github.com/Rakksor/Blueshell) and significantly rewritten/extended to make the theme better resemble the original GTK 2 theme and updated to support both GTK 3 and 4, as well as including all of the color schemes that were included with the Bluecurve theme in early versions of Fedora.
+- GTK 3/4 theme, with support for dynamic color theming.
 - GTK 2 engine and theme.
-- Original Bluecurve Metacity themes updated to resolve issues arising from using old metacity themes on newer versions of MATE.
-- Original Bluecurve XFWM4 theme, updated to support the additional color schemes.
-- Bluecurve icon and cursor set.
+- Original Bluecurve Metacity themes, updated to resolve issues arising from using old metacity themes on newer versions of MATE.
+- Original Bluecurve XFWM4 theme, updated to support additional color schemes.
+- Bluecurve icons in scalable SVG format, taken from the original Adobe Illustrator source.
+- Bluecurve cursors.
 - Luxi font family (fonts used originally in Red Hat 8-9 and early versions of Fedora and RHEL).
 - Wallpapers that shipped with Red Hat 8-9 and early versions of Fedora, some of which were updated to widescreen by myself.
 
-## Automatic installation (reccomended)
+## Installation
+
+### Requirements
+- GTK 2/3 development libraries.
+- CMake.
+- Python 3.
 
 ### 1. Download the theme
 Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
@@ -33,55 +43,19 @@ cd Bluecurve
 > [!CAUTION]
 > You must either download the latest release or clone the git repository. Simply downloading the repository as a .zip file breaks permissions!
 
-### 2. Run the install script
-```bash
-./install.sh
-```
-### (Optional) 3. Install the Qt 5/6 theme
-See [neeeeow/Bluecurve-Qt](https://github.com/neeeeow/Bluecurve-Qt).
+### 2. Compile & install
 
-## Manual installation
-### 1. Download the theme
-Either [download the latest release](https://github.com/neeeeow/Bluecurve/releases) or clone the git repository:
-```bash
-git clone https://github.com/neeeeow/Bluecurve.git
-cd Bluecurve
-```
-### 2. Compile GTK 2 engine
-First ensure that you have the following installed on your system:
-- Cmake
-- gcc
-- GTK 2 development libraries
+> [!IMPORTANT]
+> GTK 2 is no longer included on some distributions, including RHEL 10 and the upcoming Debian 14. If your distribution does not include GTK 2, execute `cmake .. DCOMPILE_GTK2_ENGINE=OFF` instead of `cmake ..` to disable GTK 2 engine compilation.
 
-Then navigate to the GTK 2 engine source code directory:
-```bash
-cd engine/src
 ```
-Then create the `build` folder
-```bash
 mkdir build && cd build
-```
-Next run `cmake`
-```bash
 cmake ..
-```
-Finally, compile and install the GTK 2 engine (the engine is installed to `~/.gtk-2.0/engines`) and return to the repository's root directory:
-```bash
-make && make install && cd ../../../
+make
+sudo make install
 ```
 
-### 3. Install icon and cursor set
-Copy the contents of the `icons` folder to `~/.icons`
-```bash
-cp -r icons/* ~/.icons
-```
-### 4. Install GTK theme
-Copy the contents of the `themes` folder to `~/.themes`
-```bash
-cp -r themes/* ~/.themes
-```
-
-### (Optional) 5. Install Luxi fonts
+### (Optional) 3. Install Luxi fonts
 > [!WARNING]
 > Only do this step if your distribution doesn't include the Luxi font family.
 
@@ -93,26 +67,17 @@ Next, copy the fonts to the directory:
 ```bash
 cp fonts/*.ttf ~/.local/share/fonts
 ```
-### (Optional) 6. Install the Qt 5/6 theme
+### (Optional) 4. Install the Qt 5/6 theme
 See [neeeeow/Bluecurve-Qt](https://github.com/neeeeow/Bluecurve-Qt).
+
+### (Optional) 5. Install the KDE 6 theme
+See [neeeeow/Bluecurve-KDE](https://github.com/neeeeow/Bluecurve-KDE).
 
 ## Hints
 ### Use Red Hat icon in MATE menu bar
 Simply execute the following command:
 ```bash
 gsettings set org.mate.panel.menubar icon-name 'redhat-icon-panel-menu'
-```
-
-### Compile & install GTK 2 engine system-wide
-If you wish to compile & install the GTK 2 engine system-wide, simply enable the `INSTALL_SYSTEM_WIDE` flag when compiling the engine.
-
-**Instructions:**
-```bash
-cd engine/src
-mkdir build && cd build
-cmake -DINSTALL_SYSTEM_WIDE=ON ..
-make
-sudo make install
 ```
 
 ## Contributing
