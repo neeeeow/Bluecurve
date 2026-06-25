@@ -48,7 +48,7 @@ cd Bluecurve
 > [!IMPORTANT]
 > GTK 2 is no longer included on some distributions, including RHEL 10 and the upcoming Debian 14. If your distribution does not include GTK 2, execute `cmake .. DCOMPILE_GTK2_ENGINE=OFF` instead of `cmake ..` to disable GTK 2 engine compilation.
 
-```
+```bash
 mkdir build && cd build
 cmake ..
 make
