@@ -385,6 +385,7 @@
 	<alias name="document-open-folder" target="stock-open"/>
 	<alias name="project-open" target="stock-open"/>
 	<alias name="scriptopen" target="stock-open"/>
+	<alias name="org.xfce.panel.actions" typedir="apps" target="stock-quit"/>
 	<alias name="org.xfce.panel.directorymenu" typedir="apps" target="stock-open"/>
 	<alias name="document-save-all" target="stock-save"/>
 	<alias name="geany-save-all" target="stock-save"/>

@@ -142,6 +142,7 @@
 		<alias name="nota" target="icon-notepad"/>
 		<alias name="org.kde.nota" target="icon-notepad"/>
 		<alias name="org.xfce.mousepad" target="icon-notepad"/>
+		<alias name="org.xfce.texteditor" target="icon-notepad"/>
 
 	<alias name="gcalctool" target="icon-calculator"/>
 		<alias name="gnome-calc2" target="icon-calculator"/>
@@ -193,6 +194,7 @@
 		<alias name="preferences-system-network-share" target="icon-fileshare"/>
 		<alias name="preferences-system-network-sharing" target="icon-fileshare"/>
 		<alias name="document-share" typedir="actions" target="icon-fileshare"/>
+		<alias name="org.xfce.gigolo" target="icon-fileshare"/>
 
 	<alias name="samba" target="icon-fileshare-smb"/>
 		<alias name="system-config-samba" target="icon-fileshare-smb"/>
@@ -259,6 +261,8 @@
 		<alias name="xfsm-switch-user" typedir="actions" target="icon-user-keys"/>
 
 	<alias name="klipper" target="icon-clipboard"/>
+	<alias name="clipman" target="icon-clipboard"/>
+	<alias name="xfce4-clipman-plugin" target="icon-clipboard"/>
 	
 	<alias name="redhat-web-browser" target="icon-web-browser"/>
 		<alias name="internet-web-browser" target="icon-web-browser"/>
@@ -280,6 +284,7 @@
 		<alias name="pidgin" target="icon-instantmessage"/>
 		<alias name="kopete" target="icon-instantmessage"/>
 		<alias name="org.kde.kopete" target="icon-instantmessage"/>
+		<alias name="org.xfce.notification" target="icon-instantmessage"/>
 		<alias name="telepathy-kde" target="icon-instantmessage"/>
 		<alias name="mate-notification-properties" target="icon-instantmessage"/>
 		<alias name="mate-panel-notification-area" target="icon-instantmessage"/>
@@ -310,6 +315,7 @@
 		<alias name="kwrite" target="icon-office-wordprocessor"/>
 		<alias name="org.kde.kwrite" target="icon-office-wordprocessor"/>
 		<alias name="kate" target="icon-office-wordprocessor"/>
+		<alias name="org.kde.kate" target="icon-office-wordprocessor"/>
 		<alias name="libreoffice-writer" target="icon-office-wordprocessor"/>
 		<alias name="words" target="icon-office-wordprocessor"/>
 		<alias name="calligrawords" target="icon-office-wordprocessor"/>
@@ -365,6 +371,7 @@
 		<alias name="org.kde.elisa" target="icon-audio"/>
 		<alias name="juk" target="icon-audio"/>
 		<alias name="org.kde.juk" target="icon-audio"/>
+		<alias name="pragha" target="icon-audio"/>
 
 	<alias name="redhat-sound_video" target="icon-media"/>
 		<alias name="gnome-multimedia" target="icon-media"/>
@@ -420,6 +427,7 @@
 		<alias name="preferences-desktop-font" target="icon-fonts"/>
 		<alias name="yast-fonts" target="icon-fonts"/>
 		<alias name="kfontview" target="icon-fonts"/>
+		<alias name="org.gnome.font-viewer" target="icon-fonts"/>
 	
 	<alias name="gnome-user-interface" target="icon-system-preferences"/>
 		<alias name="package_settings" target="icon-system-preferences"/>
@@ -452,7 +460,7 @@
 		<alias name="kfind" target="icon-search"/>
 		<alias name="org.kde.kfind" target="icon-search"/>
 		<alias name="kappfinder" target="icon-search"/>
-		<alias name="org.xfce.appfinder" target="icon-search"/>
+		<alias name="org.xfce.catfish" target="icon-search"/>
 		<alias name="plasma-search" target="icon-search"/>
 		<alias name="preferences-desktop-search" target="icon-search"/>
 		<alias name="baloo" target="icon-search"/>
@@ -549,6 +557,7 @@
 		<alias name="preferences-devices-printer" target="icon-printer"/>
 		<alias name="yast-printer" target="icon-printer"/>
 		<alias name="print-manager" target="icon-printer"/>
+		<alias name="system-config-printer" target="icon-printer"/>
 
 	<alias name="preferences-other" target="icon-settings"/>
 
@@ -578,6 +587,7 @@
 		<alias name="user_icon" target="icon-user"/>
 		<alias name="preferences-desktop-user" target="icon-user"/>
 		<alias name="preferences-desktop-personal" target="icon-user"/>
+		<alias name="mugshot" target="icon-user"/>
 
 	<alias name="gnome-mixer" target="icon-sound"/>
 		<alias name="system-config-soundcard" target="icon-sound"/>
@@ -591,6 +601,7 @@
 	<alias name="gnome-grecord" target="icon-mixer"/>
 		<alias name="kmix" target="icon-mixer"/>
 		<alias name="multimedia-volume-control" target="icon-mixer"/>
+		<alias name="org.pulseaudio.pavucontrol" target="icon-mixer"/>
 
 	<alias name="launcher-program" target="icon-launcher"/>
 		<alias name="applications-science" target="icon-launcher"/>
@@ -656,12 +667,14 @@
 		<alias name="x-office-calendar" typedir="mimetypes" target="icon-date"/>
 		<alias name="text-calendar" typedir="mimetypes" target="icon-date"/>
 		<alias name="text-vcalendar" typedir="mimetypes" target="icon-date"/>
+		<alias name="org.xfce.orage" typedir="mimetypes" target="icon-date"/>
 
 	<alias name="gnome-run" target="icon-runapp"/>
 		<alias name="shell-output-logo" target="icon-runapp"/>
 		<alias name="mate-run" target="icon-runapp"/>
 		<alias name="system-run" target="icon-runapp"/>
 		<alias name="krunner" target="icon-runapp"/>
+		<alias name="org.xfce.appfinder" target="icon-runapp"/>
 
 	<alias name="glade-2" target="icon-glade"/>
 		<alias name="org.gnome.Glade" target="icon-glade"/>
@@ -676,6 +689,7 @@
 	<alias name="memprof" target="icon-memory-profile"/>
 		<alias name="preferences-devices-cpu" target="icon-memory-profile"/>
 		<alias name="mate-cpu-frequency-applet" target="icon-memory-profile"/>
+		<alias name="org.xfce.panel.cpugraph" target="icon-memory-profile"/>
 	
 	<alias name="sound-juicer" target="icon-cd-rip"/>
 		<alias name="org.gnome.SoundJuicer" target="icon-cd-rip"/>
@@ -685,6 +699,7 @@
 		
 	<alias name="gconf-editor" target="icon-config-edit"/>
 		<alias name="ca.desrt.dconf-editor" target="icon-config-edit"/>
+		<alias name="org.xfce.settings.editor" target="icon-config-edit"/>
 
 	<alias name="gnome-main-menu" target="redhat-icon-panel-menu"/>
 		<alias name="kmenu" target="redhat-icon-panel-menu"/>
@@ -699,6 +714,7 @@
 		<alias name="mozo" target="icon-panel"/>
 		<alias name="preferences-desktop-menu-edit" target="icon-panel"/>
 		<alias name="kmenuedit" target="icon-panel"/>
+		<alias name="menulibre" target="icon-panel"/>
 
 	<alias name="gnome-ccdesktop" target="icon-desktop"/>
 		<alias name="gnome-show-desktop" target="icon-desktop"/>
@@ -706,6 +722,7 @@
 		<alias name="desktop" target="icon-desktop"/>
 		<alias name="switchdesk" target="icon-desktop"/>
 		<alias name="org.xfce.panel.showdesktop" target="icon-desktop"/>
+		<alias name="org.xfce.xfdesktop" target="icon-desktop"/>
 		<alias name="desktop" typedir="places" target="icon-desktop"/>
 		<alias name="user-desktop" typedir="places" target="icon-desktop"/>
 	
@@ -713,6 +730,7 @@
 		<alias name="package_system" target="icon-applications"/>
 		<alias name="winprops" target="icon-applications"/>
 		<alias name="mate-session-properties" target="icon-applications"/>
+		<alias name="org.xfce.session" target="icon-applications"/>
 		<alias name="applications-all" target="icon-applications"/>
 		<alias name="applications-other" target="icon-applications"/>
 		<alias name="application-menu" typedir="actions" target="icon-applications"/>
@@ -847,4 +865,5 @@
 		<alias name="tools-media-optical-burn-image" typedir="actions" target="icon-cd-burn"/>
 		<alias name="media-write-cd" typedir="devices" target="icon-cd-burn"/>
 		<alias name="media-write-dvd" typedir="devices" target="icon-cd-burn"/>
+		<alias name="stock_xfburn" typedir="devices" target="icon-cd-burn"/>
 </theme>
